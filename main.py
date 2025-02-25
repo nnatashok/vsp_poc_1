@@ -31,7 +31,7 @@ Strength: Body weight, Weight workout, Calisthenics
 
 class WorkoutCategoryEnum(StrEnum):
     Cardio = 'Cardio'
-    Felxibility = 'Felxibility'
+    Flexibility = 'Flexibility'
     Strength = 'Strength'
 
 class WorkoutSubCategoryEnum(StrEnum):
@@ -166,10 +166,11 @@ class EquipmentTypeEnum(StrEnum):
 class EquipmentNeededModel(BaseModel):
     equipment: List[EquipmentTypeEnum]
 
-chatgpt_prompt = 'Extract workout information.'
+chatgpt_process_tw_prompt = 'Extract workout information.'
+chatgpt_extract_trainer_name_from_description_prompt = 'This is the description of the youtube video. Who is the trainer on the video?'
 
-class NonYoutubeVideoException(Exception):
-    pass
+class WorkoutTrainerModel(BaseModel):
+    trainer_name: str
 
 prompt_completion_separator = '\n#######################################################\n\n'
 def read_completion(filepath):
@@ -184,18 +185,15 @@ def process_video(uid):
     video_name = df_gt.loc[uid, 'Name']
     print(f'Processing video {video_name} {uid}')
 
-    video_link = df_gt.loc[uid, 'Link to Workout Media']
-    if 'youtu' not in video_link:
-        return NonYoutubeVideoException
-
     video_dir = join(videos_dir, uid)
+    video_url = df_gt.loc[uid, 'Link to Workout Media']
     makedirs(video_dir, exist_ok=True)
 
     video_path = join(video_dir, f'{uid}.mp4')
+
     if not exists(video_path):
         print(f'Downloading {video_path}')
-        url = video_link
-        yt = YouTube(url, on_progress_callback=on_progress)
+        yt = YouTube(video_url, on_progress_callback=on_progress)
         video_track_path = yt.streams.filter(file_extension='mp4', resolution='720p').first().download(output_path=temp_dir)
         audio_track_path = yt.streams.filter(only_audio=True).first().download(output_path=temp_dir)
         video_stream = ffmpeg.input(video_track_path)
@@ -207,6 +205,49 @@ def process_video(uid):
     else:
         print(f'{video_path} already exists')
 
+    metadata_json_filepath = join(video_dir, 'metadata.json')
+    if not exists(metadata_json_filepath):
+        print(f'Getting video metadata')
+        yt = YouTube(video_url)
+        metadata = {
+            'title': yt.title,
+            'duration_s': yt.length,
+            'view_count': yt.views,
+            'description': yt.description,
+            'author': yt.author,
+            'channel_id': yt.channel_id,
+            'channel_url': yt.channel_url,
+            # 'publish_date': yt.publish_date,
+            'thumbnail_url': yt.thumbnail_url
+        }
+        with open(metadata_json_filepath, 'w') as f:
+            # noinspection PyTypeChecker
+            json.dump(metadata, f, indent=2)
+    else:
+        metadata = json.load(open(metadata_json_filepath, 'r'))
+
+    trainer_json_filepath = join(video_dir, 'trainer.json')
+    if not exists(trainer_json_filepath):
+        print('Requesting trainer json')
+        completion = oai_client.beta.chat.completions.parse(
+            model="gpt-4o-2024-08-06",
+            messages=[
+                {"role": "system", "content": chatgpt_process_tw_prompt},
+                {"role": "user", "content": metadata['description']},
+            ],
+            response_format=WorkoutTrainerModel,
+        )
+        if completion.choices[0].message.refusal:
+            raise Exception('ChatGPT refusal')
+        trainer_dict = completion.choices[0].message.parsed.model_dump(mode='json')
+        print(f'Trainer json received {trainer_dict}')
+        with open(trainer_json_filepath, 'w') as f:
+            # noinspection PyTypeChecker
+            json.dump(trainer_dict, f, indent=2)
+    else:
+        trainer_dict = json.load(open(trainer_json_filepath, 'r'))
+        print(f'Trainer json found {trainer_dict}')
+    
     tw_video_id_filepath = join(video_dir, 'id.txt')
     if not exists(tw_video_id_filepath):
         print('Uploading video to index')
@@ -252,7 +293,7 @@ def process_video(uid):
         completion = oai_client.beta.chat.completions.parse(
             model="gpt-4o-2024-08-06",
             messages=[
-                {"role": "system", "content": chatgpt_prompt},
+                {"role": "system", "content": chatgpt_process_tw_prompt},
                 {"role": "user", "content": category_completion},
             ],
             response_format=WorkoutCategoryModel,
@@ -285,7 +326,7 @@ def process_video(uid):
         completion = oai_client.beta.chat.completions.parse(
             model="gpt-4o-2024-08-06",
             messages=[
-                {"role": "system", "content": chatgpt_prompt},
+                {"role": "system", "content": chatgpt_process_tw_prompt},
                 {"role": "user", "content": complexity_completion},
             ],
             response_format=WorkoutComplexityModel,
@@ -301,7 +342,7 @@ def process_video(uid):
         complexity_dict = json.load(open(complexity_json_filepath, 'r'))
         print(f'Complexity json found {complexity_dict}')
 
-    if category_dict['category'] == 'Felxibility':
+    if category_dict['category'] == 'Flexibility':
         flexibility_type_txt_filepath = join(video_dir, 'flexibility_type.txt')
         if not exists(flexibility_type_txt_filepath):
             print('Requesting flexibility type text')
@@ -318,7 +359,7 @@ def process_video(uid):
             completion = oai_client.beta.chat.completions.parse(
                 model="gpt-4o-2024-08-06",
                 messages=[
-                    {"role": "system", "content": chatgpt_prompt},
+                    {"role": "system", "content": chatgpt_process_tw_prompt},
                     {"role": "user", "content": flexibility_type_completion},
                 ],
                 response_format=FlexibilityTypeModel,
@@ -333,6 +374,105 @@ def process_video(uid):
         else:
             flexibility_type_dict = json.load(open(flexibility_type_json_filepath, 'r'))
             print(f'Flexibility type json found {flexibility_type_dict}')
+    elif category_dict['category'] == 'Cardio':
+        cardio_type_txt_filepath = join(video_dir, 'cardio_type.txt')
+        if not exists(cardio_type_txt_filepath):
+            print('Requesting cardio type text')
+            cardio_type_completion = tw_client.generate.text(video_id=tw_video_id, prompt=select_cardio_type_prompt).data
+            print('Cardio type text received')
+            write_prompt_and_completion(cardio_type_txt_filepath, select_cardio_type_prompt, cardio_type_completion)
+        else:
+            print('Cardio type text found')
+            cardio_type_completion = open(cardio_type_txt_filepath, 'r').read()
+
+        cardio_type_json_filepath = join(video_dir, 'cardio_type.json')
+        if not exists(cardio_type_json_filepath):
+            print('Requesting cardio_type json')
+            completion = oai_client.beta.chat.completions.parse(
+                model="gpt-4o-2024-08-06",
+                messages=[
+                    {"role": "system", "content": chatgpt_process_tw_prompt},
+                    {"role": "user", "content": cardio_type_completion},
+                ],
+                response_format=CardioTypeModel,
+            )
+            if completion.choices[0].message.refusal:
+                raise Exception('ChatGPT refusal')
+            cardio_type_dict = completion.choices[0].message.parsed.model_dump(mode='json')
+            print(f'Cardio type json received {cardio_type_dict}')
+            with open(cardio_type_json_filepath, 'w') as f:
+                # noinspection PyTypeChecker
+                json.dump(cardio_type_dict, f, indent=2)
+        else:
+            cardio_type_dict = json.load(open(cardio_type_json_filepath, 'r'))
+            print(f'Cardio type json found {cardio_type_dict}')
+    elif category_dict['category'] == 'Strength':
+        strength_type_txt_filepath = join(video_dir, 'strength_type.txt')
+        if not exists(strength_type_txt_filepath):
+            print('Requesting strength type text')
+            strength_type_completion = tw_client.generate.text(video_id=tw_video_id, prompt=select_strength_type_prompt).data
+            print('Strength type text received')
+            write_prompt_and_completion(strength_type_txt_filepath, select_strength_type_prompt, strength_type_completion)
+        else:
+            print('Strength type text found')
+            strength_type_completion = open(strength_type_txt_filepath, 'r').read()
+
+        strength_type_json_filepath = join(video_dir, 'strength_type.json')
+        if not exists(strength_type_json_filepath):
+            print('Requesting strength_type json')
+            completion = oai_client.beta.chat.completions.parse(
+                model="gpt-4o-2024-08-06",
+                messages=[
+                    {"role": "system", "content": chatgpt_process_tw_prompt},
+                    {"role": "user", "content": strength_type_completion},
+                ],
+                response_format=StrengthTypeModel,
+            )
+            if completion.choices[0].message.refusal:
+                raise Exception('ChatGPT refusal')
+            strength_type_dict = completion.choices[0].message.parsed.model_dump(mode='json')
+            print(f'Strength type json received {strength_type_dict}')
+            with open(strength_type_json_filepath, 'w') as f:
+                # noinspection PyTypeChecker
+                json.dump(strength_type_dict, f, indent=2)
+        else:
+            strength_type_dict = json.load(open(strength_type_json_filepath, 'r'))
+            print(f'Strength type json found {strength_type_dict}')
+
+    if category_dict['category'] in ['Cardio', 'Strength']:
+        body_parts_usage_txt_filepath = join(video_dir, 'body_parts_usage.txt')
+        if not exists(body_parts_usage_txt_filepath):
+            print('Requesting body parts usage text')
+            body_parts_usage_completion = tw_client.generate.text(video_id=tw_video_id,
+                                                                  prompt=set_body_parts_usage_prompt).data
+            print('Body parts usage text received')
+            write_prompt_and_completion(body_parts_usage_txt_filepath, set_body_parts_usage_prompt,
+                                        body_parts_usage_completion)
+        else:
+            print('Body parts usage text found')
+            body_parts_usage_completion = open(body_parts_usage_txt_filepath, 'r').read()
+
+        body_parts_usage_json_filepath = join(video_dir, 'body_parts_usage.json')
+        if not exists(body_parts_usage_json_filepath):
+            print('Requesting body_parts_usage json')
+            completion = oai_client.beta.chat.completions.parse(
+                model="gpt-4o-2024-08-06",
+                messages=[
+                    {"role": "system", "content": chatgpt_process_tw_prompt},
+                    {"role": "user", "content": body_parts_usage_completion},
+                ],
+                response_format=BodyPartsUsageModel,
+            )
+            if completion.choices[0].message.refusal:
+                raise Exception('ChatGPT refusal')
+            body_parts_usage_dict = completion.choices[0].message.parsed.model_dump(mode='json')
+            print(f'Body parts usage json received {body_parts_usage_dict}')
+            with open(body_parts_usage_json_filepath, 'w') as f:
+                # noinspection PyTypeChecker
+                json.dump(body_parts_usage_dict, f, indent=2)
+        else:
+            body_parts_usage_dict = json.load(open(body_parts_usage_json_filepath, 'r'))
+            print(f'Body parts usage json found {body_parts_usage_dict}')
 
     equipment_needed_txt_filepath = join(video_dir, 'equipment_needed.txt')
     if not exists(equipment_needed_txt_filepath):
@@ -352,7 +492,7 @@ def process_video(uid):
         completion = oai_client.beta.chat.completions.parse(
             model="gpt-4o-2024-08-06",
             messages=[
-                {"role": "system", "content": chatgpt_prompt},
+                {"role": "system", "content": chatgpt_process_tw_prompt},
                 {"role": "user", "content": equipment_needed_completion},
             ],
             response_format=EquipmentNeededModel,
@@ -370,6 +510,11 @@ def process_video(uid):
 
 
 process_video('41b8e1e9-4a8c-4a4c-a426-35c041a9d8b6')
+process_video('8bfcb76e-16f4-414b-8bec-dbe17e8a0539')
+process_video('f896f107-5bad-46cb-9c4c-0af79250fa02')
+process_video('4d717147-5d9b-40fb-bcea-dcee21e41a11')
+process_video('88a60aa1-088b-4c57-b5ca-796a3b9735fd')
+# process_video('20d040f9-4b8a-4e5e-be8a-4e1ee4a95964')
 
 
 
