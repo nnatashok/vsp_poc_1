@@ -141,7 +141,7 @@ class CardioTypeEnum(StrEnum):
 class CardioTypeModel(BaseModel):
     type: CardioTypeEnum
 
-select_required_equipment_prompt = '''.
+select_equipment_needed_prompt = '''.
 Select what equipment from the list is used in the video, if any:
 Mat
 Dumbbells
@@ -163,7 +163,7 @@ class EquipmentTypeEnum(StrEnum):
     Treadmill = 'Treadmill'
     Elliptical = 'Elliptical'
 
-class EquipmentNeeded(BaseModel):
+class EquipmentNeededModel(BaseModel):
     equipment: List[EquipmentTypeEnum]
 
 chatgpt_prompt = 'Extract workout information.'
@@ -333,6 +333,40 @@ def process_video(uid):
         else:
             flexibility_type_dict = json.load(open(flexibility_type_json_filepath, 'r'))
             print(f'Flexibility type json found {flexibility_type_dict}')
+
+    equipment_needed_txt_filepath = join(video_dir, 'equipment_needed.txt')
+    if not exists(equipment_needed_txt_filepath):
+        print('Requesting equipment needed text')
+        equipment_needed_completion = tw_client.generate.text(video_id=tw_video_id,
+                                                              prompt=select_equipment_needed_prompt).data
+        print('Equipment needed text received')
+        write_prompt_and_completion(equipment_needed_txt_filepath, select_equipment_needed_prompt,
+                                    equipment_needed_completion)
+    else:
+        print('Equipment needed text found')
+        equipment_needed_completion = open(equipment_needed_txt_filepath, 'r').read()
+
+    equipment_needed_json_filepath = join(video_dir, 'equipment_needed.json')
+    if not exists(equipment_needed_json_filepath):
+        print('Requesting equipment needed json')
+        completion = oai_client.beta.chat.completions.parse(
+            model="gpt-4o-2024-08-06",
+            messages=[
+                {"role": "system", "content": chatgpt_prompt},
+                {"role": "user", "content": equipment_needed_completion},
+            ],
+            response_format=EquipmentNeededModel,
+        )
+        if completion.choices[0].message.refusal:
+            raise Exception('ChatGPT refusal')
+        equipment_needed_dict = completion.choices[0].message.parsed.model_dump(mode='json')
+        print(f'Equipment needed json received {equipment_needed_dict}')
+        with open(equipment_needed_json_filepath, 'w') as f:
+            # noinspection PyTypeChecker
+            json.dump(equipment_needed_dict, f, indent=2)
+    else:
+        equipment_needed_dict = json.load(open(equipment_needed_json_filepath, 'r'))
+        print(f'Equipment needed json found {equipment_needed_dict}')
 
 
 process_video('41b8e1e9-4a8c-4a4c-a426-35c041a9d8b6')
