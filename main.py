@@ -49,7 +49,7 @@ class WorkoutSubCategoryEnum(StrEnum):
     Weight_workout = 'Weight workout'
     Calisthenics = 'Calisthenics'
 
-class WorkoutCategory(BaseModel):
+class WorkoutCategoryModel(BaseModel):
     category: WorkoutCategoryEnum
     subcategory: WorkoutSubCategoryEnum
 
@@ -64,7 +64,7 @@ set_complexity_prompt_yoga = '''
 You are a yogi with excellent flexibility. What percentage of the exercises in the workout in the video would be easy, medium and difficult for you?
 '''[1:]
 
-class WorkoutComplexity(BaseModel):
+class WorkoutComplexityModel(BaseModel):
     beginner_exercises_percent: int
     intermediate_exercises_percent: int
     advanced_exercises_percent: int
@@ -81,17 +81,15 @@ Back
 Legs
 '''[1:]
 
-class BodyPartsEnum(StrEnum):
-    Arms = 'Arms'
-    Chest = 'Chest'
-    Back = 'Back'
-    Legs = 'Legs'
-
-class BodyPartsUsage(BaseModel):
+class BodyPartsUsageModel(BaseModel):
     arms_usage_percent: int
     chest_usage_percent: int
     back_usage_percent: int
     legs_usage_percent: int
+    arms_exercises: List[str]
+    chest_exercises: List[str]
+    back_exercises: List[str]
+    legs_exercises: List[str]
 
 # for [Flexibility]
 select_flexibility_type_prompt = '''
@@ -99,6 +97,13 @@ Select the category of the video:
 Range of motion
 Balance
 '''[1:]
+
+class FlexibilityTypeEnum(StrEnum):
+    Range_of_motion = 'Range of motion'
+    Balance = 'Balance'
+
+class FlexibilityTypeModel(BaseModel):
+    type: FlexibilityTypeEnum
 
 # for [Strength]
 select_strength_type_prompt = '''
@@ -109,6 +114,15 @@ Functional strength
 Maximal strength
 '''[1:]
 
+class StrengthTypeEnum(StrEnum):
+    Muscle_endurance = 'Muscle endurance'
+    Hypertrophy = 'Hypertrophy'
+    Functional_strength = 'Functional strength'
+    Maximal_strength = 'Maximal strength'
+
+class StrengthTypeModel(BaseModel):
+    type: StrengthTypeEnum
+
 # for [Cardio]
 select_cardio_type_prompt = '''
 Select the category of the video:
@@ -118,6 +132,15 @@ HIIT - High Intensity Interval Training (30s to 10m reps and rest)
 Functional Threshold (or anaerobic threshold training)
 '''[1:]
 
+class CardioTypeEnum(StrEnum):
+    Heart_Rate_Zone_1 = 'Heart Rate Zone 1'
+    Heart_Rate_Zone_2 = 'Heart Rate Zone 2'
+    HIIT = 'HIIT'
+    Functional_Threshold = 'Functional Threshold'
+
+class CardioTypeModel(BaseModel):
+    type: CardioTypeEnum
+
 select_required_equipment_prompt = '''.
 Select what equipment from the list is used in the video, if any:
 Mat
@@ -125,9 +148,23 @@ Dumbbells
 Chair
 Blocks
 Exercise bike
+Rowing machine
 Treadmill
 Elliptical
 '''[2:]
+
+class EquipmentTypeEnum(StrEnum):
+    Mat = 'Mat'
+    Dumbbells = 'Dumbbells'
+    Chair = 'Chair'
+    Blocks = 'Blocks'
+    Exercise_bike = 'Exercise bike'
+    Rowing_machine = 'Rowing machine'
+    Treadmill = 'Treadmill'
+    Elliptical = 'Elliptical'
+
+class EquipmentNeeded(BaseModel):
+    equipment: List[EquipmentTypeEnum]
 
 chatgpt_prompt = 'Extract workout information.'
 
@@ -218,7 +255,7 @@ def process_video(uid):
                 {"role": "system", "content": chatgpt_prompt},
                 {"role": "user", "content": category_completion},
             ],
-            response_format=WorkoutCategory,
+            response_format=WorkoutCategoryModel,
         )
         if completion.choices[0].message.refusal:
             raise Exception('ChatGPT refusal')
@@ -251,7 +288,7 @@ def process_video(uid):
                 {"role": "system", "content": chatgpt_prompt},
                 {"role": "user", "content": complexity_completion},
             ],
-            response_format=WorkoutComplexity,
+            response_format=WorkoutComplexityModel,
         )
         if completion.choices[0].message.refusal:
             raise Exception('ChatGPT refusal')
@@ -264,6 +301,38 @@ def process_video(uid):
         complexity_dict = json.load(open(complexity_json_filepath, 'r'))
         print(f'Complexity json found {complexity_dict}')
 
+    if category_dict['category'] == 'Felxibility':
+        flexibility_type_txt_filepath = join(video_dir, 'flexibility_type.txt')
+        if not exists(flexibility_type_txt_filepath):
+            print('Requesting flexibility type text')
+            flexibility_type_completion = tw_client.generate.text(video_id=tw_video_id, prompt=select_flexibility_type_prompt).data
+            print('Flexibility type text received')
+            write_prompt_and_completion(flexibility_type_txt_filepath, select_flexibility_type_prompt, flexibility_type_completion)
+        else:
+            print('Flexibility type text found')
+            flexibility_type_completion = open(flexibility_type_txt_filepath, 'r').read()
+
+        flexibility_type_json_filepath = join(video_dir, 'flexibility_type.json')
+        if not exists(flexibility_type_json_filepath):
+            print('Requesting flexibility_type json')
+            completion = oai_client.beta.chat.completions.parse(
+                model="gpt-4o-2024-08-06",
+                messages=[
+                    {"role": "system", "content": chatgpt_prompt},
+                    {"role": "user", "content": flexibility_type_completion},
+                ],
+                response_format=FlexibilityTypeModel,
+            )
+            if completion.choices[0].message.refusal:
+                raise Exception('ChatGPT refusal')
+            flexibility_type_dict = completion.choices[0].message.parsed.model_dump(mode='json')
+            print(f'Flexibility type json received {flexibility_type_dict}')
+            with open(flexibility_type_json_filepath, 'w') as f:
+                # noinspection PyTypeChecker
+                json.dump(flexibility_type_dict, f, indent=2)
+        else:
+            flexibility_type_dict = json.load(open(flexibility_type_json_filepath, 'r'))
+            print(f'Flexibility type json found {flexibility_type_dict}')
 
 
 process_video('41b8e1e9-4a8c-4a4c-a426-35c041a9d8b6')
