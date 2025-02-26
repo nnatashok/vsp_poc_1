@@ -1,5 +1,4 @@
 import json
-from importlib.metadata import metadata
 from os import listdir
 from os.path import join
 
