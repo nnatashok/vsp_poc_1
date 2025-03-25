@@ -88,7 +88,7 @@ for uid in workout_uids:
     if category_dict['category'] in ['Cardio', 'Strength']:
         body_parts_usage_dict = read_json(uid, 'body_parts_usage')
 
-        if (body_parts_usage_dict['arms_usage_percent'] >= 30 and
+        if (body_parts_usage_dict['arms_usage_percent'] >= 30 and # !!
                 body_parts_usage_dict['chest_usage_percent'] >= 30 and
                 body_parts_usage_dict['back_usage_percent'] >= 30 and
                 body_parts_usage_dict['legs_usage_percent'] >= 30):
@@ -110,10 +110,10 @@ for uid in workout_uids:
         new_df.loc[uid, 'Back usage %'] = body_parts_usage_dict['back_usage_percent']
         new_df.loc[uid, 'Legs usage %'] = body_parts_usage_dict['legs_usage_percent']
 
-        new_df.loc[uid, 'Arms exercises'] = ','.join(body_parts_usage_dict['arms_exercises'])
-        new_df.loc[uid, 'Chest exercises'] = ','.join(body_parts_usage_dict['chest_exercises'])
-        new_df.loc[uid, 'Back exercises'] = ','.join(body_parts_usage_dict['back_exercises'])
-        new_df.loc[uid, 'Legs exercises'] = ','.join(body_parts_usage_dict['legs_exercises'])
+        new_df.loc[uid, 'Arms exercises'] = ', '.join(body_parts_usage_dict['arms_exercises'])
+        new_df.loc[uid, 'Chest exercises'] = ', '.join(body_parts_usage_dict['chest_exercises'])
+        new_df.loc[uid, 'Back exercises'] = ', '.join(body_parts_usage_dict['back_exercises'])
+        new_df.loc[uid, 'Legs exercises'] = ', '.join(body_parts_usage_dict['legs_exercises'])
     else:
         new_df.loc[uid, 'Body focus'] = '-'
         new_df.loc[uid, 'Arms usage %'] = '-'
