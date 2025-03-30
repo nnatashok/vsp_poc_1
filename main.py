@@ -269,33 +269,57 @@ def classify_workout_with_openai(oai_client, metadata):
                         "type": "string",
                         "enum": ["very high", "high", "moderate", "low"]
                     },
-                    "vibe": {
-                        "type": "string",
-                        "enum": [
-                            "The Warrior Workout", "The Firestarter", "The Nightclub Workout", "The Competitor",
-                            "The Adrenaline Rush", "The Groove Session", "The Meditative Grind", "The Zen Flow",
-                            "The Rhythmic Powerhouse", "The Endorphin Wave", "The Progression Quest",
-                            "The Masterclass Workout", "The Disciplined Grind", "The Tactical Athlete",
-                            "The Foundation Builder", "The Reboot Workout", "The Comfort Moves",
-                            "The Mindful Walk", "The Deep Recharge", "The Sleep Prep", "The Athlete's Circuit",
-                            "The Speed & Power Sprint", "The Fight Camp", "The Explorer's Workout",
-                            "The Ruck Challenge", "The Nature Flow"
-                        ]
+                    "vibes": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "name": {
+                                    "type": "string",
+                                    "enum": [
+                                        "The Warrior Workout", "The Firestarter", "The Nightclub Workout", "The Competitor",
+                                        "The Adrenaline Rush", "The Groove Session", "The Meditative Grind", "The Zen Flow",
+                                        "The Rhythmic Powerhouse", "The Endorphin Wave", "The Progression Quest",
+                                        "The Masterclass Workout", "The Disciplined Grind", "The Tactical Athlete",
+                                        "The Foundation Builder", "The Reboot Workout", "The Comfort Moves",
+                                        "The Mindful Walk", "The Deep Recharge", "The Sleep Prep", "The Athlete's Circuit",
+                                        "The Speed & Power Sprint", "The Fight Camp", "The Explorer's Workout",
+                                        "The Ruck Challenge", "The Nature Flow"
+                                    ]
+                                },
+                                "prominence": {
+                                    "type": "number",
+                                    "minimum": 0,
+                                    "maximum": 1
+                                }
+                            },
+                            "required": ["name", "prominence"]
+                        },
+                        "minItems": 1,
+                        "maxItems": 3
                     },
-                    "vibeConfidence": {
-                        "type": "string",
-                        "enum": ["very high", "high", "moderate", "low"]
-                    },
-                    "spirit": {
-                        "type": "string",
-                        "enum": [
-                            "High-Energy & Intense", "Flow & Rhythm", "Structured & Disciplined",
-                            "Soothing & Restorative", "Sport & Agility", "Outdoor & Adventure"
-                        ]
-                    },
-                    "spiritConfidence": {
-                        "type": "string",
-                        "enum": ["very high", "high", "moderate", "low"]
+                    "spirits": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "name": {
+                                    "type": "string",
+                                    "enum": [
+                                        "High-Energy & Intense", "Flow & Rhythm", "Structured & Disciplined",
+                                        "Soothing & Restorative", "Sport & Agility", "Outdoor & Adventure"
+                                    ]
+                                },
+                                "prominence": {
+                                    "type": "number",
+                                    "minimum": 0,
+                                    "maximum": 1
+                                }
+                            },
+                            "required": ["name", "prominence"]
+                        },
+                        "minItems": 1,
+                        "maxItems": 3
                     }
                 },
                 "required": ["category", "subcategory"],
@@ -392,15 +416,28 @@ ANALYSIS GUIDELINES:
 4. User comments may provide additional clues about the workout experience.
 5. When confidence is low for a category, mark it appropriately.
 6. For categories that don't apply (e.g., strength aspects in a pure yoga video), provide empty arrays where appropriate.
-7. The "spirit" should capture the overall energy and approach of the workout.
-8. The "vibe" should match the specific feeling and experience of the workout.
+7. For each workout, identify up to 3 most suitable "spirits" that capture the overall energy and approach, with an intensity value (0-1) for each.
+8. For each workout, identify up to 3 most suitable "vibes" that match the specific feeling and experience, with an intensity value (0-1) for each.
 
-Your response must follow the JSON schema provided in the API call. If there's insufficient information for a particular category, use your best judgment and mark the confidence level accordingly.
+CONFIDENCE LEVELS EXPLANATION:
+- "very high": Strong explicit indicators in title, description, or visuals; central focus of the workout
+- "high": Clear indicators or strong implicit evidence; confidently identifiable component
+- "moderate": Some indicators or reasonable inference from context; likely but not certain
+- "low": Minimal indicators or educated guess; possible but uncertain
+
+PROMINENCE VALUES EXPLANATION:
+- 0.9-1.0: Extremely strong presence, central defining characteristic
+- 0.7-0.89: Strong presence, clearly evident
+- 0.5-0.69: Moderate presence, noticeable element
+- 0.3-0.49: Mild presence, somewhat evident
+- 0.1-0.29: Slight presence, minor element
+
+Your response must follow the JSON schema provided in the API call. If there's insufficient information for a particular category, use your best judgment and provide the most likely options based on available data.
 """
 
 
 # Usage example
 if __name__ == "__main__":
     # Добавляем force_refresh=True для игнорирования кэша и создания нового анализа
-    result = analyze_youtube_workout("https://www.youtube.com/watch?v=xzqexC11dEM")
+    result = analyze_youtube_workout("https://www.youtube.com/watch?v=xzqexC11dEM", force_refresh=True)
     print(json.dumps(result, indent=2))
