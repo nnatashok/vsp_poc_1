@@ -201,6 +201,18 @@ def classify_workout_with_openai(oai_client, metadata):
                         "type": "string",
                         "enum": ["Cardio", "Cool-down", "Flexibility", "Rest", "Strength", "Warm-up"]
                     },
+                    "spiritsConfidence": {
+                        "type": "string",
+                        "enum": ["very high", "high", "moderate", "low"]
+                    },
+                    "vibesConfidence": {
+                        "type": "string",
+                        "enum": ["very high", "high", "moderate", "low"]
+                    },
+                    "bodyPartFocusConfidence": {
+                        "type": "string",
+                        "enum": ["very high", "high", "moderate", "low"]
+                    },
                     "categoryConfidence": {
                         "type": "string",
                         "enum": ["very high", "high", "moderate", "low"]
@@ -258,16 +270,31 @@ def classify_workout_with_openai(oai_client, metadata):
                         "enum": ["very high", "high", "moderate", "low"]
                     },
                     "bodyPartFocus": {
-                        "type": "array",
-                        "items": {
-                            "type": "string",
-                            "enum": ["Arms", "Back", "Chest", "Legs"]
+                        "type": "object",
+                        "properties": {
+                            "Arms": {
+                                "type": "number",
+                                "minimum": 0,
+                                "maximum": 1
+                            },
+                            "Back": {
+                                "type": "number",
+                                "minimum": 0,
+                                "maximum": 1
+                            },
+                            "Chest": {
+                                "type": "number",
+                                "minimum": 0,
+                                "maximum": 1
+                            },
+                            "Legs": {
+                                "type": "number",
+                                "minimum": 0,
+                                "maximum": 1
+                            }
                         },
-                        "uniqueItems": True
-                    },
-                    "bodyPartFocusConfidence": {
-                        "type": "string",
-                        "enum": ["very high", "high", "moderate", "low"]
+                        "required": ["Arms", "Back", "Chest", "Legs"],
+                        "additionalProperties": False
                     },
                     "vibes": {
                         "type": "array",
@@ -329,7 +356,7 @@ def classify_workout_with_openai(oai_client, metadata):
     }
     try:
         response = oai_client.chat.completions.create(
-            model="gpt-4o",
+            model="o3-mini",
             response_format=response_format,
             messages=[
                 {"role": "system", "content": prompt},
@@ -372,6 +399,10 @@ BODY PART FOCUS EXPLANATION:
 - Back: Lats, traps, rhomboids, spinal erectors, rear deltoids
 - Chest: Pectorals, anterior deltoids, serratus anterior
 - Legs: Quadriceps, hamstrings, glutes, calves, hip flexors, adductors, abductors
+
+For body part focus, provide a percentage focus for each body part (Arms, Back, Chest, Legs). The values should sum to 1.0 (100%). For a balanced full-body workout, use equal distribution (0.25 for each part). For targeted workouts, allocate higher percentages to the primary focus areas. Additionally, provide an overall confidence level for your body part focus analysis.
+
+Include confidence levels for "vibes" and "spirits" to indicate your overall certainty in the analysis of these aspects of the workout.
 
 WORKOUT SPIRIT EXPLANATIONS:
 - High-Energy & Intense: Fast-paced, heart-pumping, sweat-dripping sessions focused on pushing limits and maximum effort.
