@@ -185,9 +185,159 @@ def cache_data(data, cache_path):
         print(f"Error caching data: {str(e)}")
 
 
+def create_classification_prompt():
+    """Create a detailed prompt for OpenAI to classify workout videos."""
+    return """You are a specialized AI fitness analyst. Your task is to analyze YouTube workout video metadata and classify the workout into specific categories. Examine the title, description, comments, tags, channel information, and any other available metadata to make your classification as accurate as possible.
+
+METABOLIC FUNCTION EXPLANATIONS:
+
+Aerobic Metabolic Functions:
+- Zone 1 (recovery): Very light intensity, conversational pace, primarily fat burning, perfect for active recovery.
+- Zone 2 (mitochondrial improvement): Moderate intensity where you can still talk but with some effort. Builds base endurance and improves mitochondrial function. 
+- Functional Threshold: Challenging intensity that can be sustained for 12-25 minutes, improves lactate threshold.
+- HIIT: Short, intense bursts followed by rest periods. Improves VO2 max and anaerobic capacity.
+
+Strength Metabolic Functions:
+- Functional strength: Movements that mimic real-life activities, improves movement patterns and daily life capabilities.
+- Hypertrophy: Moderate weights with higher rep ranges (8-12), focuses on muscle growth.
+- Maximal strength: Heavy weights with low reps (1-5), focuses on strength development.
+- Muscle endurance: Light to moderate weights with high reps (15+), improves ability to sustain effort.
+- Power: Explosive movements combining speed and strength, improves rate of force development.
+
+Flexibility Metabolic Functions:
+- Range of motion: Improves joint mobility and muscle flexibility.
+- Balance: Improves proprioception, stability, and body control.
+
+BODY PART FOCUS EXPLANATION:
+- Arms: Biceps, triceps, forearms, shoulders, deltoids
+- Back: Lats, traps, rhomboids, spinal erectors, rear deltoids
+- Chest: Pectorals, anterior deltoids, serratus anterior
+- Legs: Quadriceps, hamstrings, glutes, calves, hip flexors, adductors, abductors
+
+For body part focus, provide a percentage focus for each body part (Arms, Back, Chest, Legs). The values should sum to 1.0 (100%). For a balanced full-body workout, use equal distribution (0.25 for each part). For targeted workouts, allocate higher percentages to the primary focus areas. Additionally, provide an overall confidence level for your body part focus analysis.
+
+Include confidence levels for "vibes" and "spirits" to indicate your overall certainty in the analysis of these aspects of the workout.
+
+WORKOUT SPIRIT EXPLANATIONS:
+- High-Energy & Intense: Fast-paced, heart-pumping, sweat-dripping sessions focused on pushing limits and maximum effort.
+- Flow & Rhythm: Smooth, continuous movement patterns that emphasize coordination, music-driven pacing, and mind-body connection.
+- Structured & Disciplined: Methodical, progressive training following specific protocols and technical precision.
+- Soothing & Restorative: Gentle, healing-focused sessions emphasizing recovery, relaxation, and stress reduction.
+- Sport & Agility: Athletic, performance-based training focused on speed, reflexes, coordination, and sports-specific skills.
+- Outdoor & Adventure: Nature-based workouts that leverage terrain, environmental challenges, and exploration.
+
+WORKOUT VIBE OPTIONS:
+- The Warrior Workout: Unleash your inner beast. Sweat-dripping, heart-pounding, primal energy.
+- The Firestarter: Fast, explosive, and electrifying. Short but devastating.
+- The Nightclub Workout: Lights down, music up, full-body euphoria.
+- The Competitor: Gamified, leaderboard-driven, full-send energy.
+- The Adrenaline Rush: Heart-racing, full-body intensity, unpredictable challenges.
+- The Groove Session: Fun, fluid, expressive, completely in the moment.
+- The Meditative Grind: Zone in, lock down, let repetition take over.
+- The Zen Flow: Grounding, intentional, breath-centered, unhurried.
+- The Rhythmic Powerhouse: Beat-driven, strong but fluid, music-infused.
+- The Endorphin Wave: Elevated energy, feel-good movement, steady build.
+- The Progression Quest: Methodical, incremental, long-term improvement.
+- The Masterclass Workout: Technique-driven, focused, skill-building.
+- The Disciplined Grind: No excuses, no distractions, just execute.
+- The Tactical Athlete: Military-inspired, performance-focused, strategic.
+- The Foundation Builder: Strengthen weak points, rebuild, perfect the basics.
+- The Reboot Workout: Deep stretch, low stress, total-body refresh.
+- The Comfort Moves: Safe, cozy, feel-good movement.
+- The Mindful Walk: Meditative, story-driven, immersive.
+- The Deep Recharge: Nervous system reset, ultra-gentle movement.
+- The Sleep Prep: Wind down, ease tension, prepare for rest.
+- The Athlete's Circuit: Explosive power, agility, game-ready fitness.
+- The Speed & Power Sprint: Short, high-speed, maximal power output.
+- The Fight Camp: Grit, intensity, combat-ready fitness.
+- The Explorer's Workout: Adventurous, scenic, open-air challenge.
+- The Ruck Challenge: Weighted backpack, functional endurance.
+- The Nature Flow: Breath-centered, full-body, outdoor rhythm.
+
+ANALYSIS GUIDELINES:
+1. Examine the title, description, and tags carefully for explicit workout information.
+2. Look for indicators of intensity, duration, and exercise types.
+3. Consider the channel's focus and typical content style.
+4. User comments may provide additional clues about the workout experience.
+5. When confidence is low for a category, mark it appropriately.
+6. For categories that don't apply (e.g., strength aspects in a pure yoga video), provide empty arrays where appropriate.
+7. For each workout, identify up to 3 most suitable "spirits" that capture the overall energy and approach, with an intensity value (0-1) for each.
+8. For each workout, identify up to 3 most suitable "vibes" that match the specific feeling and experience, with an intensity value (0-1) for each.
+
+CONFIDENCE LEVELS EXPLANATION:
+- "very high": Strong explicit indicators in title, description, or visuals; central focus of the workout
+- "high": Clear indicators or strong implicit evidence; confidently identifiable component
+- "moderate": Some indicators or reasonable inference from context; likely but not certain
+- "low": Minimal indicators or educated guess; possible but uncertain
+
+PROMINENCE VALUES EXPLANATION:
+- 0.9-1.0: Extremely strong presence, central defining characteristic
+- 0.7-0.89: Strong presence, clearly evident
+- 0.5-0.69: Moderate presence, noticeable element
+- 0.3-0.49: Mild presence, somewhat evident
+- 0.1-0.29: Slight presence, minor element
+
+Your response must follow the JSON schema provided in the API call. If there's insufficient information for a particular category, use your best judgment and provide the most likely options based on available data.
+"""
+
+
+def format_metadata_for_analysis(metadata):
+    """
+    Format metadata in a structured, readable way with explanatory sections
+    instead of just dumping the JSON.
+    """
+    sections = []
+
+    # Video basic information
+    sections.append("## VIDEO INFORMATION")
+    sections.append(f"Title: {metadata.get('title', 'N/A')}")
+    sections.append(f"Channel: {metadata.get('channelTitle', 'N/A')}")
+    sections.append(f"Duration: {metadata.get('durationFormatted', 'N/A')} ({metadata.get('duration', 0)} seconds)")
+    sections.append(f"Published: {metadata.get('publishedAt', 'N/A')}")
+    sections.append(f"Views: {metadata.get('viewCount', 0):,}")
+    sections.append(f"Likes: {metadata.get('likeCount', 0):,}")
+
+    # Tags
+    tags = metadata.get('tags', [])
+    if tags:
+        sections.append("\n## TAGS")
+        sections.append(", ".join(tags))
+
+    # Description
+    if metadata.get('description'):
+        sections.append("\n## DESCRIPTION")
+        # Truncate very long descriptions to first 1000 chars
+        description = metadata.get('description', '')
+        if len(description) > 1000:
+            sections.append(f"{description[:1000]}...(truncated)")
+        else:
+            sections.append(description)
+
+    # Channel information
+    sections.append("\n## CHANNEL INFORMATION")
+    sections.append(f"Channel: {metadata.get('channelTitle', 'N/A')}")
+    sections.append(f"Subscribers: {metadata.get('channelSubscriberCount', 0):,}")
+    sections.append(f"Total videos: {metadata.get('channelVideoCount', 0):,}")
+
+    if metadata.get('channelDescription'):
+        sections.append(f"Channel description: {metadata.get('channelDescription', 'N/A')}")
+
+    # Comments
+    comments = metadata.get('comments', [])
+    if comments:
+        sections.append("\n## TOP COMMENTS")
+        for i, comment in enumerate(comments, 1):
+            # Truncate very long comments
+            if len(comment) > 300:
+                comment = comment[:300] + "...(truncated)"
+            sections.append(f"{i}. {comment}")
+
+    return "\n".join(sections)
+
+
 def classify_workout_with_openai(oai_client, metadata):
     """Use OpenAI to classify workout video based on metadata."""
-    prompt = create_classification_prompt(metadata)
+    prompt = create_classification_prompt()
 
     # Полная JSON-схема для строгой валидации ответа
     response_format = {
@@ -304,12 +454,15 @@ def classify_workout_with_openai(oai_client, metadata):
                                 "name": {
                                     "type": "string",
                                     "enum": [
-                                        "The Warrior Workout", "The Firestarter", "The Nightclub Workout", "The Competitor",
-                                        "The Adrenaline Rush", "The Groove Session", "The Meditative Grind", "The Zen Flow",
+                                        "The Warrior Workout", "The Firestarter", "The Nightclub Workout",
+                                        "The Competitor",
+                                        "The Adrenaline Rush", "The Groove Session", "The Meditative Grind",
+                                        "The Zen Flow",
                                         "The Rhythmic Powerhouse", "The Endorphin Wave", "The Progression Quest",
                                         "The Masterclass Workout", "The Disciplined Grind", "The Tactical Athlete",
                                         "The Foundation Builder", "The Reboot Workout", "The Comfort Moves",
-                                        "The Mindful Walk", "The Deep Recharge", "The Sleep Prep", "The Athlete's Circuit",
+                                        "The Mindful Walk", "The Deep Recharge", "The Sleep Prep",
+                                        "The Athlete's Circuit",
                                         "The Speed & Power Sprint", "The Fight Camp", "The Explorer's Workout",
                                         "The Ruck Challenge", "The Nature Flow"
                                     ]
@@ -354,14 +507,18 @@ def classify_workout_with_openai(oai_client, metadata):
             }
         }
     }
+
+    # Format metadata in a more structured and explanatory way
+    formatted_metadata = format_metadata_for_analysis(metadata)
+
     try:
         response = oai_client.chat.completions.create(
-            model="o3-mini",
+            model="gpt-4o",
             response_format=response_format,
             messages=[
                 {"role": "system", "content": prompt},
                 {"role": "user",
-                 "content": f"Analyze this workout video metadata and classify it according to the schema:\n\n{json.dumps(metadata, indent=2)}"}
+                 "content": f"Analyze this workout video metadata and classify it according to the schema:\n\n{formatted_metadata}"}
             ]
         )
 
@@ -369,102 +526,6 @@ def classify_workout_with_openai(oai_client, metadata):
         return result
     except Exception as e:
         return {"error": f"Error classifying workout with OpenAI: {str(e)}"}
-
-
-def create_classification_prompt(metadata):
-    """Create a detailed prompt for OpenAI to classify workout videos."""
-    return """You are a specialized AI fitness analyst. Your task is to analyze YouTube workout video metadata and classify the workout into specific categories. Examine the title, description, comments, tags, channel information, and any other available metadata to make your classification as accurate as possible.
-
-METABOLIC FUNCTION EXPLANATIONS:
-
-Aerobic Metabolic Functions:
-- Zone 1 (recovery): Very light intensity, conversational pace, primarily fat burning, perfect for active recovery.
-- Zone 2 (mitochondrial improvement): Moderate intensity where you can still talk but with some effort. Builds base endurance and improves mitochondrial function. 
-- Functional Threshold: Challenging intensity that can be sustained for 12-25 minutes, improves lactate threshold.
-- HIIT: Short, intense bursts followed by rest periods. Improves VO2 max and anaerobic capacity.
-
-Strength Metabolic Functions:
-- Functional strength: Movements that mimic real-life activities, improves movement patterns and daily life capabilities.
-- Hypertrophy: Moderate weights with higher rep ranges (8-12), focuses on muscle growth.
-- Maximal strength: Heavy weights with low reps (1-5), focuses on strength development.
-- Muscle endurance: Light to moderate weights with high reps (15+), improves ability to sustain effort.
-- Power: Explosive movements combining speed and strength, improves rate of force development.
-
-Flexibility Metabolic Functions:
-- Range of motion: Improves joint mobility and muscle flexibility.
-- Balance: Improves proprioception, stability, and body control.
-
-BODY PART FOCUS EXPLANATION:
-- Arms: Biceps, triceps, forearms, shoulders, deltoids
-- Back: Lats, traps, rhomboids, spinal erectors, rear deltoids
-- Chest: Pectorals, anterior deltoids, serratus anterior
-- Legs: Quadriceps, hamstrings, glutes, calves, hip flexors, adductors, abductors
-
-For body part focus, provide a percentage focus for each body part (Arms, Back, Chest, Legs). The values should sum to 1.0 (100%). For a balanced full-body workout, use equal distribution (0.25 for each part). For targeted workouts, allocate higher percentages to the primary focus areas. Additionally, provide an overall confidence level for your body part focus analysis.
-
-Include confidence levels for "vibes" and "spirits" to indicate your overall certainty in the analysis of these aspects of the workout.
-
-WORKOUT SPIRIT EXPLANATIONS:
-- High-Energy & Intense: Fast-paced, heart-pumping, sweat-dripping sessions focused on pushing limits and maximum effort.
-- Flow & Rhythm: Smooth, continuous movement patterns that emphasize coordination, music-driven pacing, and mind-body connection.
-- Structured & Disciplined: Methodical, progressive training following specific protocols and technical precision.
-- Soothing & Restorative: Gentle, healing-focused sessions emphasizing recovery, relaxation, and stress reduction.
-- Sport & Agility: Athletic, performance-based training focused on speed, reflexes, coordination, and sports-specific skills.
-- Outdoor & Adventure: Nature-based workouts that leverage terrain, environmental challenges, and exploration.
-
-WORKOUT VIBE OPTIONS:
-- The Warrior Workout: Unleash your inner beast. Sweat-dripping, heart-pounding, primal energy.
-- The Firestarter: Fast, explosive, and electrifying. Short but devastating.
-- The Nightclub Workout: Lights down, music up, full-body euphoria.
-- The Competitor: Gamified, leaderboard-driven, full-send energy.
-- The Adrenaline Rush: Heart-racing, full-body intensity, unpredictable challenges.
-- The Groove Session: Fun, fluid, expressive, completely in the moment.
-- The Meditative Grind: Zone in, lock down, let repetition take over.
-- The Zen Flow: Grounding, intentional, breath-centered, unhurried.
-- The Rhythmic Powerhouse: Beat-driven, strong but fluid, music-infused.
-- The Endorphin Wave: Elevated energy, feel-good movement, steady build.
-- The Progression Quest: Methodical, incremental, long-term improvement.
-- The Masterclass Workout: Technique-driven, focused, skill-building.
-- The Disciplined Grind: No excuses, no distractions, just execute.
-- The Tactical Athlete: Military-inspired, performance-focused, strategic.
-- The Foundation Builder: Strengthen weak points, rebuild, perfect the basics.
-- The Reboot Workout: Deep stretch, low stress, total-body refresh.
-- The Comfort Moves: Safe, cozy, feel-good movement.
-- The Mindful Walk: Meditative, story-driven, immersive.
-- The Deep Recharge: Nervous system reset, ultra-gentle movement.
-- The Sleep Prep: Wind down, ease tension, prepare for rest.
-- The Athlete's Circuit: Explosive power, agility, game-ready fitness.
-- The Speed & Power Sprint: Short, high-speed, maximal power output.
-- The Fight Camp: Grit, intensity, combat-ready fitness.
-- The Explorer's Workout: Adventurous, scenic, open-air challenge.
-- The Ruck Challenge: Weighted backpack, functional endurance.
-- The Nature Flow: Breath-centered, full-body, outdoor rhythm.
-
-ANALYSIS GUIDELINES:
-1. Examine the title, description, and tags carefully for explicit workout information.
-2. Look for indicators of intensity, duration, and exercise types.
-3. Consider the channel's focus and typical content style.
-4. User comments may provide additional clues about the workout experience.
-5. When confidence is low for a category, mark it appropriately.
-6. For categories that don't apply (e.g., strength aspects in a pure yoga video), provide empty arrays where appropriate.
-7. For each workout, identify up to 3 most suitable "spirits" that capture the overall energy and approach, with an intensity value (0-1) for each.
-8. For each workout, identify up to 3 most suitable "vibes" that match the specific feeling and experience, with an intensity value (0-1) for each.
-
-CONFIDENCE LEVELS EXPLANATION:
-- "very high": Strong explicit indicators in title, description, or visuals; central focus of the workout
-- "high": Clear indicators or strong implicit evidence; confidently identifiable component
-- "moderate": Some indicators or reasonable inference from context; likely but not certain
-- "low": Minimal indicators or educated guess; possible but uncertain
-
-PROMINENCE VALUES EXPLANATION:
-- 0.9-1.0: Extremely strong presence, central defining characteristic
-- 0.7-0.89: Strong presence, clearly evident
-- 0.5-0.69: Moderate presence, noticeable element
-- 0.3-0.49: Mild presence, somewhat evident
-- 0.1-0.29: Slight presence, minor element
-
-Your response must follow the JSON schema provided in the API call. If there's insufficient information for a particular category, use your best judgment and provide the most likely options based on available data.
-"""
 
 
 # Usage example
