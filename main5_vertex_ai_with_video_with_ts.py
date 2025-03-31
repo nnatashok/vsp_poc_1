@@ -33,7 +33,7 @@ VERTEXAI_LOCATION = 'us-central1' # e.g., 'us-central1'
 # Replace with your actual YouTube API Key
 YOUTUBE_API_KEY = 'AIzaSyCkpiTfTUvNVNmPcyw8ZO1NOn_0b_LV8RA' # IMPORTANT: Keep this secure!
 # Specify the Gemini model to use (ensure it supports multimodal input)
-VERTEXAI_MODEL_NAME = "gemini-1.5-pro-preview-0409"
+VERTEXAI_MODEL_NAME = "gemini-2.5-pro-exp-03-25"
 # --- End Configuration ---
 
 # --- Constants ---
@@ -814,7 +814,7 @@ if __name__ == "__main__":
     # --- Example Usage ---
     # Use a video URL where the central 10s might be distinct
     # test_url = "https://www.youtube.com/watch?v=ml6cT4AZdqI" # Example HIIT (often has distinct intervals)
-    test_url = "https://www.youtube.com/watch?v=Eml2xnoLpYE" # Example Yoga (might be slow transition in center)
+    test_url = "https://www.youtube.com/watch?v=xzqexC11dEM"
     # test_url = "https://www.youtube.com/watch?v=VIDEO_ID" # Add your target URL here
 
     print(f"\n--- Analyzing YouTube URL (Central {TARGET_SEGMENT_DURATION}s): {test_url} ---")

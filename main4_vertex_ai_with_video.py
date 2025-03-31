@@ -759,7 +759,7 @@ if __name__ == "__main__":
     # --- Example Usage ---
     # Replace with the YouTube video URL you want to analyze
     # test_url = "https://www.youtube.com/watch?v= absolvoval" # Example HIIT workout
-    test_url = "https://www.youtube.com/watch?v=ml6cT4AZdqI" # Example Yoga workout
+    test_url = "https://www.youtube.com/watch?v=xzqexC11dEM"
     # test_url = "https://www.youtube.com/watch?v=...' # Add your target URL here
 
     print(f"\n--- Analyzing YouTube URL: {test_url} ---")
