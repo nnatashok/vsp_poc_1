@@ -1,13 +1,14 @@
-from googleapiclient.discovery import build
-from openai import OpenAI
-import requests
+import base64
 import json
 import os
+import requests
 from urllib.parse import urlparse, parse_qs
 import isodate  # For parsing ISO 8601 duration format
+from googleapiclient.discovery import build
+from openai import OpenAI
 
 
-def analyze_youtube_workout(youtube_url, cache_dir='cache', force_refresh=False):
+def analyze_youtube_workout(youtube_url, cache_dir='cache_2', force_refresh=False):
     """
     Analyzes a YouTube workout video and categorizes it according to various fitness parameters.
 
@@ -64,12 +65,16 @@ def analyze_youtube_workout(youtube_url, cache_dir='cache', force_refresh=False)
         metadata = fetch_video_metadata(youtube_client, video_id)
         cache_data(metadata, metadata_cache_path)
 
-    # Get thumbnail images and snapshots
-    thumbnail_url = metadata.get('snippet', {}).get('thumbnails', {}).get('high', {}).get('url', '')
-
-    # Now send the metadata to OpenAI for workout classification
+    # Get thumbnail image URL from metadata (prefer high resolution)
+    thumbnails = metadata.get('thumbnails', {})
+    # Prefer maxres if available, otherwise fall back to high resolution
+    thumbnail_url = thumbnails.get('maxres', thumbnails.get('high', {})).get('url', '')
+    thumbnail_base64 = None
+    if thumbnail_url:
+        thumbnail_base64 = get_thumbnail_base64(thumbnail_url, cache_dir, video_id, force_refresh)
+    # Now send the metadata (and image if available) to OpenAI for workout classification
     try:
-        analysis = classify_workout_with_openai(oai_client, metadata)
+        analysis = classify_workout_with_openai(oai_client, metadata, thumbnail_base64)
         cache_data(analysis, analysis_cache_path)
         return analysis
     except Exception as e:
@@ -118,7 +123,6 @@ def fetch_video_metadata(youtube_client, video_id):
             part='snippet,statistics',
             id=channel_id
         ).execute()
-
         channel_data = channel_response['items'][0] if channel_response.get('items') else {}
 
         # Get comments (top 5)
@@ -168,7 +172,6 @@ def format_duration(seconds):
     """Format seconds into HH:MM:SS format."""
     hours, remainder = divmod(seconds, 3600)
     minutes, seconds = divmod(remainder, 60)
-
     if hours > 0:
         return f"{hours}:{minutes:02d}:{seconds:02d}"
     else:
@@ -185,15 +188,49 @@ def cache_data(data, cache_path):
         print(f"Error caching data: {str(e)}")
 
 
+def encode_image(image_path):
+    """Encode image file to a Base64 string."""
+    with open(image_path, "rb") as image_file:
+        return base64.b64encode(image_file.read()).decode("utf-8")
+
+
+def get_thumbnail_base64(thumbnail_url, cache_dir, video_id, force_refresh=False):
+    """
+    Downloads the thumbnail image from the given URL, saves it as a jpg in cache,
+    and returns a Base64-encoded string.
+    """
+    cache_path = os.path.join(cache_dir, f"{video_id}_thumbnail.jpg")
+    if os.path.exists(cache_path) and not force_refresh:
+        print(f"Loading thumbnail from cache: {cache_path}")
+    else:
+        try:
+            response = requests.get(thumbnail_url)
+            if response.status_code == 200:
+                with open(cache_path, "wb") as f:
+                    f.write(response.content)
+                print(f"Downloaded and cached thumbnail to: {cache_path}")
+            else:
+                print(f"Failed to download thumbnail. Status code: {response.status_code}")
+                return None
+        except Exception as e:
+            print(f"Error downloading thumbnail: {str(e)}")
+            return None
+    try:
+        return encode_image(cache_path)
+    except Exception as e:
+        print(f"Error encoding thumbnail: {str(e)}")
+        return None
+
+
 def create_classification_prompt():
     """Create a detailed prompt for OpenAI to classify workout videos."""
-    return """You are a specialized AI fitness analyst. Your task is to analyze YouTube workout video metadata and classify the workout into specific categories. Examine the title, description, comments, tags, channel information, and any other available metadata to make your classification as accurate as possible.
+    prompt = """You are a specialized AI fitness analyst. Your task is to analyze YouTube workout video metadata and the attached thumbnail image, and classify the workout into specific categories. Examine the title, description, comments, tags, channel information, and the visual cues from the thumbnail image to make your classification as accurate as possible.
 
 METABOLIC FUNCTION EXPLANATIONS:
 
 Aerobic Metabolic Functions:
 - Zone 1 (recovery): Very light intensity, conversational pace, primarily fat burning, perfect for active recovery.
-- Zone 2 (mitochondrial improvement): Moderate intensity where you can still talk but with some effort. Builds base endurance and improves mitochondrial function. 
+- Zone 2 (mitochondrial improvement): Moderate intensity where you can still talk but with some effort. Builds base endurance and improves mitochondrial function.
 - Functional Threshold: Challenging intensity that can be sustained for 12-25 minutes, improves lactate threshold.
 - HIIT: Short, intense bursts followed by rest periods. Improves VO2 max and anaerobic capacity.
 
@@ -226,43 +263,119 @@ WORKOUT SPIRIT EXPLANATIONS:
 - Sport & Agility: Athletic, performance-based training focused on speed, reflexes, coordination, and sports-specific skills.
 - Outdoor & Adventure: Nature-based workouts that leverage terrain, environmental challenges, and exploration.
 
-WORKOUT VIBE OPTIONS:
-- The Warrior Workout: Unleash your inner beast. Sweat-dripping, heart-pounding, primal energy.
-- The Firestarter: Fast, explosive, and electrifying. Short but devastating.
-- The Nightclub Workout: Lights down, music up, full-body euphoria.
-- The Competitor: Gamified, leaderboard-driven, full-send energy.
-- The Adrenaline Rush: Heart-racing, full-body intensity, unpredictable challenges.
-- The Groove Session: Fun, fluid, expressive, completely in the moment.
-- The Meditative Grind: Zone in, lock down, let repetition take over.
-- The Zen Flow: Grounding, intentional, breath-centered, unhurried.
-- The Rhythmic Powerhouse: Beat-driven, strong but fluid, music-infused.
-- The Endorphin Wave: Elevated energy, feel-good movement, steady build.
-- The Progression Quest: Methodical, incremental, long-term improvement.
-- The Masterclass Workout: Technique-driven, focused, skill-building.
-- The Disciplined Grind: No excuses, no distractions, just execute.
-- The Tactical Athlete: Military-inspired, performance-focused, strategic.
-- The Foundation Builder: Strengthen weak points, rebuild, perfect the basics.
-- The Reboot Workout: Deep stretch, low stress, total-body refresh.
-- The Comfort Moves: Safe, cozy, feel-good movement.
-- The Mindful Walk: Meditative, story-driven, immersive.
-- The Deep Recharge: Nervous system reset, ultra-gentle movement.
-- The Sleep Prep: Wind down, ease tension, prepare for rest.
-- The Athlete's Circuit: Explosive power, agility, game-ready fitness.
-- The Speed & Power Sprint: Short, high-speed, maximal power output.
-- The Fight Camp: Grit, intensity, combat-ready fitness.
-- The Explorer's Workout: Adventurous, scenic, open-air challenge.
-- The Ruck Challenge: Weighted backpack, functional endurance.
-- The Nature Flow: Breath-centered, full-body, outdoor rhythm.
+WORKOUT VIBE DETAILS:
+1. The Warrior Workout: Unleash your inner beast. Sweat-dripping, heart-pounding, primal energy.  
+   - Example Workouts: HIIT, boxing, bootcamp, heavy strength training.  
+   - Platforms: Peloton Bootcamp, Les Mills BodyCombat, Beachbody Insanity, iFit HIIT.  
+   - Best For: Days when you want to destroy stress and feel invincible.
+2. The Firestarter: Fast, explosive, and electrifying. Short but devastating.  
+   - Example Workouts: Tabata, sprint intervals, powerlifting bursts.  
+   - Platforms: Peloton HIIT Rides, iFit Sprint Workouts, Nike Training Club Quick HIIT.  
+   - Best For: When you only have 10-20 minutes but want to give 1000%.
+3. The Nightclub Workout: Lights down, music up, full-body euphoria.  
+   - Example Workouts: Dance cardio, rhythm boxing, cycle party rides.  
+   - Platforms: Peloton EDM Rides, Les Mills Sh’Bam, Apple Fitness+ Dance, Zumba.  
+   - Best For: When you want to move like no one’s watching and feel amazing.
+4. The Competitor: Gamified, leaderboard-driven, full-send energy.  
+   - Example Workouts: Live cycling, rowing races, CrossFit, esports-style fitness.  
+   - Platforms: Peloton Leaderboard, Zwift Races, Hydrow Competitive Rows.  
+   - Best For: Those who need to chase a score or beat their own record.
+5. The Adrenaline Rush: Heart-racing, full-body intensity, unpredictable challenges.  
+   - Example Workouts: Obstacle course training, parkour, extreme bootcamps.  
+   - Platforms: Tough Mudder Training, Spartan Race Workouts, Freeletics.  
+   - Best For: Those who crave challenge, variety, and adrenaline.
+6. The Groove Session: Fun, fluid, expressive, completely in the moment.  
+   - Example Workouts: Dance-based workouts, shadowboxing, flow yoga.  
+   - Platforms: Apple Fitness+ Dance, Peloton Boxing, Barre3, Les Mills BodyBalance.  
+   - Best For: Days when you want to move intuitively and just vibe.
+7. The Meditative Grind: Zone in, lock down, let repetition take over.  
+   - Example Workouts: Rowing, long-distance cycling, endurance running.  
+   - Platforms: Hydrow Endurance Rows, Peloton Endurance Rides, iFit Scenic Runs.  
+   - Best For: Those who love a slow burn and rhythmic intensity.
+8. The Zen Flow: Grounding, intentional, breath-centered, unhurried.  
+   - Example Workouts: Slow-flow yoga, tai chi, mobility training.  
+   - Platforms: Alo Moves, Peloton Yoga, iFit Recovery Workouts.  
+   - Best For: When you need balance, mindfulness, and release.
+9. The Rhythmic Powerhouse: Beat-driven, strong but fluid, music-infused.  
+   - Example Workouts: Power yoga, dance strength, cardio boxing.  
+   - Platforms: Les Mills BodyJam, Peloton Boxing, Barre3.  
+   - Best For: When you want strength and rhythm to blend seamlessly.
+10. The Endorphin Wave: Elevated energy, feel-good movement, steady build.  
+    - Example Workouts: Cycling climbs, endurance rowing, plyometric flows.  
+    - Platforms: Peloton Power Zone Rides, iFit Rowing Journeys.  
+    - Best For: When you want a challenging but steady burn.
+11. The Progression Quest: Methodical, incremental, long-term improvement.  
+    - Example Workouts: Strength cycles, hypertrophy training, marathon training plans.  
+    - Platforms: iFit Progressive Strength, Tonal Programs, Peloton Strength Plans.  
+    - Best For: Anyone who loves tracking progress and leveling up.
+12. The Masterclass Workout: Technique-driven, focused, skill-building.  
+    - Example Workouts: Pilates, kettlebell training, Olympic lifting, mobility drills.  
+    - Platforms: Les Mills Core, Kettlebell Workouts on YouTube, Ready State Mobility.  
+    - Best For: Those who love precision and mastery in movement.
+13. The Disciplined Grind: No excuses, no distractions, just execute.  
+    - Example Workouts: Classic bodybuilding, strength endurance, functional fitness.  
+    - Platforms: Fitness Blender Strength, iFit Gym Workouts, Peloton Power Zones.  
+    - Best For: When you want pure focus and efficiency.
+14. The Tactical Athlete: Military-inspired, performance-focused, strategic.  
+    - Example Workouts: Ruck training, tactical fitness, functional circuits.  
+    - Platforms: Mountain Tactical Institute, Navy SEAL Workouts, Tactical Barbell.  
+    - Best For: Those who want military-grade training and real-world capability.
+15. The Foundation Builder: Strengthen weak points, rebuild, perfect the basics.  
+    - Example Workouts: Stability, corrective exercise, injury prevention.  
+    - Platforms: GOWOD, Ready State Mobility, Foundation Training.  
+    - Best For: Those coming back from injury or refining fundamentals.
+16. The Reboot Workout: Deep stretch, low stress, total-body refresh.  
+    - Example Workouts: Gentle yoga, mobility drills, foam rolling.  
+    - Platforms: Peloton Recovery, GOWOD, iFit Mobility.  
+    - Best For: Recovery days, stress relief, post-travel stiffness.
+17. The Comfort Moves: Safe, cozy, feel-good movement.  
+    - Example Workouts: Chair workouts, senior fitness, prenatal/postnatal movement.  
+    - Platforms: SilverSneakers, Fitness Blender Low-Impact, YouTube Chair Workouts.  
+    - Best For: Those who want to move but need it to feel easy and accessible.
+18. The Mindful Walk: Meditative, story-driven, immersive.  
+    - Example Workouts: Guided outdoor walks, treadmill hikes.  
+    - Platforms: Apple Fitness+ Time to Walk, iFit Outdoor Walks.  
+    - Best For: When you need fresh air, a change of pace, and mental clarity.
+19. The Deep Recharge: Nervous system reset, ultra-gentle movement.  
+    - Example Workouts: Yoga Nidra, breathwork, passive stretching.  
+    - Platforms: Yoga with Adriene, Headspace Yoga, iRest Meditation.  
+    - Best For: Times of extreme stress, fatigue, or mental overload.
+20. The Sleep Prep: Wind down, ease tension, prepare for rest.  
+    - Example Workouts: Bedtime yoga, deep breathing, progressive relaxation.  
+    - Platforms: Calm App, Peloton Sleep Yoga, Yoga Nidra.  
+    - Best For: When you need the best possible night’s sleep.
+21. The Athlete’s Circuit: Explosive power, agility, game-ready fitness.  
+    - Example Workouts: Sprint drills, plyometrics, sport-specific agility.  
+    - Platforms: Nike Training Club, Vertimax Workouts, P90X.  
+    - Best For: Those training for sports or improving athleticism.
+22. The Speed & Power Sprint: Short, high-speed, maximal power output.  
+    - Example Workouts: Sprint workouts, fast-twitch training, overspeed drills.  
+    - Platforms: Peloton Tread Intervals, Sprint Workouts, EXOS Training.  
+    - Best For: Those improving speed, acceleration, and fast reactions.
+23. The Fight Camp: Grit, intensity, combat-ready fitness.  
+    - Example Workouts: MMA training, heavy bag work, footwork drills.  
+    - Platforms: FightCamp, Bas Rutten Workouts, Les Mills BodyCombat.  
+    - Best For: Those who want to train like a fighter.
+24. The Explorer’s Workout: Adventurous, scenic, open-air challenge.  
+    - Example Workouts: Trail running, outdoor HIIT, sand dune sprints.  
+    - Platforms: iFit Outdoor Series, Trail Running Workouts.  
+    - Best For: When you want nature, challenge, and adventure.
+25. The Ruck Challenge: Weighted backpack, functional endurance.  
+    - Example Workouts: Rucking, weighted hikes, uphill treks.  
+    - Platforms: GoRuck Programs, Tactical Training Workouts.  
+    - Best For: Those who want real-world endurance and strength.
+26. The Nature Flow: Breath-centered, full-body, outdoor rhythm.  
+    - Example Workouts: Beach workouts, rock climbing drills, park workouts.  
+    - Platforms: iFit Beach Sessions, Outdoor Bootcamps.  
+    - Best For: When you want fresh air, nature, and full-body movement.
 
 ANALYSIS GUIDELINES:
-1. Examine the title, description, and tags carefully for explicit workout information.
-2. Look for indicators of intensity, duration, and exercise types.
+1. Examine the title, description, tags, channel info, comments, and now the attached thumbnail image carefully.
+2. Look for indicators of intensity, duration, exercise types, and visual cues.
 3. Consider the channel's focus and typical content style.
-4. User comments may provide additional clues about the workout experience.
-5. When confidence is low for a category, mark it appropriately.
-6. For categories that don't apply (e.g., strength aspects in a pure yoga video), provide empty arrays where appropriate.
-7. For each workout, identify up to 3 most suitable "spirits" that capture the overall energy and approach, with an intensity value (0-1) for each.
-8. For each workout, identify up to 3 most suitable "vibes" that match the specific feeling and experience, with an intensity value (0-1) for each.
+4. When confidence is low for a category, mark it appropriately.
+5. For categories that don't apply, provide empty arrays where appropriate.
+6. For each workout, identify up to 3 most suitable "spirits" and "vibes" with an intensity value (0-1) for each.
 
 CONFIDENCE LEVELS EXPLANATION:
 - "very high": Strong explicit indicators in title, description, or visuals; central focus of the workout
@@ -270,15 +383,9 @@ CONFIDENCE LEVELS EXPLANATION:
 - "moderate": Some indicators or reasonable inference from context; likely but not certain
 - "low": Minimal indicators or educated guess; possible but uncertain
 
-PROMINENCE VALUES EXPLANATION:
-- 0.9-1.0: Extremely strong presence, central defining characteristic
-- 0.7-0.89: Strong presence, clearly evident
-- 0.5-0.69: Moderate presence, noticeable element
-- 0.3-0.49: Mild presence, somewhat evident
-- 0.1-0.29: Slight presence, minor element
-
-Your response must follow the JSON schema provided in the API call. If there's insufficient information for a particular category, use your best judgment and provide the most likely options based on available data.
+Attached is the high-resolution thumbnail image of the video for additional visual context.
 """
+    return prompt
 
 
 def format_metadata_for_analysis(metadata):
@@ -306,7 +413,6 @@ def format_metadata_for_analysis(metadata):
     # Description
     if metadata.get('description'):
         sections.append("\n## DESCRIPTION")
-        # Truncate very long descriptions to first 1000 chars
         description = metadata.get('description', '')
         if len(description) > 1000:
             sections.append(f"{description[:1000]}...(truncated)")
@@ -318,7 +424,6 @@ def format_metadata_for_analysis(metadata):
     sections.append(f"Channel: {metadata.get('channelTitle', 'N/A')}")
     sections.append(f"Subscribers: {metadata.get('channelSubscriberCount', 0):,}")
     sections.append(f"Total videos: {metadata.get('channelVideoCount', 0):,}")
-
     if metadata.get('channelDescription'):
         sections.append(f"Channel description: {metadata.get('channelDescription', 'N/A')}")
 
@@ -327,7 +432,6 @@ def format_metadata_for_analysis(metadata):
     if comments:
         sections.append("\n## TOP COMMENTS")
         for i, comment in enumerate(comments, 1):
-            # Truncate very long comments
             if len(comment) > 300:
                 comment = comment[:300] + "...(truncated)"
             sections.append(f"{i}. {comment}")
@@ -335,16 +439,36 @@ def format_metadata_for_analysis(metadata):
     return "\n".join(sections)
 
 
-def classify_workout_with_openai(oai_client, metadata):
-    """Use OpenAI to classify workout video based on metadata."""
+def classify_workout_with_openai(oai_client, metadata, thumbnail_base64=None):
+    """
+    Use OpenAI to classify workout video based on metadata and the attached thumbnail image.
+    """
     prompt = create_classification_prompt()
+    formatted_metadata = format_metadata_for_analysis(metadata)
 
-    # Полная JSON-схема для строгой валидации ответа
+    # Build the list of message content items with valid types
+    user_content = [
+        {
+            "type": "text",
+            "text": f"Analyze this workout video metadata and classify it according to the schema:\n\n{formatted_metadata}"
+        }
+    ]
+    # Attach image input if available, wrapping image_url as an object
+    if thumbnail_base64:
+        user_content.append({
+            "type": "image_url",
+            "image_url": {
+                "url": f"data:image/jpeg;base64,{thumbnail_base64}",
+                "detail": "high"
+            }
+        })
+
+    # JSON schema for strict validation
     response_format = {
         "type": "json_schema",
         "json_schema": {
-            "name": "WorkoutAnalysis",  # Обязательное поле name для json_schema
-            "schema": {  # Упаковываем схему в поле schema
+            "name": "WorkoutAnalysis",
+            "schema": {
                 "type": "object",
                 "properties": {
                     "category": {
@@ -508,28 +632,20 @@ def classify_workout_with_openai(oai_client, metadata):
         }
     }
 
-    # Format metadata in a more structured and explanatory way
-    formatted_metadata = format_metadata_for_analysis(metadata)
-
-    try:
-        response = oai_client.chat.completions.create(
-            model="gpt-4o",
-            response_format=response_format,
-            messages=[
-                {"role": "system", "content": prompt},
-                {"role": "user",
-                 "content": f"Analyze this workout video metadata and classify it according to the schema:\n\n{formatted_metadata}"}
-            ]
-        )
-
-        result = json.loads(response.choices[0].message.content)
-        return result
-    except Exception as e:
-        return {"error": f"Error classifying workout with OpenAI: {str(e)}"}
+    response = oai_client.chat.completions.create(
+        model="gpt-4o",
+        response_format=response_format,
+        messages=[
+            {"role": "system", "content": prompt},
+            {"role": "user", "content": user_content}
+        ]
+    )
+    result = json.loads(response.choices[0].message.content)
+    return result
 
 
 # Usage example
 if __name__ == "__main__":
-    # Добавляем force_refresh=True для игнорирования кэша и создания нового анализа
+    # Use force_refresh=True to bypass cache and generate a new analysis
     result = analyze_youtube_workout("https://www.youtube.com/watch?v=xzqexC11dEM", force_refresh=True)
     print(json.dumps(result, indent=2))
