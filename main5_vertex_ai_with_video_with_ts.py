@@ -9,7 +9,6 @@ import vertexai
 from vertexai.generative_models import (
     GenerativeModel,
     Part,
-    VideoData, # Import VideoData
     GenerationConfig,
     HarmCategory,
     HarmBlockThreshold
@@ -17,6 +16,16 @@ from vertexai.generative_models import (
 import traceback # For detailed error logging
 import math # For ceiling division if needed
 
+
+# @staticmethod
+# def from_uri(uri: str, mime_type: str, video_metadata=None) -> "Part":
+#     return Part._from_gapic(
+#         raw_part=gapic_content_types.Part(
+#             file_data=gapic_content_types.FileData(
+#                 file_uri=uri, mime_type=mime_type
+#             ), video_metadata=video_metadata
+#         )
+#     )
 # --- Configuration ---
 # Replace with your actual Google Cloud project ID and region
 VERTEXAI_PROJECT_ID = 'norse-sector-250410'
@@ -398,7 +407,7 @@ def format_metadata_for_analysis(metadata):
 def create_classification_prompt_video():
     """Create a detailed prompt for Vertex AI Gemini to classify workout videos using video content and metadata."""
     # Updated prompt emphasizing video analysis AND specifying segment if provided
-    prompt = f"""You are a specialized AI fitness analyst. Your task is to analyze the **content of the provided YouTube video segment**, along with its **metadata** (title, description, tags, channel info, comments, full duration), and classify the workout based *primarily on what happens within the specified time segment*.
+    prompt = """You are a specialized AI fitness analyst. Your task is to analyze the **content of the provided YouTube video segment**, along with its **metadata** (title, description, tags, channel info, comments, full duration), and classify the workout based *primarily on what happens within the specified time segment*.
 
 **IMPORTANT: You will be given a specific time segment (e.g., start/end offsets) for the video. Focus your analysis of exercises, intensity, pace, etc., solely on what occurs within that segment.** Use the full video metadata (like title, description) only as secondary context if the segment itself is ambiguous.
 
@@ -669,6 +678,7 @@ def classify_workout_with_vertexai_video(model: GenerativeModel, metadata: dict,
 
     Raises:
         Exception: If the API call fails or the response is not valid JSON.
+        ValueError: If video segmentation information cannot be passed correctly.
     """
     system_prompt = create_classification_prompt_video()
     formatted_metadata = format_metadata_for_analysis(metadata)
@@ -678,82 +688,76 @@ def classify_workout_with_vertexai_video(model: GenerativeModel, metadata: dict,
     video_part = None # Initialize video part
 
     if total_duration > 0:
-        # Calculate center TARGET_SEGMENT_DURATION seconds
+        # --- Segment Calculation (same as before) ---
         half_segment = TARGET_SEGMENT_DURATION / 2.0
         midpoint_seconds = total_duration / 2.0
-
-        # Calculate start and end, ensuring they are within video bounds
         start_offset_seconds = max(0.0, midpoint_seconds - half_segment)
         end_offset_seconds = min(total_duration, midpoint_seconds + half_segment)
-
-        # Adjust if calculated segment is shorter than target due to hitting boundaries
-        # This logic ensures we get *at most* TARGET_SEGMENT_DURATION centered.
-        # If video is shorter than TARGET_SEGMENT_DURATION, it analyzes the whole video.
         if end_offset_seconds - start_offset_seconds < TARGET_SEGMENT_DURATION and total_duration >= TARGET_SEGMENT_DURATION :
-             # If hitting the start boundary (start_offset is 0)
-             if start_offset_seconds == 0.0:
-                  end_offset_seconds = min(total_duration, TARGET_SEGMENT_DURATION)
-             # If hitting the end boundary (end_offset is total_duration)
-             elif end_offset_seconds == total_duration:
-                  start_offset_seconds = max(0.0, total_duration - TARGET_SEGMENT_DURATION)
-
-        # Ensure end is strictly greater than start if duration allows
+             if start_offset_seconds == 0.0: end_offset_seconds = min(total_duration, TARGET_SEGMENT_DURATION)
+             elif end_offset_seconds == total_duration: start_offset_seconds = max(0.0, total_duration - TARGET_SEGMENT_DURATION)
         if start_offset_seconds >= end_offset_seconds and total_duration > 0:
-             # This might happen if duration is extremely small.
-             # Default to a tiny segment from the start if possible.
              start_offset_seconds = 0.0
-             end_offset_seconds = min(total_duration, 0.1) # Analyze a fraction of a second
+             end_offset_seconds = min(total_duration, 0.1)
 
-        # Convert to integers for the API (nanos can optionally be added for more precision if needed)
-        # API expects seconds/nanos within startOffset/endOffset
         start_seconds_int = int(start_offset_seconds)
         start_nanos = int((start_offset_seconds - start_seconds_int) * 1e9)
         end_seconds_int = int(end_offset_seconds)
         end_nanos = int((end_offset_seconds - end_seconds_int) * 1e9)
-
+        # --- End Segment Calculation ---
 
         print(f"Analyzing central segment: {start_offset_seconds:.3f}s to {end_offset_seconds:.3f}s (Total Duration: {total_duration:.3f}s)")
         print(f"API Offsets: Start({start_seconds_int}s, {start_nanos}ns), End({end_seconds_int}s, {end_nanos}ns)")
 
-
         # Create the segment structure expected by the API
-        # Using the format similar to the user's example
         segment_metadata = {
             "start_offset": {"seconds": start_seconds_int, "nanos": start_nanos},
             "end_offset": {"seconds": end_seconds_int, "nanos": end_nanos}
         }
 
-        # Create the video Part WITH the segment metadata
-        # We need to create a VideoData object first for the URI
-        video_data = VideoData.from_uri(uri=youtube_url, mime_type="video/youtube")
-        # Then create the Part, passing VideoData to inline_data and the segment to video_metadata
-        video_part = Part(inline_data=video_data, video_metadata=segment_metadata)
+        # --- TRY CREATING PART USING Part.from_uri WITH video_metadata ---
+        try:
+            video_part = Part.from_uri(
+                uri=youtube_url,
+                mime_type="video/youtube",  # Ensure correct mime type
+                video_metadata=segment_metadata # Pass segment info directly here
+            )
+            print(f"Successfully created Part using from_uri with video_metadata argument.")
+            print(f"Video analysis segment specified: {segment_metadata}")
+        except TypeError as e:
+            # Handle case where from_uri *also* doesn't accept video_metadata
+            print(f"ERROR: Failed to create video Part. Part.from_uri() does not seem to accept the 'video_metadata' argument in this SDK version. Error: {e}")
+            print("Falling back to analyzing the full video.")
+            # Fallback: Create the part without segment info
+            video_part = Part.from_uri(
+                uri=youtube_url,
+                mime_type="video/youtube"
+            )
+            # Optionally, raise an error if segmenting is critical:
+            # raise ValueError("Could not create video Part with segment information using Part.from_uri.") from e
 
     else:
-         # If no duration, or duration is 0, analyze the whole video (or handle as error)
+         # If no duration, or duration is 0, analyze the whole video
          print("Warning: Video duration is 0 or unknown. Analyzing potentially the entire video without segment specification.")
-         # Fallback: Create Part without segment info
-         video_part = Part.from_uri(uri=youtube_url, mime_type="video/youtube")
-         # Alternatively, return an error:
-         # raise ValueError("Cannot determine video segment because duration is unknown or zero.")
+         # Create the Part using only uri and mime_type
+         video_part = Part.from_uri(
+             uri=youtube_url,
+             mime_type="video/youtube"
+         )
+         print("No video segment specified (duration unknown or zero).")
 
-    # --- Construct Prompt and Call API ---
 
-    # Construct the prompt parts (text metadata + video part with segment info)
+    # --- Construct Prompt and Call API (Remains the same) ---
     prompt_parts = [
         Part.from_text(system_prompt + "\n\n" + formatted_metadata),
-        video_part # Use the constructed video_part (which includes segment info if duration > 0)
+        video_part # Use the constructed video_part
     ]
-
-    # Configure generation settings
     generation_config = GenerationConfig(
-        temperature=0.2, # Lower temperature for more deterministic JSON
-        max_output_tokens=8192, # Ensure sufficient space for complex JSON
-        response_mime_type="application/json", # Crucial for getting JSON output
+        temperature=0.2,
+        max_output_tokens=8192,
+        response_mime_type="application/json",
     )
-
-    # Set safety settings (adjust as needed)
-    safety_settings = {
+    safety_settings = { # ... safety settings ...
         HarmCategory.HARM_CATEGORY_HARASSMENT: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
         HarmCategory.HARM_CATEGORY_HATE_SPEECH: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
         HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
@@ -761,31 +765,21 @@ def classify_workout_with_vertexai_video(model: GenerativeModel, metadata: dict,
     }
 
     print(f"Sending request to Vertex AI Gemini model for video: {youtube_url}")
-    print(f"Using model: {model._model_name}") # Access underlying model name
+    print(f"Using model: {model._model_name}")
     print(f"Prompt includes {len(prompt_parts)} parts (Text Metadata + Video Part).")
-    if total_duration > 0:
-        print(f"Video analysis segment specified: {segment_metadata}")
-    else:
-        print("No video segment specified (duration unknown or zero).")
-
 
     try:
-        # Make the API call
         response = model.generate_content(
             prompt_parts,
             generation_config=generation_config,
             safety_settings=safety_settings,
-            # stream=False
         )
-
         print("Received response from Vertex AI.")
-
-        # Attempt to parse the JSON response
+        # ... JSON parsing and error handling ...
         try:
             result = json.loads(response.text)
             if not isinstance(result, dict):
                  raise json.JSONDecodeError("Response is not a JSON object", response.text, 0)
-
             print("JSON parsing successful.")
             return result
         except json.JSONDecodeError as json_err:
@@ -795,22 +789,19 @@ def classify_workout_with_vertexai_video(model: GenerativeModel, metadata: dict,
             print("--- End Raw Response Text ---")
             if hasattr(response, 'candidates') and response.candidates:
                  print(f"Finish Reason: {response.candidates[0].finish_reason}")
-                 if response.candidates[0].safety_ratings:
+                 if response.candidates[0].safety_ratings: # ... print safety ratings ...
                      print("Safety Ratings:")
                      for rating in response.candidates[0].safety_ratings:
                          print(f"  - {rating.category.name}: {rating.probability.name}")
-                 if response.candidates[0].citation_metadata:
-                      print("Citation Metadata:", response.candidates[0].citation_metadata)
-            else:
-                 print("No candidates found in response.")
-
+                 if response.candidates[0].citation_metadata: print("Citation Metadata:", response.candidates[0].citation_metadata)
+            else: print("No candidates found in response.")
             raise Exception(f"Vertex AI response was not valid JSON. See logs. Error: {json_err}. Raw text: {response.text[:200]}...")
 
     except Exception as e:
         print(f"ERROR: An error occurred during the Vertex AI API call: {e}")
         print(traceback.format_exc())
         print(f"Failed while processing URL: {youtube_url}")
-        raise # Re-raise the exception
+        raise # Re-raise the exception after logging
 
 
 # --- Main Execution Block ---
