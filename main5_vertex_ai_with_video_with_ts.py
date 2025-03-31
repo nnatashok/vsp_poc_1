@@ -412,56 +412,146 @@ def create_classification_prompt_video():
 
 Combine these observations *from the segment* with the overall textual metadata to make your classification as accurate as possible for the *activity within the segment*.
 
-METABOLIC FUNCTION EXPLANATIONS: (Apply based on the segment's activity)
-* Zone 1 (recovery): Very light effort, easy conversation possible. Often warm-ups, cool-downs, or active recovery.
-* Zone 2 (mitochondrial improvement): Comfortable endurance pace, can speak in sentences. Builds aerobic base.
-* Functional Threshold (or anaerobic threshold training): Sustainably hard effort for 12-25 mins. (Unlikely to be fully captured in a short segment, but note if intensity matches).
-* HIIT - High Intensity Interval Training: Short bursts (30s-10m) of near-max effort followed by rest/low intensity. (Note if the segment captures a high-intensity burst or a rest period typical of HIIT).
+Aerobic Metabolic Functions:
+- Zone 1 (recovery): Very light intensity, conversational pace, primarily fat burning, perfect for active recovery.
+- Zone 2 (mitochondrial improvement): Moderate intensity where you can still talk but with some effort. Builds base endurance and improves mitochondrial function.
+- Functional Threshold: Challenging intensity that can be sustained for 12-25 minutes, improves lactate threshold.
+- HIIT: Short, intense bursts followed by rest periods. Improves VO2 max and anaerobic capacity.
 
-BODY PART FOCUS EXPLANATION: (Identify based on exercises *within the segment*)
-* Arms: Biceps, triceps, shoulders, forearms.
-* Back: Upper back, lower back, lats.
-* Chest: Pectoral muscles.
-* Legs: Quads, hamstrings, glutes, calves.
-* Core: Abdominals, obliques, lower back (often engaged across many exercises).
-* Full Body: Balanced focus across multiple major muscle groups within the segment.
----> Assign percentages summing to 1.0 across Arms, Back, Chest, Legs based on primary focus observed *in the segment*. Note Core/Full Body in descriptions if relevant, but distribute percentages among the four main areas.
+Strength Metabolic Functions:
+- Functional strength: Movements that mimic real-life activities, improves movement patterns and daily life capabilities.
+- Hypertrophy: Moderate weights with higher rep ranges (8-12), focuses on muscle growth.
+- Maximal strength: Heavy weights with low reps (1-5), focuses on strength development.
+- Muscle endurance: Light to moderate weights with high reps (15+), improves ability to sustain effort.
+- Power: Explosive movements combining speed and strength, improves rate of force development.
 
-WORKOUT SPIRIT EXPLANATIONS: (Reflect the spirit *of the segment*)
-* High-Energy & Intense: Fast-paced, powerful movements, motivating music/instructor within the segment.
-* Flow & Rhythm: Smooth transitions, focus on movement quality, often linked to music beat within the segment.
-* Structured & Disciplined: Clear sets/reps/timing evident within the segment (e.g., counting reps).
-* Soothing & Restorative: Slow, gentle movements, calming atmosphere, focus on relaxation/recovery within the segment.
-* Sport & Agility: Drills mimicking sports movements, focus on coordination, speed, reaction within the segment.
-* Outdoor & Adventure: Takes place outdoors, incorporates natural environment (visible in the segment).
+Flexibility Metabolic Functions:
+- Range of motion: Improves joint mobility and muscle flexibility.
+- Balance: Improves proprioception, stability, and body control.
 
-WORKOUT VIBE DETAILS: (Select up to 3 with prominence based on the *segment's feel*)
-1. The Warrior Workout: Intense, powerful, overcoming challenges.
-2. The Firestarter: High-energy cardio/HIIT, ignites metabolism.
-3. The Zen Master: Calm, focused, mindful movement (Yoga/Tai Chi).
-4. The Power Builder: Heavy lifting, strength focus.
-5. The Enduro Champ: Sustained moderate-to-high intensity endurance.
-6. The Agility Ace: Quick changes in direction, coordination drills.
-7. The Recovery Ritual: Stretching, foam rolling, low-intensity movement.
-8. The Morning Energizer: Upbeat, designed to wake up the body.
-9. The Lunchtime Lift: Quick, efficient workout for a midday break.
-10. The Evening Unwind: Relaxing, destressing movements.
-11. The Dance Fusion: Incorporates dance elements, rhythmic.
-12. The Core Crusher: Intense focus on abdominal and back muscles.
-13. The Flexibility Flow: Emphasis on stretching and range of motion.
-14. The Strength Circuit: Rotating through different strength exercises.
-15. The Cardio Blast: High-impact, heart-rate-raising exercises.
-16. The Mindful Mover: Slow, controlled movements with body awareness.
-17. The Body Sculptor: Focus on muscle definition, often using weights/bands.
-18. The Athletic Performer: Training for sports performance.
-19. The Calisthenics King/Queen: Bodyweight strength mastery.
-20. The Pilates Pro: Core strength, control, precision.
-21. The Yoga Guru: Poses, breathwork, potentially meditation.
-22. The Boxing Powerhouse: Punching, footwork, high intensity.
-23. The Runner's High: Focus on running/jogging form and endurance.
-24. The Cyclist's Climb: Simulates cycling efforts, intensity focus.
-25. The Swimmer's Glide: Mimics swimming strokes or water-based exercise.
-26. The Nature Flow: Outdoor workout connecting with nature.
+BODY PART FOCUS EXPLANATION:
+- Arms: Biceps, triceps, forearms, shoulders, deltoids
+- Back: Lats, traps, rhomboids, spinal erectors, rear deltoids
+- Chest: Pectorals, anterior deltoids, serratus anterior
+- Legs: Quadriceps, hamstrings, glutes, calves, hip flexors, adductors, abductors
+
+For body part focus, provide a percentage focus for each body part (Arms, Back, Chest, Legs). The values should sum to 1.0 (100%). For a balanced full-body workout, use equal distribution (0.25 for each part). For targeted workouts, allocate higher percentages to the primary focus areas. Additionally, provide an overall confidence level for your body part focus analysis.
+
+Include confidence levels for "vibes" and "spirits" to indicate your overall certainty in the analysis of these aspects of the workout.
+
+WORKOUT SPIRIT EXPLANATIONS:
+- High-Energy & Intense: Fast-paced, heart-pumping, sweat-dripping sessions focused on pushing limits and maximum effort.
+- Flow & Rhythm: Smooth, continuous movement patterns that emphasize coordination, music-driven pacing, and mind-body connection.
+- Structured & Disciplined: Methodical, progressive training following specific protocols and technical precision.
+- Soothing & Restorative: Gentle, healing-focused sessions emphasizing recovery, relaxation, and stress reduction.
+- Sport & Agility: Athletic, performance-based training focused on speed, reflexes, coordination, and sports-specific skills.
+- Outdoor & Adventure: Nature-based workouts that leverage terrain, environmental challenges, and exploration.
+
+WORKOUT VIBE DETAILS:
+1. The Warrior Workout: Unleash your inner beast. Sweat-dripping, heart-pounding, primal energy.  
+   - Example Workouts: HIIT, boxing, bootcamp, heavy strength training.  
+   - Platforms: Peloton Bootcamp, Les Mills BodyCombat, Beachbody Insanity, iFit HIIT.  
+   - Best For: Days when you want to destroy stress and feel invincible.
+2. The Firestarter: Fast, explosive, and electrifying. Short but devastating.  
+   - Example Workouts: Tabata, sprint intervals, powerlifting bursts.  
+   - Platforms: Peloton HIIT Rides, iFit Sprint Workouts, Nike Training Club Quick HIIT.  
+   - Best For: When you only have 10-20 minutes but want to give 1000%.
+3. The Nightclub Workout: Lights down, music up, full-body euphoria.  
+   - Example Workouts: Dance cardio, rhythm boxing, cycle party rides.  
+   - Platforms: Peloton EDM Rides, Les Mills Sh’Bam, Apple Fitness+ Dance, Zumba.  
+   - Best For: When you want to move like no one’s watching and feel amazing.
+4. The Competitor: Gamified, leaderboard-driven, full-send energy.  
+   - Example Workouts: Live cycling, rowing races, CrossFit, esports-style fitness.  
+   - Platforms: Peloton Leaderboard, Zwift Races, Hydrow Competitive Rows.  
+   - Best For: Those who need to chase a score or beat their own record.
+5. The Adrenaline Rush: Heart-racing, full-body intensity, unpredictable challenges.  
+   - Example Workouts: Obstacle course training, parkour, extreme bootcamps.  
+   - Platforms: Tough Mudder Training, Spartan Race Workouts, Freeletics.  
+   - Best For: Those who crave challenge, variety, and adrenaline.
+6. The Groove Session: Fun, fluid, expressive, completely in the moment.  
+   - Example Workouts: Dance-based workouts, shadowboxing, flow yoga.  
+   - Platforms: Apple Fitness+ Dance, Peloton Boxing, Barre3, Les Mills BodyBalance.  
+   - Best For: Days when you want to move intuitively and just vibe.
+7. The Meditative Grind: Zone in, lock down, let repetition take over.  
+   - Example Workouts: Rowing, long-distance cycling, endurance running.  
+   - Platforms: Hydrow Endurance Rows, Peloton Endurance Rides, iFit Scenic Runs.  
+   - Best For: Those who love a slow burn and rhythmic intensity.
+8. The Zen Flow: Grounding, intentional, breath-centered, unhurried.  
+   - Example Workouts: Slow-flow yoga, tai chi, mobility training.  
+   - Platforms: Alo Moves, Peloton Yoga, iFit Recovery Workouts.  
+   - Best For: When you need balance, mindfulness, and release.
+9. The Rhythmic Powerhouse: Beat-driven, strong but fluid, music-infused.  
+   - Example Workouts: Power yoga, dance strength, cardio boxing.  
+   - Platforms: Les Mills BodyJam, Peloton Boxing, Barre3.  
+   - Best For: When you want strength and rhythm to blend seamlessly.
+10. The Endorphin Wave: Elevated energy, feel-good movement, steady build.  
+    - Example Workouts: Cycling climbs, endurance rowing, plyometric flows.  
+    - Platforms: Peloton Power Zone Rides, iFit Rowing Journeys.  
+    - Best For: When you want a challenging but steady burn.
+11. The Progression Quest: Methodical, incremental, long-term improvement.  
+    - Example Workouts: Strength cycles, hypertrophy training, marathon training plans.  
+    - Platforms: iFit Progressive Strength, Tonal Programs, Peloton Strength Plans.  
+    - Best For: Anyone who loves tracking progress and leveling up.
+12. The Masterclass Workout: Technique-driven, focused, skill-building.  
+    - Example Workouts: Pilates, kettlebell training, Olympic lifting, mobility drills.  
+    - Platforms: Les Mills Core, Kettlebell Workouts on YouTube, Ready State Mobility.  
+    - Best For: Those who love precision and mastery in movement.
+13. The Disciplined Grind: No excuses, no distractions, just execute.  
+    - Example Workouts: Classic bodybuilding, strength endurance, functional fitness.  
+    - Platforms: Fitness Blender Strength, iFit Gym Workouts, Peloton Power Zones.  
+    - Best For: When you want pure focus and efficiency.
+14. The Tactical Athlete: Military-inspired, performance-focused, strategic.  
+    - Example Workouts: Ruck training, tactical fitness, functional circuits.  
+    - Platforms: Mountain Tactical Institute, Navy SEAL Workouts, Tactical Barbell.  
+    - Best For: Those who want military-grade training and real-world capability.
+15. The Foundation Builder: Strengthen weak points, rebuild, perfect the basics.  
+    - Example Workouts: Stability, corrective exercise, injury prevention.  
+    - Platforms: GOWOD, Ready State Mobility, Foundation Training.  
+    - Best For: Those coming back from injury or refining fundamentals.
+16. The Reboot Workout: Deep stretch, low stress, total-body refresh.  
+    - Example Workouts: Gentle yoga, mobility drills, foam rolling.  
+    - Platforms: Peloton Recovery, GOWOD, iFit Mobility.  
+    - Best For: Recovery days, stress relief, post-travel stiffness.
+17. The Comfort Moves: Safe, cozy, feel-good movement.  
+    - Example Workouts: Chair workouts, senior fitness, prenatal/postnatal movement.  
+    - Platforms: SilverSneakers, Fitness Blender Low-Impact, YouTube Chair Workouts.  
+    - Best For: Those who want to move but need it to feel easy and accessible.
+18. The Mindful Walk: Meditative, story-driven, immersive.  
+    - Example Workouts: Guided outdoor walks, treadmill hikes.  
+    - Platforms: Apple Fitness+ Time to Walk, iFit Outdoor Walks.  
+    - Best For: When you need fresh air, a change of pace, and mental clarity.
+19. The Deep Recharge: Nervous system reset, ultra-gentle movement.  
+    - Example Workouts: Yoga Nidra, breathwork, passive stretching.  
+    - Platforms: Yoga with Adriene, Headspace Yoga, iRest Meditation.  
+    - Best For: Times of extreme stress, fatigue, or mental overload.
+20. The Sleep Prep: Wind down, ease tension, prepare for rest.  
+    - Example Workouts: Bedtime yoga, deep breathing, progressive relaxation.  
+    - Platforms: Calm App, Peloton Sleep Yoga, Yoga Nidra.  
+    - Best For: When you need the best possible night’s sleep.
+21. The Athlete’s Circuit: Explosive power, agility, game-ready fitness.  
+    - Example Workouts: Sprint drills, plyometrics, sport-specific agility.  
+    - Platforms: Nike Training Club, Vertimax Workouts, P90X.  
+    - Best For: Those training for sports or improving athleticism.
+22. The Speed & Power Sprint: Short, high-speed, maximal power output.  
+    - Example Workouts: Sprint workouts, fast-twitch training, overspeed drills.  
+    - Platforms: Peloton Tread Intervals, Sprint Workouts, EXOS Training.  
+    - Best For: Those improving speed, acceleration, and fast reactions.
+23. The Fight Camp: Grit, intensity, combat-ready fitness.  
+    - Example Workouts: MMA training, heavy bag work, footwork drills.  
+    - Platforms: FightCamp, Bas Rutten Workouts, Les Mills BodyCombat.  
+    - Best For: Those who want to train like a fighter.
+24. The Explorer’s Workout: Adventurous, scenic, open-air challenge.  
+    - Example Workouts: Trail running, outdoor HIIT, sand dune sprints.  
+    - Platforms: iFit Outdoor Series, Trail Running Workouts.  
+    - Best For: When you want nature, challenge, and adventure.
+25. The Ruck Challenge: Weighted backpack, functional endurance.  
+    - Example Workouts: Rucking, weighted hikes, uphill treks.  
+    - Platforms: GoRuck Programs, Tactical Training Workouts.  
+    - Best For: Those who want real-world endurance and strength.
+26. The Nature Flow: Breath-centered, full-body, outdoor rhythm.  
+    - Example Workouts: Beach workouts, rock climbing drills, park workouts.  
+    - Platforms: iFit Beach Sessions, Outdoor Bootcamps.  
+    - Best For: When you want fresh air, nature, and full-body movement.
 
 ANALYSIS GUIDELINES:
 1.  **Prioritize the video content within the specified time segment**.
