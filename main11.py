@@ -179,7 +179,7 @@ def cache_data(data, cache_path):
     """Cache data to a JSON file."""
     try:
         with open(cache_path, 'w') as f:
-            json.dump(data, f)
+            json.dump(data, f, indent=2)
         print(f"Cached data to: {cache_path}")
     except Exception as e:
         print(f"Error caching data: {str(e)}")
