@@ -1,8 +1,11 @@
 from googleapiclient.discovery import build
-from openai import OpenAI
+from openai import OpenAI, OpenAIError
 import requests
 import json
 import os
+import re
+import time
+import random
 from urllib.parse import urlparse, parse_qs
 import isodate  # For parsing ISO 8601 duration format
 
@@ -354,7 +357,7 @@ def format_metadata_for_analysis(metadata):
 
 
 def classify_workout_with_openai(oai_client, metadata):
-    """Use OpenAI to classify workout video based on metadata."""
+    """Use OpenAI to classify workout video based on metadata with retry mechanism for rate limits."""
     prompt = create_classification_prompt()
 
     # Полная JSON-схема для строгой валидации ответа с добавлением complexity и equipment
@@ -533,7 +536,7 @@ def classify_workout_with_openai(oai_client, metadata):
                         "items": {
                             "type": "string",
                             "enum": ["Mat", "Dumbbells", "Chair", "Blocks", "Exercise bike",
-                                    "Rowing machine", "Treadmill", "Elliptical"]
+                                     "Rowing machine", "Treadmill", "Elliptical"]
                         },
                         "uniqueItems": True
                     },
@@ -551,21 +554,55 @@ def classify_workout_with_openai(oai_client, metadata):
     # Format metadata in a more structured and explanatory way
     formatted_metadata = format_metadata_for_analysis(metadata)
 
-    try:
-        response = oai_client.chat.completions.create(
-            model="gpt-4o",
-            response_format=response_format,
-            messages=[
-                {"role": "system", "content": prompt},
-                {"role": "user",
-                 "content": f"Analyze this workout video metadata and classify it according to the schema:\n\n{formatted_metadata}"}
-            ]
-        )
+    # Maximum number of retries
+    max_retries = 5
+    # Initial retry delay in seconds
+    retry_delay = 2
 
-        result = json.loads(response.choices[0].message.content)
-        return result
-    except Exception as e:
-        return {"error": f"Error classifying workout with OpenAI: {str(e)}"}
+    for retry_attempt in range(max_retries):
+        try:
+            response = oai_client.chat.completions.create(
+                model="gpt-4o",
+                response_format=response_format,
+                messages=[
+                    {"role": "system", "content": prompt},
+                    {"role": "user",
+                     "content": f"Analyze this workout video metadata and classify it according to the schema:\n\n{formatted_metadata}"}
+                ]
+            )
+
+            result = json.loads(response.choices[0].message.content)
+            return result
+
+        except OpenAIError as e:
+            # Check if it's a rate limit error
+            error_str = str(e)
+            if "rate_limit_exceeded" in error_str or "Rate limit reached" in error_str:
+                # Try to extract suggested wait time if available
+                wait_time_match = re.search(r'try again in (\d+\.\d+)s', error_str)
+
+                if wait_time_match:
+                    # Use the recommended wait time from the error message
+                    wait_time = float(wait_time_match.group(1))
+                    # Add a small buffer to ensure we're past the rate limit window
+                    wait_time += 0.5
+                else:
+                    # Use exponential backoff with jitter
+                    wait_time = retry_delay * (2 ** retry_attempt) + random.uniform(0, 1)
+
+                print(
+                    f"Rate limit reached. Waiting for {wait_time:.2f} seconds before retry ({retry_attempt + 1}/{max_retries})...")
+                time.sleep(wait_time)
+
+                # If this is the last retry attempt, raise the error
+                if retry_attempt == max_retries - 1:
+                    return {"error": f"Error classifying workout with OpenAI after {max_retries} retries: {str(e)}"}
+            else:
+                # If it's not a rate limit error, don't retry
+                return {"error": f"Error classifying workout with OpenAI: {str(e)}"}
+
+    # This should only happen if we exhaust all retries
+    return {"error": "Failed to classify workout after maximum retry attempts"}
 
 
 # Usage example
