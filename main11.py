@@ -607,6 +607,6 @@ def classify_workout_with_openai(oai_client, metadata):
 
 # Usage example
 if __name__ == "__main__":
-    # Добавляем force_refresh=True для игнорирования кэша и создания нового анализа
+    # Add force_refresh=True to ignore cache and create a new analysis
     result = analyze_youtube_workout("https://www.youtube.com/watch?v=xzqexC11dEM", force_refresh=True)
     print(json.dumps(result, indent=2))
