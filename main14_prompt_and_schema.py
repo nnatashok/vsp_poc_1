@@ -26,6 +26,15 @@ ANALYSIS GUIDELINES:
 6. For each workout, identify 1-3 most suitable categories that match the workout, with a score value (0-1) for each.
 7. Provide a detailed explanation of why you assigned specific categories, citing evidence from the metadata.
 
+CATEGORIES EXPLANATION GUIDELINES:
+When writing the 'categoriesExplanation' field, provide a detailed and structured analysis that:
+1. Explains why each selected category was chosen, with specific evidence from the metadata
+2. Cites specific words, phrases, or terms from the title, description, or other metadata
+3. Justifies the score assigned to each category
+4. Mentions any uncertainty or ambiguity in the classification
+5. Explains why other potential categories were excluded (if relevant)
+6. Keep explanations concise but comprehensive (typically 100-200 words)
+
 CONFIDENCE LEVELS EXPLANATION:
 - 0.8-1.0: Very high confidence - Strong explicit indicators in title, description, or visuals
 - 0.6-0.79: High confidence - Clear indicators or strong implicit evidence
