@@ -14,10 +14,12 @@ from fitness_level_classifier import FITNESS_LEVEL_PROMPT, FITNESS_LEVEL_USER_PR
 from vibe_classifier import VIBE_PROMPT, VIBE_USER_PROMPT, VIBE_RESPONSE_FORMAT
 from spirit_classifier import SPIRIT_PROMPT, SPIRIT_USER_PROMPT, SPIRIT_RESPONSE_FORMAT
 from equipment_classifier import EQUIPMENT_PROMPT, EQUIPMENT_USER_PROMPT, EQUIPMENT_RESPONSE_FORMAT
+from db_transformer import transform_to_db_structure
+
 
 def analyze_youtube_workout(youtube_url, cache_dir='cache_unified', force_refresh=False,
-                          enable_category=True, enable_fitness_level=True, 
-                          enable_vibe=True, enable_spirit=True, enable_equipment=True):
+                            enable_category=True, enable_fitness_level=True,
+                            enable_vibe=True, enable_spirit=True, enable_equipment=True):
     """
     Analyzes a YouTube workout video and classifies it according to enabled dimensions:
     1. Category (e.g., Yoga, HIIT, Weight workout)
@@ -104,12 +106,12 @@ def analyze_youtube_workout(youtube_url, cache_dir='cache_unified', force_refres
             "response_format": FITNESS_LEVEL_RESPONSE_FORMAT
         },
         {
-            "name": "vibe",
-            "enabled": enable_vibe,
-            "cache_key": f"{video_id}_vibe_analysis.json",
-            "system_prompt": VIBE_PROMPT,
-            "user_prompt": VIBE_USER_PROMPT, 
-            "response_format": VIBE_RESPONSE_FORMAT
+            "name": "equipment",
+            "enabled": enable_equipment,
+            "cache_key": f"{video_id}_equipment_analysis.json",
+            "system_prompt": EQUIPMENT_PROMPT,
+            "user_prompt": EQUIPMENT_USER_PROMPT,
+            "response_format": EQUIPMENT_RESPONSE_FORMAT
         },
         {
             "name": "spirit",
@@ -120,12 +122,12 @@ def analyze_youtube_workout(youtube_url, cache_dir='cache_unified', force_refres
             "response_format": SPIRIT_RESPONSE_FORMAT
         },
         {
-            "name": "equipment",
-            "enabled": enable_equipment,
-            "cache_key": f"{video_id}_equipment_analysis.json",
-            "system_prompt": EQUIPMENT_PROMPT,
-            "user_prompt": EQUIPMENT_USER_PROMPT,
-            "response_format": EQUIPMENT_RESPONSE_FORMAT
+            "name": "vibe",
+            "enabled": enable_vibe,
+            "cache_key": f"{video_id}_vibe_analysis.json",
+            "system_prompt": VIBE_PROMPT,
+            "user_prompt": VIBE_USER_PROMPT,
+            "response_format": VIBE_RESPONSE_FORMAT
         }
     ]
 
@@ -134,10 +136,10 @@ def analyze_youtube_workout(youtube_url, cache_dir='cache_unified', force_refres
         for classifier in classifiers:
             if not classifier["enabled"]:
                 continue
-            
+
             name = classifier["name"]
             cache_path = os.path.join(cache_dir, classifier["cache_key"])
-            
+
             # Check for cached analysis
             if os.path.exists(cache_path) and not force_refresh:
                 try:
@@ -147,29 +149,30 @@ def analyze_youtube_workout(youtube_url, cache_dir='cache_unified', force_refres
                 except Exception as e:
                     print(f"Error loading cached {name} analysis: {str(e)}. Running fresh analysis.")
                     analysis = run_classifier(
-                        oai_client, 
-                        formatted_metadata, 
-                        classifier["system_prompt"], 
-                        classifier["user_prompt"], 
+                        oai_client,
+                        formatted_metadata,
+                        classifier["system_prompt"],
+                        classifier["user_prompt"],
                         classifier["response_format"]
                     )
                     cache_data(analysis, cache_path)
             else:
                 analysis = run_classifier(
-                    oai_client, 
-                    formatted_metadata, 
-                    classifier["system_prompt"], 
-                    classifier["user_prompt"], 
+                    oai_client,
+                    formatted_metadata,
+                    classifier["system_prompt"],
+                    classifier["user_prompt"],
                     classifier["response_format"]
                 )
                 cache_data(analysis, cache_path)
-            
+
             combined_analysis[name] = analysis
 
         return combined_analysis
-    
+
     except Exception as e:
         return {"error": f"Failed to perform combined analysis: {str(e)}"}
+
 
 def extract_video_id(youtube_url):
     """Extract YouTube video ID from URL."""
@@ -191,6 +194,7 @@ def extract_video_id(youtube_url):
             return parsed_url.path.split('/')[2]
 
     return None
+
 
 def fetch_video_metadata(youtube_client, video_id):
     """Fetch comprehensive metadata for a YouTube video."""
@@ -231,11 +235,11 @@ def fetch_video_metadata(youtube_client, video_id):
         # Parse duration
         duration_iso = video_data.get('contentDetails', {}).get('duration', 'PT0S')
         duration_seconds = int(isodate.parse_duration(duration_iso).total_seconds())
-        
+
         # Format duration directly here (integrated)
         hours, remainder = divmod(duration_seconds, 3600)
         minutes, seconds = divmod(remainder, 60)
-        
+
         if hours > 0:
             duration_formatted = f"{hours}:{minutes:02d}:{seconds:02d}"
         else:
@@ -266,6 +270,7 @@ def fetch_video_metadata(youtube_client, video_id):
     except Exception as e:
         return {"error": f"Error fetching video metadata: {str(e)}"}
 
+
 def cache_data(data, cache_path):
     """Cache data to a JSON file."""
     try:
@@ -274,6 +279,7 @@ def cache_data(data, cache_path):
         print(f"Cached data to: {cache_path}")
     except Exception as e:
         print(f"Error caching data: {str(e)}")
+
 
 def format_metadata_for_analysis(metadata):
     """
@@ -328,17 +334,18 @@ def format_metadata_for_analysis(metadata):
 
     return "\n".join(sections)
 
+
 def run_classifier(oai_client, formatted_metadata, system_prompt, user_prompt, response_format):
     """
     Generic function to run a classifier through OpenAI API.
-    
+
     Args:
         oai_client: OpenAI client
         formatted_metadata: Formatted video metadata
         system_prompt: System prompt for the classifier
         user_prompt: User prompt for the classifier
         response_format: Expected response format
-        
+
     Returns:
         dict: Classification results
     """
@@ -347,11 +354,12 @@ def run_classifier(oai_client, formatted_metadata, system_prompt, user_prompt, r
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": f"{user_prompt}\n\n{formatted_metadata}"}
         ]
-        
+
         return openai_call_with_retry(oai_client, "gpt-4o", messages, response_format)
-    
+
     except Exception as e:
         return {"error": f"Error with classifier: {str(e)}"}
+
 
 def openai_call_with_retry(oai_client, model, messages, response_format):
     """
@@ -369,7 +377,7 @@ def openai_call_with_retry(oai_client, model, messages, response_format):
                 response_format=response_format,
                 messages=messages
             )
-            
+
             return json.loads(response.choices[0].message.content)
 
         except OpenAIError as e:
@@ -402,12 +410,13 @@ def openai_call_with_retry(oai_client, model, messages, response_format):
     # This should only happen if we exhaust all retries
     raise Exception("Failed after maximum retry attempts")
 
+
 # Usage example
 if __name__ == "__main__":
     # Add force_refresh=True to ignore cache and create a new analysis
     # Use enable_* flags to control which classifiers to run
     result = analyze_youtube_workout(
-        "https://www.youtube.com/watch?v=zZD1H7XTTKc", 
+        "https://www.youtube.com/watch?v=zZD1H7XTTKc",
         force_refresh=False,
         enable_category=True,
         enable_fitness_level=True,

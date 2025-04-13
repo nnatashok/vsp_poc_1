@@ -6,7 +6,9 @@ WORKOUT CATEGORY DESCRIPTIONS:
 - HIIT: High-Intensity Interval Training with alternating periods of intense exercise and rest.
 - Indoor biking: Stationary cycling workouts, spin classes, or indoor cycling sessions.
 - Mat: General floor exercises performed on an exercise mat, often without equipment.
+- Running: Outdoor or indoor running workouts not limited to treadmill use.
 - Treadmill: Running or walking workouts performed on a treadmill.
+- Walking: Moderate to brisk walking workouts, often for beginners or recovery.
 - Pilates: Exercise method focused on controlled movements, core strength, and body alignment.
 - Stretching: Focused flexibility training to improve range of motion.
 - Yoga: Mind-body practice combining physical postures, breathing techniques, and meditation.
@@ -70,7 +72,7 @@ CATEGORY_RESPONSE_FORMAT = {
                             "name": {
                                 "type": "string",
                                 "enum": [
-                                    "Elliptical", "HIIT", "Indoor biking", "Mat", "Treadmill",
+                                    "Elliptical", "HIIT", "Indoor biking", "Mat", "Running", "Treadmill", "Walking",
                                     "Pilates", "Stretching", "Yoga", "Breathing exercises",
                                     "Meditation", "Body weight", "Calisthenics", "Weight workout"
                                 ]
