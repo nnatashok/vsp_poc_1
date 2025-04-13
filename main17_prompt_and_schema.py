@@ -40,9 +40,11 @@ ANALYSIS GUIDELINES:
 2. Look for keywords suggesting intensity, complexity, and target audience.
 3. Consider the channel's typical audience and content style.
 4. User comments may provide insights about perceived difficulty.
-5. When confidence is low for a category, mark it appropriately.
-6. For each metric, identify the most suitable level(s), with a score value (0-1) for each.
-7. Provide a detailed explanation of your classification, citing evidence from the metadata.
+5. For each metric, assign scores to all applicable levels based on their relevance to the workout. Include multiple levels when:
+   - Different intensity and complexity options are suggested (e.g. weight variations or alternate exercises)
+   - The workout is designed to be accessible to athletes of multiple fitness levels (e.g., "suitable for beginners through advanced")
+6. Provide a detailed explanation of your classification, citing evidence from the metadata.
+7. Do not include levels with a score of 0 in your response. Only include levels that have a score greater than 0.
 
 DETAILED ASSESSMENT FACTORS:
 
