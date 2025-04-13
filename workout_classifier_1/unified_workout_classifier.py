@@ -17,7 +17,7 @@ from equipment_classifier import EQUIPMENT_PROMPT, EQUIPMENT_USER_PROMPT, EQUIPM
 from db_transformer import transform_to_db_structure
 
 
-def analyze_youtube_workout(youtube_url, cache_dir='cache_unified', force_refresh=False,
+def analyze_youtube_workout(youtube_url, cache_dir='cache', force_refresh=False,
                             enable_category=True, enable_fitness_level=True,
                             enable_vibe=True, enable_spirit=True, enable_equipment=True):
     """
@@ -425,3 +425,8 @@ if __name__ == "__main__":
         enable_equipment=True
     )
     print(json.dumps(result, indent=2))
+
+    # Transform to database structure
+    db_result = transform_to_db_structure(result)
+    print("\nDatabase Structure:")
+    print(json.dumps(db_result, indent=2))
