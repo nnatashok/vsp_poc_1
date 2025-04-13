@@ -126,7 +126,7 @@ RESPONSE_FORMAT = {
                         "required": ["level", "score"]
                     },
                     "minItems": 1,
-                    "maxItems": 3
+                    "maxItems": 4
                 },
                 "techniqueDifficultyConfidence": {
                     "type": "number",
@@ -155,7 +155,7 @@ RESPONSE_FORMAT = {
                         "required": ["level", "score"]
                     },
                     "minItems": 1,
-                    "maxItems": 3
+                    "maxItems": 4
                 },
                 "effortDifficultyConfidence": {
                     "type": "number",
@@ -184,7 +184,7 @@ RESPONSE_FORMAT = {
                         "required": ["level", "score"]
                     },
                     "minItems": 1,
-                    "maxItems": 3
+                    "maxItems": 4
                 },
                 "requiredFitnessLevelConfidence": {
                     "type": "number",
