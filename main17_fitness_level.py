@@ -215,8 +215,8 @@ def format_metadata_for_analysis(metadata):
         sections.append("\n## DESCRIPTION")
         # Truncate very long descriptions to first 1000 chars
         description = metadata.get('description', '')
-        if len(description) > 1000:
-            sections.append(f"{description[:1000]}...(truncated)")
+        if len(description) > 3000:
+            sections.append(f"{description[:3000]}...(truncated)")
         else:
             sections.append(description)
 
