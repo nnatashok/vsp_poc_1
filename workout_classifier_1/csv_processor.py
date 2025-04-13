@@ -190,7 +190,7 @@ if __name__ == "__main__":
 
     # You can limit the number of workouts for testing
     # Set to None to process all workouts
-    max_workouts = 3
+    max_workouts = None
 
     process_workouts_csv(
         input_csv_path,
