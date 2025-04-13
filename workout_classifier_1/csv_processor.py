@@ -77,6 +77,7 @@ def process_workouts_csv(input_csv_path, output_csv_path, max_workouts=None,
             'secondary_category',
             'secondary_subcategory',
             'fitness_level',
+            'secondary_fitness_level',  # New field
             'primary_equipment',
             'secondary_equipment',
             'primary_spirit',
@@ -122,7 +123,7 @@ def process_workouts_csv(input_csv_path, output_csv_path, max_workouts=None,
             # Analyze the workout
             print(f"Analyzing workout: {url}")
             result = analyze_youtube_workout(
-                url, 
+                url,
                 force_refresh=False,
                 enable_category=enable_category,
                 enable_fitness_level=enable_fitness_level,
@@ -155,6 +156,7 @@ def process_workouts_csv(input_csv_path, output_csv_path, max_workouts=None,
                 db_structure.get('secondary_category', ''),
                 db_structure.get('secondary_subcategory', ''),
                 db_structure.get('fitness_level', ''),
+                db_structure.get('secondary_fitness_level', ''),  # New field
                 db_structure.get('primary_equipment', ''),
                 db_structure.get('secondary_equipment', ''),
                 db_structure.get('primary_spirit', ''),
@@ -188,7 +190,7 @@ if __name__ == "__main__":
 
     # You can limit the number of workouts for testing
     # Set to None to process all workouts
-    max_workouts = None
+    max_workouts = 3
 
     process_workouts_csv(
         input_csv_path,

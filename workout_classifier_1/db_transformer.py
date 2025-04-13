@@ -102,15 +102,16 @@ def extract_category_info(categories):
 def extract_fitness_level_info(fitness_levels):
     """
     Extract fitness level information and simplify to three categories.
+    Also extracts secondary fitness level if its score is higher than 0.5.
 
     Args:
         fitness_levels (list): List of fitness level objects with level and score
 
     Returns:
-        dict: Simplified fitness level for database
+        dict: Simplified fitness levels for database
     """
     if not fitness_levels:
-        return {"fitness_level": None}
+        return {"fitness_level": None, "secondary_fitness_level": None}
 
     # Sort levels by score in descending order
     sorted_levels = sorted(fitness_levels, key=lambda x: x.get("score", 0), reverse=True)
@@ -122,7 +123,18 @@ def extract_fitness_level_info(fitness_levels):
     if primary_level == "Elite":
         primary_level = "Advanced"
 
-    return {"fitness_level": primary_level}
+    # Check if there's a secondary fitness level with score > 0.5
+    secondary_level = None
+    if len(sorted_levels) > 1 and sorted_levels[1].get("score", 0) > 0.5:
+        secondary_level = sorted_levels[1]["level"]
+        # Map secondary level too (Elite becomes Advanced)
+        if secondary_level == "Elite":
+            secondary_level = "Advanced"
+
+    return {
+        "fitness_level": primary_level,
+        "secondary_fitness_level": secondary_level
+    }
 
 
 def extract_equipment_info(equipment_list):
