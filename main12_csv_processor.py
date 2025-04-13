@@ -190,7 +190,7 @@ def process_workouts_csv(input_csv_path, output_csv_path, max_workouts=None, del
 
 if __name__ == "__main__":
     input_csv_path = "all_workouts_1.csv"
-    output_csv_path = "all_workouts_1_vibes_analysis.csv"
+    output_csv_path = "all_workouts_1_analyzed.csv"
 
     # You can limit the number of workouts for testing
     # Set to None to process all workouts
