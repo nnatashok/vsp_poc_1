@@ -4,6 +4,7 @@ import json
 import re
 import os
 from tqdm import tqdm  # For progress bar
+from env_utils import load_api_keys
 from unified_workout_classifier import analyze_youtube_workout, extract_video_id
 from db_transformer import transform_to_db_structure
 
@@ -41,6 +42,22 @@ def process_workouts_csv(input_csv_path, output_csv_path, max_workouts=None,
         enable_spirit (bool): Whether to analyze workout spirits
         enable_equipment (bool): Whether to analyze required equipment
     """
+    # Загрузка ключей API из файлов .env в разных местах
+    api_keys = load_api_keys()
+    youtube_api_key = api_keys.get('YOUTUBE_API_KEY')
+    openai_api_key = api_keys.get('OPENAI_API_KEY')
+    
+    # Вывод статуса ключей API
+    if youtube_api_key:
+        print(f"YouTube API ключ найден: {youtube_api_key[:5]}...{youtube_api_key[-5:]}")
+    else:
+        print("ВНИМАНИЕ: YouTube API ключ не найден в переменных окружения")
+    
+    if openai_api_key:
+        print(f"OpenAI API ключ найден: {openai_api_key[:5]}...{openai_api_key[-5:]}")
+    else:
+        print("ВНИМАНИЕ: OpenAI API ключ не найден в переменных окружения")
+    
     # Create output directory if it doesn't exist
     output_dir = os.path.dirname(output_csv_path)
     if output_dir and not os.path.exists(output_dir):
@@ -120,10 +137,12 @@ def process_workouts_csv(input_csv_path, output_csv_path, max_workouts=None,
             continue
 
         try:
-            # Analyze the workout
+            # Analyze the workout, передаем API ключи в функцию
             print(f"Analyzing workout: {url}")
             result = analyze_youtube_workout(
                 url,
+                youtube_api_key=youtube_api_key,
+                openai_api_key=openai_api_key,
                 force_refresh=False,
                 enable_category=enable_category,
                 enable_fitness_level=enable_fitness_level,

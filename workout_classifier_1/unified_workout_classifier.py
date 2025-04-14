@@ -17,9 +17,10 @@ from equipment_classifier import EQUIPMENT_PROMPT, EQUIPMENT_USER_PROMPT, EQUIPM
 from db_transformer import transform_to_db_structure
 
 
-def analyze_youtube_workout(youtube_url, cache_dir='cache', force_refresh=False,
-                            enable_category=True, enable_fitness_level=True,
-                            enable_vibe=True, enable_spirit=True, enable_equipment=True):
+def analyze_youtube_workout(youtube_url, youtube_api_key=None, openai_api_key=None, 
+                          cache_dir='cache', force_refresh=False,
+                          enable_category=True, enable_fitness_level=True,
+                          enable_vibe=True, enable_spirit=True, enable_equipment=True):
     """
     Analyzes a YouTube workout video and classifies it according to enabled dimensions:
     1. Category (e.g., Yoga, HIIT, Weight workout)
@@ -30,6 +31,8 @@ def analyze_youtube_workout(youtube_url, cache_dir='cache', force_refresh=False,
 
     Args:
         youtube_url (str): URL of the YouTube workout video
+        youtube_api_key (str, optional): YouTube API key for accessing YouTube API
+        openai_api_key (str, optional): OpenAI API key for accessing OpenAI API
         cache_dir (str): Directory to store cached data
         force_refresh (bool): Whether to force fresh analysis even if cached data exists
         enable_category (bool): Whether to classify workout by category
@@ -41,9 +44,9 @@ def analyze_youtube_workout(youtube_url, cache_dir='cache', force_refresh=False,
     Returns:
         dict: Combined workout analysis across all enabled dimensions
     """
-    # API keys
-    YOUTUBE_API_KEY = 'AIzaSyCkpiTfTUvNVNmPcyw8ZO1NOn_0b_LV8RA'
-    OPENAI_API_KEY = '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'
+    # API keys - используем переданные ключи или дефолтные значения
+    YOUTUBE_API_KEY = youtube_api_key or os.environ.get('YOUTUBE_API_KEY') or 'AIzaSyCkpiTfTUvNVNmPcyw8ZO1NOn_0b_LV8RA'
+    OPENAI_API_KEY = openai_api_key or os.environ.get('OPENAI_API_KEY') or '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'
 
     # Initialize clients
     try:
@@ -174,6 +177,7 @@ def analyze_youtube_workout(youtube_url, cache_dir='cache', force_refresh=False,
         return {"error": f"Failed to perform combined analysis: {str(e)}"}
 
 
+# Остальные функции остаются без изменений
 def extract_video_id(youtube_url):
     """Extract YouTube video ID from URL."""
     if not youtube_url:
