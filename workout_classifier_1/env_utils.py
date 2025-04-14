@@ -4,38 +4,38 @@ from dotenv import load_dotenv
 
 def load_api_keys():
     """
-    Попытка загрузить переменные окружения из файлов .env в разных местах:
-    1. Текущая директория
-    2. Родительская директория (на один уровень выше)
-    3. Директория на два уровня выше
+    Attempts to load environment variables from .env files in different locations:
+    1. Current directory
+    2. Parent directory (one level up)
+    3. Two levels up directory
     
     Returns:
-        dict: Словарь, содержащий загруженные ключи API
+        dict: Dictionary containing the loaded API keys
     """
-    # Получаем текущую директорию
+    # Get current directory
     current_dir = Path(os.path.dirname(os.path.abspath(__file__)))
     
-    # Определяем пути для поиска файлов .env
+    # Define paths to search for .env files
     env_paths = [
-        current_dir / '.env',                # Текущая директория
-        current_dir.parent / '.env',         # На один уровень выше
-        current_dir.parent.parent / '.env',  # На два уровня выше
+        current_dir / '.env',                # Current directory
+        current_dir.parent / '.env',         # One level up
+        current_dir.parent.parent / '.env',  # Two levels up
     ]
     
-    # Пробуем загрузить из каждого пути
+    # Try to load from each path
     found_env_files = []
     for env_path in env_paths:
         if env_path.exists():
-            print(f"Загрузка переменных окружения из {env_path}")
+            print(f"Loading environment variables from {env_path}")
             load_dotenv(dotenv_path=env_path)
             found_env_files.append(str(env_path))
     
     if not found_env_files:
-        print("Предупреждение: Файл .env не найден ни в одном из ожидаемых мест")
+        print("Warning: No .env file found in any of the expected locations")
     else:
-        print(f"Найдены и загружены файлы .env: {', '.join(found_env_files)}")
+        print(f"Found and loaded .env files: {', '.join(found_env_files)}")
     
-    # Возвращаем словарь с необходимыми переменными окружения
+    # Return dictionary with necessary environment variables
     return {
         'OPENAI_API_KEY': os.getenv('OPENAI_API_KEY'),
         'YOUTUBE_API_KEY': os.getenv('YOUTUBE_API_KEY'),

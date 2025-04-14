@@ -3,6 +3,7 @@ import csv
 import json
 import re
 import os
+import argparse
 from tqdm import tqdm  # For progress bar
 from env_utils import load_api_keys
 from unified_workout_classifier import analyze_youtube_workout, extract_video_id
@@ -42,21 +43,21 @@ def process_workouts_csv(input_csv_path, output_csv_path, max_workouts=None,
         enable_spirit (bool): Whether to analyze workout spirits
         enable_equipment (bool): Whether to analyze required equipment
     """
-    # Загрузка ключей API из файлов .env в разных местах
+    # Load API keys from .env files in different locations
     api_keys = load_api_keys()
     youtube_api_key = api_keys.get('YOUTUBE_API_KEY')
     openai_api_key = api_keys.get('OPENAI_API_KEY')
     
-    # Вывод статуса ключей API
+    # Output API key status
     if youtube_api_key:
-        print(f"YouTube API ключ найден: {youtube_api_key[:5]}...{youtube_api_key[-5:]}")
+        print(f"YouTube API key found: {youtube_api_key[:5]}...{youtube_api_key[-5:]}")
     else:
-        print("ВНИМАНИЕ: YouTube API ключ не найден в переменных окружения")
+        print("WARNING: YouTube API key not found in environment variables")
     
     if openai_api_key:
-        print(f"OpenAI API ключ найден: {openai_api_key[:5]}...{openai_api_key[-5:]}")
+        print(f"OpenAI API key found: {openai_api_key[:5]}...{openai_api_key[-5:]}")
     else:
-        print("ВНИМАНИЕ: OpenAI API ключ не найден в переменных окружения")
+        print("WARNING: OpenAI API key not found in environment variables")
     
     # Create output directory if it doesn't exist
     output_dir = os.path.dirname(output_csv_path)
@@ -94,9 +95,11 @@ def process_workouts_csv(input_csv_path, output_csv_path, max_workouts=None,
             'secondary_category',
             'secondary_subcategory',
             'fitness_level',
-            'secondary_fitness_level',  # New field
+            'secondary_fitness_level',
+            'tertiary_fitness_level',  # New field
             'primary_equipment',
             'secondary_equipment',
+            'tertiary_equipment',  # New field
             'primary_spirit',
             'secondary_spirit',
             'primary_vibe',
@@ -137,7 +140,7 @@ def process_workouts_csv(input_csv_path, output_csv_path, max_workouts=None,
             continue
 
         try:
-            # Analyze the workout, передаем API ключи в функцию
+            # Analyze the workout, passing API keys to the function
             print(f"Analyzing workout: {url}")
             result = analyze_youtube_workout(
                 url,
@@ -175,9 +178,11 @@ def process_workouts_csv(input_csv_path, output_csv_path, max_workouts=None,
                 db_structure.get('secondary_category', ''),
                 db_structure.get('secondary_subcategory', ''),
                 db_structure.get('fitness_level', ''),
-                db_structure.get('secondary_fitness_level', ''),  # New field
+                db_structure.get('secondary_fitness_level', ''),
+                db_structure.get('tertiary_fitness_level', ''),  # New field
                 db_structure.get('primary_equipment', ''),
                 db_structure.get('secondary_equipment', ''),
+                db_structure.get('tertiary_equipment', ''),  # New field
                 db_structure.get('primary_spirit', ''),
                 db_structure.get('secondary_spirit', ''),
                 db_structure.get('primary_vibe', ''),
@@ -204,20 +209,39 @@ def process_workouts_csv(input_csv_path, output_csv_path, max_workouts=None,
 
 
 if __name__ == "__main__":
-    input_csv_path = "all_workouts_1.csv"
-    output_csv_path = "workouts_analyzed.csv"
+    # Set up command line argument parsing
+    parser = argparse.ArgumentParser(description='Process YouTube workout videos from a CSV file')
+    parser.add_argument('--input', type=str, default="all_workouts_1.csv", 
+                        help='Path to input CSV file containing YouTube URLs')
+    parser.add_argument('--output', type=str, default="workouts_analyzed.csv", 
+                        help='Path to output CSV file for analysis results')
+    parser.add_argument('--max', type=int, default=None, 
+                        help='Maximum number of workouts to process')
+    parser.add_argument('--no-category', action='store_false', dest='category',
+                        help='Disable workout category analysis')
+    parser.add_argument('--no-fitness', action='store_false', dest='fitness_level',
+                        help='Disable fitness level analysis')
+    parser.add_argument('--no-vibe', action='store_false', dest='vibe',
+                        help='Disable workout vibe analysis')
+    parser.add_argument('--no-spirit', action='store_false', dest='spirit',
+                        help='Disable workout spirit analysis')
+    parser.add_argument('--no-equipment', action='store_false', dest='equipment',
+                        help='Disable required equipment analysis')
+    
+    # Set default values for boolean arguments
+    parser.set_defaults(category=True, fitness_level=True, vibe=True, spirit=True, equipment=True)
+    
+    # Parse arguments
+    args = parser.parse_args()
 
-    # You can limit the number of workouts for testing
-    # Set to None to process all workouts
-    max_workouts = None
-
+    # Process workouts CSV with command line arguments
     process_workouts_csv(
-        input_csv_path,
-        output_csv_path,
-        max_workouts=max_workouts,
-        enable_category=True,
-        enable_fitness_level=True,
-        enable_vibe=True,
-        enable_spirit=True,
-        enable_equipment=True
+        input_csv_path=args.input,
+        output_csv_path=args.output,
+        max_workouts=args.max,
+        enable_category=args.category,
+        enable_fitness_level=args.fitness_level,
+        enable_vibe=args.vibe,
+        enable_spirit=args.spirit,
+        enable_equipment=args.equipment
     )

@@ -17,7 +17,7 @@ from equipment_classifier import EQUIPMENT_PROMPT, EQUIPMENT_USER_PROMPT, EQUIPM
 from db_transformer import transform_to_db_structure
 
 
-def analyze_youtube_workout(youtube_url, youtube_api_key=None, openai_api_key=None, 
+def analyze_youtube_workout(youtube_url, youtube_api_key, openai_api_key,
                           cache_dir='cache', force_refresh=False,
                           enable_category=True, enable_fitness_level=True,
                           enable_vibe=True, enable_spirit=True, enable_equipment=True):
@@ -44,14 +44,11 @@ def analyze_youtube_workout(youtube_url, youtube_api_key=None, openai_api_key=No
     Returns:
         dict: Combined workout analysis across all enabled dimensions
     """
-    # API keys - используем переданные ключи или дефолтные значения
-    YOUTUBE_API_KEY = youtube_api_key or os.environ.get('YOUTUBE_API_KEY') or 'AIzaSyCkpiTfTUvNVNmPcyw8ZO1NOn_0b_LV8RA'
-    OPENAI_API_KEY = openai_api_key or os.environ.get('OPENAI_API_KEY') or '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'
-
+    # API keys - use provided keys or default values
     # Initialize clients
     try:
-        oai_client = OpenAI(api_key=OPENAI_API_KEY)
-        youtube_client = build('youtube', 'v3', developerKey=YOUTUBE_API_KEY)
+        oai_client = OpenAI(api_key=openai_api_key)
+        youtube_client = build('youtube', 'v3', developerKey=youtube_api_key)
     except Exception as e:
         return {"error": f"Failed to initialize API clients: {str(e)}"}
 
@@ -177,7 +174,7 @@ def analyze_youtube_workout(youtube_url, youtube_api_key=None, openai_api_key=No
         return {"error": f"Failed to perform combined analysis: {str(e)}"}
 
 
-# Остальные функции остаются без изменений
+# Other functions remain unchanged
 def extract_video_id(youtube_url):
     """Extract YouTube video ID from URL."""
     if not youtube_url:
@@ -413,24 +410,3 @@ def openai_call_with_retry(oai_client, model, messages, response_format):
 
     # This should only happen if we exhaust all retries
     raise Exception("Failed after maximum retry attempts")
-
-
-# Usage example
-if __name__ == "__main__":
-    # Add force_refresh=True to ignore cache and create a new analysis
-    # Use enable_* flags to control which classifiers to run
-    result = analyze_youtube_workout(
-        "https://www.youtube.com/watch?v=zZD1H7XTTKc",
-        force_refresh=False,
-        enable_category=True,
-        enable_fitness_level=True,
-        enable_vibe=True,
-        enable_spirit=True,
-        enable_equipment=True
-    )
-    print(json.dumps(result, indent=2))
-
-    # Transform to database structure
-    db_result = transform_to_db_structure(result)
-    print("\nDatabase Structure:")
-    print(json.dumps(db_result, indent=2))

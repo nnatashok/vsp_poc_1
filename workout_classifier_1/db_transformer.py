@@ -102,7 +102,7 @@ def extract_category_info(categories):
 def extract_fitness_level_info(fitness_levels):
     """
     Extract fitness level information and simplify to three categories.
-    Also extracts secondary fitness level if its score is higher than 0.5.
+    Also extracts secondary and tertiary fitness levels if their scores are higher than 0.5.
 
     Args:
         fitness_levels (list): List of fitness level objects with level and score
@@ -111,7 +111,11 @@ def extract_fitness_level_info(fitness_levels):
         dict: Simplified fitness levels for database
     """
     if not fitness_levels:
-        return {"fitness_level": None, "secondary_fitness_level": None}
+        return {
+            "fitness_level": None, 
+            "secondary_fitness_level": None,
+            "tertiary_fitness_level": None
+        }
 
     # Sort levels by score in descending order
     sorted_levels = sorted(fitness_levels, key=lambda x: x.get("score", 0), reverse=True)
@@ -130,31 +134,48 @@ def extract_fitness_level_info(fitness_levels):
         # Map secondary level too (Elite becomes Advanced)
         if secondary_level == "Elite":
             secondary_level = "Advanced"
+    
+    # Check if there's a tertiary fitness level with score > 0.5
+    tertiary_level = None
+    if len(sorted_levels) > 2 and sorted_levels[2].get("score", 0) > 0.5:
+        tertiary_level = sorted_levels[2]["level"]
+        # Map tertiary level too (Elite becomes Advanced)
+        if tertiary_level == "Elite":
+            tertiary_level = "Advanced"
 
     return {
         "fitness_level": primary_level,
-        "secondary_fitness_level": secondary_level
+        "secondary_fitness_level": secondary_level,
+        "tertiary_fitness_level": tertiary_level
     }
 
 
 def extract_equipment_info(equipment_list):
     """
-    Extract primary and secondary equipment information.
+    Extract primary, secondary, and tertiary equipment information.
 
     Args:
         equipment_list (list): List of equipment objects with equipment name and confidence
 
     Returns:
-        dict: Primary and secondary equipment for database
+        dict: Primary, secondary, and tertiary equipment for database
     """
     if not equipment_list:
-        return {"primary_equipment": None, "secondary_equipment": None}
+        return {
+            "primary_equipment": None, 
+            "secondary_equipment": None,
+            "tertiary_equipment": None
+        }
 
     # Filter equipment by confidence threshold (>0.5)
     filtered_equipment = [eq for eq in equipment_list if eq.get("confidence", 0) > 0.5]
 
     if not filtered_equipment:
-        return {"primary_equipment": None, "secondary_equipment": None}
+        return {
+            "primary_equipment": None, 
+            "secondary_equipment": None,
+            "tertiary_equipment": None
+        }
 
     # Sort equipment by confidence score in descending order
     sorted_equipment = sorted(filtered_equipment, key=lambda x: x.get("confidence", 0), reverse=True)
@@ -170,6 +191,7 @@ def extract_equipment_info(equipment_list):
     # Initialize with 'Other' as default
     primary_equipment = "Other"
     secondary_equipment = None
+    tertiary_equipment = None
 
     if sorted_equipment:
         # Try to map primary equipment
@@ -185,10 +207,19 @@ def extract_equipment_info(equipment_list):
                 if sorted_equipment[1]["equipment"] in equip_items:
                     secondary_equipment = equip_category
                     break
+        
+        # If there's more than two equipment items, try to map tertiary
+        if len(sorted_equipment) > 2:
+            tertiary_equipment = "Other"
+            for equip_category, equip_items in equipment_mapping.items():
+                if sorted_equipment[2]["equipment"] in equip_items:
+                    tertiary_equipment = equip_category
+                    break
 
     return {
         "primary_equipment": primary_equipment,
-        "secondary_equipment": secondary_equipment
+        "secondary_equipment": secondary_equipment,
+        "tertiary_equipment": tertiary_equipment
     }
 
 
