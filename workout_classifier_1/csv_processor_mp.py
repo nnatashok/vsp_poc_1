@@ -18,7 +18,7 @@ def analyze_workout(args):
     Process a single workout video URL - for multiprocessing pool.
 
     Args:
-        args (tuple): Contains (url, youtube_api_key, openai_api_key, enabled_features)
+        args (tuple): Contains (url, youtube_api_key, openai_api_key, enabled_features, process_id)
 
     Returns:
         dict or None: Analysis results or None if failed
@@ -64,6 +64,7 @@ def analyze_workout(args):
             'video_title': db_structure.get('video_title', ''),
             'channel_title': db_structure.get('channel_title', ''),
             'duration': db_structure.get('duration', ''),
+            'duration_minutes': db_structure.get('duration_minutes', 0),
             'category': db_structure.get('category', ''),
             'subcategory': db_structure.get('subcategory', ''),
             'secondary_category': db_structure.get('secondary_category', ''),
@@ -78,6 +79,13 @@ def analyze_workout(args):
             'secondary_spirit': db_structure.get('secondary_spirit', ''),
             'primary_vibe': db_structure.get('primary_vibe', ''),
             'secondary_vibe': db_structure.get('secondary_vibe', ''),
+            'reviewable': db_structure.get('reviewable', False),
+            'review_comment': db_structure.get('review_comment', ''),
+            'techniqueDifficulty': json.dumps(db_structure.get('techniqueDifficulty', [])),
+            'effortDifficulty': json.dumps(db_structure.get('effortDifficulty', [])),
+            'techniqueDifficultyExplanation': db_structure.get('techniqueDifficultyExplanation', ''),
+            'effortDifficultyExplanation': db_structure.get('effortDifficultyExplanation', ''),
+            'requiredFitnessLevelExplanation': db_structure.get('requiredFitnessLevelExplanation', ''),
             'full_analysis_json': json.dumps(result)
         }
 
@@ -92,6 +100,7 @@ def analyze_workout(args):
 def write_results_to_csv(results, output_csv_path):
     """
     Write analysis results to CSV file.
+    Filter out duplicates based on video_id (keeping the first occurrence).
 
     Args:
         results (list): List of analysis results
@@ -100,15 +109,25 @@ def write_results_to_csv(results, output_csv_path):
     # Filter out None results (failed analyses)
     valid_results = [r for r in results if r is not None]
 
+    # Deduplicate results based on video_id
+    unique_results = {}
+    for result in valid_results:
+        video_id = result.get('video_id')
+        if video_id and video_id not in unique_results:
+            unique_results[video_id] = result
+
     # Write to output CSV
     with open(output_csv_path, 'w', newline='', encoding='utf-8') as csvfile:
         # Define field names for the CSV header
         fieldnames = [
-            'video_id', 'video_url', 'video_title', 'channel_title', 'duration',
+            'video_id', 'video_url', 'video_title', 'channel_title', 'duration', 'duration_minutes',
             'category', 'subcategory', 'secondary_category', 'secondary_subcategory',
             'fitness_level', 'secondary_fitness_level', 'tertiary_fitness_level',
             'primary_equipment', 'secondary_equipment', 'tertiary_equipment',
             'primary_spirit', 'secondary_spirit', 'primary_vibe', 'secondary_vibe',
+            'reviewable', 'review_comment',
+            'techniqueDifficulty', 'effortDifficulty',
+            'techniqueDifficultyExplanation', 'effortDifficultyExplanation', 'requiredFitnessLevelExplanation',
             'full_analysis_json'
         ]
 
@@ -116,8 +135,10 @@ def write_results_to_csv(results, output_csv_path):
         writer.writeheader()
 
         # Write data rows
-        for result in valid_results:
+        for result in unique_results.values():
             writer.writerow(result)
+
+    return unique_results
 
 
 def process_workouts_csv_mp(input_csv_path, output_csv_path, max_workouts=None, num_processes=10,
@@ -184,18 +205,29 @@ def process_workouts_csv_mp(input_csv_path, output_csv_path, max_workouts=None, 
             if is_youtube_url(str(row[col])):
                 all_urls.append(str(row[col]))
 
+    # Deduplicate URLs based on video_id
+    unique_urls = {}
+    for url in all_urls:
+        video_id = extract_video_id(url)
+        if video_id and video_id not in unique_urls:
+            unique_urls[video_id] = url
+
+    deduplicated_urls = list(unique_urls.values())
+
     total_urls = len(all_urls)
+    unique_url_count = len(deduplicated_urls)
     print(f"Found {total_urls} total YouTube URLs in the CSV")
+    print(f"After deduplication: {unique_url_count} unique URLs")
 
     # Limit the number of workouts to process if specified
     if max_workouts and max_workouts > 0:
-        all_urls = all_urls[:max_workouts]
+        deduplicated_urls = deduplicated_urls[:max_workouts]
         print(f"Limited to processing {max_workouts} URLs")
 
     # Check if we have more processes than URLs
-    actual_processes = min(num_processes, max(1, len(all_urls)))
+    actual_processes = min(num_processes, max(1, len(deduplicated_urls)))
     if actual_processes != num_processes:
-        print(f"Using {actual_processes} processes for {len(all_urls)} URLs")
+        print(f"Using {actual_processes} processes for {len(deduplicated_urls)} URLs")
 
     # Set up enabled features dictionary
     enabled_features = {
@@ -207,18 +239,18 @@ def process_workouts_csv_mp(input_csv_path, output_csv_path, max_workouts=None, 
     }
 
     # Create batches of URLs for each process
-    batch_size = len(all_urls) // actual_processes
-    if len(all_urls) % actual_processes != 0:
+    batch_size = len(deduplicated_urls) // actual_processes
+    if len(deduplicated_urls) % actual_processes != 0:
         batch_size += 1
 
     # Split URLs into batches
     url_batches = []
-    for i in range(0, len(all_urls), batch_size):
-        batch = all_urls[i:i + batch_size]
+    for i in range(0, len(deduplicated_urls), batch_size):
+        batch = deduplicated_urls[i:i + batch_size]
         url_batches.append(batch)
 
     # Print batch information
-    print(f"Split {len(all_urls)} URLs into {len(url_batches)} batches")
+    print(f"Split {len(deduplicated_urls)} URLs into {len(url_batches)} batches")
 
     # Prepare arguments for each process
     process_args = []
@@ -243,21 +275,28 @@ def process_workouts_csv_mp(input_csv_path, output_csv_path, max_workouts=None, 
     end_time = time.time()
     duration = end_time - start_time
 
-    # Write results to CSV
+    # Write results to CSV (with deduplication)
     print(f"Processing complete. Writing results to {output_csv_path}")
-    write_results_to_csv(results, output_csv_path)
+    unique_results = write_results_to_csv(results, output_csv_path)
 
     # Count successful analyses
-    successful_analyses = sum(1 for result in results if result is not None)
+    successful_analyses = len(unique_results)
+
+    # Count reviewable/non-reviewable
+    reviewable_count = sum(1 for result in unique_results.values() if result.get('reviewable', False))
+    non_reviewable_count = successful_analyses - reviewable_count
 
     print(f"\nProcessing complete!")
     print(f"Total URLs found: {total_urls}")
-    print(f"Processed URLs: {len(all_urls)}")
+    print(f"Unique URLs found: {unique_url_count}")
+    print(f"Processed URLs: {len(deduplicated_urls)}")
     print(f"Successful analyses: {successful_analyses}")
+    print(f"Reviewable trainings: {reviewable_count}")
+    print(f"Non-reviewable trainings: {non_reviewable_count}")
     print(f"Results saved to: {output_csv_path}")
     print(f"Total processing time: {duration:.2f} seconds")
-    if len(all_urls) > 0:
-        print(f"Average time per workout: {duration / len(all_urls):.2f} seconds")
+    if len(deduplicated_urls) > 0:
+        print(f"Average time per workout: {duration / len(deduplicated_urls):.2f} seconds")
 
     return results  # Return results for potential further use
 
@@ -303,9 +342,5 @@ if __name__ == "__main__":
         enable_equipment=args.equipment
     )
 
-    if results:
-        # Count successful analyses
-        successful_analyses = sum(1 for result in results if result is not None)
-
-        print(f"\nSummary:")
-        print(f"Successful analyses: {successful_analyses}")
+    # Cannot use results directly here as they are deduplicated in write_results_to_csv function
+    print(f"\nProcess completed successfully!")
