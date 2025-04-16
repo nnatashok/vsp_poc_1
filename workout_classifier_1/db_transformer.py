@@ -39,11 +39,25 @@ def transform_to_db_structure(analysis):
     if "fitness_level" in analysis and "requiredFitnessLevel" in analysis["fitness_level"]:
         db_structure.update(extract_fitness_level_info(analysis["fitness_level"]["requiredFitnessLevel"]))
 
-        # Add the fitness level explanations
+        # Extract technique difficulty levels
         if "techniqueDifficulty" in analysis["fitness_level"]:
-            db_structure["techniqueDifficulty"] = analysis["fitness_level"]["techniqueDifficulty"]
+            technique_levels = extract_difficulty_levels(analysis["fitness_level"]["techniqueDifficulty"])
+            db_structure.update({
+                "primary_technique_difficulty": technique_levels.get("primary_level"),
+                "secondary_technique_difficulty": technique_levels.get("secondary_level"),
+                "tertiary_technique_difficulty": technique_levels.get("tertiary_level")
+            })
+
+        # Extract effort difficulty levels
         if "effortDifficulty" in analysis["fitness_level"]:
-            db_structure["effortDifficulty"] = analysis["fitness_level"]["effortDifficulty"]
+            effort_levels = extract_difficulty_levels(analysis["fitness_level"]["effortDifficulty"])
+            db_structure.update({
+                "primary_effort_difficulty": effort_levels.get("primary_level"),
+                "secondary_effort_difficulty": effort_levels.get("secondary_level"),
+                "tertiary_effort_difficulty": effort_levels.get("tertiary_level")
+            })
+
+        # Add the fitness level explanations
         if "techniqueDifficultyExplanation" in analysis["fitness_level"]:
             db_structure["techniqueDifficultyExplanation"] = analysis["fitness_level"]["techniqueDifficultyExplanation"]
         if "effortDifficultyExplanation" in analysis["fitness_level"]:
@@ -56,8 +70,12 @@ def transform_to_db_structure(analysis):
             "fitness_level": None,
             "secondary_fitness_level": None,
             "tertiary_fitness_level": None,
-            "techniqueDifficulty": None,
-            "effortDifficulty": None,
+            "primary_technique_difficulty": None,
+            "secondary_technique_difficulty": None,
+            "tertiary_technique_difficulty": None,
+            "primary_effort_difficulty": None,
+            "secondary_effort_difficulty": None,
+            "tertiary_effort_difficulty": None,
             "techniqueDifficultyExplanation": None,
             "effortDifficultyExplanation": None,
             "requiredFitnessLevelExplanation": None
@@ -96,6 +114,46 @@ def transform_to_db_structure(analysis):
     db_structure.update(review_info)
 
     return db_structure
+
+
+def extract_difficulty_levels(difficulty_list):
+    """
+    Extract primary, secondary, and tertiary difficulty levels from a list of difficulty objects.
+
+    Args:
+        difficulty_list (list): List of difficulty objects with level and score
+
+    Returns:
+        dict: Primary, secondary, and tertiary difficulty levels
+    """
+    if not difficulty_list:
+        return {
+            "primary_level": None,
+            "secondary_level": None,
+            "tertiary_level": None
+        }
+
+    # Sort levels by score in descending order
+    sorted_levels = sorted(difficulty_list, key=lambda x: x.get("score", 0), reverse=True)
+
+    # Get highest-scored level
+    primary_level = sorted_levels[0]["level"] if sorted_levels else None
+
+    # Check if there's a secondary level with score > 0.5
+    secondary_level = None
+    if len(sorted_levels) > 1 and sorted_levels[1].get("score", 0) > 0.5:
+        secondary_level = sorted_levels[1]["level"]
+
+    # Check if there's a tertiary level with score > 0.5
+    tertiary_level = None
+    if len(sorted_levels) > 2 and sorted_levels[2].get("score", 0) > 0.5:
+        tertiary_level = sorted_levels[2]["level"]
+
+    return {
+        "primary_level": primary_level,
+        "secondary_level": secondary_level,
+        "tertiary_level": tertiary_level
+    }
 
 
 def extract_minutes_from_duration(duration_str):
