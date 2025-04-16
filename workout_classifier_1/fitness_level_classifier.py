@@ -73,6 +73,7 @@ For Required Fitness Level, evaluate the combination of the above plus:
 - Prerequisites mentioned
 - Community feedback about accessibility
 
+#? did this ever happen that result landed inbetween? maybe specify round down score to one decimal?
 SCORE VALUES EXPLANATION:
 - 0.8-1.0: Extremely strong alignment with this level, definitive classification
 - 0.6-0.79: Strong alignment, clearly fits this level
@@ -128,7 +129,7 @@ FITNESS_LEVEL_RESPONSE_FORMAT = {
                         "required": ["level", "score"]
                     },
                     "minItems": 1,
-                    "maxItems": 4
+                    "maxItems": 4 #? you have 4 difficulties together, so you allow to return them all?
                 },
                 "techniqueDifficultyConfidence": {
                     "type": "number",
@@ -157,7 +158,7 @@ FITNESS_LEVEL_RESPONSE_FORMAT = {
                         "required": ["level", "score"]
                     },
                     "minItems": 1,
-                    "maxItems": 4
+                    "maxItems": 4 #? same here ^^^^
                 },
                 "effortDifficultyConfidence": {
                     "type": "number",
@@ -186,7 +187,7 @@ FITNESS_LEVEL_RESPONSE_FORMAT = {
                         "required": ["level", "score"]
                     },
                     "minItems": 1,
-                    "maxItems": 4
+                    "maxItems": 4 #? same here ^^^^
                 },
                 "requiredFitnessLevelConfidence": {
                     "type": "number",

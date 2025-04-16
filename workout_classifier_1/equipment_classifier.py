@@ -87,7 +87,7 @@ EQUIPMENT_RESPONSE_FORMAT = {
                             "confidence": {
                                 "type": "number",
                                 "minimum": 0,
-                                "maximum": 1
+                                "maximum": 1 #? why one?
                             }
                         },
                         "required": ["equipment", "confidence"]

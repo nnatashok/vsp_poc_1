@@ -86,7 +86,7 @@ CATEGORY_RESPONSE_FORMAT = {
                         "required": ["name", "score"]
                     },
                     "minItems": 1,
-                    "maxItems": 3
+                    "maxItems": 3 #? why three?
                 },
                 "categoriesConfidence": {
                     "type": "number",

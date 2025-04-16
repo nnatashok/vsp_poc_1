@@ -25,12 +25,11 @@ def is_youtube_url(url):
 
     return True
 
-
 def process_workouts_csv(input_csv_path, output_csv_path, max_workouts=None, 
                         enable_category=True, enable_fitness_level=True, 
                         enable_vibe=True, enable_spirit=True, enable_equipment=True):
     """
-    Process YouTube workout URLs from a CSV file and output analysis results.
+    Process YouTube workout URLs from a CSV file and output analysis results. #? this function is supposed to be not for YTB only?
     Always rewrites the output file from scratch.
 
     Args:
@@ -129,7 +128,7 @@ def process_workouts_csv(input_csv_path, output_csv_path, max_workouts=None,
 
     # Process each YouTube URL
     for url in tqdm(all_urls, desc="Processing workouts"):
-        if not is_youtube_url(url):
+        if not is_youtube_url(url): #? adding logs maybe? #maybe tracking keys/ids from original csv?
             continue
 
         valid_youtube_urls += 1
@@ -179,7 +178,7 @@ def process_workouts_csv(input_csv_path, output_csv_path, max_workouts=None,
                 db_structure.get('secondary_subcategory', ''),
                 db_structure.get('fitness_level', ''),
                 db_structure.get('secondary_fitness_level', ''),
-                db_structure.get('tertiary_fitness_level', ''),  # New field
+                db_structure.get('tertiary_fitness_level', ''),  # New field #? todos?
                 db_structure.get('primary_equipment', ''),
                 db_structure.get('secondary_equipment', ''),
                 db_structure.get('tertiary_equipment', ''),  # New field

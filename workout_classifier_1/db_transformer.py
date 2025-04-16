@@ -16,8 +16,9 @@ def transform_to_db_structure(analysis):
         "duration": analysis.get("duration", "")
     }
 
+    #? rewrite ? 
     # Process category data
-    if "category" in analysis and "categories" in analysis["category"]:
+    if "category" in analysis and "categories" in analysis["category"]: #? I thought those properties required, also unify names maybe, and rewrite in 3 lines?
         db_structure.update(extract_category_info(analysis["category"]["categories"]))
 
     # Process fitness level data

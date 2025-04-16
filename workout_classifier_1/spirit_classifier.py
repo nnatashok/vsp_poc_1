@@ -27,6 +27,7 @@ When writing the 'spiritsExplanation' field, provide a detailed and structured a
 5. Explains why other potential spirits were excluded (if relevant)
 6. Keep explanations concise but comprehensive (typically 100-200 words)
 
+#? falling between?
 CONFIDENCE LEVELS EXPLANATION:
 - 0.8-1.0: Very high confidence - Strong explicit indicators in title, description, or visuals
 - 0.6-0.79: High confidence - Clear indicators or strong implicit evidence
