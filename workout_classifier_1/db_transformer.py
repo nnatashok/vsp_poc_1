@@ -297,7 +297,7 @@ def extract_fitness_level_info(fitness_levels):
 
     # Check if there's a secondary fitness level with score > 0.5
     secondary_level = None
-    if len(sorted_levels) > 1 and sorted_levels[1].get("score", 0) > 0.4:
+    if len(sorted_levels) > 1 and sorted_levels[1].get("score", 0) >= 0.4:
         secondary_level = sorted_levels[1]["level"]
         # Map secondary level too (Elite becomes Advanced)
         if secondary_level == "Elite":
@@ -305,7 +305,7 @@ def extract_fitness_level_info(fitness_levels):
 
     # Check if there's a tertiary fitness level with score > 0.5
     tertiary_level = None
-    if len(sorted_levels) > 2 and sorted_levels[2].get("score", 0) > 0.4:
+    if len(sorted_levels) > 2 and sorted_levels[2].get("score", 0) >= 0.4:
         tertiary_level = sorted_levels[2]["level"]
         # Map tertiary level too (Elite becomes Advanced)
         if tertiary_level == "Elite":
