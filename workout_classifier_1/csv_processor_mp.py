@@ -1,3 +1,5 @@
+import re
+
 import pandas as pd
 import csv
 import json
@@ -5,12 +7,26 @@ import os
 import argparse
 import time
 from tqdm import tqdm
-from multiprocessing import Pool, cpu_count
-
-# Import from original csv_processor
-from csv_processor import is_youtube_url, load_api_keys
+from multiprocessing import Pool
 from unified_workout_classifier import analyze_youtube_workout, extract_video_id
 from db_transformer import transform_to_db_structure
+from workout_classifier_1.env_utils import load_api_keys
+
+
+def is_youtube_url(url):
+    """Check if a URL is a YouTube video URL (not a playlist)."""
+    if not isinstance(url, str):
+        return False
+
+    youtube_pattern = r'(https?://)?(www\.)?(youtube|youtu|youtube-nocookie)\.(com|be)/.+$'
+    if not re.match(youtube_pattern, url):
+        return False
+
+    # Exclude playlist URLs
+    if 'list=' in url or 'playlist' in url:
+        return False
+
+    return True
 
 
 def analyze_workout(args):
