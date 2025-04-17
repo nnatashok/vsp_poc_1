@@ -141,8 +141,8 @@ def process_workouts_csv(input_csv_path, output_csv_path, max_workouts=None,
     # Process each YouTube URL
     for sch, schema in tqdm(enumerate(all_jsons), total=len(all_jsons), desc="Processing workouts"):
         # ! sample every 100
-        # if sch%100 != 0: 
-        #     continue
+        if sch%100 != 0: 
+            continue
         
         if is_hydrow_meta(schema):
             schema = json.loads(schema)

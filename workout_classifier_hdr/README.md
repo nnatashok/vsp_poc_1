@@ -13,7 +13,6 @@ A comprehensive tool for analyzing and classifying YouTube workout videos. This 
 ### Prerequisites
 
 - Python 3.11+
-- YouTube Data API v3 key
 - OpenAI API key
 
 ### Installation
@@ -30,7 +29,6 @@ A comprehensive tool for analyzing and classifying YouTube workout videos. This 
 Example `.env` file:
 
 ```
-YOUTUBE_API_KEY=your_youtube_api_key_here
 OPENAI_API_KEY=your_openai_api_key_here
 ```
 

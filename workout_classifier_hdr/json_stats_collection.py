@@ -146,7 +146,7 @@ if __name__ == "__main__":
     freq_df = generate_key_frequency(DATA_FOLDER)
     freq_df.to_csv(FREQ_TABLE_OUT)
     print(f"Field frequency table saved to {FREQ_TABLE_OUT}")
-# 
+
 
 # import os
 # import json
@@ -155,10 +155,10 @@ if __name__ == "__main__":
 # from tqdm import tqdm
 
 # # --- Config ---
-# JSON_DIR = Path("/home/karalandes/Documents/Juliy/VideoClfv1/vsp_poc_1/data_raw/hydrow_jsons")  # 👈 replace with your actual path
+# JSON_DIR = Path("/home/karalandes/Documents/Juliy/VideoClfv1/vsp_poc_1/data_raw/hydrow_jsons")
 
 # # --- Initialize Counter ---
-# workout_type_counter = Counter()
+# stroke_name_counter = Counter()
 
 # # --- Loop over JSON files ---
 # for file_path in tqdm(list(JSON_DIR.glob("*.json")), desc="Processing JSON files"):
@@ -166,26 +166,18 @@ if __name__ == "__main__":
 #         with open(file_path, 'r') as f:
 #             data = json.load(f)
 
-#             # Look for 'workoutTypes' field at any level
-#             def find_workout_types(d):
-#                 if isinstance(d, dict):
-#                     for k, v in d.items():
-#                         if k == "workoutTypes" and isinstance(v, list):
-#                             for item in v:
-#                                 if isinstance(item, str):
-#                                     workout_type_counter[item.strip()] += 1
-#                         else:
-#                             find_workout_types(v)
-#                 elif isinstance(d, list):
-#                     for item in d:
-#                         find_workout_types(item)
+#             # Navigate directly to instructors.stroke.name
+#             instructors = data.get("instructors", {})
+#             stroke = instructors.get("stroke", {})
+#             name = stroke.get("name")
 
-#             find_workout_types(data)
+#             if isinstance(name, str) and name.strip():
+#                 stroke_name_counter[name.strip()] += 1
 
 #     except Exception as e:
 #         print(f"⚠️ Failed to process {file_path.name}: {e}")
 
 # # --- Output counts ---
-# print("\n💪 Detected workoutTypes values and counts:")
-# for wtype, count in workout_type_counter.most_common():
-#     print(f"{wtype}: {count}")
+# print("\n🧑‍🏫 Detected instructors.stroke.name values and counts:")
+# for name, count in stroke_name_counter.most_common():
+#     print(f"{name}: {count}")

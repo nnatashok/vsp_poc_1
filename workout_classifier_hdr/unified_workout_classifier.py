@@ -11,6 +11,7 @@ from typing import Dict, Any
 from PIL import Image
 import requests
 from io import BytesIO
+import pandas as pd
 
 # Import classifier modules
 from category_classifier import CATEGORY_PROMPT, CATEGORY_USER_PROMPT, CATEGORY_RESPONSE_FORMAT
@@ -309,7 +310,21 @@ def extract_hydrow_meta_from_json(data: Dict[str, Any]) -> Dict[str, Any]:
     def get_instructor(data):
         instructor_name = data.get("instructors", {}).get("stroke", {}).get("name")
         if instructor_name == "No Athlete": instructor_name = "Unknown"
-        return instructor_name
+        
+        # ! adding lookup for instructors bio
+        file_path = 'workout_classifier_hdr/hydrow_ athletes_bio.csv'
+        if os.path.exists(file_path):
+            df = pd.read_csv(file_path)
+            # Normalize column 0 for case-insensitive comparison
+            match = df[df.iloc[:, 0].str.strip().str.lower() == instructor_name.strip().lower()]
+            if not match.empty:
+                bio = match.iloc[0, 1]
+            else:
+                print(f"No bio found for instructor: {instructor_name}")
+        else:
+            print(f"File not found: {file_path}")
+
+        return instructor_name+":\n"+bio+"\n"
     
     # Download poster image
     image_url = data.get("posterUri")
