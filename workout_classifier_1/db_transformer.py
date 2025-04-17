@@ -4,6 +4,7 @@ import json
 def transform_to_db_structure(analysis):
     """
     Transform the workout analysis into a database-friendly structure.
+    This version excludes explanation columns.
 
     Args:
         analysis (dict): The combined analysis from the workout classifier
@@ -27,18 +28,13 @@ def transform_to_db_structure(analysis):
     # Process category data
     if "category" in analysis and "categories" in analysis["category"]:
         db_structure.update(extract_category_info(analysis["category"]["categories"]))
-        # Add category explanation if available
-        if "categoriesExplanation" in analysis["category"]:
-            db_structure["categoriesExplanation"] = analysis["category"]["categoriesExplanation"]
-        else:
-            db_structure["categoriesExplanation"] = None
+        # Explanation column removed
     else:
         db_structure.update({
             "category": None,
             "subcategory": None,
             "secondary_category": None,
-            "secondary_subcategory": None,
-            "categoriesExplanation": None
+            "secondary_subcategory": None
         })
 
     # Process fitness level data
@@ -63,14 +59,7 @@ def transform_to_db_structure(analysis):
                 "tertiary_effort_difficulty": effort_levels.get("tertiary_level")
             })
 
-        # Add the fitness level explanations
-        if "techniqueDifficultyExplanation" in analysis["fitness_level"]:
-            db_structure["techniqueDifficultyExplanation"] = analysis["fitness_level"]["techniqueDifficultyExplanation"]
-        if "effortDifficultyExplanation" in analysis["fitness_level"]:
-            db_structure["effortDifficultyExplanation"] = analysis["fitness_level"]["effortDifficultyExplanation"]
-        if "requiredFitnessLevelExplanation" in analysis["fitness_level"]:
-            db_structure["requiredFitnessLevelExplanation"] = analysis["fitness_level"][
-                "requiredFitnessLevelExplanation"]
+        # Explanation columns removed
     else:
         db_structure.update({
             "fitness_level": None,
@@ -81,56 +70,38 @@ def transform_to_db_structure(analysis):
             "tertiary_technique_difficulty": None,
             "primary_effort_difficulty": None,
             "secondary_effort_difficulty": None,
-            "tertiary_effort_difficulty": None,
-            "techniqueDifficultyExplanation": None,
-            "effortDifficultyExplanation": None,
-            "requiredFitnessLevelExplanation": None
+            "tertiary_effort_difficulty": None
         })
 
     # Process equipment data
     if "equipment" in analysis and "requiredEquipment" in analysis["equipment"]:
         db_structure.update(extract_equipment_info(analysis["equipment"]["requiredEquipment"]))
-        # Add equipment explanation if available
-        if "requiredEquipmentExplanation" in analysis["equipment"]:
-            db_structure["equipmentExplanation"] = analysis["equipment"]["requiredEquipmentExplanation"]
-        else:
-            db_structure["equipmentExplanation"] = None
+        # Explanation column removed
     else:
         db_structure.update({
             "primary_equipment": None,
             "secondary_equipment": None,
-            "tertiary_equipment": None,
-            "equipmentExplanation": None
+            "tertiary_equipment": None
         })
 
     # Process spirit data
     if "spirit" in analysis and "spirits" in analysis["spirit"]:
         db_structure.update(extract_spirit_info(analysis["spirit"]["spirits"]))
-        # Add spirit explanation if available
-        if "spiritsExplanation" in analysis["spirit"]:
-            db_structure["spiritExplanation"] = analysis["spirit"]["spiritsExplanation"]
-        else:
-            db_structure["spiritExplanation"] = None
+        # Explanation column removed
     else:
         db_structure.update({
             "primary_spirit": None,
-            "secondary_spirit": None,
-            "spiritExplanation": None
+            "secondary_spirit": None
         })
 
     # Process vibe data
     if "vibe" in analysis and "vibes" in analysis["vibe"]:
         db_structure.update(extract_vibe_info(analysis["vibe"]["vibes"]))
-        # Add vibe explanation if available
-        if "vibesExplanation" in analysis["vibe"]:
-            db_structure["vibeExplanation"] = analysis["vibe"]["vibesExplanation"]
-        else:
-            db_structure["vibeExplanation"] = None
+        # Explanation column removed
     else:
         db_structure.update({
             "primary_vibe": None,
-            "secondary_vibe": None,
-            "vibeExplanation": None
+            "secondary_vibe": None
         })
 
     # Add reviewable and review_comment fields
