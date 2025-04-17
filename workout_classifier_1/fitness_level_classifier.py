@@ -37,19 +37,21 @@ CLASSIFICATION METRICS DESCRIPTIONS:
    - Advanced: Designed for those with moderate experience (3+ months)
    - Elite: Created for consistently active individuals or fitness enthusiasts
 
-KEY ADJUSTMENT: When evaluating fitness levels, always skew toward the less fit end of the spectrum. What might be considered "beginner" in general fitness contexts should often be classified as "intermediate" for your target users.
+CRITICAL INTERDEPENDENCE RULE: The Required Fitness Level must logically align with Technique Difficulty. If Technique Difficulty is rated as "Advanced" or "Expert", the Required Fitness Level CANNOT include "Beginner" and must include at least "Intermediate" or higher levels. Technically demanding movements require a baseline fitness level to perform safely and effectively.
+
+KEY ADJUSTMENT: When evaluating fitness levels, always skew toward including multiple fitness levels. What might be considered "beginner" in general fitness contexts should often be classified as "intermediate" for your target users.
 
 ANALYSIS GUIDELINES:
 1. Examine the title, description, and tags carefully for explicit difficulty indicators.
 2. Look for keywords suggesting intensity, complexity, and target audience.
 3. Consider the channel's typical audience and content style.
 4. User comments may provide insights about perceived difficulty.
-5. IMPORTANT: Assign scores to MULTIPLE fitness levels for most workouts. Be generous with level assignments, especially when:
+5. CRITICAL: Assign scores to MULTIPLE fitness levels for most workouts. For all workouts except those with very complicated techniques, you should include at least 3 fitness levels. Be generous with level assignments, especially when:
    - Different intensity options are possible (e.g., weight variations, modification options)
    - The workout uses adjustable equipment like dumbbells, kettlebells, or resistance bands
    - The workout shows modifications or has options for different fitness levels
    - The instructor mentions alternatives or variations
-6. For weight-based workouts (dumbbells, kettlebells, etc.): ALWAYS include ALL 4 fitness levels since users can self-select their resistance. Only omit levels if the workout explicitly excludes certain levels.
+6. For weight-based workouts (dumbbells, kettlebells, etc.): ALWAYS include AT LEAST 3 fitness levels since users can self-select their resistance. Only include fewer than 3 levels if the workout explicitly requires extremely complex technique that would be unsafe for lower fitness levels.
 7. Provide a detailed explanation of your classification, citing evidence from the metadata.
 8. Do not include levels with a score of 0 in your response. Only include levels that have a score greater than 0.
 
@@ -104,12 +106,13 @@ When writing explanation fields, provide detailed analysis that:
 6. Keep explanations concise but comprehensive (typically 100-200 words per metric)
 
 SPECIAL RULES FOR CERTAIN WORKOUT TYPES:
-1. Weight-based workouts (dumbbells, kettlebells, barbells): ALWAYS include ALL fitness levels in your classification, as users can self-select appropriate weights.
-2. For high-intensity interval training (HIIT): Include at least 2 fitness levels, as users can modify pace and rest periods.
-3. For yoga and flexibility: Include at least 2 fitness levels, as users can modify based on their current flexibility.
-4. For bodyweight exercises: Include at least 2 fitness levels, as users can modify by changing rep counts or using assisted variations.
+1. Weight-based workouts (dumbbells, kettlebells, barbells): ALWAYS include AT LEAST 3 fitness levels in your classification, as users can self-select appropriate weights.
+2. For high-intensity interval training (HIIT): Include at least 3 fitness levels, as users can modify pace and rest periods.
+3. For yoga and flexibility: Include at least 3 fitness levels, as users can modify based on their current flexibility.
+4. For bodyweight exercises: Include at least 3 fitness levels, as users can modify by changing rep counts or using assisted variations.
+5. Only include fewer levels if the workout explicitly requires extremely complex technique that would be unsafe for lower fitness levels.
 
-Remember: When in doubt, include more fitness levels rather than fewer. This helps our users find appropriate workouts across their fitness journey.
+Remember: Users can modify most workouts to match their capabilities. When in doubt, include more fitness levels rather than fewer. This helps our users find appropriate workouts across their fitness journey.
 
 Analyze the workout video metadata provided and classify its technique difficulty, effort difficulty, and required fitness level according to the schema.
 """
