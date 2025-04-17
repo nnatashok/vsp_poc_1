@@ -177,7 +177,7 @@ def check_reviewable(data):
     Check if a workout is reviewable and generate review comments.
 
     A workout is reviewable if it has at least primary category, subcategory,
-    fitness level and vibe set.
+    fitness level and vibe set. Workouts with category "Other" are not reviewable.
 
     Args:
         data (dict): Workout data
@@ -186,6 +186,13 @@ def check_reviewable(data):
         dict: Reviewable flag and review comments
     """
     missing_tags = []
+
+    # Check if category is "Other" - make not reviewable
+    if data.get("category") == "Other":
+        return {
+            "reviewable": False,
+            "review_comment": json.dumps(["other_category"])
+        }
 
     # Check required fields
     if not data.get("category"):
