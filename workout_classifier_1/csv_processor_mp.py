@@ -85,20 +85,16 @@ def analyze_workout(args):
             'subcategory': db_structure.get('subcategory', ''),
             'secondary_category': db_structure.get('secondary_category', ''),
             'secondary_subcategory': db_structure.get('secondary_subcategory', ''),
-            'categoriesExplanation': db_structure.get('categoriesExplanation', ''),
             'fitness_level': db_structure.get('fitness_level', ''),
             'secondary_fitness_level': db_structure.get('secondary_fitness_level', ''),
             'tertiary_fitness_level': db_structure.get('tertiary_fitness_level', ''),
             'primary_equipment': db_structure.get('primary_equipment', ''),
             'secondary_equipment': db_structure.get('secondary_equipment', ''),
             'tertiary_equipment': db_structure.get('tertiary_equipment', ''),
-            'equipmentExplanation': db_structure.get('equipmentExplanation', ''),
             'primary_spirit': db_structure.get('primary_spirit', ''),
             'secondary_spirit': db_structure.get('secondary_spirit', ''),
-            'spiritExplanation': db_structure.get('spiritExplanation', ''),
             'primary_vibe': db_structure.get('primary_vibe', ''),
             'secondary_vibe': db_structure.get('secondary_vibe', ''),
-            'vibeExplanation': db_structure.get('vibeExplanation', ''),
             'reviewable': db_structure.get('reviewable', False),
             'review_comment': db_structure.get('review_comment', ''),
             'primary_technique_difficulty': db_structure.get('primary_technique_difficulty', ''),
@@ -107,9 +103,6 @@ def analyze_workout(args):
             'primary_effort_difficulty': db_structure.get('primary_effort_difficulty', ''),
             'secondary_effort_difficulty': db_structure.get('secondary_effort_difficulty', ''),
             'tertiary_effort_difficulty': db_structure.get('tertiary_effort_difficulty', ''),
-            'techniqueDifficultyExplanation': db_structure.get('techniqueDifficultyExplanation', ''),
-            'effortDifficultyExplanation': db_structure.get('effortDifficultyExplanation', ''),
-            'requiredFitnessLevelExplanation': db_structure.get('requiredFitnessLevelExplanation', ''),
             'full_analysis_json': json.dumps(result, sort_keys=True, indent=2)
         }
 
@@ -145,15 +138,14 @@ def write_results_to_csv(results, output_csv_path):
         # Define field names for the CSV header
         fieldnames = [
             'video_id', 'video_url', 'video_title', 'channel_title', 'duration', 'duration_minutes',
-            'category', 'subcategory', 'secondary_category', 'secondary_subcategory', 'categoriesExplanation',
+            'category', 'subcategory', 'secondary_category', 'secondary_subcategory',
             'fitness_level', 'secondary_fitness_level', 'tertiary_fitness_level',
-            'primary_equipment', 'secondary_equipment', 'tertiary_equipment', 'equipmentExplanation',
-            'primary_spirit', 'secondary_spirit', 'spiritExplanation',
-            'primary_vibe', 'secondary_vibe', 'vibeExplanation',
+            'primary_equipment', 'secondary_equipment', 'tertiary_equipment',
+            'primary_spirit', 'secondary_spirit',
+            'primary_vibe', 'secondary_vibe',
             'reviewable', 'review_comment',
             'primary_technique_difficulty', 'secondary_technique_difficulty', 'tertiary_technique_difficulty',
             'primary_effort_difficulty', 'secondary_effort_difficulty', 'tertiary_effort_difficulty',
-            'techniqueDifficultyExplanation', 'effortDifficultyExplanation', 'requiredFitnessLevelExplanation',
             'full_analysis_json'
         ]
 

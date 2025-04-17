@@ -28,7 +28,6 @@ def transform_to_db_structure(analysis):
     # Process category data
     if "category" in analysis and "categories" in analysis["category"]:
         db_structure.update(extract_category_info(analysis["category"]["categories"]))
-        # Explanation column removed
     else:
         db_structure.update({
             "category": None,
@@ -58,8 +57,6 @@ def transform_to_db_structure(analysis):
                 "secondary_effort_difficulty": effort_levels.get("secondary_level"),
                 "tertiary_effort_difficulty": effort_levels.get("tertiary_level")
             })
-
-        # Explanation columns removed
     else:
         db_structure.update({
             "fitness_level": None,
@@ -76,7 +73,6 @@ def transform_to_db_structure(analysis):
     # Process equipment data
     if "equipment" in analysis and "requiredEquipment" in analysis["equipment"]:
         db_structure.update(extract_equipment_info(analysis["equipment"]["requiredEquipment"]))
-        # Explanation column removed
     else:
         db_structure.update({
             "primary_equipment": None,
@@ -87,7 +83,6 @@ def transform_to_db_structure(analysis):
     # Process spirit data
     if "spirit" in analysis and "spirits" in analysis["spirit"]:
         db_structure.update(extract_spirit_info(analysis["spirit"]["spirits"]))
-        # Explanation column removed
     else:
         db_structure.update({
             "primary_spirit": None,
@@ -97,7 +92,6 @@ def transform_to_db_structure(analysis):
     # Process vibe data
     if "vibe" in analysis and "vibes" in analysis["vibe"]:
         db_structure.update(extract_vibe_info(analysis["vibe"]["vibes"]))
-        # Explanation column removed
     else:
         db_structure.update({
             "primary_vibe": None,
