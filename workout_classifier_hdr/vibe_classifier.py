@@ -1,8 +1,9 @@
 # Classification prompt for vibe analysis
 VIBE_PROMPT = """You are a specialized AI fitness vibe analyst. Your task is to analyze workout video metadata and classify the workout into specific "workout vibes" - the emotional and experiential qualities of the workout. Examine the title, description, music and playlists information, and any other available metadata to make your classification as accurate as possible.
 
-#? maybe we can chain up spirit and vibe
-#? maybe provide spirit for each vibe?
+The platform you are analyzing focuses heavily on rowing-based workouts.
+It is crucial to understand the music genre provided for this workout to classify the vibe correctly.
+
 WORKOUT VIBE DESCRIPTIONS:
 - The Warrior Workout: Unleash your inner beast. Sweat-dripping, heart-pounding, primal energy. (Examples: HIIT, boxing, bootcamp, heavy strength training.)
 - The Firestarter: Fast, explosive, and electrifying. Short but devastating. (Examples: Tabata, sprint intervals, powerlifting bursts.)

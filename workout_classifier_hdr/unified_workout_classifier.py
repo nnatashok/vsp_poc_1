@@ -20,7 +20,7 @@ from spirit_classifier import SPIRIT_PROMPT, SPIRIT_USER_PROMPT, SPIRIT_RESPONSE
 from equipment_classifier import EQUIPMENT_PROMPT, EQUIPMENT_USER_PROMPT, EQUIPMENT_RESPONSE_FORMAT
 from db_transformer import transform_to_db_structure
 
-def analyse_hydrow_workout(schema, openai_api_key,
+def analyse_hydrow_workout(workout_json, openai_api_key,
                           cache_dir='cache', force_refresh=False,
                           enable_category=True, enable_fitness_level=True,
                           enable_vibe=True, enable_spirit=True, enable_equipment=True):
@@ -51,22 +51,21 @@ def analyse_hydrow_workout(schema, openai_api_key,
     try:
         oai_client = OpenAI(api_key=openai_api_key)
     except Exception as e:
-        # ! Remove comment
-        pass #return {"error": f"Failed to initialize API clients: {str(e)}"}
+        return {"error": f"Failed to initialize API clients: {str(e)}"}
 
     # Ensure cache directory exists
     os.makedirs(cache_dir, exist_ok=True)
 
     # extract image and textual summary
-    meta = extract_hydrow_meta_from_json(schema)
+    meta = extract_hydrow_meta_from_json(workout_json)
 
     # Initialize combined analysis
-    video_id = schema.get("id")
+    video_id = workout_json.get("id")
     combined_analysis = {
         "video_id": video_id,
-        "video_url":  schema.get("shareUrl"),
-        "video_title": schema.get("name"),
-        "duration": schema.get("duration")}
+        "video_url":  workout_json.get("shareUrl"),
+        "video_title": workout_json.get("name"),
+        "duration": workout_json.get("duration")}
 
     # Define classifier configurations
     classifiers = [
@@ -129,6 +128,29 @@ def analyse_hydrow_workout(schema, openai_api_key,
                     print(f"Loaded {name} analysis from cache: {cache_path}")
                 except Exception as e:
                     print(f"Error loading cached {name} analysis: {str(e)}. Running fresh analysis.")
+                    if not (classifier['name']=='fitness_level'):
+                        analysis = run_classifier(
+                            oai_client,
+                            meta,
+                            classifier["system_prompt"],
+                            classifier["user_prompt"],
+                            classifier["response_format"]
+                        )
+                        cache_data(analysis, cache_path)
+                    else:
+                        # ! now we proceed with fintess lvl, which is partially hardcoded
+                        fitness_base_schema = prefill_fitness_schema(workout_json.get('workoutTypes')[0])
+                        analysis = run_classifier(
+                                oai_client,
+                                meta,
+                                classifier["system_prompt"],
+                                classifier["user_prompt"],
+                                classifier["response_format"]
+                            )
+                        analysis = enforce_prefilled_fields(analysis, fitness_base_schema)                  
+                        cache_data(analysis, cache_path)
+            else:
+                if not (classifier['name']=='fitness_level'):
                     analysis = run_classifier(
                         oai_client,
                         meta,
@@ -137,18 +159,20 @@ def analyse_hydrow_workout(schema, openai_api_key,
                         classifier["response_format"]
                     )
                     cache_data(analysis, cache_path)
-            else:
-                analysis = run_classifier(
-                    oai_client,
-                    meta,
-                    classifier["system_prompt"],
-                    classifier["user_prompt"],
-                    classifier["response_format"]
-                )
-                cache_data(analysis, cache_path)
+                else:
+                    # ! now we proceed with fintess lvl, which is partially hardcoded
+                    fitness_base_schema = prefill_fitness_schema(workout_json.get('workoutTypes')[0])
+                    analysis = run_classifier(
+                            oai_client,
+                            meta,
+                            classifier["system_prompt"],
+                            classifier["user_prompt"],
+                            classifier["response_format"]
+                        )
+                    analysis = enforce_prefilled_fields(analysis, fitness_base_schema) 
+                    cache_data(analysis, cache_path)                 
 
             combined_analysis[name] = analysis
-
         return combined_analysis
 
     except Exception as e:
@@ -156,6 +180,86 @@ def analyse_hydrow_workout(schema, openai_api_key,
 
 
 # Other functions remain unchanged
+def prefill_fitness_schema(workout_type: str) -> dict:
+    """
+    Pre-fills the fitness level response schema based on hardcoded rules for workoutType.
+
+    - Breathe → Beginner
+    - Sweat → Intermediate
+    - Drive → Advanced
+    - Distance → Do not classify fitness level (leave it empty, explanation only)
+    - Other types → Suitable for all fitness levels (Beginner, Intermediate, Advanced) with score 1.0
+
+    Returns a structured but partially filled schema.
+    """
+    workout_type = workout_type.lower().strip()
+    schema = {
+        "techniqueDifficulty": [],
+        "techniqueDifficultyConfidence": None,
+        "techniqueDifficultyExplanation": "",
+
+        "effortDifficulty": [],
+        "effortDifficultyConfidence": None,
+        "effortDifficultyExplanation": "",
+
+        "requiredFitnessLevel": [],
+        "requiredFitnessLevelConfidence": None,
+        "requiredFitnessLevelExplanation": ""
+    }
+
+    if workout_type == "distance":
+        schema["requiredFitnessLevelExplanation"] = (
+            "Workout type is 'Distance'. Platform guidance states these workouts are not classified for fitness level."
+        )
+        return schema
+
+    level_map = {
+        "breathe": "Beginner",
+        "sweat": "Intermediate",
+        "drive": "Advanced"
+    }
+
+    if workout_type in level_map:
+        level = level_map[workout_type]
+        schema["requiredFitnessLevel"] = [{"level": level, "score": 1.0}]
+        schema["requiredFitnessLevelConfidence"] = 1.0
+        schema["requiredFitnessLevelExplanation"] = (
+            f"The workoutType is '{workout_type.capitalize()}', which is explicitly defined as a {level} workout "
+            f"based on platform rules. No further inference needed."
+        )
+    else:
+        # For all other workout types, mark as suitable for all levels
+        schema["requiredFitnessLevel"] = [
+            {"level": "Beginner", "score": 1.0},
+            {"level": "Intermediate", "score": 1.0},
+            {"level": "Advanced", "score": 1.0}
+        ]
+        schema["requiredFitnessLevelConfidence"] = 1.0
+        schema["requiredFitnessLevelExplanation"] = (
+            f"Workout type '{workout_type}' is not one of the specialized Hydrow categories "
+            f"(Breathe, Sweat, Drive, Distance). It is treated as suitable for all fitness levels."
+        )
+
+    return schema
+
+def enforce_prefilled_fields(gpt_result: dict, prefilled: dict, keys_to_override = ["requiredFitnessLevel","requiredFitnessLevelConfidence","requiredFitnessLevelExplanation"]) -> dict:
+    """
+    Replace selected fields in GPT output with your prefilled values.
+
+    Args:
+        gpt_result: Full GPT response (dictionary)
+        prefilled: Your prefilled fields (dictionary)
+        keys_to_override: List of keys to force from prefill
+
+    Returns:
+        A merged schema dictionary
+    """
+    final = gpt_result.copy()
+    for key in keys_to_override:
+        if key in prefilled:
+            final[key] = prefilled[key]
+    return final
+
 def cache_data(data, cache_path):
     """Cache data to a JSON file."""
     try:

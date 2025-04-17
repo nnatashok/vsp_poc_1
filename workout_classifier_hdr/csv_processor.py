@@ -7,7 +7,8 @@ import argparse
 import json
 from tqdm import tqdm  # For progress bar
 from env_utils import load_api_keys
-from unified_workout_classifier import extract_hydrow_meta_from_json, analyse_hydrow_workout
+from unified_workout_classifier import analyse_hydrow_workout, cache_data
+from json_stats_collection import flatten_json
 from db_transformer import transform_to_db_structure
 
 
@@ -60,9 +61,7 @@ def process_workouts_csv(input_csv_path, output_csv_path, max_workouts=None,
     """
     # Load API keys from .env files in different locations
     api_keys = load_api_keys()
-    # ! Remove comment and key 
-    #openai_api_key = api_keys.get('OPENAI_API_KEY')
-    openai_api_key = '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'
+    openai_api_key = api_keys.get('OPENAI_API_KEY')
     
     # Output API key status
     if openai_api_key:
@@ -141,20 +140,32 @@ def process_workouts_csv(input_csv_path, output_csv_path, max_workouts=None,
 
     # Process each YouTube URL
     for sch, schema in tqdm(enumerate(all_jsons), total=len(all_jsons), desc="Processing workouts"):
+        # ! sample every 100
+        # if sch%100 != 0: 
+        #     continue
+        
         if is_hydrow_meta(schema):
             schema = json.loads(schema)
         else:
-            print("The schema #{sch} not valid. Skipping.")
+            print("The json #{sch} not valid. Skipping.")
         
-        video_id = schema.get("id")
-
-        if not video_id:
-            print(f"Could not extract video ID from URL: schema #{sch}")
+        # ! skiping all workouts with no Genre label
+        flat_schema = flatten_json(schema)
+        if not any(k.endswith("musicGenre") for k in flat_schema):
+            print(f'For json #{sch} no musicGenre specified. Therefore workout is skipped.')
             continue
+
+        video_id = schema.get("id")
+        if not video_id:
+            print(f"Could not extract video ID from URL: json #{sch}")
+            continue
+
+        # ! cache original json file if needed
+        # cache_data(schema, "path_placeholder")
 
         try:
             # Analyze the workout, passing API keys to the function
-            print(f"Analyzing workout schema #{sch}")
+            print(f"Analyzing workout json #{sch}")
             result = analyse_hydrow_workout(
                 schema,
                 openai_api_key=openai_api_key,
@@ -222,11 +233,11 @@ def process_workouts_csv(input_csv_path, output_csv_path, max_workouts=None,
 if __name__ == "__main__":
     # Set up command line argument parsing
     parser = argparse.ArgumentParser(description='Process Hydrow workout videos from a CSV file')
-    parser.add_argument('--input', type=str, default="/home/karalandes/Documents/Juliy/VideoClfv1/vsp_poc_1/data_raw/Workout.csv", 
+    parser.add_argument('--input', type=str, default=None,
                         help='Path to input CSV file containing Hydrow metadata in JSONs')
     parser.add_argument('--output', type=str, default="workouts_analyzed.csv", 
                         help='Path to output CSV file for analysis results')
-    parser.add_argument('--max', type=int, default=2, 
+    parser.add_argument('--max', type=int, default=None,
                         help='Maximum number of workouts to process')
     parser.add_argument('--no-category', action='store_false', dest='category',
                         help='Disable workout category analysis')

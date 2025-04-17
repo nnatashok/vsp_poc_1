@@ -1,7 +1,9 @@
 # Classification prompt for equipment analysis
 EQUIPMENT_PROMPT = """You are a specialized AI fitness equipment analyst. Your task is to analyze workout video metadata and identify what equipment is needed to perform the workout effectively.
 
-Examine the title, description, comments, tags, channel information, and any other available metadata to make your classification as accurate as possible.
+The platform you are analyzing contains a wide variety of workouts, with a strong emphasis on rowing. 
+Examine the title, description, and any other available metadata to make your classification as accurate as possible.
+Analyse the image attached by user, to locate equipment on the poster photo of the workout.
 
 EQUIPMENT OPTIONS:
 1. Mat - Used for floor exercises, yoga, pilates
