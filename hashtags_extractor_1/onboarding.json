@@ -1,0 +1,508 @@
+{
+    
+    "title": "Workout Survey",
+    "properties": [
+        {
+            "name": "primaryWorkoutGoal",
+            "type": "string",
+            "enumValues": [
+                "Improve overall fitness",
+                "Feel better",
+                "Improve sleep",
+                "Lose weight",
+                "Get stronger",
+                "Increase flexibility"
+                ],
+            "multiple": false,
+            "description": "What is your primary goal for working out?"
+        },
+        {
+            "name": "otherWorkoutGoals",
+            "type": "string",
+            "enumValues": [
+                "Improve overall fitness",
+                "Feel better",
+                "Improve sleep",
+                "Lose weight",
+                "Get stronger",
+                "Increase flexibility"
+            ],
+            "multiple": true,
+            "description": "What are your other goals for working out? Put your chosen goals in priority order."
+        },
+        {
+            "name": "specificExerciseGoals",
+            "type": "string",
+            "multiple": false,
+            "description": "Do you have any other specific exercise goals?"
+        },
+        {
+            "name": "specialEvents",
+            "type": "string",
+            "multiple": false,
+            "description": "Are there any special events coming up that you’re getting ready for?"
+        },
+        {
+            "name": "equipmentAtHome",
+            "type": "string",
+            "multiple": true,
+            "__comment": "DB: map to workout library attributes",
+            "enumValues": [
+                "Bicycle",
+                "Elliptical", 
+                "Exercise bike",
+                "Exercise mat", 
+                "Resistance bands",
+                "Rower", 
+                "Treadmill",
+                "Yoga blocks"
+            ],
+            "description": "What equipment do you have at home?"
+        },
+        {
+            "name": "weightsAtHome",
+            "type": "boolean",
+            "description": "Do you have weights at home?"
+        },
+        {
+            "name": "weightBench",
+            "type": "boolean",
+            "description": "Do you have a weight bench at home?"
+        },
+        {
+            "name": "weightsOlympicBar",
+            "type": "boolean",
+            "description": "Do you have an Olympic weight bar at home?"
+        },
+        {
+            "name": "weightsSquatRack",
+            "type": "boolean",
+            "description": "Do you have a squat rack at home?"
+        },
+        {
+            "name": "weightsTrapBar",
+            "type": "boolean",
+            "description": "Do you have a trap bar at home?"
+        },
+        {
+            "name": "weightsBarbellPlates",
+            "type": "string",
+            "multiple": true,
+            "enumValues": [
+                "2.5 lbs", 
+                "5 lbs",
+                "10 lbs", 
+                "25 lbs", 
+                "35 lbs", 
+                "45 lbs"
+            ],
+            "description": "What barbell plates do you have at home?"
+        },
+        {
+            "name": "weightsDumbbells",
+            "type": "string",
+            "multiple": true,
+            "enumValues": [
+                "2.5 lbs", 
+                "5 lbs",
+                "10 lbs", 
+                "20 lbs",
+                "25 lbs", 
+                "30 lbs", 
+                "35 lbs", 
+                "40 lbs", 
+                "45 lbs",
+                "50 lbs", 
+                "more than 50 lbs"
+            ],
+            "description": "What dumbbell plates do you have at home?"
+        },
+        {
+            "name": "weightsKettlebells",
+            "type": "string",
+            "multiple": true,
+            "enumValues": [
+                "5 lbs",
+                "10 lbs", 
+                "15 lbs", 
+                "20 lbs",
+                "25 lbs", 
+                "50 lbs"
+            ],
+            "description": "What kettlebells do you have at home?"
+        },
+        {
+            "name": "homeWorkoutSpace",
+            "type": "boolean",
+            "description": "Do you have a space in your home where you can work out comfortably?"
+        },
+        {
+            "name": "gymAccess",
+            "type": "boolean",
+            "description": "Do you have access to a gym?"
+        },
+        {
+            "name": "trackingDevice",
+            "type": "string",
+            "multiple": true,
+            "enumValues": [
+                "Apple Watch",
+                "Oura Ring",
+                "Whoop",
+                "Garmin",
+                "Google Fitbit",
+                "Other"
+            ],
+            "description": "Do you wear a tracking device regularly?"
+        },
+        {
+            "name": "fitnessSubscriptions",
+            "type": "string",
+            "multiple": true,
+            "enumValues": [
+                "Peloton",
+                "iFit",
+                "Echelon",
+                "Tonal",
+                "Hydrow",
+                "Ergatta",
+                "Tempo",
+                "Other"
+            ],
+            "description": "Do you have any fitness subscription plans?"
+        },
+        {
+            "name": "exerciseClasses",
+            "type": "string",
+            "multiple": true,
+            "enumValues": [
+                "Yoga",
+                "Spin",
+                "Boxing",
+                "Zoomba",
+                "HIIT",
+                "CrossFit",
+                "Other"
+            ],
+            "description": "Have you taken any exercise classes?"
+        },
+        {
+            "name": "classesInLastThreeMonths",
+            "type": "string",
+            "enumValues": [
+                "0-5",
+                "6-10",
+                "More than 10"
+            ],
+            "description": "How many classes have you taken in the past 3 months?"
+        },
+        {
+            "name": "workoutTimeOfDay",
+            "type": "string",
+            "multiple": true,
+            "enumValues": [
+                "Before breakfast",
+                "Morning",
+                "After lunch",
+                "Late afternoon",
+                "Evening"
+            ],
+            "description": "What time of day do you like to work out?"
+        },
+        {
+            "name": "workoutCompanion",
+            "type": "string",
+            "enumValues": [
+                "By myself",
+                "With a friend"
+            ],
+            "description": "Do you usually work out by yourself, or do you meet a friend?"
+        },
+        {
+            "name": "shareFitnessOnSocial",
+            "type": "boolean",
+            "description": "Do share fitness achievements with friends on social media?"
+        },
+        {
+            "name": "connectInstagram",
+            "type": "boolean",
+            "description": "Connect Instagram Account"
+        },
+        {
+            "name": "connectFacebook",
+            "type": "boolean",
+            "description": "Connect Facebook Account"
+        },
+        {
+            "name": "connectTikTok",
+            "type": "boolean",
+            "description": "Connect TikTok Account"
+        },
+        {
+            "name": "workoutFrequency",
+            "type": "string",
+            "__comment": "DB: different UI text than Bea prompt. Need to map?",
+            "enumValues": [
+                "No regular exercise in the past year",
+                "Less than once a week",
+                "1-3 times a week",
+                "4-5 times a week",
+                "6+ times a week"
+            ],
+            "description": "How often do you work out?"
+        },
+        {
+            "name": "workoutDuration",
+            "type": "string",
+            "enumValues": [
+                "Under 20 minutes",
+                "20-45 minutes",
+                "More than 45 minutes"
+            ],
+            "description": "How long is your average workout?"
+        },
+        {
+            "name": "touchToesDifficulty",
+            "type": "string",
+            "enumValues": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "description": "How hard is it for you to touch your toes, on a scale of 1-5?"
+        },
+        {
+            "name": "injuries",
+            "type": "string",
+            "description": "Do you have any limitations related to medical conditions or injuries?"
+        },
+        {
+            "name": "sportTypesInHighSchoolOrCollege",
+            "type": "string",
+            "multiple": true,
+            "enumValues": [
+                "High school recreational",
+                "High school intramural",
+                "High school varsity",
+                "College recreational",
+                "College intramural",
+                "College varsity",
+                "Other recreational",
+                "Other competitive"
+            ],
+            "description": "Did you play sports in high school, college, or after?"
+        },
+        {
+            "name": "sportInHighSchoolOrCollege",
+            "type": "string",
+            "multiple": true,
+            "enumValues": [
+                "Baseball (Men’s)",
+                "Basketball (Men’s & Women’s)",
+                "Bowling",
+                "Cheerleading",
+                "Cheerleading & Competitive Cheer",
+                "Climbing",
+                "Crew/Rowing",
+                "Cross Country",
+                "Dance",
+                "Esports",
+                "Field Hockey",
+                "Football (American)",
+                "Golf",
+                "Gymnastics",
+                "Ice Hockey",
+                "Indoor Track & Field",
+                "Lacrosse",
+                "Marching Band",
+                "Martial Arts",
+                "Powerlifting",
+                "Rowing/Crew",
+                "Rugby",
+                "Skiing/Snowboarding",
+                "Soccer",
+                "Softball",
+                "Swimming & Diving",
+                "Tennis",
+                "Track & Field",
+                "Ultimate Frisbee",
+                "Volleyball",
+                "Water Polo",
+                "Wrestling"
+            ],
+            "description": "Which sports did you play in high school or college"
+        },
+        {
+            "name": "pastYearSports",
+            "type": "string",
+            "multiple": true,
+            "enumValues": [
+                "Basketball",
+                "Biking/Cycling",
+                "Dancing",
+                "Golf",
+                "Hiking",
+                "Indoor Rowing",
+                "Martial Arts",
+                "Pilates",
+                "Racquet Sports",
+                "Rock Climbing",
+                "Running/Jogging",
+                "Skiing/Snowboarding",
+                "Soccer",
+                "Softball/Baseball",
+                "Stand-Up Paddleboarding (SUP)",
+                "Swimming",
+                "Table Tennis",
+                "Track and Field",
+                "Volleyball",
+                "Walking",
+                "Weightlifting",
+                "Yoga"
+            ],
+            "description": "What sports and activities have you participated in the past year?"
+        },
+        {
+            "name": "workoutTypes",
+            "type": "string",
+            "multiple": true,
+            "description": "What kinds of workouts do you do now?"
+        },
+        {
+            "name": "musicGenrePreferences",
+            "type": "string",
+            "multiple": true,
+            "enumValues": [
+                "Alternative/Indie",
+                "Blues/Jazz",
+                "Classic Rock",
+                "Classical",
+                "Country",
+                "Dance",
+                "Hip-Hop/Rap",
+                "Latin",
+                "Pop",
+                "R&B",
+                "Rock",
+                "Soul/Funk/Disco",
+                "World"
+            ],
+            "description": "What kinds of music do you listen to?"
+        },
+        {
+            "name": "favoriteMusicArtists",
+            "type": "string",
+            "description": "Name some of your favorite music artists."
+        },
+        {
+            "name": "spotifyAccount",
+            "type": "boolean",
+            "description": "Do you have a Spotify, Apple Music, Amazon Music, YouTube Music, Tidal, or other streaming music service subscription?"
+        },
+        {
+            "name": "ethnicity",
+            "type": "string",
+            "enumValues": [
+                "Native American/Indigenous",
+                "Asian",
+                "Black or African American",
+                "Hispanic or Latino",
+                "Middle Eastern or North African",
+                "Native Hawaiian or Other Pacific Islander",
+                "White",
+                "Multiracial or Biracial",
+                "Other (please specify)",
+                "Prefer not to say"
+            ],
+            "description": "To help us better serve our community and promote inclusivity, please let us know how you identify. This question is optional, and your response will remain confidential."
+        },
+        {
+            "name": "ethnicityOther",
+            "type": "string",
+            "description": "Other ethnicity?"
+        },
+        {
+            "name": "communityType",
+            "type": "string",
+            "enumValues": [
+                "Urban",
+                "Suburban",
+                "Rural"
+            ],
+            "description": "In what kind of community do you live?"
+        },
+        {
+            "name": "sportsWatched",
+            "type": "string",
+            "multiple": true,
+            "enumValues": [
+                "Auto Racing",
+                "Baseball",
+                "Basketball (Men’s & Women’s)",
+                "Bowling",
+                "Esports",
+                "Figure Skating",
+                "Football (American)",
+                "Golf",
+                "Gymnastics",
+                "Ice Hockey",
+                "Mixed Martial Arts/Boxing",
+                "Olympic Sports",
+                "Professional Wrestling",
+                "Soccer",
+                "Swimming",
+                "Tennis",
+                "Track and Field"
+            ],
+            "description": "What sports do you like to follow and watch?"
+        },
+        {
+            "name": "favoriteSportsTeams",
+            "type": "string",
+            "description": "What are your favorite sports teams?"
+        },
+        {
+            "name": "favoriteAthletes",
+            "type": "string",
+            "description": "Who are your favorite athletes?"
+        },
+        {
+            "name": "favoriteMoviesAndTvShows",
+            "type": "string",
+            "multiple": true,
+            "description":	"Name some of your favorite movies and TV shows."
+        },
+        {
+            "name": "favoriteActors",
+            "type": "string",
+            "description": "Who are your favorite movie and TV stars"
+        },
+        {
+            "name": "collegeAttended",
+            "type": "string",
+            "description": "Did you attend college?  If so, which one?"
+        },
+        {
+            "name": "collegeMajor",
+            "type": "string",
+            "description": "If you attended college, what was your major?"
+        },
+        {
+            "name": "gradSchoolAttended",
+            "type": "string",
+            "description": "Did you attend grad school?  If so, which one?"
+        },
+        {
+            "name": "gradSchoolDegree",
+            "type": "string",
+            "description": "If you attended grad school, what was your degree?"
+        },
+        {
+            "name": "favoriteHobbies",
+            "type": "string",
+            "description": "Name some of your favorite hobbies."
+        }
+    ]
+}
