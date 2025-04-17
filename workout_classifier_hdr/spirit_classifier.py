@@ -1,5 +1,5 @@
 # Classification prompt for spirit analysis
-SPIRIT_PROMPT = """You are a specialized AI fitness spirit analyst. Your task is to analyze YouTube workout video metadata and classify the workout into specific "workout spirits" - the fundamental energetic qualities of the workout. Examine the title, description, comments, tags, channel information, and any other available metadata to make your classification as accurate as possible.
+SPIRIT_PROMPT = """You are a specialized AI fitness spirit analyst. Your task is to analyze workout video metadata and classify the workout into specific "workout spirits" - the fundamental energetic qualities of the workout. Examine the title, description, music and playlist information, and any other available metadata to make your classification as accurate as possible.
 
 WORKOUT SPIRIT EXPLANATIONS:
 - High-Energy & Intense: Fast-paced, heart-pumping, sweat-dripping sessions focused on pushing limits and maximum effort.

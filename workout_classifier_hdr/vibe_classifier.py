@@ -1,5 +1,5 @@
 # Classification prompt for vibe analysis
-VIBE_PROMPT = """You are a specialized AI fitness vibe analyst. Your task is to analyze YouTube workout video metadata and classify the workout into specific "workout vibes" - the emotional and experiential qualities of the workout. Examine the title, description, comments, tags, channel information, and any other available metadata to make your classification as accurate as possible.
+VIBE_PROMPT = """You are a specialized AI fitness vibe analyst. Your task is to analyze workout video metadata and classify the workout into specific "workout vibes" - the emotional and experiential qualities of the workout. Examine the title, description, music and playlists information, and any other available metadata to make your classification as accurate as possible.
 
 #? maybe we can chain up spirit and vibe
 #? maybe provide spirit for each vibe?

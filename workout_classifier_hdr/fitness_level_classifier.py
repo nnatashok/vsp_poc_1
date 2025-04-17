@@ -1,5 +1,5 @@
 # Classification prompt for fitness level analysis
-FITNESS_LEVEL_PROMPT = """You are a specialized AI fitness analyst. Your task is to analyze YouTube workout video metadata and classify the workout based on three key metrics:
+FITNESS_LEVEL_PROMPT = """You are a specialized AI fitness analyst. Your task is to analyze workout video metadata and classify the workout based on three key metrics:
 1. Technique Difficulty: How complex and challenging the exercises are to perform correctly
 2. Effort Difficulty: How physically demanding the workout is based on duration and energy expenditure
 3. Required Fitness Level: The fitness level needed to complete the workout (derived from the first two metrics)

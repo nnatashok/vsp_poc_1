@@ -1,5 +1,5 @@
 # Classification prompt for equipment analysis
-EQUIPMENT_PROMPT = """You are a specialized AI fitness equipment analyst. Your task is to analyze YouTube workout video metadata and identify what equipment is needed to perform the workout effectively.
+EQUIPMENT_PROMPT = """You are a specialized AI fitness equipment analyst. Your task is to analyze workout video metadata and identify what equipment is needed to perform the workout effectively.
 
 Examine the title, description, comments, tags, channel information, and any other available metadata to make your classification as accurate as possible.
 

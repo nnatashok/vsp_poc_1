@@ -4,32 +4,48 @@ import json
 import re
 import os
 import argparse
+import json
 from tqdm import tqdm  # For progress bar
 from env_utils import load_api_keys
-from unified_workout_classifier import analyze_youtube_workout, extract_video_id
+from unified_workout_classifier import extract_hydrow_meta_from_json, analyse_hydrow_workout
 from db_transformer import transform_to_db_structure
 
 
-def is_youtube_url(url):
-    """Check if a URL is a YouTube video URL (not a playlist)."""
-    if not isinstance(url, str):
+import json
+
+def is_hydrow_meta(value):
+    """
+    Check if a value is a valid JSON object (or stringified JSON) that
+    contains 'image.bucket' and its value starts with 'hydrow'.
+    
+    Args:
+        value (str or dict): Input to validate
+    
+    Returns:
+        bool: True if valid and meets all criteria, False otherwise
+    """
+    if isinstance(value, str):
+        try:
+            value = json.loads(value)
+        except json.JSONDecodeError:
+            return False
+
+    if not isinstance(value, dict):
         return False
 
-    youtube_pattern = r'(https?://)?(www\.)?(youtube|youtu|youtube-nocookie)\.(com|be)/.+$'
-    if not re.match(youtube_pattern, url):
+    image = value.get("image")
+    if not isinstance(image, dict):
         return False
 
-    # Exclude playlist URLs
-    if 'list=' in url or 'playlist' in url:
-        return False
+    bucket = image.get("bucket")
+    return isinstance(bucket, str) and bucket.startswith("hydrow")
 
-    return True
 
 def process_workouts_csv(input_csv_path, output_csv_path, max_workouts=None, 
                         enable_category=True, enable_fitness_level=True, 
                         enable_vibe=True, enable_spirit=True, enable_equipment=True):
     """
-    Process YouTube workout URLs from a CSV file and output analysis results. #? this function is supposed to be not for YTB only?
+    Process Hydrow workout JSONs from a CSV file and output analysis results.
     Always rewrites the output file from scratch.
 
     Args:
@@ -44,15 +60,11 @@ def process_workouts_csv(input_csv_path, output_csv_path, max_workouts=None,
     """
     # Load API keys from .env files in different locations
     api_keys = load_api_keys()
-    youtube_api_key = api_keys.get('YOUTUBE_API_KEY')
-    openai_api_key = api_keys.get('OPENAI_API_KEY')
+    # ! Remove comment and key 
+    #openai_api_key = api_keys.get('OPENAI_API_KEY')
+    openai_api_key = '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'
     
     # Output API key status
-    if youtube_api_key:
-        print(f"YouTube API key found: {youtube_api_key[:5]}...{youtube_api_key[-5:]}")
-    else:
-        print("WARNING: YouTube API key not found in environment variables")
-    
     if openai_api_key:
         print(f"OpenAI API key found: {openai_api_key[:5]}...{openai_api_key[-5:]}")
     else:
@@ -107,43 +119,44 @@ def process_workouts_csv(input_csv_path, output_csv_path, max_workouts=None,
         ])
 
     # Track counts
-    total_urls = 0
-    valid_youtube_urls = 0
+    total_jsons = 0
     successful_analyses = 0
 
-    # Collect YouTube URLs from all columns
-    all_urls = []
+    # Collect hydrow meta from all columns
+    all_jsons = []
     for _, row in df.iterrows():
         for col in columns:
-            if is_youtube_url(str(row[col])):
-                all_urls.append(str(row[col]))
-                total_urls += 1
+            if is_hydrow_meta(str(row[col])):
+                all_jsons.append(str(row[col]))
+                total_jsons += 1
+                break # assumption: 1 row has 1 unique JSON!
 
-    print(f"Found {total_urls} total YouTube URLs in the CSV")
+
+    print(f"Found {total_jsons} total hydrow JSONs in the CSV")
 
     # Limit the number of workouts to process if specified
     if max_workouts and max_workouts > 0:
-        all_urls = all_urls[:max_workouts]
-        print(f"Limited to processing {max_workouts} URLs")
+        all_jsons = all_jsons[:max_workouts]
+        print(f"Limited to processing {max_workouts} JSONs")
 
     # Process each YouTube URL
-    for url in tqdm(all_urls, desc="Processing workouts"):
-        if not is_youtube_url(url): #? adding logs maybe? #maybe tracking keys/ids from original csv?
-            continue
-
-        valid_youtube_urls += 1
-        video_id = extract_video_id(url)
+    for sch, schema in tqdm(enumerate(all_jsons), total=len(all_jsons), desc="Processing workouts"):
+        if is_hydrow_meta(schema):
+            schema = json.loads(schema)
+        else:
+            print("The schema #{sch} not valid. Skipping.")
+        
+        video_id = schema.get("id")
 
         if not video_id:
-            print(f"Could not extract video ID from URL: {url}")
+            print(f"Could not extract video ID from URL: schema #{sch}")
             continue
 
         try:
             # Analyze the workout, passing API keys to the function
-            print(f"Analyzing workout: {url}")
-            result = analyze_youtube_workout(
-                url,
-                youtube_api_key=youtube_api_key,
+            print(f"Analyzing workout schema #{sch}")
+            result = analyse_hydrow_workout(
+                schema,
                 openai_api_key=openai_api_key,
                 force_refresh=False,
                 enable_category=enable_category,
@@ -201,20 +214,19 @@ def process_workouts_csv(input_csv_path, output_csv_path, max_workouts=None,
 
     # Print summary
     print(f"\nProcessing complete!")
-    print(f"Total URLs found: {total_urls}")
-    print(f"Valid YouTube URLs: {valid_youtube_urls}")
+    print(f"Total URLs found: {total_jsons}")
     print(f"Successful analyses: {successful_analyses}")
     print(f"Results saved to: {output_csv_path}")
 
 
 if __name__ == "__main__":
     # Set up command line argument parsing
-    parser = argparse.ArgumentParser(description='Process YouTube workout videos from a CSV file')
-    parser.add_argument('--input', type=str, default="all_workouts_1.csv", 
-                        help='Path to input CSV file containing YouTube URLs')
+    parser = argparse.ArgumentParser(description='Process Hydrow workout videos from a CSV file')
+    parser.add_argument('--input', type=str, default="/home/karalandes/Documents/Juliy/VideoClfv1/vsp_poc_1/data_raw/Workout.csv", 
+                        help='Path to input CSV file containing Hydrow metadata in JSONs')
     parser.add_argument('--output', type=str, default="workouts_analyzed.csv", 
                         help='Path to output CSV file for analysis results')
-    parser.add_argument('--max', type=int, default=None, 
+    parser.add_argument('--max', type=int, default=2, 
                         help='Maximum number of workouts to process')
     parser.add_argument('--no-category', action='store_false', dest='category',
                         help='Disable workout category analysis')

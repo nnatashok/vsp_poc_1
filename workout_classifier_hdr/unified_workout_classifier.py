@@ -1,12 +1,16 @@
-from googleapiclient.discovery import build
 from openai import OpenAI, OpenAIError
 import json
 import os
 import re
 import time
 import random
+import io
+import base64
 from urllib.parse import urlparse, parse_qs
-import isodate  # For parsing ISO 8601 duration format
+from typing import Dict, Any
+from PIL import Image
+import requests
+from io import BytesIO
 
 # Import classifier modules
 from category_classifier import CATEGORY_PROMPT, CATEGORY_USER_PROMPT, CATEGORY_RESPONSE_FORMAT
@@ -16,8 +20,7 @@ from spirit_classifier import SPIRIT_PROMPT, SPIRIT_USER_PROMPT, SPIRIT_RESPONSE
 from equipment_classifier import EQUIPMENT_PROMPT, EQUIPMENT_USER_PROMPT, EQUIPMENT_RESPONSE_FORMAT
 from db_transformer import transform_to_db_structure
 
-
-def analyze_youtube_workout(youtube_url, youtube_api_key, openai_api_key,
+def analyse_hydrow_workout(schema, openai_api_key,
                           cache_dir='cache', force_refresh=False,
                           enable_category=True, enable_fitness_level=True,
                           enable_vibe=True, enable_spirit=True, enable_equipment=True):
@@ -30,8 +33,7 @@ def analyze_youtube_workout(youtube_url, youtube_api_key, openai_api_key,
     5. Equipment (e.g., Mat, Dumbbells, Resistance bands)
 
     Args:
-        youtube_url (str): URL of the YouTube workout video
-        youtube_api_key (str, optional): YouTube API key for accessing YouTube API
+        schema (str): hydrow json
         openai_api_key (str, optional): OpenAI API key for accessing OpenAI API
         cache_dir (str): Directory to store cached data
         force_refresh (bool): Whether to force fresh analysis even if cached data exists
@@ -48,44 +50,23 @@ def analyze_youtube_workout(youtube_url, youtube_api_key, openai_api_key,
     # Initialize clients
     try:
         oai_client = OpenAI(api_key=openai_api_key)
-        youtube_client = build('youtube', 'v3', developerKey=youtube_api_key)
     except Exception as e:
-        return {"error": f"Failed to initialize API clients: {str(e)}"}
-
-    # Extract video ID
-    video_id = extract_video_id(youtube_url)
-    if not video_id:
-        return {"error": "Invalid YouTube URL. Could not extract video ID."}
+        # ! Remove comment
+        pass #return {"error": f"Failed to initialize API clients: {str(e)}"}
 
     # Ensure cache directory exists
     os.makedirs(cache_dir, exist_ok=True)
 
-    # Fetch or load metadata
-    metadata_cache_path = os.path.join(cache_dir, f"{video_id}_metadata.json")
-    if os.path.exists(metadata_cache_path) and not force_refresh:
-        try:
-            with open(metadata_cache_path, 'r') as f:
-                metadata = json.load(f)
-            print(f"Loaded metadata from cache: {metadata_cache_path}")
-        except Exception as e:
-            print(f"Error loading cached metadata: {str(e)}. Fetching fresh metadata.")
-            metadata = fetch_video_metadata(youtube_client, video_id)
-            cache_data(metadata, metadata_cache_path)
-    else:
-        metadata = fetch_video_metadata(youtube_client, video_id)
-        cache_data(metadata, metadata_cache_path)
-
-    # Format metadata for analysis
-    formatted_metadata = format_metadata_for_analysis(metadata)
+    # extract image and textual summary
+    meta = extract_hydrow_meta_from_json(schema)
 
     # Initialize combined analysis
+    video_id = schema.get("id")
     combined_analysis = {
         "video_id": video_id,
-        "video_url": youtube_url,
-        "video_title": metadata.get('title', ''),
-        "channel_title": metadata.get('channelTitle', ''),
-        "duration": metadata.get('durationFormatted', ''),
-    }
+        "video_url":  schema.get("shareUrl"),
+        "video_title": schema.get("name"),
+        "duration": schema.get("duration")}
 
     # Define classifier configurations
     classifiers = [
@@ -150,7 +131,7 @@ def analyze_youtube_workout(youtube_url, youtube_api_key, openai_api_key,
                     print(f"Error loading cached {name} analysis: {str(e)}. Running fresh analysis.")
                     analysis = run_classifier(
                         oai_client,
-                        formatted_metadata,
+                        meta,
                         classifier["system_prompt"],
                         classifier["user_prompt"],
                         classifier["response_format"]
@@ -159,7 +140,7 @@ def analyze_youtube_workout(youtube_url, youtube_api_key, openai_api_key,
             else:
                 analysis = run_classifier(
                     oai_client,
-                    formatted_metadata,
+                    meta,
                     classifier["system_prompt"],
                     classifier["user_prompt"],
                     classifier["response_format"]
@@ -175,103 +156,6 @@ def analyze_youtube_workout(youtube_url, youtube_api_key, openai_api_key,
 
 
 # Other functions remain unchanged
-def extract_video_id(youtube_url):
-    """Extract YouTube video ID from URL."""
-    if not youtube_url:
-        return None
-
-    # Handle mobile URLs (youtu.be)
-    if 'youtu.be' in youtube_url:
-        return youtube_url.split('/')[-1].split('?')[0]
-
-    # Handle standard YouTube URLs
-    parsed_url = urlparse(youtube_url)
-    if parsed_url.hostname in ('www.youtube.com', 'youtube.com'):
-        if parsed_url.path == '/watch':
-            return parse_qs(parsed_url.query).get('v', [None])[0]
-        elif parsed_url.path.startswith('/embed/'):
-            return parsed_url.path.split('/')[2]
-        elif parsed_url.path.startswith('/v/'):
-            return parsed_url.path.split('/')[2]
-
-    return None
-
-
-def fetch_video_metadata(youtube_client, video_id):
-    """Fetch comprehensive metadata for a YouTube video."""
-    try:
-        # Get video details
-        video_response = youtube_client.videos().list(
-            part='snippet,contentDetails,statistics,player',
-            id=video_id
-        ).execute()
-
-        if not video_response.get('items'):
-            return {"error": "Video not found"}
-
-        video_data = video_response['items'][0]
-
-        # Get channel details
-        channel_id = video_data['snippet']['channelId']
-        channel_response = youtube_client.channels().list(
-            part='snippet,statistics',
-            id=channel_id
-        ).execute()
-
-        channel_data = channel_response['items'][0] if channel_response.get('items') else {}
-
-        # Get comments (top 5)
-        try:
-            comments_response = youtube_client.commentThreads().list(
-                part='snippet',
-                videoId=video_id,
-                order='relevance',
-                maxResults=5
-            ).execute()
-            comments = [item['snippet']['topLevelComment']['snippet']['textDisplay']
-                        for item in comments_response.get('items', [])]
-        except Exception:
-            comments = []
-
-        # Parse duration
-        duration_iso = video_data.get('contentDetails', {}).get('duration', 'PT0S')
-        duration_seconds = int(isodate.parse_duration(duration_iso).total_seconds())
-
-        # Format duration directly here (integrated)
-        hours, remainder = divmod(duration_seconds, 3600)
-        minutes, seconds = divmod(remainder, 60)
-
-        if hours > 0:
-            duration_formatted = f"{hours}:{minutes:02d}:{seconds:02d}"
-        else:
-            duration_formatted = f"{minutes}:{seconds:02d}"
-
-        # Compile metadata
-        metadata = {
-            'video_id': video_id,
-            'title': video_data['snippet'].get('title', ''),
-            'description': video_data['snippet'].get('description', ''),
-            'channelTitle': video_data['snippet'].get('channelTitle', ''),
-            'channelDescription': channel_data.get('snippet', {}).get('description', ''),
-            'tags': video_data['snippet'].get('tags', []),
-            'publishedAt': video_data['snippet'].get('publishedAt', ''),
-            'duration': duration_seconds,
-            'durationFormatted': duration_formatted,
-            'viewCount': int(video_data.get('statistics', {}).get('viewCount', 0)),
-            'likeCount': int(video_data.get('statistics', {}).get('likeCount', 0)),
-            'thumbnails': video_data['snippet'].get('thumbnails', {}),
-            'embedHtml': video_data.get('player', {}).get('embedHtml', ''),
-            'comments': comments,
-            'channelSubscriberCount': int(channel_data.get('statistics', {}).get('subscriberCount', 0)),
-            'channelVideoCount': int(channel_data.get('statistics', {}).get('videoCount', 0))
-        }
-
-        return metadata
-
-    except Exception as e:
-        return {"error": f"Error fetching video metadata: {str(e)}"}
-
-
 def cache_data(data, cache_path):
     """Cache data to a JSON file."""
     try:
@@ -281,68 +165,73 @@ def cache_data(data, cache_path):
     except Exception as e:
         print(f"Error caching data: {str(e)}")
 
-
-def format_metadata_for_analysis(metadata):
+def extract_hydrow_meta_from_json(data: Dict[str, Any]) -> Dict[str, Any]:
     """
-    Format metadata in a structured, readable way with explanatory sections
-    instead of just dumping the JSON.
+    Extract and format metadata as per specific rules.
+    Returns a dictionary with 'text' (string summary) and 'image' (url).
     """
-    sections = []
 
-    # Video basic information
-    sections.append("## VIDEO INFORMATION")
-    sections.append(f"Title: {metadata.get('title', 'N/A')}")
-    sections.append(f"Channel: {metadata.get('channelTitle', 'N/A')}")
-    sections.append(f"Duration: {metadata.get('durationFormatted', 'N/A')} ({metadata.get('duration', 0)} seconds)")
-    sections.append(f"Published: {metadata.get('publishedAt', 'N/A')}")
-    sections.append(f"Views: {metadata.get('viewCount', 0):,}")
-    sections.append(f"Likes: {metadata.get('likeCount', 0):,}")
+    def format_duration(seconds):
+        if not seconds:
+            return "Unknown duration"
+        h, m, s = seconds // 3600, (seconds % 3600) // 60, seconds % 60
+        return f"{h} hours {m} minutes {s} seconds"
 
-    # Tags
-    tags = metadata.get('tags', [])
-    if tags:
-        sections.append("\n## TAGS")
-        sections.append(", ".join(tags))
+    def get_music_genre(data):
+        genre = data.get("MusicGenre")
+        if not genre:
+            genre = "MusicGenre is not specified."
+        backup = data.get("backupStations", [])
+        station_names = [s.get("stationName") for s in backup if s.get("stationName")]
+        if station_names:
+            genre += f" | Radio Stations Played: {', '.join(station_names)}"
+        return genre
 
-    # Description
-    if metadata.get('description'):
-        sections.append("\n## DESCRIPTION")
-        # Truncate very long descriptions to first 3000 chars
-        description = metadata.get('description', '')
-        if len(description) > 3000:
-            sections.append(f"{description[:3000]}...(truncated)")
-        else:
-            sections.append(description)
+    def get_playlist_summary(data):
+        playlist = data.get("playlist", [])
+        playlist_str = "\nPlaylist played:\n"
+        for element in playlist:
+            song = element.get("song","")
+            artist = element.get("artist","")
+            playlist_str+= f"Song '{song}' by the atrist '{artist}';\n"
+        if not playlist:
+            return ""
+        return playlist_str
 
-    # Channel information
-    sections.append("\n## CHANNEL INFORMATION")
-    sections.append(f"Channel: {metadata.get('channelTitle', 'N/A')}")
-    sections.append(f"Subscribers: {metadata.get('channelSubscriberCount', 0):,}")
-    sections.append(f"Total videos: {metadata.get('channelVideoCount', 0):,}")
+    def get_intensity(data):
+        level = data.get("intensityLevel")
+        return f"Workout intensity level: {level} out of 3" if level else ""
 
-    if metadata.get('channelDescription'):
-        sections.append(f"Channel description: {metadata.get('channelDescription', 'N/A')}")
+    def get_instructor(data):
+        instructor_name = data.get("instructors", {}).get("stroke", {}).get("name")
+        if instructor_name == "No Athlete": instructor_name = "Unknown"
+        return instructor_name
+    
+    # Download poster image
+    image_url = data.get("posterUri")
 
-    # Comments
-    comments = metadata.get('comments', [])
-    if comments:
-        sections.append("\n## TOP COMMENTS")
-        for i, comment in enumerate(comments, 1):
-            # Truncate very long comments
-            if len(comment) > 300:
-                comment = comment[:300] + "...(truncated)"
-            sections.append(f"{i}. {comment}")
+    # Format the final summary string
+    summary = f"""
+                Workout Name: {data.get("name", "N/A")}
+                Workout Description: {data.get("description", "N/A")}
+                Workout Type: {', '.join(data.get("workoutTypes", [])) or "N/A"}
+                Category: {data.get("category", {}).get("name", "N/A")},{data.get("category", {}).get("categoryType", "N/A")},{data.get("category", {}).get("type", "N/A")}
+                Duration: {format_duration(data.get("duration"))}
+                Instructor: {get_instructor(data)}
+                {get_intensity(data)}
+                Music Genre: {get_music_genre(data)}
+                {get_playlist_summary(data)}
+              """.strip()
 
-    return "\n".join(sections)
+    return {"text": summary, "image": image_url}
 
-
-def run_classifier(oai_client, formatted_metadata, system_prompt, user_prompt, response_format):
+def run_classifier(oai_client, meta, system_prompt, user_prompt, response_format):
     """
-    Generic function to run a classifier through OpenAI API.
+    Generic function to run a classifier through OpenAI API with optional image input.
 
     Args:
         oai_client: OpenAI client
-        formatted_metadata: Formatted video metadata
+        meta: dictionary with 'text' and optional 'image' (url)
         system_prompt: System prompt for the classifier
         user_prompt: User prompt for the classifier
         response_format: Expected response format
@@ -351,10 +240,31 @@ def run_classifier(oai_client, formatted_metadata, system_prompt, user_prompt, r
         dict: Classification results
     """
     try:
+        # Base message (text-based)
         messages = [
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": f"{user_prompt}\n\n{formatted_metadata}"}
+            {"role": "system", "content": system_prompt}
         ]
+
+        # Add image if present
+        if meta.get("image"):
+            messages.append({
+                "role": "user",
+                "content": [
+                    {"type": "text", "text": f"{user_prompt}\n\n{meta['text']}"},
+                    {
+                        "type": "image_url",
+                        "image_url": {
+                            "url": f"{meta.get('image')}"
+                        }
+                    }
+                ]
+            })
+        else:
+            # Only text
+            messages.append({
+                "role": "user",
+                "content": f"{user_prompt}\n\n{meta['text']}"
+            })
 
         return openai_call_with_retry(oai_client, "gpt-4o", messages, response_format)
 

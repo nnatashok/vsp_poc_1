@@ -1,5 +1,5 @@
 # Classification prompt for category analysis
-CATEGORY_PROMPT = """You are a specialized AI fitness analyst. Your task is to analyze YouTube workout video metadata and classify the workout into specific categories. Examine the title, description, comments, tags, channel information, and any other available metadata to make your classification as accurate as possible.
+CATEGORY_PROMPT = """You are a specialized AI fitness analyst. Your task is to analyze workout video metadata and classify the workout into specific categories. Examine the title, description, music and playlist information, and any other available metadata to make your classification as accurate as possible.
 
 WORKOUT CATEGORY DESCRIPTIONS:
 - Elliptical: Workout involving an elliptical machine for low-impact cardio exercise.
