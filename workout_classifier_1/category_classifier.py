@@ -17,6 +17,7 @@ WORKOUT CATEGORY DESCRIPTIONS:
 - Body weight: Strength training exercises using only body weight as resistance.
 - Calisthenics: Gymnastic exercises for strength and flexibility using bodyweight movements.
 - Weight workout: Training with free weights, machines, or resistance equipment.
+- Other: Any workout that doesn't fit clearly into the categories above.
 
 ANALYSIS GUIDELINES:
 1. Examine the title, description, and tags carefully for explicit workout information.
@@ -25,7 +26,8 @@ ANALYSIS GUIDELINES:
 4. User comments may provide additional clues about the workout experience.
 5. When confidence is low for a category, mark it appropriately.
 6. For each workout, identify 1-3 most suitable categories that match the workout, with a score value (0-1) for each.
-7. Provide a detailed explanation of why you assigned specific categories, citing evidence from the metadata.
+7. If no category clearly applies, use the "Other" category.
+8. Provide a detailed explanation of why you assigned specific categories, citing evidence from the metadata.
 
 CATEGORIES EXPLANATION GUIDELINES:
 When writing the 'categoriesExplanation' field, provide a detailed and structured analysis that:
@@ -74,7 +76,7 @@ CATEGORY_RESPONSE_FORMAT = {
                                 "enum": [
                                     "Elliptical", "HIIT", "Indoor biking", "Mat", "Running", "Treadmill", "Walking",
                                     "Pilates", "Stretching", "Yoga", "Breathing exercises",
-                                    "Meditation", "Body weight", "Calisthenics", "Weight workout"
+                                    "Meditation", "Body weight", "Calisthenics", "Weight workout", "Other"
                                 ]
                             },
                             "score": {
