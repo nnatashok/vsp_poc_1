@@ -5,7 +5,8 @@ WORKOUT CATEGORY DESCRIPTIONS:
 - Elliptical: Workout involving an elliptical machine for low-impact cardio exercise.
 - HIIT: High-Intensity Interval Training with alternating periods of intense exercise and rest.
 - Indoor biking: Stationary cycling workouts, spin classes, or indoor cycling sessions.
-- Mat: General floor exercises performed on an exercise mat, often without equipment.
+- Indoor rowing: Workouts performed on a rowing machine or ergometer.
+- Mat: General floor exercises performed on an exercise mat, often without equipment. Activities like dancing or cardio with just body moves should be classified here.
 - Running: Outdoor or indoor running workouts not limited to treadmill use.
 - Treadmill: Running or walking workouts performed on a treadmill.
 - Walking: Moderate to brisk walking workouts, often for beginners or recovery.
@@ -74,7 +75,7 @@ CATEGORY_RESPONSE_FORMAT = {
                             "name": {
                                 "type": "string",
                                 "enum": [
-                                    "Elliptical", "HIIT", "Indoor biking", "Mat", "Running", "Treadmill", "Walking",
+                                    "Elliptical", "HIIT", "Indoor biking", "Indoor rowing", "Mat", "Running", "Treadmill", "Walking",
                                     "Pilates", "Stretching", "Yoga", "Breathing exercises",
                                     "Meditation", "Body weight", "Calisthenics", "Weight workout", "Other"
                                 ]
