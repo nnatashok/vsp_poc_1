@@ -10,7 +10,7 @@ from tqdm import tqdm
 from multiprocessing import Pool
 from unified_workout_classifier import analyze_youtube_workout, extract_video_id
 from db_transformer import transform_to_db_structure
-from workout_classifier_1.env_utils import load_api_keys
+from env_utils import load_api_keys
 
 
 def is_youtube_url(url):
