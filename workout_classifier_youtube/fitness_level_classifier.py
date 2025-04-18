@@ -39,6 +39,11 @@ CLASSIFICATION METRICS DESCRIPTIONS:
 
 CRITICAL INTERDEPENDENCE RULE: The Required Fitness Level must logically align with Technique Difficulty. If Technique Difficulty is rated as "Advanced" or "Expert", the Required Fitness Level CANNOT include "Beginner" and must include at least "Intermediate" or higher levels. Technically demanding movements require a baseline fitness level to perform safely and effectively.
 
+
+WORKOUT DURATION RULES:
+- If a workout is longer than 20 minutes, it is less likely to be suitable for beginners and more likely to be appropriate for intermediate or advanced fitness levels. For workouts >20 minutes, the beginner fitness level score should be reduced accordingly, while intermediate and advanced scores should be increased.
+- If a workout is longer than 40 minutes, it is less likely to be suitable for both beginner and intermediate fitness levels and more likely to be appropriate for advanced fitness levels. For workouts >40 minutes, both beginner and intermediate fitness level scores should be reduced accordingly, while advanced scores should be increased.
+
 KEY ADJUSTMENT: When evaluating fitness levels, always skew toward including multiple fitness levels. What might be considered "beginner" in general fitness contexts should often be classified as "intermediate" for your target users.
 
 ANALYSIS GUIDELINES:
