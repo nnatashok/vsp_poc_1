@@ -389,6 +389,8 @@ def run_classifier(oai_client, formatted_metadata, system_prompt, user_prompt, r
 
     # JSON parsing retries counter
     parsing_retries = 0
+    # Timeout retries counter
+    timeout_retry_count = 0
 
     while parsing_retries < max_retries:
         try:
@@ -414,9 +416,24 @@ def run_classifier(oai_client, formatted_metadata, system_prompt, user_prompt, r
             time.sleep(1)
 
         except OpenAIError as api_error:
-            # Check if it's a rate limit error
             error_str = str(api_error)
-            if "rate_limit_exceeded" in error_str or "Rate limit reached" in error_str:
+
+            # Check if it's a timeout error
+            if "timed out" in error_str.lower():
+                timeout_retry_count += 1
+                if timeout_retry_count <= max_retries:
+                    print(f"Request timed out. Retrying ({timeout_retry_count}/{max_retries})...")
+                    # Exponential backoff for timeouts
+                    time.sleep(2 ** timeout_retry_count)
+                    continue
+                else:
+                    return {
+                        "error": f"OpenAI API error: Request timed out after {max_retries} retries.",
+                        "review_comment": "timeout_error"
+                    }
+
+            # Check if it's a rate limit error
+            elif "rate_limit_exceeded" in error_str or "Rate limit reached" in error_str:
                 return {
                     "error": f"Rate limit error: {str(api_error)}",
                     "review_comment": "rate_limit_error"
@@ -445,7 +462,7 @@ def run_classifier(oai_client, formatted_metadata, system_prompt, user_prompt, r
 def openai_call_with_retry(oai_client, model, messages, response_format):
     """
     Helper function to make OpenAI API calls with retry for rate limits.
-    Now properly propagates JSON parsing errors to the calling function.
+    Now properly propagates JSON parsing errors and timeout errors to the calling function.
     """
     # Maximum number of retries for rate limits
     max_retries = 5
@@ -472,9 +489,14 @@ def openai_call_with_retry(oai_client, model, messages, response_format):
             raise json_error
 
         except OpenAIError as e:
-            # Check if it's a rate limit error
             error_str = str(e)
-            if "rate_limit_exceeded" in error_str or "Rate limit reached" in error_str:
+
+            # Check if it's a timeout error, propagate it to caller for dedicated retry logic
+            if "timed out" in error_str.lower():
+                raise e
+
+            # Check if it's a rate limit error
+            elif "rate_limit_exceeded" in error_str or "Rate limit reached" in error_str:
                 # Try to extract suggested wait time if available
                 wait_time_match = re.search(r'try again in (\d+\.\d+)s', error_str)
 
