@@ -8,7 +8,7 @@ import argparse
 import time
 from tqdm import tqdm
 from multiprocessing import Pool
-from unified_workout_classifier import analyze_youtube_workout, extract_video_id
+from unified_workout_classifier import analyze_youtube_workout, extract_video_id, fetch_video_metadata
 from db_transformer import transform_to_db_structure
 from env_utils import load_api_keys
 
@@ -51,6 +51,18 @@ def analyze_workout(args):
         return None
 
     try:
+        # Import YouTube API client to fetch metadata
+        from googleapiclient.discovery import build
+        youtube_client = build('youtube', 'v3', developerKey=youtube_api_key)
+
+        # Fetch video metadata first
+        video_metadata = fetch_video_metadata(youtube_client, video_id)
+
+        # Check if metadata fetching was successful
+        if "error" in video_metadata:
+            print(f"Process {process_id}: Error fetching video metadata for {video_id}: {video_metadata['error']}")
+            return None
+
         # Analyze the workout with specified features
         print(f"Process {process_id}: Analyzing workout: {url}")
         result = analyze_youtube_workout(
@@ -69,6 +81,9 @@ def analyze_workout(args):
         if "error" in result:
             print(f"Process {process_id}: Error analyzing workout {video_id}: {result['error']}")
             return None
+
+        # Add video_metadata to the result
+        result['video_metadata'] = video_metadata
 
         # Transform to database structure
         db_structure = transform_to_db_structure(result)
