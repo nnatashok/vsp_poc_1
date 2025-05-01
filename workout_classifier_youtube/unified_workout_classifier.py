@@ -44,7 +44,6 @@ def analyze_youtube_workout(youtube_url, youtube_api_key, openai_api_key,
     Returns:
         dict: Combined workout analysis across all enabled dimensions
     """
-    # API keys - use provided keys or default values
     # Initialize clients
     try:
         oai_client = OpenAI(api_key=openai_api_key)
@@ -85,6 +84,8 @@ def analyze_youtube_workout(youtube_url, youtube_api_key, openai_api_key,
         "video_title": metadata.get('title', ''),
         "channel_title": metadata.get('channelTitle', ''),
         "duration": metadata.get('durationFormatted', ''),
+        "duration_minutes": round(metadata.get('duration', 0) / 60, 1),  # Convert seconds to minutes
+        "reviewable": True  # Default to reviewable unless errors occur
     }
 
     # Define classifier configurations
@@ -131,6 +132,10 @@ def analyze_youtube_workout(youtube_url, youtube_api_key, openai_api_key,
         }
     ]
 
+    # Flag to track if any classifier had an error
+    has_errors = False
+    review_comments = []
+
     # Run each enabled classifier
     try:
         for classifier in classifiers:
@@ -166,12 +171,38 @@ def analyze_youtube_workout(youtube_url, youtube_api_key, openai_api_key,
                 )
                 cache_data(analysis, cache_path)
 
+            # Check for errors in the classifier result
+            if "error" in analysis:
+                has_errors = True
+                error_message = f"Error in {name} classifier: {analysis.get('error')}"
+                review_comments.append(error_message)
+
+                # Add review comment tag if present
+                if "review_comment" in analysis:
+                    if analysis["review_comment"] not in review_comments:
+                        review_comments.append(analysis["review_comment"])
+
             combined_analysis[name] = analysis
+
+        # Update reviewable status based on errors
+        if has_errors:
+            combined_analysis["reviewable"] = False
+            combined_analysis["review_comment"] = "; ".join(review_comments)
 
         return combined_analysis
 
     except Exception as e:
-        return {"error": f"Failed to perform combined analysis: {str(e)}"}
+        error_message = f"Failed to perform combined analysis: {str(e)}"
+        return {
+            "error": error_message,
+            "reviewable": False,
+            "review_comment": "processing_error",
+            "video_id": video_id,
+            "video_url": youtube_url,
+            "video_title": metadata.get('title', ''),
+            "channel_title": metadata.get('channelTitle', ''),
+            "duration": metadata.get('durationFormatted', '')
+        }
 
 
 # Other functions remain unchanged
@@ -336,9 +367,9 @@ def format_metadata_for_analysis(metadata):
     return "\n".join(sections)
 
 
-def run_classifier(oai_client, formatted_metadata, system_prompt, user_prompt, response_format):
+def run_classifier(oai_client, formatted_metadata, system_prompt, user_prompt, response_format, max_retries=3):
     """
-    Generic function to run a classifier through OpenAI API.
+    Generic function to run a classifier through OpenAI API with improved error handling.
 
     Args:
         oai_client: OpenAI client
@@ -346,27 +377,94 @@ def run_classifier(oai_client, formatted_metadata, system_prompt, user_prompt, r
         system_prompt: System prompt for the classifier
         user_prompt: User prompt for the classifier
         response_format: Expected response format
+        max_retries: Maximum number of retry attempts for API and parsing issues
 
     Returns:
-        dict: Classification results
+        dict: Classification results or error information
     """
-    try:
-        messages = [
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": f"{user_prompt}\n\n{formatted_metadata}"}
-        ]
+    messages = [
+        {"role": "system", "content": system_prompt},
+        {"role": "user", "content": f"{user_prompt}\n\n{formatted_metadata}"}
+    ]
 
-        return openai_call_with_retry(oai_client, "gpt-4o", messages, response_format)
+    # JSON parsing retries counter
+    parsing_retries = 0
+    # Timeout retries counter
+    timeout_retry_count = 0
 
-    except Exception as e:
-        return {"error": f"Error with classifier: {str(e)}"}
+    while parsing_retries < max_retries:
+        try:
+            # Try to get response from OpenAI with rate limit handling
+            api_response = openai_call_with_retry(oai_client, "gpt-4o", messages, response_format)
+
+            # If we got here, the API call was successful
+            return api_response
+
+        except json.JSONDecodeError as json_error:
+            # Handle JSON parsing errors specifically
+            parsing_retries += 1
+            print(f"JSON parsing error (attempt {parsing_retries}/{max_retries}): {str(json_error)}")
+
+            # If we've reached max retries, return an error
+            if parsing_retries >= max_retries:
+                return {
+                    "error": f"JSON parsing error after {max_retries} attempts: {str(json_error)}",
+                    "review_comment": "json_parsing_error"
+                }
+
+            # Wait a short time before retrying
+            time.sleep(1)
+
+        except OpenAIError as api_error:
+            error_str = str(api_error)
+
+            # Check if it's a timeout error
+            if "timed out" in error_str.lower():
+                timeout_retry_count += 1
+                if timeout_retry_count <= max_retries:
+                    print(f"Request timed out. Retrying ({timeout_retry_count}/{max_retries})...")
+                    # Exponential backoff for timeouts
+                    time.sleep(2 ** timeout_retry_count)
+                    continue
+                else:
+                    return {
+                        "error": f"OpenAI API error: Request timed out after {max_retries} retries.",
+                        "review_comment": "timeout_error"
+                    }
+
+            # Check if it's a rate limit error
+            elif "rate_limit_exceeded" in error_str or "Rate limit reached" in error_str:
+                return {
+                    "error": f"Rate limit error: {str(api_error)}",
+                    "review_comment": "rate_limit_error"
+                }
+            else:
+                # For other OpenAI errors, don't retry
+                return {
+                    "error": f"OpenAI API error: {str(api_error)}",
+                    "review_comment": "processing_error"
+                }
+
+        except Exception as e:
+            # For any other exceptions
+            return {
+                "error": f"Error with classifier: {str(e)}",
+                "review_comment": "processing_error"
+            }
+
+    # This should not be reached but just in case
+    return {
+        "error": "Unexpected error in classifier",
+        "review_comment": "processing_error"
+    }
 
 
 def openai_call_with_retry(oai_client, model, messages, response_format):
     """
     Helper function to make OpenAI API calls with retry for rate limits.
+    Now properly propagates JSON parsing errors and timeout errors to the calling function.
     """
-    # Maximum number of retries
+    # Maximum number of retries for rate limits
     max_retries = 5
     # Initial retry delay in seconds
     retry_delay = 2
@@ -379,12 +477,26 @@ def openai_call_with_retry(oai_client, model, messages, response_format):
                 messages=messages
             )
 
-            return json.loads(response.choices[0].message.content)
+            # Get the response content
+            response_content = response.choices[0].message.content
+
+            # Let JSON parsing errors propagate to caller for handling
+            parsed_response = json.loads(response_content)
+            return parsed_response
+
+        except json.JSONDecodeError as json_error:
+            # Propagate JSON parsing errors to caller
+            raise json_error
 
         except OpenAIError as e:
-            # Check if it's a rate limit error
             error_str = str(e)
-            if "rate_limit_exceeded" in error_str or "Rate limit reached" in error_str:
+
+            # Check if it's a timeout error, propagate it to caller for dedicated retry logic
+            if "timed out" in error_str.lower():
+                raise e
+
+            # Check if it's a rate limit error
+            elif "rate_limit_exceeded" in error_str or "Rate limit reached" in error_str:
                 # Try to extract suggested wait time if available
                 wait_time_match = re.search(r'try again in (\d+\.\d+)s', error_str)
 
@@ -403,10 +515,10 @@ def openai_call_with_retry(oai_client, model, messages, response_format):
 
                 # If this is the last retry attempt, raise the error
                 if retry_attempt == max_retries - 1:
-                    raise Exception(f"Error with OpenAI API after {max_retries} retries: {str(e)}")
+                    raise OpenAIError(f"Rate limit error after {max_retries} retries: {str(e)}")
             else:
                 # If it's not a rate limit error, don't retry
-                raise Exception(f"Error with OpenAI API: {str(e)}")
+                raise OpenAIError(f"OpenAI API error: {str(e)}")
 
     # This should only happen if we exhaust all retries
     raise Exception("Failed after maximum retry attempts")

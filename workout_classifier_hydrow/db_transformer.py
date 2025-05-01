@@ -71,7 +71,7 @@ def extract_category_info(categories):
 
     # Map subcategories to categories
     category_mapping = {
-        "Cardio": ["Elliptical", "HIIT", "Indoor biking", "Mat", "Running", "Treadmill", "Walking"],
+        "Cardio": ["Elliptical", "HIIT", "Indoor biking", "Indoor rowing", "Mat", "Running", "Treadmill", "Walking"],
         "Flexibility": ["Pilates", "Stretching", "Yoga"],
         "Rest": ["Breathing exercises", "Meditation"],
         "Strength": ["Body weight", "Calisthenics", "Weight workout"]

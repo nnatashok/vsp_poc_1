@@ -1,0 +1,12 @@
+# Core dependencies
+google-api-python-client>=2.100.0
+openai>=1.0.0
+python-dotenv>=1.0.0
+pandas>=2.0.0
+tqdm>=4.66.0
+
+# YouTube API and related
+isodate>=0.6.1
+
+# File handling and data processing
+pathlib>=1.0.1
