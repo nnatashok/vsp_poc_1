@@ -1,0 +1,385 @@
+{
+  "id": 4994,
+  "name": "How to: Mountain to Tree Pose",
+  "image": {
+    "key": "workoutVideos/4994/fce3b6f6-7eaf-48f8-823e-d4ac7c504d5a",
+    "bucket": "hydrow-image-managed-prod",
+    "imageServerBaseUrl": "https://assets.ops.hydrow-external.net"
+  },
+  "isLive": false,
+  "meters": null,
+  "enabled": true,
+  "publish": true,
+  "category": {
+    "id": 34,
+    "name": "On The Mat",
+    "type": "on-the-mat",
+    "uuid": "87de1c70-65ee-11e9-a923-1681be663d3e",
+    "sortOrder": 110,
+    "categoryType": "standard"
+  },
+  "duration": 339,
+  "location": "The Barn at Sunset Ranch - Buena Vista CO",
+  "playlist": [
+    {
+      "isrc": "USCA29401322",
+      "song": "The Art Of Easing",
+      "album": "Blowout Comb",
+      "artist": "Digable Planets",
+      "duration_ms": 306373
+    }
+  ],
+  "shareUrl": "https://members.hydrow.com/workout_videos/id_rp7PZ2MP4aJag9X",
+  "maxRhythm": null,
+  "posterUri": "https://assets.ops.hydrow-external.net/eyJidWNrZXQiOiJoeWRyb3ctaW1hZ2UtbWFuYWdlZC1wcm9kIiwia2V5Ijoid29ya291dFZpZGVvcy80OTk0L2ZjZTNiNmY2LTdlYWYtNDhmOC04MjNlLWQ0YWM3YzUwNGQ1YSIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTI4MCwiaGVpZ2h0Ijo3MjB9fX0=",
+  "programId": null,
+  "categoryId": 34,
+  "isCanceled": false,
+  "musicGenre": "Chill",
+  "description": "Build stability with Channing as you practice moving from mountain to tree pose to be able to bring this movement into your flow classes. ",
+  "instructors": {
+    "seat1": null,
+    "seat2": null,
+    "seat3": null,
+    "stroke": {
+      "id": 122,
+      "name": "Channing Hixon",
+      "cardUri": "https://s3.amazonaws.com/www.truerowing.com/images/dev/athleteCards/athlete_tile_bg_image_channing_hixon.png",
+      "cardImage": null,
+      "familiarName": "Channing Hixon",
+      "thumbnailUri": "https://s3.amazonaws.com/www.truerowing.com/images/instructor-channing.png",
+      "instructorName": "Channing Hixon",
+      "thumbnailImage": null
+    },
+    "seat1Id": null,
+    "seat2Id": null,
+    "seat3Id": null,
+    "strokeId": 122
+  },
+  "durationBody": 300,
+  "durationHead": 30,
+  "durationTail": 9,
+  "mediaSources": [
+    {
+      "uri": "https://edge.api.brightcove.com/playback/v1/accounts/5787522145001/videos/6250900731001/master.m3u8?bcov_auth=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NpZCI6IjU3ODc1MjIxNDUwMDEiLCJjb25pZCI6IjYyNTA5MDA3MzEwMDEiLCJpYXQiOjE3Mzg0MjA1NTksImV4cCI6MTc0MDc1MzM1OSwiYXVkIjpbInN0YXRpYy5hcGkuYnJpZ2h0Y292ZS5jb20iXSwiYWxnIjoiUlMyNTYifQ.adcc666ytRM6GkLoDQ_qKRleo-7taCBCYK9dr6RHBEsvkGF1z4VHzML7yRaCk99Z7C--jRoohTGuIcAdx_wWW5rx0GA1PG5bgHWxrkbfuh_CT-7IN7rFkkqmQNkAUcS7Kj7q2T8nuNrkoo_PvLcS62Zut1AVUvuEJ5IHAo_8jEq6qOUz1sWDjbZGjmVK7k8lRTpvNQdVvNeSPJpjjJyPVhqdTWyUDCbVkGrio-ZCeR12uAAqH4CI6PI4ENbgSxrNXzurM7Y3sh9YFAqnceQRrQ0NkKwvNLuMxAwQYbrQge9-TZEbJ-7Yu5Ew_AVWOaWHvIcr9CtbP3fPq0VUjEQr8Q",
+      "mimeType": "application/x-mpegURL",
+      "textTracks": [
+        {
+          "name": "English",
+          "type": "captions",
+          "language": "en"
+        }
+      ],
+      "audioTracks": [
+        {
+          "name": "descriptive",
+          "primary": false,
+          "duration": 339,
+          "language": "en"
+        }
+      ],
+      "providerName": "brightcove"
+    },
+    {
+      "uri": "https://stream.mux.com/52TTFzZQ4uQr5tRaBwtoaNuY6Es1Pst7aMU00KYQgImg.m3u8?token=eyJhbGciOiJSUzI1NiJ9.eyJraWQiOiJGamRxT21naVZVcDAxQ3VienpvUGVsWUtKUDgyT2ZJenU4Y2VTT1ZCTlhMcyIsInN1YiI6IjUyVFRGelpRNHVRcjV0UmFCd3RvYU51WTZFczFQc3Q3YU1VMDBLWVFnSW1nIiwiYXVkIjoidiIsImV4cCI6MTc0MDc1MzM1OX0.zHvUF6CstDwTvV38xAISXtGkiBBjLZiqyiqxpNUKrJa5eQSbqU9grTVOfbPPaeVHxCqBqXEnDOkA9aljirwltiUHC6I1b_3mbrJtzZiItyP8H53s4hcfRXsobDEgdqh47f6YNlIje6s24Q02zKI_C-kGUaUp1ZVY092rOCN4wfWn4x1edpNXvkoluVopeEgG6Kzm-h51D1BtIEvO79IYX3aQMh_VWdI9zJRHjJ1_iX-cifGnOyHMdsd5-Srkc8BkMha2ru82YP51C_jcH3b60pzlrYdlnzA6W_e9BdFdx2vWlH6cccSvtUyZnil3FnL6ZScIToUUxRuxUWd0SIMwMw",
+      "mimeType": "application/x-mpegURL",
+      "textTracks": [
+        {
+          "name": "English",
+          "type": "subtitles",
+          "language": "en"
+        }
+      ],
+      "audioTracks": [
+        {
+          "name": "main",
+          "primary": true,
+          "duration": 339,
+          "language": "en"
+        }
+      ],
+      "providerName": "mux"
+    }
+  ],
+  "thumbnailUri": "https://assets.ops.hydrow-external.net/eyJidWNrZXQiOiJoeWRyb3ctaW1hZ2UtbWFuYWdlZC1wcm9kIiwia2V5Ijoid29ya291dFZpZGVvcy80OTk0L2ZjZTNiNmY2LTdlYWYtNDhmOC04MjNlLWQ0YWM3YzUwNGQ1YSIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTYwLCJoZWlnaHQiOjkwfX19",
+  "workoutTypes": [
+    "align"
+  ],
+  "genreStations": {
+    "00s": [
+      {
+        "stationId": "2368fa8a-e5a1-4d66-9b98-e505a6c44a4e",
+        "stationName": "00s Hits mid to high",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "80s": [
+      {
+        "stationId": "f0b65ab0-ec2b-495d-8eaa-3a864d7ac227",
+        "stationName": "80's",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "90s": [
+      {
+        "stationId": "ec69e391-f963-4ebc-84ff-cb0bfbd30d48",
+        "stationName": "90's",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Pop": [
+      {
+        "stationId": "372bcf81-8e09-4984-ab5d-18e603f9152f",
+        "stationName": "Pop low",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Rock": [
+      {
+        "stationId": "6458330d-aebd-407d-91b8-9909afc382a0",
+        "stationName": "Rock low",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Chill": [
+      {
+        "stationId": "44c8a968-043a-4904-8c39-45627d26c9b6",
+        "stationName": "Chill low",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "bac1fe88-1b74-468b-9a8b-01d5ea125577",
+        "stationName": "Cool/Downtempo",
+        "explicitLyrics": false
+      }
+    ],
+    "Dance": [
+      {
+        "stationId": "bc7de4df-ced7-40c5-a677-9edf4078106c",
+        "stationName": "Dance mid",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Latin": [
+      {
+        "stationId": "b110bac9-f8c0-46cf-af1b-d18f474f5e99",
+        "stationName": "Latin",
+        "explicitLyrics": true
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "World": [
+      {
+        "stationId": "c7cc8f07-2080-4527-9e32-a09911b8b225",
+        "stationName": "World Music",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Country": [
+      {
+        "stationId": "8892aa6b-82d6-44be-b4d0-ed88d9c3b156",
+        "stationName": "Country",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Pop Punk": [
+      {
+        "stationId": "f4922f9b-5f2d-4de4-8dea-cf62dcb7540b",
+        "stationName": "Pop Punk",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Classical": [
+      {
+        "stationId": "b7e5f693-713e-4af3-9019-5574290e4c29",
+        "stationName": "Classical",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "bac1fe88-1b74-468b-9a8b-01d5ea125577",
+        "stationName": "Cool/Downtempo",
+        "explicitLyrics": false
+      }
+    ],
+    "Blues/Jazz": [
+      {
+        "stationId": "7c2854ea-8593-4d7c-902b-2dfb0ccb11b2",
+        "stationName": "Blues/Jazz",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "bac1fe88-1b74-468b-9a8b-01d5ea125577",
+        "stationName": "Cool/Downtempo",
+        "explicitLyrics": false
+      }
+    ],
+    "00s Hip-Hop": [
+      {
+        "stationId": "53879183-b296-404d-82ea-b7df1f7f70ec",
+        "stationName": "00s Hip Hop mid to high",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "90s Hip-Hop": [
+      {
+        "stationId": "85ff8970-cabc-45a6-93b9-8c2a4ef244c8",
+        "stationName": "90s Hip Hop mid to high",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Hip-Hop/R&B": [
+      {
+        "stationId": "77acddef-2ca8-4a37-8a2a-cea82cd99a20",
+        "stationName": "Hip Hop/R&B Mid",
+        "explicitLyrics": true
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Classic Rock": [
+      {
+        "stationId": "c1f87731-1cd6-4f8d-9113-718b4ed2e979",
+        "stationName": "60s/70s Rock",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Stadium Hits": [
+      {
+        "stationId": "168cf901-8a57-4ec0-b6ff-dd92b750dafd",
+        "stationName": "Sports Jams",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Soul/Funk/Disco": [
+      {
+        "stationId": "dad3745f-2dae-4f80-9548-cc0c6528175e",
+        "stationName": "Soul/Funk/Disco/Motown",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Alternative/Indie": [
+      {
+        "stationId": "1a0170cd-66e0-4ada-9d4e-6fff72657c6b",
+        "stationName": "Indie Alternative",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ]
+  },
+  "intensityText": null,
+  "videoDateTime": "2021-05-04T09:00:00.000Z",
+  "backupStations": [
+    {
+      "stationId": "44c8a968-043a-4904-8c39-45627d26c9b6",
+      "stationName": "Chill low"
+    },
+    {
+      "stationId": "bac1fe88-1b74-468b-9a8b-01d5ea125577",
+      "stationName": "Cool/Downtempo"
+    }
+  ],
+  "closedCaptions": [
+    {
+      "uri": "http://house-fastly-signed-us-east-1-prod.brightcovecdn.com/media/v1/text/vtt/clear/5787522145001/0aca6000-c8ac-4a08-8f06-110070c2924a/57ad061f-00cc-49a1-a7ca-09e71436da90/text.vtt?fastly_token=NjcyMDVlMTZfMjQ0YmNiMDk3ODk3MDY5NjU4Y2Y4ZDlkY2EwODU2MjkzNjQ1NGVmOWZhYzZlYjNhNWE4NzZmZGYzYjU2MDgxMF9odHRwOi8vaG91c2UtZmFzdGx5LXNpZ25lZC11cy1lYXN0LTEtcHJvZC5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS90ZXh0L3Z0dC9jbGVhci81Nzg3NTIyMTQ1MDAxLzBhY2E2MDAwLWM4YWMtNGEwOC04ZjA2LTExMDA3MGMyOTI0YS81N2FkMDYxZi0wMGNjLTQ5YTEtYTdjYS0wOWU3MTQzNmRhOTAvdGV4dC52dHQ%3D",
+      "type": "caption",
+      "language": "en",
+      "mimeType": "text/webvtt"
+    }
+  ],
+  "expiredEnabled": false,
+  "explicitLyrics": false,
+  "hasLeaderboard": false,
+  "hasRowingStats": false,
+  "intensityLevel": null,
+  "playlistSummary": "Digable Planets ",
+  "durationForBadge": null,
+  "intensityIconUrl": null,
+  "programElementId": null,
+  "royaltyFreeMusic": false,
+  "videoDisplayTime": "2021-05-04T09:00:00.000Z",
+  "brightcoveVideoId": "6250900731001",
+  "locationShortName": "Buena Vista",
+  "hasIntraWorkoutStats": false,
+  "liveBodyBroadcastTime": null
+}

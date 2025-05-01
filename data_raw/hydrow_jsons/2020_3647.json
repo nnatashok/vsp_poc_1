@@ -1,0 +1,405 @@
+{
+  "id": 3647,
+  "name": "Power Dance Row ",
+  "image": {
+    "key": "workoutVideos/3647/588af992-d3d5-4f50-872f-db529f628d89",
+    "bucket": "hydrow-image-managed-prod",
+    "imageServerBaseUrl": "https://assets.ops.hydrow-external.net"
+  },
+  "isLive": false,
+  "meters": null,
+  "enabled": true,
+  "publish": true,
+  "category": {
+    "id": 6,
+    "name": "Drive",
+    "type": "row",
+    "uuid": "7eeb6377-d534-4215-984f-6facb379c829",
+    "sortOrder": 40,
+    "categoryType": "standard"
+  },
+  "duration": 1009,
+  "location": "Charles River - Boston MA",
+  "playlist": [
+    {
+      "isrc": "BXJLW1600022",
+      "song": "Suavemente",
+      "album": "Suavemente",
+      "artist": "KVSH,Beowülf",
+      "duration_ms": 162000
+    },
+    {
+      "isrc": "USUM70906805",
+      "song": "Heads Will Roll (A-Trak Remix Radio Edit)",
+      "album": "Heads Will Roll (A-Trak Remix EP)",
+      "artist": "Yeah Yeah Yeahs",
+      "duration_ms": 204000
+    },
+    {
+      "isrc": "NL1DT1900001",
+      "song": "All That She Wants",
+      "album": "All That She Wants",
+      "artist": "Jordan Jay,Ellis,Jordi Coenradie",
+      "duration_ms": 157000
+    },
+    {
+      "isrc": "USUM71710241",
+      "song": "Get Low (Kuuro Remix)",
+      "album": "Get Low (Kuuro Remix)",
+      "artist": "Zedd,Liam Payne",
+      "duration_ms": 218000
+    },
+    {
+      "isrc": "USUM71922167",
+      "song": "Graveyard (Axwell Remix)",
+      "album": "Graveyard (Axwell Remix)",
+      "artist": "Halsey,Axwell",
+      "duration_ms": 210000
+    },
+    {
+      "isrc": "GBARL1201389",
+      "song": "Iron",
+      "album": "18 Months",
+      "artist": "Calvin Harris,Nicky Romero",
+      "duration_ms": 219000
+    }
+  ],
+  "shareUrl": "https://members.hydrow.com/workout_videos/id_r3vZY2LrMYQgeWx",
+  "maxRhythm": null,
+  "posterUri": "https://assets.ops.hydrow-external.net/eyJidWNrZXQiOiJoeWRyb3ctaW1hZ2UtbWFuYWdlZC1wcm9kIiwia2V5Ijoid29ya291dFZpZGVvcy8zNjQ3LzU4OGFmOTkyLWQzZDUtNGY1MC04NzJmLWRiNTI5ZjYyOGQ4OSIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTI4MCwiaGVpZ2h0Ijo3MjB9fX0=",
+  "programId": null,
+  "categoryId": 6,
+  "isCanceled": false,
+  "musicGenre": "Dance",
+  "description": "Exert power each stroke with Dani as you fight to accumulate meters. \n\nMax rhythm: 32, Format: Pyramid",
+  "instructors": {
+    "seat1": null,
+    "seat2": null,
+    "seat3": null,
+    "stroke": {
+      "id": 4,
+      "name": "Dani Hansen",
+      "cardUri": "https://s3.amazonaws.com/www.truerowing.com/images/dev/athleteCards/athlete_tile_bg_image_dani.png",
+      "cardImage": null,
+      "familiarName": "Dani",
+      "thumbnailUri": "https://assets.ops.hydrow-external.net/eyJidWNrZXQiOiJoeWRyb3ctaW1hZ2UtbWFuYWdlZC1wcm9kIiwia2V5IjoiYXRobGV0ZS1wcm9maWxlLzUyZTNkY2E0LWFkY2QtNDAwNC05NjhkLTgxYWU5MGUxMzRmMyJ9",
+      "instructorName": "Dani Hansen",
+      "thumbnailImage": {
+        "key": "athlete-profile/52e3dca4-adcd-4004-968d-81ae90e134f3",
+        "bucket": "hydrow-image-managed-prod",
+        "imageServerBaseUrl": "https://assets.ops.hydrow-external.net"
+      }
+    },
+    "seat1Id": null,
+    "seat2Id": null,
+    "seat3Id": null,
+    "strokeId": 4
+  },
+  "durationBody": 900,
+  "durationHead": 60,
+  "durationTail": 49,
+  "mediaSources": [
+    {
+      "uri": "https://stream.mux.com/VPN5bKrRotv007pFz7LXZDIq99012rDwE00LOtdNf017oeQ.m3u8?token=eyJhbGciOiJSUzI1NiJ9.eyJraWQiOiJGamRxT21naVZVcDAxQ3VienpvUGVsWUtKUDgyT2ZJenU4Y2VTT1ZCTlhMcyIsInN1YiI6IlZQTjViS3JSb3R2MDA3cEZ6N0xYWkRJcTk5MDEyckR3RTAwTE90ZE5mMDE3b2VRIiwiYXVkIjoidiIsImV4cCI6MTc0MTI2MjUxNn0.pvh50OdgWbLcIWgMeFfN3BsU6TU-BRJ_DmZT_cNeW7GDhGoCCS-okUWaP0oBCYBi760i3lT_hdos2SkHClCSm2VIrvefho5mN5cwl6JBIkbz9_WgFJwtreD9HyaM4J6aTgexpCHd_oyzYwsgE9Et5l0vH1ve2j-nou5UZW-_WpZ6_L11oH6ucRx9lvbB_48aBoQFJofv3R1z4EcTHr0sRvG60LmF-wUzA0jlO1BfMTK5TRZtkEBHk1c9_mSXJJlG3uBaRb5PiQX1RHlJG-dQ1m7j7d3zTvVUzdK5MJZHtISmMZWb-FsI0v4YB4uJCmewGbBnYOFcandxBedKHAmC3Q",
+      "mimeType": "application/x-mpegURL",
+      "textTracks": [],
+      "audioTracks": [
+        {
+          "name": "main",
+          "primary": true,
+          "duration": 1009,
+          "language": "en"
+        }
+      ],
+      "providerName": "mux"
+    },
+    {
+      "uri": "https://edge.api.brightcove.com/playback/v1/accounts/5787522145001/videos/6191104241001/master.m3u8?bcov_auth=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NpZCI6IjU3ODc1MjIxNDUwMDEiLCJjb25pZCI6IjYxOTExMDQyNDEwMDEiLCJpYXQiOjE3Mzg5Mjk3MTYsImV4cCI6MTc0MTI2MjUxNiwiYXVkIjpbInN0YXRpYy5hcGkuYnJpZ2h0Y292ZS5jb20iXSwiYWxnIjoiUlMyNTYifQ.Nxcy9vQwN_TwpdQdiRSQ7jJfS2DNB0pFV0eTQ6epr3uasV_2IwCrxJz3AOfCe8j4a3hbQv-unBsWHA8JsOf4l0Fj01kF7PKNMKfLPri2Iwn7hPwY7MBxD-T8lCX9Xlj6JT6yCvyfFWvlTOr6jEY5llpZmA7qiwFjZkQKYotyED4clCOjkax453eRi2-Kd-rF0gdk0nb8pOIfFpc75DuRIszD_W1DLV1Tbvn_nRB2_7qu7M-Ui9YslfYAsJWILaNVYtH395cHzu-Kh8MQb-xWu-SyHr6ueUam5bR87yNOfUSjSu8udWDrNIZgsU7RXnSC7ieY469oRoeHs3fKBvBgwg",
+      "mimeType": "application/x-mpegURL",
+      "textTracks": [],
+      "audioTracks": [
+        {
+          "name": "descriptive",
+          "primary": false,
+          "duration": 1009,
+          "language": "en"
+        }
+      ],
+      "providerName": "brightcove"
+    }
+  ],
+  "thumbnailUri": "https://assets.ops.hydrow-external.net/eyJidWNrZXQiOiJoeWRyb3ctaW1hZ2UtbWFuYWdlZC1wcm9kIiwia2V5Ijoid29ya291dFZpZGVvcy8zNjQ3LzU4OGFmOTkyLWQzZDUtNGY1MC04NzJmLWRiNTI5ZjYyOGQ4OSIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTYwLCJoZWlnaHQiOjkwfX19",
+  "workoutTypes": [
+    "drive"
+  ],
+  "genreStations": {
+    "00s": [
+      {
+        "stationId": "2368fa8a-e5a1-4d66-9b98-e505a6c44a4e",
+        "stationName": "00s Hits mid to high",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "80s": [
+      {
+        "stationId": "f0b65ab0-ec2b-495d-8eaa-3a864d7ac227",
+        "stationName": "80's",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "90s": [
+      {
+        "stationId": "ec69e391-f963-4ebc-84ff-cb0bfbd30d48",
+        "stationName": "90's",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Pop": [
+      {
+        "stationId": "3c066f36-8d57-4ac5-92a3-ee3f2de70661",
+        "stationName": "Pop high",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Rock": [
+      {
+        "stationId": "60c9131a-9100-45e9-8695-42a44fd5da77",
+        "stationName": "Rock Mid-intensity",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Chill": [
+      {
+        "stationId": "c4a094e8-ba71-4b85-a573-a2b616ca0023",
+        "stationName": "Chill mid",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "bac1fe88-1b74-468b-9a8b-01d5ea125577",
+        "stationName": "Cool/Downtempo",
+        "explicitLyrics": false
+      }
+    ],
+    "Dance": [
+      {
+        "stationId": "6d956007-b6d8-4614-9271-5fa4c917ed53",
+        "stationName": "Dance high",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Latin": [
+      {
+        "stationId": "b110bac9-f8c0-46cf-af1b-d18f474f5e99",
+        "stationName": "Latin",
+        "explicitLyrics": true
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "World": [
+      {
+        "stationId": "c7cc8f07-2080-4527-9e32-a09911b8b225",
+        "stationName": "World Music",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Country": [
+      {
+        "stationId": "8892aa6b-82d6-44be-b4d0-ed88d9c3b156",
+        "stationName": "Country",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Pop Punk": [
+      {
+        "stationId": "f4922f9b-5f2d-4de4-8dea-cf62dcb7540b",
+        "stationName": "Pop Punk",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Classical": [
+      {
+        "stationId": "b7e5f693-713e-4af3-9019-5574290e4c29",
+        "stationName": "Classical",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "bac1fe88-1b74-468b-9a8b-01d5ea125577",
+        "stationName": "Cool/Downtempo",
+        "explicitLyrics": false
+      }
+    ],
+    "Blues/Jazz": [
+      {
+        "stationId": "7c2854ea-8593-4d7c-902b-2dfb0ccb11b2",
+        "stationName": "Blues/Jazz",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "bac1fe88-1b74-468b-9a8b-01d5ea125577",
+        "stationName": "Cool/Downtempo",
+        "explicitLyrics": false
+      }
+    ],
+    "00s Hip-Hop": [
+      {
+        "stationId": "53879183-b296-404d-82ea-b7df1f7f70ec",
+        "stationName": "00s Hip Hop mid to high",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "90s Hip-Hop": [
+      {
+        "stationId": "85ff8970-cabc-45a6-93b9-8c2a4ef244c8",
+        "stationName": "90s Hip Hop mid to high",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Hip-Hop/R&B": [
+      {
+        "stationId": "3112aa44-5aad-4b61-b743-334e263a0c7c",
+        "stationName": "Hip Hop/R&B High",
+        "explicitLyrics": true
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Classic Rock": [
+      {
+        "stationId": "c1f87731-1cd6-4f8d-9113-718b4ed2e979",
+        "stationName": "60s/70s Rock",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Stadium Hits": [
+      {
+        "stationId": "168cf901-8a57-4ec0-b6ff-dd92b750dafd",
+        "stationName": "Sports Jams",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Soul/Funk/Disco": [
+      {
+        "stationId": "dad3745f-2dae-4f80-9548-cc0c6528175e",
+        "stationName": "Soul/Funk/Disco/Motown",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Alternative/Indie": [
+      {
+        "stationId": "1a0170cd-66e0-4ada-9d4e-6fff72657c6b",
+        "stationName": "Indie Alternative",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ]
+  },
+  "intensityText": "Drive",
+  "videoDateTime": "2020-09-20T09:00:00.000Z",
+  "backupStations": [
+    {
+      "stationId": "6d956007-b6d8-4614-9271-5fa4c917ed53",
+      "stationName": "Dance high"
+    },
+    {
+      "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+      "stationName": "Global Hits"
+    }
+  ],
+  "closedCaptions": [],
+  "expiredEnabled": false,
+  "explicitLyrics": false,
+  "hasLeaderboard": true,
+  "hasRowingStats": true,
+  "intensityLevel": 3,
+  "playlistSummary": "KVSH | Yeah Yeah Yeahs | Jordan Jay ",
+  "durationForBadge": null,
+  "intensityIconUrl": "https://s3.amazonaws.com/www.truerowing.com/images/prod/workout_filter_icons/ic_intensity_level_drive_grey.png",
+  "programElementId": null,
+  "royaltyFreeMusic": false,
+  "videoDisplayTime": "2020-09-20T09:00:00.000Z",
+  "brightcoveVideoId": "6191104241001",
+  "locationShortName": "Boston",
+  "hasIntraWorkoutStats": true,
+  "liveBodyBroadcastTime": null
+}

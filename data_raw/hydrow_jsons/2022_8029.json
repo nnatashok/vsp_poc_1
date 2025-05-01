@@ -1,0 +1,396 @@
+{
+  "id": 8029,
+  "name": "Post-Row Stretch",
+  "image": {
+    "key": "workoutVideos/8029/c1027c9a-1f66-4649-b1c5-0f41d4697ea2",
+    "bucket": "hydrow-image-managed-prod",
+    "imageServerBaseUrl": "https://assets.ops.hydrow-external.net"
+  },
+  "isLive": false,
+  "meters": null,
+  "enabled": true,
+  "publish": true,
+  "category": {
+    "id": 34,
+    "name": "On The Mat",
+    "type": "on-the-mat",
+    "uuid": "87de1c70-65ee-11e9-a923-1681be663d3e",
+    "sortOrder": 110,
+    "categoryType": "standard"
+  },
+  "duration": 347,
+  "location": "Società Canottieri Florence - Florence Italy",
+  "playlist": [
+    {
+      "isrc": "USRC11902027",
+      "song": "Burned By The Love (James Carter Remix)",
+      "album": "Burned By The Love (James Carter Remix)",
+      "artist": "Juke Ross",
+      "duration_ms": 183000
+    },
+    {
+      "isrc": "GBMKA1486371",
+      "song": "How Many Times (Andhim Remix)",
+      "album": "Poolside Sounds, Vol. 4",
+      "artist": "Elderbrook",
+      "duration_ms": 495000
+    }
+  ],
+  "shareUrl": "https://members.hydrow.com/workout_videos/id_b5aEGQ8Z4a2LrpW",
+  "maxRhythm": null,
+  "posterUri": "https://assets.ops.hydrow-external.net/eyJidWNrZXQiOiJoeWRyb3ctaW1hZ2UtbWFuYWdlZC1wcm9kIiwia2V5Ijoid29ya291dFZpZGVvcy84MDI5L2MxMDI3YzlhLTFmNjYtNDY0OS1iMWM1LTBmNDFkNDY5N2VhMiIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTI4MCwiaGVpZ2h0Ijo3MjB9fX0=",
+  "programId": null,
+  "categoryId": 34,
+  "isCanceled": false,
+  "musicGenre": "Dance",
+  "description": "Stretch your legs and back with Pete during these gentle stretches that do not require kneeling. ",
+  "instructors": {
+    "seat1": null,
+    "seat2": null,
+    "seat3": null,
+    "stroke": {
+      "id": 15,
+      "name": "Peter Donohoe",
+      "cardUri": "https://s3.amazonaws.com/www.truerowing.com/images/dev/athleteCards/athlete_tile_bg_image_peter.png",
+      "cardImage": null,
+      "familiarName": "Peter",
+      "thumbnailUri": "https://assets.ops.hydrow-external.net/eyJidWNrZXQiOiJoeWRyb3ctaW1hZ2UtbWFuYWdlZC1wcm9kIiwia2V5IjoiYXRobGV0ZS1wcm9maWxlL2U4ZWYyYjQyLTNlYjQtNDZiMC05NTM3LTM4MmQyMWQyMjc4NSJ9",
+      "instructorName": "Peter Donohoe",
+      "thumbnailImage": {
+        "key": "athlete-profile/e8ef2b42-3eb4-46b0-9537-382d21d22785",
+        "bucket": "hydrow-image-managed-prod",
+        "imageServerBaseUrl": "https://assets.ops.hydrow-external.net"
+      }
+    },
+    "seat1Id": null,
+    "seat2Id": null,
+    "seat3Id": null,
+    "strokeId": 15
+  },
+  "durationBody": 300,
+  "durationHead": 30,
+  "durationTail": 17,
+  "mediaSources": [
+    {
+      "uri": "https://edge.api.brightcove.com/playback/v1/accounts/5787522145001/videos/6313201791112/master.m3u8?bcov_auth=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NpZCI6IjU3ODc1MjIxNDUwMDEiLCJjb25pZCI6IjYzMTMyMDE3OTExMTIiLCJpYXQiOjE3Mzc4OTY1NjksImV4cCI6MTc0MDIyOTM2OSwiYXVkIjpbInN0YXRpYy5hcGkuYnJpZ2h0Y292ZS5jb20iXSwiYWxnIjoiUlMyNTYifQ.PlmuuP2JhHT0DXU6KpdpYXhRjL2HX94Ppz_Lsjw4vCfxYeDfTUMSojxbX5ifJb7M4yHUABr9inxzfiw9iuYY6huK4B4GfKfOpV__pbqimIJWjWgALM3yEzW7fmuhRcdAr556YGog77DRMw4a_1RhgriZCt4wXppeLWdAoEme7JbZFXK8-YnzcsMcBLvaKTBO83h46mVpw8Bhih8e5RyOqLWiEMNNcIYHvxAnYXjc1OfemQKfA5dQI6f3X-Ocd954BiPgURmMm-72-nJbTbENglY408ZvxrCdNfPX1VMPCGvoLb_QebB4PQpRMRlnerUVEBY4UpR4HPoA2ZrjreicXA",
+      "mimeType": "application/x-mpegURL",
+      "textTracks": [
+        {
+          "name": "English",
+          "type": "captions",
+          "language": "en"
+        }
+      ],
+      "audioTracks": [
+        {
+          "name": "descriptive",
+          "primary": false,
+          "duration": 347,
+          "language": "en"
+        }
+      ],
+      "providerName": "brightcove"
+    },
+    {
+      "uri": "https://stream.mux.com/AIGGVn24FYpWSdHIqdKAS00O2wqtoDgkt258j6oDFLpQ.m3u8?token=eyJhbGciOiJSUzI1NiJ9.eyJraWQiOiJGamRxT21naVZVcDAxQ3VienpvUGVsWUtKUDgyT2ZJenU4Y2VTT1ZCTlhMcyIsInN1YiI6IkFJR0dWbjI0RllwV1NkSElxZEtBUzAwTzJ3cXRvRGdrdDI1OGo2b0RGTHBRIiwiYXVkIjoidiIsImV4cCI6MTc0MDIyOTM2OX0.Z8Ed8WgljCqR5YShhve2QepHHGI6zY2QOffHywOyBlZrAH37xJ_TLhEHERktGcyK1BGla3EBvevXP7mQKKrO6M1XuEM5-ldOYGSy1VJbEffaNwxp4a3KnnGRmcGVX6Uu2NcUKJGko_xGBvLAS0lX2UW9IRq8ThD52w9LE8v8S7nW87Cjcr7un3yC8-XAmMrm1WLxCAo4xoEQSlKSO53N-H8PKQYu6SMcabVbj817EMViGrOSJl986qwc4XVeCopRsBvZVM82hgUNoonG9u7Lg3kJVv-507zd1BSOGg-ae9KzmPV6EmoAdolOkEqa2j1mbaJpQsNCPkwZ1lYXvz000A",
+      "mimeType": "application/x-mpegURL",
+      "textTracks": [
+        {
+          "name": "English",
+          "type": "subtitles",
+          "language": "en"
+        }
+      ],
+      "audioTracks": [
+        {
+          "name": "main",
+          "primary": true,
+          "duration": 347,
+          "language": "en"
+        }
+      ],
+      "providerName": "mux"
+    }
+  ],
+  "thumbnailUri": "https://assets.ops.hydrow-external.net/eyJidWNrZXQiOiJoeWRyb3ctaW1hZ2UtbWFuYWdlZC1wcm9kIiwia2V5Ijoid29ya291dFZpZGVvcy84MDI5L2MxMDI3YzlhLTFmNjYtNDY0OS1iMWM1LTBmNDFkNDY5N2VhMiIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTYwLCJoZWlnaHQiOjkwfX19",
+  "workoutTypes": [
+    "stretching"
+  ],
+  "genreStations": {
+    "00s": [
+      {
+        "stationId": "2368fa8a-e5a1-4d66-9b98-e505a6c44a4e",
+        "stationName": "00s Hits mid to high",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "80s": [
+      {
+        "stationId": "f0b65ab0-ec2b-495d-8eaa-3a864d7ac227",
+        "stationName": "80's",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "90s": [
+      {
+        "stationId": "ec69e391-f963-4ebc-84ff-cb0bfbd30d48",
+        "stationName": "90's",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Pop": [
+      {
+        "stationId": "372bcf81-8e09-4984-ab5d-18e603f9152f",
+        "stationName": "Pop low",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Rock": [
+      {
+        "stationId": "6458330d-aebd-407d-91b8-9909afc382a0",
+        "stationName": "Rock low",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Chill": [
+      {
+        "stationId": "44c8a968-043a-4904-8c39-45627d26c9b6",
+        "stationName": "Chill low",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "bac1fe88-1b74-468b-9a8b-01d5ea125577",
+        "stationName": "Cool/Downtempo",
+        "explicitLyrics": false
+      }
+    ],
+    "Dance": [
+      {
+        "stationId": "bc7de4df-ced7-40c5-a677-9edf4078106c",
+        "stationName": "Dance mid",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Latin": [
+      {
+        "stationId": "b110bac9-f8c0-46cf-af1b-d18f474f5e99",
+        "stationName": "Latin",
+        "explicitLyrics": true
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "World": [
+      {
+        "stationId": "c7cc8f07-2080-4527-9e32-a09911b8b225",
+        "stationName": "World Music",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Country": [
+      {
+        "stationId": "8892aa6b-82d6-44be-b4d0-ed88d9c3b156",
+        "stationName": "Country",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Pop Punk": [
+      {
+        "stationId": "f4922f9b-5f2d-4de4-8dea-cf62dcb7540b",
+        "stationName": "Pop Punk",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Classical": [
+      {
+        "stationId": "b7e5f693-713e-4af3-9019-5574290e4c29",
+        "stationName": "Classical",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "bac1fe88-1b74-468b-9a8b-01d5ea125577",
+        "stationName": "Cool/Downtempo",
+        "explicitLyrics": false
+      }
+    ],
+    "Blues/Jazz": [
+      {
+        "stationId": "7c2854ea-8593-4d7c-902b-2dfb0ccb11b2",
+        "stationName": "Blues/Jazz",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "bac1fe88-1b74-468b-9a8b-01d5ea125577",
+        "stationName": "Cool/Downtempo",
+        "explicitLyrics": false
+      }
+    ],
+    "00s Hip-Hop": [
+      {
+        "stationId": "53879183-b296-404d-82ea-b7df1f7f70ec",
+        "stationName": "00s Hip Hop mid to high",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "90s Hip-Hop": [
+      {
+        "stationId": "85ff8970-cabc-45a6-93b9-8c2a4ef244c8",
+        "stationName": "90s Hip Hop mid to high",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Hip-Hop/R&B": [
+      {
+        "stationId": "77acddef-2ca8-4a37-8a2a-cea82cd99a20",
+        "stationName": "Hip Hop/R&B Mid",
+        "explicitLyrics": true
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Classic Rock": [
+      {
+        "stationId": "c1f87731-1cd6-4f8d-9113-718b4ed2e979",
+        "stationName": "60s/70s Rock",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Stadium Hits": [
+      {
+        "stationId": "168cf901-8a57-4ec0-b6ff-dd92b750dafd",
+        "stationName": "Sports Jams",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Soul/Funk/Disco": [
+      {
+        "stationId": "dad3745f-2dae-4f80-9548-cc0c6528175e",
+        "stationName": "Soul/Funk/Disco/Motown",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Alternative/Indie": [
+      {
+        "stationId": "1a0170cd-66e0-4ada-9d4e-6fff72657c6b",
+        "stationName": "Indie Alternative",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ]
+  },
+  "intensityText": null,
+  "videoDateTime": "2022-10-06T09:00:00.000Z",
+  "backupStations": [
+    {
+      "stationId": "bc7de4df-ced7-40c5-a677-9edf4078106c",
+      "stationName": "Dance mid"
+    },
+    {
+      "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+      "stationName": "Global Hits"
+    }
+  ],
+  "closedCaptions": [
+    {
+      "uri": "http://house-fastly-signed-us-east-1-prod.brightcovecdn.com/media/v1/text/vtt/clear/5787522145001/f0995b56-b8cf-4462-ad11-b88ce8ed372b/cab44a43-147b-4500-8e3f-2f9ab1477b9a/text.vtt?fastly_token=NjcyMDZkOWVfMzRhMzk0YTlmMWI0N2I2OWY1MjVjNmMxMGY4ZTBkMjVhNWE1YmFiYmQ3NzYxNmE0NzU1MjhlNGZjZDFhOTVhNF9odHRwOi8vaG91c2UtZmFzdGx5LXNpZ25lZC11cy1lYXN0LTEtcHJvZC5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS90ZXh0L3Z0dC9jbGVhci81Nzg3NTIyMTQ1MDAxL2YwOTk1YjU2LWI4Y2YtNDQ2Mi1hZDExLWI4OGNlOGVkMzcyYi9jYWI0NGE0My0xNDdiLTQ1MDAtOGUzZi0yZjlhYjE0NzdiOWEvdGV4dC52dHQ%3D",
+      "type": "caption",
+      "language": "en",
+      "mimeType": "text/webvtt"
+    }
+  ],
+  "expiredEnabled": false,
+  "explicitLyrics": false,
+  "hasLeaderboard": false,
+  "hasRowingStats": false,
+  "intensityLevel": null,
+  "playlistSummary": "playlist",
+  "durationForBadge": null,
+  "intensityIconUrl": null,
+  "programElementId": null,
+  "royaltyFreeMusic": false,
+  "videoDisplayTime": "2022-10-06T09:00:00.000Z",
+  "brightcoveVideoId": "6313201791112",
+  "locationShortName": "Florence",
+  "hasIntraWorkoutStats": false,
+  "liveBodyBroadcastTime": null
+}

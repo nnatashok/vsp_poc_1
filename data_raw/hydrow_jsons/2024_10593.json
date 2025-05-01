@@ -1,0 +1,502 @@
+{
+  "id": 10593,
+  "name": "Core Crusher Circuit",
+  "image": {
+    "key": "workoutVideos/10593/5adc8575-d5f2-4848-b320-48b14911967f",
+    "bucket": "hydrow-image-managed-prod",
+    "imageServerBaseUrl": "https://assets.ops.hydrow-external.net"
+  },
+  "isLive": false,
+  "meters": null,
+  "enabled": true,
+  "publish": true,
+  "category": {
+    "id": 34,
+    "name": "On The Mat",
+    "type": "on-the-mat",
+    "uuid": "87de1c70-65ee-11e9-a923-1681be663d3e",
+    "sortOrder": 110,
+    "categoryType": "standard"
+  },
+  "duration": 636,
+  "location": "Downtown - Norwood MA",
+  "playlist": [],
+  "shareUrl": "https://members.hydrow.com/workout_videos/id_LkmqMQDDK4QjgV4",
+  "intervals": [
+    {
+      "id": "070600cc-3e95-4158-94e8-58cb1272fc2f",
+      "mets": "4.00",
+      "type": "otm",
+      "duration": 62,
+      "exercises": [
+        {
+          "id": "e00a7527-e472-4a66-a286-225f48f7f6d7",
+          "key": "warm-up-circuit",
+          "name": "Warm-up",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        }
+      ],
+      "description": "1:02 min    Warm-up"
+    },
+    {
+      "id": "ba1aef4b-6bef-4553-a9e5-46184546e397",
+      "mets": "4.67",
+      "type": "otm",
+      "duration": 182,
+      "exercises": [
+        {
+          "id": "fcc51021-467a-44ed-834f-d68368234fcb",
+          "key": "leg lift ",
+          "name": "Leg Lift ",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        },
+        {
+          "id": "bf54b1b6-3165-418e-8812-dda56b8196a9",
+          "key": "side crunch",
+          "name": "Side Crunch",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        },
+        {
+          "id": "14750777-22b3-4757-8946-82807ccd703d",
+          "key": "reverse crunch",
+          "name": "Reverse Crunch",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        }
+      ],
+      "description": "3:02 min    Leg Lift , Side Crunch, Reverse Crunch"
+    },
+    {
+      "id": "4020e088-ee44-4d4c-bdd4-47307732b7ce",
+      "type": "row",
+      "duration": 90,
+      "description": "1:30 min    Row"
+    },
+    {
+      "id": "cc5993a0-78b2-4d31-83e0-17c95fa0dac8",
+      "mets": "4.75",
+      "type": "otm",
+      "duration": 240,
+      "exercises": [
+        {
+          "id": "fcc51021-467a-44ed-834f-d68368234fcb",
+          "key": "leg lift ",
+          "name": "Leg Lift ",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        },
+        {
+          "id": "bf54b1b6-3165-418e-8812-dda56b8196a9",
+          "key": "side crunch",
+          "name": "Side Crunch",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        },
+        {
+          "id": "7f71788f-d066-4afd-8ed2-5aa3fdbafc83",
+          "key": "forearm plank ",
+          "name": "Forearm Plank ",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        },
+        {
+          "id": "14750777-22b3-4757-8946-82807ccd703d",
+          "key": "reverse crunch",
+          "name": "Reverse Crunch",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        }
+      ],
+      "description": "4:00 min    Leg Lift , Side Crunch, Forearm Plank , Reverse Crunch"
+    },
+    {
+      "id": "443f4608-294a-4dc9-a5a3-5f13a77038f0",
+      "mets": "3.00",
+      "type": "otm",
+      "duration": 26,
+      "exercises": [
+        {
+          "id": "a23c3060-22e7-4443-8f6a-221f85bd25ff",
+          "key": "cool-down-circuit",
+          "name": "Cool-down",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        }
+      ],
+      "description": "0:26 min    Cool-down"
+    }
+  ],
+  "maxRhythm": 26,
+  "posterUri": "https://assets.ops.hydrow-external.net/eyJidWNrZXQiOiJoeWRyb3ctaW1hZ2UtbWFuYWdlZC1wcm9kIiwia2V5Ijoid29ya291dFZpZGVvcy8xMDU5My81YWRjODU3NS1kNWYyLTQ4NDgtYjMyMC00OGIxNDkxMTk2N2YiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyODAsImhlaWdodCI6NzIwfX19",
+  "programId": null,
+  "categoryId": 34,
+  "isCanceled": false,
+  "musicGenre": "Stadium Hits",
+  "description": "Power through this quick, mat-based circuit targeting your core from every angle with Manteo. Reverse crunches, leg lifts, and a plank hold will fire up your abs, leaving you feeling strong and stable in just 10 minutes​. Max rhythm: 26, Format: Circuit",
+  "instructors": {
+    "seat1": null,
+    "seat2": null,
+    "seat3": null,
+    "stroke": {
+      "id": 254,
+      "name": "Manteo Mitchell",
+      "cardUri": "https://s3.amazonaws.com/www.truerowing.com/images/dev/athleteCards/athlete_tile_bg_image_manteo.png",
+      "cardImage": null,
+      "familiarName": "Manteo",
+      "thumbnailUri": "https://assets.ops.hydrow-external.net/eyJidWNrZXQiOiJoeWRyb3ctaW1hZ2UtbWFuYWdlZC1wcm9kIiwia2V5IjoiYXRobGV0ZS1wcm9maWxlLzA5OGM5M2E1LTMzNTAtNDdmNC1hMzA3LWZhNWM0OTdjMzFkOCJ9",
+      "instructorName": "Manteo Mitchell",
+      "thumbnailImage": {
+        "key": "athlete-profile/098c93a5-3350-47f4-a307-fa5c497c31d8",
+        "bucket": "hydrow-image-managed-prod",
+        "imageServerBaseUrl": "https://assets.ops.hydrow-external.net"
+      }
+    },
+    "seat1Id": null,
+    "seat2Id": null,
+    "seat3Id": null,
+    "strokeId": 254
+  },
+  "durationBody": 600,
+  "durationHead": 28,
+  "durationTail": 8,
+  "mediaSources": [
+    {
+      "uri": "https://stream.mux.com/bbmn4FefWpBRaPRLUloy1GuNWSIZjpPN56tJOTBAv600.m3u8?token=eyJhbGciOiJSUzI1NiJ9.eyJraWQiOiJGamRxT21naVZVcDAxQ3VienpvUGVsWUtKUDgyT2ZJenU4Y2VTT1ZCTlhMcyIsInN1YiI6ImJibW40RmVmV3BCUmFQUkxVbG95MUd1TldTSVpqcFBONTZ0Sk9UQkF2NjAwIiwiYXVkIjoidiIsImV4cCI6MTc0MTM5ODQ5MH0.MrLakv_cz9evAr1BJ-zxrKKbtm55w436KKgptuO8gzmgcfPgaRUJJs_69YVNK7fxpJPvaiFQAl2H6GMOQCeiF5JlpYqSdVT2hQYsrq7pbmZWxU8U9OV4qhFXXV5en5cM6HC0okmndTXkfYX-yvOzD7j49PABHA7Y4TBYLQvgdVOU51_nULCmlGBe8h4tNXybhDKWsY_W8LO8B_iYXzIYjaO6pyPIe12QxFaPQzJ6c8lArMi5AP1LBx_jMVPen-MrtUOTYKby9xnKaF396AYy51byto6zS0hmrDgeERvTOAjl6pjNkudajZHaVeI42keZzwXq1Za3C8t_Y54oZpvv5A",
+      "mimeType": "application/x-mpegURL",
+      "textTracks": [
+        {
+          "name": "English",
+          "type": "subtitles",
+          "language": "en"
+        },
+        {
+          "name": "English",
+          "type": "subtitles",
+          "language": "en"
+        }
+      ],
+      "audioTracks": [
+        {
+          "name": "main",
+          "primary": true,
+          "duration": 636,
+          "language": "en"
+        }
+      ],
+      "providerName": "mux"
+    },
+    {
+      "uri": "https://edge.api.brightcove.com/playback/v1/accounts/5787522145001/videos/6365782099112/master.m3u8?bcov_auth=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NpZCI6IjU3ODc1MjIxNDUwMDEiLCJjb25pZCI6IjYzNjU3ODIwOTkxMTIiLCJpYXQiOjE3MzkwNjU2OTAsImV4cCI6MTc0MTM5ODQ5MCwiYXVkIjpbInN0YXRpYy5hcGkuYnJpZ2h0Y292ZS5jb20iXSwiYWxnIjoiUlMyNTYifQ.b_Y6iZFeFPhJT0HitvZmBrs8HrrBJKJx22SKoqMZc7ZSNlTwPSO3oNAqK1RjpsUTf-fhf8ulb2GC1d30BZ1-7fbXZYNAnkDUM2cuV7XAdOEoIGqOEUNVkMbbVCBq2yfEz8q9oCEVE01npmW9VFqAPzpLkjq-BA8AFqe0XIYCk5ybK2I52PXvReft3b5c5wFzWdXyQ45UDc3Jyb-QKCjonHu5q4evJRWGwo_5XiCV3sSChW3BxeDikOlY_KY6q8s07N9MpkwD841ZRBo8YnTelTZS72QTGJp2i8bbjtVOuIf4TsXgmtc1rggyO0BmGVuiGFGBjjYf_Py2WS4HDs1BgA",
+      "mimeType": "application/x-mpegURL",
+      "textTracks": [
+        {
+          "name": "English",
+          "type": "captions",
+          "language": "en"
+        }
+      ],
+      "audioTracks": [
+        {
+          "name": "main",
+          "primary": true,
+          "duration": 636,
+          "language": "en"
+        }
+      ],
+      "providerName": "brightcove"
+    }
+  ],
+  "thumbnailUri": "https://assets.ops.hydrow-external.net/eyJidWNrZXQiOiJoeWRyb3ctaW1hZ2UtbWFuYWdlZC1wcm9kIiwia2V5Ijoid29ya291dFZpZGVvcy8xMDU5My81YWRjODU3NS1kNWYyLTQ4NDgtYjMyMC00OGIxNDkxMTk2N2YiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE2MCwiaGVpZ2h0Ijo5MH19fQ==",
+  "workoutTypes": [
+    "circuit"
+  ],
+  "genreStations": {
+    "00s": [
+      {
+        "stationId": "2368fa8a-e5a1-4d66-9b98-e505a6c44a4e",
+        "stationName": "00s Hits mid to high",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "80s": [
+      {
+        "stationId": "f0b65ab0-ec2b-495d-8eaa-3a864d7ac227",
+        "stationName": "80's",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "90s": [
+      {
+        "stationId": "ec69e391-f963-4ebc-84ff-cb0bfbd30d48",
+        "stationName": "90's",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Pop": [
+      {
+        "stationId": "5004cc4b-776c-4f5c-9c38-1d7c615613a1",
+        "stationName": "Pop mid",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Rock": [
+      {
+        "stationId": "60c9131a-9100-45e9-8695-42a44fd5da77",
+        "stationName": "Rock Mid-intensity",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Chill": [
+      {
+        "stationId": "c4a094e8-ba71-4b85-a573-a2b616ca0023",
+        "stationName": "Chill mid",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "bac1fe88-1b74-468b-9a8b-01d5ea125577",
+        "stationName": "Cool/Downtempo",
+        "explicitLyrics": false
+      }
+    ],
+    "Dance": [
+      {
+        "stationId": "bc7de4df-ced7-40c5-a677-9edf4078106c",
+        "stationName": "Dance mid",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Latin": [
+      {
+        "stationId": "b110bac9-f8c0-46cf-af1b-d18f474f5e99",
+        "stationName": "Latin",
+        "explicitLyrics": true
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "World": [
+      {
+        "stationId": "c7cc8f07-2080-4527-9e32-a09911b8b225",
+        "stationName": "World Music",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Country": [
+      {
+        "stationId": "8892aa6b-82d6-44be-b4d0-ed88d9c3b156",
+        "stationName": "Country",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Pop Punk": [
+      {
+        "stationId": "f4922f9b-5f2d-4de4-8dea-cf62dcb7540b",
+        "stationName": "Pop Punk",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Classical": [
+      {
+        "stationId": "b7e5f693-713e-4af3-9019-5574290e4c29",
+        "stationName": "Classical",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "bac1fe88-1b74-468b-9a8b-01d5ea125577",
+        "stationName": "Cool/Downtempo",
+        "explicitLyrics": false
+      }
+    ],
+    "Blues/Jazz": [
+      {
+        "stationId": "7c2854ea-8593-4d7c-902b-2dfb0ccb11b2",
+        "stationName": "Blues/Jazz",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "bac1fe88-1b74-468b-9a8b-01d5ea125577",
+        "stationName": "Cool/Downtempo",
+        "explicitLyrics": false
+      }
+    ],
+    "00s Hip-Hop": [
+      {
+        "stationId": "53879183-b296-404d-82ea-b7df1f7f70ec",
+        "stationName": "00s Hip Hop mid to high",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "90s Hip-Hop": [
+      {
+        "stationId": "85ff8970-cabc-45a6-93b9-8c2a4ef244c8",
+        "stationName": "90s Hip Hop mid to high",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Hip-Hop/R&B": [
+      {
+        "stationId": "77acddef-2ca8-4a37-8a2a-cea82cd99a20",
+        "stationName": "Hip Hop/R&B Mid",
+        "explicitLyrics": true
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Classic Rock": [
+      {
+        "stationId": "c1f87731-1cd6-4f8d-9113-718b4ed2e979",
+        "stationName": "60s/70s Rock",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Stadium Hits": [
+      {
+        "stationId": "168cf901-8a57-4ec0-b6ff-dd92b750dafd",
+        "stationName": "Sports Jams",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Soul/Funk/Disco": [
+      {
+        "stationId": "dad3745f-2dae-4f80-9548-cc0c6528175e",
+        "stationName": "Soul/Funk/Disco/Motown",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Alternative/Indie": [
+      {
+        "stationId": "1a0170cd-66e0-4ada-9d4e-6fff72657c6b",
+        "stationName": "Indie Alternative",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ]
+  },
+  "intensityText": null,
+  "videoDateTime": "2024-12-22T10:00:00.000Z",
+  "backupStations": [
+    {
+      "stationId": "168cf901-8a57-4ec0-b6ff-dd92b750dafd",
+      "stationName": "Sports Jams"
+    },
+    {
+      "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+      "stationName": "Global Hits"
+    }
+  ],
+  "closedCaptions": [
+    {
+      "uri": "http://house-fastly-signed-us-east-1-prod.brightcovecdn.com/media/v1/text/vtt/clear/5787522145001/8803c62a-eb87-4610-84ba-888da7c75fe4/b18aedf7-d291-4e04-b987-b915115d16bc/text.vtt?fastly_token=Njc2NTA5ODVfOGMxZTQyNGZlMWFjOGZhMDcyODdjYzc3MmM1NWJiMTIxY2MwZjBkMmYwMmY3NTZhMTRiYzNkOTc0YWQ4YzRjOV9odHRwOi8vaG91c2UtZmFzdGx5LXNpZ25lZC11cy1lYXN0LTEtcHJvZC5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS90ZXh0L3Z0dC9jbGVhci81Nzg3NTIyMTQ1MDAxLzg4MDNjNjJhLWViODctNDYxMC04NGJhLTg4OGRhN2M3NWZlNC9iMThhZWRmNy1kMjkxLTRlMDQtYjk4Ny1iOTE1MTE1ZDE2YmMvdGV4dC52dHQ%3D",
+      "type": "caption",
+      "language": "en",
+      "mimeType": "text/webvtt"
+    }
+  ],
+  "expiredEnabled": false,
+  "explicitLyrics": false,
+  "hasLeaderboard": true,
+  "hasRowingStats": true,
+  "intensityLevel": null,
+  "playlistSummary": null,
+  "durationForBadge": null,
+  "intensityIconUrl": null,
+  "programElementId": null,
+  "royaltyFreeMusic": false,
+  "videoDisplayTime": "2024-12-22T10:00:00.000Z",
+  "brightcoveVideoId": "6365782099112",
+  "locationShortName": "Norwood",
+  "hasIntraWorkoutStats": true,
+  "liveBodyBroadcastTime": null
+}

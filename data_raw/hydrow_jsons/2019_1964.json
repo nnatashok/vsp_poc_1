@@ -1,0 +1,405 @@
+{
+  "id": 1964,
+  "name": "Power Climb Row",
+  "image": {
+    "key": "workoutVideos/1964/cf09064e-84fb-4162-8d06-53a2a49038db",
+    "bucket": "hydrow-image-managed-prod",
+    "imageServerBaseUrl": "https://assets.ops.hydrow-external.net"
+  },
+  "isLive": false,
+  "meters": null,
+  "enabled": true,
+  "publish": true,
+  "category": {
+    "id": 6,
+    "name": "Drive",
+    "type": "row",
+    "uuid": "7eeb6377-d534-4215-984f-6facb379c829",
+    "sortOrder": 40,
+    "categoryType": "standard"
+  },
+  "duration": 1281,
+  "location": "Indian Creek - Miami Beach FL",
+  "playlist": [
+    {
+      "isrc": "USUM71500434",
+      "song": "I Bet My Life - Alex Adair Remix",
+      "album": "I Bet My Life (Remixes)",
+      "artist": "Imagine Dragons",
+      "duration_ms": 190280
+    },
+    {
+      "isrc": "USMRG1554701",
+      "song": "Glory (Keith Sweaty Remix)",
+      "album": "Shriek (Deluxe Version)",
+      "artist": "Wye Oak,Keith Sweaty",
+      "duration_ms": 338000
+    },
+    {
+      "isrc": "SEUM71400060",
+      "song": "Over",
+      "album": "Queen Of The Clouds (Blueprint Edition)",
+      "artist": "Tove Lo",
+      "duration_ms": 224186
+    },
+    {
+      "isrc": "USSM11202617",
+      "song": "Take a Walk",
+      "album": "Gossamer",
+      "artist": "Passion Pit",
+      "duration_ms": 264493
+    },
+    {
+      "isrc": "AUCN31209086",
+      "song": "Call on Me - Ryan Riback Remix",
+      "album": "Call On Me (Remixes)",
+      "artist": "Starley,Ryan Riback",
+      "duration_ms": 222040
+    },
+    {
+      "isrc": "USYAH1300233",
+      "song": "II. Earth: The Oldest Computer (The Last Night)",
+      "album": "Because the Internet",
+      "artist": "Childish Gambino,Azealia Banks",
+      "duration_ms": 282418
+    }
+  ],
+  "shareUrl": "https://members.hydrow.com/workout_videos/id_r6DBXJN4w9dzn5W",
+  "maxRhythm": null,
+  "posterUri": "https://assets.ops.hydrow-external.net/eyJidWNrZXQiOiJoeWRyb3ctaW1hZ2UtbWFuYWdlZC1wcm9kIiwia2V5Ijoid29ya291dFZpZGVvcy8xOTY0L2NmMDkwNjRlLTg0ZmItNDE2Mi04ZDA2LTUzYTJhNDkwMzhkYiIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTI4MCwiaGVpZ2h0Ijo3MjB9fX0=",
+  "programId": null,
+  "categoryId": 6,
+  "isCanceled": false,
+  "musicGenre": "Alternative/Indie",
+  "description": "Ready to feel the burn? Lock in a steady, powerful stroke by staying in rhythm with Mac for 1-minute intervals of maximum pressure. ",
+  "instructors": {
+    "seat1": null,
+    "seat2": null,
+    "seat3": null,
+    "stroke": {
+      "id": 21,
+      "name": "Mac Evans",
+      "cardUri": "https://s3.amazonaws.com/www.truerowing.com/images/dev/athleteCards/athlete_tile_bg_image_mac.png",
+      "cardImage": null,
+      "familiarName": "Mac",
+      "thumbnailUri": "https://assets.ops.hydrow-external.net/eyJidWNrZXQiOiJoeWRyb3ctaW1hZ2UtbWFuYWdlZC1wcm9kIiwia2V5IjoiYXRobGV0ZS1wcm9maWxlLzFlODIyMzNiLTYzOGEtNGRkMy1hOTU0LWNhNjZiMmYyMWYyZSJ9",
+      "instructorName": "Mac Evans",
+      "thumbnailImage": {
+        "key": "athlete-profile/1e82233b-638a-4dd3-a954-ca66b2f21f2e",
+        "bucket": "hydrow-image-managed-prod",
+        "imageServerBaseUrl": "https://assets.ops.hydrow-external.net"
+      }
+    },
+    "seat1Id": null,
+    "seat2Id": null,
+    "seat3Id": null,
+    "strokeId": 21
+  },
+  "durationBody": 1200,
+  "durationHead": 60,
+  "durationTail": 20,
+  "mediaSources": [
+    {
+      "uri": "https://edge.api.brightcove.com/playback/v1/accounts/5787522145001/videos/6115098789001/master.m3u8?bcov_auth=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NpZCI6IjU3ODc1MjIxNDUwMDEiLCJjb25pZCI6IjYxMTUwOTg3ODkwMDEiLCJpYXQiOjE3MzgyMzM3NzcsImV4cCI6MTc0MDU2NjU3NywiYXVkIjpbInN0YXRpYy5hcGkuYnJpZ2h0Y292ZS5jb20iXSwiYWxnIjoiUlMyNTYifQ.0AnrJBCmdHmmVivXbTsrCj3uov-I9P1n2ZopA9RAQeRDxIV1xKGBuKI7MEgCfagfrvTL6gR7S3jBTQBMgXH2gjIuNHZijTuDidzT6aS8vPDKZyy8mVSOs99FNlSXLDP82amRNBk1De5BUmstCSDdF210DcVTv4jiiik5sbNOLI_9y7eid5pWZYjxgjm4WZFBpCCr5RkYYuBWYkjlNMqPAN8nz_m9wFowCEyRvqy7ndAMqRUoYUBF_7BIm5sUV-oBdOUfRw4dmqgGFDDLGjZp2wM253h4q3rjwS0hJqrKDMKuNbcU-FDh-1-48tBPsdX9JQaudC04DU9HVrtIBukAWw",
+      "mimeType": "application/x-mpegURL",
+      "textTracks": [],
+      "audioTracks": [
+        {
+          "name": "descriptive",
+          "primary": false,
+          "duration": 1281,
+          "language": "en"
+        }
+      ],
+      "providerName": "brightcove"
+    },
+    {
+      "uri": "https://stream.mux.com/5Ev00E00wA3RIiM67C7T90101eoOEN00RsHln302Eq1vchs02o.m3u8?token=eyJhbGciOiJSUzI1NiJ9.eyJraWQiOiJGamRxT21naVZVcDAxQ3VienpvUGVsWUtKUDgyT2ZJenU4Y2VTT1ZCTlhMcyIsInN1YiI6IjVFdjAwRTAwd0EzUklpTTY3QzdUOTAxMDFlb09FTjAwUnNIbG4zMDJFcTF2Y2hzMDJvIiwiYXVkIjoidiIsImV4cCI6MTc0MDU2NjU3N30.riHuOJJlkjVAHYPQE9sd8LbFzfDU7kBBkmwwvGJGOi1Z66M5tF7lLF7S7TTwBbn-Lj-i9AS5lWYxJgVVj0E7v8ISZkjg-MzO_6OD4CkhT28S0u3L6WKDvMHBzKMlH2ACvUXHwt03QcGO2_SVpAopLI_biKxm5bfsuLshV4pPDTgMKOvWlnchB7j-7aUCqzwcvFogZRwia5kRS3gqgrDF85B6Ab7JZSzEjfNl715nHXUGMd_H72Byc1FGA8DdtAhOIZ4m0IvJG3DLwSEldDdi1Qi2FFLVG5rvyt45nbllWC723w2E4K9611nK5OEK0JmcuEkF8XLlyObjB1UerqT7rA",
+      "mimeType": "application/x-mpegURL",
+      "textTracks": [],
+      "audioTracks": [
+        {
+          "name": "main",
+          "primary": true,
+          "duration": 1280,
+          "language": "en"
+        }
+      ],
+      "providerName": "mux"
+    }
+  ],
+  "thumbnailUri": "https://assets.ops.hydrow-external.net/eyJidWNrZXQiOiJoeWRyb3ctaW1hZ2UtbWFuYWdlZC1wcm9kIiwia2V5Ijoid29ya291dFZpZGVvcy8xOTY0L2NmMDkwNjRlLTg0ZmItNDE2Mi04ZDA2LTUzYTJhNDkwMzhkYiIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTYwLCJoZWlnaHQiOjkwfX19",
+  "workoutTypes": [
+    "drive"
+  ],
+  "genreStations": {
+    "00s": [
+      {
+        "stationId": "2368fa8a-e5a1-4d66-9b98-e505a6c44a4e",
+        "stationName": "00s Hits mid to high",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "80s": [
+      {
+        "stationId": "f0b65ab0-ec2b-495d-8eaa-3a864d7ac227",
+        "stationName": "80's",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "90s": [
+      {
+        "stationId": "ec69e391-f963-4ebc-84ff-cb0bfbd30d48",
+        "stationName": "90's",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Pop": [
+      {
+        "stationId": "3c066f36-8d57-4ac5-92a3-ee3f2de70661",
+        "stationName": "Pop high",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Rock": [
+      {
+        "stationId": "60c9131a-9100-45e9-8695-42a44fd5da77",
+        "stationName": "Rock Mid-intensity",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Chill": [
+      {
+        "stationId": "c4a094e8-ba71-4b85-a573-a2b616ca0023",
+        "stationName": "Chill mid",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "bac1fe88-1b74-468b-9a8b-01d5ea125577",
+        "stationName": "Cool/Downtempo",
+        "explicitLyrics": false
+      }
+    ],
+    "Dance": [
+      {
+        "stationId": "6d956007-b6d8-4614-9271-5fa4c917ed53",
+        "stationName": "Dance high",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Latin": [
+      {
+        "stationId": "b110bac9-f8c0-46cf-af1b-d18f474f5e99",
+        "stationName": "Latin",
+        "explicitLyrics": true
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "World": [
+      {
+        "stationId": "c7cc8f07-2080-4527-9e32-a09911b8b225",
+        "stationName": "World Music",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Country": [
+      {
+        "stationId": "8892aa6b-82d6-44be-b4d0-ed88d9c3b156",
+        "stationName": "Country",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Pop Punk": [
+      {
+        "stationId": "f4922f9b-5f2d-4de4-8dea-cf62dcb7540b",
+        "stationName": "Pop Punk",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Classical": [
+      {
+        "stationId": "b7e5f693-713e-4af3-9019-5574290e4c29",
+        "stationName": "Classical",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "bac1fe88-1b74-468b-9a8b-01d5ea125577",
+        "stationName": "Cool/Downtempo",
+        "explicitLyrics": false
+      }
+    ],
+    "Blues/Jazz": [
+      {
+        "stationId": "7c2854ea-8593-4d7c-902b-2dfb0ccb11b2",
+        "stationName": "Blues/Jazz",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "bac1fe88-1b74-468b-9a8b-01d5ea125577",
+        "stationName": "Cool/Downtempo",
+        "explicitLyrics": false
+      }
+    ],
+    "00s Hip-Hop": [
+      {
+        "stationId": "53879183-b296-404d-82ea-b7df1f7f70ec",
+        "stationName": "00s Hip Hop mid to high",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "90s Hip-Hop": [
+      {
+        "stationId": "85ff8970-cabc-45a6-93b9-8c2a4ef244c8",
+        "stationName": "90s Hip Hop mid to high",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Hip-Hop/R&B": [
+      {
+        "stationId": "3112aa44-5aad-4b61-b743-334e263a0c7c",
+        "stationName": "Hip Hop/R&B High",
+        "explicitLyrics": true
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Classic Rock": [
+      {
+        "stationId": "c1f87731-1cd6-4f8d-9113-718b4ed2e979",
+        "stationName": "60s/70s Rock",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Stadium Hits": [
+      {
+        "stationId": "168cf901-8a57-4ec0-b6ff-dd92b750dafd",
+        "stationName": "Sports Jams",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Soul/Funk/Disco": [
+      {
+        "stationId": "dad3745f-2dae-4f80-9548-cc0c6528175e",
+        "stationName": "Soul/Funk/Disco/Motown",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Alternative/Indie": [
+      {
+        "stationId": "1a0170cd-66e0-4ada-9d4e-6fff72657c6b",
+        "stationName": "Indie Alternative",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ]
+  },
+  "intensityText": "Drive",
+  "videoDateTime": "2019-12-15T10:00:00.000Z",
+  "backupStations": [
+    {
+      "stationId": "1a0170cd-66e0-4ada-9d4e-6fff72657c6b",
+      "stationName": "Indie Alternative"
+    },
+    {
+      "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+      "stationName": "Global Hits"
+    }
+  ],
+  "closedCaptions": [],
+  "expiredEnabled": false,
+  "explicitLyrics": false,
+  "hasLeaderboard": true,
+  "hasRowingStats": true,
+  "intensityLevel": 3,
+  "playlistSummary": "Imagine Dragons | Wye Oak | Tove Lo",
+  "durationForBadge": null,
+  "intensityIconUrl": "https://s3.amazonaws.com/www.truerowing.com/images/prod/workout_filter_icons/ic_intensity_level_drive_grey.png",
+  "programElementId": null,
+  "royaltyFreeMusic": false,
+  "videoDisplayTime": "2019-12-15T10:00:00.000Z",
+  "brightcoveVideoId": "6115098789001",
+  "locationShortName": "Miami Beach",
+  "hasIntraWorkoutStats": true,
+  "liveBodyBroadcastTime": null
+}

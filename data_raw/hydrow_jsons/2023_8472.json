@@ -1,0 +1,555 @@
+{
+  "id": 8472,
+  "name": "Plyometric Circuit ",
+  "image": {
+    "key": "workoutVideos/8472/ee818b12-9d86-472b-91b8-2bb65624d341",
+    "bucket": "hydrow-image-managed-prod",
+    "imageServerBaseUrl": "https://assets.ops.hydrow-external.net"
+  },
+  "isLive": false,
+  "meters": null,
+  "enabled": true,
+  "publish": true,
+  "category": {
+    "id": 34,
+    "name": "On The Mat",
+    "type": "on-the-mat",
+    "uuid": "87de1c70-65ee-11e9-a923-1681be663d3e",
+    "sortOrder": 110,
+    "categoryType": "standard"
+  },
+  "duration": 1252,
+  "location": "Cooper River - Charleston SC",
+  "playlist": [
+    {
+      "isrc": "USVI20500657",
+      "song": "Ms. New Booty",
+      "album": "Ms. New Booty (Parental Advisory)",
+      "artist": "Bubba Sparxxx,Ying Yang Twins,Mr. Collipark",
+      "duration_ms": 251000,
+      "explicitLyrics": true
+    },
+    {
+      "isrc": "USDJ20110760",
+      "song": "Always On Time",
+      "album": "Best Of",
+      "artist": "Ja Rule,Ashanti",
+      "duration_ms": 245000,
+      "explicitLyrics": true
+    },
+    {
+      "isrc": "USCA20300295",
+      "song": "Holidae In",
+      "album": "Jackpot (Parental Advisory)",
+      "artist": "Ludacris,Chingy,Snoop Dogg",
+      "duration_ms": 314000,
+      "explicitLyrics": true
+    },
+    {
+      "isrc": "USUR10000178",
+      "song": "E.I.",
+      "album": "Country Grammar",
+      "artist": "Nelly",
+      "duration_ms": 286000,
+      "explicitLyrics": true
+    },
+    {
+      "isrc": "USUM71023043",
+      "song": "Down On Me",
+      "album": "All About You",
+      "artist": "Jeremih,50 Cent",
+      "duration_ms": 228000,
+      "explicitLyrics": false
+    }
+  ],
+  "shareUrl": "https://members.hydrow.com/workout_videos/id_enqkDJBXkEdjWwo",
+  "equipment": [
+    {
+      "id": "40e52c71-652f-4e07-a9fd-3cb54015c433",
+      "key": "dumbbells",
+      "name": "Dumbbells",
+      "tagGroupId": "3323f1d8-8f35-4c6e-9127-15aa5e1ecc81",
+      "tagGroupKey": "EQUIPMENT",
+      "tagGroupName": "Equipment"
+    }
+  ],
+  "intervals": [
+    {
+      "id": "5bf2fe9b-e672-46d9-adf9-567d1ab0f858",
+      "mets": "1",
+      "type": "otm",
+      "duration": 186,
+      "exercises": [
+        {
+          "id": "e00a7527-e472-4a66-a286-225f48f7f6d7",
+          "key": "warm-up-circuit",
+          "name": "Warm-up",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        }
+      ],
+      "description": "3:06 min    Warm-up"
+    },
+    {
+      "id": "af9161d5-4278-4a56-be1e-fe20f5c9ed42",
+      "mets": "5.75",
+      "type": "otm",
+      "duration": 234,
+      "exercises": [
+        {
+          "id": "0b64e140-b303-4128-b351-7aa24fab1ab2",
+          "key": "jumping jacks",
+          "name": "Jumping Jacks",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        },
+        {
+          "id": "97f689c3-10a2-4be2-b4f4-73213c751cc0",
+          "key": "dumbbell goblet squat",
+          "name": "Dumbbell Goblet Squat",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        }
+      ],
+      "description": "3:54 min    Jumping Jacks, Dumbbell Goblet Squat"
+    },
+    {
+      "id": "5348f77e-5536-4a46-9533-76bb48d5aace",
+      "type": "row",
+      "duration": 122,
+      "description": "2:02 min    Row"
+    },
+    {
+      "id": "9e7ea5dd-0255-4c33-9e03-fde1fcf395a5",
+      "mets": "5.75",
+      "type": "otm",
+      "duration": 238,
+      "exercises": [
+        {
+          "id": "5ac3bbe4-53b7-4ac6-9ff5-97be77cb4980",
+          "key": "high knees",
+          "name": "High Knees",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        },
+        {
+          "id": "97f689c3-10a2-4be2-b4f4-73213c751cc0",
+          "key": "dumbbell goblet squat",
+          "name": "Dumbbell Goblet Squat",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        }
+      ],
+      "description": "3:58 min    High Knees, Dumbbell Goblet Squat"
+    },
+    {
+      "id": "5a6817b6-289b-4fd6-8e13-d011a72384ca",
+      "type": "row",
+      "duration": 120,
+      "description": "2:00 min    Row"
+    },
+    {
+      "id": "a95413ac-b806-468c-a768-a134dbd1324a",
+      "mets": "5.75",
+      "type": "otm",
+      "duration": 142,
+      "exercises": [
+        {
+          "id": "0b64e140-b303-4128-b351-7aa24fab1ab2",
+          "key": "jumping jacks",
+          "name": "Jumping Jacks",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        },
+        {
+          "id": "97f689c3-10a2-4be2-b4f4-73213c751cc0",
+          "key": "dumbbell goblet squat",
+          "name": "Dumbbell Goblet Squat",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        }
+      ],
+      "description": "2:22 min    Jumping Jacks, Dumbbell Goblet Squat"
+    },
+    {
+      "id": "52a91a1c-45e9-4fb6-a3ea-6112d3454353",
+      "mets": "1",
+      "type": "otm",
+      "duration": 158,
+      "exercises": [
+        {
+          "id": "a23c3060-22e7-4443-8f6a-221f85bd25ff",
+          "key": "cool-down-circuit",
+          "name": "Cool-down",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        }
+      ],
+      "description": "2:38 min    Cool-down"
+    }
+  ],
+  "maxRhythm": null,
+  "posterUri": "https://assets.ops.hydrow-external.net/eyJidWNrZXQiOiJoeWRyb3ctaW1hZ2UtbWFuYWdlZC1wcm9kIiwia2V5Ijoid29ya291dFZpZGVvcy84NDcyL2VlODE4YjEyLTlkODYtNDcyYi05MWI4LTJiYjY1NjI0ZDM0MSIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTI4MCwiaGVpZ2h0Ijo3MjB9fX0=",
+  "programId": null,
+  "categoryId": 34,
+  "isCanceled": false,
+  "musicGenre": "Hip-Hop/R&B",
+  "description": "Total body work off Hydrow and 2-minute intervals on Hydrow. Explicit lyrics. \n\nMax rhythm: 24, Format: AMRAP ",
+  "instructors": {
+    "seat1": null,
+    "seat2": null,
+    "seat3": null,
+    "stroke": {
+      "id": 15,
+      "name": "Peter Donohoe",
+      "cardUri": "https://s3.amazonaws.com/www.truerowing.com/images/dev/athleteCards/athlete_tile_bg_image_peter.png",
+      "cardImage": null,
+      "familiarName": "Peter",
+      "thumbnailUri": "https://assets.ops.hydrow-external.net/eyJidWNrZXQiOiJoeWRyb3ctaW1hZ2UtbWFuYWdlZC1wcm9kIiwia2V5IjoiYXRobGV0ZS1wcm9maWxlL2U4ZWYyYjQyLTNlYjQtNDZiMC05NTM3LTM4MmQyMWQyMjc4NSJ9",
+      "instructorName": "Peter Donohoe",
+      "thumbnailImage": {
+        "key": "athlete-profile/e8ef2b42-3eb4-46b0-9537-382d21d22785",
+        "bucket": "hydrow-image-managed-prod",
+        "imageServerBaseUrl": "https://assets.ops.hydrow-external.net"
+      }
+    },
+    "seat1Id": null,
+    "seat2Id": null,
+    "seat3Id": null,
+    "strokeId": 15
+  },
+  "durationBody": 1200,
+  "durationHead": 30,
+  "durationTail": 22,
+  "mediaSources": [
+    {
+      "uri": "https://edge.api.brightcove.com/playback/v1/accounts/5787522145001/videos/6318810519112/master.m3u8?bcov_auth=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NpZCI6IjU3ODc1MjIxNDUwMDEiLCJjb25pZCI6IjYzMTg4MTA1MTkxMTIiLCJpYXQiOjE3Mzg0MjU1MzgsImV4cCI6MTc0MDc1ODMzOCwiYXVkIjpbInN0YXRpYy5hcGkuYnJpZ2h0Y292ZS5jb20iXSwiYWxnIjoiUlMyNTYifQ.hKixynAmQHcLQi9zsUE2BfikvMzpDqARNnNDAtCmpWegLLNi0rEa3Pbn0u1TGeIfwYKxBp0Vo1Vhgh7qCZPUo17vorVKpAcLbiJuzE_WADy_bJW00BZfWNHZv-bGbvQWntCYu-aa1yHcHAHkKXrX1fxZ_T7LHNunJBCS0cjxJlQapkdGwoKqmD7Jxr1I_rkcB9VU0oubjxJzEZC79imSFzSbhgOhNQvHxZswNHJvE24lJIPRP7qtZ9UUgADoyoXpJ-Rfh-ujVi_nOkMYYWkfB4GDau-WpMMOdSHaR5_ZLo2i2YPkMUHO34xOefdKfUsEsZOg-wT0QymXGWdu0sN02A",
+      "mimeType": "application/x-mpegURL",
+      "textTracks": [
+        {
+          "name": "English",
+          "type": "captions",
+          "language": "en"
+        }
+      ],
+      "audioTracks": [
+        {
+          "name": "descriptive",
+          "primary": false,
+          "duration": 1252,
+          "language": "en"
+        }
+      ],
+      "providerName": "brightcove"
+    },
+    {
+      "uri": "https://stream.mux.com/25xWQgpdkPpUhke15nkFmVXP3l7iH501BprHz4dNSef8.m3u8?token=eyJhbGciOiJSUzI1NiJ9.eyJraWQiOiJGamRxT21naVZVcDAxQ3VienpvUGVsWUtKUDgyT2ZJenU4Y2VTT1ZCTlhMcyIsInN1YiI6IjI1eFdRZ3Bka1BwVWhrZTE1bmtGbVZYUDNsN2lINTAxQnBySHo0ZE5TZWY4IiwiYXVkIjoidiIsImV4cCI6MTc0MDc1ODMzOH0.Y-4-l61cnfmPYov67Q_jeKqLx6bkWpeGb62WruRwjeEQsBzyyfrTkd_pgUGvEFboTbqzINcMP-JDfLqQfTPI5hGm0ZohM6xi7eV85tbFFrPwISx7gXwgXb_CN9usxEI3U3PitweM6ezfbgfNPEOAV_hTn3Yc1l3LUZjH1YHDKQ-4vsZDGqgSL65XwE9gr05w4o7VFQ32kNgHmWvThYucX0CLFt3S46jUbbOfzxLm5-oskXOuR3FLtF7OhpBYZ2GRH1J2uewg5__hW20xZNSHUYyWAa8aWkPjMbYNhjyPI6pYGrnbsT7AAIqjtuO1q9Zz2lgV5gHPpNJg3CJY_5o9HA",
+      "mimeType": "application/x-mpegURL",
+      "textTracks": [
+        {
+          "name": "English",
+          "type": "subtitles",
+          "language": "en"
+        }
+      ],
+      "audioTracks": [
+        {
+          "name": "main",
+          "primary": true,
+          "duration": 1252,
+          "language": "en"
+        }
+      ],
+      "providerName": "mux"
+    }
+  ],
+  "thumbnailUri": "https://assets.ops.hydrow-external.net/eyJidWNrZXQiOiJoeWRyb3ctaW1hZ2UtbWFuYWdlZC1wcm9kIiwia2V5Ijoid29ya291dFZpZGVvcy84NDcyL2VlODE4YjEyLTlkODYtNDcyYi05MWI4LTJiYjY1NjI0ZDM0MSIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTYwLCJoZWlnaHQiOjkwfX19",
+  "workoutTypes": [
+    "circuit"
+  ],
+  "genreStations": {
+    "00s": [
+      {
+        "stationId": "2368fa8a-e5a1-4d66-9b98-e505a6c44a4e",
+        "stationName": "00s Hits mid to high",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "80s": [
+      {
+        "stationId": "f0b65ab0-ec2b-495d-8eaa-3a864d7ac227",
+        "stationName": "80's",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "90s": [
+      {
+        "stationId": "ec69e391-f963-4ebc-84ff-cb0bfbd30d48",
+        "stationName": "90's",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Pop": [
+      {
+        "stationId": "3c066f36-8d57-4ac5-92a3-ee3f2de70661",
+        "stationName": "Pop high",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Rock": [
+      {
+        "stationId": "60c9131a-9100-45e9-8695-42a44fd5da77",
+        "stationName": "Rock Mid-intensity",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Chill": [
+      {
+        "stationId": "c4a094e8-ba71-4b85-a573-a2b616ca0023",
+        "stationName": "Chill mid",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "bac1fe88-1b74-468b-9a8b-01d5ea125577",
+        "stationName": "Cool/Downtempo",
+        "explicitLyrics": false
+      }
+    ],
+    "Dance": [
+      {
+        "stationId": "6d956007-b6d8-4614-9271-5fa4c917ed53",
+        "stationName": "Dance high",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Latin": [
+      {
+        "stationId": "b110bac9-f8c0-46cf-af1b-d18f474f5e99",
+        "stationName": "Latin",
+        "explicitLyrics": true
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "World": [
+      {
+        "stationId": "c7cc8f07-2080-4527-9e32-a09911b8b225",
+        "stationName": "World Music",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Country": [
+      {
+        "stationId": "8892aa6b-82d6-44be-b4d0-ed88d9c3b156",
+        "stationName": "Country",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Pop Punk": [
+      {
+        "stationId": "f4922f9b-5f2d-4de4-8dea-cf62dcb7540b",
+        "stationName": "Pop Punk",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Classical": [
+      {
+        "stationId": "b7e5f693-713e-4af3-9019-5574290e4c29",
+        "stationName": "Classical",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "bac1fe88-1b74-468b-9a8b-01d5ea125577",
+        "stationName": "Cool/Downtempo",
+        "explicitLyrics": false
+      }
+    ],
+    "Blues/Jazz": [
+      {
+        "stationId": "7c2854ea-8593-4d7c-902b-2dfb0ccb11b2",
+        "stationName": "Blues/Jazz",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "bac1fe88-1b74-468b-9a8b-01d5ea125577",
+        "stationName": "Cool/Downtempo",
+        "explicitLyrics": false
+      }
+    ],
+    "00s Hip-Hop": [
+      {
+        "stationId": "53879183-b296-404d-82ea-b7df1f7f70ec",
+        "stationName": "00s Hip Hop mid to high",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "90s Hip-Hop": [
+      {
+        "stationId": "85ff8970-cabc-45a6-93b9-8c2a4ef244c8",
+        "stationName": "90s Hip Hop mid to high",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Hip-Hop/R&B": [
+      {
+        "stationId": "3112aa44-5aad-4b61-b743-334e263a0c7c",
+        "stationName": "Hip Hop/R&B High",
+        "explicitLyrics": true
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Classic Rock": [
+      {
+        "stationId": "c1f87731-1cd6-4f8d-9113-718b4ed2e979",
+        "stationName": "60s/70s Rock",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Stadium Hits": [
+      {
+        "stationId": "168cf901-8a57-4ec0-b6ff-dd92b750dafd",
+        "stationName": "Sports Jams",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Soul/Funk/Disco": [
+      {
+        "stationId": "dad3745f-2dae-4f80-9548-cc0c6528175e",
+        "stationName": "Soul/Funk/Disco/Motown",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Alternative/Indie": [
+      {
+        "stationId": "1a0170cd-66e0-4ada-9d4e-6fff72657c6b",
+        "stationName": "Indie Alternative",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ]
+  },
+  "intensityText": null,
+  "videoDateTime": "2023-02-22T10:00:00.000Z",
+  "backupStations": [
+    {
+      "stationId": "3112aa44-5aad-4b61-b743-334e263a0c7c",
+      "stationName": "Hip Hop/R&B High"
+    },
+    {
+      "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+      "stationName": "Global Hits"
+    }
+  ],
+  "closedCaptions": [
+    {
+      "uri": "http://house-fastly-signed-us-east-1-prod.brightcovecdn.com/media/v1/text/vtt/clear/5787522145001/706cabdd-18af-4cd2-808d-6834d7e414ed/7a4fba18-7045-445a-aafb-d79aec1bad83/text.vtt?fastly_token=NjcyMDczNzNfOGY4MTNiNmRiZjZhNjI1NGZkMGNhOTM0ODBmMjJjODEzNWFkZmQ0ZjEzNGQyOTI2Y2RhMWZmMDE4OTI4MmNlM19odHRwOi8vaG91c2UtZmFzdGx5LXNpZ25lZC11cy1lYXN0LTEtcHJvZC5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS90ZXh0L3Z0dC9jbGVhci81Nzg3NTIyMTQ1MDAxLzcwNmNhYmRkLTE4YWYtNGNkMi04MDhkLTY4MzRkN2U0MTRlZC83YTRmYmExOC03MDQ1LTQ0NWEtYWFmYi1kNzlhZWMxYmFkODMvdGV4dC52dHQ%3D",
+      "type": "caption",
+      "language": "en",
+      "mimeType": "text/webvtt"
+    }
+  ],
+  "expiredEnabled": false,
+  "explicitLyrics": true,
+  "hasLeaderboard": true,
+  "hasRowingStats": true,
+  "intensityLevel": null,
+  "playlistSummary": "N/A",
+  "durationForBadge": null,
+  "intensityIconUrl": null,
+  "programElementId": null,
+  "royaltyFreeMusic": false,
+  "videoDisplayTime": "2023-02-22T10:00:00.000Z",
+  "brightcoveVideoId": "6318810519112",
+  "locationShortName": "Charleston",
+  "hasIntraWorkoutStats": true,
+  "liveBodyBroadcastTime": null
+}

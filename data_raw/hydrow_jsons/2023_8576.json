@@ -1,0 +1,430 @@
+{
+  "id": 8576,
+  "name": "Whole Body Pilates",
+  "image": {
+    "key": "workoutVideos/8576/821e8b2a-ea0f-4acf-a295-ce2b4094f614",
+    "bucket": "hydrow-image-managed-prod",
+    "imageServerBaseUrl": "https://assets.ops.hydrow-external.net"
+  },
+  "isLive": false,
+  "meters": null,
+  "enabled": true,
+  "publish": true,
+  "category": {
+    "id": 34,
+    "name": "On The Mat",
+    "type": "on-the-mat",
+    "uuid": "87de1c70-65ee-11e9-a923-1681be663d3e",
+    "sortOrder": 110,
+    "categoryType": "standard"
+  },
+  "duration": 1239,
+  "location": "Boston Harbor - Boston MA",
+  "playlist": [
+    {
+      "isrc": "USUM71519172",
+      "song": "Love Myself (Kream Remix)",
+      "album": "Love Myself (Remixes)",
+      "artist": "Hailee Steinfeld",
+      "duration_ms": 222000,
+      "explicitLyrics": false
+    },
+    {
+      "isrc": "USUM71915699",
+      "song": "Circles",
+      "album": "Hollywood's Bleeding",
+      "artist": "Post Malone",
+      "duration_ms": 215000,
+      "explicitLyrics": false
+    },
+    {
+      "isrc": "GBUM71700129",
+      "song": "Plot Twist",
+      "album": "Don't Kill My Vibe - EP",
+      "artist": "Sigrid,Askjell Jon Reigem Solstrand,George Flint,Henry Flint",
+      "duration_ms": 205000,
+      "explicitLyrics": false
+    },
+    {
+      "isrc": "USUM72208023",
+      "song": "I Like You (A Happier Song)",
+      "album": "Twelve Carat Toothache",
+      "artist": "Doja Cat,Post Malone",
+      "duration_ms": 193000,
+      "explicitLyrics": true
+    },
+    {
+      "isrc": "USUM71915725",
+      "song": "Enemies",
+      "album": "Hollywood's Bleeding",
+      "artist": "DaBaby,Post Malone",
+      "duration_ms": 197000,
+      "explicitLyrics": true
+    },
+    {
+      "isrc": "SEBGA1802355",
+      "song": "Born To Be Yours",
+      "album": "Born To Be Yours",
+      "artist": "Kygo,Imagine Dragons",
+      "duration_ms": 193000,
+      "explicitLyrics": false
+    }
+  ],
+  "shareUrl": "https://members.hydrow.com/workout_videos/id_yeE6n23L8edNGgq",
+  "maxRhythm": null,
+  "posterUri": "https://assets.ops.hydrow-external.net/eyJidWNrZXQiOiJoeWRyb3ctaW1hZ2UtbWFuYWdlZC1wcm9kIiwia2V5Ijoid29ya291dFZpZGVvcy84NTc2LzgyMWU4YjJhLWVhMGYtNGFjZi1hMjk1LWNlMmI0MDk0ZjYxNCIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTI4MCwiaGVpZ2h0Ijo3MjB9fX0=",
+  "programId": null,
+  "categoryId": 34,
+  "isCanceled": false,
+  "musicGenre": "Hip-Hop/R&B",
+  "description": "Move through a circuit of three pilates exercises with Christie, strengthening your whole body. ",
+  "instructors": {
+    "seat1": null,
+    "seat2": null,
+    "seat3": null,
+    "stroke": {
+      "id": 12,
+      "name": "Christie Wang",
+      "cardUri": "https://s3.amazonaws.com/www.truerowing.com/images/dev/athleteCards/athlete_tile_bg_image_christie.png",
+      "cardImage": null,
+      "familiarName": "Christie",
+      "thumbnailUri": "https://assets.ops.hydrow-external.net/eyJidWNrZXQiOiJoeWRyb3ctaW1hZ2UtbWFuYWdlZC1wcm9kIiwia2V5IjoiYXRobGV0ZS1wcm9maWxlLzgwNWQ3ZWZmLWMyZGYtNDhiZi05MGFkLTg5NzU3OTE5NTYwYyJ9",
+      "instructorName": "Christie Wang",
+      "thumbnailImage": {
+        "key": "athlete-profile/805d7eff-c2df-48bf-90ad-89757919560c",
+        "bucket": "hydrow-image-managed-prod",
+        "imageServerBaseUrl": "https://assets.ops.hydrow-external.net"
+      }
+    },
+    "seat1Id": null,
+    "seat2Id": null,
+    "seat3Id": null,
+    "strokeId": 12
+  },
+  "durationBody": 1200,
+  "durationHead": 30,
+  "durationTail": 10,
+  "mediaSources": [
+    {
+      "uri": "https://edge.api.brightcove.com/playback/v1/accounts/5787522145001/videos/6319546361112/master.m3u8?bcov_auth=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NpZCI6IjU3ODc1MjIxNDUwMDEiLCJjb25pZCI6IjYzMTk1NDYzNjExMTIiLCJpYXQiOjE3Mzc5MDcyOTYsImV4cCI6MTc0MDI0MDA5NiwiYXVkIjpbInN0YXRpYy5hcGkuYnJpZ2h0Y292ZS5jb20iXSwiYWxnIjoiUlMyNTYifQ.gkuhyIH-pu_DCOKUtcvmyRO9b00O6Y7lPgLIAjIVNJxW6CD1wpfj2CrPWC0EZz63jHhPpgYx0Uw9dEdhwyxYWJLcmwdmVrAlJoPW8Chio1P9oDya6G9dUXe_luIObEy7jp0StptH9cVFtNB6hezIxIcG_JGxyHNF41cabNXek9HJDwaGOokzx_D74eXa6YukvtmwvGpd4voDVSi-iIR6r9N8rCrTkvX7W7sVvsJFnKw-0lm704Op59BeExFka5G7uSmIhVIEn1MIMemzpgrjfks3airpwhdYHI_VTiDMDAR7XXQNOt4d8DiofMjsXwfC3S3sfxQyVRiLn_j1w07HEg",
+      "mimeType": "application/x-mpegURL",
+      "textTracks": [
+        {
+          "name": "English",
+          "type": "captions",
+          "language": "en"
+        }
+      ],
+      "audioTracks": [
+        {
+          "name": "descriptive",
+          "primary": false,
+          "duration": 1240,
+          "language": "en"
+        }
+      ],
+      "providerName": "brightcove"
+    },
+    {
+      "uri": "https://stream.mux.com/agjPx14qYGBTO012u241kNaSdjca7FI4Eq1X4KfR7D00k.m3u8?token=eyJhbGciOiJSUzI1NiJ9.eyJraWQiOiJGamRxT21naVZVcDAxQ3VienpvUGVsWUtKUDgyT2ZJenU4Y2VTT1ZCTlhMcyIsInN1YiI6ImFnalB4MTRxWUdCVE8wMTJ1MjQxa05hU2RqY2E3Rkk0RXExWDRLZlI3RDAwayIsImF1ZCI6InYiLCJleHAiOjE3NDAyNDAwOTZ9.OMZbZIhrgFTv9tcp7SafNDPpG6x6RmsQzK9spA3JyFqBTBxEXgQckz3mrl1-i24Y_KsjBb8BTmkVI0nwKJaw3_tQi_Y5OAs5UXThj6EHGDUW3jrvOH89Noe7ke9rBJWOG5-4yPEMbde-YAaI0pWWfxe_v9TgPatlwL0LOut8kgtleI1FNGWPA660f9wOPp-QwUxL1ImbA3ZQ6EzlSmaAU6MapxiffAQupVTHIoc4rzXAOV6RcdEIGUULGtUsPy-S9HuV0SzYOwGZ3xyf1eYWT9gztMzXoCvmgo2CoVAElChAnHsai3xXxXYDdDY0YxLa8TNZSKZlZ9zG5dY39FMziA",
+      "mimeType": "application/x-mpegURL",
+      "textTracks": [
+        {
+          "name": "English",
+          "type": "subtitles",
+          "language": "en"
+        }
+      ],
+      "audioTracks": [
+        {
+          "name": "main",
+          "primary": true,
+          "duration": 1240,
+          "language": "en"
+        }
+      ],
+      "providerName": "mux"
+    }
+  ],
+  "thumbnailUri": "https://assets.ops.hydrow-external.net/eyJidWNrZXQiOiJoeWRyb3ctaW1hZ2UtbWFuYWdlZC1wcm9kIiwia2V5Ijoid29ya291dFZpZGVvcy84NTc2LzgyMWU4YjJhLWVhMGYtNGFjZi1hMjk1LWNlMmI0MDk0ZjYxNCIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTYwLCJoZWlnaHQiOjkwfX19",
+  "workoutTypes": [
+    "pilates"
+  ],
+  "genreStations": {
+    "00s": [
+      {
+        "stationId": "2368fa8a-e5a1-4d66-9b98-e505a6c44a4e",
+        "stationName": "00s Hits mid to high",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "80s": [
+      {
+        "stationId": "f0b65ab0-ec2b-495d-8eaa-3a864d7ac227",
+        "stationName": "80's",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "90s": [
+      {
+        "stationId": "ec69e391-f963-4ebc-84ff-cb0bfbd30d48",
+        "stationName": "90's",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Pop": [
+      {
+        "stationId": "5004cc4b-776c-4f5c-9c38-1d7c615613a1",
+        "stationName": "Pop mid",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Rock": [
+      {
+        "stationId": "60c9131a-9100-45e9-8695-42a44fd5da77",
+        "stationName": "Rock Mid-intensity",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Chill": [
+      {
+        "stationId": "c4a094e8-ba71-4b85-a573-a2b616ca0023",
+        "stationName": "Chill mid",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "bac1fe88-1b74-468b-9a8b-01d5ea125577",
+        "stationName": "Cool/Downtempo",
+        "explicitLyrics": false
+      }
+    ],
+    "Dance": [
+      {
+        "stationId": "bc7de4df-ced7-40c5-a677-9edf4078106c",
+        "stationName": "Dance mid",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Latin": [
+      {
+        "stationId": "b110bac9-f8c0-46cf-af1b-d18f474f5e99",
+        "stationName": "Latin",
+        "explicitLyrics": true
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "World": [
+      {
+        "stationId": "c7cc8f07-2080-4527-9e32-a09911b8b225",
+        "stationName": "World Music",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Country": [
+      {
+        "stationId": "8892aa6b-82d6-44be-b4d0-ed88d9c3b156",
+        "stationName": "Country",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Pop Punk": [
+      {
+        "stationId": "f4922f9b-5f2d-4de4-8dea-cf62dcb7540b",
+        "stationName": "Pop Punk",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Classical": [
+      {
+        "stationId": "b7e5f693-713e-4af3-9019-5574290e4c29",
+        "stationName": "Classical",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "bac1fe88-1b74-468b-9a8b-01d5ea125577",
+        "stationName": "Cool/Downtempo",
+        "explicitLyrics": false
+      }
+    ],
+    "Blues/Jazz": [
+      {
+        "stationId": "7c2854ea-8593-4d7c-902b-2dfb0ccb11b2",
+        "stationName": "Blues/Jazz",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "bac1fe88-1b74-468b-9a8b-01d5ea125577",
+        "stationName": "Cool/Downtempo",
+        "explicitLyrics": false
+      }
+    ],
+    "00s Hip-Hop": [
+      {
+        "stationId": "53879183-b296-404d-82ea-b7df1f7f70ec",
+        "stationName": "00s Hip Hop mid to high",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "90s Hip-Hop": [
+      {
+        "stationId": "85ff8970-cabc-45a6-93b9-8c2a4ef244c8",
+        "stationName": "90s Hip Hop mid to high",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Hip-Hop/R&B": [
+      {
+        "stationId": "77acddef-2ca8-4a37-8a2a-cea82cd99a20",
+        "stationName": "Hip Hop/R&B Mid",
+        "explicitLyrics": true
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Classic Rock": [
+      {
+        "stationId": "c1f87731-1cd6-4f8d-9113-718b4ed2e979",
+        "stationName": "60s/70s Rock",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Stadium Hits": [
+      {
+        "stationId": "168cf901-8a57-4ec0-b6ff-dd92b750dafd",
+        "stationName": "Sports Jams",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Soul/Funk/Disco": [
+      {
+        "stationId": "dad3745f-2dae-4f80-9548-cc0c6528175e",
+        "stationName": "Soul/Funk/Disco/Motown",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Alternative/Indie": [
+      {
+        "stationId": "1a0170cd-66e0-4ada-9d4e-6fff72657c6b",
+        "stationName": "Indie Alternative",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ]
+  },
+  "intensityText": null,
+  "videoDateTime": "2023-02-03T10:00:00.000Z",
+  "backupStations": [
+    {
+      "stationId": "77acddef-2ca8-4a37-8a2a-cea82cd99a20",
+      "stationName": "Hip Hop/R&B Mid"
+    },
+    {
+      "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+      "stationName": "Global Hits"
+    }
+  ],
+  "closedCaptions": [
+    {
+      "uri": "http://house-fastly-signed-us-east-1-prod.brightcovecdn.com/media/v1/text/vtt/clear/5787522145001/b9aaf807-871e-45d9-8cc9-7e86cd75f216/68859277-636a-496b-9bb7-7ac9536f5df0/text.vtt?fastly_token=NjcyMDczYWVfODMzOGFlM2JiMTEzZmZmZjA4ODBkYzc2ZjY3MDFiNjg1NjE3ZTdjNjEwN2M2NTU1NjZmNWNiNWIwZjI1ZGRjZF9odHRwOi8vaG91c2UtZmFzdGx5LXNpZ25lZC11cy1lYXN0LTEtcHJvZC5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS90ZXh0L3Z0dC9jbGVhci81Nzg3NTIyMTQ1MDAxL2I5YWFmODA3LTg3MWUtNDVkOS04Y2M5LTdlODZjZDc1ZjIxNi82ODg1OTI3Ny02MzZhLTQ5NmItOWJiNy03YWM5NTM2ZjVkZjAvdGV4dC52dHQ%3D",
+      "type": "caption",
+      "language": "en",
+      "mimeType": "text/webvtt"
+    }
+  ],
+  "expiredEnabled": false,
+  "explicitLyrics": true,
+  "hasLeaderboard": false,
+  "hasRowingStats": false,
+  "intensityLevel": null,
+  "playlistSummary": "N/A",
+  "durationForBadge": null,
+  "intensityIconUrl": null,
+  "programElementId": null,
+  "royaltyFreeMusic": false,
+  "videoDisplayTime": "2023-02-03T10:00:00.000Z",
+  "brightcoveVideoId": "6319546361112",
+  "locationShortName": "Boston",
+  "hasIntraWorkoutStats": false,
+  "liveBodyBroadcastTime": null
+}

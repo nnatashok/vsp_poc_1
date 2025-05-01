@@ -1,0 +1,658 @@
+{
+  "id": 9811,
+  "name": "Total Body Burn Circuit",
+  "image": {
+    "key": "workoutVideos/9811/f23f4726-eae3-4fa4-9d09-4fe420455b75",
+    "bucket": "hydrow-image-managed-prod",
+    "imageServerBaseUrl": "https://assets.ops.hydrow-external.net"
+  },
+  "isLive": false,
+  "meters": null,
+  "enabled": true,
+  "publish": true,
+  "category": {
+    "id": 34,
+    "name": "On The Mat",
+    "type": "on-the-mat",
+    "uuid": "87de1c70-65ee-11e9-a923-1681be663d3e",
+    "sortOrder": 110,
+    "categoryType": "standard"
+  },
+  "duration": 1846,
+  "location": "Cape Cod Bay - Plymouth MA",
+  "playlist": [],
+  "shareUrl": "https://members.hydrow.com/workout_videos/id_7KZgoQbLZB2PNmx",
+  "equipment": [
+    {
+      "id": "40e52c71-652f-4e07-a9fd-3cb54015c433",
+      "key": "dumbbells",
+      "name": "Dumbbells",
+      "tagGroupId": "3323f1d8-8f35-4c6e-9127-15aa5e1ecc81",
+      "tagGroupKey": "EQUIPMENT",
+      "tagGroupName": "Equipment"
+    }
+  ],
+  "intervals": [
+    {
+      "id": "d26c6bcc-b44a-4b8f-881f-ee081326ecd9",
+      "mets": "4.00",
+      "type": "otm",
+      "duration": 184,
+      "exercises": [
+        {
+          "id": "e00a7527-e472-4a66-a286-225f48f7f6d7",
+          "key": "warm-up-circuit",
+          "name": "Warm-up",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        }
+      ],
+      "description": "3:04 min    Warm-up"
+    },
+    {
+      "id": "e3c93998-d757-4530-91be-57527813071b",
+      "type": "row",
+      "duration": 176,
+      "description": "2:56 min    Row"
+    },
+    {
+      "id": "fa255a7b-b7de-455c-9ade-f873cbbc06b3",
+      "mets": "4.63",
+      "type": "otm",
+      "duration": 452,
+      "exercises": [
+        {
+          "id": "39426a4a-0212-4919-b0b1-219c322349e0",
+          "key": "russian twist",
+          "name": "Russian Twist",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        },
+        {
+          "id": "765038e1-4dff-496d-b81b-1aefdc0c6b6d",
+          "key": "bicep curl",
+          "name": "Bicep Curl",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        },
+        {
+          "id": "e51f120f-489d-4271-b013-119dba9a55d6",
+          "key": "squat with lateral leg raise",
+          "name": "Squat with Lateral Leg Raise",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        },
+        {
+          "id": "f31333ca-dbad-49c3-9afd-b130731be2d6",
+          "key": "butterfly bridge",
+          "name": "Butterfly Bridge",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        }
+      ],
+      "description": "7:32 min    Russian Twist, Bicep Curl, Squat with Lateral Leg Raise, Butterfly Bridge"
+    },
+    {
+      "id": "920d8286-461e-4462-88e1-ea6dfcf7bea9",
+      "type": "row",
+      "duration": 180,
+      "description": "3:00 min    Row"
+    },
+    {
+      "id": "6c416c1e-67ad-4292-9be9-e45ec9b07103",
+      "mets": "4.63",
+      "type": "otm",
+      "duration": 442,
+      "exercises": [
+        {
+          "id": "39426a4a-0212-4919-b0b1-219c322349e0",
+          "key": "russian twist",
+          "name": "Russian Twist",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        },
+        {
+          "id": "765038e1-4dff-496d-b81b-1aefdc0c6b6d",
+          "key": "bicep curl",
+          "name": "Bicep Curl",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        },
+        {
+          "id": "e51f120f-489d-4271-b013-119dba9a55d6",
+          "key": "squat with lateral leg raise",
+          "name": "Squat with Lateral Leg Raise",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        },
+        {
+          "id": "f31333ca-dbad-49c3-9afd-b130731be2d6",
+          "key": "butterfly bridge",
+          "name": "Butterfly Bridge",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        }
+      ],
+      "description": "7:22 min    Russian Twist, Bicep Curl, Squat with Lateral Leg Raise, Butterfly Bridge"
+    },
+    {
+      "id": "378aed63-4c1d-4481-98ab-a3277c40e39b",
+      "type": "row",
+      "duration": 188,
+      "description": "3:08 min    Row"
+    },
+    {
+      "id": "34694422-a99e-4b31-a67f-9d284d93d7d5",
+      "mets": "4.50",
+      "type": "otm",
+      "duration": 88,
+      "exercises": [
+        {
+          "id": "39426a4a-0212-4919-b0b1-219c322349e0",
+          "key": "russian twist",
+          "name": "Russian Twist",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        }
+      ],
+      "description": "1:28 min    Russian Twist"
+    },
+    {
+      "id": "93ad0e43-6974-4c95-a67f-c06c99dd2168",
+      "mets": "3.00",
+      "type": "otm",
+      "duration": 90,
+      "exercises": [
+        {
+          "id": "a23c3060-22e7-4443-8f6a-221f85bd25ff",
+          "key": "cool-down-circuit",
+          "name": "Cool-down",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        }
+      ],
+      "description": "1:30 min    Cool-down"
+    }
+  ],
+  "maxRhythm": null,
+  "posterUri": "https://assets.ops.hydrow-external.net/eyJidWNrZXQiOiJoeWRyb3ctaW1hZ2UtbWFuYWdlZC1wcm9kIiwia2V5Ijoid29ya291dFZpZGVvcy85ODExL2YyM2Y0NzI2LWVhZTMtNGZhNC05ZDA5LTRmZTQyMDQ1NWI3NSIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTI4MCwiaGVpZ2h0Ijo3MjB9fX0=",
+  "programId": null,
+  "categoryId": 34,
+  "formVideos": {
+    "count": 1,
+    "shareUrl": null,
+    "workoutVideos": [
+      {
+        "id": 8871,
+        "name": "Bicep Curl",
+        "type": "Form",
+        "isLive": false,
+        "enabled": true,
+        "publish": true,
+        "location": "Ashley River - Charleston SC",
+        "exercises": [
+          {
+            "id": "765038e1-4dff-496d-b81b-1aefdc0c6b6d",
+            "key": "bicep curl",
+            "name": "Bicep Curl",
+            "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+            "tagGroupKey": "EXERCISE",
+            "tagGroupName": "Exercise"
+          }
+        ],
+        "maxRhythm": null,
+        "posterUri": null,
+        "categoryId": 34,
+        "isCanceled": false,
+        "instructors": {
+          "seat1": null,
+          "seat2": null,
+          "seat3": null,
+          "stroke": {
+            "id": 19,
+            "name": "No Athlete",
+            "cardUri": null,
+            "cardImage": null,
+            "familiarName": "No Athlete",
+            "thumbnailUri": "https://assets.ops.hydrow-external.net/eyJidWNrZXQiOiJoeWRyb3ctaW1hZ2UtbWFuYWdlZC1wcm9kIiwia2V5IjoiYXRobGV0ZS1wcm9maWxlLzgyNTQ4ZjM1LWQ0YTYtNDhkYS04MjQ3LTIzMmY5MmY2OGEwZCJ9",
+            "instructorName": "No Athlete",
+            "thumbnailImage": {
+              "key": "athlete-profile/82548f35-d4a6-48da-8247-232f92f68a0d",
+              "bucket": "hydrow-image-managed-prod",
+              "imageServerBaseUrl": "https://assets.ops.hydrow-external.net"
+            }
+          },
+          "seat1Id": null,
+          "seat2Id": null,
+          "seat3Id": null,
+          "strokeId": 19
+        },
+        "durationBody": 60,
+        "mediaSources": [
+          {
+            "uri": "https://edge.api.brightcove.com/playback/v1/accounts/5787522145001/videos/6324301364112/master.m3u8?bcov_auth=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NpZCI6IjU3ODc1MjIxNDUwMDEiLCJjb25pZCI6IjYzMjQzMDEzNjQxMTIiLCJpYXQiOjE3Mzc4NDY4MTQsImV4cCI6MTc0MDE3OTYxNCwiYXVkIjpbInN0YXRpYy5hcGkuYnJpZ2h0Y292ZS5jb20iXSwiYWxnIjoiUlMyNTYifQ.zZ2HudeMB_DG1QK6K1IjmEG5xf1WTn68ZPLuLn-_fIimN83Qksa_oqKiGXEuo_7wLei3mEMe-oNRmxsnezTZjdpd6_h8QPKy5DBQSJ8hTUXRzXLU7a739vC8bgnQ8NxI1w4eGyWP_q_Grf_P1660HaAqdYvA0MoD4aoqzWn2en42iLbDldAja4F6-CmHmsgJ3gDB2hczJjkyb91jcvOXl1iLMWNTYClvp0nvXu1qOz6hwCDEwdQvHXBZwyCHsojv3_3ccrepbG2IE_iGa2_0nJMh8BsqDtKxUjFg2g8eRUmMPwgIcDCYgdiQ1I1FtoQqof3kM-5eem6YtXz_zA2nfQ",
+            "mimeType": "application/x-mpegURL",
+            "textTracks": [
+              {
+                "name": "English",
+                "type": "captions",
+                "language": "en"
+              }
+            ],
+            "audioTracks": [
+              {
+                "name": "main",
+                "primary": true,
+                "duration": 20,
+                "language": "en"
+              }
+            ],
+            "providerName": "brightcove"
+          },
+          {
+            "uri": "https://stream.mux.com/AFyX1Wny45b8EXGuVbDU00jieKVYvcadBJYo9xsBcpAo.m3u8?token=eyJhbGciOiJSUzI1NiJ9.eyJraWQiOiJGamRxT21naVZVcDAxQ3VienpvUGVsWUtKUDgyT2ZJenU4Y2VTT1ZCTlhMcyIsInN1YiI6IkFGeVgxV255NDViOEVYR3VWYkRVMDBqaWVLVll2Y2FkQkpZbzl4c0JjcEFvIiwiYXVkIjoidiIsImV4cCI6MTc0MDE3OTYxNH0.glWf-09Hb43kXpRoF9H8sLL9x5YEAyWEeGqWui3EmHOTnTR9ShJkwyAWmaOAVPQURK1v9mFzveK2dgdYJYYWCpfxXe12omcibzG7DZKQzvJEsaHL6bVnxTSgfznjQTpY2--EggMlsZ8_B6RVFg_S-oolU0tGEMk41TycXw2IflhN6Ra_qPPspdTFQRzok7pFNYRXB6JuCRadA-egszfqyGQfc5Qe7s_bSl0En2ZQpMOTcFFFnaTeE4JSgnrVwN8KQGQUH4Gr3amay3mbW7ph1GIzUeSGb0Vp8NW7WZV5iu6qfbGS65VR-dx1OI2FTsWv7kbz6jhbwy0sDvv4yp40vA",
+            "mimeType": "application/x-mpegURL",
+            "textTracks": [
+              {
+                "name": "English",
+                "type": "subtitles",
+                "language": "en"
+              }
+            ],
+            "audioTracks": [
+              {
+                "name": "main",
+                "primary": true,
+                "duration": 20,
+                "language": "en"
+              }
+            ],
+            "providerName": "mux"
+          }
+        ],
+        "thumbnailUri": null,
+        "intensityText": null,
+        "closedCaptions": [
+          {
+            "uri": "http://bcbolt446c5271-a.akamaihd.net/media/v1/text/vtt/clear/5787522145001/86988933-59ae-4879-899d-76058b034ea7/c07638d0-7db0-4ae5-adfe-80c931242cd6/text.vtt?akamai_token=exp=1681772610~acl=/media/v1/text/vtt/clear/5787522145001/86988933-59ae-4879-899d-76058b034ea7/c07638d0-7db0-4ae5-adfe-80c931242cd6/text.vtt*~hmac=9c47c743e2a68f30fd26f5bf79d2f805503a80115ef99252a4e15441d6d7a9cf",
+            "type": "caption",
+            "language": "en",
+            "mimeType": "text/webvtt"
+          }
+        ],
+        "explicitLyrics": false,
+        "intensityLevel": null,
+        "targetDistance": null,
+        "intensityIconUrl": null,
+        "videoDisplayTime": "2023-04-11T09:00:00.000Z",
+        "brightcoveVideoId": "6324301364112",
+        "locationShortName": "Charleston",
+        "recommendationType": null,
+        "liveBodyBroadcastTime": null
+      }
+    ]
+  },
+  "isCanceled": false,
+  "musicGenre": "90s Hip-Hop",
+  "description": "Feel the burn with Manteo as you tackle two on the mat intervals and three on-Hydrow intervals.\nMax rhythm: 26, Format: Circuit ",
+  "instructors": {
+    "seat1": null,
+    "seat2": null,
+    "seat3": null,
+    "stroke": {
+      "id": 254,
+      "name": "Manteo Mitchell",
+      "cardUri": "https://s3.amazonaws.com/www.truerowing.com/images/dev/athleteCards/athlete_tile_bg_image_manteo.png",
+      "cardImage": null,
+      "familiarName": "Manteo",
+      "thumbnailUri": "https://assets.ops.hydrow-external.net/eyJidWNrZXQiOiJoeWRyb3ctaW1hZ2UtbWFuYWdlZC1wcm9kIiwia2V5IjoiYXRobGV0ZS1wcm9maWxlLzA5OGM5M2E1LTMzNTAtNDdmNC1hMzA3LWZhNWM0OTdjMzFkOCJ9",
+      "instructorName": "Manteo Mitchell",
+      "thumbnailImage": {
+        "key": "athlete-profile/098c93a5-3350-47f4-a307-fa5c497c31d8",
+        "bucket": "hydrow-image-managed-prod",
+        "imageServerBaseUrl": "https://assets.ops.hydrow-external.net"
+      }
+    },
+    "seat1Id": null,
+    "seat2Id": null,
+    "seat3Id": null,
+    "strokeId": 254
+  },
+  "durationBody": 1800,
+  "durationHead": 30,
+  "durationTail": 16,
+  "mediaSources": [
+    {
+      "uri": "https://edge.api.brightcove.com/playback/v1/accounts/5787522145001/videos/6345891089112/master.m3u8?bcov_auth=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NpZCI6IjU3ODc1MjIxNDUwMDEiLCJjb25pZCI6IjYzNDU4OTEwODkxMTIiLCJpYXQiOjE3Mzc4OTczODUsImV4cCI6MTc0MDIzMDE4NSwiYXVkIjpbInN0YXRpYy5hcGkuYnJpZ2h0Y292ZS5jb20iXSwiYWxnIjoiUlMyNTYifQ.eAh9YT064itmGNw_8zbPygDliewS0hvJpsyZyMgtI05ZzWKcXExxYl6PcXc4UkzP3SWKUhEBEycE4v5TmCTwB62r14zlhqeXfiKaZFaYWA4xDxjY7oQVOq7yJD9vIoYuV57odtTnKZhFNtmFcbi43l2OBaR7rIaEHQcxObcE_0_eRrUzEqJAyFap5oiPkj70wi2SfD0SkPMi4huhBpHHUIUsJTE6Lf9WNzkk9vSJHfOGv0NgJ7y3aI4CbDxc-Rx2a8vcYNcSisk7qrq3loNc9oD_7foUbZyUzsPvn0qwRcQWZ-7l4C0ugyv1hsF4J6mhAt_ZreHg5aTEbN7W-CKLFQ",
+      "mimeType": "application/x-mpegURL",
+      "textTracks": [
+        {
+          "name": "English",
+          "type": "captions",
+          "language": "en"
+        }
+      ],
+      "audioTracks": [
+        {
+          "name": "main",
+          "primary": true,
+          "duration": 1846,
+          "language": "en"
+        }
+      ],
+      "providerName": "brightcove"
+    },
+    {
+      "uri": "https://stream.mux.com/0201Kt00ZEtl9J1W2dgay5kHNGhmbRmqzBYdzOWNMQ5JZY.m3u8?token=eyJhbGciOiJSUzI1NiJ9.eyJraWQiOiJGamRxT21naVZVcDAxQ3VienpvUGVsWUtKUDgyT2ZJenU4Y2VTT1ZCTlhMcyIsInN1YiI6IjAyMDFLdDAwWkV0bDlKMVcyZGdheTVrSE5HaG1iUm1xekJZZHpPV05NUTVKWlkiLCJhdWQiOiJ2IiwiZXhwIjoxNzQwMjMwMTg1fQ.oeSOsCFnLFblPgnl2lb0cBo8C3Hfei6R_62Pc1ZnnR3QrcN2nzC1ABQXtScOe0DlPzNzEh6NO2yj8TsEQ_sj8o3iHYR2_u7X_1JeReS4HBqj-Xq1otXTXmXaCpsv-69QywD-YpxB-FUBsoALqLvHajUNYMePUSfOOXA9kLSQDaGHee0xq5xy6_J7PXN7Os5VKxpTcDtGJJhvVsza_kQkT95IxZkRBgRooM9IzU4XAhFKHv2U27mAJD_lqVB2WI04PGx-Z3vBE6sGTSGRvWDP0ec3vJsut5uz1nzfKNXSyIxmEj2D4d1rbnHMB18r2Qdc6znVna8N0ObN5YswQ-dnaA",
+      "mimeType": "application/x-mpegURL",
+      "textTracks": [
+        {
+          "name": "English",
+          "type": "subtitles",
+          "language": "en"
+        }
+      ],
+      "audioTracks": [
+        {
+          "name": "main",
+          "primary": true,
+          "duration": 1846,
+          "language": "en"
+        }
+      ],
+      "providerName": "mux"
+    }
+  ],
+  "thumbnailUri": "https://assets.ops.hydrow-external.net/eyJidWNrZXQiOiJoeWRyb3ctaW1hZ2UtbWFuYWdlZC1wcm9kIiwia2V5Ijoid29ya291dFZpZGVvcy85ODExL2YyM2Y0NzI2LWVhZTMtNGZhNC05ZDA5LTRmZTQyMDQ1NWI3NSIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTYwLCJoZWlnaHQiOjkwfX19",
+  "workoutTypes": [
+    "circuit"
+  ],
+  "genreStations": {
+    "00s": [
+      {
+        "stationId": "2368fa8a-e5a1-4d66-9b98-e505a6c44a4e",
+        "stationName": "00s Hits mid to high",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "80s": [
+      {
+        "stationId": "f0b65ab0-ec2b-495d-8eaa-3a864d7ac227",
+        "stationName": "80's",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "90s": [
+      {
+        "stationId": "ec69e391-f963-4ebc-84ff-cb0bfbd30d48",
+        "stationName": "90's",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Pop": [
+      {
+        "stationId": "5004cc4b-776c-4f5c-9c38-1d7c615613a1",
+        "stationName": "Pop mid",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Rock": [
+      {
+        "stationId": "60c9131a-9100-45e9-8695-42a44fd5da77",
+        "stationName": "Rock Mid-intensity",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Chill": [
+      {
+        "stationId": "c4a094e8-ba71-4b85-a573-a2b616ca0023",
+        "stationName": "Chill mid",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "bac1fe88-1b74-468b-9a8b-01d5ea125577",
+        "stationName": "Cool/Downtempo",
+        "explicitLyrics": false
+      }
+    ],
+    "Dance": [
+      {
+        "stationId": "bc7de4df-ced7-40c5-a677-9edf4078106c",
+        "stationName": "Dance mid",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Latin": [
+      {
+        "stationId": "b110bac9-f8c0-46cf-af1b-d18f474f5e99",
+        "stationName": "Latin",
+        "explicitLyrics": true
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "World": [
+      {
+        "stationId": "c7cc8f07-2080-4527-9e32-a09911b8b225",
+        "stationName": "World Music",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Country": [
+      {
+        "stationId": "8892aa6b-82d6-44be-b4d0-ed88d9c3b156",
+        "stationName": "Country",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Pop Punk": [
+      {
+        "stationId": "f4922f9b-5f2d-4de4-8dea-cf62dcb7540b",
+        "stationName": "Pop Punk",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Classical": [
+      {
+        "stationId": "b7e5f693-713e-4af3-9019-5574290e4c29",
+        "stationName": "Classical",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "bac1fe88-1b74-468b-9a8b-01d5ea125577",
+        "stationName": "Cool/Downtempo",
+        "explicitLyrics": false
+      }
+    ],
+    "Blues/Jazz": [
+      {
+        "stationId": "7c2854ea-8593-4d7c-902b-2dfb0ccb11b2",
+        "stationName": "Blues/Jazz",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "bac1fe88-1b74-468b-9a8b-01d5ea125577",
+        "stationName": "Cool/Downtempo",
+        "explicitLyrics": false
+      }
+    ],
+    "00s Hip-Hop": [
+      {
+        "stationId": "53879183-b296-404d-82ea-b7df1f7f70ec",
+        "stationName": "00s Hip Hop mid to high",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "90s Hip-Hop": [
+      {
+        "stationId": "85ff8970-cabc-45a6-93b9-8c2a4ef244c8",
+        "stationName": "90s Hip Hop mid to high",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Hip-Hop/R&B": [
+      {
+        "stationId": "77acddef-2ca8-4a37-8a2a-cea82cd99a20",
+        "stationName": "Hip Hop/R&B Mid",
+        "explicitLyrics": true
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Classic Rock": [
+      {
+        "stationId": "c1f87731-1cd6-4f8d-9113-718b4ed2e979",
+        "stationName": "60s/70s Rock",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Stadium Hits": [
+      {
+        "stationId": "168cf901-8a57-4ec0-b6ff-dd92b750dafd",
+        "stationName": "Sports Jams",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Soul/Funk/Disco": [
+      {
+        "stationId": "dad3745f-2dae-4f80-9548-cc0c6528175e",
+        "stationName": "Soul/Funk/Disco/Motown",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Alternative/Indie": [
+      {
+        "stationId": "1a0170cd-66e0-4ada-9d4e-6fff72657c6b",
+        "stationName": "Indie Alternative",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ]
+  },
+  "intensityText": null,
+  "videoDateTime": "2024-02-01T10:00:00.000Z",
+  "backupStations": [
+    {
+      "stationId": "85ff8970-cabc-45a6-93b9-8c2a4ef244c8",
+      "stationName": "90s Hip Hop mid to high"
+    },
+    {
+      "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+      "stationName": "Global Hits"
+    }
+  ],
+  "closedCaptions": [
+    {
+      "uri": "http://house-fastly-signed-us-east-1-prod.brightcovecdn.com/media/v1/text/vtt/clear/5787522145001/ba63fe6a-51b6-4e53-8323-a28acd71ed69/3637b39f-25eb-4867-92c5-38f683d1d0b8/text.vtt?fastly_token=Njc1ZDE1M2RfODY3N2I3MmZlMTY1MGY0MWM0MGMwYTYyNWIyMmU4NDgxN2U5YmQ5NGU0NmVjYmMwMTRlNzc0ZDkwY2Y2NzU0ZV9odHRwOi8vaG91c2UtZmFzdGx5LXNpZ25lZC11cy1lYXN0LTEtcHJvZC5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS90ZXh0L3Z0dC9jbGVhci81Nzg3NTIyMTQ1MDAxL2JhNjNmZTZhLTUxYjYtNGU1My04MzIzLWEyOGFjZDcxZWQ2OS8zNjM3YjM5Zi0yNWViLTQ4NjctOTJjNS0zOGY2ODNkMWQwYjgvdGV4dC52dHQ%3D",
+      "type": "caption",
+      "language": "en",
+      "mimeType": "text/webvtt"
+    }
+  ],
+  "expiredEnabled": false,
+  "explicitLyrics": false,
+  "hasLeaderboard": true,
+  "hasRowingStats": true,
+  "intensityLevel": null,
+  "playlistSummary": null,
+  "durationForBadge": null,
+  "intensityIconUrl": null,
+  "programElementId": null,
+  "royaltyFreeMusic": false,
+  "videoDisplayTime": "2024-02-01T10:00:00.000Z",
+  "brightcoveVideoId": "6345891089112",
+  "locationShortName": "Plymouth",
+  "hasIntraWorkoutStats": true,
+  "liveBodyBroadcastTime": null
+}

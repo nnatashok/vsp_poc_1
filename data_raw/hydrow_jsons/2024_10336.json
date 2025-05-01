@@ -1,0 +1,605 @@
+{
+  "id": 10336,
+  "name": "Beginner + Knee-Friendly Total Body Circuit",
+  "image": {
+    "key": "workoutVideos/10336/193cca85-0ece-4039-915b-f30a2fd7a0dd",
+    "bucket": "hydrow-image-managed-prod",
+    "imageServerBaseUrl": "https://assets.ops.hydrow-external.net"
+  },
+  "isLive": false,
+  "meters": null,
+  "enabled": true,
+  "publish": true,
+  "category": {
+    "id": 34,
+    "name": "On The Mat",
+    "type": "on-the-mat",
+    "uuid": "87de1c70-65ee-11e9-a923-1681be663d3e",
+    "sortOrder": 110,
+    "categoryType": "standard"
+  },
+  "duration": 1851,
+  "location": "Downtown - Norwood MA",
+  "playlist": [],
+  "shareUrl": "https://members.hydrow.com/workout_videos/id_yeE6n23n4eJNGgq",
+  "intervals": [
+    {
+      "id": "f17499aa-930d-43c5-a2c7-f8c4d13865bd",
+      "mets": "4.00",
+      "type": "otm",
+      "duration": 180,
+      "exercises": [
+        {
+          "id": "e00a7527-e472-4a66-a286-225f48f7f6d7",
+          "key": "warm-up-circuit",
+          "name": "Warm-up",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        }
+      ],
+      "description": "3:00 min    Warm-up"
+    },
+    {
+      "id": "aaa73f13-72a1-45fc-a72a-e2630954a003",
+      "type": "row",
+      "duration": 152,
+      "description": "2:32 min    Row"
+    },
+    {
+      "id": "f9c243e7-e656-4168-8123-b287effcac75",
+      "mets": "5.38",
+      "type": "otm",
+      "duration": 238,
+      "exercises": [
+        {
+          "id": "21ccd697-e4a4-496f-a320-a753006335d5",
+          "key": "overhead jack with step-back",
+          "name": "Overhead Jack with Step-Back",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        },
+        {
+          "id": "693ab276-a4c2-4af8-89f9-d227af05e717",
+          "key": "bear crawl hold to down dog",
+          "name": "Bear Crawl Hold to Down Dog",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        },
+        {
+          "id": "dcfbcf50-ca2a-42ee-9618-dbd8583b2b68",
+          "key": "toe touch",
+          "name": "Toe Touch",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        },
+        {
+          "id": "f807dde7-aa8e-4600-8df2-7b9e8c711e9a",
+          "key": "good morning",
+          "name": "Good Morning",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        }
+      ],
+      "description": "3:58 min    Overhead Jack with Step-Back, Bear Crawl Hold to Down Dog, Toe Touch, Good Morning"
+    },
+    {
+      "id": "1a0f5233-9e63-451f-bbec-2933a53bd79b",
+      "type": "row",
+      "duration": 120,
+      "description": "2:00 min    Row"
+    },
+    {
+      "id": "94c6de98-dbc1-485f-8a90-f3ef56961474",
+      "mets": "5.38",
+      "type": "otm",
+      "duration": 244,
+      "exercises": [
+        {
+          "id": "21ccd697-e4a4-496f-a320-a753006335d5",
+          "key": "overhead jack with step-back",
+          "name": "Overhead Jack with Step-Back",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        },
+        {
+          "id": "693ab276-a4c2-4af8-89f9-d227af05e717",
+          "key": "bear crawl hold to down dog",
+          "name": "Bear Crawl Hold to Down Dog",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        },
+        {
+          "id": "dcfbcf50-ca2a-42ee-9618-dbd8583b2b68",
+          "key": "toe touch",
+          "name": "Toe Touch",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        },
+        {
+          "id": "f807dde7-aa8e-4600-8df2-7b9e8c711e9a",
+          "key": "good morning",
+          "name": "Good Morning",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        }
+      ],
+      "description": "4:04 min    Overhead Jack with Step-Back, Bear Crawl Hold to Down Dog, Toe Touch, Good Morning"
+    },
+    {
+      "id": "de235856-47c1-4f56-858e-2095bb79647b",
+      "type": "row",
+      "duration": 124,
+      "description": "2:04 min    Row"
+    },
+    {
+      "id": "6d501403-e517-4bfe-9046-47385741c0d7",
+      "mets": "5.38",
+      "type": "otm",
+      "duration": 202,
+      "exercises": [
+        {
+          "id": "21ccd697-e4a4-496f-a320-a753006335d5",
+          "key": "overhead jack with step-back",
+          "name": "Overhead Jack with Step-Back",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        },
+        {
+          "id": "693ab276-a4c2-4af8-89f9-d227af05e717",
+          "key": "bear crawl hold to down dog",
+          "name": "Bear Crawl Hold to Down Dog",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        },
+        {
+          "id": "dcfbcf50-ca2a-42ee-9618-dbd8583b2b68",
+          "key": "toe touch",
+          "name": "Toe Touch",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        },
+        {
+          "id": "f807dde7-aa8e-4600-8df2-7b9e8c711e9a",
+          "key": "good morning",
+          "name": "Good Morning",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        }
+      ],
+      "description": "3:22 min    Overhead Jack with Step-Back, Bear Crawl Hold to Down Dog, Toe Touch, Good Morning"
+    },
+    {
+      "id": "a511fd90-7be1-4a76-867f-1b79a1397ff5",
+      "type": "row",
+      "duration": 152,
+      "description": "2:32 min    Row"
+    },
+    {
+      "id": "44b099e6-4a4b-475b-aa3c-b455d3e89516",
+      "mets": "5.38",
+      "type": "otm",
+      "duration": 222,
+      "exercises": [
+        {
+          "id": "21ccd697-e4a4-496f-a320-a753006335d5",
+          "key": "overhead jack with step-back",
+          "name": "Overhead Jack with Step-Back",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        },
+        {
+          "id": "693ab276-a4c2-4af8-89f9-d227af05e717",
+          "key": "bear crawl hold to down dog",
+          "name": "Bear Crawl Hold to Down Dog",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        },
+        {
+          "id": "dcfbcf50-ca2a-42ee-9618-dbd8583b2b68",
+          "key": "toe touch",
+          "name": "Toe Touch",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        },
+        {
+          "id": "f807dde7-aa8e-4600-8df2-7b9e8c711e9a",
+          "key": "good morning",
+          "name": "Good Morning",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        }
+      ],
+      "description": "3:42 min    Overhead Jack with Step-Back, Bear Crawl Hold to Down Dog, Toe Touch, Good Morning"
+    },
+    {
+      "id": "a22b6246-109d-4625-9353-6be85ffc24aa",
+      "mets": "3.00",
+      "type": "otm",
+      "duration": 166,
+      "exercises": [
+        {
+          "id": "a23c3060-22e7-4443-8f6a-221f85bd25ff",
+          "key": "cool-down-circuit",
+          "name": "Cool-down",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        }
+      ],
+      "description": "2:46 min    Cool-down"
+    }
+  ],
+  "maxRhythm": 28,
+  "posterUri": "https://assets.ops.hydrow-external.net/eyJidWNrZXQiOiJoeWRyb3ctaW1hZ2UtbWFuYWdlZC1wcm9kIiwia2V5Ijoid29ya291dFZpZGVvcy8xMDMzNi8xOTNjY2E4NS0wZWNlLTQwMzktOTE1Yi1mMzBhMmZkN2EwZGQiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyODAsImhlaWdodCI6NzIwfX19",
+  "programId": null,
+  "categoryId": 34,
+  "isCanceled": false,
+  "musicGenre": "Classic Rock",
+  "description": "Dive into a 30-minute total body circuit with Rina in Boston. This beginner-friendly workout is perfect if you’re new to circuits or looking for a low-impact challenge. No equipment needed—just your mat and Hydrow! You’ll cycle through four blocks with 2-minute rowing intervals and 3-minute AMRAPs on the mat, featuring moves like overhead step-back jacks, good morning toe touches, and bear holds to down dogs. Rina keeps the pace engaging and motivating, making sure you feel supported every step of the way. Let’s get moving and have some fun! Max rhythm: 28, Format: Circuit",
+  "instructors": {
+    "seat1": null,
+    "seat2": null,
+    "seat3": null,
+    "stroke": {
+      "id": 222,
+      "name": "Rina Thomas",
+      "cardUri": "https://s3.amazonaws.com/www.truerowing.com/images/dev/athleteCards/athlete_tile_bg_image_rina.png",
+      "cardImage": null,
+      "familiarName": "Rina",
+      "thumbnailUri": "https://assets.ops.hydrow-external.net/eyJidWNrZXQiOiJoeWRyb3ctaW1hZ2UtbWFuYWdlZC1wcm9kIiwia2V5IjoiYXRobGV0ZS1wcm9maWxlL2FhNmE1YzhjLTVmOTEtNDdjZS05OGNmLWU5NTllNDc3NGY1OCJ9",
+      "instructorName": "Rina Thomas",
+      "thumbnailImage": {
+        "key": "athlete-profile/aa6a5c8c-5f91-47ce-98cf-e959e4774f58",
+        "bucket": "hydrow-image-managed-prod",
+        "imageServerBaseUrl": "https://assets.ops.hydrow-external.net"
+      }
+    },
+    "seat1Id": null,
+    "seat2Id": null,
+    "seat3Id": null,
+    "strokeId": 222
+  },
+  "durationBody": 1800,
+  "durationHead": 30,
+  "durationTail": 21,
+  "mediaSources": [
+    {
+      "uri": "https://edge.api.brightcove.com/playback/v1/accounts/5787522145001/videos/6360775847112/master.m3u8?bcov_auth=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NpZCI6IjU3ODc1MjIxNDUwMDEiLCJjb25pZCI6IjYzNjA3NzU4NDcxMTIiLCJpYXQiOjE3Mzc4NTQ3NjIsImV4cCI6MTc0MDE4NzU2MiwiYXVkIjpbInN0YXRpYy5hcGkuYnJpZ2h0Y292ZS5jb20iXSwiYWxnIjoiUlMyNTYifQ.grbJWbnricRKcnY1XnLusQeNSPc-bqEzhrkq2COaKLW0n225IL-NLbm8oW1EK38ndUOSSBxrZZLcxbsLtpUSIW4u9OUU_scXSIDs2wK-JPwbKtdBtR970NGJDtWH4ItPm11eKILxxnA4r-UgzMHiDJYidohuZ6si1WbdNtnqmziCQyKPv8PjQrefmqUmkt2nwgTxJ-yrW62VvDWpSbQEMLIXiKNGkJq265U6RBi5zZBlFiK0RWx4SqFEylsLaY4Vj25sPPf7o0QY4sRgf5f4OFLrlmkp3DgkBBJxvTlJRcXG8DgHukxgdNQ1mvSj1aHJEiSvgZCtAgXnf9jETYdOWA",
+      "mimeType": "application/x-mpegURL",
+      "textTracks": [
+        {
+          "name": "English",
+          "type": "captions",
+          "language": "en"
+        }
+      ],
+      "audioTracks": [
+        {
+          "name": "main",
+          "primary": true,
+          "duration": 1851,
+          "language": "en"
+        }
+      ],
+      "providerName": "brightcove"
+    },
+    {
+      "uri": "https://stream.mux.com/l5AFx21jZBrctHKu01pwfX21zqvXk23WBaEjmevNaem4.m3u8?token=eyJhbGciOiJSUzI1NiJ9.eyJraWQiOiJGamRxT21naVZVcDAxQ3VienpvUGVsWUtKUDgyT2ZJenU4Y2VTT1ZCTlhMcyIsInN1YiI6Imw1QUZ4MjFqWkJyY3RIS3UwMXB3ZlgyMXpxdlhrMjNXQmFFam1ldk5hZW00IiwiYXVkIjoidiIsImV4cCI6MTc0MDE4NzU2Mn0.iXChBQHUWBNCKp4JgesymVRtXTFZWhgxjlAp1PttuJShPbs6GsObNFsLAhHHkqYSw4yzMKzprd8Ks-XgHA40Vohr7bg2cENQbgV36Ds5Lb5zQv-SUk3CQs9VnYaehw1GYQNVs9VRXrx3h_8Y2wJTUjJt_SHgBsHPkmgINJWPu11qqSG5GHp-ijhTSGOUZY42MO-g4zxRvbpgX3qzV9Pq8CSVMnjXYbJoW3vvpqQFywH_F4TQrWSg58EYCDpX0zRJF3FH8qs22IgBhsfIrG135R5EOQYYHJ5ZU4k9xOUoVWPId1bRK2rG4Eo004NuxNEHI8DNeLs5wsLaV9dwUtXmPA",
+      "mimeType": "application/x-mpegURL",
+      "textTracks": [
+        {
+          "name": "English",
+          "type": "subtitles",
+          "language": "en"
+        }
+      ],
+      "audioTracks": [
+        {
+          "name": "main",
+          "primary": true,
+          "duration": 1851,
+          "language": "en"
+        }
+      ],
+      "providerName": "mux"
+    }
+  ],
+  "thumbnailUri": "https://assets.ops.hydrow-external.net/eyJidWNrZXQiOiJoeWRyb3ctaW1hZ2UtbWFuYWdlZC1wcm9kIiwia2V5Ijoid29ya291dFZpZGVvcy8xMDMzNi8xOTNjY2E4NS0wZWNlLTQwMzktOTE1Yi1mMzBhMmZkN2EwZGQiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE2MCwiaGVpZ2h0Ijo5MH19fQ==",
+  "workoutTypes": [
+    "circuit"
+  ],
+  "genreStations": {
+    "00s": [
+      {
+        "stationId": "2368fa8a-e5a1-4d66-9b98-e505a6c44a4e",
+        "stationName": "00s Hits mid to high",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "80s": [
+      {
+        "stationId": "f0b65ab0-ec2b-495d-8eaa-3a864d7ac227",
+        "stationName": "80's",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "90s": [
+      {
+        "stationId": "ec69e391-f963-4ebc-84ff-cb0bfbd30d48",
+        "stationName": "90's",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Pop": [
+      {
+        "stationId": "5004cc4b-776c-4f5c-9c38-1d7c615613a1",
+        "stationName": "Pop mid",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Rock": [
+      {
+        "stationId": "60c9131a-9100-45e9-8695-42a44fd5da77",
+        "stationName": "Rock Mid-intensity",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Chill": [
+      {
+        "stationId": "c4a094e8-ba71-4b85-a573-a2b616ca0023",
+        "stationName": "Chill mid",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "bac1fe88-1b74-468b-9a8b-01d5ea125577",
+        "stationName": "Cool/Downtempo",
+        "explicitLyrics": false
+      }
+    ],
+    "Dance": [
+      {
+        "stationId": "bc7de4df-ced7-40c5-a677-9edf4078106c",
+        "stationName": "Dance mid",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Latin": [
+      {
+        "stationId": "b110bac9-f8c0-46cf-af1b-d18f474f5e99",
+        "stationName": "Latin",
+        "explicitLyrics": true
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "World": [
+      {
+        "stationId": "c7cc8f07-2080-4527-9e32-a09911b8b225",
+        "stationName": "World Music",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Country": [
+      {
+        "stationId": "8892aa6b-82d6-44be-b4d0-ed88d9c3b156",
+        "stationName": "Country",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Pop Punk": [
+      {
+        "stationId": "f4922f9b-5f2d-4de4-8dea-cf62dcb7540b",
+        "stationName": "Pop Punk",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Classical": [
+      {
+        "stationId": "b7e5f693-713e-4af3-9019-5574290e4c29",
+        "stationName": "Classical",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "bac1fe88-1b74-468b-9a8b-01d5ea125577",
+        "stationName": "Cool/Downtempo",
+        "explicitLyrics": false
+      }
+    ],
+    "Blues/Jazz": [
+      {
+        "stationId": "7c2854ea-8593-4d7c-902b-2dfb0ccb11b2",
+        "stationName": "Blues/Jazz",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "bac1fe88-1b74-468b-9a8b-01d5ea125577",
+        "stationName": "Cool/Downtempo",
+        "explicitLyrics": false
+      }
+    ],
+    "00s Hip-Hop": [
+      {
+        "stationId": "53879183-b296-404d-82ea-b7df1f7f70ec",
+        "stationName": "00s Hip Hop mid to high",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "90s Hip-Hop": [
+      {
+        "stationId": "85ff8970-cabc-45a6-93b9-8c2a4ef244c8",
+        "stationName": "90s Hip Hop mid to high",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Hip-Hop/R&B": [
+      {
+        "stationId": "77acddef-2ca8-4a37-8a2a-cea82cd99a20",
+        "stationName": "Hip Hop/R&B Mid",
+        "explicitLyrics": true
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Classic Rock": [
+      {
+        "stationId": "c1f87731-1cd6-4f8d-9113-718b4ed2e979",
+        "stationName": "60s/70s Rock",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Stadium Hits": [
+      {
+        "stationId": "168cf901-8a57-4ec0-b6ff-dd92b750dafd",
+        "stationName": "Sports Jams",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Soul/Funk/Disco": [
+      {
+        "stationId": "dad3745f-2dae-4f80-9548-cc0c6528175e",
+        "stationName": "Soul/Funk/Disco/Motown",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Alternative/Indie": [
+      {
+        "stationId": "1a0170cd-66e0-4ada-9d4e-6fff72657c6b",
+        "stationName": "Indie Alternative",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ]
+  },
+  "intensityText": null,
+  "videoDateTime": "2024-09-14T09:00:00.000Z",
+  "backupStations": [
+    {
+      "stationId": "c1f87731-1cd6-4f8d-9113-718b4ed2e979",
+      "stationName": "60s/70s Rock"
+    },
+    {
+      "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+      "stationName": "Global Hits"
+    }
+  ],
+  "closedCaptions": [
+    {
+      "uri": "http://house-fastly-signed-us-east-1-prod.brightcovecdn.com/media/v1/text/vtt/clear/5787522145001/e976ac04-5599-44cf-874e-b9bc33b447b3/349ad549-537c-47ce-a5dc-ea162dfaec92/text.vtt?fastly_token=NjZlNGQxN2VfOTdmMmQ5ODc2MDdhMzBhMDJkMmIxODgzYzRiMWY2NjY2NThlZjU0MTU4Yzk4YmFmNGQ4ZmVkM2I2ZWUyN2Q3N19odHRwOi8vaG91c2UtZmFzdGx5LXNpZ25lZC11cy1lYXN0LTEtcHJvZC5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS90ZXh0L3Z0dC9jbGVhci81Nzg3NTIyMTQ1MDAxL2U5NzZhYzA0LTU1OTktNDRjZi04NzRlLWI5YmMzM2I0NDdiMy8zNDlhZDU0OS01MzdjLTQ3Y2UtYTVkYy1lYTE2MmRmYWVjOTIvdGV4dC52dHQ%3D",
+      "type": "caption",
+      "language": "en",
+      "mimeType": "text/webvtt"
+    }
+  ],
+  "expiredEnabled": false,
+  "explicitLyrics": false,
+  "hasLeaderboard": true,
+  "hasRowingStats": true,
+  "intensityLevel": null,
+  "playlistSummary": null,
+  "durationForBadge": null,
+  "intensityIconUrl": null,
+  "programElementId": null,
+  "royaltyFreeMusic": false,
+  "videoDisplayTime": "2024-09-14T09:00:00.000Z",
+  "brightcoveVideoId": "6360775847112",
+  "locationShortName": "Norwood",
+  "hasIntraWorkoutStats": true,
+  "liveBodyBroadcastTime": null
+}

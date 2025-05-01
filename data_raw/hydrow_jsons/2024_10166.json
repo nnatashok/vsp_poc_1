@@ -1,0 +1,904 @@
+{
+  "id": 10166,
+  "name": "Total Body Dumbbell Circuit",
+  "image": {
+    "key": "workoutVideos/10166/8bb5a0c7-a28d-44bc-99a4-349ff4c94c77",
+    "bucket": "hydrow-image-managed-prod",
+    "imageServerBaseUrl": "https://assets.ops.hydrow-external.net"
+  },
+  "isLive": false,
+  "meters": null,
+  "enabled": true,
+  "publish": true,
+  "category": {
+    "id": 34,
+    "name": "On The Mat",
+    "type": "on-the-mat",
+    "uuid": "87de1c70-65ee-11e9-a923-1681be663d3e",
+    "sortOrder": 110,
+    "categoryType": "standard"
+  },
+  "duration": 0,
+  "location": "Ashley River - Charleston SC",
+  "playlist": [],
+  "shareUrl": "https://members.hydrow.com/workout_videos/id_BEWzndrPgPJaK7R",
+  "equipment": [
+    {
+      "id": "40e52c71-652f-4e07-a9fd-3cb54015c433",
+      "key": "dumbbells",
+      "name": "Dumbbells",
+      "tagGroupId": "3323f1d8-8f35-4c6e-9127-15aa5e1ecc81",
+      "tagGroupKey": "EQUIPMENT",
+      "tagGroupName": "Equipment"
+    }
+  ],
+  "intervals": [
+    {
+      "id": "bc390b7a-ae05-4f2e-b797-734766d3fff1",
+      "mets": "4.00",
+      "type": "otm",
+      "duration": 238,
+      "exercises": [
+        {
+          "id": "e00a7527-e472-4a66-a286-225f48f7f6d7",
+          "key": "warm-up-circuit",
+          "name": "Warm-up",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        }
+      ],
+      "description": "3:58 min    Warm-up"
+    },
+    {
+      "id": "d53ee5fd-3a74-4d52-9dad-d306f47e109b",
+      "type": "row",
+      "duration": 124,
+      "description": "2:04 min    Row"
+    },
+    {
+      "id": "b55e837e-33a3-44eb-acea-e9835b1b61dc",
+      "mets": "5.50",
+      "type": "otm",
+      "duration": 420,
+      "exercises": [
+        {
+          "id": "72c147d6-1403-483a-a79d-3df2395f6eaa",
+          "key": "shoulder press",
+          "name": "Shoulder Press",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        },
+        {
+          "id": "e6a31ed3-de5e-4c1c-a73e-e6b7a3fbc1d2",
+          "key": "romanian deadlift",
+          "name": "Romanian Deadlift",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        },
+        {
+          "id": "eb2b848d-c438-4556-8cb4-b0bad188544d",
+          "key": "lateral hops",
+          "name": "Lateral Hops",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        },
+        {
+          "id": "f7933927-7d62-4dc8-8b49-a68537976a75",
+          "key": "forward lunge",
+          "name": "Forward Lunge",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        }
+      ],
+      "description": "7:00 min    Shoulder Press, Romanian Deadlift, Lateral Hops, Forward Lunge"
+    },
+    {
+      "id": "b32181cf-4a44-4b25-8f9a-b508a59ede3c",
+      "type": "row",
+      "duration": 116,
+      "description": "1:56 min    Row"
+    },
+    {
+      "id": "296c32a5-2ac5-4921-aa70-83140e1b44dd",
+      "mets": "5.50",
+      "type": "otm",
+      "duration": 364,
+      "exercises": [
+        {
+          "id": "72c147d6-1403-483a-a79d-3df2395f6eaa",
+          "key": "shoulder press",
+          "name": "Shoulder Press",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        },
+        {
+          "id": "e6a31ed3-de5e-4c1c-a73e-e6b7a3fbc1d2",
+          "key": "romanian deadlift",
+          "name": "Romanian Deadlift",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        },
+        {
+          "id": "eb2b848d-c438-4556-8cb4-b0bad188544d",
+          "key": "lateral hops",
+          "name": "Lateral Hops",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        },
+        {
+          "id": "f7933927-7d62-4dc8-8b49-a68537976a75",
+          "key": "forward lunge",
+          "name": "Forward Lunge",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        }
+      ],
+      "description": "6:04 min    Shoulder Press, Romanian Deadlift, Lateral Hops, Forward Lunge"
+    },
+    {
+      "id": "701071af-2e1e-4782-9ee4-25b6be2090c8",
+      "type": "row",
+      "duration": 118,
+      "description": "1:58 min    Row"
+    },
+    {
+      "id": "dfc79df4-6d50-4a1c-9663-06674094fd01",
+      "mets": "5.50",
+      "type": "otm",
+      "duration": 250,
+      "exercises": [
+        {
+          "id": "72c147d6-1403-483a-a79d-3df2395f6eaa",
+          "key": "shoulder press",
+          "name": "Shoulder Press",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        },
+        {
+          "id": "e6a31ed3-de5e-4c1c-a73e-e6b7a3fbc1d2",
+          "key": "romanian deadlift",
+          "name": "Romanian Deadlift",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        },
+        {
+          "id": "eb2b848d-c438-4556-8cb4-b0bad188544d",
+          "key": "lateral hops",
+          "name": "Lateral Hops",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        },
+        {
+          "id": "f7933927-7d62-4dc8-8b49-a68537976a75",
+          "key": "forward lunge",
+          "name": "Forward Lunge",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        }
+      ],
+      "description": "4:10 min    Shoulder Press, Romanian Deadlift, Lateral Hops, Forward Lunge"
+    },
+    {
+      "id": "7bf6cb62-55cc-4b52-8fa9-64593b3f9449",
+      "type": "row",
+      "duration": 100,
+      "description": "1:40 min    Row"
+    },
+    {
+      "id": "c45af21b-184d-49aa-ab06-55104bbf59b9",
+      "mets": "3.00",
+      "type": "otm",
+      "duration": 70,
+      "exercises": [
+        {
+          "id": "a23c3060-22e7-4443-8f6a-221f85bd25ff",
+          "key": "cool-down-circuit",
+          "name": "Cool-down",
+          "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+          "tagGroupKey": "EXERCISE",
+          "tagGroupName": "Exercise"
+        }
+      ],
+      "description": "1:10 min    Cool-down"
+    }
+  ],
+  "maxRhythm": 26,
+  "posterUri": "https://assets.ops.hydrow-external.net/eyJidWNrZXQiOiJoeWRyb3ctaW1hZ2UtbWFuYWdlZC1wcm9kIiwia2V5Ijoid29ya291dFZpZGVvcy8xMDE2Ni84YmI1YTBjNy1hMjhkLTQ0YmMtOTlhNC0zNDlmZjRjOTRjNzciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyODAsImhlaWdodCI6NzIwfX19",
+  "programId": null,
+  "categoryId": 34,
+  "formVideos": {
+    "count": 3,
+    "shareUrl": null,
+    "workoutVideos": [
+      {
+        "id": 8869,
+        "name": "Shoulder Press",
+        "type": "Form",
+        "isLive": false,
+        "enabled": true,
+        "publish": true,
+        "location": "Ashley River - Charleston SC",
+        "exercises": [
+          {
+            "id": "72c147d6-1403-483a-a79d-3df2395f6eaa",
+            "key": "shoulder press",
+            "name": "Shoulder Press",
+            "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+            "tagGroupKey": "EXERCISE",
+            "tagGroupName": "Exercise"
+          }
+        ],
+        "maxRhythm": null,
+        "posterUri": null,
+        "categoryId": 34,
+        "isCanceled": false,
+        "instructors": {
+          "seat1": null,
+          "seat2": null,
+          "seat3": null,
+          "stroke": {
+            "id": 19,
+            "name": "No Athlete",
+            "cardUri": null,
+            "cardImage": null,
+            "familiarName": "No Athlete",
+            "thumbnailUri": "https://assets.ops.hydrow-external.net/eyJidWNrZXQiOiJoeWRyb3ctaW1hZ2UtbWFuYWdlZC1wcm9kIiwia2V5IjoiYXRobGV0ZS1wcm9maWxlLzgyNTQ4ZjM1LWQ0YTYtNDhkYS04MjQ3LTIzMmY5MmY2OGEwZCJ9",
+            "instructorName": "No Athlete",
+            "thumbnailImage": {
+              "key": "athlete-profile/82548f35-d4a6-48da-8247-232f92f68a0d",
+              "bucket": "hydrow-image-managed-prod",
+              "imageServerBaseUrl": "https://assets.ops.hydrow-external.net"
+            }
+          },
+          "seat1Id": null,
+          "seat2Id": null,
+          "seat3Id": null,
+          "strokeId": 19
+        },
+        "durationBody": 60,
+        "mediaSources": [
+          {
+            "uri": "https://edge.api.brightcove.com/playback/v1/accounts/5787522145001/videos/6324299222112/master.m3u8?bcov_auth=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NpZCI6IjU3ODc1MjIxNDUwMDEiLCJjb25pZCI6IjYzMjQyOTkyMjIxMTIiLCJpYXQiOjE3Mzc4NDY4MTQsImV4cCI6MTc0MDE3OTYxNCwiYXVkIjpbInN0YXRpYy5hcGkuYnJpZ2h0Y292ZS5jb20iXSwiYWxnIjoiUlMyNTYifQ.utfhZe8gs4HqsJFQmf7k3GlR88FME92xgio3ilSyd4IVoGzIHIF0lHfzWrZJWYczPXu2FwOtWWxEXTF9DQjSZ3wDLV3nrjBrOf2R0mwUWjITNSuXPl1UBh5LZElnYdfaJ4n-toPyu12VRB6HBjcY-nxphDcA_CgtHeAaIedQR3DQPFnGCBAqyVyEfZLRN20Gku4pN6KYdops5ipb9UBRhkUXnKfvyWnPpPMSPKwVo2PXQU7AxLJAthv_YGyU34g9CMYKkTH_KyTKvqtH09azA_TxhzKlS5eArXHtFpkELuS2eybbgPi0BO2UPp-X5i6b6XF1QDgiWFGsYOzz-jcsqg",
+            "mimeType": "application/x-mpegURL",
+            "textTracks": [
+              {
+                "name": "English",
+                "type": "captions",
+                "language": "en"
+              }
+            ],
+            "audioTracks": [
+              {
+                "name": "main",
+                "primary": true,
+                "duration": 22,
+                "language": "en"
+              }
+            ],
+            "providerName": "brightcove"
+          },
+          {
+            "uri": "https://stream.mux.com/Uo8KUbvBvSKCGpkFilH01FQxsK8ReYQYzkWgO00VMmag4.m3u8?token=eyJhbGciOiJSUzI1NiJ9.eyJraWQiOiJGamRxT21naVZVcDAxQ3VienpvUGVsWUtKUDgyT2ZJenU4Y2VTT1ZCTlhMcyIsInN1YiI6IlVvOEtVYnZCdlNLQ0dwa0ZpbEgwMUZReHNLOFJlWVFZemtXZ08wMFZNbWFnNCIsImF1ZCI6InYiLCJleHAiOjE3NDAxNzk2MTR9.GX1YyiZIl8N7O2ucv181UyPYbCHv6oiAvtqeIx1n7j10FsE2CkkJrM0W-YGRkA7u3eZbr9jmBJXzDn_piIMbs-chrZrTimCZNJBZGhlT8mJ36oc969P_vGZFnTux_U-twNKghyco0YAxXZk5DgJj44rxHgQfBf5QEEAzuyNuBAPksPIWnK2UsznUAomk0AEJb_yGH8Fyk9NzgckQn_Vhfc2BtQLfcX0x_ErsPk4-1Cv93KQz60zEWudLMwyWeg6HvCPHF2gXsImc3LevXx3NSAOHusgWa7id0Y_RZCrpdXTrAoUQqfdtH-6iPu8Tx7r3uRG6bEX5lYMOLzQZD0Vq0A",
+            "mimeType": "application/x-mpegURL",
+            "textTracks": [
+              {
+                "name": "English",
+                "type": "subtitles",
+                "language": "en"
+              }
+            ],
+            "audioTracks": [
+              {
+                "name": "main",
+                "primary": true,
+                "duration": 22,
+                "language": "en"
+              }
+            ],
+            "providerName": "mux"
+          }
+        ],
+        "thumbnailUri": null,
+        "intensityText": null,
+        "closedCaptions": [
+          {
+            "uri": "http://bcbolt446c5271-a.akamaihd.net/media/v1/text/vtt/clear/5787522145001/0b1d4527-8f1b-42f8-b5e3-5893be4523c1/77647116-4531-46be-87e3-67daebebac8f/text.vtt?akamai_token=exp=1681773530~acl=/media/v1/text/vtt/clear/5787522145001/0b1d4527-8f1b-42f8-b5e3-5893be4523c1/77647116-4531-46be-87e3-67daebebac8f/text.vtt*~hmac=2313b014439eec66245e59e0e43bab82b60e4b7b5138b65a8e523d39eafa7591",
+            "type": "caption",
+            "language": "en",
+            "mimeType": "text/webvtt"
+          }
+        ],
+        "explicitLyrics": false,
+        "intensityLevel": null,
+        "targetDistance": null,
+        "intensityIconUrl": null,
+        "videoDisplayTime": "2023-04-11T09:00:00.000Z",
+        "brightcoveVideoId": "6324299222112",
+        "locationShortName": "Charleston",
+        "recommendationType": null,
+        "liveBodyBroadcastTime": null
+      },
+      {
+        "id": 8885,
+        "name": "Romanian Deadlift",
+        "type": "Form",
+        "isLive": false,
+        "enabled": true,
+        "publish": true,
+        "location": "Ashley River - Charleston SC",
+        "exercises": [
+          {
+            "id": "e6a31ed3-de5e-4c1c-a73e-e6b7a3fbc1d2",
+            "key": "romanian deadlift",
+            "name": "Romanian Deadlift",
+            "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+            "tagGroupKey": "EXERCISE",
+            "tagGroupName": "Exercise"
+          }
+        ],
+        "maxRhythm": null,
+        "posterUri": null,
+        "categoryId": 34,
+        "isCanceled": false,
+        "instructors": {
+          "seat1": null,
+          "seat2": null,
+          "seat3": null,
+          "stroke": {
+            "id": 15,
+            "name": "Peter Donohoe",
+            "cardUri": "https://s3.amazonaws.com/www.truerowing.com/images/dev/athleteCards/athlete_tile_bg_image_peter.png",
+            "cardImage": null,
+            "familiarName": "Peter",
+            "thumbnailUri": "https://assets.ops.hydrow-external.net/eyJidWNrZXQiOiJoeWRyb3ctaW1hZ2UtbWFuYWdlZC1wcm9kIiwia2V5IjoiYXRobGV0ZS1wcm9maWxlL2U4ZWYyYjQyLTNlYjQtNDZiMC05NTM3LTM4MmQyMWQyMjc4NSJ9",
+            "instructorName": "Peter Donohoe",
+            "thumbnailImage": {
+              "key": "athlete-profile/e8ef2b42-3eb4-46b0-9537-382d21d22785",
+              "bucket": "hydrow-image-managed-prod",
+              "imageServerBaseUrl": "https://assets.ops.hydrow-external.net"
+            }
+          },
+          "seat1Id": null,
+          "seat2Id": null,
+          "seat3Id": null,
+          "strokeId": 15
+        },
+        "durationBody": 60,
+        "mediaSources": [
+          {
+            "uri": "https://edge.api.brightcove.com/playback/v1/accounts/5787522145001/videos/6324300179112/master.m3u8?bcov_auth=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NpZCI6IjU3ODc1MjIxNDUwMDEiLCJjb25pZCI6IjYzMjQzMDAxNzkxMTIiLCJpYXQiOjE3Mzc4NDY4MTQsImV4cCI6MTc0MDE3OTYxNCwiYXVkIjpbInN0YXRpYy5hcGkuYnJpZ2h0Y292ZS5jb20iXSwiYWxnIjoiUlMyNTYifQ.Iwtpnwl68ssTt5Y2PhEObR0c8sywOjN7xzHYBSJrDjv0H3Sc-nHl4c7u0aSdYg1a7Cr5yYXm2YKdqVgEYzXFUoJKO4tSifr691nUGvc2sGLXgGMF5qIPp99dvBVJO412JibBqW2dO0fwA4h-EFnj0RQgeygoeywHWKFFxcUOkl7O_uvS-Pt-_YMGQNXgJsGlRGpneBR2iQmFSsRSMilP6D3An3juyjMLV7hHmIJcdIo_6N9LmJansw5rqZaac6hpMhOGz-9OF1EMSKqsflg6uRkqQRleWzAZWLF3LDb6qK5BDCqB-sM1vjPoam2qj2nMIYlHzXsVBz2IdHGRrMAJnQ",
+            "mimeType": "application/x-mpegURL",
+            "textTracks": [
+              {
+                "name": "English",
+                "type": "captions",
+                "language": "en"
+              }
+            ],
+            "audioTracks": [
+              {
+                "name": "main",
+                "primary": true,
+                "duration": 24,
+                "language": "en"
+              }
+            ],
+            "providerName": "brightcove"
+          },
+          {
+            "uri": "https://stream.mux.com/02joioqOPYcDOwiDx004p4HxmDyL2dYPCVGZYtu6u2N00g.m3u8?token=eyJhbGciOiJSUzI1NiJ9.eyJraWQiOiJGamRxT21naVZVcDAxQ3VienpvUGVsWUtKUDgyT2ZJenU4Y2VTT1ZCTlhMcyIsInN1YiI6IjAyam9pb3FPUFljRE93aUR4MDA0cDRIeG1EeUwyZFlQQ1ZHWll0dTZ1Mk4wMGciLCJhdWQiOiJ2IiwiZXhwIjoxNzQwMTc5NjE0fQ.s4s76RZKfYwchxwwGTBxuosZgVqGtc8Lf_eq7_qaVFU-GllZsb03c14B6HqDX57lAEw2Xe5tDVAspKOFHfQeGwId_wwljBU2bKkYTi5PAj9ItsqpL6qcfzvFTHgh_iNu7A1dXIIhw8nOGdxV5tGPWWnJiQbMPdANLfDaqeubd3TCNGarklqPT0G5i5a-hlwhg0VpxLAQlvfK6QXlnq8Fuz9knXuLeOjLTLF8RbTV9WymaPqhkhjieq1wWXU4IpeBRtYmSSJQCRQzBFNPJMD6LDxTxyuiJLqPBjDZI0bUN6nakWftXMiI5fNFiWiFLfF9VqSoTwv29PCrxkoYHyKCVQ",
+            "mimeType": "application/x-mpegURL",
+            "textTracks": [
+              {
+                "name": "English",
+                "type": "subtitles",
+                "language": "en"
+              }
+            ],
+            "audioTracks": [
+              {
+                "name": "main",
+                "primary": true,
+                "duration": 24,
+                "language": "en"
+              }
+            ],
+            "providerName": "mux"
+          }
+        ],
+        "thumbnailUri": null,
+        "intensityText": null,
+        "closedCaptions": [
+          {
+            "uri": "http://bcbolt446c5271-a.akamaihd.net/media/v1/text/vtt/clear/5787522145001/28942d0b-aeeb-4c05-9390-df1d46d6f481/c9af2e3a-136a-4c63-a919-509795b91b70/text.vtt?akamai_token=exp=1681772555~acl=/media/v1/text/vtt/clear/5787522145001/28942d0b-aeeb-4c05-9390-df1d46d6f481/c9af2e3a-136a-4c63-a919-509795b91b70/text.vtt*~hmac=c2ca5ac8a9abd61e3b10ed7de14cc00775aeec40b4d396db072fef2196d84c4a",
+            "type": "caption",
+            "language": "en",
+            "mimeType": "text/webvtt"
+          }
+        ],
+        "explicitLyrics": false,
+        "intensityLevel": null,
+        "targetDistance": null,
+        "intensityIconUrl": null,
+        "videoDisplayTime": "2023-04-11T09:00:00.000Z",
+        "brightcoveVideoId": "6324300179112",
+        "locationShortName": "Charleston",
+        "recommendationType": null,
+        "liveBodyBroadcastTime": null
+      },
+      {
+        "id": 8872,
+        "name": "Forward Lunge",
+        "type": "Form",
+        "isLive": false,
+        "enabled": true,
+        "publish": true,
+        "location": "Ashley River - Charleston SC",
+        "exercises": [
+          {
+            "id": "f7933927-7d62-4dc8-8b49-a68537976a75",
+            "key": "forward lunge",
+            "name": "Forward Lunge",
+            "tagGroupId": "24837908-efcd-4af0-b8fd-9bbc85573fd9",
+            "tagGroupKey": "EXERCISE",
+            "tagGroupName": "Exercise"
+          }
+        ],
+        "maxRhythm": null,
+        "posterUri": null,
+        "categoryId": 34,
+        "isCanceled": false,
+        "instructors": {
+          "seat1": null,
+          "seat2": null,
+          "seat3": null,
+          "stroke": {
+            "id": 19,
+            "name": "No Athlete",
+            "cardUri": null,
+            "cardImage": null,
+            "familiarName": "No Athlete",
+            "thumbnailUri": "https://assets.ops.hydrow-external.net/eyJidWNrZXQiOiJoeWRyb3ctaW1hZ2UtbWFuYWdlZC1wcm9kIiwia2V5IjoiYXRobGV0ZS1wcm9maWxlLzgyNTQ4ZjM1LWQ0YTYtNDhkYS04MjQ3LTIzMmY5MmY2OGEwZCJ9",
+            "instructorName": "No Athlete",
+            "thumbnailImage": {
+              "key": "athlete-profile/82548f35-d4a6-48da-8247-232f92f68a0d",
+              "bucket": "hydrow-image-managed-prod",
+              "imageServerBaseUrl": "https://assets.ops.hydrow-external.net"
+            }
+          },
+          "seat1Id": null,
+          "seat2Id": null,
+          "seat3Id": null,
+          "strokeId": 19
+        },
+        "durationBody": 60,
+        "mediaSources": [
+          {
+            "uri": "https://edge.api.brightcove.com/playback/v1/accounts/5787522145001/videos/6324300290112/master.m3u8?bcov_auth=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NpZCI6IjU3ODc1MjIxNDUwMDEiLCJjb25pZCI6IjYzMjQzMDAyOTAxMTIiLCJpYXQiOjE3Mzc4NDY4MTQsImV4cCI6MTc0MDE3OTYxNCwiYXVkIjpbInN0YXRpYy5hcGkuYnJpZ2h0Y292ZS5jb20iXSwiYWxnIjoiUlMyNTYifQ.QtAedgzvjtYzQA3nFqO-KHlmsT9tmAmM-dU7Ye3hy7FDipAweQUbCm1h9BgVi5kHdL9D0Jgn1qUTLNbVraf-pqkFN5JJyRsTc5aPdRzANobEEhgEIEqqo6oVZimLSVIEqaNA8x7jIQ_CAo4Mnr91V2TCOcTUGmZt1g9dBZrMlH2JslvgUGXuuA14fs1wCgrclBgcWPc8PhcJBIgFLq33hroo__wwECmyc-uF8b7qaUHwIJQRuK-I0TZVL30g_rFc8vu_8XBiLDPRL9na0UtcBjDM30rZJLqrbW1pF0BQtlHZMv5CAMgre92vVM8oa0iv2CDBOHm_wlIGi7ca4ke7uQ",
+            "mimeType": "application/x-mpegURL",
+            "textTracks": [
+              {
+                "name": "English",
+                "type": "captions",
+                "language": "en"
+              }
+            ],
+            "audioTracks": [
+              {
+                "name": "main",
+                "primary": true,
+                "duration": 22,
+                "language": "en"
+              }
+            ],
+            "providerName": "brightcove"
+          },
+          {
+            "uri": "https://stream.mux.com/KHyfmT45Grj2gvss7P01DTjYTrgj7qSl00IyuUcYsq9rY.m3u8?token=eyJhbGciOiJSUzI1NiJ9.eyJraWQiOiJGamRxT21naVZVcDAxQ3VienpvUGVsWUtKUDgyT2ZJenU4Y2VTT1ZCTlhMcyIsInN1YiI6IktIeWZtVDQ1R3JqMmd2c3M3UDAxRFRqWVRyZ2o3cVNsMDBJeXVVY1lzcTlyWSIsImF1ZCI6InYiLCJleHAiOjE3NDAxNzk2MTR9.z1jgP-uLGmxFjhNerrMnMoBIZ0OliCToH4TvtHLAwgvPmn1GNMdmCF2eY2MMJAB25wY0MmU7JVCTvZGXjCyvk3TpyT_bk48mrBVjRM3Y44l_ZM0gbpSyEg61VVCMxWx5K15srPOfjP5uJh4PghDvjBvR2hEVjwTVci0ztKuy_Ptd1fxFPcoqj46K_n9vJaSnddz6OBCs9L1vDZoUcwHNNb6rCzu62JKumZ4gp8qBiXjJehWs_r3Lj6O2OLxoIuWq--wGMbycZoVbb0KiMjfWSlRMetnDe5-WZ2YeP1bWBLcuBh3QGlNApdLe3xvsLBYT0tH6SZLNYfEIpfk_PGFB-A",
+            "mimeType": "application/x-mpegURL",
+            "textTracks": [
+              {
+                "name": "English",
+                "type": "subtitles",
+                "language": "en"
+              }
+            ],
+            "audioTracks": [
+              {
+                "name": "main",
+                "primary": true,
+                "duration": 22,
+                "language": "en"
+              }
+            ],
+            "providerName": "mux"
+          }
+        ],
+        "thumbnailUri": null,
+        "intensityText": null,
+        "closedCaptions": [
+          {
+            "uri": "http://bcbolt446c5271-a.akamaihd.net/media/v1/text/vtt/clear/5787522145001/2e231bad-20df-4644-b6ea-4e061c560046/8e5e773b-5e52-454a-8c66-430d9c75782f/text.vtt?akamai_token=exp=1681772683~acl=/media/v1/text/vtt/clear/5787522145001/2e231bad-20df-4644-b6ea-4e061c560046/8e5e773b-5e52-454a-8c66-430d9c75782f/text.vtt*~hmac=68ff3103840cf6e11af713bd1e95b845ffbcc5b76a92d1e7c9eab5778ae4bc5c",
+            "type": "caption",
+            "language": "en",
+            "mimeType": "text/webvtt"
+          }
+        ],
+        "explicitLyrics": false,
+        "intensityLevel": null,
+        "targetDistance": null,
+        "intensityIconUrl": null,
+        "videoDisplayTime": "2023-04-11T09:00:00.000Z",
+        "brightcoveVideoId": "6324300290112",
+        "locationShortName": "Charleston",
+        "recommendationType": null,
+        "liveBodyBroadcastTime": null
+      }
+    ]
+  },
+  "isCanceled": false,
+  "musicGenre": "90s Hip-Hop",
+  "description": "Join Manteo for a high-energy 30-minute circuit workout in beautiful South Carolina. This session features intense on-the-mat segments with dumbbells, pushing you through as many rounds as possible of alternating lunges, Romanian deadlifts, lateral hops, and shoulder presses. Interspersed with these strength-building exercises are rowing intervals, keeping your heart rate up and maximizing calorie burn. Max rhythm: 26. Format: Circuit",
+  "instructors": {
+    "seat1": null,
+    "seat2": null,
+    "seat3": null,
+    "stroke": {
+      "id": 254,
+      "name": "Manteo Mitchell",
+      "cardUri": "https://s3.amazonaws.com/www.truerowing.com/images/dev/athleteCards/athlete_tile_bg_image_manteo.png",
+      "cardImage": null,
+      "familiarName": "Manteo",
+      "thumbnailUri": "https://assets.ops.hydrow-external.net/eyJidWNrZXQiOiJoeWRyb3ctaW1hZ2UtbWFuYWdlZC1wcm9kIiwia2V5IjoiYXRobGV0ZS1wcm9maWxlLzA5OGM5M2E1LTMzNTAtNDdmNC1hMzA3LWZhNWM0OTdjMzFkOCJ9",
+      "instructorName": "Manteo Mitchell",
+      "thumbnailImage": {
+        "key": "athlete-profile/098c93a5-3350-47f4-a307-fa5c497c31d8",
+        "bucket": "hydrow-image-managed-prod",
+        "imageServerBaseUrl": "https://assets.ops.hydrow-external.net"
+      }
+    },
+    "seat1Id": null,
+    "seat2Id": null,
+    "seat3Id": null,
+    "strokeId": 254
+  },
+  "durationBody": 1800,
+  "durationHead": 30,
+  "durationTail": 19,
+  "mediaSources": [
+    {
+      "uri": "https://edge.api.brightcove.com/playback/v1/accounts/5787522145001/videos/6354299187112/master.m3u8?bcov_auth=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NpZCI6IjU3ODc1MjIxNDUwMDEiLCJjb25pZCI6IjYzNTQyOTkxODcxMTIiLCJpYXQiOjE3Mzc4NTkxNDAsImV4cCI6MTc0MDE5MTk0MCwiYXVkIjpbInN0YXRpYy5hcGkuYnJpZ2h0Y292ZS5jb20iXSwiYWxnIjoiUlMyNTYifQ.L5cs2wStCdQndRb-H8MPkZEr9ooOkPJ_Y_3F2q4P1a9f-mSOfek2OMeTjPMX6qINLYWeIUg4XktMKCA29WMvXT6A_vsrbygIxzm1NY8fPelFX8fh-6EQe0ewJp2Aj6hWUBWuYJhmo5lXjL6TBUA2ct-kgT_n_wAtUtzzExQKZaA0aMZOHkQHSeuKRIFd4UzJ-OHEuBzRv0ZFtgP_3LMC5FMT_oAyxkjOvErwxrFh_eDdRGt4wL9F_8-AIqu1Q0A-sSULeeNspkDS6FOblYty7poxuLOt4FlYfcUTejWFety4gEl38Y-prr8g83YQyS3Y7PrWBHqnJ1frnE8DfL6IAA",
+      "mimeType": "application/x-mpegURL",
+      "textTracks": [
+        {
+          "name": "English",
+          "type": "captions",
+          "language": "en"
+        }
+      ],
+      "audioTracks": [
+        {
+          "name": "main",
+          "primary": true,
+          "duration": 1849,
+          "language": "en"
+        }
+      ],
+      "providerName": "brightcove"
+    },
+    {
+      "uri": "https://stream.mux.com/eAROlaLPR601jvzosx1mXEuuiRkw01JmVe01J9wsOlCNus.m3u8?token=eyJhbGciOiJSUzI1NiJ9.eyJraWQiOiJGamRxT21naVZVcDAxQ3VienpvUGVsWUtKUDgyT2ZJenU4Y2VTT1ZCTlhMcyIsInN1YiI6ImVBUk9sYUxQUjYwMWp2em9zeDFtWEV1dWlSa3cwMUptVmUwMUo5d3NPbENOdXMiLCJhdWQiOiJ2IiwiZXhwIjoxNzQwMTkxOTQwfQ.UmMBGbl1Jcjxy0AZLk0yW7iyUbJa3ToeIhqnrLO4C7-oGFGmHRyJYXAwKxa-pUzKTT8mREEt3zZ2crI1371BKaOGdDJy0EZwyHSLiKOD-RRND4XUBN-nQSEApCAVC6T4-huYg6HdG5WYedroWZ7ym0AmFA0bfTvR_JD94Be59CB7vXPm9f_d46s-x2cG6w3bLC1mfEu4D2GbMgTB8EG6pAusKsZB95W53curT1jGPrG0ZnVKO77jSMGxLohMRBW5FZcZC8LcTp0Wl2t_ZDWh_o1-1COrLQU-cD7Q6KC_v4ZICkGy2SxEl2OoN3EsnyMKUjHooTbA8BTDXfwAsUE95g",
+      "mimeType": "application/x-mpegURL",
+      "textTracks": [
+        {
+          "name": "English",
+          "type": "subtitles",
+          "language": "en"
+        }
+      ],
+      "audioTracks": [
+        {
+          "name": "main",
+          "primary": true,
+          "duration": 1849,
+          "language": "en"
+        }
+      ],
+      "providerName": "mux"
+    }
+  ],
+  "thumbnailUri": "https://assets.ops.hydrow-external.net/eyJidWNrZXQiOiJoeWRyb3ctaW1hZ2UtbWFuYWdlZC1wcm9kIiwia2V5Ijoid29ya291dFZpZGVvcy8xMDE2Ni84YmI1YTBjNy1hMjhkLTQ0YmMtOTlhNC0zNDlmZjRjOTRjNzciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE2MCwiaGVpZ2h0Ijo5MH19fQ==",
+  "workoutTypes": [
+    "circuit"
+  ],
+  "genreStations": {
+    "00s": [
+      {
+        "stationId": "2368fa8a-e5a1-4d66-9b98-e505a6c44a4e",
+        "stationName": "00s Hits mid to high",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "80s": [
+      {
+        "stationId": "f0b65ab0-ec2b-495d-8eaa-3a864d7ac227",
+        "stationName": "80's",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "90s": [
+      {
+        "stationId": "ec69e391-f963-4ebc-84ff-cb0bfbd30d48",
+        "stationName": "90's",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Pop": [
+      {
+        "stationId": "5004cc4b-776c-4f5c-9c38-1d7c615613a1",
+        "stationName": "Pop mid",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Rock": [
+      {
+        "stationId": "60c9131a-9100-45e9-8695-42a44fd5da77",
+        "stationName": "Rock Mid-intensity",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Chill": [
+      {
+        "stationId": "c4a094e8-ba71-4b85-a573-a2b616ca0023",
+        "stationName": "Chill mid",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "bac1fe88-1b74-468b-9a8b-01d5ea125577",
+        "stationName": "Cool/Downtempo",
+        "explicitLyrics": false
+      }
+    ],
+    "Dance": [
+      {
+        "stationId": "bc7de4df-ced7-40c5-a677-9edf4078106c",
+        "stationName": "Dance mid",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Latin": [
+      {
+        "stationId": "b110bac9-f8c0-46cf-af1b-d18f474f5e99",
+        "stationName": "Latin",
+        "explicitLyrics": true
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "World": [
+      {
+        "stationId": "c7cc8f07-2080-4527-9e32-a09911b8b225",
+        "stationName": "World Music",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Country": [
+      {
+        "stationId": "8892aa6b-82d6-44be-b4d0-ed88d9c3b156",
+        "stationName": "Country",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Pop Punk": [
+      {
+        "stationId": "f4922f9b-5f2d-4de4-8dea-cf62dcb7540b",
+        "stationName": "Pop Punk",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Classical": [
+      {
+        "stationId": "b7e5f693-713e-4af3-9019-5574290e4c29",
+        "stationName": "Classical",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "bac1fe88-1b74-468b-9a8b-01d5ea125577",
+        "stationName": "Cool/Downtempo",
+        "explicitLyrics": false
+      }
+    ],
+    "Blues/Jazz": [
+      {
+        "stationId": "7c2854ea-8593-4d7c-902b-2dfb0ccb11b2",
+        "stationName": "Blues/Jazz",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "bac1fe88-1b74-468b-9a8b-01d5ea125577",
+        "stationName": "Cool/Downtempo",
+        "explicitLyrics": false
+      }
+    ],
+    "00s Hip-Hop": [
+      {
+        "stationId": "53879183-b296-404d-82ea-b7df1f7f70ec",
+        "stationName": "00s Hip Hop mid to high",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "90s Hip-Hop": [
+      {
+        "stationId": "85ff8970-cabc-45a6-93b9-8c2a4ef244c8",
+        "stationName": "90s Hip Hop mid to high",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Hip-Hop/R&B": [
+      {
+        "stationId": "77acddef-2ca8-4a37-8a2a-cea82cd99a20",
+        "stationName": "Hip Hop/R&B Mid",
+        "explicitLyrics": true
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Classic Rock": [
+      {
+        "stationId": "c1f87731-1cd6-4f8d-9113-718b4ed2e979",
+        "stationName": "60s/70s Rock",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Stadium Hits": [
+      {
+        "stationId": "168cf901-8a57-4ec0-b6ff-dd92b750dafd",
+        "stationName": "Sports Jams",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Soul/Funk/Disco": [
+      {
+        "stationId": "dad3745f-2dae-4f80-9548-cc0c6528175e",
+        "stationName": "Soul/Funk/Disco/Motown",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ],
+    "Alternative/Indie": [
+      {
+        "stationId": "1a0170cd-66e0-4ada-9d4e-6fff72657c6b",
+        "stationName": "Indie Alternative",
+        "explicitLyrics": false
+      },
+      {
+        "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+        "stationName": "Global Hits",
+        "explicitLyrics": false
+      }
+    ]
+  },
+  "intensityText": null,
+  "videoDateTime": "2024-06-29T09:00:00.000Z",
+  "backupStations": [
+    {
+      "stationId": "85ff8970-cabc-45a6-93b9-8c2a4ef244c8",
+      "stationName": "90s Hip Hop mid to high"
+    },
+    {
+      "stationId": "000760a5-7b3d-4706-a23e-d7c039a26aa3",
+      "stationName": "Global Hits"
+    }
+  ],
+  "closedCaptions": [
+    {
+      "uri": "http://house-fastly-signed-us-east-1-prod.brightcovecdn.com/media/v1/text/vtt/clear/5787522145001/f2094edc-fae0-4cf8-87af-6b20e5da5da7/869d3e90-81b9-4b85-b07f-90a5d8a0cacb/text.vtt?fastly_token=Njc3OGI3ODdfM2U4ZWVjMWRmMjliZjBhMTI4OTZjNzc4YjFjYWM5NWE0YWQ2ZGEwMmNkYTRmNGE0MjQ2ZGQyNjc2MjdmOWYwZF9odHRwOi8vaG91c2UtZmFzdGx5LXNpZ25lZC11cy1lYXN0LTEtcHJvZC5icmlnaHRjb3ZlY2RuLmNvbS9tZWRpYS92MS90ZXh0L3Z0dC9jbGVhci81Nzg3NTIyMTQ1MDAxL2YyMDk0ZWRjLWZhZTAtNGNmOC04N2FmLTZiMjBlNWRhNWRhNy84NjlkM2U5MC04MWI5LTRiODUtYjA3Zi05MGE1ZDhhMGNhY2IvdGV4dC52dHQ%3D",
+      "type": "caption",
+      "language": "en",
+      "mimeType": "text/webvtt"
+    }
+  ],
+  "expiredEnabled": false,
+  "explicitLyrics": false,
+  "hasLeaderboard": true,
+  "hasRowingStats": true,
+  "intensityLevel": null,
+  "playlistSummary": null,
+  "durationForBadge": null,
+  "intensityIconUrl": null,
+  "programElementId": null,
+  "royaltyFreeMusic": false,
+  "videoDisplayTime": "2024-06-29T09:00:00.000Z",
+  "brightcoveVideoId": "6354299187112",
+  "locationShortName": "Charleston",
+  "hasIntraWorkoutStats": true,
+  "liveBodyBroadcastTime": null
+}
