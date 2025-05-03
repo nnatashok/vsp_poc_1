@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.65
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is categorized as 'Indoor rowing' with a very high confidence level (0.9) due to explicit mentions of terms like 'row' and references to rowing sessions. The challenge's focus on maximizing meters indicates it's likely performed on a rowing machine. The intensity level is high (3 out of 3), suggesting a vigorous rowing session. \n\nThe 'HIIT' category is also relevant (score: 0.65). The description mentions a 'challenge for maximum meters' in '1-minute,' which aligns with high-intensity interval training characteristics of short, intense bursts of activity. The use of the word 'challenge' and the high intensity imply a competitive, fast-paced workout suitable for a HIIT session.\n\nOther categories like 'Mat,' 'Body weight,' and 'Weight workout' were excluded due to lack of relevant keywords or context suggesting their inclusion."
+}

@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Advanced",
+      "score": 0.8
+    },
+    {
+      "level": "Expert",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The technique difficulty for this workout is rated as Advanced with a score of 0.8 and Expert with a score of 0.4. This classification is primarily driven by the Workout Type, 'drive', which in Hydrow's platform often signifies complex rowing techniques requiring significant skill and coordination. The high intensity of the workout, indicated as a level 3 out of 3, and the demand of maintaining a max rhythm of 34 strokes per minute further supports this classification, indicating adept stroke mastery is needed. The use of 1-minute HIIT intervals also calls for precise control and execution, aligning with advanced technique requirements.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.7
+    },
+    {
+      "level": "Extreme",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The effort difficulty is classified as Challenging with a score of 0.7 and Extreme with a score of 0.4. The high intensity level (3 out of 3) combined with HIIT format involves high bursts of energy and minimal recovery, which significantly raises the intensity. Although the total duration of 11 minutes is relatively short, the 1-minute interval format and high stroke rate impose a demanding physical output, which can be quite taxing even over a brief period, especially with a recommended 'drive' setting that typically acts as an intensity multiplier on the Hydrow platform.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

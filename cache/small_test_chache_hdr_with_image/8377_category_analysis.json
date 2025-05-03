@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.8,
+  "categoriesExplanation": "The workout video is classified as 'Indoor rowing' due to the clear indicators in the metadata and the image. The title 'Core Positioning Row' and description mentioning 'Sera Moon as you focus on core over positioning' directly point to rowing techniques. In addition, the exercise format is specified as 'Technique', which further emphasizes the focus on rowing mechanics. The score of 0.8 reflects the strong presence and focus on rowing.\n\n'Breathing exercises' is given a score of 0.4 as the workout type includes 'breathe', which might imply attention to breathing control during the session. However, the main focus remains on rowing, so this category is less dominant. \n\nThe categories like 'Mat', 'Yoga', or 'Stretching' are not applicable, as the workout is centered around rowing and occurs on water, not on a mat or in a studio setting. The overall confidence is high due to the explicit description provided in the metadata."
+}

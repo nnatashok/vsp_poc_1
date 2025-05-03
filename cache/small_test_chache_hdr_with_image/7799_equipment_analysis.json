@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout description explicitly mentions 'row at rhythms 22 and 24' and 'practice rowing with your eyes closed,' indicating that a rowing machine is needed. Furthermore, the category 'row' reinforces this requirement. The high confidence score of 0.9 is assigned because the rowing machine is central to the cool-down process described in the metadata. The image provided also supports the rowing context, showing rowing activity."
+}

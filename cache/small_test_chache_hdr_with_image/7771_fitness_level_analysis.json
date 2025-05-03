@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is described as 'Breathe' and involves maintaining a consistent pace over intervals. The steady rowing and emphasis on pace control make this suitable for beginners. No intricate movements or technical rowing skills are necessary, aligning with the beginner user fitness requirement.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Light",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout lasts over 31 minutes and involves intervals, which could challenge a beginner. The max rhythm at 26 is moderate, and the effort level is stated as 1 out of 3, suggesting moderate energy expenditure. Thus, it falls between light and moderate difficulty.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Advanced",
+      "score": 0.9
+    },
+    {
+      "level": "Expert",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The metadata specifies this workout type as 'drive', which is a Hydrow-specific category and typically associated with 'Advanced' to 'Expert' levels of technique difficulty due to the need for precise form and coordinated stroke execution at high intensities. The use of descriptors like 'high rhythms' and 'maximum effort' suggests complex syncing with the music beats. Therefore, the technique difficulty aligns strongly with these higher levels.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    },
+    {
+      "level": "Extreme",
+      "score": 0.7
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is described as a HIIT format with a maximum rhythm of 32 and an intensity level of 3 out of 3, indicating very high-intensity intervals interspersed with rest. Given the duration of approximately 21 minutes, this workout can be classed as 'Challenging' to 'Extreme' in effort difficulty, aligning with the significant physiological demand described.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

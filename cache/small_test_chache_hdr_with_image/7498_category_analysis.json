@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Breathing exercises",
+      "score": 0.7
+    },
+    {
+      "name": "Indoor rowing",
+      "score": 0.6
+    },
+    {
+      "name": "Running",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.75,
+  "categoriesExplanation": "The workout is primarily focused on 'breathing' and 'steady' rhythms, indicated by the title and description ('Workout Type: breathe'). This suggests a breathing exercises component, supported by a moderate intensity level rated 1 out of 3. The use of rowing imagery suggests a connection to rowing activities, possibly as a cross-training exercise ('Category: row'). This aligns with 'Indoor rowing,' which fits the structural aspect of the workout, although not exactly indoor rowing as seen from the imagery, indicating a 0.6 score. 'Running' is mentioned in the workout name ('Runner's Program'), implying it might include elements or serve as a running workout, hence a score of 0.4. The integration of these elements along with the rhythmic and musical context in the workout points to a breathing and aerobic focus rather than high-intensity or technically complex routines."
+}

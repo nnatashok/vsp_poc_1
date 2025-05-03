@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Advanced",
+      "score": 0.8
+    },
+    {
+      "level": "Expert",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The technique difficulty is rated as primarily 'Advanced' due to the 'Drive' workout type, which typically involves complex rowing techniques with precise form. The high rhythm numbers (max rhythm: 34) suggest the need for skillful coordination and control. While the workout's intensity level and classification indicate some elements of expertise, the primary requirement remains advanced coordination and technique associated with rowing intervals at high speeds.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    },
+    {
+      "level": "Extreme",
+      "score": 0.2
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The effort difficulty is primarily 'Challenging', supported by the 31-minute duration of high-intensity interval training with a maximum rhythm of 34. The music communicates an energetic atmosphere, further driving the workout intensity. 'Drive' format workouts are also noted for their demanding nature on both cardiovascular and muscular systems, hence the high effort requirement, but the exact energy expenditure indicates this workout pushes towards 'Extreme' effort levels.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

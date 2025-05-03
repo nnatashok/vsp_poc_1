@@ -1,0 +1,50 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    },
+    {
+      "level": "Advanced",
+      "score": 1.0
+    },
+    {
+      "level": "Expert",
+      "score": 1.0
+    }
+  ],
+  "techniqueDifficultyConfidence": 1.0,
+  "techniqueDifficultyExplanation": "Since the workout is marked as suitable for all fitness levels (Beginner, Intermediate, Advanced), the technique difficulty is considered adaptable. Movements can be scaled in complexity, and users are expected to modify techniques based on their capability. Therefore, all difficulty levels from Beginner to Expert are assigned equal suitability with a score of 1.0.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout duration of 16 minutes and 24 seconds limits the overall energy expenditure, and its classification as a 'flow' suggests consistent, gentle movements rather than intense bursts of activity. Therefore, the effort required aligns strongly with a Light difficulty level. There is minimal alignment with Moderate due to the possibility of continuous movement over 16 minutes requiring more than minimal effort, but it's clearly not physically demanding.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    },
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "Workout type 'flow' is not one of the specialized Hydrow categories (Breathe, Sweat, Drive, Distance). It is treated as suitable for all fitness levels."
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.7
+    },
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is characterized by racing to 'accumulate maximum meters,' indicating high-speed efforts, which aligns with a high-intensity workout generally found in HIIT training. The 'max rhythm: 34' and 'intensity level: 3 out of 3' suggest a demanding pace, supporting the HIIT category with a score of 0.7. \n\nThe term 'row' in the workout type and the format described as 'Power' imply this is performed on a rowing machine, making 'Indoor rowing' a prominent category with a high score of 0.8. The description's focus on 'race' efforts aligns with an indoor rowing context rather than just general cardio, reinforcing this categorization. \n\nThe lack of an instructor and the emphasis on rhythm and power may cause some ambiguity, but the intensity and rowing context clearly exclude categories like Mat, Yoga, or Walking. The high confidence level of 0.9 reflects strong indicators of both high-intensity training and rowing activities, despite the radio stations suggesting a high-energy atmosphere."
+}

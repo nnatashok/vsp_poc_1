@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.1
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout primarily focuses on building an aerobic base with specified low rhythms and steady intervals. The described activity centers around rowing at a max rhythm of 24, which does not demand complex movement patterns or high-level coordination, fitting well within the Beginner category. However, the inclusion of intervals and the basic fact that this is part of a 'breathe' workout, might slightly require some attention to rhythm maintaining, justifying a small Intermediate allocation.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.75
+    },
+    {
+      "level": "Moderate",
+      "score": 0.25
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is 21 minutes long, with the intensity level set to 1 out of 3, indicating low to moderate effort. This suggests that the energy expenditure and overall physical demand is low. Additionally, the focus on breathing and the aerobic base indicates a pace that is manageable for those in less physical shape, aligning with Light effort difficulty. The Moderate score is because it does require maintaining an aerobic pace for 21 minutes, which may be slightly challenging for the most unfit participants.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

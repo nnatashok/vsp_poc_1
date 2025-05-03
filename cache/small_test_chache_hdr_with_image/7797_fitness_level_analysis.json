@@ -1,0 +1,50 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    },
+    {
+      "level": "Advanced",
+      "score": 1.0
+    },
+    {
+      "level": "Expert",
+      "score": 1.0
+    }
+  ],
+  "techniqueDifficultyConfidence": 1.0,
+  "techniqueDifficultyExplanation": "Since the workout is marked as suitable for all fitness levels (Beginner, Intermediate, Advanced), the technique difficulty is considered adaptable. Movements can be scaled in complexity, and users are expected to modify techniques based on their capability. Therefore, all difficulty levels from Beginner to Expert are assigned equal suitability with a score of 1.0.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.9
+    },
+    {
+      "level": "Moderate",
+      "score": 0.1
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The short duration of 5 minutes and 49 seconds and the classification as a 'cool down' suggest a very light exertion level. Steady rhythm rowing to music is low-intensity, suited for recovery, firmly placing it in the 'Light' category. The mention of rowing could suggest mild cardiovascular effort, slightly nudging towards 'Moderate,' but primarily 'Light' is accurate.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    },
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "Workout type 'cool down' is not one of the specialized Hydrow categories (Breathe, Sweat, Drive, Distance). It is treated as suitable for all fitness levels."
+}

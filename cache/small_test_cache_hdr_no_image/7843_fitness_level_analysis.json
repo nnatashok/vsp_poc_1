@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.1
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout features a rowing session described as an interval format with an emphasis on maintaining a consistent split. As a 'breathe' type of rowing session, the focus is likely on steady, controlled movements rather than complex techniques, aligning strongly with a Beginner level. The max rhythm of 26 suggests some moderate pacing, but not enough to classify beyond Beginner. Minimal coordination is required beyond basic rowing form, thus occasionally touching on Intermediate elements.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is categorized as 'breathe', with a low intensity level (1 out of 3), indicating it is likely designed to be less physically demanding. The 21-minute duration, combined with intervals within a short 5-minute block, contributes to a Light to Moderate effort level. The music genre being rock with medium tempo aligns with engaging, controlled effort without intense exertion, which would suit a Light effort with some Moderate elements.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

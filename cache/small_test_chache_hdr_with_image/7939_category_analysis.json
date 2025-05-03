@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category for this workout is 'Indoor rowing' with a high confidence score of 0.9. This is supported by the title 'Pyramid Quiz Row' and the description indicating a rhythmic rowing format ('Climb up and down in rhythm'). Additionally, the image shows a person in a rowing boat, reinforcing the rowing setting.\n\n'Breathing exercises' is a secondary category with a score of 0.6. Although the workout type includes 'breathe' in the metadata, which suggests a focus on breathing, the context of rowing makes it likely that breathing exercises are integrated into a cardio rowing routine. However, albeit mentioned, it appears secondary to rowing.\n\nOther categories like 'Mat', 'Yoga', or 'Stretching' were considered but excluded due to lack of supporting evidence in the metadata and the clear emphasis on rowing and breathing."
+}

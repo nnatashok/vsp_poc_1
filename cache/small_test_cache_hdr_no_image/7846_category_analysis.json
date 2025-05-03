@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category assigned is 'Indoor rowing' with a very high confidence level (0.9) due to explicit cues in the workout name and description which mention 'rowing,' 'split rowing,' and 'intervals.' These terms unambiguously indicate that the workout involves rowing exercises using a rowing machine. The workout's format, intensity level, and mention of rhythms further support this categorization as an indoor rowing or ergometer session.\n\nThe secondary category is 'Breathing exercises,' with a moderate to high confidence score (0.7). This is supported by the 'workout type' explicitly stated as 'breathe,' and 'category' mentions of 'breathe,' suggesting that the workout includes a focus on breathing techniques, likely to help manage effort and pacing during rowing.\n\n'Yoga,' 'Stretching,' and 'Meditation' categories are not applicable as there is no mention of related activities, and the primary focus is on rowing and managing effort through breathing, not relaxation or flexibility poses. Given the detailed metadata and clear context, the confidence level in these classifications is quite high, at 0.85."
+}

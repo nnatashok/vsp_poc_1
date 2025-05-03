@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout metadata clearly indicates a rowing activity with elements of intensity and interval training. The presence of rowing is confirmed by the title, 'Learn and Burn Row,' and the image showing individuals rowing in a boat. Additionally, the description mentions 'cruising past Aialik Glacier,' which suggests an outdoor rowing visualization. However, the use of 'rowing machine' is implicit.\n\nThe workout type 'sweat' and category 'row' further support the classification of Indoor Rowing with high confidence (score: 0.8). \n\nThe format being specified as 'HIIT' and the intensity level of '2 out of 3' leads to the inclusion of HIIT as a secondary category (score: 0.6). This indicates a moderately intense, structured workout with alternating periods, typical of High-Intensity Interval Training. \n\nThe clear specifications and indicators lead to a high overall confidence in these classifications."
+}

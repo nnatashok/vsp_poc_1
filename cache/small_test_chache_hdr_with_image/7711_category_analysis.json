@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is classified primarily as 'Indoor rowing' with a very high confidence of 0.9. The title 'To the Max Row' explicitly indicates rowing, and this is reinforced by the description mentioning 45-second intervals focusing on rhythm. Despite the image showing outdoor rowing, the structured interval nature typically aligns more with training on a rowing machine, often referred to as indoor rowing, especially in fitness channels.\n\nAdditionally, 'HIIT' is considered with a strong score of 0.7 due to the interval format and description stating 'maximum effort' and 'workout intensity level: 3 out of 3'. These elements are characteristic of High-Intensity Interval Training, which combines short bursts of effort followed by rest or lower intensity.\n\nOther categories like 'Mat' or 'Outdoor rowing' were excluded as the metadata and context focus more on indoor rowing machines and structured intervals for fitness, rather than casual outdoor rowing."
+}

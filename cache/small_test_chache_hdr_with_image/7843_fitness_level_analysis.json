@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout 'Consistency Row' is primarily an interval rowing exercise with a focus on maintaining a consistent split. Rowing itself involves basic but important technique, which aligns with a beginner level with some elements of intermediate complexity due to maintaining consistency over intervals.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.2
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The metadata indicates a 21-minute duration with an intensity level of 1 out of 3. The format is more about maintaining pace rather than high intensity, which suggests a light effort level appropriate for beginners. The interval nature slightly tips it into the moderate category for some users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

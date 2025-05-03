@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is categorized as 'On The Mat,' and the image shows an individual working out on what appears to be a mat. Given that the workout type is 'strength' and is listed under 'On The Mat,' it is very likely that a mat is needed to perform exercises comfortably and safely. Hence, a high confidence score is assigned to the mat as required equipment."
+}

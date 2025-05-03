@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.6
+    },
+    {
+      "name": "Body weight",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.7,
+  "categoriesExplanation": "The workout titled \"80's Fun Summer Row\" and described as comprising four sets of 4-minute intervals and six sets of 45-second intervals, suggests a rowing-based exercise. The mention of a \"max rhythm: 30\" and \"Format: Interval\" further supports it being an interval rowing workout, thus fitting well into the 'Indoor rowing' category with a score of 0.6 due to its apparent focus.\n\nThe image provided shows outdoor rowing, but given the metadata and typical video focus, \"Indoor rowing\" is a better fit considering the overall context. \n\nThe workout includes elements of body movement and sweat as indicated by \"workout type: sweat,\" which can also suggest 'Body weight' exercises for full-body engagement, thus receiving a moderate score of 0.4.\n\nNo equipment other than potentially a rowing machine is indicated, excluding it from categories like 'Weight workout' or 'Calisthenics.' The moderate intensity level and playful theme rule out high stakes categories like 'HIIT.' \n\nOverall, these categories match the metadata evidence, reflecting a blend of rowing and interval training with a fun and engaging approach."
+}

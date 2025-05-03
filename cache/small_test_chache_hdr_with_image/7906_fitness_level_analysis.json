@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The technique difficulty is largely Beginner due to the workout being described as focusing on endurance building with intervals, which typically involve straightforward rowing without complex movements. The intervals may introduce a slight level of coordination, aligning partially with Intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The effort difficulty is primarily Light given the 21-minute duration and indication of an intensity level 1 out of 3. The workout focuses on building endurance through steady rowing, suggesting low to medium energy expenditure. Some intervals contribute to Moderate effort.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

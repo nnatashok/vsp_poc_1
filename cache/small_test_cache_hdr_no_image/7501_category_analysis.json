@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    },
+    {
+      "name": "Running",
+      "score": 0.5
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is primarily classified as 'Indoor rowing' due to the presence of the term 'row' in the category tags provided, despite the workout being titled as part of a 'Runner's Program'. The repeated mention of rowing-related elements in the metadata suggests indoor rowing. The presence of eight 1-minute intervals indicates a 'HIIT' component, since this format aligns with high-intensity interval training characteristics, and the intense interval structure suggests a focus on high-exertion efforts. Therefore, this category is given a moderate confidence and a score of 0.6. 'Running' is also considered due to the 'Runner's Program' title, which implies a running-related focus intended to complement running training, albeit indirectly through an indoor rowing setup. However, 'Running' is given a lower score as the video does not directly feature running, but rather serves as cross-training."
+}

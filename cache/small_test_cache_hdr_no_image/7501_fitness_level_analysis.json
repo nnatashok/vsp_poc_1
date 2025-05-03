@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Advanced",
+      "score": 0.7
+    },
+    {
+      "level": "Expert",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is classified as 'Drive', which suggests high intensity and technique. The description of 'eight 1-minute intervals' in conjunction with a technique-focused category (Drive) implies a level of coordination and rowing skill that aligns with Advanced movement complexity. This is further amplified by the absence of an instructor, meaning the user must rely on their own understanding of the technique. The classification of Advanced for technique difficulty stems from these factors. Expert level is a lesser fit as there's no indication of highly complex rowing techniques or specialized movements needing exceptional skill.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.6
+    },
+    {
+      "level": "Extreme",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout features eight 1-minute intervals with a max rhythm of 32 in a 'Drive' format, known for its high engagement and exertion. This setup, combined with an intensity rating of 3 out of 3, indicates a significant physical demand. With a duration of over 21 minutes mostly at high intensity, it is very demanding, particularly for less-fit users. Therefore, it is classified between Challenging and Extreme based on the continuous high intensity and structured interval training format which still allows for some rest.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

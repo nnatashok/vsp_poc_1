@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    },
+    {
+      "name": "Running",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout video is primarily classified as 'Indoor rowing' with a high score of 0.8. This is supported by metadata such as 'Category: Drive,standard,row' which directly indicates a rowing workout. Additionally, the term '400m repeats' suggests an interval-style workout, aligning with a rowing machine's typical usage.\n\nThe secondary category 'Running' is included with a moderate score of 0.6. The title 'Runner's Program #6 of 9' and the description 'Compliment your running training' imply that this workout is designed as a complementary training session for runners, even though the workout itself is centered around rowing exercises.\n\nThe high intensity level ('intensity level: 3 out of 3') and the interval format further support the categorization as a high-intensity rowing session, rather than a low-impact or stretching activity. The provided song playlist featuring energetic pop and rock tracks ('Party Rock Anthem', 'Let It Rock') aligns well with the high-intensity nature of the workout."
+}

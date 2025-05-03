@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Advanced",
+      "score": 0.9
+    },
+    {
+      "level": "Expert",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout type 'Drive' is noted, aligning with Hydrow's category for advanced technique. The use of HIIT intervals implies a need for precise form under fatigue and coordination, elevating this to Advanced. Given the structured phases, there's also an argument for Expert due to the necessity of managing form through changes.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    },
+    {
+      "level": "Extreme",
+      "score": 0.7
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The 16-minute duration combined with a max rhythm of 30 and a 3 out of 3 intensity rating indicates a highly demanding session. The use of HIIT intervals typically increases physiological strain, reinforcing the Challenging to Extreme classification.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is classified as HIIT with a score of 0.9 due to explicit mention of 'high-intensity intervals' and 'Workout Format: HIIT' in the metadata. This suggests a structured workout involving intense bursts and rest periods, typical of HIIT training.\n\nIndoor rowing is assigned a score of 0.8 because the workout name 'Pure Energy Row' and category tags including 'row' explicitly indicate rowing activity. Although the image depicts outdoor rowing, the workout is likely designed to simulate such activity indoors.\n\nThese categories are strongly supported by the metadata, with 'high-intensity' and rowing activity being clearly described. No other categories, such as Yoga or Stretching, were considered due to the intensity and nature of the workout described."
+}

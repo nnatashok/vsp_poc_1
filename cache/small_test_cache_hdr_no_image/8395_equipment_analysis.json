@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.95
+    }
+  ],
+  "requiredEquipmentExplanation": "The primary indication for required equipment comes from the workout name and description that emphasize rowing and engaging the core during the workout. The term 'row with Nick and Dani' makes it clear that a rowing machine is central to the workout, leading to a very high confidence score of 0.95 for requiring a rowing machine. The metadata does not mention any other equipment explicitly, nor does it suggest the inclusion of other exercises beyond rowing and stretching, meaning no additional equipment is necessary for this workout. This brief session integrates rowing and a cool-down stretch, which typically might not need additional equipment beyond the rowing machine itself."
+}

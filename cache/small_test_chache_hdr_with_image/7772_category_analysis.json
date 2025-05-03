@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is classified primarily as \"HIIT\" due to the explicit mention of high-intensity interval training in the title (\"Peppy HIIT Row\") and description, referencing 30-second and 60-second intervals, which is characteristic of HIIT workouts. The setting along the shores of Hanover and the inclusion of music suggest a dynamic, energetic session, supporting this classification with a score of 0.9 for strong emphasis on interval training.\n\nThe second category is \"Indoor rowing\", assigned a score of 0.8, as the workout involves rowing, indicated by both the name and description, as well as the image showing an outdoor rowing setup. Though the image suggests outdoor rowing, the metadata and platform focus on rowing workouts, meaning this session likely simulates indoor rowing intensity, justifying this classification.\n\nOther categories were excluded as there were no indicators of activities outside rowing and HIIT."
+}

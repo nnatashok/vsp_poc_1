@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.79
+    },
+    {
+      "name": "Walking",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.6,
+  "categoriesExplanation": "The workout title, 'Steady Cool-Down,' and description suggest a low-intensity cool-down exercise, likely performed outdoors as indicated by 'along the Charles River.' This hints at rowing, especially with tags like 'row' and the word 'standard,' which often refer to a rowing machine workout format. Though not explicitly stated, the rhythmic 'max rhythm: 24' further suggests rowing cadence, pointing to an 'Indoor rowing' category despite being outdoors, due to a rowing format. Given the cool-down nature and heart rate features, 'Walking' is assigned a mild score (0.3) as it resembles common cool-down activities and the concept could involve a slow rowing pace similar to a walking pace for recovery. The overall confidence in categorizing as 'Indoor rowing' is high (0.79) due to implicit references. No explicit mention of rowing equipment limits absolute certainty, but the inferred connection is strong. Categories like 'Stretching' or 'Meditation' are excluded because they don't align with the active decrease in heart rate as described."
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.75
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout video is classified under \"Indoor rowing\" primarily due to the workout name 'Running + Sprinting Pace Row' and the term 'row' in the category. This strongly indicates the use of a rowing machine, which aligns with Indoor rowing. The 'Max rhythm: 28' suggests strokes per minute common in rowing workouts, supporting the Indoor rowing classification with high confidence (score: 0.9).\n\nThe format 'Intervals' and the workout intensity level '2 out of 3' suggest a structured exercise with varying intensity, which aligns with the principles of High-Intensity Interval Training (HIIT). This is further supported by '2.5-minute intervals' noted in the description, a typical characteristic of HIIT workouts involving short bursts of intense activity. Therefore, the HIIT category is also applicable with a strong confidence level (score: 0.75).\n\nThe keywords such as 'sweat', 'standard', and 'intervals' suggest an aerobic and dynamic workout, which does not fit other lower intensity categories like yoga or stretching."
+}

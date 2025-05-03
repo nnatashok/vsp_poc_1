@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Body weight",
+      "score": 0.7
+    },
+    {
+      "name": "Mat",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.7,
+  "categoriesExplanation": "The workout is classified as 'Body weight' with a score of 0.7 because the term 'strength' is prominently featured in the description, indicating a focus on muscular endurance and conditioning without specifying external weights, which suggests the use of body weight as resistance. The keyword 'beginner' implies a more accessible routine, supporting the inference of body weight exercises. Additionally, 'Mat' is assigned with a score of 0.6, as the categories explicitly included 'On The Mat,' indicating floor-based exercises are a significant component of the workout. The absence of specific equipment mentioned supports these conclusions, and the 15:44 duration suggests a brief, intensive session suitable for beginner-level mat and bodyweight exercises. Other categories such as 'Weight workout' or 'Calisthenics' are not chosen due to lack of explicit mention of weights or high-intensity gymnastic movements."
+}

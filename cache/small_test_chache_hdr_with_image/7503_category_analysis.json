@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is performed on a rowing machine as indicated by the mention of \"row\" in the 'Category'. The image shows outdoor rowing, which suggests real rowing activity, but the provided metadata's 'Category' explicitly includes 'row,' strongly implying rowing activity. The format indicates 'Intervals' and the rhythm specification (26 and 28) supports that this is a structured rowing workout.\n\nThe presence of 'Intervals' and the description of 2-minute intervals suggest a high-intensity workout reminiscent of HIIT (High-Intensity Interval Training). The 'Workout intensity level' is noted as 2 out of 3, indicating a moderately high intensity level, further supporting a HIIT component. Although the image shows outdoor rowing, the metadata relates closely to structured indoor rowing.\n\n\"Indoor rowing\" and \"HIIT\" are chosen as the main categories due to the interval nature and the rowing context. The confidence is high because of the explicit use of relevant terms and activities in the description."
+}

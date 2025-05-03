@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Advanced",
+      "score": 0.9
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type 'Drive' indicates technical movements requiring good coordination and body awareness, aligning with an advanced technique difficulty level. Additionally, the workout is categorized as an interval with a max rhythm of 32, suggesting a focus on maintaining form under high intensity, which supports the classification as advanced.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    },
+    {
+      "level": "Extreme",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The duration of 21 minutes combined with the Drive workout type and interval format suggests significant energy expenditure and effort. The intensity level is marked at the highest (3/3), indicating extreme effort difficulty for many users but likely challenging at a minimum for advanced users due to interval rowing\u2019s demand on endurance and power.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

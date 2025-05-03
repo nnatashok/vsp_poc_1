@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout metadata indicates a 'Climbing Intervals Row' session, explicitly mentioning the word 'row' and a climbing 'format.' This strongly suggests the use of a rowing machine. Additionally, the category 'row' further implies that the workout is focused on rowing. Therefore, the required equipment is most likely a rowing machine, with a very high confidence of 0.9. The image shows outdoor rowing, but the mention of intervals and rhythm changes aligns with indoor rowing practices."
+}

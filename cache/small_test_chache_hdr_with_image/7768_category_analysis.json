@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.95
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary category for this workout is 'Indoor rowing' as the metadata explicitly mentions 'row,' 'interval,' and 'drive,' which are indicative of rowing workouts. The image also shows rowing being performed on water, suggesting rowing equipment utilization. The workout is highly intense (level 3 out of 3), aligning with structured rowing exercises. The name 'Let Go and Row' and the tags 'Drive, Standard, Row' further support this categorization, leading to a high confidence score of 0.95.\n\nThe secondary category is 'Breathing exercises,' suggested by the description: 'breathe, observe, and then act,' hinting at a focus on breathing techniques during the workout. This aspect is less dominant but still present due to the emphasis on breathing, leading to a moderate score of 0.6. Alternate categories like 'Elliptical' or 'Treadmill' were excluded due to the clear rowing context provided by both the text and image data."
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Mat",
+      "score": 0.9
+    },
+    {
+      "name": "Body weight",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is classified mainly into the categories of 'Mat' and 'Body weight'. The title 'Lower Body + Core Strength' and the description specifically mention \"core exercises, squats and lunges,\" which are typically performed on the floor, indicating a 'Mat' workout. The mention of 'quick pace' also supports this, and the optional use of yoga blocks suggests body position adjustments commonly associated with mat workouts. The metadata classifies the workout as 'On The Mat', reinforcing this categorization with a high score of 0.9 for Mat.\n\nThe workout is also categorized as 'Body weight' because squats and lunges are traditional body-weight exercises, which involve using one's own body mass for resistance, drawing a score of 0.7 for Body weight. The absence of mention of any other equipment solidifies this tag.\n\nOther categories were excluded as the workout does not involve rowing, cycling, or stretching-focused movements, and lacks any elaborate equipment that might lead to a 'Weight workout' classification. The confidence level of 0.85 reflects the alignment of the classification with clear indicators from the metadata."
+}

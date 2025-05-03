@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Resistance bands",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Mat",
+      "confidence": 0.6
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout title 'Upper Body Strength with Bands' and the description make it explicit that a resistance band is needed, as it is central to the exercises being performed. This gives a very high confidence score of 0.9 for resistance bands as essential equipment. The category 'On The Mat' suggests that a mat might be used to provide comfort and support while performing the exercises, resulting in a moderate to high confidence score of 0.6 for a mat being used, even though it is not explicitly specified as required. The workout appears focused on strengthening the upper body with the primary equipment being resistance bands."
+}

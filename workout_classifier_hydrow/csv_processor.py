@@ -43,7 +43,8 @@ def is_hydrow_meta(value):
 
 def process_workouts_csv(input_csv_path, output_csv_path, max_workouts=None, 
                         enable_category=True, enable_fitness_level=True, 
-                        enable_vibe=True, enable_spirit=True, enable_equipment=True):
+                        enable_vibe=True, enable_spirit=True, enable_equipment=True,
+                        include_image=False):
     """
     Process Hydrow workout JSONs from a CSV file and output analysis results.
     Always rewrites the output file from scratch.
@@ -57,6 +58,7 @@ def process_workouts_csv(input_csv_path, output_csv_path, max_workouts=None,
         enable_vibe (bool): Whether to analyze workout vibes
         enable_spirit (bool): Whether to analyze workout spirits
         enable_equipment (bool): Whether to analyze required equipment
+        include_image (bool): Whether to use workout poster image for analysis
     """
     # Load API keys from .env files in different locations
     api_keys = load_api_keys()
@@ -173,7 +175,8 @@ def process_workouts_csv(input_csv_path, output_csv_path, max_workouts=None,
                 enable_fitness_level=enable_fitness_level,
                 enable_vibe=enable_vibe,
                 enable_spirit=enable_spirit,
-                enable_equipment=enable_equipment
+                enable_equipment=enable_equipment,
+                enable_image_in_meta=include_image
             )
 
             # Check if analysis was successful
@@ -248,9 +251,12 @@ if __name__ == "__main__":
                         help='Disable workout spirit analysis')
     parser.add_argument('--no-equipment', action='store_false', dest='equipment',
                         help='Disable required equipment analysis')
+    # TODO debug image flag 
+    parser.add_argument('--include-image', action='store_true', dest='image',
+                        help='To include poster image as model input')
     
     # Set default values for boolean arguments
-    parser.set_defaults(category=True, fitness_level=True, vibe=True, spirit=True, equipment=True)
+    parser.set_defaults(category=True, fitness_level=True, vibe=True, spirit=True, equipment=True, image=False)
     
     # Parse arguments
     args = parser.parse_args()
@@ -264,5 +270,6 @@ if __name__ == "__main__":
         enable_fitness_level=args.fitness_level,
         enable_vibe=args.vibe,
         enable_spirit=args.spirit,
-        enable_equipment=args.equipment
+        enable_equipment=args.equipment,
+        include_image=args.image 
     )

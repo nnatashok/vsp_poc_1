@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.95
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout \"Granite State Challenge\" is clearly centered around using a rowing machine. This is indicated by the repeated use of the keyword 'row' in the workout type, category, and description, as well as terms such as 'maximum meters,' which directly relate to distance\u2014something tracked by rowing machines. The exercise type 'drive' and format 'power' also suggest high-intensity rowing, further implying the need for a rowing machine. Therefore, the confidence level for including a rowing machine is very high at 0.95."
+}

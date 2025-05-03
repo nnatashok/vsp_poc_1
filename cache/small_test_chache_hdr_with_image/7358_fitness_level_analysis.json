@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.1
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout involves rowing at rhythms between 20 to 24, which is suitable for beginners. Since the workout is categorized as 'breathe' and the user fitness level is 'Beginner', the movements are likely straightforward with minimal complexity. The use of consistent, not varied, rhythm suggests a low coordination requirement, aligning strongly with the Beginner level.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "With a duration of 21 minutes and an intensity level of 1 out of 3, the exertion needed is not high. Although the workout includes intervals, the description focuses on consistent effort and a 'breathe' format, suggesting a focus on steady and controlled activity rather than high intensity, indicating a light to moderate effort suitable for less fit users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

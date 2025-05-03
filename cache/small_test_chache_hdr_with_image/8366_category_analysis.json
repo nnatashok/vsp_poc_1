@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is classified primarily as 'Indoor rowing' due to the focus on accumulating meters with high rhythm, and the specific mention of 'row' in the category tags. Although the image shows outdoor rowing, the metadata fits well with indoor rowing workouts typically done with machines. The high intensity level (3 out of 3) and racing theme further support this.\n\nThe 'HIIT' category is also applicable, as the description emphasizes racing off at high rhythms, suggesting intervals of high power and intensity, common in HIIT sessions. The use of pop and global hits music aligns with the energetic nature of HIIT workouts. \n\nThe confidence in categorizing as 'Indoor rowing' is very high due to explicit indicators, while 'HIIT' has moderate to high confidence due to the high intensity and power format of the workout."
+}

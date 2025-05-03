@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The workout is clearly classified as an 'Indoor rowing' session due to the explicit mention of 'race', 'week', 'row', and 'climbing interval' in the description, indicating the use of a rowing machine. The terms 'drive', 'standard', and 'row' not only indicate a focus on rowing but also suggest a structured rowing program. This gives a strong score of 0.9 for 'Indoor rowing'. Additionally, the mention of 'every climbing interval' and 'turn up the heat' imply a high-intensity approach typical of High-Intensity Interval Training (HIIT), which justifies a secondary classification as HIIT with a score of 0.7. The intensity level 3 out of 3 further supports this high-intensity focus. Other categories like 'Mat', 'Running', or 'Treadmill' were excluded because there is no indication of their activities or associated equipment use in the metadata."
+}

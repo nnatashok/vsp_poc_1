@@ -24,7 +24,8 @@ from db_transformer import transform_to_db_structure
 def analyse_hydrow_workout(workout_json, openai_api_key,
                           cache_dir='cache', force_refresh=False,
                           enable_category=True, enable_fitness_level=True,
-                          enable_vibe=True, enable_spirit=True, enable_equipment=True):
+                          enable_vibe=True, enable_spirit=True, enable_equipment=True,
+                          enable_image_in_meta=False):
     """
     Analyzes a YouTube workout video and classifies it according to enabled dimensions:
     1. Category (e.g., Yoga, HIIT, Weight workout)
@@ -59,6 +60,8 @@ def analyse_hydrow_workout(workout_json, openai_api_key,
 
     # extract image and textual summary
     meta = extract_hydrow_meta_from_json(workout_json)
+    if not enable_image_in_meta:
+        del meta['image']
 
     # Initialize combined analysis
     video_id = workout_json.get("id")
@@ -140,15 +143,28 @@ def analyse_hydrow_workout(workout_json, openai_api_key,
                         cache_data(analysis, cache_path)
                     else:
                         # ! now we proceed with fintess lvl, which is partially hardcoded
-                        fitness_base_schema = prefill_fitness_schema(workout_json.get('workoutTypes')[0])
+                        workout_type = workout_json.get('workoutTypes')[0].lower().strip()
+                        fitness_base_schema = prefill_fitness_schema(workout_type)
+                        meta_f_lvl = meta
+                        meta_f_lvl['text'] = meta_f_lvl['text'] + f"\nUser Fitness Level Requirements are {', '.join([e['level'] for e in fitness_base_schema.get('requiredFitnessLevel')])}"
                         analysis = run_classifier(
                                 oai_client,
-                                meta,
+                                meta_f_lvl,
                                 classifier["system_prompt"],
                                 classifier["user_prompt"],
                                 classifier["response_format"]
                             )
-                        analysis = enforce_prefilled_fields(analysis, fitness_base_schema)                  
+                        if len(fitness_base_schema.get("requiredFitnessLevel")) != 3:
+                            analysis = enforce_prefilled_fields(analysis, fitness_base_schema) 
+                        else:
+                            analysis = enforce_prefilled_fields(analysis, 
+                                                                fitness_base_schema,
+                                                                keys_to_override = ["requiredFitnessLevel",
+                                                                                    "requiredFitnessLevelConfidence",
+                                                                                    "requiredFitnessLevelExplanation",
+                                                                                    "techniqueDifficulty",
+                                                                                    "techniqueDifficultyConfidence",
+                                                                                    "techniqueDifficultyExplanation"]) 
                         cache_data(analysis, cache_path)
             else:
                 if not (classifier['name']=='fitness_level'):
@@ -162,15 +178,28 @@ def analyse_hydrow_workout(workout_json, openai_api_key,
                     cache_data(analysis, cache_path)
                 else:
                     # ! now we proceed with fintess lvl, which is partially hardcoded
-                    fitness_base_schema = prefill_fitness_schema(workout_json.get('workoutTypes')[0])
+                    workout_type = workout_json.get('workoutTypes')[0].lower().strip()
+                    fitness_base_schema = prefill_fitness_schema(workout_type)
+                    meta_f_lvl = meta
+                    meta_f_lvl['text'] = meta_f_lvl['text'] + f"\nUser Fitness Level Requirements are {', '.join([e['level'] for e in fitness_base_schema.get('requiredFitnessLevel')])}"
                     analysis = run_classifier(
                             oai_client,
-                            meta,
+                            meta_f_lvl,
                             classifier["system_prompt"],
                             classifier["user_prompt"],
                             classifier["response_format"]
                         )
-                    analysis = enforce_prefilled_fields(analysis, fitness_base_schema) 
+                    if len(fitness_base_schema.get("requiredFitnessLevel")) != 3:
+                        analysis = enforce_prefilled_fields(analysis, fitness_base_schema) 
+                    else:
+                        analysis = enforce_prefilled_fields(analysis, 
+                                                            fitness_base_schema,
+                                                            keys_to_override = ["requiredFitnessLevel",
+                                                                                "requiredFitnessLevelConfidence",
+                                                                                "requiredFitnessLevelExplanation",
+                                                                                "techniqueDifficulty",
+                                                                                "techniqueDifficultyConfidence",
+                                                                                "techniqueDifficultyExplanation"]) 
                     cache_data(analysis, cache_path)                 
 
             combined_analysis[name] = analysis
@@ -178,7 +207,6 @@ def analyse_hydrow_workout(workout_json, openai_api_key,
 
     except Exception as e:
         return {"error": f"Failed to perform combined analysis: {str(e)}"}
-
 
 # Other functions remain unchanged
 def prefill_fitness_schema(workout_type: str) -> dict:
@@ -240,6 +268,22 @@ def prefill_fitness_schema(workout_type: str) -> dict:
             f"Workout type '{workout_type}' is not one of the specialized Hydrow categories "
             f"(Breathe, Sweat, Drive, Distance). It is treated as suitable for all fitness levels."
         )
+        
+        # If workout is suitable for all fitness levels, then technique ia also can be adgusted to any level
+        schema["techniqueDifficulty"] = [
+            {"level": "Beginner", "score": 1.0},
+            {"level": "Intermediate", "score": 1.0},
+            {"level": "Advanced", "score": 1.0},
+            {"level": "Expert", "score": 1.0}
+        ]
+        schema["techniqueDifficultyConfidence"] = 1.0
+        schema["techniqueDifficultyExplanation"] = (
+            f"Since the workout is marked as suitable for all fitness levels (Beginner, Intermediate, Advanced), "
+            f"the technique difficulty is considered adaptable. Movements can be scaled in complexity, and users are "
+            f"expected to modify techniques based on their capability. Therefore, all difficulty levels from Beginner "
+            f"to Expert are assigned equal suitability with a score of 1.0."
+        )
+
 
     return schema
 
@@ -270,6 +314,15 @@ def cache_data(data, cache_path):
     except Exception as e:
         print(f"Error caching data: {str(e)}")
 
+def extract_video_id(raw_json: str, idx:int) -> str:
+    schema = json.loads(raw_json)
+    video_id = schema.get("id")
+    if not video_id:
+        video_id = f"manual_{idx}"
+        schema['id']=video_id
+    return video_id
+        
+        
 def extract_hydrow_meta_from_json(data: Dict[str, Any]) -> Dict[str, Any]:
     """
     Extract and format metadata as per specific rules.
@@ -312,7 +365,7 @@ def extract_hydrow_meta_from_json(data: Dict[str, Any]) -> Dict[str, Any]:
         if instructor_name == "No Athlete": instructor_name = "Unknown"
         
         # ! adding lookup for instructors bio
-        file_path = 'hydrow_athletes_bio.csv'
+        file_path = 'workout_classifier_hydrow/hydrow_athletes_bio.csv'
         if os.path.exists(file_path):
             df = pd.read_csv(file_path)
             # Normalize column 0 for case-insensitive comparison
@@ -321,10 +374,12 @@ def extract_hydrow_meta_from_json(data: Dict[str, Any]) -> Dict[str, Any]:
                 bio = match.iloc[0, 1]
             else:
                 print(f"No bio found for instructor: {instructor_name}")
+                return instructor_name+":\n"+bio+"\n"
+
         else:
             print(f"File not found: {file_path}")
+            return instructor_name
 
-        return instructor_name+":\n"+bio+"\n"
     
     # Download poster image
     image_url = data.get("posterUri")
@@ -390,7 +445,6 @@ def run_classifier(oai_client, meta, system_prompt, user_prompt, response_format
     except Exception as e:
         return {"error": f"Error with classifier: {str(e)}"}
 
-
 def openai_call_with_retry(oai_client, model, messages, response_format):
     """
     Helper function to make OpenAI API calls with retry for rate limits.
@@ -439,3 +493,4 @@ def openai_call_with_retry(oai_client, model, messages, response_format):
 
     # This should only happen if we exhaust all retries
     raise Exception("Failed after maximum retry attempts")
+

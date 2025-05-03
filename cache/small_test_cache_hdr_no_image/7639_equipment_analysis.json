@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Blocks",
+      "confidence": 0.35
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is titled 'Beginner Yoga Flow' and the category is 'On The Mat,' which strongly suggests that a mat is needed for performing the yoga exercises. The confidence level for a mat is very high (0.9), as mats are essential for floor-based yoga workouts to provide cushioning and support.\n\nAdditionally, the description states 'yoga blocks optional,' which indicates that blocks are not necessary but can be used to assist with the yoga poses. Therefore, the confidence level for blocks is lower (0.35) since they are not required but can be utilized to enhance the workout experience, especially for beginners who may need additional support."
+}

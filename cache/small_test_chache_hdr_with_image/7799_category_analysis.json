@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Stretching",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout video is primarily a rowing session, as indicated by the title 'Feel the Rhythm Cool-Down' and description, which explicitly mentions 'row at rhythms 22 and 24.' The imagery of rowing equipment and the outdoor setting suggest that this is an actual rowing session, either simulated indoors or performed outdoors, but based on the structured interval mention, it's most likely indoor rowing. The category 'Indoor rowing' is selected with a high score of 0.9 due to these strong indicators.\n\nThe description also emphasizes that this is a 'cool down' exercise, involving practicing rhythm and potentially relaxed rowing with eyes closed, which can imply a focus on calm and controlled motion typical in a stretching or cool-down phase; however, stretching itself is not explicitly mentioned, so it gets a lower score of 0.3 indicating a possible secondary aspect of the session."
+}

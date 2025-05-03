@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary category identified is 'Indoor Rowing' with a high score of 0.9. The workout name 'Climbing Intervals Row' and the description describe the use of rowing intervals ('three 4-minute intervals') and increased rhythm ('climbing in rhythm and intensity') which are indicative of a rowing machine workout. The metadata consistently references rowing terms, such as 'climb' and 'intervals,' which aligns with indoor rowing sessions using a rowing machine, thereby justifying the high score.\n\nAdditionally, 'HIIT' is recognized with a score of 0.6. The format of the workout involves 'intervals' and varied intensity, which are characteristics of High-Intensity Interval Training. The intensity level being described as 2 out of 3 further suggests a workout that involves varied intensity phases, aligning it with HIIT.\n\nThe high-confidence level of 0.9 reflects explicit mentions in the workout metadata of activities and intensity levels typical for both indoor rowing and HIIT. Categories such as 'Mat', 'Weight workout', or 'Elliptical' were excluded due to the lack of relevant indicators across the provided metadata."
+}

@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout is primarily rowing-based with an 'Interval' format and a max rhythm of 28, suggesting some degree of coordination is required. However, it does not involve complex or technical rowing techniques like those seen in a 'Drive' workout, which keeps the technique difficulty down. The requirement for 'Time Under Tension' and the description mention basic cardio and endurance building, which suits Intermediate users but remains accessible for Beginners due to its non-technical nature.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.2
+    },
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The effort difficulty is primarily classified as 'Moderate'. The workout has a duration of over 11 minutes with an intensity level of 2 out of 3 and is categorized as 'sweat', indicating a continuous effort, aligned with moderate energy expenditure. The playlist features upbeat music suitable for moderate-intensity workouts, but it remains accessible to less conditioned users due to the controlled rhythm and interval nature reducing overall exertion.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

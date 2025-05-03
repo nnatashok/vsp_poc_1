@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Pilates",
+      "score": 0.9
+    },
+    {
+      "name": "Mat",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is explicitly categorized as 'Pilates' in the metadata, confirming a primary focus on this exercise method. The description mentions strengthening the hips and core within a 'Pilates session,' providing strong evidence for the 'Pilates' category with a high confidence score of 0.9 due to explicit indicators. Additionally, the category is noted as 'On The Mat,' indicating floor exercises without much equipment, justifying the 'Mat' category with a score of 0.7. This metadata does not suggest other categories like Yoga, Stretching, or Body weight, as there is a specific mention of Pilates and the context supports this focus. Musical choices and lyrics denote high energy but do not alter the classification significantly."
+}

@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Advanced",
+      "score": 0.85
+    },
+    {
+      "level": "Expert",
+      "score": 0.65
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is classified as 'drive,' which frequently demands advanced skills to execute proper rowing technique efficiently. The 'HIIT' format adds to the complexity, as participants must manage high-intensity rhythms and transitions between intervals. A max rhythm of 32 also indicates advanced coordination and stability requirements, supporting a strong alignment with Advanced and Expert levels.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.75
+    },
+    {
+      "level": "Extreme",
+      "score": 0.65
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The duration of 21 minutes coupled with a highest intensity level of 3/3 suggests a vigorous effort. The 'HIIT' format further indicates high physical demand, intensifying with a fast-paced rhythm and minimal rest, implying significant effort. Thus, the effort is mainly Challenging, edging towards Extreme due to the intensive interval training.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

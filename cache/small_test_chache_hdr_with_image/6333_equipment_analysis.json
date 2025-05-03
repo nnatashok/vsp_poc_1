@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.95
+    },
+    {
+      "equipment": "Blocks",
+      "confidence": 0.8
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is described as 'align yoga' and categorized under 'On The Mat,' which strongly implies the use of a yoga mat, hence the high confidence score of 0.95 for 'Mat.' Additionally, the image associated shows participants using yoga blocks, indicating their use during the routine. This visual confirmation elevates the confidence level for 'Blocks' to 0.8. There is no mention or implication of other equipment types, suggesting the focus is solely on these basic yoga essentials for this particular session."
+}

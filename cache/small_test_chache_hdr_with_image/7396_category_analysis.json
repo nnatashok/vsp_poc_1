@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Body weight",
+      "score": 0.8
+    },
+    {
+      "name": "Mat",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is classified under 'Body weight' with high confidence (0.8) because the description specifies a 'whole body workout' and no equipment is mentioned, indicating exercises using body weight. The 'Mat' category is also relevant (score 0.7) as the metadata and image confirm a workout on a mat. The term 'on the mat' in the category tag further supports this. No other equipment or activities suggest additional categories, and the outdoor setting in the image aligns with these activities."
+}

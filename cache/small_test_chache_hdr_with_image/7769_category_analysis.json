@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    },
+    {
+      "name": "Stretching",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.75,
+  "categoriesExplanation": "The workout is primarily based on rowing, as indicated by the term 'Standard,row' in the metadata and the image showing a person on water rowing a boat. The mention of 'Synchronization Cool-Down' suggests a lower intensity, relaxing rowing session. This aligns with typical cool-down activities. The duration is short, indicating a brief session focused on winding down, consistent with a cool-down or stretching routine. \n\n'Indoor rowing' is rated at 0.8 due to the emphasis on rowing in the description and image. 'Stretching' is assigned a 0.5 as cool-downs often incorporate stretching elements to promote relaxation and recovery, although it's not explicitly stated in the metadata. The presence of rhythmic and steady movement might imply some light stretching in the routine. Other categories like Yoga or Pilates are unlikely due to the setting and context provided."
+}

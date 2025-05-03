@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Advanced",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type is 'drive', which explicitly links to the Advanced category for Hydrow's classifications. Additionally, it involves interval rowing with a high max rhythm of 28, implying a need for skillful execution and body awareness typical of an advanced level.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.75
+    },
+    {
+      "level": "Extreme",
+      "score": 0.65
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "With a workout intensity of 3 out of 3 indicating maximum effort, combined with interval training similar to 400m repeats, the physical demands are high. This suggests a likely position between Challenging and Extreme for less fit users. The intense music genres and duration of 21 minutes further support this classification.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

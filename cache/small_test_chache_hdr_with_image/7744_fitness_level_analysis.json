@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Advanced",
+      "score": 0.9
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.95,
+  "techniqueDifficultyExplanation": "The workout is classified under 'Drive', which is specified as requiring advanced technique. Additionally, with an intensity level of 3 out of 3 and a focus on explosiveness and speed, precise technique is crucial. The moderate length and tempo further emphasize the need for advanced rowing technique.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.65
+    },
+    {
+      "level": "Extreme",
+      "score": 0.85
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The effort difficulty is high due to the workout type 'Drive', which suggests intensive physical demand. The description of explosive power and speed in 5-minute sessions, along with a final all-out effort, indicates a high energy expenditure. The intensity level is 3 out of 3, supporting this classification.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

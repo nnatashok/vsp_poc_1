@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Beginner",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The technique difficulty for this workout is classified as Intermediate with a score of 0.7 due to the climbing interval format that requires coordination and proper rowing form. The 'sweat' category suggests moderate complexity in executing movements. Beginner score of 0.3 reflects possible accessibility for those familiar with basic rowing mechanics.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.65
+    },
+    {
+      "level": "Moderate",
+      "score": 0.35
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "Effort difficulty is assessed as Challenging due to the '2-minute climbing intervals' which indicate sustained effort at a higher stroke rate (max rhythm of 28), aligning with increased physical demand. 'Sweat' workout type and a '2 out of 3' intensity rating confirm this classification, while the moderate score accounts for the intermediate duration.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

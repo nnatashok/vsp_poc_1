@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout focuses on a rowing routine at a jogging pace with a pyramid format, which entails varying intensity but remains simple in execution given the basic rowing movement. The technique difficulty is primarily Beginner due to the straightforward nature of rowing at a moderate pace. However, the pyramid structure introduces slight complexity, justifying a minor Intermediate score.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout has a duration of about 21 minutes with a low intensity level (1 out of 3), suggesting overall effort difficulty is within the Light range. The pyramid format implies fluctuating intensity, which adds a moderate aspect but not significantly to raise overall difficulty. Hence, the effort is predominantly Light with some Moderate physical exertion involved.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

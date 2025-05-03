@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout involves steady rowing at a rhythm of 22 and 24, which indicates basic rowing techniques. Given the classification as a 'Breathe' workout and an intensity level of 1 out of 3, the technique requirements are low. Therefore, it's primarily suitable for beginners but may slightly touch on intermediate skills due to the rhythm changes.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.9
+    },
+    {
+      "level": "Moderate",
+      "score": 0.1
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "With a steady state format and an intensity level of 1 out of 3, this workout is designed to build cardio base with minimal effort. The moderate rhythm of 22 and 24 is low-intensity, making the workout mainly light, but with some minor challenges due to maintaining rhythm consistency.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

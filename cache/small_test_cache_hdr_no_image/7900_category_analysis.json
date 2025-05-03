@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 1
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout title 'Pop Row' and description indicate a rowing exercise, confirmed by keywords like 'sprint pace' and 'intervals'. This explicitly points to 'Indoor rowing' as a central category, earning a score of 1.0 due to its defining presence in the metadata. The mention of '90-second intervals' followed by '30-second push at max pace' strongly suggests that the workout features interval training elements, typical of a 'HIIT' session. The high intensity level, rated 3 out of 3, and the sprinting references further reinforce this categorization. The format 'Interval' and use of high-energy Pop music ('Pop high, Global Hits') support an intense workout atmosphere, common in HIIT sessions, giving 'HIIT' a score of 0.7. Other categories were considered but excluded due to the explicit nature of rowing and interval training language, making them unlikely matches."
+}

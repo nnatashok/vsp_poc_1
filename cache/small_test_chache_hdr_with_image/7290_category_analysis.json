@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is classified as 'HIIT' based on the title 'Newport Beach HIIT Row' and the description mentioning 'ten sets of 1-minute high intensity intervals,' strongly indicating a high-intensity interval training setup. The score of 0.9 reflects explicit indicators of high-intensity intervals in a rowing setup.\n\nFurthermore, 'Indoor rowing' is chosen because the activity seems to involve rowing, as indicated by 'Row' in both the title and category metadata ('row'). The presence of rowing equipment in the image supports this classification. Despite the outdoor setting shown, which suggests actual rowing rather than an indoor setup, the style of workout closely matches that of indoor rowing exercises, warranting a score of 0.8.\n\nOther categories like 'Mat' or 'Body weight' are excluded due to the lack of evidence for floor exercises or bodyweight movements."
+}

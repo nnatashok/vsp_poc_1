@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Advanced",
+      "score": 0.9
+    },
+    {
+      "level": "Expert",
+      "score": 0.1
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout type 'Drive' indicates a focus on intensity and form, suggesting advanced skill requirements typical of high coordination movements. The description's emphasis on 'high rhythms' and 'maximum meters' indicates a need for practiced technique, supporting an advanced classification. Due to the specified intensity and technical demands, there's also a marginal alignment with expert level.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.6
+    },
+    {
+      "level": "Extreme",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "With a short duration of 11 minutes and 18 seconds, but a workout labeled 'drive' with 'max rhythm: 34' and intensity level 3 of 3, the workout is highly demanding in terms of energy expenditure. The focus on 'racing off' and accumulating 'maximum meters' suggests a high-intensity effort, categorizing it as challenging to extreme.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

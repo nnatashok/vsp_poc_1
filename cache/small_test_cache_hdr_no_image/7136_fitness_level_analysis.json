@@ -1,0 +1,46 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    },
+    {
+      "level": "Advanced",
+      "score": 1.0
+    },
+    {
+      "level": "Expert",
+      "score": 1.0
+    }
+  ],
+  "techniqueDifficultyConfidence": 1.0,
+  "techniqueDifficultyExplanation": "Since the workout is marked as suitable for all fitness levels (Beginner, Intermediate, Advanced), the technique difficulty is considered adaptable. Movements can be scaled in complexity, and users are expected to modify techniques based on their capability. Therefore, all difficulty levels from Beginner to Expert are assigned equal suitability with a score of 1.0.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.95
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout's short duration (under 11 minutes) and its categorization as a 'restore' type exercise strongly suggest a low physical demand, aligning with a Light effort level. The focus on breath and stillness, typical of restorative practices, usually include low-intensity stretches or poses designed primarily to promote relaxation rather than physical exertion. Additionally, the music selection characterized as Chill and Cool/Downtempo supports a calm, light intensity setting (score: 0.95).",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    },
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "Workout type 'restore' is not one of the specialized Hydrow categories (Breathe, Sweat, Drive, Distance). It is treated as suitable for all fitness levels."
+}

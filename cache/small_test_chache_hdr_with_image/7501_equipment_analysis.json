@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout metadata strongly suggests the need for a rowing machine. The keywords 'standard,row' in the category imply rowing activities. The image further supports this by showing outdoor rowing, indicating that rowing is integral to the session. Therefore, a rowing machine would be necessary to replicate this experience indoors with high confidence. Other equipment is not indicated within the metadata."
+}

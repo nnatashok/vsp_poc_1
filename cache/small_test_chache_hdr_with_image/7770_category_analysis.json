@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Indoor rowing",
+      "score": 0.85
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout titled 'Welcome to Norway Row' involves 1-minute intervals in Nord\u00e5svannet Bay, which suggests a high-intensity format. This is further supported by the description indicating a max rhythm of 34. The presence of 'Format: HIIT' explicitly categorizes it as a High-Intensity Interval Training session, justifying a score of 0.9 for the 'HIIT' category. The phrase 'Workout Type: drive,' paired with the use of intervals, aligns well with both rowing and HIIT principles.\n\nAlthough the image shows rowing outdoors, the metadata suggests it's a structured interval workout, typical of indoor rowing sessions, thus an 0.85 score for 'Indoor rowing' is appropriate due to the mixed setting but clear rowing structure."
+}

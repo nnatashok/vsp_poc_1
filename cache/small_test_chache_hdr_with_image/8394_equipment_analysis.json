@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.8
+    },
+    {
+      "equipment": "Blocks",
+      "confidence": 0.8
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is described as 'Foot + Ankle Focused Yoga' under the category 'On The Mat', indicating a high likelihood that a yoga mat is needed for floor exercises, which supports a very high confidence level of 0.8 for a mat.\n\nThe image provided shows a yoga mat being used by the instructor. Additionally, yoga blocks are visible in the image, supporting poses, leading to the inclusion of yoga blocks with a high confidence score of 0.8. This suggests that blocks are used to assist with balance or support during the workout.\n\nOverall, the workout strongly implies the usage of these yoga-related equipments."
+}

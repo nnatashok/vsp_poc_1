@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "This workout is classified under 'Indoor rowing' primarily due to explicit references in the metadata such as 'rowing' in the title and keywords like 'technique,' 'intervals,' 'rhythm,' and 'row.' The term 'intervals' suggests a pattern of alternating higher and lower intensity efforts, which aligns with common rowing workouts, hence a high score of 0.9.\n\nThe workout's description and structure indicate features of 'HIIT' such as the interval training aspect, identified by 'intervals shifting up in rhythm each minute.' Although the overall workout intensity is just 2 out of 3, the focus on intervals supports a supplementary classification under 'HIIT' with a lower confidence score of 0.6 due to moderate intensity.\n\nOther potential categories such as 'Mat' or 'Yoga' are excluded due to the lack of evidence regarding floor exercises or mind-body elements. \n\nThe confidence level is high (0.9) because of the explicit mention of rowing and structure fitting typical rowing workouts."
+}

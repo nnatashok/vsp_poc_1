@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 1
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is classified as 'Indoor rowing' with high confidence (1.0) due to the explicit mention of row in the workout type and category, as well as the interval format consistent with rowing workouts. The inclusion of sprints and max pace intervals aligns with HIIT characteristics, justifying a secondary classification with a score of 0.7. The high-intensity description ('intensity level: 3 out of 3') supports this categorization. The presence of upbeat pop music further emphasizes the energetic and dynamic nature of the workout, contributing to its classification as a HIIT-style session. The specific rowing setting observed in the image provided confirms the environment and equipment used, reinforcing the 'Indoor rowing' categorization."
+}

@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Advanced",
+      "score": 0.9
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized under the 'Drive' type, which typically involves advanced rowing techniques that require good coordination and body awareness to execute properly. Given the classification of 'Drive,' and the requirement for high intensity and technique, the technique difficulty aligns closely with 'Advanced.' This is reinforced by the high-intensity intervals emphasized in the description.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    },
+    {
+      "level": "Extreme",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is 21 minutes long with high-intensity intervals (HIIT) and a maximum rhythm of 30 strokes, indicating a significantly demanding workout. The metadata lists an intensity of 3 out of 3, suggesting a very high energy expenditure that could be considered 'Extreme' for deconditioned users. However, given the duration, it aligns more closely with 'Challenging,' especially for users not in optimal shape.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

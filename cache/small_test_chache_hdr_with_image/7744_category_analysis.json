@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The metadata suggests this workout is primarily focused on rowing, as indicated by terms like 'drive,standard,row' and 'power and speed' exercises. The imagery further supports a rowing context. Therefore, 'Indoor rowing' is highly relevant with a score of 0.9. Additionally, the format 'Power' and description of explosive efforts point to a HIIT-like structure, with intervals of high intensity and rest, justifying a strong, but secondary, classification in 'HIIT' with a score of 0.7. The high intensity level (3 out of 3) and the playlist of high-energy dance and global hits support this categorization, indicating a vigorous, rhythm-based session."
+}

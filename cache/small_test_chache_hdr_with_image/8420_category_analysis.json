@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.2
+    },
+    {
+      "name": "Running",
+      "score": 0.8
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout titled \"Time Under Tension Row\" and described as being performed along the Charles River indicates outdoor rowing, but since the image shows the activity conducted on the water, the closest classification within the schema is running, considering both involve outdoor cardio. \n\nThe metadata specifies the format as 'Interval,' consistent with rowing workouts involving bursts of speed and rest. The term 'sweat,' used in the workout description, supports the moderate to high intensity implied by the 'Interval' format and 'Workout intensity level: 2 out of 3.' These are typical characteristics of interval cardio training often seen in running exercises. The listing of rowing along a river rather than an indoor rowing machine, and the lack of clear markers for indoor rowing, supports a strong classification of outdoor running.\n\nThe presence of 'row' in the title and the context does suggest consideration for 'Indoor rowing' if rowing machines are typically used, but the environmental setting shown in the image compels a stronger classification as an outdoor cardio activity, leading to the assignment of 'Running' over 'Indoor rowing.'"
+}

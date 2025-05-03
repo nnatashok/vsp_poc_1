@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.6
+    },
+    {
+      "name": "Other",
+      "score": 0.2
+    }
+  ],
+  "categoriesConfidence": 0.7,
+  "categoriesExplanation": "The primary category assigned to this workout is 'Indoor rowing' with a score of 0.8. This is based on the workout name 'Step by Step Row' and the description which suggests an activity around Lake Tahoe while maintaining rhythm, both implying a rowing session. The use of the term 'Climb' and a format focused on rhythm further supports the rowing categorization, indicating a structured indoor rowing workout. \n\nThe secondary category 'Breathing exercises' is included with a score of 0.6 due to the 'Workout Type: breathe' mentioned in the metadata. The workout is described as having an intensity level of 1 out of 3, which aligns with a focus on breath control and relaxation, characteristic of breathing exercises. \n\nThe 'Other' category is added with a score of 0.2 due to the non-specific nature of some metadata elements like 'breathe, standard, row', which hint at multiple potential aspects not completely captured by common workout categories. This category acknowledges any potential nuances not fully captured by the primary two categories."
+}

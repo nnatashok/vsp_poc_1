@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is titled \"Let Go and Row,\" and the description, category, and workout type all emphasize rowing. The category includes \"row,\" indicating the primary exercise involved. The mention of \"Interval\" and \"Drive\" suggests a high-intensity rowing session, aligning with indoor rowing routines. The imagery of rowing on water further implies a rowing machine for indoor simulation, leading to a very high confidence in classifying this as a requirement. Since it's an advanced workout, the rowing machine is central to the session for achieving the desired intensity and format."
+}

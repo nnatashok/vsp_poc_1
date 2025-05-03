@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is clearly an \"Indoor rowing\" session, as indicated by the image showing rowing, and the title referring to it as part of a 'Runner's Program' which includes rowing intervals. The use of terms such as \"drive,\" \"standard,row,\" and the visual of rowing equipment supports this categorization. The score is high at 0.9 due to these explicit indicators.\n\n\"HIIT\" is also relevant as the description mentions \"eight 1-minute intervals,\" a typical structure for High-Intensity Interval Training, and a maximum intensity level of 3 out of 3 indicates a high-intensity workout. The interval format and intense music playlist further support this classification, giving it a score of 0.7.\n\nOther categories such as \"Running\" or \"Mat\" are not applicable as there are no indications of actual running or mat exercises in the metadata or imagery. The confidence level overall is 0.85, due to the clear evidence aligning with the selected categories."
+}

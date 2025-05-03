@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout title, \"80s Intervals Row,\" strongly indicates the use of a rowing machine as it specifically mentions \"Row\" which directly implies rowing equipment is central to the activity. Additionally, the Category field lists 'row' and the Workout Type field includes 'sweat', both associating with rowing machine workouts which are known for their cardiovascular and full body engagement. The metadata does not mention any other equipment, further emphasizing that the rowing machine is the sole equipment required for this interval-based workout format. Given these descriptions, I'm assigning a very high confidence score of 1 to the need for a rowing machine."
+}

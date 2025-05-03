@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout involves rowing, which is typically a low-complexity exercise, albeit one that requires good coordination for optimal efficiency. It involves rhythmic strokes that beginners can grasp, although proper form benefits from some practice, indicating a balance between Beginner and Intermediate. Given the format is 'intervals', some variability in stroke rate and power may add to difficulty, warranting an Intermediate score but mostly Beginner-friendly.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The 31-minute workout includes warm-up, interval training, and cool-down periods. With a 'sweat' intensity label and an intensity level of 2 out of 3, it suggests moderate effort overall. Intervals and a high rhythm (max 28) increase the intensity above a simple steady-state row, slightly challenging for deconditioned users, but primarily moderate as there is room for rest during intervals.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

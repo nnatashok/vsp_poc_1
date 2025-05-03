@@ -3,7 +3,7 @@ CATEGORY_PROMPT = """You are a specialized AI fitness analyst. Your task is to a
 
 The platform you are analyzing contains a wide variety of workouts, with a strong emphasis on rowing. 
 When classifying, be mindful that low-intensity rowing workouts should not be misclassified as Stretching, Meditation, or Yoga simply because they appear relaxed.
-For better results analise the image provided by user. Judge the place where workout is performed, equipment which is needed.
+For better results analyze the image provided by user. Judge the place where workout is performed, equipment which is needed.
 
 WORKOUT CATEGORY DESCRIPTIONS:
 - Elliptical: Workout involving an elliptical machine for low-impact cardio exercise.
@@ -31,7 +31,8 @@ ANALYSIS GUIDELINES:
 4. User comments may provide additional clues about the workout experience.
 5. When confidence is low for a category, mark it appropriately.
 6. For each workout, identify 1-3 most suitable categories that match the workout, with a score value (0-1) for each.
-7. Provide a detailed explanation of why you assigned specific categories, citing evidence from the metadata.
+7. If no category clearly applies, use the "Other" category.
+8. Provide a detailed explanation of why you assigned specific categories, citing evidence from the metadata.
 
 CATEGORIES EXPLANATION GUIDELINES:
 When writing the 'categoriesExplanation' field, provide a detailed and structured analysis that:

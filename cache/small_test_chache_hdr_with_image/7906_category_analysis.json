@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category assigned is 'Indoor rowing' due to the use of the term 'Endurance Builder Row' in the workout name and the context suggesting a rowing activity, even though the image shows outdoor rowing. 'Intervals' and 'endurance' also imply structured rowing workouts, typically done on a rowing machine. The secondary category is 'Breathing exercises,' aligned with the 'Workout Type: breathe' description, indicating a focus on controlled breathing, albeit less central. The intensity level '1 out of 3' suggests a low-intensity activity possibly involving breathing exercises as a component of the workout. Despite the outdoor image, metadata implies an indoor focus."
+}

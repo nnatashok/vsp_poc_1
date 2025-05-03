@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.8,
+  "categoriesExplanation": "The workout 'Weekly Stories Row' is classified primarily as 'Indoor rowing' (score: 0.9) due to the explicit mention of 'Row with Nick' and the use of the term 'row' in the title and description. The mention of 'Max rhythm: 28' and 'Interval' format further supports the classification under rowing, indicating a structured indoor rowing session. The playlist featuring rock and metal music aligns with motivating tracks typically used in higher intensity workouts like rowing. The workout intensity level of 2 out of 3 and the phrase 'sweat,standard,row' in the metadata aligns closely with a challenging yet moderate session characteristic of rowing.\n\nThe secondary classification is 'HIIT' (score: 0.6), supported by the 'Interval' format mentioned. This suggests periods of higher intensity rowing interspersed with lower intensity or rest phases, a key characteristic of High-Intensity Interval Training (HIIT). This inference aligns with the specified intensity level of 2, suggesting significant exertion but not maximal effort throughout the workout. \n\nOther categories like 'Mat', 'Body weight', and 'Weight workout' are not applicable as there is no indication of mat work, weightlifting, or other exercises beyond rowing. The workout's music selection and focus on rowing exclude categories related to lower intensity activities like 'Yoga' or 'Stretching' as well."
+}

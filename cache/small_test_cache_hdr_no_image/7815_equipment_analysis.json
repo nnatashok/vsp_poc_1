@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Blocks",
+      "confidence": 0.3
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is described as a core strengthening session that falls under the 'On The Mat' category. This strongly suggests the primary equipment needed is a 'Mat', which is crucial for floor exercises focused on core strength. The confidence score for a Mat is set at 0.9 due to this evidence directly from the category tags and description reiterating the workout's setting on the mat. The description mentions that 'Yoga blocks optional', indicating they are not necessary but might be useful for modifications or additional support, leading to a lower confidence score of 0.3 for 'Blocks'. No other equipment is mentioned or implied, confirming that the workout focuses on bodyweight exercises with minimal equipment."
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout metadata indicates that this is an interval-based workout on a rowing platform, demonstrated by phrases like \"Cardio Intervals Row\" and \"intervals shifting in rhythm.\" The use of terms like \"elevate your heart rate\" and \"get sweaty\" alongside an intensity level of 2 out of 3 suggests a session combining cardiovascular elements with moderate intensity, aligning with indoor rowing.\n\nThe mention of \"Format: Interval\" suggests elements of High-Intensity Interval Training (HIIT), but the focus is not exclusively high-intensity, reflected in a score of 0.7 for HIIT.\n\nThe visual shows an outdoor rowing setting, which doesn't necessarily align with the metadata suggesting indoor rowing, further rooting this classification primarily in the provided data over visual context. The strong focus on rhythm, intervals, and intensity level in the description strongly supports these categorizations."
+}

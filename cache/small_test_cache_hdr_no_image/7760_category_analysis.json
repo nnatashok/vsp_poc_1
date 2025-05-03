@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    },
+    {
+      "name": "Stretching",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.8,
+  "categoriesExplanation": "The workout is classified primarily as 'Indoor rowing' with high confidence due to the term 'row' appearing in the category tag, and the workout structure indicating it's performed on a rowing machine with a focus on rhythm and control, typical of rowing workouts. The description 'slow your rhythm down' suggests a reduced intensity, related to a rowing cooldown, rather than another category like yoga or meditation which would have more distinct terminologies. Additionally, the term 'cool down' and music played (chill, downtempo) suggest a relaxed pace, but since it specifies 'row', the focus remains on low-intensity rowing. A secondary classification of 'Stretching' is suggested because cool-down periods often incorporate light stretching, although this is less explicit."
+}

@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Blocks",
+      "confidence": 0.3
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is described as a 'Core Strength' routine categorized under 'On The Mat,' suggesting the significant likelihood of requiring a mat for floor exercises. The description explicitly states the use of a mat by the phrase 'On The Mat', and the image attached shows a mat, supporting a very high confidence level of 0.9.\n\nYoga blocks are mentioned as 'optional' in the workout description. Even though they are not essential, their mention justifies inclusion with a low confidence score of 0.3, indicating they could be used to assist or modify the exercises."
+}

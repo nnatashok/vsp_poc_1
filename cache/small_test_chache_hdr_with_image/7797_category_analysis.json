@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Mat",
+      "score": 0.2
+    },
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    },
+    {
+      "name": "Stretching",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout video is primarily classified as 'Indoor rowing' given the metadata specifies rowing along the Charles River. Although the image shows outdoor rowing, the activity aligns with rowing mechanics, making it suitable for this category with a score of 0.8 as it matches core characteristics. The mention of a 'cool down' suggests a low-intensity component, often akin to 'Stretching,' given the low maximum rhythm and format, earning a score of 0.4. 'Mat' exercises are marginally included with a score of 0.2 for the steady rhythmic nature, indicating body control similar to mat workouts. No strong indicators for other categories were found, leading to a high confidence level of 0.9 overall."
+}

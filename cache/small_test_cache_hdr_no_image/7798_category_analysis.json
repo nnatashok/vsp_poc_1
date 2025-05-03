@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The workout is classified as 'HIIT' with a very high confidence score of 0.9 because it explicitly mentions 'four phases of HIIT intervals' in the description, a defining characteristic of High-Intensity Interval Training. Additionally, the mention of 'Workout intensity level: 3 out of 3' further supports the high-intensity aspect typical of HIIT workouts. \n\nThe 'Indoor rowing' category is also assigned a strong score of 0.8. Although the title includes 'Running Up the Hill Row' and there is a 'row' theme inspired by 'Stranger Things', the description and metadata strongly imply that the workout is conducted on a rowing machine. The 'drive' and 'row' categorizations in the metadata suggest rowing exercises. \n\nOther categories like 'Running' or 'Mat' are excluded as the explicit mention of 'HIIT', 'row', and the structured interval format does not align with outdoor running or floor exercises. The combination of rowing and HIIT specifically narrows it down to these two categories."
+}

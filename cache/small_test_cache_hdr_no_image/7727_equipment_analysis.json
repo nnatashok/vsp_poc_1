@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is titled 'Cardio Cruise Row', and the description includes the category 'row,' which strongly indicates the need for a rowing machine. The format being 'Interval' within a rowing workout context further supports this, as rowers are commonly used for interval training. The overall theme, focusing on low-intensity rowing ('Cardio Cruise'), suggests the rowing machine is central to the workout. Given these elements, there is very high confidence (0.9) that a rowing machine is required for this workout."
+}

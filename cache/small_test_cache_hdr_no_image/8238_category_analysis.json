@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.7
+    },
+    {
+      "name": "Stretching",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.65,
+  "categoriesExplanation": "The workout is titled 'Technique Cool-Down' with a focus on rowing technique, as indicated by words like 'technique' and 'cooling down.' The description supports this with phrases like 'Focus on your technique with Aquil.' The tags such as 'cool down' and 'row' in the category also suggest elements related to rowing. The maximum rhythm mentioned is 22 and the format is steady, which aligns with typical rowing cadence and style, supporting the classification of 'Indoor rowing.' However, the cool-down nature and emphasis on technique could also involve elements that overlap with 'Stretching,' as stretching often accompanies cool-down routines, especially to enhance flexibility after rowing. Given the context and workout duration of 5 minutes and 44 seconds, Indoor rowing is the primary category (score 0.7). However, because stretching can sometimes be involved during the cool-down phase, it gets a lower score (score 0.3). This classification is made with moderate confidence due to minimal metadata cues."
+}

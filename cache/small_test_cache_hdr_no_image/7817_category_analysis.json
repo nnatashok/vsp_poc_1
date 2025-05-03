@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 1
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The given workout, titled '80's Fun Summer Row,' is explicitly centered around rowing, as indicated in the title and description. The interval format mentioned ('four sets of 4-minute intervals followed by six sets of 45-second intervals') aligns with the typical structure of rowing workouts, especially those intended for high-intensity training, reinforcing the classification as 'Indoor rowing' with a perfect score of 1.0.\n\nAdditionally, the format and intensity ('sweat', 'intervals', 'max rhythm: 30') suggest elements of 'HIIT', as these are indicative of workouts that include alternating periods of intense and moderate exercise. Even though the overall intensity is labeled as 2 out of 3, meaning not maximum intensity, the interval nature lends itself to 'HIIT' classification with a moderate confidence score of 0.6.\n\nOther categories such as 'Mat', 'Running', or 'Weight workout' are irrelevant here as the equipment and activity focus is singularly on rowing. The context provided by the metadata excludes these options effectively."
+}

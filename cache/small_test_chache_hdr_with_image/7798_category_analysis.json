@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is classified primarily as 'HIIT' and 'Indoor rowing'. The use of 'HIIT intervals' in the description with 'four phases' of high-intensity exercise establishes a strong presence of HIIT, earning a score of 0.9. The 'row inspired by Stranger Things' and categories 'Drive, standard, row' suggest rowing, but the image supports outdoor rowing, giving a slightly lower score of 0.8 for 'Indoor rowing' as it's not clear if it's indoor or outdoor. Additionally, the title 'Running Up the Hill Row' suggests a rowing activity, confirming the rowing classification. Other categories, like 'Running' or 'Elliptical', were not chosen due to the absence of any specific metadata or visual evidence supporting those activities."
+}

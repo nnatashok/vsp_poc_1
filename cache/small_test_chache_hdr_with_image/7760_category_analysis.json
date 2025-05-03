@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Stretching",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is primarily an 'Indoor rowing' session as indicated by the metadata keywords such as 'row' and the image showing a person on a rowing machine. This matches the setting and activity description provided, which emphasizes a rowing activity focused on slowing the rhythm. The low rhythm and chill music genres suggest a relaxed pace, which supports a 'cool down' phase typically associated with stretching or easing off, justifying a secondary categorization as 'Stretching'. The term 'cool down' implies reduced intensity and control, but it remains primarily a rowing workout given the focus on rhythm and rowing gear. The score for 'Indoor rowing' is high due to explicit evidence, while 'Stretching' is moderate given the context and cool down nature."
+}

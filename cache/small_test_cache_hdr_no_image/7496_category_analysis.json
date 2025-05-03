@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Indoor rowing",
+      "score": 0.75
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is explicitly described as a high-intensity interval training (HIIT) session in both the title and description. The phrase \"1-minute high intensity intervals\" clearly aligns with the format of HIIT workouts. The format mentioned is 'HIIT', which confirms that high-intensity interval training is the primary focus, hence a very high score of 0.9 is assigned to this category.\n\nAdditionally, the metadata includes the terms 'row' and 'drive', and the inclusion of specific rowing terminology such as 'Max rhythm: 28' and 'drive' suggests indoor rowing is a substantial component of this workout. Though not explicitly stated, the context and structure are indicative of rowing intervals performed at a high intensity, leading to a moderate score of 0.75 for 'Indoor rowing'. The intensity level of 3 out of 3 further validates these categorizations.\n\nOther potential categories such as 'Running' were excluded because there's no explicit mention of running exercises beyond the HIIT in rowing. The 'Drive' term aligns more with rowing pace or speed, dismissing the 'Running' category from consideration."
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 1
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is best classified as 'Indoor rowing' due to the explicit mention in the metadata of 'row' and 'drive', highlighting that it is conducted using a rowing machine. The workout name 'August Race' and week progression suggest a rowing-centric focus, reinforced by terms like 'explode with power and speed' and 'final 1-minute effort', indicating high-intensity rowing segments. The mention of 'power', 'speed', and 'max rhythm: 30' suggests a structured rowing sequence, typical for indoor rowing exercises (Score: 1.0).\n\nThe 'HIIT' classification is also applicable, with a moderate score of 0.6, due to the format involving bursts of power and speed and a 'Drive' type workout described as having a high intensity level: 3 out of 3. This points to an interval-like approach typical of HIIT, where intense periods are followed by rest. The energetic playlist supports the higher intensity nature.\n\nDespite the intensity and structure, the use of 'Indoor biking' and other categories like 'Mat' and 'Running' are excluded due to explicit rowing focus. High adrenaline music genres further support the HIIT component, though Indoor Rowing remains the central defining characteristic."
+}

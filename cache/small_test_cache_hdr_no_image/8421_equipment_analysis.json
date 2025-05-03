@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.7
+    },
+    {
+      "equipment": "Blocks",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout description, 'Core Flow,' and category 'On The Mat' explicitly suggest the use of a mat, which is typically needed for yoga and Pilates-style exercises, warranting a high confidence level of 0.7. Additionally, the recommendation for using a yoga block in the note further supports its necessity, leading to a very high confidence level of 0.9 for the inclusion of blocks. These equipment items are implied as central to performing a heat-building and core-focused flow workout efficiently."
+}

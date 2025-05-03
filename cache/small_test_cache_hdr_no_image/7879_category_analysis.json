@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    },
+    {
+      "name": "Stretching",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.7,
+  "categoriesExplanation": "The workout is labeled as a 'Recovery Cool-Down' and includes the term 'row' in the category metadata, indicating it is likely an Indoor rowing session. The mention of 'max rhythm: 22' and 'steady' format suggests a rowing tempo, reinforcing the classification. 'Cool Down' further supports a less intense Indoor rowing session with a focus on technique, which might look relaxed but should not be confused with non-rowing activities. This contributes to a high confidence level of 0.7 for Indoor rowing with a score of 0.8 as it is a core aspect of the workout.\n\nThe term 'cool down' and 'reinforcing technique' suggest elements of Stretching as part of a cooldown process, where stretching might be integrated to aid recovery and flexibility, hence it is scored at 0.4 for mild presence. Although these indirect references justify considering Stretching, Indoor rowing remains the dominant classification due to the mention of 'row.'"
+}

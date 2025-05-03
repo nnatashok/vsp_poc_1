@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout name 'Rock HIIT Row' and workout type 'row' strongly suggest the primary equipment needed is a rowing machine, as both 'HIIT' and 'row' are closely associated with rowing workouts. The description further reinforces this, indicating high-intensity intervals, which are commonly performed on a rowing machine. The workout format and titles associated with rowing (like 'drive') in the metadata affirm this classification, leading to a very high confidence score of 0.9 for the rowing machine as the required equipment."
+}

@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    },
+    {
+      "level": "Advanced",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type is 'drive', which aligns with Hydrow-specific classification rules for advanced technique. This suggests that the movements require good coordination and body awareness, particularly with the emphasis on power and speed. The metadata mentions explosive bursts and an 'all out' final push, indicating moderately complex rowing techniques. Thus, with the 'drive' format implying a rowing stroke emphasis, the technique difficulty is best classified as Advanced with strong confidence, although there's a slight nod to Intermediate due to lack of specific technical intricacies typically needed for Expert classification.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.3
+    },
+    {
+      "level": "Extreme",
+      "score": 0.7
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout duration is just over 21 minutes, with high-intensity cues such as 'explode with power and speed', suggesting significant energy expenditure within a relatively short time frame. The high intensity level (3 out of 3) further confirms that the workout is demanding. The format of 5-minute pieces with a final 1-minute 'all out' effort indicates extreme short duration intensity. The inclusion of fast-paced music like Flux Pavilion\u2019s 'I Can't Stop' aligns with high-energy output, thus marking this as an extreme effort difficulty predominantly but acknowledging that some users may find it challenging due to its structured breaks.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

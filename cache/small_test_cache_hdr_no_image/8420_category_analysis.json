@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.65
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category chosen is 'Indoor rowing' with a high score of 0.9. This is based on the title 'Time Under Tension Row' and the description indicating intervals along a river, explicitly suggesting rowing as the central activity. The term 'Row' in the title and 'intervals' further supports this. The mention of 'sweat' and 'workout intensity level: 2 out of 3' suggest a moderately intense workout, which aligns with indoor rowing sessions.\n\nThe secondary category is 'HIIT' with a score of 0.65. This is inferred from the 'interval' format mentioned in the description, which is a typical structure for HIIT workouts. Although the intensity level is moderate, the interval training format is characteristic of HIIT, justifying its inclusion.\n\nOther potential categories such as 'Mat', 'Body weight', or 'Calisthenics' were excluded due to the clear emphasis on rowing, with no mention of floor exercises or body weight movements. The exclusion of 'Running', 'Treadmill', or 'Walking' is evident as the focus is solely on rowing. Given the interval structure, 'HIIT' was deemed more applicable than lower-intensity formats like 'Elliptical' or 'Walking'."
+}

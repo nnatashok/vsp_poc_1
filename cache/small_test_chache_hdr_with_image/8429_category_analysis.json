@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Indoor rowing",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is classified primarily as 'HIIT' because of the indication in the metadata: 'Format: HIIT,' and 'intensity level: 3 out of 3,' which suggest a high-intensity interval training structure. The use of terms like 'Ignite your legs and lungs' supports this categorization by implying vigorous cardio. \n\nThe 'Indoor rowing' category is assigned a lesser score because, while metadata like 'row' and 'drive' imply a rowing workout, the image suggests outdoor rowing on an actual river rather than indoor rowing on a machine. \n\nThe overall confidence is high due to explicit indicators such as the HIIT format and intensity description, though the context of being on water affects the strength of the rowing category's score."
+}

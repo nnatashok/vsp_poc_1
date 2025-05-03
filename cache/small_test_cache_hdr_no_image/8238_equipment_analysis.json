@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout name 'Technique Cool-Down' and the description emphasize focusing on technique, suggesting this is not a high-intensity session. The metadata categorizes this as a 'row' workout, which highly indicates the use of a 'rowing machine'. The confidence score is 0.9 because this equipment is central to the workout, being a cool-down for a rowing session, which implies ending exercise on what was previously used. Although there is no explicit mention of a rowing machine, the categorization and context of focus on rowing technique during a cool-down strongly suggest its necessity."
+}

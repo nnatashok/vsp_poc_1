@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Blocks",
+      "confidence": 0.8
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is titled 'Restorative Yoga,' and the category 'On The Mat' strongly suggests the use of a mat, assigning it a high confidence score of 0.9. The image attached shows a mat being used, reinforcing this requirement. Also, yoga often utilizes blocks for support, and a block is visible in the image, leading to a confidence score of 0.8 for blocks. The absence of other equipment mentions or depictions indicates that no additional equipment is necessary for this workout."
+}

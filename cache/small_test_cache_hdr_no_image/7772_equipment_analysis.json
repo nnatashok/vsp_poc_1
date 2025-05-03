@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is titled 'Peppy HIIT Row' and the description references interval training along the shores of Hanover, which suggests this is a rowing-specific workout. The categorization under 'Drive, standard, row' and the format 'HIIT' strongly implies that a rowing machine is central to the workout, as HIIT rowing workouts typically require a rowing machine for performing different intensity intervals. Given the title and categorization explicitly mention rowing, I assign a very high confidence score of 0.9 to the rowing machine as required equipment. No other equipment is mentioned or implied in the metadata, supporting the conclusion that the rowing machine is the sole piece of equipment needed for this workout."
+}

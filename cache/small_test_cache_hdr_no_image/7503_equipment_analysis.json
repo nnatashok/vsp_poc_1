@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is part of a 'Runner's Program' but the frequent mention of the term 'row,' combined with the metadata tags and category indicating 'row,' points to the need for a rowing machine. The interval training focusing on specific 'rhythms' aligns with rowing workouts rather than a treadmill or other running equipment. The description indicates interval training at specified rhythms, which is a common format for rowing workouts where the strokes per minute (SPM) match the given rhythms. Hence, the rowing machine is explicitly required, which justifies the very high confidence score of 0.9."
+}

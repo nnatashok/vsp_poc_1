@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The title \"Steady State Row\" and the description clearly indicate that the primary activity is rowing, performed at rhythms 22 and 24, which are typical for rowing workouts. The phrase \"build your cardio base\" further strengthens the identification of this workout as Indoor Rowing, which is scored at 0.8 due to the heavy focus on rowing explicitly stated by the title and description. The inclusion of terms \"breathe\" and \"breathe,standard,row\" in tags and the workout type points towards an incorporation of Breathing Exercises, likely to manage rhythm and pacing during the session, warranting a score of 0.6. The light-intensity level mentioned (1 out of 3) supports the dual focus on steady-state rowing with attention to breathing, rather than pure high-intensity rowing or another workout type. Other categories such as Weight workout or HIIT were excluded due to lack of supporting evidence in the metadata."
+}

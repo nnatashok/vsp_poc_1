@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 1.0
+    },
+    {
+      "equipment": "Blocks",
+      "confidence": 0.5
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout \"Beginner Yoga Flow\" explicitly falls under the category \"On The Mat,\" indicating that a yoga mat is required, thus receiving a confidence score of 1.0. The description also mentions that yoga blocks are optional, which implies they may be used to assist with certain poses, so they are included with a moderate confidence of 0.5. The image supports this by showing a mat and blocks, however, blocks are stated as optional, reinforcing their auxiliary role in the workout."
+}

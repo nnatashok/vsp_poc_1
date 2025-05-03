@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Stretching",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The main category is 'Indoor rowing,' scored at 0.9, based on the metadata describing a cool-down on the Charles River, which strongly implies rowing activity. The image confirms this, showing a person using a rowing boat. Although no explicit mention of a rowing machine is made, the channel's focus likely aligns with rowing workouts. The score reflects the strong rowing elements present.\n\nA secondary category of 'Stretching,' with a score of 0.4, is suggested due to the 'cool down' nature described in the metadata. While it doesn't explicitly mention stretching exercises, cool-downs often incorporate stretching to lower the heart rate and relax muscles. Thus, this category is included with moderate confidence. No explicit indicators of other categories like 'Yoga' or 'Mat' warranting inclusion."
+}

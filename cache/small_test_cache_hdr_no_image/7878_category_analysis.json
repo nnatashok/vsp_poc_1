@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.6
+    },
+    {
+      "name": "Meditation",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category 'Indoor rowing' is selected due to explicit references such as 'Row' in the workout name \"Joyful Intention Row\" and 'row' in the workout type mentioned in the metadata. The format includes a pyramid structure, typically used in rowing workouts. The playlist's rock and global hits suggest an engaging atmosphere typical for rowing sessions. The score for Indoor Rowing is high at 0.9 to reflect strong evidence. 'Breathing exercises' is considered due to the 'Workout Type: breathe' noted in the metadata, aligning with a focus on breathing techniques during exercise. This aspect is supported by the workout's description emphasizing a moderate, steady pace ('jog pace') and reflection ('Sera Moon shares her experience'), suggesting a breathing-focused aspect, scoring 0.6. 'Meditation' is included due to the 'Joyful Intention' theme and sharing experiences with low intensity ('1 out of 3'), which suggest a mild element of reflection and mindfulness; however, this is less central than rowing or breathing, resulting in a lower score of 0.3."
+}

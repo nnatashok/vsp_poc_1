@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category assigned is 'Indoor rowing' with a score of 0.9. This is because the workout name 'Endurance Builder Row' explicitly mentions rowing, and the description supports this by referring to intervals and rhythm, which are common in rowing workouts. 'Row' as a tag further reinforces this categorization, indicating a rowing-focused exercise.\n\nThe secondary category 'Breathing exercises' receives a score of 0.3. While the workout type 'breathe' and the low intensity level could suggest an emphasis on breath control or breathing exercises, the primary focus appears to be on rowing. The endurance-building aspect also aligns more with a physical activity like rowing than purely breathing exercises. \n\nThe categories confidence level is set at 0.85 due to strong explicit indicators of rowing from both the title and description, with lesser confidence in the presence of specific breathing-focused activities."
+}

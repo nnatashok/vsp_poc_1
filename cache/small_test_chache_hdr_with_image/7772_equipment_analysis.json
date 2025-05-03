@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout metadata explicitly states 'Peppy HIIT Row' with the format 'HIIT' and category 'row', indicating a rowing-based workout. Additionally, the description involves rowing intervals, and the image shows a person rowing. These elements provide high certainty that a rowing machine is necessary. Confidence is very high at 1.0, as rowing is central to the workout design and execution."
+}

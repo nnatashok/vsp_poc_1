@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is classified primarily under 'Indoor rowing' with a high score of 0.8 because the workout name 'Consistent Effort Row' and metadata terms like 'row', 'rhythm', and 'interval' clearly indicate the use of a rowing machine, consistent with indoor rowing workouts. The consistent effort through different rhythms suggests a structured rowing session, aligning with the characteristics of indoor rowing. Additionally, 'Breathing exercises' was identified with a score of 0.6 due to the mention of 'breathe' in both the workout type and category, indicating an emphasis on breathing techniques during the rowing session. The duration of 21 minutes, intensity level described as 1 out of 3, and the presence of music from radio stations playing calm rock further support this dual categorization. Although the intensity level and relaxed music might suggest a low-intensity activity, the consistent rhythm changes suggest a more engaged workout typical of rowing rather than solely meditation or breathing-focused practice."
+}

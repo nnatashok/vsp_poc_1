@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is classified primarily as 'Indoor rowing' due to the emphasis on rowing mechanics and terminology, as indicated in the name 'Climbing Intervals Row' and the categorization of the workout type under 'row.' The description further explains an interval training format geared towards building endurance, which strongly suggests rowing exercises but on an indoor machine, given the workout context and the mention of intervals and duration management (score: 0.9).\n\nThere is also a secondary classification of 'HIIT' due to the interval format and focus on rhythm changes and endurance building, which aligns with High-Intensity Interval Training principles. The keyword 'intervals' is explicitly stated, and a moderate intensity level is indicated, fitting within typical HIIT standards (score: 0.7).\n\nThe scenery shown in the image suggests actual rowing, implying a potential outdoor element, but based on the metadata focus, the primary classification remains indoor-based."
+}

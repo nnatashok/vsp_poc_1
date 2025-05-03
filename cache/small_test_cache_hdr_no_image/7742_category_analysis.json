@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout titled 'Climbing Tahoe Row' includes strong evidence for classification as an 'Indoor rowing' workout. The description explicitly mentions rowing on Lake Tahoe and refers to a 'row' category in the metadata, which clearly indicates the use of a rowing machine. Additionally, the format 'Climb' and references to 'Max rhythm: 26' suggest interval training elements, supporting a secondary classification under 'HIIT'. The music is high-energy rock, aligning with moderate intensity (level 2 out of 3), further suggesting an interval-style workout with varying intensity. Therefore, Indoor rowing is assigned a high score (0.9) for its clear dominance in the activity, while HIIT is considered for the interval structure as a secondary category with a moderate score (0.5). No elements specifically indicate stretching, yoga, or meditation, excluding those categories."
+}

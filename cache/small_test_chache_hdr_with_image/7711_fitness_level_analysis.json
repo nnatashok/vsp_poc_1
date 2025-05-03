@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.2
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    },
+    {
+      "level": "Advanced",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout type 'drive' suggests moderately complex rowing techniques requiring good body coordination and awareness, marking it as 'Advanced'. The interval format and rhythm climbing to a max of 34 strokes per minute imply some complexity beyond simple movements, with potential coordination challenges.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.4
+    },
+    {
+      "level": "Challenging",
+      "score": 0.8
+    },
+    {
+      "level": "Extreme",
+      "score": 0.2
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout's high-intensity level (3 out of 3) and 21-minute duration using climbing intervals at high rhythm (max 34) suggest a 'Challenging' effort difficulty, requiring significant energy expenditure, aligning mostly with challenging workouts though not fully extreme due to the sub-30 minute duration.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

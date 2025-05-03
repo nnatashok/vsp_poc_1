@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout employs the 'Drive' setting, known for requiring advanced technical skills in rowing. The term 'Drive' indicates a focus on power and technique, which involves maintaining proper form at high intensity. Additionally, the maximum rhythm of 32 implies fast, controlled strokes that necessitate good coordination and skill. These elements align with an Advanced technique difficulty rating, making it unsuitable for beginners without prior rowing experience.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.75
+    },
+    {
+      "level": "Extreme",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is marked as interval-based with high intensity (3 out of 3) which involves maintaining a sprint pace and achieving maximum effort at the finish. The duration of 16 minutes and 29 seconds, while relatively short, implies high energy expenditure due to the fast pace and intervals. Rock and global hits music genres with a mid-intensity focus further suggest a motivating but demanding effort. These factors combine to place the effort difficulty between Challenging and Extreme for most users, though the short duration moderates the classification slightly.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

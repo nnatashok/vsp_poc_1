@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Advanced",
+      "score": 0.8
+    },
+    {
+      "level": "Expert",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The technique difficulty is rated as Advanced with a score of 0.8, based on the 'Drive' workout type and 'high rhythm numbers' indicated in the metadata, which suggests a need for good coordination and technique to maintain proper form at high stroke rates. The 'Drive' workout type typically requires higher technical execution, aligning with the moderately complex rowing patterns expected. An additional score of 0.4 for Expert is assigned due to the possibility of requiring skillful control at the maximum rhythm of 34.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.7
+    },
+    {
+      "level": "Extreme",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "Effort difficulty is classified as Challenging with a score of 0.7 and Extreme at 0.5. The 'Drive' format, combined with an 'intensity level 3 out of 3', implies a high physical demand due to sustained high rhythm intervals. The 31-minute duration of fast-paced music in rock genre supports the classification of a strenuous workout that provides substantial cardiovascular challenge and energy expenditure.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

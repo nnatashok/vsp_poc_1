@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout, titled 'Core Positioning Row' and categorized under 'row', explicitly involves rowing, suggesting the centrality of a rowing machine. The term 'bring your stroke back to basics' emphasizes a focus on rowing technique, further solidifying the need for a rowing machine. The description and metadata strongly imply that the workout revolves around rowing techniques, which would not be possible without a rowing machine, thus leading to a very high confidence score of 0.9 for the rowing machine. No other equipment is suggested in the metadata."
+}

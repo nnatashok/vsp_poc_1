@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Indoor rowing",
+      "score": 0.85
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "This workout is classified as 'HIIT' and 'Indoor rowing' due to several explicit indicators in the metadata. The workout name itself includes 'HIIT', and the description mentions 'high rhythms at maximum effort,' clearly pointing to high-intensity interval training. The format is explicitly stated as HIIT, which supports this classification with a high confidence of 0.9.\n\nThe mention of 'row' in the workout name, along with the 'Category: Drive,standard,row', strongly suggests that this is an indoor rowing workout. Therefore, 'Indoor rowing' is a suitable category with a score of 0.85, as the details about rhythm and intensity align with a rowing machine workout context.\n\nThe presence of a music playlist titled 'Pop high, Global Hits', featuring songs like 'Untouched' by 'The Veronicas' and 'Sorry Not Sorry' by 'Demi Lovato', supports the energetic nature typical of HIIT workouts. Other categories such as 'Mat', 'Treadmill', or 'Yoga' are excluded due to a lack of related evidence."
+}

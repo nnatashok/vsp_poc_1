@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout involves rowing at a steady rhythm of 18, which is considered an accessible row format and labeled as 'breathe', indicating a focus on maintaining a calm, steady pace. These elements, combined with being described as a 'jogging pace', suggest relatively simple techniques typically suitable for beginners. However, some slight technique management is necessary to maintain proper form, giving a minor potential for an intermediate classification.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.2
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout intensity is rated as 1 out of 3, indicating a low physical demand. The duration is relatively short at 16 minutes, further supporting a classification of 'Light' effort. The description as a steady-paced, rhythmic row also complements this assessment, though there might be slightly more effort required at the upper range of 'Light', pushing into a 'Moderate' score due to maintaining a continual rowing motion.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

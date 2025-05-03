@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.95
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout title 'Cardio Intervals Row' and the category 'row' strongly indicate the use of a rowing machine. Additionally, the description mentions 'elevate your heart rate' and 'intervals,' which are consistent with the usage of a rowing machine for cardio workouts. The presence of 'rhythm' and 'max rhythm: 28' further supports the requirement of a rowing machine as it refers to strokes per minute\u2014a common metric in rowing. Given this explicit mention and context, the confidence score is set at 0.95 for the need of a rowing machine."
+}

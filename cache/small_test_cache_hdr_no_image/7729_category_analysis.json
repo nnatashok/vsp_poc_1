@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    },
+    {
+      "name": "Stretching",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.7,
+  "categoriesExplanation": "The primary category 'Indoor rowing' is chosen based on the workout name 'Pause Drill Cool-Down' and the description mentioning 'reinforce technique' and 'along the Connecticut River,' which implies rowing techniques even though the location suggests an outdoor setting. The inclusion of 'pause drills' further suggests a rowing technique focus, supporting a high confidence of 0.8. While 'Cool Down' could suggest a relaxed pace, it's important to maintain the focus on rowing, hence resisting reclassification to categories like 'Stretching'. 'Stretching' is included with a lower score of 0.4 to acknowledge the cool-down aspect which involves lighter, potentially stretching-like movements. The music genre does not specifically inform the workout category."
+}

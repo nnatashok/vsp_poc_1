@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is titled 'Joyful Intention Row', and the category explicitly includes 'row', indicating that a rowing machine is necessary. The description mentions a 'pyramid' format at a 'jog pace', which aligns with rowing machine workouts that involve varying intensity levels to simulate different rowing conditions. The workout is also categorized under 'Breathe, standard, row', which strongly implies rowing as the central activity. Given these repeated indications, the confidence level for the rowing machine is set to 1.0, as it is central and explicitly mentioned in the metadata."
+}

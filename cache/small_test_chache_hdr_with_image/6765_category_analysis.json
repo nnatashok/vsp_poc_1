@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Running",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is primarily identified as \"HIIT\" with very high confidence (0.9) due to explicit mentions in both the workout name \"Bootcamp HIIT Row\" and description \"Train short intervals followed by quick recovery,\" indicating a high-intensity interval training format. The maximum rhythm of 30 and intensity level 3 out of 3 further support this classification. Although the image shows outdoor rowing, the metadata focus remains on interval training.\n\n\"Running\" is included with moderate confidence (0.4) because \"navigate Indian Creek\" suggests an outdoor setting, akin to a running workout. However, given the strong emphasis on HIIT, it's a secondary attribute rather than the primary focus."
+}

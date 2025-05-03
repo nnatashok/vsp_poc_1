@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is classified under 'breathe' with a focus on relaxation and low intensity, suggesting simple rowing techniques suitable for beginners. The use of terms like 'low intensity' and the structured 'Interval' format might imply some coordination, slightly raising the possibility of Intermediate classification, but overall, it remains Beginner due to simplicity in execution.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.85
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is described as 'low intensity' with a duration of roughly 31 minutes and an intensity level of 1 out of 3. This indicates a workout that is not very physically demanding, aligning strongly with the 'Light' effort difficulty. The 'Interval' nature could introduce mild variations, slightly suggesting a 'Moderate' effort for some users, but overall energy expenditure remains low.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

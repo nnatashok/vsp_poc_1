@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout primarily entails rowing, categorized as 'sweat' with standard rowing intervals, which suggests straightforward movements that require minimal complexity. The 'interval' format with a rhythm of 28 indicates moderate complexity, but most users should manage with basic rowing technique, placing it mostly at the Beginner level with some Intermediate elements due to intervals.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.8
+    },
+    {
+      "level": "Challenging",
+      "score": 0.2
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout has a duration of around 16 minutes with intervals, and an intensity level of 2 out of 3. This suggests moderate energy expenditure with some challenging intervals, particularly as it's labeled under 'Sweat.' The music also suggests a mid-intensity pace. Overall, it's moderately demanding, with brief challenging peaks during intervals.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

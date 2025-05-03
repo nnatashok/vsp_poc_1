@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Body weight",
+      "score": 0.9
+    },
+    {
+      "name": "Mat",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is classified primarily as 'Body weight' with a high score of 0.9 because the title ('Bodyweight Strength') and description ('engage your core and build stability') strongly indicate a focus on exercises that utilize the body\u2019s own weight for resistance. The specified workout type as 'strength' further supports this classification, indicating exercises aimed at building muscle and stability without additional equipment. \n\nThe 'Mat' category receives a score of 0.7, reflecting its relevance. The metadata mentions 'On The Mat' as a tag, suggesting exercises performed on the floor, typical of mat workouts. Additionally, the setting ('overlooking the lush mountains of Norway') suggests outdoor or spacious indoor exercises conducive to a mat setup.\n\nOther categories like 'Weight workout' or 'Calisthenics' were considered but excluded due to the explicit focus on body weight, not involving external weights or gymnastic movements. The lack of equipment and the music selection, which is energetic (Dance mid, Global Hits), supports the engaging and lively nature typical of a mat-based bodyweight routine."
+}

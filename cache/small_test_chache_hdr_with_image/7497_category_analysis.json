@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Pilates",
+      "score": 0.75
+    },
+    {
+      "name": "Mat",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.75,
+  "categoriesExplanation": "The metadata suggests a workout focused on core exercises, often characteristic of Pilates. The term 'pilates' in the workout type directly indicates this category with a high confidence score of 0.75. The description mentions 'working your core' which is aligned with Pilates principles.\n\nThe category \"Mat\" is supported by the metadata with terms like \"On The Mat,\" suggesting a floor-based workout. This category also fits the image of the participant exercising on a mat outdoors. The confidence score for this category is 0.6 due to the supporting metadata and visual context.\n\nThe upbeat playlist featuring songs like 'Miss Independent' and 'Love Drunk', while energetic, does not contradict the classification as they could motivate core-focused exercises typically found in Pilates sessions. Other potential categories like 'Body weight' are not strongly indicated due to the lack of emphasis on resistance-based or calisthenics activities."
+}
