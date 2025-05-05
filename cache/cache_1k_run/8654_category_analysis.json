@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 1.0
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The most appropriate primary category for this workout is *Indoor rowing* with a score of 1.0. The title, 'Power + Speed Row,' indicates a focus on rowing as the main activity, and the description mentions 'stroke-based intervals,' which directly refers to the technique used in rowing exercises. Additionally, the format of the workout is explicitly stated as 'Interval,' which is common in rowing workouts to improve power and speed as suggested in the description.\n\nThe secondary category of *Breathing exercises* was considered with a lower confidence score of 0.4. Although 'breath' and 'breathe' appear in the workout type and category tags, this seems to emphasize pacing and rhythm relative to rowing rather than focusing solely on breathing techniques. Since the workout is more about rowing, the presence of breathing exercise features is less pronounced.\n\nThe workout intensity level of 1 out of 3 suggests a lower intensity, which supports the secondary focus on proper breathing and control during the workout, accommodating both power and endurance elements without the high strain typically associated with HIIT."
+}

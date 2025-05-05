@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.95
+    },
+    {
+      "name": "Indoor rowing",
+      "score": 0.85
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The workout's title 'Bootcamp HIIT Row' and the description make it clear that the session involves high-intensity interval training (HIIT), which is confirmed by the explicit mention of \"high intensity intervals.\" Furthermore, the presence of rowing is indicated in the title 'Row' and reinforced by the metadata with 'row' being part of the category tags and 'Format: HIIT'. The intensity level of 3 out of 3 further supports categorization under HIIT, as it signifies high exertion levels typical for such workouts. The location mentioned in the description, on 'the banks of the Rio Guadalquivir in Seville,' does not contradict the indoor context, as this may refer to the virtual or immersive experience aspect rather than an outdoor activity, which is common in rowing workouts. Despite the outdoor implication in the description, the core elements focus on rowing and HIIT, making 'HIIT' the strongest presence with a score of 0.95, followed by 'Indoor rowing' with a score of 0.85. Potential misconceptions were avoided by noting that the intensity and format strongly indicate HIIT and rowing, excluding categories such as 'Running' or 'Walking.'"
+}

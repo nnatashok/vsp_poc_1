@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Pilates",
+      "score": 1
+    },
+    {
+      "name": "Mat",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary classification for this workout video is 'Pilates,' with very high confidence (score of 1), as the title explicitly mentions 'Pilates for Posture' and the workout type is also explicitly noted as 'pilates.' The description reinforces this with phrases like 'pilates session,' indicating that Pilates is the central focus of this workout. A secondary category is 'Mat,' with a score of 0.7, as the workout description and categorization under 'On The Mat,standard,on-the-mat' suggest mat-based exercise, which aligns with the typical setting of Pilates workouts. No specific equipment is mentioned, further supporting the 'Mat' classification as Pilates sessions often occur on a mat without additional equipment. Alternative categories such as 'Yoga,' 'Stretching,' or 'Body weight' are not applicable given the strong focus on Pilates throughout the metadata."
+}

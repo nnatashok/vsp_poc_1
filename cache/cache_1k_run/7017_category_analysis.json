@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout 'Endurance Intervals Row' strongly indicates an 'Indoor rowing' category due to explicit mentions in the title and description. The mention of 'endurance intervals' corresponds directly with rowing exercises, especially given the high-intensity nature of interval training as described by the 'max rhythm: 30' and intensity level '2 out of 3'. Hence, 'Indoor rowing' receives a high score of 0.9. \n\nThe description and format 'Interval' suggest a structured, intermittent workout pattern often associated with 'HIIT'. Although HIIT usually implies higher intensity, the overlap with interval-style training justifies assigning 'HIIT' a moderate score of 0.6. \n\nThe mention of 'sweat' in the workout type and category aligns more with the general exertion level rather than a specific workout type, thus 'Indoor rowing' and 'HIIT' are more appropriate choices based on the metadata."
+}

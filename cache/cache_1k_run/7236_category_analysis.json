@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.75
+    },
+    {
+      "name": "Indoor rowing",
+      "score": 1.0
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout video titled 'May Race: Week 3 of 5' is best classified under 'Indoor rowing' and 'HIIT'. The title and description clearly indicate a rowing workout with phrases like 'rowing at your max effort', supported by the mention of 'drive' and 'row' in the categories, which confirms the primary focus on rowing. The extremely intense nature of the workout ('intensity level: 3 out of 3' and 'Power up') and the short duration of '1 minute 45 seconds' align closely with HIIT characteristics. The description specifies a one-minute segment of maximal effort, typical of high-intensity intervals. Therefore, these elements justify high confidence for both categories with scores of 1.0 for 'Indoor Rowing' as the central feature and 0.75 for 'HIIT', due to the short, intense nature of the exercise. No other categories are applicable as there are no indicators of mat exercises, stretching, or other activities."
+}

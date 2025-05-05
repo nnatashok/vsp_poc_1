@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    }
+  ],
+  "techniqueDifficultyConfidence": 1.0,
+  "techniqueDifficultyExplanation": "The workout is categorized as 'Drive' and 'row', which simplifies technique complexity criteria to Beginner or Intermediate levels, per Hydrow rules. The workout title 'Find Your Legs Row' suggests focus on leg power, but as a rowing session, techniques are primarily the basic rowing movement which is considered Intermediate due to coordination and rhythm requirements at a max rhythm of 32. Therefore, Technique Difficulty aligns more with Intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.6
+    },
+    {
+      "level": "Challenging",
+      "score": 0.7
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is identified as a 'Drive' type with a duration of about 21 minutes and an intensity rating of 3 out of 3, suggesting significant physical demand. The 'intervals' format typically increases the session's effort difficulty due to lower rest times and higher bursts of activity. A max rhythm of 32 reinforces a challenging cardiovascular component, placing the effort between Moderate and Challenging, with a stronger alignment to Challenging.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

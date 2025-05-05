@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Weight workout",
+      "score": 0.8
+    },
+    {
+      "name": "Mat",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is classified primarily under 'Weight workout' with a high confidence score of 0.8 due to the explicit mention of 'dumbbells' as required equipment in the metadata. This indicates that the workout involves strength training using weights, which is a defining characteristic of this category. Additionally, the description mentions 'Total body work' with circuit format and '60-second intervals' which suggest a structured format likely involving resistance training elements with weights. \n\nThe 'Mat' category is assigned a secondary relevance with a score of 0.6. The video categorization mentions 'On The Mat' which typically involves exercises performed predominantly on the floor, possibly including bodyweight exercises. The presence of circuit training aligns with this category as bodyweight or dumbbell exercises can be performed on a mat. \n\nThe absence of explicit indicators for other potential categories such as 'Indoor rowing' or 'HIIT', along with the description which clearly aligns more with strength and mat exercise format, leads to these classifications. The 'EMOM' format typically includes exercises that could be bodyweight or weight-based and might occur on a mat, confirming these choices."
+}

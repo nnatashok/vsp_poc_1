@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is classified as a 'sweat' category row, with an interval format that involves climbing in rhythm. Rowing, by nature, has a technique difficulty of either Beginner or Intermediate. The lack of instructor guidance suggests slightly lower complexity. The interval format with varying rhythms indicates some coordination might be necessary, which supports an Intermediate classification, but the complexity isn't high due to the absence of advanced technical cues, thus Beginner is also strongly applicable.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout lasts 21 minutes and 34 seconds with an interval format, characterized by increasing intensity, as suggested by the 'climbing in rhythm' descriptor. The workout type 'sweat' and intensity level 2 out of 3 imply a significant physical demand. The duration falls short of extreme exertion, but the rowing intervals at a high rhythm make it more demanding than light or moderate intensity alone, placing it between Moderate and Challenging effort levels.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

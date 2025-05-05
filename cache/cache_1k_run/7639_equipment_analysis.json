@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Blocks",
+      "confidence": 0.4
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is a 'Beginner Yoga Flow' categorized under 'On The Mat', strongly indicating the use of a yoga mat. This is supported by the image showing a mat in front of the participant. Hence, the confidence level for the 'Mat' is very high at 0.9.\n\nAdditionally, yoga blocks are mentioned as optional in the workout description. The image also shows blocks next to the mat. This indicates a moderate level of confidence (0.4) that blocks may be used, particularly for beginners or those needing support during the flow. \n\nNo other equipment is explicitly mentioned or implied to be necessary for this routine."
+}

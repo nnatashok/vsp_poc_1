@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout 'Stay Steady Together Row' involves maintaining a steady rhythm of 22 to 24 strokes per minute. Rowing, especially at a steady and moderate pace, is generally considered beginner-friendly as indicated by the 'breathe' format and beginner-level requirement. Rowing primarily involves basic movements that require less technical complexity. Therefore, the technique difficulty aligns more with a Beginner level (0.8) but can have a slight Intermediate consideration (0.2) due to rhythm variations.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "This rowing workout has a duration of approximately 21 minutes at low intensity (1 out of 3). The 'breathe' workout type, alongside the steady rowing rhythm, indicates a Light effort level (0.7), suitable for beginners since rowing at consistent, moderate paces does not severely tax physical exertion. However, the rhythmic consistency over the 21-minute duration can present a Moderate challenge (0.3) due to sustained activity.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

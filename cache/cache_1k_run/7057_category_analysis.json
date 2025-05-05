@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is classified primarily under 'Indoor rowing' due to explicit mentions of 'Club 26 Row', 'build stamina at a rhythm 26', and the 'interval' format, all indicating rowing activities on a machine with varying intensity, common in rowing workouts. The reference to 'build stamina' and 'sweat' further aligns with aerobic, endurance-based activities typical in indoor rowing sessions. This category is assigned a high confidence score (0.9) due to clear indicators in the metadata.\n\n'HIIT' is also appropriate given the mention of 'Interval' format, which suggests segments of intense exercise interspersed with periods of rest or lower intensity. The intensity rating of '2 out of 3' supports the idea of higher intensity intervals, characteristic of HIIT workouts, though this aspect is less explicit. A moderate score (0.6) is given to 'HIIT' due to reasonable inference from context, but with less direct evidence compared to indoor rowing.\n\nThe lack of references to any other specific types of exercise or equipment makes other categories less applicable."
+}

@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout type is 'drive', specifically indicating a rowing-based format on the Hydrow platform, which typically defaults to Beginner or Intermediate technique difficulty. Given that rowing requires coordination but is less complex than technical lifts or yoga, it fits well between Beginner and Intermediate. The scoring is tilted towards Intermediate due to the high-intensity pyramid structure and rhythm max of 36, which may present coordination challenges for some.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.7
+    },
+    {
+      "level": "Extreme",
+      "score": 0.2
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout is classified as 'Drive' with an intensity level of 3 out of 3, indicating a high-energy, demanding session. The pyramid HIIT format and a max rhythm of 36 suggest a workout that requires significant physical exertion, making it 'Challenging' for less fit users and bordering on 'Extreme.' The effort is concentrated over an 11-minute period, adding to the intensity.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

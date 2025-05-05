@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout type is 'row', which defaults the Technique Difficulty to be either Beginner or Intermediate based on platform guidelines. The provided User Fitness Level Requirement aligns with 'Intermediate', suggesting that while basic, this workout might incorporate some slightly more complex rowing intervals that require coordination. This is indicated by the 'sweat' category and the rhythm intensity of 28, potentially challenging for a complete beginner but not overly complex.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The description, 'Build cardio and endurance with ... interval,' suggests moderate energy demand, aligning with the effort category of the workout (Sweat). The duration of 11 minutes 14 seconds implies a higher level of intensity, particularly for a less fit audience, which increases the effort difficulty slightly. The intensity level is marked as 2 out of 3, strengthening the inference of moderate effort with potential challenging intervals.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

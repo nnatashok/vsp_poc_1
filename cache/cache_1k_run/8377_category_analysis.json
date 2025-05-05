@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is titled 'Core Positioning Row,' explicitly indicating a rowing workout focused on technique ('stroke back to basics') and core positioning. The reference to 'row' in the category and the metadata further supports this as an indoor rowing workout, which justifies a high confidence category assignment with a score of 0.9. The 'Workout Type' is listed as 'breathe,' suggesting an emphasis on breathing control as an essential component of the exercise. This supports assigning the 'Breathing exercises' category, albeit with a lower score of 0.6, as breathing appears to be a secondary focus alongside technique improvement. The workout description and context provide no significant indicators for other categories such as HIIT or weight training, which are excluded due to the low intensity level and absence of strength training elements. The music and playlist details do not significantly impact the category classification."
+}

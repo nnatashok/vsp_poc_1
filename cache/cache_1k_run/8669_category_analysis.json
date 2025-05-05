@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is categorized primarily as 'Indoor rowing' based on explicit metadata references such as 'race,' 'accumulate maximum meters,' 'max rhythm: 32,' and 'Workout Type: drive, standard, row.' These terms are directly associated with rowing activities and suggest a high-intensity rowing exercise focused on building power. The choice of music genres like Pop Punk and Global Hits can support a vigorous workout atmosphere, aligning with the intensity level 3 out of 3 mentioned, which confirms a high-intensity workout environment. The secondary category is 'HIIT' due to the 'Power' format and the context of a race to maximize meters, implying an interval-like approach although not explicitly stated. This category reflects high-intensity intervals based on music selection, pace, and the focus on maximum accumulation in short time. Other categories such as 'Treadmill' or 'Running' were excluded due to the clear indication of rowing-specific terms. The confidence level is high due to explicit indicators in the metadata."
+}

@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized as 'row', which limits the Technique Difficulty to either Beginner or Intermediate as per Hydrow guidelines. The pyramid structure involves incrementally increasing rhythms, possibly requiring a moderate level of technique to maintain form. However, since the User Fitness Level Requirement is Beginner, and the description emphasizes focusing on technique without advanced complexity, a Beginner rating with a slight consideration for Intermediate is given.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout lasts over 31 minutes with varied intervals, which suggests a moderate effort difficulty, especially given the 'breathe' type. The workout intensity is marked as 1 out of 3, indicating a lower energy requirement fitting a 'Moderate' classification. Nonetheless, the pyramid scheme of increasing rhythm implies some challenge for beginners, so a 'Challenging' level is also considered, though to a lesser extent.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

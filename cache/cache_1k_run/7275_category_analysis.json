@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Stretching",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.8,
+  "categoriesExplanation": "The workout titled 'Arms Focused Cool-Down' and described as focusing on the timing of arms in each stroke strongly suggests an 'Indoor Rowing' category. The term 'each stroke' aligns well with rowing terminology, while 'cool-down' indicates a lower intensity workout following a rowing session. Therefore, 'Indoor Rowing' is highly applicable (score 0.9).\n\nAdditionally, the aspect of focusing on technique and the mention of 'cool-down' could align somewhat with 'Stretching', as cooldowns often involve easing the body out of high-intensity exercises and may include gentle stretching. However, given the primary focus on rowing technique, 'Stretching' is given a lower confidence (score 0.5).\n\nOther potential categories like 'Body weight' or 'Mat' are not relevant as there is no indication of such exercises being involved. Music genre details and playlist played do not provide additional evidence for any other specific category, and there is no mention of high intensity indicating a HIIT classification."
+}

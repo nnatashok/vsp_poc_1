@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Stretching",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.8,
+  "categoriesExplanation": "The primary category assigned is 'Indoor rowing' with a high score of 0.9. This is based on the metadata indicating terms such as 'steady,' 'rhythm 22,' and 'row,' which suggest an indoor rowing session using a rowing machine or ergometer, despite the workout being a cool-down. Cool-down rowing often involves maintaining a specific stroke rate or rhythm rather than exerting maximum effort, matching the 'rhythm 22' mentioned. The secondary category 'Stretching' is scored at 0.5 to reflect the low-intensity nature and calming aspect of the workout's cool-down phase, where participants engage in gentle movements and relaxation rather than intensive exercise. This is supported by the instruction to 'close your eyes and use your body,' indicating a focus on the body's movements and potentially gentle stretching. The low-confidence level in other categories indicates that there are no significant markers for them in the provided metadata."
+}

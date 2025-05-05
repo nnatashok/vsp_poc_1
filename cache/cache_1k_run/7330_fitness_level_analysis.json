@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is described as a 'row' type, under the category 'Breathe,standard,row', which for Hydrow categorization means the movements are limited in complexity. The workout is meant to build a cardio base, indicating a lower level of technique required, suitable for beginners. The fact that it's labeled as 'breathe' suggests a focus on maintaining a steady rhythm rather than executing complex movements. Therefore, the technique difficulty is predominantly beginner with minor elements that might be slightly intermediate for coordination with the rhythm.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout duration of 16 minutes and 30 seconds and an intensity level of 1 out of 3 suggest a light to moderate effort given the focus is on building a 'cardio base'. The term 'breathe' implies a low to moderate intensity designed for a relaxed, steady pace. The max rhythm of 24 supports this as it indicates a moderate rowing stroke rate, appropriate for entry-level cardio development.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

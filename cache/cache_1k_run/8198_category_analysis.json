@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 1
+    },
+    {
+      "name": "HIIT",
+      "score": 0.65
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is classified primarily as 'Indoor rowing' with a score of 1 because the workout name itself includes 'Row', confirming the use of a rowing machine. The description mentions intervals of 2', 90\", and 60\", indicating a structured interval workout that is characteristic of rowing-based exercises. The 'Max rhythm: 32' suggests a high rowing stroke rate, further supporting this classification.\n\n'HIIT' is also a relevant category, with a score of 0.65, due to the interval format mentioned (interval training using time-based intervals is a hallmark of HIIT). The intensity level is marked as 3 out of 3, which corresponds to the high-intensity component of HIIT.\n\nThe absence of specifics about an elliptical, cycling, or treadmill suggests that these categories do not apply. Similarly, 'Mat', 'Yoga', 'Stretching', and 'Pilates' are excluded due to the explicit rowing focus. The playlist and music type ('Dance high, Global Hits') indicates a fast-paced, energetic workout aligned with both Indoor rowing and HIIT."
+}

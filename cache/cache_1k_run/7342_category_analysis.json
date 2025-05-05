@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Mat",
+      "score": 0.8
+    },
+    {
+      "name": "Stretching",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.8,
+  "categoriesExplanation": "The primary category 'Mat' was chosen based on the line from the metadata 'Category: On The Mat.' Additionally, the session is described as a 'mobility' workout, which typically involves floor exercises performed on a mat, especially given the mention of a foam roller, which is often used for exercises that enhance mobility while on the floor. The score of 0.8 reflects the strong focus on exercises conducted on the mat. \n\nThe secondary category 'Stretching' was selected due to the description 'Gently release your lower back and shoulders,' indicating exercises that are likely aimed at increasing flexibility and range of motion. Such activities are generally associated with stretching exercises. The score of 0.7 is assigned given the high likelihood that gentle release exercises involve stretching techniques.\n\n'Yoga' and 'Pilates' were considered but excluded as there are no explicit mentions of yoga postures or Pilates techniques in the metadata. The workout's focus on post-row mobility also suggests it's not a meditative or full mind-body integration session typical of Yoga."
+}

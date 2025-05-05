@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    },
+    {
+      "name": "Stretching",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.8,
+  "categoriesExplanation": "The metadata strongly indicates that the workout is primarily an 'Indoor rowing' session. This is evident from terms such as 'stroke', 'row', and the context of connection through body strokes, all linking it to rowing exercises. The low rhythm and cool down aspects of the workout reinforce the classification as a relaxed and steady indoor rowing session, justifying a high confidence and score of 0.8 for this category.\n\nAdditionally, the term 'cool down' suggests elements of relaxation and recovery, often associated with 'Stretching'. However, due to the primary focus on rowing techniques, this category is supplementary and receives a lower score of 0.4.\n\nOther potential categories such as 'Mat' or 'Yoga' were excluded because there's no mention of corresponding exercises. The absence of any alternate significant indicators reinforces the primary classification of 'Indoor rowing' and a secondary hint towards 'Stretching' aspects."
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is classified under 'Indoor rowing' with a high score of 0.9 due to explicit references to 'row' in both the workout name and category. The metadata also indicates a 'row' format in 'Workout Type,' which strongly suggests the use of a rowing machine. \n\nAdditionally, the workout is classified as 'HIIT' with a score of 0.7. This is primarily because the description mentions a format labeled as 'HIIT,' indicating that the workout includes high-intensity intervals. The high intensity level (3 out of 3) further supports this categorization.\n\nOther potential categories such as 'Mat' or 'Weight workout' were excluded as there is no mention of bodyweight exercises, floor exercises, or weights in the description or tags. The overall confidence is high at 0.9 due to these clear indicators."
+}

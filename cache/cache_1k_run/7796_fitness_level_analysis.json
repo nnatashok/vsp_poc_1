@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is a rowing session, which, according to Hydrow-specific rules, generally falls between Beginner and Intermediate for technique difficulty. The session involves intervals with increasing rhythm from 22 to 26, suggesting slight complexity in maintaining form at higher speeds, which supports an Intermediate classification. However, it emphasizes fundamentals, aligning strongly with Beginner-level techniques. The overall confidence in this classification is high due to alignment with rowing-specific guidelines and the 'Beginner' user requirement.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout duration of about 21 minutes and low intensity level (1 out of 3) points to a Light effort difficulty classification. However, the climbing intervals (3', 2', 1' at increasing rhythm) introduce some variation, which makes it moderately demanding for complete beginners, supporting a Moderate classification as well. The inclusion of rhythm climbing adds an extra challenge, increasing the difficulty slightly beyond Light, contributing to a Moderate classification, yet mostly it remains in the Light category due to its short duration and low stated intensity.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

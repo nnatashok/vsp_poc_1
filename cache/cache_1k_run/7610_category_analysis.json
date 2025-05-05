@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout 'July Race: Week 3 of 4' is classified as 'Indoor rowing' primarily due to explicit mentions of 'row' in the metadata and the focus on gaining meters and holding a sprint pace, which suggests rowing on an ergometer. This is supported by the 'Category: Drive,standard,row' and the workout being structured around intervals. The score of 0.9 reflects very high confidence. \n\nThe 'HIIT' category is included with a score of 0.7 because of the workout's interval format and sprint pace, indicative of alternation between high and lower intensity efforts, which are key characteristics of High-Intensity Interval Training. The description's emphasis on max effort at the finish reinforces this classification. \n\nOther categories like 'Running', 'Mat', or 'Weight workout' were excluded due to the lack of any reference to related activities or equipment."
+}

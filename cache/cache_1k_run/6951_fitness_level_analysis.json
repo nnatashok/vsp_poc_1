@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.1
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is a 'row' category, which restricts technique difficulty to either Beginner or Intermediate. Given the description indicates 'low rhythms' and basic driving through legs, which are foundational rowing movements, it strongly aligns with Beginner level. The mention of 'intervals' introduces a slight complexity found in Intermediate, but not sufficiently to change the primary classification.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.65
+    },
+    {
+      "level": "Moderate",
+      "score": 0.35
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout's intensity level is 1 out of 3, indicating low intensity. The duration is moderately long at 21 minutes, but the 'low rhythm' suggests lower energy output. Combining an interval format with a low maximum rhythm, it aligns with Light effort, suitable for beginners, with some Moderate elements due to the duration and intervals.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

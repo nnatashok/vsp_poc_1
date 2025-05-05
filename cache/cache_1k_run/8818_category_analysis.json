@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Weight workout",
+      "score": 0.8
+    },
+    {
+      "name": "Indoor rowing",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.8,
+  "categoriesExplanation": "The workout is classified as a 'Weight workout' due to the explicit mention of using dumbbells, which suggests a focus on strength training using resistance equipment. The title 'Whole Body Circuit' and description mentioning 'total body focus off Hydrow with dumbbells' indicate that weights play a significant role in the workout. The '0.8' score reflects the strong presence of weight training. Additionally, there is a score of '0.6' for 'Indoor rowing' due to the mention of '90-second intervals on Hydrow,' indicating that part of the workout involves rowing on a rowing machine. The score reflects a moderate to strong presence of this component. The format 'EMOM' (Every Minute on the Minute) suggests a high-intensity circuit format rather than a relaxed form such as yoga or stretching, and therefore activities like 'Stretching' or 'Meditation' are not relevant. The metadata effectively distinguishes these two elements, giving an overall high confidence in this classification."
+}

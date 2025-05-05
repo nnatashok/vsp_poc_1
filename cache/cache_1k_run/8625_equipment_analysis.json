@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Foam roller",
+      "confidence": 1.0
+    },
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is titled 'Post-Row Mobility with Foam Roller,' which explicitly mentions the use of a foam roller, warranting a very high confidence score of 1.0. The description also specifies 'using your foam roller,' reinforcing this requirement. Additionally, the category 'On The Mat' implies that a mat is needed for the exercises, which is common for floor-based mobility workouts, thus assigning it a high confidence score of 0.9. The image supports these inferences, showing a foam roller and mat being used."
+}

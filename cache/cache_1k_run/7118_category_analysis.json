@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.75,
+  "categoriesExplanation": "The primary category assigned is 'Indoor rowing' with a score of 0.8. This is heavily supported by the metadata indicating terms like 'drive through your legs' and 'lengthen out your stroke to hit lower rhythms,' which are characteristic of rowing workouts. The 'interval' format and the effort to maintain a 'jog pace' further suggest a rowing session, especially given the context of a low rhythm focus. \n\nAdditionally, 'Breathing exercises' is considered with a score of 0.4 because the tags in the metadata include 'breathe,' and the low intensity level and focus on rhythm may suggest a mindfulness or controlled breathing component, although this aspect is less emphasized compared to the rowing workout. The category 'breathe' from the description supports this secondary classification. \n\nThe workout's low intensity (1 out of 3) and short duration align more with a controlled workout session such as rowing rather than a high-intensity or strength-focused workout, which excludes categories like 'HIIT' or 'Body weight.' No specific equipment or weight mention excludes 'Weight workout.'"
+}

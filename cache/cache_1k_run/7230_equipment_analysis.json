@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Blocks",
+      "confidence": 0.7
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is described as 'Post-Row Align' with the phrase 'Help both your muscles and heart rate recover after a row.' This suggests a restorative session possibly involving stretching or yoga, hence the requirement of a mat (confidence 0.9), which is typically used for floor exercises. The phrase 'Yoga blocks recommended' directly mentions the use of yoga blocks (confidence 0.7), suggesting they are optional but beneficial for certain poses or stretches. The category 'On The Mat' further indicates that the exercises take place on a mat. The image also supports this with participants lying on mats, confirming their necessity."
+}

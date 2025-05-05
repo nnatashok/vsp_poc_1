@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.75
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout, classified under the 'row' category, follows a pyramid structure which involves increasing intensity and rhythm. While generally rowing is beginner-friendly, the pyramid format introduces a level of complexity as users must adjust to changing intensities, making it suitable for those at an intermediate skill level. The requirement for rhythm adds a coordination element but remains accessible to beginners due to the nature of rowing.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout lasts over 30 minutes and is designed to 'Build your endurance', indicating a substantial physical demand. The workout type is classified as 'sweat' with an intensity level of 2 out of 3, pointing to moderate effort, especially for those not in peak physical condition. However, the increase in intensity with the pyramid format suggests that less conditioned users might find this challenging.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

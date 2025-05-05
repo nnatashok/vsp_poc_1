@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout falls under the 'row' category, inherently limiting the technique difficulty to Beginner or Intermediate. The description \"build confidence stroke by stroke\" implies a focus on fundamental skill development, suggesting simpler movements aligned with the Beginner level. The use of intervals at lower rhythms and a max rhythm of 26 supports a somewhat manageable technique, with a slight Intermediate consideration but primarily fitting the Beginner category.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.65,
+  "effortDifficultyExplanation": "The workout duration is 21 minutes and 29 seconds, with the 'breathe' type and an intensity level of 1 out of 3 indicating low exertion. Given the format specifies lower rhythm intervals, the effort is likely minimal, suitable for complete beginners, aligning strongly with Light effort difficulty. The intervals may introduce a slight Moderate challenge, but overall it's tailored for low energy expenditure.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

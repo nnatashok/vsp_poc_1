@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 1
+    }
+  ],
+  "techniqueDifficultyConfidence": 1,
+  "techniqueDifficultyExplanation": "The workout is classified under rowing (category includes 'row'), which signifies a technique difficulty that ranges from Beginner to Intermediate. Given the 'breathe' workout type and a focus on rhythmic buildup, it's clear that the exercises are designed to be accessible with straightforward movements that cater to users making a fitness comeback. Furthermore, the metadata explicitly states a user fitness requirement of 'Beginner', reinforcing this classification. Thus, the technique difficulty is best rated as Beginner with high confidence, aligning with the user's Beginner-level requirement and the nature of the workout.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout duration is 21 minutes, and it uses a 'breathe' workout type, suggesting focus on controlled movements and less intensity. The metadata indicates a workout intensity of 1 out of 3, signaling a gentle demand on the participant. These factors combined suggest energy expenditure and rest are tailored to be suitable for those returning to fitness. The moderate rhythm build-up further supports a light-to-moderate effort classification as participants will experience light cardiovascular exertion. Considering the gradual nature and structure of the workout, the effort difficulty aligns strongly with Light to Moderate.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

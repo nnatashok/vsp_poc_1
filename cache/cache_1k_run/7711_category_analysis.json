@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.95
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is primarily classified as 'Indoor rowing' due to explicit indications from the title and description. The title 'To the Max Row' and phrases like 'maximum effort,' 'series of 45-second intervals,' and 'Max rhythm: 34' clearly point towards rowing exercise sessions on a machine. The inclusion of 'intervals' and a high-intensity level of 3 out of 3 suggests a structured workout with alternate periods of high-intensity and rest, aligning with HIIT principles, thus warranting its secondary classification as 'HIIT.' The use of music genres such as 'Pop high' and 'Global Hits' supports the high-energy nature of the workout. Other categories such as 'Mat' or 'Body weight' are excluded as there are no indications of floor exercises or bodyweight movements in the metadata. The high confidence level of 0.9 reflects the conclusive evidence pointing towards 'Indoor rowing' as the primary category with 'HIIT' as a strong secondary category."
+}

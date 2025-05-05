@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The 'row' category dictates that Technique Difficulty must be at most 'Intermediate'. Given that this workout involves rowing with rhythmic shifting and is marked for 'Beginner' fitness level, most users would likely see it as basic. The format is 'Interval', which requires minor adjustments but does not typically advance beyond a basic coordination challenge. Thus, Beginner level as the strongest fit, with a nod to Intermediate difficulty due to rhythm shifts.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout duration is about 21 minutes and categorized under 'breathe', suggesting a focus on aerobic capacity without high intensity. The intensity level is 1 out of 3, indicating a less physically demanding workout. Intervals with maximum rhythm of 26 might edge it towards low-end Moderate effort but primarily suggest it's suitable for sustained activity typical of Beginner or lightly Moderate levels.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

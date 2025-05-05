@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.75
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is classified as a 'row' type, which typically indicates a Beginner or Intermediate technique level. However, given the 'Drive' workout type, which suggests advanced rowing practices, and the focus on progressively increasing stroke rates toward a challenging 30 s/m, an Intermediate level is appropriate. This requires coordination and familiarity with rowing mechanics, particularly in a high-intensity scenario over a sustained period.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.7
+    },
+    {
+      "level": "Extreme",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout's duration of over 21 minutes with intensity metadata indicating a maximum rating of 3 out of 3 and progressively demanding stroke rates (26 to 30 s/m) on a rowing machine implies considerable physical demand. This situational setup requires sustained effort typical of a 'Challenging' workout. However, the encouragement to 'push your limits' and the absence of rest periods leads to moderate alignment with 'Extreme.' The nature and intended intensity classify it at the upper level of effort difficulty.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    },
+    {
+      "name": "Body weight",
+      "score": 0.2
+    }
+  ],
+  "categoriesConfidence": 0.8,
+  "categoriesExplanation": "The workout is classified as \"Indoor rowing\" with high confidence (score: 0.8) due to explicit mentions of a 'Pick Drill,' a common rowing technique, and a focus on technique and power. The term 'row' in the category further supports this classification. Despite the brief nature of the workout and lack of an instructor, the specific focus on technical refinement and the warm-up context likely involve rowing machine usage.\n\nA slight secondary classification as \"Body weight\" (score: 0.2) is considered due to the mention of muscle activation, which could involve bodyweight exercises. However, given the strong emphasis on rowing-related terms, the primary classification remains \"Indoor rowing.\"\n\nOther categories like \"Mat\" or \"Elliptical\" are excluded due to lack of relevant context or equipment indicators suggesting their involvement."
+}

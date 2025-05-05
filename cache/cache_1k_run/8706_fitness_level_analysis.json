@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is a rowing-based exercise, which generally falls into the Beginner or Intermediate categories for technique difficulty. The workout type 'breathe' and 'standard' suggests a less technical focus, supporting a Beginner classification more strongly. While the rhythmic pacing could introduce slightly more complexity, the relatively low maximum rhythm of 22 does not demand advanced skills. Therefore, high confidence is placed on Beginner, with some acknowledgment of Intermediate for slightly more coordinated breathing patterns.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.2
+    },
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.1
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout duration of just over 21 minutes paired with a 'Climb' format indicates a steady effort, but the 'breathe' workout type and an intensity marked as 1 out of 3 suggest moderate physical demand. The 5-minute intervals are likely designed to build endurance gradually. Although climbing formats can be demanding, the specified intensity level and the moderate rhythm imply a moderate commitment of effort suitable for users in poorer physical shape.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout metadata specifies the category as \"row,\" which indicates a rowing-related activity, and the associated image shows people rowing on water, suggesting rowing equipment. Since this is a warm-up and interval training with terms like \"very light pressure,\" \"sprint effort,\" and \"max effort,\" it implies a dynamic activity typical of rowing workouts. \n\nConsidering the environment and workout type, the use of a rowing machine is central to the workout, reflecting a very high confidence score of 0.9."
+}

@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.85
+    },
+    {
+      "equipment": "Resistance bands",
+      "confidence": 0.95
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout title \"Lower Body Strength with Bands\" explicitly mentions the use of mini bands, indicating that resistance bands are central to this workout, hence a very high confidence score of 0.95. Additionally, the description reinforces the use of mini bands during the workout to build lower body strength. The category \"On The Mat\" along with the visible mat in the accompanying image strongly implies the use of a mat during the exercises, earning it a high confidence score of 0.85."
+}

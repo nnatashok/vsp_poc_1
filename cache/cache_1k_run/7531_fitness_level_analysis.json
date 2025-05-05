@@ -1,0 +1,26 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is classified primarily under the 'row' type and, more specifically, the 'Drive' category, which aligns with Hydrow's rule that categorizes 'drive' workouts as requiring intermediate levels of technique. Although rowing for fitness at max pace involves maintaining proper stroke form and coordination, it is less about complex movements and more about rhythm and consistency. Thus, an Intermediate level is most appropriate here, supported by its 'drive' designation and interval format requiring sustained technique.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.9
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The 'Unleashed Row' involves three 5-minute intervals at maximum pace, with a max rhythm of 30 strokes per minute. This indicates a high level of exertion as maintaining such a rhythm during each interval is physically demanding. The workout's duration of 22 minutes at 'max pace' strengthens its categorization as Challenging, especially considering the intensity level is 3 out of 3, which indicates a high energy expenditure suitable for only those with a good fitness base.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

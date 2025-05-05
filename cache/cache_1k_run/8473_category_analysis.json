@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Body weight",
+      "score": 0.6
+    },
+    {
+      "name": "Weight workout",
+      "score": 0.7
+    },
+    {
+      "name": "Mat",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.8,
+  "categoriesExplanation": "The workout video titled \"Advanced Whole Body Circuit\" indicates a total body workout involving intervals on and off the Hydrow. The description specifies 'work off Hydrow' and 'EMOM format,' which typically involves bodyweight exercises or using simple equipment like dumbbells. The presence of 'dumbbells' as listed equipment directs this towards a weight workout category (score: 0.7). The classification as 'On The Mat' and the nature of circuit training suggestive of bodyweight exercises (score: 0.6) is also relevant. The high tempo playlist suggests a vigorous and engaging workout session. Considering the structured nature of circuit and EMOM workouts, we're confident in scoring these categories with moderate to high values. Categories like 'Running', 'Elliptical', 'Yoga', and 'Pilates' are excluded due to the specificity of circuit and mat-based training using weights. The confidence is high (0.8) as the metadata clearly describes the workout's structure, type, and equipment."
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is classified primarily as 'Indoor rowing' due to the workout name 'Finding Peace Row' and the mention of a 'pyramid' format, which commonly refers to rowing interval styles. Despite being labeled as 'breathe', the use of 'row' points more directly to rowing, with an intensity level of 1 out of 3, suggesting it is a moderate, endurance-focused session. Therefore, Indoor rowing is assigned a strong score of 0.9.\n\nAdditionally, 'Breathing exercises' is considered as a secondary category. This is due to the focus on a steady effort level with a classification of the workout type as 'breathe'. However, the primary activity remains rowing, thus receiving a secondary score of 0.6 for breathing exercises. The intensity and the nature of the playlist, with reflective and classic hits, support an emphasis on consistency and presence, potentially enhancing mindfulness through breath coordination, aligning somewhat with the breathing exercises category."
+}

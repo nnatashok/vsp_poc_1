@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Yoga",
+      "score": 0.9
+    },
+    {
+      "name": "Mat",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category assigned is 'Yoga' with a high score of 0.9. This selection is based on the workout name 'Yoga for Cyclists', the description mentioning a 'yoga session designed for after a bike ride', and the specific focus on 'flow', which are all strong indicators of a yoga workout. The 'Mat' category is also relevant, receiving a moderate score of 0.5, since yoga is typically performed on a mat and the metadata includes 'On The Mat' as a category, though this is less central than the direct yoga indication. The calm and downtempo music playlist further supports the relaxed, meditative nature of yoga. Other categories like Pilates, Stretching, or Meditation were not selected primarily due to the explicit mention of yoga, differentiating it from those practices."
+}

@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is primarily classified under 'row', which typically limits the technique difficulty to Beginner or Intermediate levels. The description 'press for more power' suggests some involvement of technique but not overly complex movements. The rhythm max of 28 aligns with hydrow's typical rowing pace, potentially offering slight technical challenge, thus granting a partial score in Intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "With an effort level rated 2 out of 3, the workout involves moderate physical intensity. The 11-minute duration and 'sweat' categorization suggest some level of exertion, sufficient to challenge those with lower fitness. The 'press for more power' cue suggests bursts of effort, aligning with a moderate level for the wider audience but close to challenging for less fit users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

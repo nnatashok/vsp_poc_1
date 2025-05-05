@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Advanced",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type is classified under 'drive', which Hydrow typically designates as 'Advanced', based on the description involving explosive power, speed, and a final sprint, all requiring technical precision and coordination. Additionally, the workout intensity level is rated 3 out of 3, reflecting advanced technical demands inherent in maximizing rowing efficiency and output at high rhythm levels. The metadata description correlates with complex movement techniques associated with powerful and speedy rowing drives, solidifying the classification as Advanced with high confidence.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.7
+    },
+    {
+      "level": "Extreme",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is 21 minutes long with a focus on explosive power and speed, maximizing physical exertion. It includes high-intensity intervals with a final all-out effort, typical of workouts with a significant energy expenditure. The max rhythm of 30, coupled with a formal 'Power' format, indicates intense physical demand. The intensity level marked as 3 out of 3, further implies a high-energy, physically taxing workout. Therefore, the effort difficulty is assessed as both Challenging and Extreme with high confidence, given the combination of duration, intensity, and energy expenditure required.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

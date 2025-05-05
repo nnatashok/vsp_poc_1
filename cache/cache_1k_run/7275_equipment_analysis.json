@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is categorized under 'row' and 'cool down,' which indicates a rowing machine is involved or central to the routine. The description specifies focusing on 'the timing of your arms each stroke,' a phrase strongly associated with rowing activities, thereby making a rowing machine necessary for this workout. The image accompanying the metadata also shows a person in a rowing setup, reinforcing the likelihood. Therefore, the confidence score for needing a rowing machine is set at 0.9, indicating very high confidence."
+}

@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout, 'Focused Cardio Row', is categorized under 'Breathe, standard, row'. As a row-based workout, the Technique Difficulty is primarily Beginner or Intermediate. The description emphasizes 'feeling the movement in your body each stroke', suggesting some awareness but likely still fundamental movement patterns typical of Beginner-level rowing workouts. There is no mention of complex techniques or advanced coordination, aligning more with Beginner levels. Thus, while Beginner is a strong fit, a slight score for Intermediate is given to accommodate the focusing aspect.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The 'Focused Cardio Row' workout has a duration of just over 16 minutes and is described as 'cardio building' with a max rhythm of 24, supporting a Light to Moderate effort level. The intensity level is mentioned as 1 out of 3, indicating relatively low exertion, appropriate for beginners. The format being interval may suggest moderate effort intervals, but the presence of intervals alone doesn't imply a high effort level here due to the intensity rating and the beginner-friendly focus.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

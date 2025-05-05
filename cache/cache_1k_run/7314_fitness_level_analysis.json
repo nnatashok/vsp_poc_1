@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "This workout falls under the 'row' category, which limits the technique difficulty to Beginner or Intermediate. The skills involved in rowing generally require basic coordination, aligning well with Beginner-level technique criteria. The 'Progression Training Row' implies potential slight complexity due to the intervals but remains simple enough for beginners, scoring higher for Beginner.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.3
+    },
+    {
+      "level": "Moderate",
+      "score": 0.7
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is 21 minutes long with '5 and 10-minute intervals' and is classified as 'breathe' with a workout intensity level of 1 out of 3. This indicates a low-to-medium effort intensity, suited for users seeking a relatively moderate cardiorespiratory challenge. The playful music choices further suggest a slightly energetic but not overly taxing workout. Overall, this supports a 'Moderate' effort difficulty with a notable acknowledgement for a 'Light' classification as well.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

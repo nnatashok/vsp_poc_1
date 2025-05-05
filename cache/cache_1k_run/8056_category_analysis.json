@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is primarily classified as 'Indoor rowing' because it involves rowing, explicitly indicated by the introduction of an athlete who likely uses a rowing machine (Buffy Williams, an Olympian). The metadata suggests this through tags like 'row' and 'Hydrow', a known rowing machine brand. The duration of 21 minutes and intensity level of 2 out of 3 suggest a moderately intense session. 'Interval' in the metadata indicates alternating periods of exercise and rest, aligning with 'HIIT', though the primary focus remains on rowing. While the score for 'Indoor rowing' is high at 0.9 due to strong explicit indicators, 'HIIT' is plausible at 0.6 due to the interval format of the workout."
+}

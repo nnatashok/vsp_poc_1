@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category selected is 'Indoor rowing', with a high score of 0.9. This is due to the explicit mention of a 'rhythm climb' and 'row' in the title and description, which strongly indicate the use of a rowing machine. The description further details precise rowing rhythms (from 18 to 26), confirming this classification with strong confidence (0.9). The secondary category is 'Breathing exercises', with a moderate score of 0.6. This is inferred from the terms 'Workout Type: breathe' and 'ways they relax amidst various responsibilities', suggesting that breathing techniques and relaxation are part of the workout's focus. Although 'breathe' appears as a category and workout type, it seems secondary to the main rowing focus, hence a lower score compared to rowing. Despite the 'breathe' workout type tag, the primary activity is rowing, evidenced by rhythm work typical in rowing sessions, distinguishing it from purely relaxation-focused classifications like meditation or yoga."
+}

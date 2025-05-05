@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Body weight",
+      "score": 0.8
+    },
+    {
+      "name": "Mat",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.75,
+  "categoriesExplanation": "The category 'Body weight' was chosen with a score of 0.8 due to the explicit mention of 'Bodyweight Strength' in the workout name and 'strength' in the workout type, indicating exercises relying solely on body weight for resistance. The score is high because such workouts typically involve exercises like push-ups, squats, or lunges, which align well with strength training without additional equipment. The category 'Mat' was selected with a score of 0.7 since the workout is in the 'On The Mat' category, implying exercises performed on the floor potentially with an exercise mat. The 'Express' and 'quick pace' suggest a focus on body-weight exercises. Other categories like 'Weight workout', 'Calisthenics', or 'Pilates' were considered but excluded due to the lack of specific equipment or movements mentioned in the metadata, limiting confidence in their fit."
+}

@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.1
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is classified under the rowing category. According to the guidelines, rowing workouts can only have a Technique Difficulty of Beginner or Intermediate. The description notes simple intervals with increasing strokes per minute (20-24), implying basic rowing. As such, it's accessible for beginners with minimal coordination required. However, slight complexity in pacing and rhythm introduces a weak Intermediate element.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.6
+    },
+    {
+      "level": "Moderate",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "Given a 21-minute duration and an intensity level of 1 out of 3, the workout appears to be generally low-intensity, aligning with Light effort level. The prescribed pacing (20-24 SPM) suggests maintaining a fairly relaxed rowing rhythm, suitable for inexperienced users. Nonetheless, the climb format with 5-minute intervals can introduce moderate challenges, hence there is a partial alignment with Moderate effort difficulty.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

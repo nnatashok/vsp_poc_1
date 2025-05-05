@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Pilates",
+      "score": 0.9
+    },
+    {
+      "name": "Mat",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The workout is clearly identified as a 'Beginner Whole Body Pilates' in both the name and description, indicating a strong focus on Pilates exercises. This is supported by the explicit mention of 'pilates' in the workout type. The category 'On The Mat' and 'standard,on-the-mat' suggest exercises are performed on a mat, reinforcing this classification. The absence of equipment further supports that Pilates is the primary activity, often performed using bodyweight on a mat. Given these strong indicators, Pilates is scored at 0.9 for its centrality and clarity. \"Mat\" is included with a 0.6 score to acknowledge the setting of the workout, although the explicit pilates focus slightly lowers its centrality in the classification. Other categories like Yoga or Stretching were excluded due to the clear mention of Pilates and absence of Yoga-related terms or meditation elements."
+}

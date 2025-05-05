@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is clearly centered around an indoor rowing session, as indicated by the terms 'race,' 'drive,' and 'row' in the metadata under 'Category.' The description mentions conquering 'rhythms 28 thru 32 at maximum pace,' which implies a structured, possibly competitive rowing format that aligns with indoor rowing activities. The format labeled as 'Power' reinforces this, suggesting a focus on intense, powerful strokes typical in rowing.\n\nThe identified 'Drive, standard, row' types further corroborate a rowing focus, making 'Indoor rowing' a strong central theme (score 0.9).\n\nAdditionally, the high-intensity from the description 'conquer rhythms at maximum pace' and an 'intensity level: 3 out of 3' suggests a High-Intensity Interval Training (HIIT) component. While HIIT isn't explicitly mentioned, the intensity and pacing suggest it should be considered as a secondary focus (score 0.6).\n\nOther categories such as 'Yoga,' 'Pilates,' or 'Body weight' were excluded due to the lack of relevant indicators."
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.8,
+  "categoriesExplanation": "The title 'Cardio Climb Row' and the description state the workout involves climbing rhythm every five minutes, which suggests it's primarily a rowing workout. The classification 'row' in the category tag and the indication of a max rhythm of 24 reinforce this as an 'Indoor rowing' workout. The workout type 'breathe' and category tag 'Breathe' suggest a possible focus on breathing techniques, though the main activity still involves rowing, so 'Breathing exercises' is also relevant but secondary. The workout intensity is low (1 out of 3), which aligns with a gentler rowing session rather than High-Intensity Interval Training or weight-focused workouts. 'Indoor rowing' has a score of 0.8, indicating it is the central defining characteristic, while 'Breathing exercises' receives a score of 0.6 due to its presence in the metadata but not as the primary focus."
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Pilates",
+      "score": 0.9
+    },
+    {
+      "name": "Mat",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The metadata strongly suggests a Pilates workout, as indicated by the 'Workout Type' which explicitly states 'pilates', and the title 'Post-Row Core Pilates', which emphasizes 'Pilates' as the central focus. This clear indication results in a high score of 0.9 for the Pilates category. Additionally, the description mentions a focus on core and rowing posture, aligning with Pilates goals of core strength and body alignment. \n\nThe 'Category' field lists 'On The Mat', suggesting exercises performed on a mat without additional equipment, hence a Mat classification. Given the reference and commonality in naming, the Mat category receives a score of 0.7 as it aligns with the workout style but is secondary to the primary focus on Pilates. The absence of equipment further supports the Mat classification. \n\nThe confidence level is set at 0.85, reflecting the explicit references to 'pilates' and 'On The Mat', providing strong evidence for the chosen categories, with no ambiguity from the metadata."
+}

@@ -1,0 +1,26 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'Drive' and 'row,' which according to Hydrow-specific rules, indicates that Technique Difficulty can be either Beginner or Intermediate. Given the 'Drive' format, which includes high rhythm and varied paces, this workout requires control and precision to maintain form during rapid transitions, aligning more with an Intermediate score.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.75
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout is a HIIT format with a duration of over 21 minutes and involves sprints at high rhythms (24 to 28), which significantly increases energy expenditure. The intensity level given is 3 out of 3, indicating a very high physical demand. Such a workout requires significant physical effort to maintain high intensity across multiple intervals, classifying it as Challenging, especially for users with lower fitness levels.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

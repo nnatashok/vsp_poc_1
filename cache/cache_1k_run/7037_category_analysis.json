@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Stretching",
+      "score": 0.9
+    },
+    {
+      "name": "Mat",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The title 'Post-Row Stretch' and the workout description both clearly emphasize stretching the hip flexors and adductors, indicating that this video is primarily focused on flexibility training, justifying the classification under 'Stretching' with a high confidence score of 0.9. The metadata also lists 'Category: On The Mat,standard,on-the-mat,' which supports identification as a 'Mat' workout because it suggests floor exercises with no additional equipment, meriting a score of 0.7 for 'Mat.' The reference to 'post-row' in the title points to the context after rowing, but does not suggest that rowing is part of the workout itself. Music genre and instructor details are not particularly relevant to the category determination in this instance. Potential confusion with a low-intensity rowing workout is eliminated due to explicit stretching focus in the metadata."
+}

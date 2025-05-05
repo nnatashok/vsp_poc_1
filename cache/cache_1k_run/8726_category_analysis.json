@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 1.0
+    },
+    {
+      "name": "HIIT",
+      "score": 0.8
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout title 'Charge the Iceberg Row' and tags like 'row' and 'Drive' clearly indicate that the primary activity is performed on a rowing machine, thus classifying it under 'Indoor rowing' with very high confidence. The description mentions 'quick, high-intensity intervals,' supported by the format label 'HIIT', suggesting that this is a high-intensity interval training session, which aligns with the HIIT category as the secondary classification. The maximum rhythm of 32 and an intensity level of 3 out of 3 further supports the high-intensity nature of the workout, hence the strong score for the HIIT category. The absence of an instructor and the focus on the workout drive does not suggest the involvement of any other categories. Additional ambient details, like music genre and the drive type, do not suggest deviation from these categories."
+}

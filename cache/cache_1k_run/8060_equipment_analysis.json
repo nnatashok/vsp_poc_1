@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Blocks",
+      "confidence": 0.3
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout description explicitly mentions that it is an \"align\" session, indicating the need for a mat as typically used in yoga or stretching exercises. The category \"On The Mat\" further reinforces this requirement for mats. Therefore, a mat is essential, assigned a high confidence score of 0.9. \n\nAlthough yoga blocks are not required, they are mentioned as optional in the description. This implies they could be beneficial for modifications or enhanced support, leading to a low confidence score of 0.3 for blocks. The image features mats clearly, confirming their use in this workout. The focus on alignment and chest opening aligns with yoga practices, where mats and potentially blocks are used. No other equipment is specified in the metadata or suggested by the workout's nature."
+}

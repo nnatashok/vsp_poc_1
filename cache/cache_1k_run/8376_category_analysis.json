@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is strongly categorized as 'Indoor rowing' due to explicit mentions of 'row' and 'intervals' in the title and description, indicating that the workout involves a rowing machine and interval training. The use of terms such as 'performance mindset' and specific stroke rates (20, 26, 28) further align with rowing workouts, making this classification central. The score of 0.9 reflects high confidence given the clear indicators.\n\nThere is also a mild contribution from 'HIIT' as the mention of intervals suggests a format that involves high-intensity bursts alternating with lower intensity periods, typical of HIIT workouts. However, since the main focus is on rowing, HIIT is secondary and receives a 0.4 score. Other categories like 'Sweat', though mentioned, do not align directly with the specific category definitions provided here, and therefore aren't selected. The absence of other equipment in the metadata further confirms rowing as the core activity."
+}

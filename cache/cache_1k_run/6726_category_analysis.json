@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.95
+    },
+    {
+      "name": "HIIT",
+      "score": 0.85
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The metadata for 'February Race: Week 2 of 5' indicates a high-intensity interval workout on an ergometer, typical of Indoor Rowing with elements of HIIT. The description highlights 'climbing interval' and working towards a 'personal best,' implying a structured, power-driven workout. 'Max rhythm: 30+' suggests a rowing cadence, reinforcing the Indoor Rowing classification, dominant in this setup (score: 0.95). The Workout Type 'drive' and Category tags ('Drive', 'row') point explicitly to rowing, aligned with high musical energy from the Pop and Global Hits station\u2014suitable for boosting performance indicative of HIIT (score: 0.85). The intensity level is 3/3, confirming a demanding session characteristic of high-intensity workouts. Other categories like Treadmill, Running, or Walking are not supported by the explicit rowing machine context. Therefore, there's strong confidence in Indoor Rowing and HIIT classifications."
+}

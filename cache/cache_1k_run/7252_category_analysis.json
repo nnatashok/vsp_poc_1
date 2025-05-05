@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is categorized under 'Indoor rowing' with a high score of 0.9 due to multiple explicit indicators in the metadata. The workout name 'Shifting Gears Row' and the description that includes phrases such as 'max effort intervals' and 'in rhythm' strongly suggest it's a rowing session on a rowing machine. Additionally, the tag 'row' and the fact that it's taking place in Newport Beach further support this classification.\n\nThe second category 'HIIT' is assigned with a score of 0.7, based on the mention of 'max effort intervals' which is typical of High-Intensity Interval Training. The intensity level being 3 out of 3 and the presence of high-energy music suggest an intense and vigorous workout, consistent with HIIT styles.\n\nOther categories like 'Mat', 'Body weight', or 'Weight workout' are excluded as there is no indication of exercises usually associated with these types, such as mat exercises or any form of weight lifting or calisthenics. The music playlist with bands known for high-energy rock supports the combination of rowing and HIIT by creating a motivating environment for such vigorous activity."
+}

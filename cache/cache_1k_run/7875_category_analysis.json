@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Mat",
+      "score": 0.2
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is primarily classified as 'Indoor rowing' with high confidence (score of 0.9) due to several indicators. The term 'Guided Row' in the title and 'row' as a category suggest a rowing workout. The description, mentioning a steady pace and navigation with guidance, aligns with indoor rowing traits. The specified pace of 'Max rhythm: 24' also suggests a rowing session typically monitored by strokes per minute, common in rowing formats.\n\nThe low score for 'Mat' (0.2) is due to the potential presence of some auxiliary exercises performed on a mat, but there is minimal explicit indication. The main focus on rowing justifies this category's inclusion predominantly.\n\nOther potential categories were considered but excluded: 'Yoga' and 'Stretching' are not applicable as the metadata focuses on pace and rowing-specific terms, which do not correlate with those activities. Additionally, the duration and the specified format do not indicate a high-intensity interval, ruling out 'HIIT.' Thus, the primary categorization as 'Indoor rowing' is the most appropriate with strong supporting evidence from the metadata."
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is classified as both 'HIIT' and 'Indoor rowing' based on multiple clear indicators in the metadata. The workout name 'Rhythm 30 HIIT Row' explicitly mentions HIIT (High-Intensity Interval Training), and the description specifies a format involving intervals of exertion and recovery, typical of HIIT workouts. Additionally, the use of a rowing rhythm and emphasis on exerting max pressure on the footboards imply the use of a rowing machine, categorizing it under 'Indoor rowing'. The high-intensity level (3 out of 3) further supports these classifications. Given the explicit information, the confidence level is very high at 0.9 for both categories. The use of rhythmic terms like 'rhythm 30' and musical playlist with high-energy global hits adds to the dynamic nature often seen in HIIT rowing sessions. No ambiguity or alternative categories are relevant based on the provided data."
+}

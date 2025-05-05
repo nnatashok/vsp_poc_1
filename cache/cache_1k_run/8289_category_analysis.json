@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout, titled 'Starting Line Row,' strongly suggests an indoor rowing session, supported by the description detailing intervals at a jog and run pace. The use of 'row' indicates rowing equipment and sessions, and the format 'Interval' aligns with typical interval training in rowing workouts, establishing 'Indoor rowing' as the primary category with a high confidence score of 0.9. The 'Workout Type' and 'Category' tags specifying 'breathe' suggest an emphasis on breathing, which justifies including 'Breathing exercises' as a secondary, though less dominant, category with a moderate score of 0.6. Despite the low intensity level and the presence of 'breathe,' the context of rowing intervals firmly classifies 'Indoor rowing' as the most relevant category rather than stretching, yoga, or meditation, which are not indicated by any metadata elements."
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Yoga",
+      "score": 0.9
+    },
+    {
+      "name": "Mat",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is primarily classified under 'Yoga' with very high confidence (score: 0.9) due to explicit indicators in the metadata, such as the title 'Yoga Flow', and the description mentioning 'Move through this flow'. The descriptor 'flow' and 'on-the-mat' suggest a yoga flow style, which is commonly associated with flowing sequences of yoga postures. The use of the term 'flow' directly ties it to a style of yoga practice.\n\nThe 'Mat' category is also applicable with a high score (0.7) as the workout takes place 'on the mat', with no equipment, and matches the general descriptor of exercises performed on a mat. The duration of approximately 21 minutes is typical for a mat-based yoga session rather than just floor exercises.\n\nThe music playlist with chill and downtempo tunes fits the ambient typically used in yoga sessions, further reinforcing the classification."
+}

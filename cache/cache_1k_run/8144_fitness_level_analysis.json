@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.7
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type is marked as 'Drive,' which, as per Hydrow's specific rule, indicates advanced technique difficulty. Additionally, the 'row' category restricts the technique difficulty primarily to 'Beginner' or 'Intermediate.' However, given the HIIT format and the intensity level of 3 out of 3, this workout requires a significant understanding of rowing mechanics and the ability to handle rapid transitions, supporting a strong alignment with 'Intermediate' and 'Advanced' technique levels.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    },
+    {
+      "level": "Extreme",
+      "score": 0.7
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is 11 minutes and 19 seconds long, indicating short duration, yet the HIIT format combined with a max rhythm of 32 and an intensity level of 3 out of 3 suggests very high energy expenditure. This means users need to work intensely without long rest periods, typical for 'Challenging' and 'Extreme' effort levels. Given the classification of the category 'Drive' and standard requirements for HIIT, we have strong alignment with these effort levels.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

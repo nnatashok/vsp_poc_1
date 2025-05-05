@@ -1,0 +1,26 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type is 'drive', which in Hydrow's classification system corresponds to a higher technique difficulty. This typically involves maintaining proper rowing form at higher intensity levels, necessitating good coordination and form. Since it is a rowing workout, the technique difficulty is capped at Intermediate as per Hydrow-specific rules.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.9
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout includes high-intensity intervals with a maximum rhythm of 32+. The description notes a focus on intensity and effort ('let go of frustration'), indicating a significant physical demand. The intensity level is stated as 3 out of 3, with a duration of over 11 minutes focused on high-intensity rowing and minimal rest, aligning with a Challenging effort level for deconditioned users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

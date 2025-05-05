@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Indoor rowing",
+      "score": 0.85
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is classified primarily under 'HIIT' with a very high confidence score of 0.9, due to explicit indicators such as 'HIIT Speed Row' in the workout name and 'Format: HIIT' in the description. This indicates a focus on high-intensity interval training. The short intervals and maximal rhythm of 32 further emphasize an intense and fast-paced workout, consistent with HIIT principles. Additionally, 'speed along during short intervals' supports the classification of high-intensity training. \n\nThe secondary category identified is 'Indoor rowing', with a high confidence score of 0.85. The term 'Speed Row' and category tags such as 'standard,row' suggest that the workout involves rowing, particularly on an indoor rowing machine. The intense nature of the workout aligns well with a rowing format, particularly when combined with descriptions like 'max rhythm' and 'drive.\n\nOther potential categories such as 'Elliptical' or 'Running' were excluded due to the lack of relevant equipment or activity-based keywords in the metadata."
+}

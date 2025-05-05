@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.2
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is classified under 'row' and 'drive' categories, which Hydrow rules dictate can only be Beginner or Intermediate for technique difficulty. 'Drive' workouts generally imply a focus on rhythm and intensity rather than complex movements, aligning with an Intermediate level. This is supported by the description mentioning rhythm shifts and max-effort intervals, suggesting the need for some coordination and body awareness, thus aligning with Intermediate technique.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.6
+    },
+    {
+      "level": "Extreme",
+      "score": 1.0
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout features max-effort intervals and is categorized under 'drive' with an intensity level of 3 out of 3. The 21-minute duration paired with the high rhythm (34+ strokes per minute) and intense music selections imply a high-energy expenditure. This suggests an Extreme effort difficulty, especially with the focus on max effort, but may also be challenging for less fit users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

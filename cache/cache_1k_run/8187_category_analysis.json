@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Stretching",
+      "score": 0.8
+    },
+    {
+      "name": "Yoga",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout, titled 'Tension Release', describes exercises focused on gently stretching the neck and back, aiming to relax and release tension in the body. This is consistent with stretching exercises, hence 'Stretching' is assigned with a high score of 0.8. The optional mention of yoga blocks and the relaxing music playlist featuring artists like Shawn Mendes and Yiruma suggest a possible yoga influence. However, due to the lack of explicit mention of yoga poses or meditation aspects, 'Yoga' is assigned a lower score of 0.6. The workout metadata, with a tag 'On The Mat', and description focusing on restoration and relaxation, strongly supports stretching as the primary focus, hence excluding categories like Pilates or Meditation. The overall classification has a high confidence level of 0.9 due to clear evidence in the description and lack of ambiguity in the intent of the workout."
+}

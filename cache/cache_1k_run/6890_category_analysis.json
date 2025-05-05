@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is classified primarily as 'Indoor rowing' with a high confidence level due to explicit references in the metadata. The workout name 'Weekly Conditioning Row' and tags such as 'row' clearly indicate rowing exercises on a machine. Additionally, the description mentions '3' intervals at a rhythm 26,' which aligns with structured rowing sessions aiming for endurance and conditioning.\n\nThe secondary category is 'HIIT,' derived from the description's emphasis on 'intervals,' a format typical of High-Intensity Interval Training. The intensity level of 2 out of 3 also supports this categorization as it implies a moderate to high level of physical exertion common in HIIT workouts. Thus, this category is given a score of 0.7.\n\nOther categories like 'Mat', 'Yoga', or 'Strength workout' were excluded due to a lack of supporting evidence in the metadata, as the focus is clearly on a rowing machine-based session supplemented by interval training."
+}

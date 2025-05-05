@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Mat",
+      "score": 0.8
+    },
+    {
+      "name": "Body weight",
+      "score": 0.7
+    },
+    {
+      "name": "Weight workout",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout was classified primarily under 'Mat' with a high score of 0.8 because of the explicit classification as 'On The Mat' in the description and the provided category. This suggests exercises performed on the floor, likely using a mat for comfort or support. Additionally, 'Body weight' was marked with a score of 0.7 as the workout focuses on exercises for glutes, legs, and core, typically involving body weight resistance and the use of a mini-band to enhance effectiveness. Lastly, 'Weight workout' garnered a moderate score of 0.5 as the use of a mini-band and foam roller implies added resistance, which is characteristic of resistance training, though not with traditional weights. The confidence level is high at 0.85 because the workout's description provided clear indicators about its nature and focus areas, matching well-defined exercise types."
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout titled 'Rainy Cardio Row' explicitly suggests it is a rowing workout, which aligns with the 'Indoor rowing' category. The description indicates a format of 'Interval,' which often involves rowing on a machine for cardio. The presence of intervals ('bump up your rhythm for short bursts') supports a high confidence score of 0.9 for 'Indoor rowing.' The category 'Breathe' and the workout type 'breathe' suggest a focus on 'Breathing exercises,' giving it a moderate confidence score of 0.6. The interval nature paired with a low intensity ('1 out of 3') indicates it is not a high-intensity workout, excluding HIIT as a category. The 'mat' category is excluded because there is no indication of floor exercises. Other categories like 'Meditation' or 'Yoga' are also excluded because they relate to mind-body practices not mentioned here."
+}

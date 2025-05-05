@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.6
+    },
+    {
+      "name": "Indoor rowing",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.65,
+  "categoriesExplanation": "The workout titled 'Climbing Intervals Warm-Up' implies an interval style training, which is indicative of HIIT, although the term 'climbing intervals' might suggest the use of an incline or similar feature, commonly associated with rowing machines or perhaps treadmills. The mention of the 'max rhythm: 30' also supports an interval focus, but lacks explicit linkage to cycling or elliptical, especially since no specific equipment is cited. Given the description is clear about preparing the body for 'any workout,' this reinforces a warm-up that's not solely linked to one specific exercise category. Therefore, the classification aligns with a potential rowing context as 'climb' can imply the stroke rate or resistance on a rower: HIIT receives a score of 0.6 due to the interval format; Indoor Rowing scores 0.5 as a possible context of the workout structure and term 'climb.' Overall, the classification maintains moderate confidence due to the lack of explicit equipment information and the general nature of 'warm-up.' Other categories, such as 'Elliptical' and 'Mat', were excluded due to the rhythmic climbing reference not aligning with their typical training modes."
+}

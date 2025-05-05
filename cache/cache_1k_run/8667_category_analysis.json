@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout titled 'Pyramid Row' explicitly mentions 'row' and 'pyramid', and the tag 'row' strongly indicates an 'Indoor rowing' workout. This is reinforced by the workout format, which involves a 'pyramid' structure commonly used in rowing exercises, suggesting varying intensity throughout the session at a 'jog pace' with a maximum rhythm of 24 strokes per minute. Despite the relaxed description, the use of a rowing machine is clear and central, assigning a high score of 0.8.\n\nThe 'Workout Type' is listed as 'breathe', and 'Category' includes 'Breathe', pointing to an emphasis on breathing techniques\u2014typical for 'Breathing exercises'. Additionally, with the workout's low intensity level (1 out of 3), breathing exercises may play an important role in achieving rhythmic control and pacing, justifying a score of 0.7. The playlist's rock and global hits music is suitable for maintaining a steady rhythm, supporting both rowing and controlled breathing, though the exact adjustment to breathing techniques during rowing is less emphasized in metadata."
+}

@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Foam roller",
+      "confidence": 1
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout description explicitly mentions using a \"foam roller to stretch major muscles in your back,\" indicating a very high confidence (1.0) that a foam roller is essential for performing the workout. The title, \"Essential Stretches for Your Back,\" further supports the focus on stretching, which typically involves the use of a foam roller in such exercises. \n\nThe category \"On The Mat\" and the image showing participants using mats provides strong evidence (0.9 confidence) that a mat is necessary for this stretching routine, as it helps to provide comfort and grip during floor exercises."
+}

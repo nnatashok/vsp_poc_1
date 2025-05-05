@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Pilates",
+      "score": 1
+    },
+    {
+      "name": "Mat",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The workout \"Core Burn Express Pilates\" clearly defines itself as a Pilates session, indicated by both the title and the workout type explicitly stating 'pilates'. The description suggests core-focused exercises typical of Pilates, which aligns with the primary techniques involving controlled movements and core strengthening. The 'On The Mat' and 'standard, on-the-mat' tags further reinforce the classification, suggesting exercises done on a mat, which is characteristic of both Pilates and general floor workouts. The absence of specific equipment also aligns more with Pilates, which can often be done without apparatus. Hence, Pilates is assigned a score of 1 for being the defining characteristic, while Mat receives a 0.7 as it has a noticeable but secondary presence."
+}

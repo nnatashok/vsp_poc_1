@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout is classified under 'Drive', which typically aligns with a higher technique complexity. According to Hydrow rules, for a row workout like this one, the technique difficulty can range from Beginner to Intermediate. The use of pyramid-style intervals that change in duration suggests some coordination is needed, indicating an Intermediate difficulty. However, rowing itself is straightforward, allowing a partial Beginner score, but the 'Drive' element increases overall complexity slightly.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.75
+    },
+    {
+      "level": "Extreme",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The 'Drive' workout type and a max rhythm of 32 indicate high intensity, consistent with the highest workout intensity level (3 out of 3). The duration of over 21 minutes and complex interval structure suggest significant energy expenditure, placing this workout at least in the Challenging category. The combination of these elements pushes the effort demand towards the Extreme, but given the audience, we classify it more firmly under Challenging with evidence of it bordering on Extreme for less conditioned users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

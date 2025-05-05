@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is strongly categorized as 'Indoor rowing' due to the presence of the word 'Row' in the workout name 'Power Pyramid Row', indicating the use of a rowing machine. Additionally, the format of 'Pyramid' in the description suggests varying levels of intensity which is characteristic of rowing workouts that build endurance and intensity over time. The 'Indoor rowing' category is assigned a high confidence score of 0.9 due to the explicit mention of a rowing format and style. The 'HIIT' category is also considered with a moderate score of 0.6 due to the format involving pyramids and rhythm changes, which aligns with interval training principles, although not explicitly stated as HIIT. The indication of increasing rhythm and intensity supports the inference of an interval-like structure. The workout intensity level of 2 out of 3 further supports activities with varying intensity but does not reach the high-intensity threshold definitively required for a pure HIIT categorization."
+}

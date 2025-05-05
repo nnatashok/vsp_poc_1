@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.8
+    },
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The video title 'High Energy HIIT Row' and description indicate a combination of High-Intensity Interval Training (HIIT) and rowing, making both categories very relevant. The mention of 'high-intensity intervals' clearly aligns with HIIT, scoring 0.8. The format 'Interval' also confirms this. Furthermore, the setting 'along the Charles River' suggests a virtual or simulated environment typical of indoor rowing workouts. The term 'Row' in the title and the category tags 'row' suggest that the workout is performed on a rowing machine (likely not outdoors due to the typical use of rowing machines in this context), scoring 0.8 for Indoor rowing. These two categories are explicitly supported by the metadata, indicating very high confidence in these classifications. Other categories such as 'Mat', 'Yoga', or 'Weight workout' are excluded due to the lack of any supporting evidence in this context."
+}

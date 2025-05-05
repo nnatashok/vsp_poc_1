@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is classified primarily as 'Indoor rowing' with a score of 0.9 due to explicit references in both the title ('Club 18 Row') and category ('row'). The description emphasizes a rhythm of 18, which aligns with rowing machine metrics. The format 'Interval' also suggests structured rowing sessions with varying intensities. 'Breathing exercises' are included with a score of 0.6 due to the workout type being listed as 'breathe' and the emphasis on efficiency and rhythm, which can often involve controlled breathing techniques. The low workout intensity level (1 out of 3) supports a less vigorous exercise that might focus more on breathing and endurance rather than speed or power. Categories like 'Mat', 'Yoga', and 'Stretching' were excluded as there is no mention of associated practice or equipment, and 'Indoor biking' and 'Elliptical' were excluded as no cycling or elliptical machines were mentioned."
+}

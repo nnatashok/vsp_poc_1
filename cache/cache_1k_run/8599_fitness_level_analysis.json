@@ -1,0 +1,26 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is categorized as a 'drive' in a rowing format, which suggests a higher level of technique complexity. The metadata refers to it as a 'high-intensity drive,' indicating movements that require experienced handling of the rowing machine, aligning with Intermediate proficiency. Despite the mention of 'Advanced' in user requirements, rowing exercises typically cap at Intermediate for technique unless there's involvement of more complex movement patterns not specified here.",
+  "effortDifficulty": [
+    {
+      "level": "Extreme",
+      "score": 0.9
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout is designed as a HIIT session with a max rhythm of 30 and categorized as a 'drive' with the highest intensity level (3 out of 3). Such high-intensity interval training tasks are extremely taxing and demand significant cardiovascular and muscular endurance, justifying an Extreme effort difficulty classification.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

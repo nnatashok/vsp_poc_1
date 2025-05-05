@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Pilates",
+      "score": 1.0
+    },
+    {
+      "name": "Mat",
+      "score": 0.8
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The metadata for the workout video titled 'Core Burn Express' explicitly categorizes it as a 'pilates' session, which is supported by the direct mention of pilates in both the workout description ('quick, efficient pilates session') and the 'Workout Type'. This clear alignment justifies assigning a high score of 1.0 to the 'Pilates' category. Additionally, the presence of 'On The Mat' indicates that the exercises are likely performed on an exercise mat, aligning well with the 'Mat' category. Although 'standard,on-the-mat' could suggest standard mat exercises, the direct link to pilates makes 'Mat' a secondary category with a score of 0.8. The energetic music playlist featuring dance and global hits suggests an engaging, but not intensive, pace, supporting a Pilates-mat combination rather than a high-intensity workout like HIIT. The absence of any other equipment-specific indications further reinforces that 'Pilates' and 'Mat' are the most appropriate categories."
+}

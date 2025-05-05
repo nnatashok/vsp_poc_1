@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is classified primarily as \"Indoor rowing\" with a high score of 0.9 because the metadata explicitly indicates that it involves holding a sprint pace on a 'row' machine and is structured as an interval workout. Terms like \"sprint pace,\" \"intervals,\" and \"format: Interval\" suggest that the exercise is conducted on a rowing machine with a focus on high-intensity intervals, hence supporting the \"Indoor rowing\" category. \n\nAdditionally, the workout qualifies for the \"HIIT\" category with a score of 0.7 due to its interval format and intensity level. It involves intervals with a 90-second sprint pace followed by a max pace push, aligning with the key characteristics of high-intensity interval training. The workout intensity level rated at 3 out of 3 further emphasizes its high-intensity nature.\n\nOther categories like \"Mat,\" \"Running,\" or \"Walking\" were not considered due to the specific focus on rowing and interval-based high-intensity exercises."
+}

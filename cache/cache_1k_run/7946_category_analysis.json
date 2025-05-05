@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 1
+    },
+    {
+      "name": "HIIT",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category selected is 'Indoor rowing' with a high confidence level (score 1.0) due to explicit references in the metadata. The workout name 'Efficient Speed Row' and the description mentioning 'stroke' and 'technique focused workout' clearly indicate a rowing workout. Additionally, the 'Format: Technique' and categories such as 'row' further confirm the primary focus on rowing. The secondary category is 'HIIT', assigned with a lower confidence level (score 0.4). This choice is based on the elements of intensity and rhythm (max rhythm: 32) which suggest a structured interval training aspect, common in HIIT, designed to increase speed and cardiovascular engagement. However, since the primary focus is technique and rowing-specific, the inclusion as a core HIIT workout is less certain, leading to a lower score."
+}

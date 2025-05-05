@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Pilates",
+      "score": 0.9
+    },
+    {
+      "name": "Mat",
+      "score": 0.8
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is explicitly stated to be a 'Whole Body Pilates' class, which aligns perfectly with the 'Pilates' category. The use of the term 'circuit style pilates workout' in the description and the tagging as 'pilates' reinforce this classification, justifying a high score of 0.9 due to very high confidence from multiple explicit indicators.\n\nAdditionally, the workout is described to take place 'On The Mat,' and there is a significant emphasis on being on the mat in the tags and the absence of specified equipment. This supports classifying it under the 'Mat' category as well, with a score of 0.8, acknowledging it as a strong component of the workout environment.\n\nThe absence of specified equipment and the fact that this is a body-oriented workout align more with 'Pilates' and 'Mat' categories rather than any equipment-intensive workouts like 'Weight workout.' Other categories like 'Yoga' are not fitting due to direct mention of Pilates, and music choices don't influence this categorization strongly since they seem more about workout motivation."
+}

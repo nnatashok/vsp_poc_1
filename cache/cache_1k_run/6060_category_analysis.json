@@ -1,0 +1,10 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout video titled 'Steady Cool-Down' explicitly involves rowing, as indicated in the description 'row steadily down the Charles River.' Additionally, the format is listed as 'Steady,' supporting a consistent, less intense rowing activity typical of a cool-down session. The workout type explicitly includes 'cool down,' implying a lower intensity, which is consistent with rowing. The metadata categorizes it as standard rowing, and there is no specific indication of elliptical, HIIT, indoor biking, or other categories. The equipment section, although empty, centers the activity on rowing due to the context provided. Combining these strong indicators from the metadata leads to a high confidence level of 0.9 for classifying this workout under 'Indoor rowing.' Other potential categories like Stretching or Yoga are excluded due to a clear focus on rhythmic, steady rowing rather than flexibility or mindfulness exercises."
+}

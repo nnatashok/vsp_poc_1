@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.9
+    },
+    {
+      "level": "Advanced",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout 'HIIT Row' is primarily rowing-based with intervals designed to elevate heart rate, as indicated by the description and format. With 'Drive' being specified as a workout type, it is aligned with Hydrow's rule for potentially higher difficulty levels within rowing workouts. However, the technique within a rowing context is generally considered Beginner to Intermediate, as rowing doesn't require complex technical skills. Given the interval training and high rhythm (max 32), it leans toward Intermediate for proper coordination and form maintenance. With an 'Advanced' fitness requirement, there is possible alignment with an applicable higher technique level, thus rating Intermediate as 0.9 and Advanced at 0.6.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    },
+    {
+      "level": "Extreme",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout is classified as high-intensity with intervals of 30, 45, and 60 seconds targeted at elevating the heart rate, and is part of the 'Drive' format emphasizing increased difficulty. With an intensity level of 3 out of 3 and a duration of over 11 minutes, this pushes the workout into the 'Challenging' category as it is designed to be physically demanding. Given its structure and maximum rhythm of 32, it's plausible that less fit users would struggle, nudging it toward 'Extreme' for such individuals, hence scoring Challenging at 0.8 and Extreme at 0.5.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

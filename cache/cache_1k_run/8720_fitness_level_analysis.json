@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type is 'row' and listed under the 'breathe' and 'standard' categories, which typically indicates beginner to intermediate technique difficulty. The max rhythm of 26 signifies a steady pace rather than technical or varied movement patterns. Given the basic nature of rowing and the absence of advanced rowing techniques mentioned, the technique difficulty is predominantly Beginner, with a slight alignment to Intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout duration is 16 minutes and 26 seconds, with an intensity level rated 1 out of 3, implying a low to moderate energy demand suitable for a less intense effort. The 'breathe' format and steady max rhythm further suggest lighter effort, although the climbing format might slightly increase energy expenditure.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

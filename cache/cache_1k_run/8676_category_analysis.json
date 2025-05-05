@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.85
+    },
+    {
+      "name": "Body weight",
+      "score": 0.45
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout title 'Instructional: Arm Focused' and the description 'Learn how to get the most speed and efficiency on your stroke with James' heavily imply that the workout involves indoor rowing, as the term 'stroke' is commonly associated with rowing. The mention of 'Max rhythm: 24' could refer to the strokes per minute on a rowing machine, further supporting the indoor rowing classification. The category and tags related to 'standard' and 'row', along with no specific equipment mentioned, strengthen the assignment of 'Indoor rowing' with a score of 0.85 due to very high confidence in relation to the metadata provided that signifies an indoor rowing focus.\n\nAdditionally, the tag 'warm-up' and the absence of any free weights or machines suggest a possible reliance on body exercises during the session, leading to a secondary classification as 'Body weight'. This is marked with a lower score of 0.45, indicating a moderately inferred presence, primarily because of the less direct relevance to the arm-focused instructional aspect of the workout. Other categories like HIIT or Weight workout are excluded due to the lack of high intensity or specific weightlifting indicators."
+}

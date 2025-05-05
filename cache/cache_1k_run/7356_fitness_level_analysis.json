@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Advanced",
+      "score": 0.7
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is classified as 'Drive' in the metadata, which, according to Hydrow-specific rules, typically requires an Advanced level of technique difficulty. Although 'row' workouts generally cap at Intermediate difficulty, 'Drive' nuances involve a higher degree of technique due to intervals and heightened intensity, as denoted by the max rhythm of 32 and the specified intensity level of 3 out of 3.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.6
+    },
+    {
+      "level": "Extreme",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout features a high-intensity interval training (HIIT) format lasting over 20 minutes, with intervals described as 'attacks'. The prescribed max rhythm of 32, combined with the 3 out of 3 intensity level, suggests a significant energy consumption that aligns with a Challenging effort level, although the conditioning required might verge into Extreme for less fit users, warranting a minor score in that category.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

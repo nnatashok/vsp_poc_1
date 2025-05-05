@@ -1,0 +1,26 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Advanced",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is classified under the 'drive' workoutType, which according to Hydrow-specific rules automatically categorizes the Technique Difficulty as Advanced. This is due to the nature of drive workouts requiring intense focus on rowing form and cadence alterations, as indicated by the description's emphasis on dynamic rhythm adjustments ('starting five splits above your goal average and gradually lowering throughout').",
+  "effortDifficulty": [
+    {
+      "level": "Extreme",
+      "score": 0.9
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The Effort Difficulty for this workout is at an Extreme level. Though the duration is under 20 minutes, the description highlights a 'closest simulation to your ultimate 20-minute test', and utilizes phrases like 'Embrace the challenge', which imply high intensity. The workout requires maintaining a consistent but demanding pace ('Max rhythm: 30') with an intensity level of 3 out of 3, necessitating significant physical exertion from participants.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

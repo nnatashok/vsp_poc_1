@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is named \"Wildlife Facts Row,\" and the usage of the word 'Row' in the name, along with the category 'row', strongly indicates that rowing is the central activity. Furthermore, the description mentions 'climbing in rhythm,' which typically involves a rowing sequence. The inclusion of 'row' in the category type solidifies the need for a rowing machine. The image also shows a rowing activity, reinforcing this conclusion. Therefore, the confidence score for needing a rowing machine is very high at 1.0."
+}

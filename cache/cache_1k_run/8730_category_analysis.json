@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout 'Transitions Down Row' is mainly classified as 'Indoor rowing' with a high confidence level (score: 0.9). The title explicitly mentions 'Row,' and the description emphasizes transitions in rhythm and power, which align closely with rowing mechanics. Additionally, the category metadata includes 'row,' reinforcing this classification.\n\nA secondary classification is as 'HIIT' with a moderate-to-high confidence level (score: 0.7). The workout is described as having a 'maximum rhythm of 32' and being formatted as 'Intervals,' which are key characteristics of High-Intensity Interval Training. The intensity level is 3 out of 3, indicating a very intense workout, consistent with HIIT principles.\n\nOther categories like 'Elliptical' or 'Indoor biking' were not considered relevant, as there is no mention of the respective equipment or exercise format. The absence of calming or meditative elements excludes categories like 'Yoga' or 'Meditation.' The music genre and playlist, featuring high-energy pop songs, further supports a high-intensity workout classification."
+}

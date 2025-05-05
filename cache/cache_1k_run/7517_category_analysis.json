@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is clearly an 'Indoor rowing' session, as evidenced by the title 'Running + Sprinting Pace Row' and the mention of 'row' in the workout category. The format described as 'Intervals' and the emphasis on increasing rhythm and effort further support this classification, indicating a structured pacing typically seen in rowing workouts. The workout's description, which involves '2.5-minute intervals,' aligns with High-Intensity Interval Training (HIIT) principles, suggesting alternating intense rowing with recovery periods, hence the secondary categorization. The intensity level noted as '2 out of 3' further supports a somewhat high-intensity session, although it is not maximal. Other categories were excluded as there is no mention of other specific exercises or equipment that would fit them, and 'Running' does not apply given the rowing context."
+}

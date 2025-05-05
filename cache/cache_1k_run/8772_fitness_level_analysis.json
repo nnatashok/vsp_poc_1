@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout type is classified as a 'drive' in Hydrow's specific categorization, which defaults to an Intermediate technique difficulty. While the rowing activity typically does not exceed an Intermediate level in complexity, the 'drive' indicates that the level of coordination and body awareness required is higher due to potentially varied rhythms and rhythms that require quick response to changes.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.7
+    },
+    {
+      "level": "Extreme",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout is a HIIT format with a 'drive' category setting, indicated with the highest intensity level of 3 out of 3. The short duration (11 min 25 sec) combined with high-intensity intervals, and a max rhythm of 34 suggest that the effort required is on the higher end of 'Challenging.' The inclusion of high-energy music further implies a fast-paced, vigorous effort, making the workout demand significant for less fit users, bordering on 'Extreme' for those in poor physical shape.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

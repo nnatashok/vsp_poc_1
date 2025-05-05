@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.95
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is titled 'Steady Row' and takes place over three 15-minute low-intensity pieces. It falls under the category 'breathe, standard, row,' explicitly identifying rowing as the central activity. Given the category type includes 'row,' a rowing machine is necessary for performing the workout effectively. Additionally, the metadata does not list any other equipment, reinforcing that the focus is on rowing. Based on this information, the confidence score for requiring a rowing machine is very high at 0.95."
+}

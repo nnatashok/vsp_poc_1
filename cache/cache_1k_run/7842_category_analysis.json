@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Mat",
+      "score": 0.8
+    },
+    {
+      "name": "Body weight",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary category assigned is 'Mat' with a score of 0.8. This is because the workout takes place 'On The Mat', as indicated both in the provided 'Category' and the workout description which describes a series of exercises typically performed on a mat, including core exercises, squats, and lunges. The mention of 'Yoga blocks optional' implies that the exercises could be modified for support, which is common in mat-based workouts.\n\nThe secondary category is 'Body weight' with a score of 0.6. This is supported by the description featuring movements like squats and lunges, which are body-weight exercises focusing on lower body and core strength. The workout type is explicitly stated as 'strength', further supporting the classification, though no specific weights are mentioned, it suggests reliance on body weight.\n\nThe high categories confidence of 0.9 reflects the clear indicators present in the title, description, and category tags which provided strong evidence for these classifications."
+}

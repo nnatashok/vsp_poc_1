@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 1
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    },
+    {
+      "name": "Other",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout video titled 'Legends + Myths Row' strongly suggests that this is an 'Indoor rowing' session due to the inclusion of the term 'Row' in both the title and category tags (drive, standard, row), indicating a central focus on the rowing machine. The intensity level being '3 out of 3' and format specified as 'HIIT' indicate a High-Intensity Interval Training, justifying the assignment of the 'HIIT' category with a moderate score of 0.7. Although rowing is the central theme, elements like diverse music tracks and storytelling ('learn more about Prague through legends and myths') suggest a unique or thematic aspect which mildly justifies an 'Other' category at a lower score of 0.3, acknowledging the narrative elements and music choice that might distinguish it from a typical rowing workout. The overall confidence is high (0.9) due to explicit mentions and consistent metadata supporting the main categories identified."
+}

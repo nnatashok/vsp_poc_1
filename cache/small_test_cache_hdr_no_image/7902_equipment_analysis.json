@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 0.95
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout is named 'Weekly Stories Row', and the category includes 'row', which strongly implies the use of a rowing machine. Additionally, the description refers to rowing specifically ('Row with Nick'), indicating that the exercise involves a rowing motion, which is typically performed using a rowing machine. The confidence score for the rowing machine is very high (0.95) because the rowing machine is explicitly central to the workout given its name and description. The absence of other equipment mentions in the metadata further supports this conclusion, suggesting that the rowing machine is the only required equipment."
-}

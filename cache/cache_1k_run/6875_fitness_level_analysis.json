@@ -1,0 +1,26 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', and per platform guidelines, this suggests a default Technique Difficulty of Beginner or Intermediate. The absence of complex movements or any special equipment use confirms a Beginner level technique. Keywords like 'power' and 'endurance' imply a focus on intensity over complexity, supporting this classification.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout involves high-intensity '90\" and 60\" intervals' with a max rhythm of 28, which indicates a significant energy expenditure, suitable for an interval-style. Despite the 11-minute duration, the intensity level of '2 out of 3' points to a Challenging effort difficulty, especially given the interval training format designed to enhance power and endurance.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

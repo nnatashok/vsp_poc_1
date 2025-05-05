@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout category is 'row', which typically suggests a Beginner or Intermediate technique difficulty. With a steady format and emphasis on balance and rhythm rather than complex movement patterns, the technique difficulty leans towards Beginner. The absence of cues for complex technical elements confirms this, alongside the user requirements indicating a level suitable for Beginners, reducing the likelihood of an Intermediate classification.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.6
+    },
+    {
+      "level": "Moderate",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is 21 minutes long with a max rhythm of 22 in a steady format marked with a low intensity level (1 out of 3), suggesting it is not very demanding. This positions the effort level predominantly at Light. The presence of a rhythm requires moderate control, which edges it slightly towards Moderate, but the intensity cues (1 out of 3) largely support a Light classification.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

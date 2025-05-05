@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Stretching",
+      "score": 0.8
+    },
+    {
+      "name": "Mat",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.8,
+  "categoriesExplanation": "The workout is titled 'Post-Row Recovery' which indicates a recovery focus typically involving stretching and mobility. The description reinforces this with specific mentions of stretching and focusing on mobility exercises for hips, hamstrings, glutes, and adductors. The mention of optional use of a resistance band suggests light exercises typical in stretching routines. \n\nThe 'Category' metadata includes 'On The Mat,' aligning with mat-based exercises, which often involve stretching or mobility.\n\nGiven these details, 'Stretching' is chosen as the primary category with a score of 0.8 for its strong presence in the description and purpose of the workout. 'Mat' is assigned a supplementary category with a score of 0.6 because the exercises are performed on a mat and the 'on-the-mat' tag was specifically mentioned, although the stretching aspect is more central."
+}

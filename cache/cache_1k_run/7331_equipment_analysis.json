@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout metadata describes 'Boat Movers Row' as being focused on rowing, specifically mentioning the category 'row'. The title 'Boat Movers Row' and the description both suggest exercises centered around rowing movements, emphasizing leg and core technique. Since the category includes 'row', it's explicitly designed around rowing. Therefore, a 'Rowing machine' is required for this workout, assigned with very high confidence (1.0), as it is integral to the nature and execution of the workout. The presence of imagery related to rowing further supports this classification."
+}

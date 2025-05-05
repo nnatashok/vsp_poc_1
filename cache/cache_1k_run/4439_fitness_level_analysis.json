@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is classified under 'row', which by rule can only be rated as Beginner or Intermediate for technique difficulty. Given the 'sweat' workout type and the metadata 'standard, row,' the technique involves basic rowing but may involve slightly more coordination due to the 'Climb' format and rhythm synchronization with the instructor. This leads to a high Beginner score due to ease of rowing and a moderate Intermediate score for rhythm complexity.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout type is 'sweat', paired with a maximum rhythm of 28 strokes per minute and a duration of just under 22 minutes. The intensity level is 2 out of 3, suggesting moderate exertion. The 'Climb' format suggests varying intensity, aligning with a Moderate effort difficulty. The rhythm and duration further elevate this effort, supporting a moderate Challenging rating for less fit users due to sustained rowing without rest.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

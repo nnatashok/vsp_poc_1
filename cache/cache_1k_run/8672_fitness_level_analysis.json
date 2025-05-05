@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.2
+    },
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'drive', which is a Hydrow-specific classification indicating a technically demanding row, typically at least Intermediate. The use of 'drive' and a high rhythm of 32 strokes per minute further supports this categorization as requiring significant but manageable technical skill for rowers.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.3
+    },
+    {
+      "level": "Challenging",
+      "score": 0.7
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is relatively short (11 minutes) but includes the 'drive' workout type, indicating high intensity. The intensity level of 3 out of 3 and focus on accumulating maximum meters implies a high cardiovascular and muscular output suitable for 'Challenging' effort difficulty, especially given its short duration limiting extreme classification.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

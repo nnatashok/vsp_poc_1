@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.95,
+  "techniqueDifficultyExplanation": "The workout type is 'Drive', indicating a conditional focus on technique due to driving power during rowing intervals. These are key for strong, explosive strokes in rowing, highlighting the importance of proper form. With rowing and the category specified as 'row', this places Technique Difficulty firmly at Intermediate, following platform-specific rules that consider rowing technique as either Beginner or Intermediate, peaking here due to its Drive nature.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.7
+    },
+    {
+      "level": "Extreme",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is classified as HIIT and has an intensity level of 3 out of 3, but is relatively short at 11 minutes, which points to a high-intensity demand but not prolonged extreme exertion. The format involving intervals of 60, 45, and 30 seconds will require bursts of energy, aligning more so with Challenging, but carefully toeing into Extreme, due to both pace and type of workout (Drive).",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

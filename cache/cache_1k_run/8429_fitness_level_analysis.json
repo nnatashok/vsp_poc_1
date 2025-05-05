@@ -1,0 +1,26 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Advanced",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized as a 'drive', which, according to Hydrow-specific rules, means the technique difficulty is categorized as 'Advanced'. This is because 'drive' workouts typically involve complex rowing techniques that require good coordination and body awareness. Furthermore, the 'Racing Mindset Row' implies a focus on speed and competitive pacing, potentially increasing the complexity of the workout.",
+  "effortDifficulty": [
+    {
+      "level": "Extreme",
+      "score": 0.8
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The effort difficulty is classified as 'Extreme' due to multiple factors. The workout is a HIIT format with a max rhythm of 32, suggesting high intensity and energy expenditure. The duration of over 21 minutes, coupled with the workout being marked as level 3 (maximum intensity), indicates that it is physically demanding. Moreover, the description 'Ignite your legs and lungs' signals significant physical exertion.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

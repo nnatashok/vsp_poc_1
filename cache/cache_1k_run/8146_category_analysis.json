@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.5
+    },
+    {
+      "name": "Other",
+      "score": 0.2
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category assigned is 'Indoor rowing' with a high score of 0.9. This is supported by the workout name 'Steady Progression Row' and the description focusing on rowing techniques (\"row steadily between 20 and 24 strokes per minute\"). Additionally, the format 'steady' and the mention of a rowing pace indicate a rowing workout. 'Breathing exercises' is included with a score of 0.5 due to the 'breathe' tag in the workout type, suggesting an emphasis on breathing techniques alongside rowing. However, this is a secondary aspect to the rowing exercise itself. The 'Other' category is considered at 0.2 to account for any unique elements that might not be captured entirely by the main categories, as the workout might integrate some non-standard elements implied by the metadata."
+}

@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout classification as a 'drive' in the rowing category limits the technique difficulty to either Beginner or Intermediate by definition, aligning with the Hydrow-specific rules. The description indicates high-intensity intervals, suggesting a moderately complex execution requiring good coordination and form, justifying the Intermediate classification. ",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    },
+    {
+      "level": "Extreme",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout duration of approximately 31 minutes and an intensity level of 3 out of 3 indicate significant physical demand. The interval format with high-intensity cues further increases energy expenditure. This fits solidly into the Challenging range with some indicators of Extreme effort for less conditioned users. Additionally, a max rhythm of 30 aligns it with considerably high energy output, suggesting substantial physical exertion.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

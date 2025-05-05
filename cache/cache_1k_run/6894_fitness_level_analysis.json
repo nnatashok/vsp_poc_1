@@ -1,0 +1,26 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Advanced",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "This workout falls under the 'Drive' category, which according to Hydrow-specific rules, defaults to an Advanced Technique Difficulty. While rowing generally involves simpler movements, the 'Drive' type indicates high coordination and skill, particularly during sprint intervals, which require precise technique to maintain efficiency at high speeds. Given the 'Interval' format, it implies varied pacing and technique, further supporting an Advanced classification.",
+  "effortDifficulty": [
+    {
+      "level": "Extreme",
+      "score": 0.9
+    }
+  ],
+  "effortDifficultyConfidence": 0.95,
+  "effortDifficultyExplanation": "The workout is designed to build 'anaerobic capacity,' implying high-intensity energy expenditure. It is 21 minutes long, suggesting intervals of high exertion given the workoutType and the intensity level rated at 3 out of 3. The music pace and titles like 'Big Energy' and 'Take Control' indicate a fast tempo, supporting an Extreme Effort Difficulty due to likely short recovery periods and maximum intensity intervals. Hydrow's 'Drive' label also suggests an inherently demanding session.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

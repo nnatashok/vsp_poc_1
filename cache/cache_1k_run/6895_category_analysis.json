@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.7
+    },
+    {
+      "name": "Mat",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.72,
+  "categoriesExplanation": "The workout is titled 'Instructional: Power at Low Rhythms' and mentions generating power, which is closely associated with rowing workouts that emphasize strength and technique at a slower stroke rate. The metadata categorizes it under 'row,' which strongly indicates an indoor rowing workout, leading to a high confidence score of 0.7 for 'Indoor rowing'. However, given that it is labeled as a 'warm-up' and no specific rowing machine is mentioned, there is a slight chance it could involve preparatory or technique exercises done on the floor without equipment, hence the inclusion of 'Mat' with a lower confidence score of 0.4. This category acknowledges the possibility of groundwork or instructional segments typically performed on a mat, especially given the short duration of under 6 minutes. The focus on power generation supports the emphasis on rowing-specific techniques rather than general cardio or fitness categories like HIIT or Weight workout. The absence of specific music-related metadata limits its influence but suggests a general upbeat and motivational atmosphere aligning with rowing ambiance."
+}

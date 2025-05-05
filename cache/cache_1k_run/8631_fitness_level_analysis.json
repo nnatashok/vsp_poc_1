@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The technique difficulty for this workout is classified primarily as Beginner due to the core categorization as a 'row' workout, which suggests a limited range of movement complexity. Rowing basics, particularly with a pyramid format, usually involve basic rowing strokes, aligning with the lower end of the technique spectrum. However, as the max rhythm is 26, which indicates a moderately increased stroke rate, a small alignment with Intermediate is considered.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The effort difficulty is primarily classified as Light due to the 'breathe' workout type and the low intensity rating of 1 out of 3, suggesting low energy demands. The 21-minute duration and the consistent pacing align with a gentle approach meant to maintain a steady rhythm without intensity peaks. Some aspects, such as the double pyramid format and moderate rhythm, slightly push towards Moderate, albeit not significantly.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

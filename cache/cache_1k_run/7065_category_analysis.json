@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary evidence for classifying this workout as 'Indoor rowing' is the title 'Gradual Climb Row' and the repeated references to 'row' and 'climb' in the metadata. The 'rhythm' indicating beats per minute adjustments suggests the structured, controlled environment typical of rowing workouts, hence warranting a high score of 0.9. The secondary classification as 'HIIT' is based on the description of changing rhythms and maintaining a fast run pace, which aligns with interval training characteristics. The workout intensity level of 2 out of 3 further supports a dynamic cardiovascular workout, although not at the highest intensity, hence a moderate HIIT classification with a score of 0.6. The absence of explicit high-intensity indicators slightly lowers confidence, but multiple implicit indicators justify this additional categorization. Other potential categories like 'Treadmill' or 'Running' are excluded due to specific rowing references, and the structured intervals disqualify yoga or stretching categorizations."
+}

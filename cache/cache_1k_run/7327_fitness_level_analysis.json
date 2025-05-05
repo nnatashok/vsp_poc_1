@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 1
+    },
+    {
+      "level": "Advanced",
+      "score": 0
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type is marked as 'drive', which according to Hydrow-specific rules, is classified as 'Advanced'. However, since the category is primarily 'row', within the Hydrow platform, technique difficulty can only be 'Beginner' or 'Intermediate'. Given the standard format and focus on power, 'Intermediate' is the highest applicable level here with a 1.0 score, as no additional advanced techniques are indicated beyond usual rowing.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.75
+    },
+    {
+      "level": "Extreme",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout duration of over 31 minutes, combined with a format designed to build 'power, endurance, and speed' and a max rhythm of 32, suggests a very high effort requirement. The intensity level is 3 out of 3, defined by the platform, indicating a more challenging score. Therefore, this workout is rated as 'Challenging' (0.75) and could tilt towards 'Extreme' (0.5) for less fit users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

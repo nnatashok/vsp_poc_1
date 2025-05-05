@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.8
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary category assigned is 'Indoor rowing' with a high confidence score of 0.9. This decision is driven by the metadata's explicit mention of 'row' in the workout name ('HIIT Row'), description ('15 strokes at the top of every minute'), and category ('Drive,standard,row'), clearly indicating rowing activity. The workout is performed in intervals, evident from the described format of HIIT ('Format: HIIT'), justifying the inclusion of the 'HIIT' category with a score of 0.8. Although it's high-intensity interval training, the rowing aspect remains predominant. The workout format and repeated emphasis on 'strokes' further solidify these classifications. The absence of other equipment or inclusion of other workout types prevents classification into any additional categories."
+}

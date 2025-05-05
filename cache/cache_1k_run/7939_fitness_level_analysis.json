@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which limits Technique Difficulty to Beginner or Intermediate. Given the 'breathe' workout type, it suggests a focus on rhythmic and calming movements, likely straightforward rowing strokes. The lack of specified complex movements or equipment further supports a Beginner level. There is a slight possibility for Intermediate due to the 'pyramid' format, but not enough evidence suggests significant complexity beyond basic rowing.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The 11-minute duration with a 'breathe' format and an intensity level of 1/3 points to a Light Effort Difficulty. The use of the term 'breathe' aligns with less physically demanding activity, and 'PYRAMID' refers to a gradual increase and decrease in effort, which might suggest slightly more exertion, aligning it partly with Moderate Effort. However, the short duration and low reported intensity favor a dominant Light effort classification.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

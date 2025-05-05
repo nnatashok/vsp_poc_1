@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.1
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is a rowing session with a 'breathe' focus, indicating a relaxation and form emphasis rather than complex movement. The keywords 'steady', 'breathe', and absence of advanced technique cues suggest a simple rowing pattern. As per Hydrow's rules, row workout technique difficulty is naturally capped at Intermediate. Here, the simplicity and pace (rhythms 20 to 24) align closely with a Beginner category.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout duration is 11 minutes and 20 seconds, marked with an intensity level of 1 out of 3, indicating minimal physical demand. Keywords like 'cruise' and the appreciate focus on mindfulness ('steady' and 'breathe') support this light intensity classification. These factors collectively align with a Light effort difficulty, though the marginal increase to a 24 rhythm may slightly edge towards Moderate.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

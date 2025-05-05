@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is classified under 'row', which limits the Technique Difficulty to either Beginner or Intermediate. The description mentions 'climbing in rhythm', which suggests some coordination but not beyond the Beginner or Intermediate level. No complex movements or equipment usage are indicated, supporting a strong Beginner classification.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.6
+    },
+    {
+      "level": "Moderate",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout has an intensity level of 1 out of 3, indicative of a lighter effort. Its duration of 21 minutes with intervals and a maximum rhythm of 26 suggests low-to-moderate energy expenditure. The breathe format and calm music genre reinforce a lighter effort classification, suitable for beginners, with some possibility of Moderate alignment for deconditioned users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

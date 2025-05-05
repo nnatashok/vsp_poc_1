@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is explicitly categorized under 'row,' indicating that a rowing machine is required. This is further supported by the description 'Take two strokes with greater effort and two strokes with low effort,' which is a typical rowing activity. The very high confidence score is due to the clear mention of rowing-related actions and the category assignment. The image also shows a rower, reinforcing the need for a rowing machine."
+}

@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout, categorized as a 'row' type, generally involves straightforward rowing techniques that align with a Beginner difficulty. The metadata indicates a 'breathe' workout, typically designed for more relaxed and rhythm-focused activity, further supporting that the movements are simple with minimal coordination required. However, the 'climb' format might introduce a slight complexity, accounting for a low Intermediate score. Overall, simplicity and rhythm-based structure strongly suggest a Beginner level.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout lasts 16 minutes and is described as 'breathe' with a 'climb' format, indicating a low to moderate energy requirement. The intensity level is 1 out of 3, suggesting a less physically demanding session appropriate for deconditioned users. The music genres played are mid-energy, which complements the light to moderate effort required for maintaining rhythm in rowing. Thus, the effort difficulty is primarily categorized as Light, with some potential for moderate exertion.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

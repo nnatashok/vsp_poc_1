@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Blocks",
+      "confidence": 0.3
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is a 'Power Yoga Flow,' which typically requires a mat for performing yoga poses comfortably on the ground. The category 'On The Mat' further implies that a mat is essential, resulting in a very high confidence score of 0.9. The description mentions that \"yoga blocks optional,\" indicating that blocks are not essential but could be useful for participants who need additional support or modification, leading to a low confidence score of 0.3 for blocks."
+}

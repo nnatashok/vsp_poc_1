@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.0
+    }
+  ],
+  "techniqueDifficultyConfidence": 1.0,
+  "techniqueDifficultyExplanation": "The workout category includes 'row', which limits the Technique Difficulty to either 'Beginner' or 'Intermediate'. As it is described as a 'breathe' workout with a low-intensity level (1 out of 3) and involves rhythm shifts with steady intensity, it suggests simple, repetitive rowing with minimal complexity, thus clearly aligning with 'Beginner' (score: 1.0). There are no elements suggesting coordination beyond basic rowing, so 'Intermediate' does not apply.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.2
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The 'Pitter Patter Row' consists of a brief 11-minute session categorized under 'breathe' with rhythm shifts at a consistent and low intensity of 1 out of 3. This implies a gentle, low-energy rowing session. Given the duration, minimal volume, and documented low intensity, it is best classified under 'Light' effort (0.8). A small possible increase in effort due to rhythm shifts results in a minor 'Moderate' scoring (0.2), but the workload is not significantly challenging.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

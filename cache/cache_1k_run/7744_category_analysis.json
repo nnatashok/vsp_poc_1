@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout 'August Race: Week 2 of 5' is classified primarily as 'Indoor rowing' with a score of 0.9 due to explicit indicators present in the title and description. The use of terms such as 'Race', 'Explode with power and speed', and 'pieces with Mac' suggests an indoor rowing regimen. The metadata provides further evidence with mentions of 'drive', 'standard', and 'row' in the 'Category' section, implying a structured rowing workout with a focus on power and rhythm, confirmed by specifying a 'Max rhythm: 30'. The intensity level of 3 out of 3 supports the classification within the rowing context.\n\nAdditionally, there is a secondary classification as 'HIIT' with a score of 0.6. This is due to the workout's format involving alternating intensities ('5-minute pieces' followed by 'a final 1-minute effort'), which is characteristic of High-Intensity Interval Training (HIIT). The description of explosive efforts at varied time intervals aligns with typical HIIT workouts. The playlist featuring energetic dance tracks complements the intensity and pacing typical for such a workout format. The absence of explicit mention of 'rowing machine' or ergometer prevents a higher confidence score."
+}

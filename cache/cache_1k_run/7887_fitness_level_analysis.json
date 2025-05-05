@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is a rowing session, categorized under 'standard,row', which directly correlates to Hydrow's technique difficulty rules where rowing movements are classified as Beginner or Intermediate. The 'Climbing Intervals Row' description suggests basic interval variations but does not indicate complex rowing techniques. Thus, the primary classification is Beginner with a possibility of Intermediate due to the interval format introducing some complexity.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.8
+    },
+    {
+      "level": "Challenging",
+      "score": 0.2
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout duration is approximately 31 minutes, which is moderately demanding, and its type 'sweat' indicates an intention to increase heart rate. The 'interval' format with a maximum rhythm of 30 entails periods of increased intensity, suggesting a level between Moderate and Challenging. However, with an intensity level of 2 out of 3, Moderate is more strongly aligned, possibly challenging for less fit users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

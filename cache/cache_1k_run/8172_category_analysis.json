@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Breathing exercises",
+      "score": 0.7
+    },
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    }
+  ],
+  "categoriesConfidence": 0.7,
+  "categoriesExplanation": "The workout title 'Get to Know Aisyah Row' and the presence of tags such as 'row' directly suggest that this workout primarily involves indoor rowing, warranting an 'Indoor rowing' category with a strong score of 0.8. Additionally, the description 'cruise on the shores of Bergen' and the low intensity level (1 out of 3) indicate a relaxed pace, which aligns with an 'Indoor rowing' session.\n\nThe secondary category, 'Breathing exercises', is inferred from the broader context that highlights 'breathe' as a workout type and mentions of a calm atmosphere with a playlist comprising relaxing pop music. However, because rowing workouts can incorporate breathing techniques, it is assigned a lower confidence of 0.7 due to potential overlap with general rowing descriptions.\n\nThe low-intensity nature rules out HIIT or other high-intensity categories. Despite the mention of 'Breathe,' the context remains consistent with indoor rowing, aligning under 'Indoor rowing' more prominently."
+}

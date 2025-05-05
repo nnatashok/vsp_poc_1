@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Indoor rowing",
+      "score": 0.85
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout video is classified primarily under 'HIIT' and 'Indoor rowing' categories. The name 'Express Bootcamp HIIT Row' and description explicitly mention 'HIIT', indicating high-intensity interval training. The description further specifies 'quick intervals' with high rhythms (28 and 30), consistent with HIIT's format of alternating intense exercise periods. The intensity level is 3 out of 3, reinforcing the high-intensity nature of the workout. Additionally, 'row in Norway' and 'rhythms' suggest the use of rowing equipment, confirming 'Indoor rowing' as a suitable category. The short duration of 11 minutes and 15 seconds is typical for HIIT sessions, supporting this classification. The metadata lacks explicit mention of any other exercise forms, which affirms the exclusion of other categories. The confidence level is set to 0.9 due to strong evidence provided in the title and description."
+}

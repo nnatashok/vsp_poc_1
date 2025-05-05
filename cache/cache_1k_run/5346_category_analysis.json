@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Mat",
+      "score": 0.8
+    },
+    {
+      "name": "Body weight",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is classified under the 'Mat' category with a score of 0.8 due to the explicit mention of being an 'On The Mat' workout in the category metadata. This strongly indicates that the exercises are performed on an exercise mat. The description 'Feel the burn in your core' and the workout being labeled as 'strength' suggests that this session focuses on core strengthening exercises, which is in line with mat-based workouts. 'Body weight' is also a relevant category with a score of 0.6 since there is no equipment specified, indicating exercises like planks or crunches, which use body weight for resistance. The presence of uptempo music genres and songs, such as 'Pump Up The Jam,' further suggests a dynamic but equipment-free session that could involve bodyweight exercises. This classification excludes options like 'Yoga,' 'Pilates,' or 'Weight workout' due to the core-focused strength description and lack of specified equipment."
+}

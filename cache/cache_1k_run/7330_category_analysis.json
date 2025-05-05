@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.85
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.8,
+  "categoriesExplanation": "The workout is strongly categorized under Indoor rowing due to references to 'row' in the title and 'cardio base,' indicating the use of a rowing machine for cardiovascular exercise. The mention of 'Get to Know Your Team Row,' and 'Format: Cardio' further supports this classification, giving it a high score of 0.85.\n\nThe inclusion of 'Workout Type: breathe' suggests a mild focus on breathing techniques, which aligns with Breathing exercises. However, the primary activity is rowing, and therefore Breathing exercises are considered a secondary element, resulting in a lower score of 0.4.\n\nThe metadata does not support other categories such as Mat or Yoga as there is a lack of relevant indicators like body movements on a mat or relaxation techniques typical of those workouts. The absence of a specific 'Stretching' or strength-focused terminology also rules out related categories."
+}

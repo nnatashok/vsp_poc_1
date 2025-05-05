@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout metadata specifies the category as 'Drive,standard,row', and the description implies rowing activity with phrases like 'race off a high rhythms for maximum meters'. The term 'row' directly suggests the use of a rowing machine. Therefore, there is very high confidence (1.0) that a rowing machine is required for this workout. The image also depicts a person rowing, reinforcing the necessity of a rowing machine."
+}

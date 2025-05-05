@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    },
+    {
+      "equipment": "Dumbbells",
+      "confidence": 0.8
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout metadata indicates that there are '2-minute intervals on Hydrow,' which strongly suggests the use of a rowing machine, given 'Hydrow' is a known brand of such equipment. Therefore, the confidence level for a 'Rowing machine' is set at 1.0. \n\nAdditionally, 'Dumbbells' are explicitly mentioned in the equipment metadata, and this is further evidenced by the image showing a person holding a dumbbell during what appears to be an exercise. This gives a high confidence score of 0.8 for 'Dumbbells.' The workout type, 'circuit,' suggests varied exercises, which supports the use of this equipment."
+}

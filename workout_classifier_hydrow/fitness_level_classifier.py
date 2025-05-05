@@ -17,8 +17,9 @@ CLASSIFICATION METRICS DESCRIPTIONS:
    - Advanced: Moderately complex movements requiring good coordination and body awareness (e.g., compound lifts, intermediate yoga poses)
    - Expert: Technical movements requiring practice and skill (e.g., olympic lifts, advanced yoga, complex movement patterns)
 
+IMPORTANT: If the workout category is 'row', then The Technique Difficulty can be either Beginner or Intermediate
 CRITICAL INTERDEPENDENCE RULE: The Technique Difficulty must logically align with User Fitness Level Requirement. 
-If User Fitness Level Requirement is rated as "Beginner" or "Intermediate", the Required Fitness Level CANNOT include "Advanced" or "Expert" and must include at most "Intermediate" or lower levels. 
+If User Fitness Level Requirement includes 'Beginner' rating, the Required Fitness Level CANNOT include "Advanced" or "Expert" and must include at most "Intermediate" or lower levels. 
 
 2. EFFORT DIFFICULTY:
    This measures how physically demanding the workout is, dependent on:

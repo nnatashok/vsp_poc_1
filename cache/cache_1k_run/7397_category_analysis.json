@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 1
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout video 'Keep Learning Row' is clearly classified under 'Indoor rowing' due to direct references to rowing exercises within the metadata. Phrases like 'Every stroke is an opportunity' and 'focus on something new during each 2-minute interval' explicitly indicate the use of a rowing machine. Furthermore, the mention of 'rowing' and 'sweat, standard, row' in the category field supports this classification, resulting in a very high confidence level for this category with a score of 1.0.\n\nThe second category considered is 'HIIT', as the workout involves '2-minute intervals' which suggests a form of interval training. The term 'Interval' in the metadata suggests a structured format that may align with High-Intensity Interval Training, although the 'Workout intensity level: 2 out of 3' suggests a moderately intense session, thus justifying a confidence level with a moderate score of 0.7. While the 'sweat' and 'max rhythm: 28' descriptors indicate that the workout is dynamic and might involve alternating intensities, solidifying its classification as a HIIT workout."
+}

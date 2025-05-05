@@ -1,0 +1,18 @@
+{
+  "spirits": [
+    {
+      "name": "High-Energy & Intense",
+      "score": 0.9
+    },
+    {
+      "name": "Flow & Rhythm",
+      "score": 0.7
+    },
+    {
+      "name": "Outdoor & Adventure",
+      "score": 0.8
+    }
+  ],
+  "spiritsConfidence": 0.85,
+  "spiritsExplanation": "The workout is classified under multiple spirits based on various metadata elements. \"High-Energy & Intense\" is strongly indicated by the terms \"HIIT Row,\" \"high-intensity intervals,\" and the highest intensity level (3 out of 3), coupled with upbeat tracks like those by Logic and Labrinth, leading to a score of 0.9. \"Flow & Rhythm\" is supported by the description \"Move with the beat,\" suggesting music-driven pacing and coordination, which is why it receives a score of 0.7. The setting of the workout on a river seen in the image aligns with the \"Outdoor & Adventure\" spirit, scoring it 0.8, as the rowing environment leverages natural outdoor settings.\n\nWhile structured elements like HIIT could suggest a \"Structured & Disciplined\" spirit, the description lacks detail about methodical training protocols, leading to its exclusion. Overall, the confidence level is high (0.85) due to the clear indicators provided."
+}

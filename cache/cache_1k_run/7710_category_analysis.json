@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Pilates",
+      "score": 0.9
+    },
+    {
+      "name": "Mat",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is explicitly described as a 'pilates session' in the title and description, indicating a central focus on Pilates exercises, leading to a high confidence score of 0.9 for the Pilates category. Additionally, the tags 'On The Mat' and 'standard' support the classification into the 'Mat' category, as Pilates often involves exercises on a mat, though not exclusively. Hence, a score of 0.7 is assigned to the Mat category. The duration (10 minutes and 41 seconds) hints at a focused, concise session, typical for Pilates and mat-based workouts. The absence of required equipment further supports these categorizations, as mat Pilates typically emphasizes bodyweight exercises."
+}

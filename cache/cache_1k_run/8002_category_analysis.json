@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is clearly centered around 'Climbing Intervals Row', with the word 'Row' strongly indicating its classification under 'Indoor rowing.' The 'Climbing Intervals Row' and intervals format, along with a maximum rhythm of 28, suggest an interval structure typical of HIIT workouts, justifying its inclusion with a score of 0.7. The description and exercise elements ('two 4-minute intervals' and 'Max rhythm: 28') reinforce the classification of HIIT due to its interval nature and increasing intensity. The use of energetic music genres further supports a high-intensity effort. Despite the 'sweat' label, this does not align with any specific category and instead underscores the intensive and sweat-inducing nature of the activity, aligning with HIIT. The overall duration and interval format fit well with a combination of 'Indoor rowing' as the primary category and 'HIIT' as an associated category based on the workout description and structure."
+}

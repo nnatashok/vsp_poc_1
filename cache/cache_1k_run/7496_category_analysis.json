@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Running",
+      "score": 0.8
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category assigned is 'HIIT' with a score of 0.9 due to the explicit mention of '1-minute high intensity intervals' in the description, which is a defining characteristic of High-Intensity Interval Training. The use of terms like 'attack,' 'sprint track workout,' and 'intensity level: 3 out of 3' supports this classification by emphasizing the high-intensity aspect typical of HIIT programs. The metadata explicitly refers to the workout as a 'Drive' type, which is often associated with intensive, focused workouts like HIIT.\n\nThe secondary category 'Running' is included with a score of 0.8 because of the notion of this being a 'sprint track workout.' Though 'Running' is not explicitly mentioned as the equipment used, the implication of a running workout in the description suggests that running or running-like exercises are central to the workout. However, this is not rated as highly as HIIT due to the lack of explicit mention of running equipment or pure running focus in the title or description."
+}

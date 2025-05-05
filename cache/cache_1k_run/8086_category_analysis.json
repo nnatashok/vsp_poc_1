@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is primarily classified as 'Indoor rowing' with a score of 0.9 due to explicit indicators in the metadata, including the workout name 'Adventure Row' and the description mentioning maintaining a consistent split for each section and exploring mountains of Alaska, suggesting the use of a rowing machine. The format 'Interval' and the mention of a rhythm max imply rowing intervals, reinforcing this category assignment with very high confidence.\n\nThe secondary category 'Breathing exercises' is assigned a score of 0.6. The workout description includes the term 'breathe,' and the category annotation lists 'breathe' there as well. This suggests a focus on breath control, consistent with rowing's rhythmic breathing, although it is less central than the rowing aspect.\n\nOther categories like 'Yoga' or 'Meditation' are not selected due to the lack of elements regarding posture or mental focus typically associated with these practices, making them irrelevant here. The moderate intensity level and the interval nature of the workout align less with relaxed stretching or meditation sequences, focusing more on controlled physical activity."
+}

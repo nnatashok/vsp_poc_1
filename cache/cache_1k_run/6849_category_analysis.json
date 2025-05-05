@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Stretching",
+      "score": 0.9
+    },
+    {
+      "name": "Mat",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The metadata strongly suggests this video is a Stretching workout, as confirmed by both the title 'Post-Row Stretch' and the workout description, which explicitly mentions 'simple stretches' to aid recovery. The term 'step off your Hydrow' indicates it's a post-rowing routine, ruling out rowing itself as the main workout activity. Therefore, Stretching is assigned a score of 0.9 for its central role. The mention of 'on the mat' in the categories, combined with the description, implies that the stretches are performed on a mat, leading to the classification under Mat with a score of 0.6, since it's not the primary focus but a facilitating detail. Other categories, such as Indoor Rowing, are excluded as the activity pertains to recovery after rowing, not rowing itself."
+}

@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout is categorized under \"row,\" which typically falls between Beginner to Intermediate for Technique Difficulty. The session includes high-intensity intervals, which requires users to maintain proper form at higher speeds, aligning more with the \"Intermediate\" level. Given the user requirements are listed as \"Intermediate,\" and the high-intensity nature, there is strong alignment with Beginner but also moderate with Intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.2
+    },
+    {
+      "level": "Moderate",
+      "score": 0.6
+    },
+    {
+      "level": "Challenging",
+      "score": 0.8
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The Effort Difficulty is determined largely by the interval format with high-intensity rowing segments (1-2 minutes each). The workout intensity level is medium (2 out of 3), suggesting significant energy expenditure typical of \"Challenging\" level, but not at \"Extreme.\" The description and rhythm (max 28) reinforce this with a focus on strength and speed, hence the high rating for \"Challenging.\" The short duration (11:30) suggests a \"Moderate\" fit, but the intense intervals elevate it slightly above this.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

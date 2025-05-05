@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.2
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The Technique Difficulty classification is strongly influenced by the workout type, 'Drive', and category 'row'. According to the rules, this constrains the classification to 'Beginner' or 'Intermediate'. Given the power-focused nature and the 'Drive' type, which typically involves intensifying the row using increased power and varied rhythms, it necessitates an Intermediate technique level to ensure proper form and coordination, particularly at higher rhythms.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.75
+    },
+    {
+      "level": "Extreme",
+      "score": 0.25
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The Effort Difficulty is determined by several factors including the overall duration of 31 minutes and the high rhythm max of 30. The workout intensity level is indicated as 3 out of 3, suggesting a physically demanding session. The 'Drive' format typically involves intense rowing sessions focusing on power output, making this workout challenging for most users, especially those in poor physical condition. The playlist containing energetic tracks supports a high energy expenditure classification. Consequently, the effort level aligns strongly with 'Challenging' but elements of 'Extreme' are present due to the high designated intensity.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

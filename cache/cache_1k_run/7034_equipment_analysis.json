@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The metadata for the workout 'Sweet Spot Warm-Up' includes a 'row' category, which strongly implies the use of a rowing machine. The description of shifting between a walk and sprint pace can be interpreted as adjusting the pace on a rowing machine. This, combined with the image of an individual in a rowing context, leads to a very high confidence score (0.9) that a rowing machine is the primary equipment needed for this workout."
+}

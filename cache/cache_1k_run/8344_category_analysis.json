@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Body weight",
+      "score": 0.9
+    },
+    {
+      "name": "Mat",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is classified as 'Body weight' with a high score of 0.9 because the title and description both clearly specify that this is a 'bodyweight strength session', which involves strength training using body weight as resistance. The absence of any equipment in the metadata further supports this classification.\n\nThe 'Mat' category is also relevant with a score of 0.7, as indicated by the categorization 'On The Mat' within the provided metadata. This suggests that the workout involves floor exercises typically performed on a mat, which aligns with bodyweight exercises.\n\nThe confidence level for these classifications is high at 0.85 because of the explicit mentions in the workout's title, description, and categorization. Other categories such as 'Weight workout' are excluded as there's no mention of external weights, and categories like 'Yoga' or 'Stretching' are not applicable due to the focus on strength rather than flexibility or relaxation."
+}

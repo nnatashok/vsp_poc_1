@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which restricts the technique difficulty to Beginner or Intermediate levels. Given the user's fitness level requirements specify 'Beginner' and the provided metadata describes simple rhythm adjustments between 18 to 26 strokes per minute without any complex movements or techniques, a strong alignment with Beginner is evident. The basic interval training format and the absence of any instructor cues for complicated techniques further supports this classification.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout duration of 11 minutes 19 seconds with an intensity level of 1 out of 3 suggests a Light effort difficulty, suitable for beginners. The interval format with low stroke rates (18 to 26) indicates a controlled, low-impact session designed to build cardio gradually, aligning more with Light effort. However, the presence of intervals could introduce slight variability in effort, warranting a minimal alignment with Moderate difficulty.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

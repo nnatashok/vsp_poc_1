@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Body weight",
+      "score": 0.9
+    },
+    {
+      "name": "Mat",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The category 'Body weight' was assigned with a score of 0.9 because the workout explicitly features \"three bodyweight exercises,\" indicating a focus on exercises that use one's own body weight for resistance. This is supported by the workout type mentioned as \"strength.\" The category 'Mat' was assigned with a lower score of 0.7, as the description mentions 'On The Mat, standard, on-the-mat' multiple times, suggesting that exercises are likely performed on a mat, though the primary emphasis appears to be on body weight exercises. The exclusion of other categories like 'Weight workout' is justified by the absence of equipment. Moreover, the upbeat music and dance genre in the playlist support the energetic nature of a strength workout involving circuit training. The confidence level is high at 0.85, given the clear descriptors relating to bodyweight and mat exercises."
+}

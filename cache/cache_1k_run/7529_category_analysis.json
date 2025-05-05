@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.8,
+  "categoriesExplanation": "The primary category selected is 'Indoor rowing' with high confidence and a score of 0.8. This is due to explicit mentions of terms such as 'Steady State Row' and 'row' in the workout name and category tags, indicating that the main activity involves rowing. The secondary category 'Breathing exercises' is selected with a score of 0.6. The 'Workout Type' field labels it as 'breathe,' indicating a focus on maintaining consistent breathing, reinforced by the steady nature of the workout and an intensity level of 1 out of 3, suggesting a focus on endurance and control rather than intensity. There is also no mention of any equipment besides a rowing machine, aligning it with the 'Indoor rowing' category more definitively. Other categories such as 'Yoga' or 'Pilates' were excluded due to the lack of terms specific to those workouts and their unique structures. The confidence level is set at 0.8 due to the strong alignment between the metadata and the selected categories."
+}

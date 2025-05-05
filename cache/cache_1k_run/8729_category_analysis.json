@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 1.0
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.8,
+  "categoriesExplanation": "The primary category for this workout is 'Indoor rowing' with a very high confidence (score: 1.0) because the workout is explicitly described as a rowing session with the description 'three pyramids with Aisyah as you row in Newport Beach.' The structure and focus on rowing are clear.\n\nThe secondary category is 'Breathing exercises' with a moderate presence (score: 0.4), as the metadata includes 'breathe' as the workout type, and 'Breathe,standard,row' as a category suggests a mild focus on breath work. However, since rowing remains the central activity, this category is assigned a lower score.\n\nThe low intensity (level 1 out of 3), the inclusion of rhythmic terms like 'Max rhythm: 26,' and non-intense music genres (Indie Alternative, Global Hits) also complement the relaxed yet structured nature of this rowing workout, supporting the presence of breathing focus."
+}

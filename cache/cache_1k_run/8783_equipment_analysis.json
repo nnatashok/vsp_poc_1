@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout metadata clearly categorizes this session as 'row' and 'warm-up,' and the description refers to moving along the 'recovery portion of your stroke,' which implies the use of rowing techniques. This strongly indicates the utilization of a rowing machine. Additionally, the image shows a person on a rowing machine, reinforcing the requirement for this equipment with very high confidence. Therefore, 'Rowing machine' is identified with a confidence score of 1.0 as crucial for this workout."
+}

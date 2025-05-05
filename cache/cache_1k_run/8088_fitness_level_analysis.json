@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is categorized as a 'row', which according to the classification schema, implies a technique difficulty of either Beginner or Intermediate. The title 'Core Focused Row' suggests the involvement of core engagement, but the absence of advanced movements indicates simplicity typical of rowing, supporting a Beginner rating. The rhythm of 26 and power format suggests a possible shift towards Intermediate due to the need for good form. Thus, the technique difficulty aligns strongly with Beginner and somewhat with Intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The video has a workout intensity level of 2 out of 3 and includes 2 and 3-minute efforts which could be moderately demanding for deconditioned users. The 'power' format and max rhythm of 26 suggest an effortful exercise. Although relatively short in duration (11 minutes), the 'sweat' type signifies a somewhat higher intensity. Hence, the effort difficulty is best classified with strong Moderate alignment and moderate Challenging alignment due to the pace and format.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

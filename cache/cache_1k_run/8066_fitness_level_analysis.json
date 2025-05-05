@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout is categorized as 'row','sweat', and 'standard', which aligns with Hydrow's guideline that rowing workouts are either Beginner or Intermediate in technique difficulty. The description of 'applying varying pressure levels while climbing in rhythm' suggests some coordination is required but remains within the Beginner-Intermediate technique range. The absence of complex or technical language further supports this classification.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.65
+    },
+    {
+      "level": "Challenging",
+      "score": 0.55
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "With an intensity level of 2 out of 3 and a duration of over 11 minutes, the workout demands a moderate level of effort. The 'Climb' format and max rhythm of 28 could increase workload, suggesting a slightly more challenging aspect for beginners, placing it between Moderate and Challenging. However, the duration is relatively short, keeping the effort distance from Extreme.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

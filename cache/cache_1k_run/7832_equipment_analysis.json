@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Blocks",
+      "confidence": 0.8
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout title 'Hip-Opening Flow' and category 'On The Mat' suggest a mat is essential for floor exercises, giving a high confidence score of 0.9. This is also supported by the image, which shows a mat in use. The presence of yoga blocks in the image further supports their necessity, earning a confidence score of 0.8. These blocks aid in stability and support during stretching, which aligns with the hip-opening focus of the workout. No other equipment is explicitly mentioned or shown, indicating that a mat and blocks are the primary tools needed for this flow-type session."
+}

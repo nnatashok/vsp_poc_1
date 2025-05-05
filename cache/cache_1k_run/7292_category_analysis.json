@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 1
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.8,
+  "categoriesExplanation": "The workout 'The Power of Positivity Row' is classified under 'Indoor rowing' with a strong confidence level of 1.0 because the title explicitly mentions 'Row' and additional metadata like the category tags 'row', the use of intervals, and a specified max rhythm of 32 all indicate a rowing-based workout. The description further supports this classification by referring to intervals of '2-minute and 1-minute' typically seen in rowing sessions designed to enhance cardiovascular and muscular endurance. Additionally, the workout intensity level being 3 out of 3 and the focus on interval training suggest elements of high-intensity exercise, often characteristic of HIIT (High-Intensity Interval Training). This gives reason to assign a secondary category of 'HIIT' with a confidence score of 0.7. Despite the strong rowing focus, the presence of intervals and a high intensity suggest HIIT is a relevant secondary category."
+}

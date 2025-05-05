@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is classified under 'row' and 'drive', where the 'drive' indicates more advanced technical execution. The description mentions transitioning from legs only to full strokes, which requires coordination beyond basic rowing. However, since the movements are still primarily rowing-based, the technique difficulty remains mainly 'Intermediate'. The drive category enhances it slightly towards Advanced, given the emphasis on powerful strokes and rhythm control.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    },
+    {
+      "level": "Extreme",
+      "score": 0.2
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The duration of 16 minutes aligns with a high-intensity effort, especially given the maximum rhythm of 34, indicating rapid, energy-expensive strokes. The workout intensity is rated 3 out of 3, which suggests significant effort. While the effort is primarily challenging for most users, elements like max rhythm push towards extreme given the platform's user base in poor physical shape.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

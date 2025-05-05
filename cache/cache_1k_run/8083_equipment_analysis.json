@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Foam roller",
+      "confidence": 0.5
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is categorized under 'On The Mat' and involves stretches and mobility exercises for the back, indicating a 'Mat' is essential for performing on the ground with comfort. This is reinforced by the image depicting mats in use. Therefore, a high confidence score of 0.9 is assigned to 'Mat'. The description mentions that a 'Foam roller' is optional, giving it a moderate confidence score of 0.5, as it might be used to enhance some stretching techniques."
+}

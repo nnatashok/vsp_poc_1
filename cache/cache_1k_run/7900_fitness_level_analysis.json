@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.75
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout type 'Drive' is a rowing-based workout, which follows the Hydrow-specific rule that automatically classifies technique difficulty as Intermediate or lower. The nature of rowing in 'Drive' suggests a focus on maintaining form at sprint and max paces, requiring some coordination, making Intermediate the most logical classification. The interval format with sprinting aligns with this complexity level in rowing workouts.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.7
+    },
+    {
+      "level": "Extreme",
+      "score": 0.65
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout is categorized with a maximum intensity level of 3 out of 3, indicating a potentially very demanding effort. The interval format with 90-second sprints and 30-second max pushes suggests a challenging energy expenditure. The 21-minute duration with continuous high-intensity intervals justifies a classification of Challenging to Extreme effort. Given the Drive category specifically tailored for rigorous rowing sessions, a dual classification acknowledges potential variable perceptions of load.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 1.0
+    },
+    {
+      "name": "Mat",
+      "score": 0.2
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary category, 'Indoor rowing', was selected with a high confidence score of 1.0. This is based on the 'Workout Name: Latin Rhythm Row' and 'Category: row', which explicitly indicate that the workout involves rowing. The mention of 'Format: Intervals' and 'Workout Type: sweat' suggests a rowing workout with varied intensity, further confirming rowing as a central activity. The playlist of Latin music and the description reflect the cultural theme, but do not influence the workout type categorization. The 'Workout intensity level: 2 out of 3' implies a moderately challenging session, typical for rowing workouts aimed at sweating. \n\nThe secondary category, 'Mat', was considered with a low score of 0.2 due to the phrase 'Format: Intervals', which might suggest intervals of off-machine exercises that are sometimes performed on a mat. However, without specific mention of mat-based activities or enough evidence to support this, it remains a minor supplemental category. Other categories such as HIIT or Indoor biking were excluded due to the clear focus on rowing. Overall, there's high confidence in the categorization as Indoor rowing."
+}

@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Mat",
+      "score": 0.9
+    },
+    {
+      "name": "Body weight",
+      "score": 0.8
+    },
+    {
+      "name": "Calisthenics",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The workout is classified as 'Mat', 'Body weight', and 'Calisthenics' based on several explicit indicators in the metadata. The title 'Total Body Circuit' and description emphasize the energetic, full-body workout done on a mat, supported by the 'On The Mat, standard' category tag, making 'Mat' a highly relevant category with a score of 0.9.\n\nThe exercises described, such as banded side squats, walkout planks, and uneven push-ups, use body resistance, warranting the 'Body weight' category with strong confidence (score 0.8).\n\nThe term 'circuit' suggests a sequence of exercises aimed at increasing strength and endurance through body weight and mat work, justifying 'Calisthenics' with a moderate presence (score 0.7).\n\nEquipment use of a mat and resistance band further supports these categories. Other possible categories like 'Weight workout' were excluded due to the absence of heavier free weights like dumbbells."
+}

@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The technique difficulty for the 'Endurance Building Row' workout primarily aligns with Beginner due to the workout being categorized under 'row', which according to Hydrow-specific rules can only be Beginner or Intermediate. The metadata provided indicates no complex movement patterns or technical skills required, supporting a strong alignment with Beginner level. The workout's focus on 'breathe' and its rhythm max of 22 suggest a low-complexity, steady pace, suitable for beginners.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The effort difficulty is assessed as light to moderate based on the provided metadata. The workout is a 21-minute session with an intensity level of 1 out of 3, indicating relatively low physical demand. The focus on 'breathe', along with a steady format and accompanying playlist with mellow songs, further suggests the effort required falls within the light range, making it accessible to deconditioned users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 1
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The workout title, 'Unleashed Row,' strongly indicates that this is an indoor rowing session, aligning with the metadata I received about a 'row' category and a 22-minute duration centered around rowing activities. The description mentions completing 'three 5-minute efforts at max pace,' which suggests a format typical of High-Intensity Interval Training (HIIT) due to the alternating periods of high effort. The intensity level being '3 out of 3' further supports a high-intensity classification. These characteristics, along with a structured interval format ('Format: Intervals'), make both Indoor Rowing and HIIT the most suitable categories. \"Indoor rowing\" is assigned a score of 1 because it is explicitly the main focus of the workout, while \"HIIT\" is scored 0.7 due to the structured high-intensity efforts mentioned."
+}

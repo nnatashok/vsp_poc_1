@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.6
+    },
+    {
+      "name": "Mat",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.7,
+  "categoriesExplanation": "The workout titled 'Momentum Warm-Up' is designed as a warm-up session, which implies preparation for more intensive exercises. The metadata describes the focus on finding the 'drive through your legs,' suggesting leg engagement typically associated with rowing. Additionally, the tag 'row' is a direct reference to rowing activities, supporting the 'Indoor rowing' category with a score of 0.6 due to this specific mention. However, since this is a warm-up, which might involve dynamic movements performed on the ground, 'Mat' is also a plausible category, receiving a score of 0.4. The phrase 'warm-up your body to prepare for any workout' indicates general preparatory exercises that could include various movements typically performed on a mat. The absence of specific equipment in the metadata further strengthens the likelihood of body-weight movements. The overall confidence in classification is high at 0.7, given explicit rowing references and warm-up indications, though there's less certainty about how rowing is integrated within the short duration."
+}

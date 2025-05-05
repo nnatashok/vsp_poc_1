@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.8,
+  "categoriesExplanation": "The primary category is 'Indoor rowing' due to explicit indicators in the metadata such as the title 'Spanish Specialty Row' and the description indicating intervals on a rowing machine. The use of intervals (4-minute and 30-second intervals) supports the classification under rowing, and the focus on endurance and cardio is consistent with rowing exercise objectives. The intensity level of 1 out of 3 and the indication of interval format further strengthen this classification, justifying a high score of 0.9.\n\n'Breathing exercises' is also a relevant category, albeit with lower confidence, indicated by the 'Workout Type' and 'Category' which are labeled as 'breathe'. This suggests there might be some focus on breathing techniques during the rowing session. However, the lack of detailed evidence specifically about breathing beyond these labels results in a moderate score of 0.4.\n\nNo other categories fit well as the workout is explicitly described as having a rowing component. Other alternatives like 'HIIT' are not applicable given the moderate intensity level and rhythmic focus that do not match high-intensity training. The 'Music Genre' and playlist support a maintained rhythm conducive to rowing rather than meditation or low-intensity activities."
+}

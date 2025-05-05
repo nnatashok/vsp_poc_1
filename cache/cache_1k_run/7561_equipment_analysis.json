@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is classified under the 'row' category, indicating a rowing-centric workout. The name 'Climbing Intervals Row' and description emphasizing intervals on the Charles River strongly imply the use of rowing skills. Despite the image depicting an outdoor rowing scenario, the classification as an indoor workout with tags like 'sweat' suggests the use of an indoor rowing machine. Hence, 'Rowing machine' is required with very high confidence (1.0)."
+}

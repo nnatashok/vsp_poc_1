@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.95
+    }
+  ],
+  "requiredEquipmentExplanation": "The metadata indicates this is a rowing-focused workout, described with terms like 'Face Your Fears Row' and categorically grouped under 'row' and 'standard'. This suggests a very high confidence in the need for a rowing machine. The workout's format involves interval training which is commonly performed on a rowing machine. The image also shows a person rowing, reinforcing this requirement. Therefore, the rowing machine is the essential equipment needed for this workout, with a confidence score of 0.95."
+}

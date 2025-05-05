@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.75
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.25
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is classified under the 'row' category, therefore the Technique Difficulty is constrained to Beginner or Intermediate levels. The focus on 'quickly prepping your rowing muscle groups' suggests a low-complexity warm-up routine, aligning it closer to Beginner. However, the presence of 'climbing intervals' introduces a slightly more complex element, hence a minor Intermediate consideration.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout duration is 16 minutes with an intensity level described as 2 out of 3, indicating a Moderate to Challenging effort. The 'climbing intervals' suggest bursts of higher exertion, but as the intensity isn't the maximum level and involves intervals, the effort difficulty leans more toward Moderate energy expenditure with a component of Challenge.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

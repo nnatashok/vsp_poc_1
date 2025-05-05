@@ -12,6 +12,8 @@ WORKOUT SPIRIT EXPLANATIONS:
 - Sport & Agility: Athletic, performance-based training focused on speed, reflexes, coordination, and sports-specific skills.
 - Outdoor & Adventure: Nature-based workouts that leverage terrain, environmental challenges, and exploration.
 
+IMPORTANT: Rowing sessions recorded on rivers, as well as on-the-mat sessions conducted in natural outdoor settings, should be classified with an Outdoor & Adventure spirit.
+
 ANALYSIS GUIDELINES:
 1. Examine the title, description, and tags carefully for clues about the workout's fundamental energy and approach.
 2. Look for indicators of intensity, flow, structure, recovery focus, sports-specificity, and environment.

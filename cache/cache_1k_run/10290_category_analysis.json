@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    },
+    {
+      "name": "Stretching",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.75,
+  "categoriesExplanation": "The workout titled 'Wrist Technique Cool-Down' strongly suggests a focus on rowing due to the mention of 'Max rhythm: 20,' which aligns with typical rowing terminology such as stroke rate. The description also specifies a 'technical cool-down,' which implies a reduced intensity after a more vigorous rowing session and focuses on technique maintenance. Thus, 'Indoor rowing' is assigned with a high score of 0.8, reflecting its central role. However, the use of the word 'cool-down' commonly associates with flexibility and relaxation exercises, which aligns with elements of a 'Stretching' workout, leading to a secondary classification with a moderate score of 0.5. The confidence level of 0.75 considers clear indicators of rowing and the purpose of cool-down without explicit keywords for stretching or relaxation, acknowledging potential ambiguities in category overlap."
+}

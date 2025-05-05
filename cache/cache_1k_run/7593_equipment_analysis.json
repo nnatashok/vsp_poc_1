@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout description explicitly mentions 'Practice rowing at both half-slide and full slide,' which strongly indicates the use of a rowing machine. Additionally, the category includes 'row,' which reinforces the necessity of a rowing machine. The image of an individual rowing in a similar context further supports this inference. Given these factors, the confidence level for requiring a rowing machine is very high at 0.9."
+}

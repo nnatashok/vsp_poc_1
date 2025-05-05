@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.75
+    },
+    {
+      "name": "Stretching",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.7,
+  "categoriesExplanation": "The workout video 'Relax and Reflect Cool-Down' is primarily categorized under 'Indoor rowing' because the title and description indicate a rowing session, referring to 'Hydrow's trip to Alaska' which suggests a rowing-specific context (Hydrow being a known rowing machine brand). The mention of 'reflecting with Dani and Nick at a steady pace' and a 'Max rhythm: 22' suggests this is indeed a rowing workout performed at a moderate pace. The use of phrases like 'cool down' indicates a lower intensity level typical of a cool-down part of any workout but still rowing-focused. Thus, Indoor Rowing is given a strong presence score of 0.75.\n\n'Indoor rowing' is the primary category rather than 'Stretching' or 'Yoga', because despite the calm tone suggested by 'Relax and Reflect', the metadata points towards rowing as the main activity. \n\n'Cool Down, standard, row' clearly indicates the intention for use as part of a rowing setup, reinforcing the choice of Indoor Rowing category. Stretching is considered but given a lower presence score of 0.3 due to the cool-down and relaxed elements, but it isn't the workout's primary focus."
+}

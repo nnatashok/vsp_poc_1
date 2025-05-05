@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Stretching",
+      "score": 0.75
+    },
+    {
+      "name": "Yoga",
+      "score": 0.6
+    },
+    {
+      "name": "Mat",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.7,
+  "categoriesExplanation": "The workout is best categorized under 'Stretching' due to the focus on 'improve your movement and balance,' and 'corrective positions,' indicating a focus on flexibility and range of motion, which aligns with typical stretching routines. The description also mentions 'slowly release tension,' which is characteristic of stretching sessions, warranting a score of 0.75. 'Yoga' is included with a score of 0.6 because the focus on holding positions and tension release is very similar to Yoga practices emphasizing physical postures and mind-body connections. The category 'Mat' is scored at 0.5 since the title 'Whole Body Mobility' and the category tag 'On The Mat' suggest general floor-based exercises without specific equipment. Other potential categories were excluded as there is no indication of high intensity, cardiovascular, or weight-based exercises in the metadata. There is a moderate confidence level (0.7) due to the lack of explicit mention of stretching or yoga, though strong implications exist."
+}

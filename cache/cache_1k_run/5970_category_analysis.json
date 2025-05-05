@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.7
+    },
+    {
+      "name": "Stretching",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.75,
+  "categoriesExplanation": "The workout title 'Steady Cool Down' and description indicate a focus on cooling down, which suggests a gentle and low-intensity nature. The use of the phrases 'Steady','Max rhythm: 22', and 'Category: Cool Down, standard, row' imply the workout involves rowing, but the pace is relaxed, suitable for cooling down. Thus, 'Indoor rowing' is a relevant category, receiving a score of 0.7 for its strong presence as inferred from the metadata, especially 'row'. \n\n'Cool Down' often involves stretching activities, which corresponds to the 'Stretching' category. However, since the metadata emphasizes a rowing format, 'Stretching' is less prominent but still notable as an aspect of the workout, contributing to recovery. Therefore, it receives a score of 0.5.\n\nThe lack of intense, structured variety of movements excludes categories like HIIT or Weight workout. The mention of 'Steady' and 'Charlies River' reinforces the choice of 'Indoor rowing', while the overall calming essence aligns partially with 'Stretching'. Other categories such as Yoga or Meditation were not considered due to no mention of mind-body practice or specific postures."
+}

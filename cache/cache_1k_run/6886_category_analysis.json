@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.85
+    },
+    {
+      "name": "HIIT",
+      "score": 0.65
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The metadata indicates a workout that involves a progression of intensity levels, including sprints and maximum effort, which aligns with an interval training structure, a hallmark of HIIT workouts. The term 'Interval' in the format further supports this classification. The setting 'Port of LA' and the reference to 'max rhythm: 30' suggest a rowing context, which supports classifying this as an 'Indoor rowing' workout. Given the structured intensity progression typical in rowing warm-ups, 'Indoor rowing' is assigned a high score of 0.85. 'HIIT' receives a moderate score of 0.65 due to the emphasis on increasing effort and the sprint components, although the primary focus seems to be on rowing technique and warm-up, not on pure high-intensity training. Other categories are excluded based on lack of evidence supporting non-rowing or non-interval training contexts in the description, title, or music selection."
+}

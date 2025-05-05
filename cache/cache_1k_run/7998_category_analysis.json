@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    },
+    {
+      "name": "Stretching",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.83,
+  "categoriesExplanation": "The primary category selected is 'Indoor rowing' with a high confidence score of 0.8. The title, 'Legs + Core Cool-Down,' and the description explicitly mention rowing actions: 'rowing with your legs only and pausing with your core over'. The use of the term 'cool-down' in the workout type and category suggests a relaxation phase often following a higher intensity workout, typical in rowing sessions. \n\nAdditionally, 'Stretching' was considered with a lower score of 0.4. Although the title and metadata emphasize rowing, the mention of 'technique' and 'cool-down' implies some stretching or flexibility focus to help recover, which can be a minor component of this session. The absence of detailed stretching indicators prevented a higher score for this category. No mention of weights or other activities excludes categories like 'Weight workout' or 'Body weight.' The limited duration and focus further solidified the choice of categories."
+}

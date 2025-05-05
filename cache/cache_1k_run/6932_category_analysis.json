@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is clearly identified as an Indoor rowing session. The title 'High Rhythm Warm-Up' alongside the description 'Reach high rhythms by rowing at half slide' indicates that the main focus is on rowing, as does the tag 'row.' This provides very high confidence (0.9) that it is an Indoor rowing workout. The mention of 'max rhythm: 32+' and 'Format: Interval' suggests elements of interval training, aligning with HIIT characteristics. However, as it serves as a warm-up, the intensity may not reach typical HIIT levels, leading to moderate confidence (0.5) for HIIT. Other categories like Elliptical, Treadmill, or Mat were excluded due to the lack of relevant indicators in the metadata."
+}

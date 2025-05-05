@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is primarily classified as 'Indoor rowing' due to the explicit mention of 'row' in the workout name and description. The focus on maintaining a jog pace with a specific rhythm further reinforces the rowing element. The descriptor 'Max rhythm: 24' aligns with rowing stroke rates, indicating this is a structured rowing session. The 'Workout Type: breathe' suggests a supportive role for breathing exercises, contributing to a secondary categorization. This is supported by the playlist featuring calming music, often associated with breathing work. However, due to the low intensity level stated as '1 out of 3' and a short duration, the primary focus remains on rowing with a small emphasis on breathing exercises, which is reflected in the scores. Other categories such as 'Yoga' or 'Meditation' were excluded due to lack of relevant indicators in the metadata."
+}

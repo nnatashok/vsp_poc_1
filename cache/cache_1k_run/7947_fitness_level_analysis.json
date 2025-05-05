@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is classified with a 'row' category which typically suggests beginner to intermediate technique difficulty. The description emphasizes prioritizing form at shorter slide lengths, indicating a focus on basic rowing movements rather than complex techniques. There is no mention of advanced technical skills like power rows or complex usage of equipment, aligning with beginner technique difficulty. Since 'row' workouts can sometimes require coordination, there's a strong (0.5) alignment with intermediate, but predominantly beginner (0.9).",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The duration of 21 minutes and steady format, with an intensity level of 1 out of 3, suggests that this workout requires low to moderate effort. The aim is to prioritize form and improve quickness on shorter slide lengths at a max rhythm of 26, which is unlikely to be physically demanding for more fit individuals but might pose slight challenges to complete beginners. Thus, there's a very strong alignment with 'Light' and moderate alignment with 'Moderate' due to the length and general intensity cues from metadata.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

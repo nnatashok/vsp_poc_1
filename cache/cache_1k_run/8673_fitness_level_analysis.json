@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row' and 'drive'. Typically, rowing workouts have Technique Difficulty restricted to either Beginner or Intermediate levels due to their straightforward technical requirements. Being conducted in a 'Drive' format, which is labeled as Advanced in Hydrow-specific contexts, boosts the Technique Difficulty to Intermediate strongly, suggesting a more complex coordination, particularly at a higher stroke rate of 32. Thus, Intermediate alignment is strong with an added element of advanced coordination, while Beginner has moderate alignment due to rowing being generally accessible.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.4
+    },
+    {
+      "level": "Extreme",
+      "score": 0.7
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout's short duration (approx. 11 minutes) does not typically suggest extreme effort. However, the 'drive' workout type coupled with an intensity rating of 3 out of 3 indicates high energy expenditure and exertion, as well as maximum possible rhythm, implying extreme physical demand typical of a very intense rowing session. Thus, the Effort Difficulty leans more heavily towards Extreme, though Challenging alignment is still notable due to the workout not exceeding 15 minutes, providing moderate rest and recovery potential for advanced users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

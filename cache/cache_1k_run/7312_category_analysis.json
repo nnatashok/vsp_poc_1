@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Pilates",
+      "score": 0.95
+    },
+    {
+      "name": "Mat",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The metadata for the workout video strongly indicates a Pilates workout, as explicitly described in the 'Workout Name' field ('Whole Body Pilates') and the 'Workout Type'. The description further supports this by stating the workout consists of Pilates exercises. Given the entire focus on Pilates exercises, a high score of 0.95 is warranted for the Pilates category. The use of 'on-the-mat' in the tags and the name suggests the workout likely involves floor exercises on a mat, justifying a secondary category of 'Mat' with a moderate score of 0.6. The upbeat playlist featuring pop hits signals a dynamic, engaging session consistent with lighter Pilates classes. No presence of weight or equipment is mentioned, ruling out several categories like 'Weight workout' or 'Body weight'. Other potential categories like 'Yoga' or 'Stretching' are not applicable as there's no evidence supporting them. Overall, there is a high confidence level of 0.9 due to the clear and explicit mention of the workout style in multiple metadata fields."
+}

@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is classified primarily as 'row', which indicates that the technique difficulty should be capped at Beginner or Intermediate. The description 'gently climb in rhythm and effort' and the absence of an instructor suggest straightforward movements. Since it is categorized under 'Breathe' and 'standard', this implies minimal complexity, reinforcing a Beginner technique difficulty with strong alignment, possibly up to Intermediate if considering perfect form.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The duration of just over 11 minutes and the workout intensity level of 1 out of 3 indicate a low energy expenditure. The workout is also part of the 'Breathe' category, further suggesting a relaxed pace. The description 'gently climb in rhythm and effort' aligns with a Light effort difficulty. Moderate effort is possible if a user chooses to up their rhythm, but the metadata suggests an overall Light effort.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

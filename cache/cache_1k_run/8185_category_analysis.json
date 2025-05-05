@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is classified primarily under 'HIIT' and 'Indoor rowing' based on explicit indicators in the metadata. The title 'Hype HIIT Row' and description mention 'sprint through short intervals,' which strongly suggests a HIIT session involving rowing. The descriptor 'Format: HIIT,' alongside an \"intensity level: 3 out of 3,\" indicates a high-intensity workout, typically seen in high-intensity interval training. The use of rowing is further emphasized by the phrase 'along the Charles River,' implying a rowing theme. Although the workout is described as 'drive,' this seems to be more about workout style and motivation rather than a separate category. The music playlist, with energizing dance and global hits, is consistent with HIIT exercises, supporting high confidence levels in these classifications. Other categories such as 'Stretching,' 'Yoga,' or 'Meditation' were excluded due to the absence of relevant indicators in the metadata."
+}

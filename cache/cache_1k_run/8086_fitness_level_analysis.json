@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which typically indicates Beginner or Intermediate technique difficulty. The use of 'breathe, standard, row' suggests a focus on steady rhythm and basic rowing form, suitable for beginners. The 'maintain consistent split' instruction implies some attention to form but not beyond basic capabilities. Thus, strong alignment with Beginner (0.9) with moderate signals for Intermediate (0.3).",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout has an intensity level of 1 out of 3, which indicates low energy expenditure, aligning strongly with Light effort difficulty (0.8). The 21-minute interval format suggests some level of stamina is required, warranting moderate alignment (0.5) with the Moderate level due to consistent rowing sections.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

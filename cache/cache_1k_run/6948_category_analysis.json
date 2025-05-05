@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.8
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout titled 'Steep Climb Row' strongly indicates an 'Indoor rowing' category as it involves rowing sprints, suggested by the title and description mentioning 'sprints' and 'max rhythm: 34'. The term 'row' is explicitly mentioned in both the name and category. Additionally, 'HIIT' is suggested as a secondary category due to the specified workout format being 'HIIT', and description details such as varying sprint durations (2', 1', 30\") which align with High-Intensity Interval Training characteristics. The intensity level of 3 out of 3 further supports this classification, indicating a high-intensity workout. The absence of specific workout equipment in the metadata and lack of mention of other equipment or activities excludes categories like Weight workout or Body weight. Hence, 'Indoor rowing' and 'HIIT' are the most appropriate categories based on the metadata."
+}

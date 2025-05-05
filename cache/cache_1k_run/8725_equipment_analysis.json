@@ -1,0 +1,17 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Dumbbells",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Mat",
+      "confidence": 0.7
+    }
+  ],
+  "requiredEquipmentExplanation": "The metadata explicitly mentions dumbbells as part of the equipment needed for the upper body focus, giving it a very high confidence score of 0.9. The mention of \"2 minutes on Hydrow\" strongly implies the use of a rowing machine, also justifying a confidence level of 0.9, as Hydrow is a known rowing machine brand. \n\nThe category \"On The Mat\" along with the workout image showing exercise being performed on a mat, suggests a mat is required, warranting a confidence score of 0.7. This indicates it is recommended for comfort and stability during the core exercises performed off the rowing machine."
+}

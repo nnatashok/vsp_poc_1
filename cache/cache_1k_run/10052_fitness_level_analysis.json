@@ -1,0 +1,26 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Advanced",
+      "score": 0.9
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.95,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'Drive' and 'row', which would typically fall under Beginner or Intermediate for technique. However, Hydrow's specific rule elevates 'Drive' workouts to Advanced technique difficulty due to its presumed technical mastery required. The user fitness level requirement of 'Advanced' further supports this alignment.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout format is labeled 'HIIT' and has a maximum rhythm of 34, suggesting high intensity. The short duration of 16 minutes and 25 seconds combined with a '3 out of 3' intensity rating indicates significant physical demand. These factors align strongly with a Challenging effort difficulty, appropriate for someone beyond a beginner but still accommodating deconditioned users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

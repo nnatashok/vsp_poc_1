@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is categorized primarily as 'Indoor rowing' due to explicit mentions in the metadata, such as 'move through intervals' and 'row' in the categories and workout type fields. The description mentions 'intervals in Newport Beach', supporting the classification under indoor rowing with structured intervals. The metadata also indicates a workout intensity level of 2 out of 3, which suggests a higher intensity, aligning with typical rowing workouts. \n\nThe secondary category 'HIIT' is chosen because the workout format explicitly mentions 'Interval', which is a key feature of HIIT. Although the overall intensity level is moderate (2 out of 3), the presence of structured intervals justifies a lower score for HIIT classification.\n\nThe playlist's energetic dance and global hits songs support a vigorous workout atmosphere, further supporting these classifications. Other categories like Mat, Yoga, or Stretching were excluded due to a lack of relevant indicators and inconsistency with rowing and interval training characteristics."
+}

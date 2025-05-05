@@ -1,0 +1,26 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Advanced",
+      "score": 0.9
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.95,
+  "techniqueDifficultyExplanation": "The workout is categorized as a 'Drive' type, which inherently suggests a higher level of technique difficulty, aligned with Advanced-level coordination and control. The 'Power' format and interval training implied by the 'climbing intervals' require proficient technique to execute effectively. Rowing at a 'max rhythm: 30+' further supports an advanced technique difficulty due to the need for synchronized and controlled movements. The metadata strongly supports this classification with the user fitness level requirement explicitly stating 'Advanced'.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.85
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout is short in duration (11:27 minutes), but the interval-based, high-intensity 'Drive' workout with a max rhythm of 30+ suggests significant energy expenditure. The description emphasizes 'taking control of climbing intervals' which typically indicates elevated cardiovascular demand and muscular endurance, aligning with 'Challenging' effort. The absence of rest periods implies continuous high effort, thereby confirming a high caloric and energy output typical of slightly shorter, intense workouts. An intensity level of 3 out of 3 further corroborates this level of physical demand.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

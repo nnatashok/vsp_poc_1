@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is a 'Whole Body Pilates' session, explicitly mentioned to follow a classical pilates structure, typically performed on a mat. The category 'On The Mat' reinforces the need for a Mat. Additionally, the image shows the instructor standing on a mat, further confirming its necessity. Confidence is very high at 0.9 due to these multiple indications across the metadata and the image."
+}

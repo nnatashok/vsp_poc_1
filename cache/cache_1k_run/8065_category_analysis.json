@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Pilates",
+      "score": 0.9
+    },
+    {
+      "name": "Stretching",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is classified primarily as 'Pilates' based on the workout name 'Post-Row Pilates' and the description which states it's a 'post-row Pilates session.' This indicates a strong focus on Pilates movements for core strengthening, justifying a high confidence level score of 0.9 for this category. Additionally, the description mentions stretching components, leading to the inclusion of the 'Stretching' category with a moderate score of 0.6. The relaxed music playlist and downtempo music genre further support the idea of a low-intensity session focused on flexibility and relaxation. There's little ambiguity given the clear metadata, and other categories are excluded due to lack of relevance based on the provided information."
+}

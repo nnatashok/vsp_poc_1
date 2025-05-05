@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 1
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The workout is classified as 'Indoor rowing' with a high score of 1.0, as the title 'Climbing Intervals Row' and description 'Build endurance as you climb up in rhythm' clearly indicate the use of a rowing machine. The focus on 'intervals' and rhythm emphasizes a structured rowing activity. The term 'row' in the category {row} tag further confirms this classification. \n\nThe 'HIIT' category is also relevant with a score of 0.6. The workout's format described as 'Interval' and its intensity level of 2 out of 3 suggest a high-intensity interval training style. The fact that the intervals reduce in duration adds to this inference. However, since it heavily emphasizes rowing, the primary category remains 'Indoor rowing'.\n\nOther categories like 'Mat', 'Elliptical', 'Treadmill', etc., were excluded due to lack of evidence. The presence of a playlist featuring energetic music genres supports the workout's high energy nature but is not sufficient to classify it solely under music-based workouts."
+}

@@ -1,0 +1,26 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Advanced",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workoutType 'drive' in the metadata indicates an advanced technique difficulty level according to Hydrow-specific rules. Furthermore, the use of high intensity intervals (HIIT) suggests movements that require good coordination and technique to execute with proper form. Thus, considering the specific mention of 'drive', the technique difficulty aligns strongly with an Advanced level.",
+  "effortDifficulty": [
+    {
+      "level": "Extreme",
+      "score": 0.8
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout description highlights 'high intensity intervals' which are inherently demanding, especially for deconditioned users. Additionally, the 'Workout intensity level: 3 out of 3' further underscores the substantial physical demand. The duration of over 21 minutes along with high tempo music from the Dance high and Global Hits genres suggests sustained, high energy expenditure. Consequently, the effort required would be classified as Extreme for most users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

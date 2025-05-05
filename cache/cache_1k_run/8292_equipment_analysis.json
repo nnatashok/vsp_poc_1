@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1
+    }
+  ],
+  "requiredEquipmentExplanation": "The metadata indicates that this workout is classified under the category 'row', which means it is centered around rowing activities. Additionally, the description mentions navigating the swells of English Bay in Vancouver, suggesting a rowing-like experience. Given that the category type is 'row', a rowing machine is required with very high confidence (1.0). The image also supports the rowing theme, even though it seems to take place outdoors, the workout context implies the use of an indoor rowing machine for a similar experience."
+}

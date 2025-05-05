@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Resistance bands",
+      "confidence": 1
+    },
+    {
+      "equipment": "Mat",
+      "confidence": 0.7
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout description explicitly states that both a short resistance band and a long resistance band are required, indicating a very high confidence (1.0) that resistance bands are necessary for this workout. The category 'On The Mat' suggests exercises performed while seated or lying down, implying that a mat is likely used to provide comfort and support during such activities. Thus, a mat is included with a high confidence score of 0.7, reinforced by the visual evidence of a mat in the image provided. No other equipment is mentioned or implied, so only resistance bands and a mat are needed for this workout session."
+}

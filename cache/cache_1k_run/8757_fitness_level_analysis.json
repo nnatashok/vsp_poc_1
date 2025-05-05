@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is classified primarily as 'row' and notes 'steady state' rowing between rhythms 20 to 22. This indicates simple, repetitive rowing strokes without complex variations or adjustments, suitable for those in poor physical shape. Since the technique rating considers 'row' as either Beginner or Intermediate, this session aligns closely with the Beginner criteria due to its straightforward nature, with a minor alignment with Intermediate for slight rhythmic coordination skills.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is described as a 'steady state row' with an 11-minute duration and a rhythm of 20 to 22, marked with an intensity level of 1 out of 3. This suggests low energetic demands, with steady pacing that makes it suitable for deconditioned users. Although there's a small increase towards moderate effort due to sustained activity, the short duration and low-intensity indicator primarily align with a Light effort difficulty.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

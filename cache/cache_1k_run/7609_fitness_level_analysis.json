@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.1
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.9
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized as 'drive', which according to Hydrow rules implies an Advanced classification, but since the category is 'row', the Technique Difficulty aligns only at Beginner or Intermediate. The interval format requires some coordination and pacing, therefore the Intermediate Level receives a higher score (0.9).",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.7
+    },
+    {
+      "level": "Extreme",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is a 'drive' type with the highest intensity level (3 out of 3), intense music, and strategy of holding a sprint pace. These factors push the Effort Difficulty towards Challenging (0.7), with a hint of Extreme (0.3) due to the max effort finish and high rhythm.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

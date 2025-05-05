@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Blocks",
+      "confidence": 0.8
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is titled 'Power Yoga Flow,' and the description specifically recommends yoga blocks, indicating high confidence (0.8) for the use of Blocks. The category 'On The Mat' strongly implies the need for a Mat, which is essential for yoga and floor-based exercises, giving it a very high confidence score (0.9). Other equipment is not mentioned or implied, suggesting this is primarily a mat-based yoga session."
+}

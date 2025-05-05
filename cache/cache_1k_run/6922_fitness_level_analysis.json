@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Beginner",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "This workout is classified under the 'row' category, which typically keeps technique complexity at a Beginner or Intermediate level. The 'Drive' designation, alongside descriptions of high rhythms, suggests a need for greater coordination and control, justifying an Intermediate score with high confidence. However, the rowing movements standard to this category inherently include simpler, rhythmic actions, warranting a slight inclusion of Beginner-level complexity.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.85
+    },
+    {
+      "level": "Extreme",
+      "score": 0.15
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "With a duration of nearly 17 minutes and a maximum rhythm over 32, coupled with a format classified as 'Power' and the top intensity level of 3, the workout demands significant physical effort from participants. This combination of factors strongly correlates with a Challenging level of effort, indicating high expenditure and intensity. The encouragement to achieve personal bests suggests potential for reaching Extreme effort, albeit marginally due to standard guidelines.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

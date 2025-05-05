@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is identified as an 'Indoor rowing' session because the title explicitly mentions 'Row' and the description details a workout involving rowing with stroke-per-minute metrics, typical of rowing machine exercises. The maximum rhythm noted is '24 strokes per minute,' further reinforcing this classification. The metadata frequently uses terms related to rowing such as 'intervals' and 'strokes per minute,' suggesting a structured indoor rowing format. This is supported by the 'Category' and 'Workout Type' fields listing 'row' and 'breathe,' respectively.\n\n'Breathing exercises' is considered due to the 'Workout Type: breathe' and the repeated mention of breathing in the metadata. The focus on breathing and intervals aligns with the idea of exercising at a controlled pace, often incorporating breathing focus.\n\nBoth categories receive high scores due to explicit mentions and clear evidence in metadata, with Indoor rowing having stronger indicators. Other categories were considered but ruled out due to lack of relevant indicators such as equipment or movement styles that fit those descriptions."
+}

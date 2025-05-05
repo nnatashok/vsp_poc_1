@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.7
+    },
+    {
+      "name": "Stretching",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.7,
+  "categoriesExplanation": "The workout titled 'Appreciation Cool-Down' suggests a gentle, end-of-exercise session. The title and description emphasize relaxation and gratitude, associated with cool-down periods after more intense activity. The metadata contains elements like 'steady', 'max rhythm: 20', and the 'cool down' category, all of which point to a low-intensity, possibly rowing-related session. These indicators suggest the primary category could be 'Indoor rowing', given the context and frequent rowing focus of the platform.\n\nThe 'Stretching' category is considered because the activity is a 'cool down', often involving stretching to relax muscles post-exercise. The playlist and music genre suggest a calm atmosphere, aligning with stretching or cool down mood. The absence of 'rowing machine' explicitly in equipment or visuals slightly reduces confidence in the 'Indoor rowing' classification, but the metadata generally supports this assignment with lower confidence in accompanying stretching tasks."
+}

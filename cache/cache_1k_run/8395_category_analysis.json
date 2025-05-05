@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Stretching",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category for this workout is 'Indoor rowing' due to the explicit mention of 'steadily row' in the workout description, which indicates the use of a rowing machine. The inclusion of 'max rhythm: 22' and 'format: steady' further supports this classification as they suggest a focus on rowing cadence. The secondary category is 'Stretching', as the workout incorporates 'pauses to engage your core and stretch your hamstrings'. This identifies stretching as a distinct element, though it is combined with the rowing session. The metadata related to a cool-down context supports the stretching classification. Other categories like 'Mat' or 'Yoga' are less relevant due to the focus on rowing equipment and rhythmic consistency, rather than floor exercises or meditative practices."
+}

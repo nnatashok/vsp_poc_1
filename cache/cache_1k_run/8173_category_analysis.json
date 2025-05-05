@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Stretching",
+      "score": 1
+    },
+    {
+      "name": "Mat",
+      "score": 0.8
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is explicitly described as 'Essential Stretches for Your Back' and the workout type is listed as 'stretching,' providing a very high confidence level for the 'Stretching' category with a score of 1. The description references releasing tension in the back, further affirming this category. Additionally, the metadata includes 'On The Mat' which aligns with 'Mat' exercises, indicating exercises on a floor mat. However, since the primary focus is stretching, 'Mat' is secondary with a significant score of 0.8. The use of a foam roller is mentioned, which supports the stretching focus rather than a flow-oriented yoga session. The lack of specified high-intensity indicators and its categorization as an 'On The Mat' activity confirms exclusion from more active workout categories like 'Yoga' or 'Pilates.' The duration of 15 minutes and 41 seconds suggests a focused session, typical for targeted stretching."
+}

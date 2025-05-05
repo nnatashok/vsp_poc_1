@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    },
+    {
+      "name": "Mat",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.75,
+  "categoriesExplanation": "The title and description of the workout indicate that this is a low-intensity warm-up session focused on reinforcing technique, which suggests a structured and rhythmic activity typically associated with rowing. The mention of a 'max rhythm 24' and 'interval' format further supports the classification as 'Indoor rowing,' given the emphasis on rhythm and technique, which are key aspects of rowing workouts. Despite the absence of explicit mention of a rowing machine, these elements imply rowing activity; hence, 'Indoor rowing' is rated at a confidence score of 0.8.\n\nThe 'Mat' category is also considered due to the 'Warm-up' and 'gentle' descriptors, as such activities can often encompass general preparation exercises and stretches on a mat, contributing to its presence but to a lesser extent, with a score of 0.4. The structure of the warm-up could involve preliminary body movements not tied exclusively to rowing, but this is less strongly indicated."
+}

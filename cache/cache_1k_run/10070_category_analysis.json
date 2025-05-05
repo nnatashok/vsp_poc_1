@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.7
+    },
+    {
+      "name": "HIIT",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.65,
+  "categoriesExplanation": "The workout is primarily classified as 'Indoor rowing' with a score of 0.7. This choice is based on the title 'Climbing Warm-Up' and description 'Climb in rhythm and power,' which, despite the lack of explicit reference to rowing, indicates a rhythmic and potentially ergometric activity. The mention of 'row' in the category list and the duration suggest a short and possibly dynamic session similar to rowing intervals. However, given the elements like 'rhythm' and intervals of 'every 30 seconds,' there are also elements that align with 'HIIT,' but at a lower confidence due to the lack of explicit mention of high intensity. Thus, 'HIIT' is assigned with a score of 0.3. The overall confidence is moderate (0.65) due to the implicit nature of the evidence and lack of direct references to rowing equipment or more specific context."
+}

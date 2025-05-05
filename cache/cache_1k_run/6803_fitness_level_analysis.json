@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout format is 'Interval rowing' with a specified rhythm of 26, consistent with rowing workouts. As per our guidelines, rowing workouts' technique difficulty is capped at Intermediate. The description and lack of complex instructions further suggest Beginner technique difficulty, with no advanced rowing skills required.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.3
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    },
+    {
+      "level": "Challenging",
+      "score": 0.2
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is 16 minutes long, using intervals of 3 minutes of rowing at a max rhythm of 26 followed by 2 minutes of rest, categorized under an intensity of 2 out of 3. This suggests a Moderate effort difficulty, as it\u2019s above very light and seated effort but below the high-intensity threshold. The interval format with significant rest periods allows recuperation, making it less than Challenging but more than Light.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

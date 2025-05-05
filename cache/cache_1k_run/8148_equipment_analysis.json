@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Foam roller",
+      "confidence": 1
+    },
+    {
+      "equipment": "Mat",
+      "confidence": 0.8
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is focused on foam rolling, as explicitly mentioned in the workout name and description 'Foam Roller for Lower Body + Back'. This indicates a very high confidence (1.0) that a foam roller is needed. The category 'On The Mat' and the image showing a person sitting on a mat imply the use of a mat to provide a comfortable surface for rolling exercises, leading to a high confidence score (0.8). The workout type, 'mobility', supports the use of these tools for effective exercise execution."
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.8,
+  "categoriesExplanation": "This workout video features a 'Feel Good Row' with explicit rowing terms such as 'steady pace,' 'move between a 20 and 24 rhythm,' and 'row' being central elements of the metadata. The 'Max rhythm: 24' and 'Workout intensity level: 1 out of 3' indicate a low-intensity, steady rowing session. These strong rowing-specific indicators justify a categorization as 'Indoor rowing' with high confidence and a score of 0.8 due to its central presence. \n\nAdditionally, the description and workout type mention 'breathe' and 'feel good music,' suggesting an emphasis on relaxed, controlled breathing throughout the session. This aligns with the 'Breathing exercises' category, which is supported by the metadata but not as the core focus. Therefore, this category is assigned a score of 0.6 to indicate a moderate presence. \n\nThe absence of equipment specifics and the light intensity further rule out high-intensity categories like HIIT or Weight workout, while the use of rhythmic rowing dismisses categories like Stretching or Yoga."
+}

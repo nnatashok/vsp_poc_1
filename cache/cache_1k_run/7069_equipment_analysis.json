@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout video is titled \"Club 26 Row\" and categorized under 'row', strongly indicating the use of a rowing machine. The description mentions '2-minute intervals at rhythm 26', which is characteristic of a rowing workout. The presence of the category 'row' gives very high confidence that a rowing machine is essential for this workout. The depicted image also shows a person engaged in rowing activity, further confirming the need for a rowing machine. Given these factors, the confidence score for the rowing machine is set at 1.0, indicating very high confidence in its requirement for this workout."
+}

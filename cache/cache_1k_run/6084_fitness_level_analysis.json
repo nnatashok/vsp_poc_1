@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is categorized as 'row' and the title implies a focus on endurance with a moderate rhythm of 26, which suggests a relatively straightforward rowing cadence without complex movements. The 'breathe' workout type and 'standard' category indicate basic rowing exercises. Based on the metadata, the technique is likely beginner-friendly with a moderate alignment for intermediate skills due to the pyramid format, which may introduce some complexity in maintaining effort over varied intervals. Thus, Beginner has a strong alignment while Intermediate has moderate alignment.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.75
+    },
+    {
+      "level": "Challenging",
+      "score": 0.25
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The 21-minute duration of the workout combined with a 'pop pyramid' structure and a max rhythm of 26 indicates a light to moderate cardiovascular effort. The 'breathe' category and a stated workout intensity of 1 out of 3 suggest a moderate effort requirement, suitable for beginners who might find the interval structure somewhat challenging. Therefore, Moderate effort aligns strongly, while Challenging aligns weakly, reflecting the endurance-building nature of the workout.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

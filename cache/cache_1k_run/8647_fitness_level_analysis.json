@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Advanced",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'drive', which typically implies more advanced rowing techniques. The pace involves reaching 'new speeds' through 'intervals', suggesting a need for good rowing form and coordination. Hence, while it's labeled with 'drive' indicating advanced skills, the fundamental rowing technique itself is similar to intermediate level moves as per rowing classification, balancing the difficulty levels between Advanced and Intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.2
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The duration of over 31 minutes combined with a high-intensity level of 3 out of 3 and a max rhythm of 28 indicates substantial physical demand. The format involves 2-minute intervals, which can be quite taxing. These factors suggest that the workout is prominently 'Challenging'. The interval nature combined with high intensity strongly supports this classification.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

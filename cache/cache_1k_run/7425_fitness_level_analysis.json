@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.1
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.95,
+  "techniqueDifficultyExplanation": "The workout is a 'row' type and falls under the category of 'Breathe', which suggests a focus on steady, rhythmic rowing at a manageable pace. The 'Beginner' user fitness level requirement further supports the classification of this workout's technique difficulty as Beginner, given the simple nature of rowing with a max rhythm of 22 strokes per minute, indicating a slow to moderate pace. Minimal musical tempo variations suggest ease in maintaining form.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.85
+    },
+    {
+      "level": "Moderate",
+      "score": 0.15
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout duration of approximately 11 minutes and an intensity level of 1 out of 3 suggest a low physical demand, appropriate for a light effort difficulty classification. The focus on a 'breathe' type workout and simple musical selections further support a less strenuous effort, aligning with a light cardio session. The short pyramid format implies some variation in effort but remains suitable for beginners.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

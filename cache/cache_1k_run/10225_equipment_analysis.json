@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout metadata explicitly categorizes this session in the 'row' type and includes phrases like 'Drop Your Split Row' and 'Drive,' indicating a focus on rowing activities. Thus, the primary equipment needed for this workout is a rowing machine. The high confidence score is justified by the specific focus on rowing in the workout title, description, and category labels, which strongly imply that a rowing machine is essential to perform the workout as intended."
+}

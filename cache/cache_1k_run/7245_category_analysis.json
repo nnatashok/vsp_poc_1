@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Mat",
+      "score": 0.9
+    },
+    {
+      "name": "Stretching",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout named 'Foam Roller Mobility' strongly indicates it involves exercises done on a mat, as foam rolling is typically performed on the floor, hence the category 'Mat' is assigned with a high score of 0.9. The description highlights 'warm-up or recover,' which aligns with the concept of stretching and mobility work, thus 'Stretching' is assigned a score of 0.7. The tags such as 'On The Mat' further support the 'Mat' classification. The focus on foam rolling and the lack of other equipment solidifies the Mat classification over other potential options, such as 'Body weight' or 'Yoga', which are not directly referenced in the metadata. The music is neutral and doesn't influence physical intensity type classification. Overall, category selections are based closely on the described activity and supports mobility and mat-based exercise."
+}

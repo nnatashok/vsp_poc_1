@@ -1,0 +1,26 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type 'Drive' elevates the technique difficulty to Intermediate as per Hydrow's specific guidelines, despite the rowing modality typically being classified as Beginner or Intermediate. The interval nature of the activity and the need for coordinated rowing strokes to match the high rhythm of 32 add complexity, aligning closely with Intermediate technique difficulty.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.75
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout involves eight 1-minute intervals over a 21-minute duration, which indicates considerable physical demand. The intensity level is marked 3 out of 3 (maximum), suggesting intense effort typical of challenging interval workouts. The high rhythm of 32 and the upbeat music genre further imply a significant energy expenditure, placing it in the Challenging level.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

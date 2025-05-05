@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is a rowing session, as indicated by the category 'row'. According to platform-specific rules, rowing workouts can either have a Beginner or Intermediate rating for technique difficulty. The video involves interval training at stroke rhythms of 26 and 28, which requires some coordination but remains fairly basic. The absence of complex movement patterns or additional equipment suggests that this session falls slightly more towards the Beginner level of technique difficulty, although there are elements of coordination aligned with an Intermediate level.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.6
+    },
+    {
+      "level": "Challenging",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout consists of 5 intervals of 2 minutes each, with a total duration of around 21 minutes, which suggests a fairly moderate effort overall. The stated workout intensity level of 2 out of 3 and the max rhythm of 28 indicate that the session involves a significant amount of exertion, though it is not exceedingly strenuous. These factors, combined with the interval format and the motivational rock playlist, lead to a slightly higher Moderate but entering Challenging territory for users who may be deconditioned or less motivated.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 1.0
+    },
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is categorized under 'On The Mat,' indicating that a mat is central to performing the exercises, resulting in a very high confidence score of 1.0 for needing a mat. The workout name 'Post-Row Mobility' suggests it follows a rowing session, which implies the use of a rowing machine. The rowing machine observed in the image further supports this inference, justifying a high confidence score of 0.9 for its necessity. Although the mobility exercises may not directly require the rowing machine, it is relevant to the context of the workout."
+}

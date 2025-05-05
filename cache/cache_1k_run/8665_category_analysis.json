@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout video is best classified under 'Indoor rowing' due to the explicit mention of 'row' in both the Workout Name ('Making Moments Row') and the Category ('row'). The description further supports this classification, describing the workout as involving '90-second intervals' with climbing rhythm and intensity, which aligns with a rowing machine workout. The score of 0.9 reflects the strong presence and defining characteristic of an indoor rowing workout. \n\nAdditionally, the format described as 'Climb' with '90-second intervals' aligns with HIIT principles, where there are alternating periods of effort and rest, or changes in intensity. This supports a secondary classification of 'HIIT' with a score of 0.5, due to moderate inference from the workout description and type ('sweat') suggesting an intense workout style. \n\nOther categories were considered but excluded due to lack of specific indicators related to those activities in the provided metadata. The diversity of music genres like pop and global hits supports an energetic workout atmosphere but does not specifically suggest any category beyond supporting the main rowing and HIIT elements."
+}

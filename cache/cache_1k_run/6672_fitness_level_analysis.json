@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which, according to the Hydrow-specific rule, allows for technique levels of Beginner or Intermediate. The workout description does not mention any complex rowing techniques, suggesting straightforward movements. Additionally, the rhythm is relatively low, reinforcing simplicity. Thus, a Beginner level score of 0.9 is justified, with Intermediate at 0.7 for slight complexity related to maintaining a consistent pace.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout is only 11 minutes long and features a low to moderate max rhythm at 24, indicating minimal physical demand, which supports a Light effort level. However, the brief duration and rowing activity justify a Moderate categorization as well, but to a lesser extent given the low intensity level marked at 1 out of 3, warranting a score of 0.8 for Light and 0.5 for Moderate.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

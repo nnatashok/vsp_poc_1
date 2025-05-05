@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is classified primarily as 'Indoor rowing' due to explicit mentions of rowing in the title (\"Weekly Stories Row\") and description (\"Raise your rhythm and effort\"). The mention of intervals indicates that the workout involves periodic changes in intensity, which is typical of a HIIT session. The workout description highlights 90-second intervals, supporting its classification as 'HIIT'. The mention of rhythm and interval formats reinforces this. The description of the workout as 'sweat' and the presence of upbeat pop and global hit music fit well with high-energy, intensive rowing sessions. Additionally, the intensity level described as 2 out of 3 suggests it's more intense than a relaxed row, supporting the inclusion of HIIT. Other categories like 'Mat', 'Yoga', or 'Stretching' are excluded as the focus clearly centers on interval-based rowing exercises, not floor-based or flexibility workouts."
+}

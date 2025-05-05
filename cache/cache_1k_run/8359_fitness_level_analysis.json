@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type is categorized as 'row' and 'breathe', which generally involves a steady and rhythmic style of rowing. Rowing, by its nature, doesn't require complex movements beyond basic coordination and form. The steady format and the low-intensity level (1 out of 3) suggest it is approachable for beginners. The 'steady' format implies a consistent, controlled pace which aligns with beginner capabilities, especially given the absence of high technical challenges. Thus, the technique difficulty is most closely aligned with 'Beginner' with a possibility of 'Intermediate' for those who might struggle with maintaining form over time.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.85
+    },
+    {
+      "level": "Moderate",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout duration is approximately 31 minutes, and it is a 'steady' row, indicating a prolonged exercise at a consistent pace but lower intensity, supported by the workout intensity level marked as 1 out of 3. The classification under 'breathe' suggests a focus on endurance at a relaxed pace rather than high energy output. The inclusion of motivational 90s music further indicates a casual, enjoyable workout. Although the duration slightly suggests 'Moderate' difficulty, the focus on breath and rhythm puts it solidly under 'Light' effort for most users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

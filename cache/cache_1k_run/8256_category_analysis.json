@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Indoor rowing",
+      "score": 0.85
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout title 'Hip-Hop HIIT Row' and the description highlighting 'sprint and max effort during short intervals' strongly indicate a high-intensity interval training (HIIT) format, justifying the high score of 0.9 for the HIIT category. Additionally, the terms 'row' and 'along the Charles River' suggest that this workout involves indoor rowing, scoring 0.85 for indoor rowing due to the lack of explicit mention of a rowing machine, but strong contextual inference. The playlist featuring energetic hip-hop tracks supports the high-intensity nature of the workout. Other categories like 'Mat' or 'Yoga' were excluded due to the distinct absence of elements related to floor exercises or mindfulness."
+}

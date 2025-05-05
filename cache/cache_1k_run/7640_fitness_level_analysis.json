@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is classified as a row type exercise, which aligns with either Beginner or Intermediate technique difficulty. The language in the description, such as 'power strokes' and 'intervals', suggests a slightly higher complexity than straightforward rowing, justifying an Intermediate classification. However, the Beginner fitness level requirement and typical rowing classification strongly support a Beginner technique difficulty.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout duration is relatively short at 21 minutes, and the intensity level is rated as 1 out of 3. This suggests that the workout is light to moderate in terms of physical demand. The inclusion of power strokes implies some degree of energy expenditure, which slightly elevates the effort but not beyond moderate for the intended audience.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.85
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout title 'All in One Row' and associated metadata such as the category tags 'drive', 'standard', and 'row' strongly indicate that this is an Indoor Rowing session. The emphasis on a rowing-specific workout is further supported by the high intensity intervals mentioned in the description, which aligns well with HIIT, hence the assignment of this category as well. The intensity level (3 out of 3) and the mention of high intensity intervals in the workout provide additional evidence for classifying it as HIIT, alongside Indoor Rowing. The duration of 45 minutes, with specific phases like warm-up and cool-down, supports this classification further. The music playlist featuring upbeat, high-energy dance tracks complements the high-energy nature of the workout. Given these strong indicators, the confidence level for the assigned categories is very high."
+}

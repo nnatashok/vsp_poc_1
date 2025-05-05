@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Mat",
+      "score": 0.9
+    },
+    {
+      "name": "Body weight",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout 'Racing Strength' is best classified under the categories 'Mat' and 'Body weight.' The explicit reference to 'On The Mat' in the metadata's Category suggests that exercises are performed on the floor, without extensive equipment, aligning with floor-based activities often categorized under 'Mat.' Furthermore, the description emphasizes building strength and the workout type is explicitly labeled as 'strength.' Given the absence of specified equipment in the metadata, it can be inferred that body weight is likely used to build strength, justifying the inclusion of the 'Body weight' category. The high confidence in these classifications comes from the specific inclusion of 'strength' in the workout type and the category tags, indicating a focus on floor-based strength training exercises. Other categories like 'HIIT' or 'Weight workout' are excluded due to lack of explicit intensity indicators or equipment mentions."
+}

@@ -1,0 +1,26 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.9
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized as a 'drive' row, indicating a higher level of control and coordination involved in maintaining rowing intensity, which aligns with an Intermediate level technique difficulty. The metadata specifies that the workout type is 'row' and according to the guidelines, this restricts the technique difficulty to either Beginner or Intermediate levels. Because it is part of the 'Drive' category, Intermediate is appropriate.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.85
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "This session is described as a 'challenging, high-intensity' workout, and its HIIT format at a max rhythm of 30 underlines significant effort requirements. The indication of a 'high-intensity workout' in conjunction with a 21-minute duration and an intensity level rated 3 out of 3 suggests the session is energy demanding, aligning with a Challenging effort level.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

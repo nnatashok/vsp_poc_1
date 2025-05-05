@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Mat",
+      "score": 0.7
+    },
+    {
+      "name": "Stretching",
+      "score": 0.65
+    },
+    {
+      "name": "Body weight",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.78,
+  "categoriesExplanation": "The workout titled 'Moving Better for Father's Day' suggests an emphasis on mobility and flexibility, which typically involves exercises that can be performed on a mat. The description explicitly mentions 'everyday mobility exercises' and classifies the workout under 'On The Mat'. These indicators strongly point to the 'Mat' category, justifying a score of 0.7.\n\nThe focus on mobility also aligns well with 'Stretching,' as improving range of motion is often a core component of mobility work, earning it a 0.65 score. \n\nAdditionally, given the absence of equipment mentioned and the focus on personal movement through mobility exercises, 'Body weight' is applicable as the exercises likely leverage one's own body weight, albeit to a moderate extent (score 0.5). \n\nHigh confidence (0.78) is assigned to these categories due to the direct mention of 'mobility' and 'On The Mat'. Other potential categories like 'Yoga' or 'Pilates' are excluded due to the lack of emphasis on specific postures or techniques related to those practices."
+}

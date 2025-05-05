@@ -1,0 +1,26 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 1
+    }
+  ],
+  "techniqueDifficultyConfidence": 1.0,
+  "techniqueDifficultyExplanation": "The workout is a rowing session, which typically involves straightforward, repetitive movements requiring basic technique and coordination. The metadata mentions 'row' as the category, aligning this with the criteria for Beginner or Intermediate levels, according to Hydrow-specific rules. There are no complex movements or skills highlighted in the description, thus justifying a Beginner classification.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.75
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The effort difficulty stems from the climbing intervals format, which suggests a progressive intensity. Although the workout's duration is relatively short, the climbing interval nature and a workout intensity labeled as 2 out of 3 imply added effort. The max rhythm of 30 also indicates a fair but manageable exertion level, positioning it strongly within the Moderate category.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

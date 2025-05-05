@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 0.9
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout video metadata indicates a cool-down session titled 'Steady Cool-Down' along the Charles River, tagged with 'row.' This suggests rowing activity, which is closely associated with using a rowing machine. The image of a person rowing reinforces this. Although it\u2019s an outdoor scene, in a video context, especially labeled with 'row,' it generally implies equipment like a rowing machine for indoor use. Hence, a confidence score of 0.9 is justified for a rowing machine being required."
-}

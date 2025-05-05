@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The technique difficulty is primarily Beginner due to the workout type being 'row', which aligns with Hydrow's rules that limit rowing-based workouts to Beginner or Intermediate technique difficulty. The focus on technique every 10 minutes implies some degree of coordination, suggesting a slight Intermediate influence. However, based on the metadata, the Beginner score is higher owing to the overall nature of rowing and the specified User Fitness Level Requirement, which is Beginner.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.75
+    },
+    {
+      "level": "Moderate",
+      "score": 0.2
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The effort difficulty is rated as Light primarily because the workout is categorized as 'breathe' with an intensity level of 1 out of 3, indicating low physical demand. The interval format might suggest a potential for increased intensity, but given the overall characterization as a 'breathe' session with music genres like Blues/Jazz which suit a slower pace, the Light rating is justified.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

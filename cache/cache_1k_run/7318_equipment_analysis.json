@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout name 'Power Strokes Warm-Up' and the workout type 'row' in the category strongly indicate the need for a rowing machine. The description mentions '10-power strokes', which are typically associated with rowing exercises on a machine. Given the metadata category 'row' and the workout's focus on elevating heart rate through intervals, it's highly probable that the workout is designed to be performed on a rowing machine. Therefore, the confidence level is set at 0.9."
+}

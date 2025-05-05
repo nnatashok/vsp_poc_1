@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Pilates",
+      "score": 1
+    },
+    {
+      "name": "Mat",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout title 'Shoulder Bridge Pilates Challenge' and description explicitly mention 'pilates', indicating that the primary workout category is Pilates. The mention of 'shoulder bridge' is a classic Pilates exercise focused on core strength and body alignment, supporting this categorization. The categorization as 'On The Mat' suggests that the exercise is performed on a mat without additional equipment, which aligns with the 'Mat' category as a secondary classification. Given the clear reference to Pilates in both the name and description, the confidence in the Pilates categorization is very high (score 1). The 'Mat' category receives a strong score (0.7) due to the context of mat-based exercises. Other categories are excluded due to the specific focus on Pilates and the absence of related equipment or intense cardio, strength, or other specialized practices."
+}

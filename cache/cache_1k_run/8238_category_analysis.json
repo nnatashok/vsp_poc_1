@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Stretching",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category for this workout is 'Indoor rowing', and this conclusion is based on multiple indicators within the metadata. The workout name 'Technique Cool-Down' along with the description 'Focus on your technique with Aquil' indicates a focus on rowing, possibly on a rowing machine, given the inclusion of 'row' in the category tags. The workout's intent on cooling down after intensive rowing sessions, combined with the mention of a maximum rhythm of 22 and steady format, strongly suggests it's part of an indoor rowing routine. This is supported by the 'cool down' label, implying a lower intensity session post main rowing workout.\n\nThe secondary category 'Stretching' is considered due to the 'Cool Down' aspect, which often includes stretching elements to aid in muscle recovery and prevent stiffness especially after rowing workouts, although the indicators for this category are not as strong as those for indoor rowing.\n\nThe confidence level is high (0.85) as the metadata provides clear indications of indoor rowing through the instructor's focus on rowing technique and cooling down mechanics."
+}

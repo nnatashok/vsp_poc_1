@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.7
+    },
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The workout is classified primarily as 'Indoor rowing' with a score of 0.8, supported by the workout name 'Throwback Hits Row' and the reference to 'row' in the category tags. Additionally, the description mentions 'longer intervals' and 'high intensity intervals', which aligns with the 'HIIT' category. The inclusion of a 'workout intensity level: 3 out of 3' further suggests a high-intensity workout session. The format being explicitly mentioned as 'HIIT' lends further weight to this classification, resulting in a 0.7 score for HIIT. The absence of an instructor means no further guidance can be inferred, but the metadata strongly suggests these two categories as most appropriate. Other categories like 'Mat', 'Body weight' or 'Weight workout' are not applicable due to lack of evidence of floor exercises or weight use."
+}

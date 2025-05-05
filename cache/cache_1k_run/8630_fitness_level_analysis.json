@@ -1,0 +1,26 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Advanced",
+      "score": 0.85
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is classified under 'drive' and is focused on rowing, which aligns with Hydrow-specific rules where 'Drive' signifies an advanced technique difficulty. Furthermore, the use of high-intensity intervals and complex rhythm changes during rowing elevates the requirement for good coordination and body awareness, supporting an advanced classification for technique difficulty.",
+  "effortDifficulty": [
+    {
+      "level": "Extreme",
+      "score": 0.9
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout is presented in a HIIT format with 80-second intervals and is noted to feature maximum rhythm climbing up to 30. This high-intensity setup, combined with a top-tier workout intensity level of 3 out of 3, indicates a very demanding session. The 21-minute duration of continuous hard effort also supports an extreme effort classification due to the requirement for sustained high energy expenditure with likely minimal rest periods.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

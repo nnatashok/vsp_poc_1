@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout type is listed as 'drive', which according to Hydrow-specific rules, is classified as a technique difficulty of 'Advanced'. However, because the category is 'row', the maximum technique difficulty can be 'Intermediate'. Given the focus on power and a disciplined rhythm, there is strong alignment with 'Intermediate'.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.75
+    },
+    {
+      "level": "Extreme",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout has a duration of over 21 minutes and is described as a rate-capped race with a max intensity level of 3 out of 3, suggesting significant physical workload. While it approaches 'Extreme' energy expenditure, the primary classification is 'Challenging' due to its maximum rhythm cap, which moderates intensity slightly compared to an all-out effort.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

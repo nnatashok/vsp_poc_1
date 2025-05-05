@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The Technique Difficulty for 'Prepare for Success Row' is significantly determined by its classification as a 'Drive' type rowing workout. Hydrow assigns 'Drive' workouts an Intermediate Technique Difficulty due to the relatively complex rhythm and intensity required to maintain proper form at max rhythm levels (up to 34). Despite the rowing format, which generally offers a Beginner or Intermediate classification, the Drive category aligns more with Intermediate due to the focus on maintaining precise rowing form within varied intervals.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.7
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The Effort Difficulty is classified as Challenging, supported by the intense interval format and high maximum rhythm (up to 34) over a substantial duration of 22 minutes 6 seconds. The high intensity rating (3 out of 3) suggests significant physical demand, especially as the user must adapt to varied interval lengths of 6 minutes, 1.5 minutes, 15 seconds, and 30 seconds. This demands cardiovascular endurance and sustained effort, particularly in the Drive category, known for higher intensity rowing exercises.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

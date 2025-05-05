@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category of 'Indoor rowing' is supported by the workout title 'Gentle Climb Row' and the description, which mentions 'cruising down the Charles River' - implying the use of a rowing machine simulating a rowing scenario. The tags also include 'row,' strongly indicating a rowing workout. The intensity level is low, with a rhythm max of 26, further hinting at a controlled, rhythmic rowing activity rather than a more intense session, aligning with low intensity workouts typical of indoor rowing. \n\nThe secondary category of 'Breathing exercises' is supported by the metadata 'Workout Type: breathe' and 'Category: Breathe', suggesting that a focus on breathing is a central component of this session. This aligns with common goals in lower-intensity rowing workouts which often emphasize breathing control.\n\nGiven these indicators, 'Indoor rowing' is assigned a score of 0.9 as it is a defining characteristic, and 'Breathing exercises' receives 0.7 for its noticeable emphasis. Other categories like 'Yoga' or 'Meditation' were excluded as there is no mention of meditation practices or yoga postures."
+}

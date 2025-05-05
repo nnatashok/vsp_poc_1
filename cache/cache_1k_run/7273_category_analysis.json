@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout titled 'Alternating Rhythms Row' and its associated metadata strongly indicates that this is primarily an Indoor Rowing workout, with a focus on rhythm changes as evidenced by the mention of alternating between low and high rhythms. This is further supported by the explicit keyword 'row' in the categories and the description mentioning rhythms, which align with rowing machine workouts. The inclusion of 'Interval' in the format suggests periods of varying intensity, characteristic of many indoor rowing sessions. Thus, Indoor Rowing is classified with high confidence and given a score of 0.9, reflecting its central role. The category 'Breathing exercises' is also relevant due to the workout type stated as 'breathe', although it seems to be of secondary importance compared to the rhythmic focus of rowing. The score of 0.5 for Breathing exercises reflects its moderate presence, possibly highlighting the breathing control aspect typical during rowing intervals. Other potential categories like 'HIIT' are excluded due to the low to moderate intensity level, as explicitly mentioned in the metadata, which suggests a more paced workout rather than high intensity."
+}

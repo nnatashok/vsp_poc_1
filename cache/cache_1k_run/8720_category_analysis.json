@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is classified mainly as 'Indoor rowing' due to the title 'World Water Day Row' and the description indicating a rowing theme. While the description doesn't explicitly mention a rowing machine, the context strongly implies rowing activities, particularly with terms like 'Max rhythm: 26' and 'Format: Climb', which are typical metrics and formats used in rowing workouts. 'Breathing exercises' was given a secondary classification with moderate confidence and a lower score of 0.6 due to the 'Workout Type: breathe' and 'Category: Breathe' tags. This indicates that while breathing is an element of the workout, it is not the principal focus, especially given the upbeat music tracks which suggest a more active session consistent with rowing."
+}

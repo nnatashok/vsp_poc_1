@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is classified primarily as 'Indoor rowing' due to explicit references in the metadata such as 'Endurance Builder Row,' 'build endurance,' and 'intervals,' which are characteristic of rowing workouts. The 'row' tag further supports this classification. The title and descriptions indicate a focus on steady rowing through endurance-building intervals, a typical format for indoor rowing. The assignment of a 0.9 score reflects a very high presence of rowing as a central element. \n\nMeanwhile, the presence of the term 'breathe' in 'Workout Type' and 'Category' suggests a secondary focus on breathing techniques, which could be integral to managing endurance through intervals, hence a score of 0.5. However, it is not as defining as the rowing aspect.\n\nThe intensity level is 1 out of 3, indicating a low to moderate exercise level that fits well with steady-paced rowing as opposed to categories like HIIT. Although there is a musical element ('classic rock playlist'), it does not significantly impact the core nature of the workout, which remains centered on rowing."
+}

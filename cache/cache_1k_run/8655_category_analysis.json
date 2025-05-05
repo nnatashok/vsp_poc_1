@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Stretching",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.8,
+  "categoriesExplanation": "The workout video, titled 'Technique Cool-Down', explicitly indicates rowing-related activities through terms like 'body over', 'stroke', and 'cool down', signaling that this is an indoor rowing session, hence the primary classification as 'Indoor rowing' with a very high confidence (0.9). The description focuses on 'control' and 'pausing', highlighting a lower intensity technique exercise, suitable for the end of a workout, which could justify a secondary classification as 'Stretching', given the nature of cool downs often involving stretching exercises, awarded a moderate presence (0.5). Despite the relaxed nature, this shouldn't be confused with Meditation or Yoga due to the rowing focus."
+}

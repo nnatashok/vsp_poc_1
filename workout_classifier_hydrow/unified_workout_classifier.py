@@ -272,9 +272,7 @@ def prefill_fitness_schema(workout_type: str) -> dict:
         # If workout is suitable for all fitness levels, then technique ia also can be adgusted to any level
         schema["techniqueDifficulty"] = [
             {"level": "Beginner", "score": 1.0},
-            {"level": "Intermediate", "score": 1.0},
-            {"level": "Advanced", "score": 1.0},
-            {"level": "Expert", "score": 1.0}
+            {"level": "Intermediate", "score": 1.0}
         ]
         schema["techniqueDifficultyConfidence"] = 1.0
         schema["techniqueDifficultyExplanation"] = (
@@ -321,8 +319,7 @@ def extract_video_id(raw_json: str, idx:int) -> str:
         video_id = f"manual_{idx}"
         schema['id']=video_id
     return video_id
-        
-        
+               
 def extract_hydrow_meta_from_json(data: Dict[str, Any]) -> Dict[str, Any]:
     """
     Extract and format metadata as per specific rules.
@@ -365,7 +362,7 @@ def extract_hydrow_meta_from_json(data: Dict[str, Any]) -> Dict[str, Any]:
         if instructor_name == "No Athlete": instructor_name = "Unknown"
         
         # ! adding lookup for instructors bio
-        file_path = 'workout_classifier_hydrow/hydrow_athletes_bio.csv'
+        file_path = 'workout_classifier_hydrow/hydrow_athletes_bio.csv' #'hydrow_athletes_bio.csv'
         if os.path.exists(file_path):
             df = pd.read_csv(file_path)
             # Normalize column 0 for case-insensitive comparison
@@ -386,15 +383,16 @@ def extract_hydrow_meta_from_json(data: Dict[str, Any]) -> Dict[str, Any]:
 
     # Format the final summary string
     summary = f"""
-                Workout Name: {data.get("name", "N/A")}
-                Workout Description: {data.get("description", "N/A")}
-                Workout Type: {', '.join(data.get("workoutTypes", [])) or "N/A"}
-                Category: {data.get("category", {}).get("name", "N/A")},{data.get("category", {}).get("categoryType", "N/A")},{data.get("category", {}).get("type", "N/A")}
-                Duration: {format_duration(data.get("duration"))}
-                Instructor: {get_instructor(data)}
-                {get_intensity(data)}
-                Music Genre: {get_music_genre(data)}
-                {get_playlist_summary(data)}
+                Workout Name: {data.get("name", "N/A")}\n
+                Workout Description: {data.get("description", "N/A")}\n
+                Workout Type: {', '.join(data.get("workoutTypes", [])) or "N/A"}\n
+                Category: {data.get("category", {}).get("name", "N/A")},{data.get("category", {}).get("categoryType", "N/A")},{data.get("category", {}).get("type", "N/A")}\n
+                Equipment:{data.get("equipment", {})}\n
+                Duration: {format_duration(data.get("duration"))}\n
+                Instructor: {get_instructor(data)}\n
+                {get_intensity(data)}\n
+                Music Genre: {get_music_genre(data)}\n
+                {get_playlist_summary(data)}\n
               """.strip()
 
     return {"text": summary, "image": image_url}

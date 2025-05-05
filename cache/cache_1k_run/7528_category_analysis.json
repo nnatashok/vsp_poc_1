@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Mat",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is primarily classified as 'Indoor rowing' because the description explicitly mentions 'row at a steady pace,' indicating the use of a rowing machine. The workout's title 'Keep Moving Cool-Down' suggests a low-intensity session, designed to help the body recover, which often includes rowing in a relaxed manner as part of a cool-down process. The metadata lacks detailed equipment information, but the inclusion of 'steady pace' in the format further supports a controlled rowing activity, justifying a high confidence level of 0.9 for this category. The 'Mat' category is considered because cool-downs could involve floor-based stretching or mat work to enhance recovery after rowing. However, due to the lack of explicit description supporting mat exercises, the score is moderate at 0.5. Other categories like 'Stretching' or 'Yoga' were excluded due to the clear emphasis on rowing and the lack of specific flexibility or mindfulness cues. The overall categories confidence is 0.85, driven by the strong presence of rowing-related terminology in the metadata."
+}

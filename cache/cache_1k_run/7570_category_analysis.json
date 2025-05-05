@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 1
+    },
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The workout is classified as 'HIIT' and 'Indoor rowing' based on multiple strong indicators in the metadata. The title 'Welcome to Brunswick Row' and the category tags explicitly mention 'row,' which strongly suggests an 'Indoor rowing' workout, with a high confidence score of 0.9. Additionally, the workout description emphasizes '1-minute intervals' with a format labelled as 'HIIT,' indicative of High-Intensity Interval Training, which aligns perfectly with the intense and structured nature of a HIIT workout, earning a score of 1. The intensity level of 3 out of 3 and the playlist featuring upbeat, energetic music further supports a high-intensity interval focus. The specificity of the metadata, such as the reference to 'Hydrow' and the setting in Brunswick, Maine, clearly alludes to a rowing-focused workout setup, precluding stretching, meditation, or yoga categories."
+}

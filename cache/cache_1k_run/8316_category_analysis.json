@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Stretching",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout video, titled 'Steady Cool-Down,' explicitly mentions rowing at a steady rhythm, indicating that 'Indoor rowing' is a primary component. The description emphasizes reflecting on progress while maintaining a steady rhythm, a characteristic feature of a cool-down rowing session. The maximum rhythm mentioned is 20, which aligns with a lower, more relaxed pace typical of a cool-down rather than a high-intensity session, reinforcing the categorization as 'Indoor rowing' with a score of 0.9 due to its centrality.\n\nThe description also includes the term 'cool down,' suggesting elements associated with relaxation or stretching, typically part of a cool-down phase. Thus, a secondary categorization as 'Stretching' is proposed with a lower score of 0.3, acknowledging the possibility of light flexibility or recovery practices without explicit stretching activities.\n\nNo indicators suggest other categories such as 'HIIT' or 'Mat' activities are relevant, given the specific focus on rowing while the other setups were excluded due to a lack of any direct or indirect reference."
+}

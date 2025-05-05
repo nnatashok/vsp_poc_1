@@ -1,0 +1,26 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is classified under 'row' and 'drive', which historically aligns with intermediate technique complexity. Rowing requires coordination and rhythm, but as a foundational exercise, it's typically not highly technically complex beyond the intermediate level. The absence of additional technical movements in the metadata supports this classification at an intermediate level.",
+  "effortDifficulty": [
+    {
+      "level": "Extreme",
+      "score": 1.0
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout is 46 minutes long with 3, 2, and 1-minute intervals, which can be quite physically demanding, as intervals require sustained energy output. The workout intensity is noted as 3 out of 3, suggesting maximum effort. The max rhythm of 34+ strokes per minute indicates a high level of cardiovascular engagement, justifying the extreme classification.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

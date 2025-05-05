@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.1
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.95,
+  "techniqueDifficultyExplanation": "The workout type 'row' and description 'Bring your stroke back to basics' suggests that the movement is a fundamental form of rowing, favoring a beginner-level technique. The 'Technique' format further supports focusing on basic rowing skills. No advanced coordination beyond basic rowing form is indicated, making it accessible to beginners with a slight acknowledgement that some might find the positioning (core focused) slightly challenging.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.85
+    },
+    {
+      "level": "Moderate",
+      "score": 0.15
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout has a 'breathe' type and an intensity level of 1 out of 3, suggesting it is designed to be very manageable. The duration is relatively short at 16 minutes, consistent with light exertion. The focus on technique over speed or power (max rhythm 26) further implies a light effort. However, as effort levels are individual, a slight consideration towards moderate intensity is given.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

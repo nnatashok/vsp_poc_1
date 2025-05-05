@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is named \"Feel Good Row,\" which strongly implies that rowing is the central focus. Additionally, the category includes 'row,' and the description mentions accumulating steady meters, which aligns with a rowing activity. The image reinforces this by showing a person in a rowing scenario. Therefore, a rowing machine is required with very high confidence. The confidence score is 0.9 because the evidence is broad and consistent throughout the metadata and visual context, even though the equipment list is empty."
+}

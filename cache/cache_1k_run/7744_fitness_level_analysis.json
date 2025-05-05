@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Advanced",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type 'drive' typically requires advanced technique due to the emphasis on explosive power and speed, as indicated by the description of 5-minute pieces and a final all-out effort. These elements suggest complex movements necessitating advanced coordination and rowing form. The designated workout type 'drive' supports this classification.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.7
+    },
+    {
+      "level": "Extreme",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout is described as 'Explode with power and speed', coupled with an intensity level of 3 out of 3. This indicates a high-energy, demanding workout. The duration of over 21 minutes with minimal rest and a max rhythm of 30 contributes to a demanding cardiovascular session. While it doesn't reach the highest intensity possible, it is nearly so, warranting a mixed scoring for challenging to extreme efforts.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is a 'drive' type within the 'row' category, usually rated as beginner or intermediate. However, the metadata includes descriptors like \"HIIT Pyramid Row\" and \"high-intensity intervals\" with a max rhythm of 34. The combination of high rhythms and HIIT elements suggests intermediate to advanced technical complexity, given the coordination needed for high-speed rowing. While 'drive' implies a higher technical demand specific to Hydrow, the technique difficulty remains intermediate or slightly advanced within their structure, aligning with the user requirement marked as 'Advanced'.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.7
+    },
+    {
+      "level": "Extreme",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The effort difficulty is notably high for this workout. It includes 'HIIT' and 'drive' types, denoting high-intensity training. The workout duration is over 31 minutes with intense intervals and a rhythm of 34, suggesting robust energy expenditure. These elements imply a strong effort demand, positioned between challenging and extreme due to the enduring high intensity and limited rest typical in HIIT sessions. The platform's intensity level of 3 corroborates this analysis, urging a closer alignment towards a challenging effort level, yet not ruling out some extreme characteristics.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

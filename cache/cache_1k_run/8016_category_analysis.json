@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is classified primarily as 'Indoor rowing' with high confidence due to explicit references such as 'hop on your Hydrow' in the description, which directly indicates rowing. The format 'Interval' and the mention of '2-minute intervals' point towards an interval training structure, which is a common feature of High-Intensity Interval Training (HIIT). The intensity level described as '2 out of 3' suggests a significant energy expenditure consistent with HIIT. Therefore, 'HIIT' is also a relevant category. The workout name 'Commit to Fit: Celebration Row', directly using 'Row', further supports these classifications. Other categories like 'Yoga' or 'Mat' exercises aren't applicable as the evidence strongly suggests rowing and interval training."
+}

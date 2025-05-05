@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Mat",
+      "score": 0.8
+    },
+    {
+      "name": "Body weight",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary indication for classifying this workout comes from the title and description. The title 'Core Strength' and the description 'Ignite your core with Pete' strongly suggest core focused exercises, typically performed on the mat. The keywords 'On The Mat' from the category metadata further reinforces this, indicating floor exercises, which is why 'Mat' is chosen with a high score of 0.8.\n\nAdditionally, the mention of 'strength' and the absence of any specified equipment imply body weight exercises aimed at core strengthening. Despite the lack of explicit reference to bodyweight exercises, the context reasonably suggests their inclusion, leading to a secondary classification as 'Body weight' with a score of 0.6.\n\nConfidence in these categories is high due to clear indicators in the metadata, notably the emphasis on mat-based and core strength training. Other categories such as 'Weight workout' or 'Pilates' are excluded due to absence of specific cues for equipment usage or controlled movement emphasis typical of those categories."
+}

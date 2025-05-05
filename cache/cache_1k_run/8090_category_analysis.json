@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category assigned is Indoor rowing, with a high score of 0.9, due to explicit indicators such as 'Climb Row' in the title and keywords like '3-minute sprinting efforts,' which suggest the use of a rowing machine. The term 'row' appearing in multiple fields also strongly supports this classification. \n\nThe secondary category is HIIT, receiving a moderate score of 0.6. This is supported by mentions of '3-minute sprinting efforts' and an intensity level of '3 out of 3,' suggesting a high-intensity workout characteristic of interval training. The 'Format: Climb' can also imply intervals with varying intensities.\n\nThe overall confidence level is high (0.85) due to the explicit focus on rowing and elements of interval training. Categories like Mat, Pilates, or Yoga were excluded due to the lack of indicators such as the use of a mat or yoga-like description."
+}

@@ -1,0 +1,26 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized under Hydrow's 'drive' type which generally implies advanced technique. However, since it's rowing-focused, which limits technique complexity, it's adjusted to Intermediate level. HIIT format with rhythmic rowing requires coordination but within rowing basics.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.9
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The 'Hype HIIT Row' implies high-intensity interval training with a format labeled as 'drive', a top intensity level of 3/3. Short intense sprints are physically demanding, particularly for 31 minutes, contributing to a Challenging effort rating.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

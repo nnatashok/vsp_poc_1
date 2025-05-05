@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.8,
+  "categoriesExplanation": "The workout is classified primarily as 'Indoor rowing' with a score of 0.8 because the metadata specifies 'row along with Aquil' and uses the term 'row' and 'creating space' which seems to emphasize the act of rowing. The 'Format: Interval' suggests some structured workout, commonly seen in rowing routines. Even though the music and slow pace imply relaxation, the explicit mention of 'row' helps in confidently placing it under rowing.\n\nThe secondary category is 'Breathing exercises' with a score of 0.7. This classification is due to the emphasis on 'breathe' and 'practice slowing down, and creating space for yourself' found in both the title and description. These aspects suggest a focus on mindfulness and breath control. The relatively low 'Workout intensity level: 1 out of 3' further supports a focus on breathing rather than intense physical exertion.\n\nOther categories such as 'Yoga' or 'Meditation' are excluded, as they typically incorporate different practices and were not explicitly mentioned in the description of the video despite having relaxing themes."
+}

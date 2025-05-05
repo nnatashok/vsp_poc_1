@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is titled 'Newport Beach HIIT Row', and the metadata classifies it under the 'row' category. This strongly suggests that a rowing machine is necessary for this high-intensity interval workout. The description mentions 'ten sets of 1-minute high intensity intervals', which aligns with the typical use of a rowing machine for HIIT sessions. Additionally, the term \"Drive\" in the category implies focused rowing activity. Although the image shows rowing in a natural environment, the metadata's emphasis on rowing and the structured HIIT format indicate the use of an indoor rowing machine. Given these factors, a high confidence score of 0.9 is assigned to the rowing machine as required equipment."
+}

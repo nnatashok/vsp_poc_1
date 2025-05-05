@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    },
+    {
+      "name": "Stretching",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.8,
+  "categoriesExplanation": "The workout is classified primarily as 'Indoor rowing' with very high confidence (score of 0.8) based on explicit mentions of 'rowing at lower rhythms' and 'prioritize patience in your stroke'. This aligns strongly with the activity performed on a rowing machine. The term 'low rhythm' and the setting with two individuals (Nick and Aisyah in Bergen) further suggest a rowing context rather than another type of workout.\n\nAdditionally, there is a secondary classification under 'Stretching' with moderate confidence (score of 0.4), due to the phrase 'stretching out with Nick and Aisyah'. While stretching appears to be a component of the workout, it is not the central focus due to the explicit rowing emphasis. The use of 'cool down' suggests a lower intensity, which typically involves stretching or relaxing techniques, supporting this secondary categorization."
+}

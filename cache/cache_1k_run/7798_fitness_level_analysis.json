@@ -1,0 +1,26 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "techniqueDifficultyConfidence": 1.0,
+  "techniqueDifficultyExplanation": "This workout has been categorized under 'row' with the type specified as 'drive'. According to Hydrow's rules, the 'drive' workout types are classified as 'Advanced' for technique. However, due to row-specific constraints, the technique difficulty is limited to 'Intermediate'. Considering the HIIT format with variations in rhythm and coordination, the intermediate rating captures the technique complexity adequately.",
+  "effortDifficulty": [
+    {
+      "level": "Extreme",
+      "score": 0.8
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout duration is 16 minutes of high-intensity interval training (HIIT) with a maximum rhythm of 30. The workout type 'drive' and the intensity level rated 3 out of 3 indicate a very demanding session. Given the HIIT structure and high intensity, the effort difficulty aligns closely with 'Extreme' as users would need to exert significant energy and maintain high exertion levels throughout the workout with minimal rest.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

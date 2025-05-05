@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which inherently restricts its Technique Difficulty to 'Beginner' or 'Intermediate'. The movement involved in rowing focuses mostly on a repeating, controlled stroke which is not complex. However, as the user fitness level requirement is 'Intermediate', we can infer that proper technique involves a moderate understanding of the form, aligning it more with Intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.8
+    },
+    {
+      "level": "Challenging",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout is 16 minutes long, indicating a moderate duration within the rowing category. The intensity level is marked 2 out of 3, suggesting it is somewhat demanding, but not extremely so. The rhythm maxing out at 28 also adds a moderate challenge due to its higher pace. Music choice ('Pop mid, Global Hits') likely offers an energetic atmosphere enhancing perceived effort. These factors contribute to a Moderate to potentially Challenging effort for a less-fit user.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

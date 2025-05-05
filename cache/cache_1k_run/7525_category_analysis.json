@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.7
+    },
+    {
+      "name": "Stretching",
+      "score": 0.6
+    },
+    {
+      "name": "Meditation",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.6,
+  "categoriesExplanation": "The workout metadata, including the emphasis on 'sitting up tall,' 'relaxing your shoulders,' and references to a 'cool-down,' suggests a focus on relaxation and recovery, which aligns with 'Stretching' (score: 0.6) and possibly elements of 'Meditation' (score: 0.3) due to the relaxation focus. However, the mention of 'max rhythm: 24' and the use of terms like 'standard,row' suggest that this is conducted on a rowing machine, leading to the categorization under 'Indoor rowing' (score: 0.7). The lack of explicit active rowing or high-intensity keywords makes 'Indoor rowing' less dominant but still relevant. The music style supports a calming atmosphere, further supporting the relaxation and meditative aspects."
+}

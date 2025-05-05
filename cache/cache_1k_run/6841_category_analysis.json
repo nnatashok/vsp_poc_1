@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Stretching",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.75,
+  "categoriesExplanation": "The workout metadata provides a clear indication that this session revolves around rowing. The mention of maintaining a '22, 24, and 20 rhythm' and the tag 'row' strongly suggests this is an indoor rowing session. The workout is described as a 'cool down', which typically involves slower movements to help the body transition from exercise to rest, aligning well with the categorization of indoor rowing. The cool down nature of the workout gives it a relaxed pace and intensity, which is characteristic of some stretching routines, justifying a moderate score for the 'Stretching' category. The absence of explicit stretching cues or detailed descriptions of static stretching positions prevents a higher confidence or score in the stretching category. The duration and lack of high intensity further support the classification as a low-intensity session, common in rowing cool-downs. No other categories fit the given metadata as there's no mention of breathing exercises, meditation, or other equipment usage."
+}

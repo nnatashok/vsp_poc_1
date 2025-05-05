@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is classified primarily as 'Indoor rowing' because the title 'All Over the World Row' and the description mention 'intervals' highlighting rowing destinations, which strongly indicates a rowing workout performed on a rowing machine. The explicit mention of intervals ('1' on 1' off intervals') in the description, and the structured 'sweat' workout type, suggest elements of 'High-Intensity Interval Training (HIIT)', thus justifying the secondary category assignment. The equipment list, or lack thereof, and the rowing-specific context rule out other categories like 'Mat' or 'Elliptical'. The high intensity (level 2 out of 3) with the format 'Interval' aligns with the HIIT category. This classification is made with high confidence based on strong indicators in the metadata."
+}

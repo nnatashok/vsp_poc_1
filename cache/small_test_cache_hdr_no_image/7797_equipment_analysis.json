@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 0.9
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout is explicitly described as a rowing session, evident from the title 'Steady Cool-Down' and the description 'Row steadily along the Charles River with Mac'. The presence of the word 'row' and the category 'row' indicates that a rowing machine is central to performing this workout. There are no mentions of any other equipment types in the provided metadata, such as mats for floor exercises or dumbbells for strength training, which further confirms that the rowing machine is the only equipment needed. Based on this, the confidence level for requiring a rowing machine is very high at 0.9."
-}

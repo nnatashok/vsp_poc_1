@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The technique difficulty is influenced primarily by the workout type which is 'Drive' and category 'row'. According to Hydrow's specific rules, these workouts can be rated only between Beginner and Intermediate. Given 'Drive' usually implies a higher engagement with technique due to interval work, while still accessible to those with some basic rowing knowledge, I assign this a strong Beginner and a moderate Intermediate rating.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.6
+    },
+    {
+      "level": "Extreme",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "Effort difficulty is high due to the workout's classification as 'Drive' and the HIIT format involving 30\" and 45\" intervals. The workout's duration is 21:17 minutes, which is significant for high-intensity intervals. The given intensity level, 3 out of 3, also suggests a demanding workout. Therefore, I rate this primarily as Challenging with a strong Extreme rating owing to the sustained high-intensity intervals with minimal rest likely involved in rowing drives.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout titled \"Commit to Fit: Accountability Partner Row\" explicitly falls under the 'row' category, indicating the central use of a rowing machine. The description further supports this by emphasizing rowing-specific terms such as 'strokes per minute,' which are directly related to rowing. Although the image shows outdoor rowing, the metadata suggests an indoor workout, typically requiring a rowing machine. The absence of any other listed equipment and the focus on rowing intervals justify a high confidence score of 1.0 for the rowing machine being required."
+}

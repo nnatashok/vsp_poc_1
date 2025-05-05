@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 1
+    },
+    {
+      "level": "Advanced",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is categorized under \"Drive\" and involves rowing intervals, which suggests a higher technique difficulty. While 'Drive' usually aligns with an Advanced classification due to the coordination required and potential challenges in maintaining proper form throughout high-intensity intervals, in the context of rowing, it caps at Intermediate based on Hydrow-specific rules. Since the user fitness level requirement is Advanced, a minimal alignment is provided to capture possible complexity beyond typical rowing movements, but Intermediate remains the primary classification.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    },
+    {
+      "level": "Extreme",
+      "score": 0.2
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "With 2-minute intervals followed by 60-second blasters, the session demands high energy, making it physically tough. The metadata indicates a '3 out of 3' intensity, signaling considerable effort for the duration of over 16 minutes. Thus, it fits well within the 'Challenging' category. The short rest durations and format also suggest potential for 'Extreme' effort, especially for less fit individuals. However, due to the importance of not overestimating effort difficulty for users with lower fitness, the primary classification is 'Challenging'.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

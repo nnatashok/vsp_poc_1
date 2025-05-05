@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 1
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The primary category for this workout is 'Indoor rowing' with a score of 1.0 due to explicit references to rowing and stroke intervals in both the workout name ('Fitness Conditioning Row') and description (\"20-stroke intervals\"). This indicates that a rowing machine is used, solidifying its classification as an indoor rowing workout. The 'HIIT' category receives a score of 0.7 because the format is explicitly described as HIIT, involving high-intensity 20-stroke intervals. The intense nature of the workout is confirmed by the intensity level of 3 out of 3. Despite the mention of high energy music, the primary focus is clearly on the rowing and interval training. Other categories like 'Drive', 'standard', and 'row' listed as types do not align with established workout classification categories in the schema."
+}

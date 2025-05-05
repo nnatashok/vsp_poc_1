@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Advanced",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'Drive', which per Hydrow-specific guidelines implies an 'Advanced' technique difficulty due to the inherently complex and coordinated nature of the drive workouts. The use of high-intensity intervals coupled with the core work on the mat suggests a need for good body control and awareness, justifying the advanced classification. The metadata clearly aligns with these elements, supporting an advanced categorization.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.6
+    },
+    {
+      "level": "Extreme",
+      "score": 0.7
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "Given the description of high-intensity intervals followed by core exercises, this workout requires significant energy expenditure over a 21-minute duration. The 'Drive' component, along with the maximum rhythm of 30, points to a high effort level. Combined with a maximum intensity level of 3 out of 3, this aligns the workout more with the extreme end of effort difficulty, although it can still be considered challenging for less fit users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

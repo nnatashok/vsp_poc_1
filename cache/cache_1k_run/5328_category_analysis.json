@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.85
+    },
+    {
+      "name": "Indoor rowing",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The video is classified primarily under 'HIIT' with a score of 0.85 due to multiple explicit references to high-intensity interval training (HIIT) in the workout description and format. The description mentions '2' intervals' and '30\" max intensity intervals,' which are hallmark features of HIIT workouts. Additionally, the 'Workout intensity level: 3 out of 3' suggests a vigorous workout, consistent with the HIIT category.\n\nThe secondary category assigned is 'Indoor rowing' with a score of 0.7. This is inferred from the workout name, 'Max HIIT Row,' and the term 'row' within the category tags. These indicate that a rowing machine is likely being used, which aligns with indoor rowing. There is no explicit mention of a rowing machine in the metadata, but the repeated references to 'row' justify this classification. \n\nAlternative categories like 'Mat,' 'Weight workout,' or 'Body weight' were excluded due to the lack of relevant indicators in the metadata supporting such activities. This classification has high confidence given the strong indicators of HIIT and inferred indoor rowing components."
+}

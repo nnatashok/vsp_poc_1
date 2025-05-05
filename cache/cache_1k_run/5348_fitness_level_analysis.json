@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is categorized as 'row', which traditionally aligns with Beginner or Intermediate technique difficulty. Given the metadata mentions 'Beginner Camp' and alternating rhythm not exceeding 26, it suggests rudimentary rowing which aligns more closely with Beginner-level technique. The confidence is high due to direct reference to a Beginner Training Camp within a simple rhythm format.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.85
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "Though the format 'Climb' might suggest increasing exertion, the duration of 11 minutes and an intensity level of 1 out of 3 clearly suggests a Light effort difficulty. The use of 'Beginner' in both title and description indicates it is meant to be very accessible to new rowers, further supporting a Light classification with some potential overlap into Moderate due to rhythm variance.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

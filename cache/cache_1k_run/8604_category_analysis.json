@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.7
+    },
+    {
+      "name": "Weight workout",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.8,
+  "categoriesExplanation": "The metadata indicates the workout involves intervals on a Hydrow, which is a rowing machine, supporting classification as 'Indoor rowing.' The description mentions 1 and 2-minute intervals on Hydrow, emphasizing the presence of rowing as a core aspect of the routine, resulting in a high score of 0.7. Additionally, 'Whole Body Circuit' and mentions of 'dumbbells' as equipment suggest strength training elements, justifying the inclusion of 'Weight workout' with a score of 0.7 for its clear role in the circuit training mentioned. The workout's circuit nature suggests a balanced integration of both categories, explaining the concurrent high ranking of Indoor rowing and Weight workout."
+}

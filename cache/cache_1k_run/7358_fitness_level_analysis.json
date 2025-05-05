@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row' and 'breathe', with a max rhythm at 24, implying it remains relatively straightforward. The 'Consistent Effort Row' indicates maintaining consistent effort rather than complex movements, typical of beginner to intermediate rowing. Since the user fitness level requirement is Beginner, the technique likely involves basic rowing mechanics without advanced technical elements, supporting a classification of Beginner with some aspects of Intermediate difficulty.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.6
+    },
+    {
+      "level": "Moderate",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout duration of 21 minutes and an intensity level of 1 out of 3 suggests a lighter effort requirement, suitable for beginners. However, being an interval workout with a rhythm change from 20 to 24 might introduce a moderate energy expenditure aspect, leading to a combination of Light to Moderate effort classification. These factors fit the beginner user requirement, indicating a relatively low intensity for physically deconditioned users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

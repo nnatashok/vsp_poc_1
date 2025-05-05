@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type 'drive' typically involves more advanced rowing techniques which require a good understanding of form to generate power effectively. The inclusion of 'explode with power' and 'all out effort' suggests slightly more complex movements than basic rowing, aligning with an Intermediate level, as the Hydrow-specific rule for 'drive' suggests it is Advanced by their standards, however, to account for less fit users, a high Intermediate classification is applied.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    },
+    {
+      "level": "Extreme",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout's structure involves intense 5-minute power-focused pieces with a final high-intensity 1-minute effort. The maximum rhythm of 30 and an intensity level of 3 out of 3, along with the format categorized as 'Power', indicate a high physical demand. This setup makes it Challenging, with sections potentially reaching Extreme due to sustained high exertion levels distinctive of the Drive category.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

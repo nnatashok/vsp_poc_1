@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Mat",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category assigned is 'Indoor rowing' with a high score of 0.9. The title 'Afterglow Cool-Down' and the description imply a steady rowing activity, which is explicitly supported by the tag 'row'. The use of a rhythm metric ('Max rhythm: 22') further suggests the structured nature of a rowing workout. The presence of 'Cool Down' in both the title and description suggests a relaxed, low-intensity end phase of a workout, which aligns with a typical cool-down phase in rowing. \n\nA secondary, much lower scoring category is 'Mat,' with a score of 0.3, due to the possibility that some gentle stretching or static activities typically associated with a cool down might take place on an exercise mat after the rowing. However, evidence for this is minimal compared to the strong rowing indicators. Other categories like 'Stretching' or 'Meditation' were considered but rejected due to the lack of explicit mention of stretching activities or meditation elements in the description or metadata. The music genre and playlist emphasize a reflective atmosphere, reinforcing the cool-down but not altering the primary categorization as rowing."
+}

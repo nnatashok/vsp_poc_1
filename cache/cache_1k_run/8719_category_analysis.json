@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Weight workout",
+      "score": 0.8
+    },
+    {
+      "name": "Indoor rowing",
+      "score": 0.6
+    },
+    {
+      "name": "Mat",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.75,
+  "categoriesExplanation": "The primary category assigned is 'Weight workout' with a score of 0.8, driven by the explicit mention of 'upper body work with dumbbells' from the description, indicating a focus on strength training with weights. Supporting this, the 'Equipment' field lists 'Dumbbells'. The mention of a 'circuit' format further aligns with structured strength training routines.\n\nThe secondary category 'Indoor rowing' is assigned with a score of 0.6 due to the mention of 'one interval on Hydrow', which implies the use of a rowing machine for part of the workout.\n\n'Mat' is considered with a score of 0.4 due to the classification tag 'On The Mat' from the metadata, suggesting floor exercises outside the rowing and weight component. However, this is less emphasized compared to the other elements, resulting in a moderate presence score.\n\nOther potential categories like 'HIIT' or 'Body weight' are excluded due to lack of mention of high-intensity intervals or exclusive bodyweight exercises without equipment."
+}

@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Advanced",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'Drive', which Hydrow specifies as having advanced technical difficulty. The metadata indicates a race-like format with instructions to achieve the lowest split, requiring proficiency in maintaining form at high intensity (rhythm 32), aligning strongly with advanced technique levels.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.6
+    },
+    {
+      "level": "Extreme",
+      "score": 0.65
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "Although short in duration (1 minute 43 seconds), the workout's 'Power' format and max rhythm of 32 indicate a high-intensity, all-out effort session. The intensity level marked as 3 out of 3 supports a classification of extreme effort difficulty, particularly given the expected physical demand and focus on lowest split times, making it highly demanding even in a brief time frame.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

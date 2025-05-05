@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The metadata specifies that the workout is categorized under 'row', indicating that a rowing machine is integral to the session. This classification is reinforced by the inclusion of the terms 'rhythms' and 'intervals', which are typically associated with rowing workouts. Moreover, the high-intensity, interval-based format further supports the requirement of a rowing machine. The confidence level is set at 1.0 due to the explicit mention of 'row' in the workout category, making it central to the workout."
+}

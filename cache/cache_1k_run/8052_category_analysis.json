@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    },
+    {
+      "name": "Meditation",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.8,
+  "categoriesExplanation": "The workout named 'World Mental Health Day Cool-Down' indicates a focus on mental health and a cool-down session. The 'Format: Steady' and 'Workout Type: cool down' suggest a low-intensity session, typically associated with rowing, given the keyword 'row' in the category and the max rhythm of 20. Thus, 'Indoor rowing' is selected with a high score of 0.8 because the workout likely involves a rowing machine.\n\nThe mention of 'world mental health day', 'reflective and educational', and the use of 'Classical, Cool/Downtempo' music implies a meditative or awareness aspect, hence 'Meditation' is included with a score of 0.4, indicating its presence but secondary to rowing.\n\nOther categories like 'Stretching' or 'Yoga' were considered but not chosen, as they typically involve more body flexibility and positions not implied by the metadata."
+}

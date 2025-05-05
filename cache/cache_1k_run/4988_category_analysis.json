@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Mat",
+      "score": 0.7
+    },
+    {
+      "name": "Body weight",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.7,
+  "categoriesExplanation": "The workout is classified primarily as 'Mat' with a score of 0.7 because the metadata mentions 'On The Mat' as both a type and category. This indicates that the exercises are likely performed on the ground, possibly involving movements and postures typically associated with mat workouts. The title 'Total Body Bootcamp' and terms like 'build strength and balance' suggest a full-body workout with strength elements. Therefore, 'Body weight' is another relevant category with a score of 0.6, as such bootcamp workouts often use body weight for strength and balance exercises. The music playlist, featuring upbeat pop and global hits, supports an energetic workout atmosphere consistent with bootcamp style training. The metadata lacks explicit reference to equipment, further supporting the inference that body weight exercises are involved. Other potential categories like 'Weight workout' or 'Pilates' are excluded due to the lack of specialized equipment or specific methodology indicators."
+}

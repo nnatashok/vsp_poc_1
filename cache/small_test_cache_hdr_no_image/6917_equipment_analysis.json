@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Mat",
-      "confidence": 0.9
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout is titled 'Yoga Flow,' and the description, which includes 'flow' and references a 'sunny park,' suggests a yoga session. This type of workout typically requires a mat, referenced directly in the metadata under 'Category: On The Mat,standard,on-the-mat.' Hence, the confidence level for the Mat is very high (0.9), as there's a clear indication that participants will perform exercises that are best done on a mat. No other specific equipment is implicitly mentioned or suggested either in the description or category, indicating that the mat is likely the only piece of equipment needed for this workout."
-}

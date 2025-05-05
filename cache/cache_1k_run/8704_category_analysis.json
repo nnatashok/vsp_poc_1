@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.95
+    },
+    {
+      "name": "HIIT",
+      "score": 0.9
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The categorization of this workout as 'Indoor rowing' and 'HIIT' is based on several strong indicators in the metadata. The workout name 'Enhance Your Reward Row' and the category tags 'row' and 'drive' strongly suggest that this is a rowing-focused workout, justifying a high score of 0.95 for 'Indoor rowing'. The description mentions 'high-intensity intervals' and the max rhythm of 30, which are explicit indicators of an intensive, interval-based workout, typical of High-Intensity Interval Training (HIIT). This aligns perfectly with the definition of HIIT, meriting a score of 0.9. The 'drive' format further supports the intensity level and endurance focus, typical in rowing programs. The absence of an instructor and the use of high-energy pop music for motivation are additional contextual clues supporting the high-intensity nature of the workout. No other categories were considered due to insufficient evidence supporting their inclusion."
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Stretching",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.8,
+  "categoriesExplanation": "The workout is titled 'Reverse Climb Cool-Down' and described as a 'cool down along the shores of Lake Tahoe'. It is categorized as 'cool down, standard, row'. The repeated mention of 'cool-down' and the context of lowering heart rate suggest it is a low-intensity session often following a primary workout. The mention of 'row' and 'Max rhythm: 22' implies the use of rowing equipment, warranting the 'Indoor rowing' category with a high score of 0.9. While cool-downs often involve some flexibility or relaxation exercises, the explicit focus on rowing, even if low intensity, aligns more with Indoor Rowing than exclusively Stretching. Additionally, the short duration of 5:44 minutes indicates a brief session, further supporting a combination of low-intensity rowing and potential flexibility or cooldown movements. Hence, Stretching is included with a lower score of 0.5. The confidence level of 0.8 denotes high confidence due to explicit indicators of rowing and cool-down context."
+}

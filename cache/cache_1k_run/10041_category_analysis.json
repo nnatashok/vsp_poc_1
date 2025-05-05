@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category 'Indoor rowing' was selected due to the explicit mention of 'row' in the workout title 'Power Climb Row' and the description, which focuses on stroke-based intervals. The format refers to 'Climb', which suggests a rowing workout, further reinforced by the category tags provided in the metadata such as 'row'. This justifies a high score of 0.9 for Indoor rowing. The 'HIIT' category is considered as a secondary option with a moderate score of 0.5 due to the workout's focus on 'intervals' which typically indicates a form of interval training and the inference of moderate to high intensity from the 'sweat' classification and intensity level 2 out of 3. Other potential categories were excluded as there is no mention of any non-rowing equipment or activities that fit their descriptions."
+}

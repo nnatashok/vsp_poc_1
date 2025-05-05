@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.2
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout category is 'Drive', which implies a higher level of technical precision than standard 'row' sessions due to its focus on power and rhythm, aligning with Intermediate (0.8) and Advanced (0.6) scores. The rhythm of 32 further suggests a need for maintaining form under high intensity, which can be challenging for beginners, thus placing the primary classification more firmly between Intermediate and Advanced.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.7
+    },
+    {
+      "level": "Extreme",
+      "score": 0.9
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout involves both 2-minute and 1-minute intervals with an intensity level of 3 out of 3, signaling a very demanding routine. The 21-minute duration with a max rhythm of 32 in the 'Drive' type suggests high energy expenditure, earning an Extreme (0.9) score. The structure of short, high-intensity bursts aligns with a Challenging (0.7) rating, though the high max rhythm and intensity strongly suggest an overall Extreme classification as well.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

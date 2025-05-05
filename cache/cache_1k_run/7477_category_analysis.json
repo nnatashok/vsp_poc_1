@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Stretching",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is titled 'Reverse Climb Cool-Down,' with a description that involves working from a rhythm of 22 down to 18 while cooling down. This suggests a rowing activity, given the use of tempo (or rhythm) as a key training variable, which is common in rowing workouts. The category 'Cool Down, standard, row' confirms it as a rowing-focused workout. Despite being a cool-down, it remains primarily a rowing activity, thus the categorization as 'Indoor rowing' with a high score of 0.9. The cooling down aspect might also entail some light movement or stretching, indicating a secondary presence of 'Stretching' with a moderate score of 0.5. The alternative categories such as 'Yoga,' 'Meditation,' or 'Breathing exercises' don't fit due to lack of relevant metadata indicating such practices. The confidence level is high at 0.85, given clear indicators of rowing in the provided data."
+}

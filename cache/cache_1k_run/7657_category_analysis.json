@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Mat",
+      "score": 0.7
+    },
+    {
+      "name": "Body weight",
+      "score": 0.9
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is classified primarily under 'Body weight' with a score of 0.9, supported by the title 'Bodyweight Strength' and the description indicating a strength session that focuses on the lower body and core without additional equipment, typical characteristics of bodyweight exercises. The category 'Mat' is also relevant with a score of 0.7, inferred from the tag 'On The Mat' in the description, suggesting that the exercises are performed primarily on the floor using an exercise or yoga mat. The overall confidence level is high at 0.85 due to strong indicators in both the title and description, directly referencing core aspects of the workout. Other categories such as 'Weight workout' are excluded due to the explicit mention that the session is a 'bodyweight strength session', which typically doesn't involve weights."
+}

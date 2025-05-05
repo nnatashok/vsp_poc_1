@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type is 'row', which typically involves seated rowing using a machine and aligns with Beginner to Intermediate technique levels. The description of intervals with 'jog' and 'run' pace suggests some complexity in matching rhythm but does not explicitly mention any complex movements. Hence, the technique remains primarily at Beginner level with a slight consideration for Intermediate due to workout rhythm and pace variations.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout duration is relatively short at 11 minutes and 20 seconds, and the intensity level is 1 out of 3, indicating a lighter, more cardio-focused effort with intervals. The presence of intervals at two paces hints at a slightly elevated effort, placing it between Light and Moderate difficulty. The short duration keeps it mostly Light for deconditioned users but acknowledges Moderate effort in energy expenditure with varying paces.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

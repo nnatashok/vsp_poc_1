@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is categorized as 'Indoor rowing' with a high score of 0.9 because the description explicitly mentions 'steadily row with Laine' and 'tune into the technique of each stroke,' clearly indicating a focus on rowing. The use of terms like 'Max rhythm: 24' further supports this as an indoor rowing activity. The intensity level is rated 1 out of 3, suggesting a relaxed rowing pace, not to be confused with stretching or meditation categories. \n\nThe 'Breathing exercises' category is included with a score of 0.4 due to the 'Workout Type: breathe' in the metadata. However, since 'breathe' could also imply focusing on breathing during rowing, it warrants a lower confidence. This insight prevents misclassification into purely breathing exercises or meditation, given the central role of rowing in this workout. The 'Commit to Fit: Fitness Commitment' title and lack of an instructor's emphasis contribute to the focus on form rather than intent guidance through paced breathing, explaining the moderate presence of this category."
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    },
+    {
+      "name": "Mat",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.8,
+  "categoriesExplanation": "The workout is classified primarily under the 'Indoor rowing' category, given the explicit mention of 'row' in the category metadata and the description of 'ten stroke builders', which strongly implies the use of a rowing machine. The term 'steady rhythm' also suggests rowing, as maintaining a rhythm is crucial in rowing workouts. A score of 0.8 reflects strong confidence due to these explicit indicators.\n\nThe 'Mat' category is considered with a lower score of 0.3 due to the possible low-intensity and warm-up nature of the workout. However, concrete evidence is lacking, and it's mainly an inference from the warm-up format which might include non-rowing movements.\n\nOther potential categories like 'HIIT', 'Yoga', or 'Stretching' are excluded due to the lack of relevant keywords or descriptors, and the workout's focus on a rowing-related warm-up rather than these types of exercises."
+}

@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.6
+    },
+    {
+      "name": "Mat",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout, titled '90s Music Row', strongly suggests an indoor rowing focus due to the reference to \"log meters\" and \"steady\" in the description, which align with rowing terminology. The inclusion of 'steady format' and a low-intensity level (1 out of 3) indicate a relaxed rowing session, supported by the rhythm max of 24, which is typical for rowing workouts. Thus, 'Indoor rowing' is assigned with high confidence and a score of 0.9. The mention of 'breathe' as a workout type suggests an element of rhythmic breathing being a focus, which could enhance the rowing experience, resulting in the 'Breathing exercises' category receiving a moderate score of 0.6. The music playlist and the lack of specific equipment or complex choreography reduces the possibility of it being an energetic or challenging session, leading to a lower score for 'Mat' at 0.3, as the workout doesn't seem to involve significant body movement away from the rowing machine. The categories stretch to cover all broad aspects indicated in the metadata while confirming the primary focus is indoor rowing."
+}

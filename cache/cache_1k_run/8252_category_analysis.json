@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.7
+    },
+    {
+      "name": "Meditation",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is primarily classified under 'Indoor rowing' with a high confidence score of 0.9. This classification is strongly supported by the workout name \"Breathe through Emotions Row\" and the specific mention of rowing and interval formats like \"pyramid.\" The inclusion of 'breathe' as a workout type and the low intensity of 1 out of 3 further aligns with a breathing-centered approach to rowing. \n\nAdditionally, 'Breathing exercises' is a notable aspect (score 0.7), as 'breathe' is explicitly listed as the type, and there is a focus on emotional reflection and rhythm, indicative of breathing facility. \n\n'Meditation' is considered but at a lower confidence level (score 0.4) due to the reflective nature of the workout, focusing on emotions. However, the lack of explicit mention in the metadata limits this category's relevance.\n\nOther potential categories like 'Stretching' and 'Yoga' were excluded because there is no specific indication of flexibility or mind-body postures typical of those practices, and the primary focus remains on rowing."
+}

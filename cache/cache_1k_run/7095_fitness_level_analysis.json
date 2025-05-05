@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which according to Hydrow-specific rules implies a technique difficulty of either Beginner or Intermediate. The workout involves rowing with 4-minute intervals and rhythm climbs, which do not require highly complex movements but do require some coordination and proper rowing form, indicating a strong fit for Beginner with a moderate fit for Intermediate levels.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.75
+    },
+    {
+      "level": "Challenging",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The duration of the workout is 16 minutes and 23 seconds, which combined with a moderate intensity level of 2 out of 3 suggests a moderate energy expenditure. The climbing rhythm in 4-minute intervals can be somewhat demanding, aligning with a moderate to challenging level of effort for users in poor shape.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

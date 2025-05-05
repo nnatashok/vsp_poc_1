@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout is classified under 'row', which generally means the Technique Difficulty is either Beginner or Intermediate. Given that the video title is 'Starting Line Row' and is part of the 'Breathe' category with an intensity of 1 out of 3, it suggests a focus on form and technique suitable for a beginner. The mention of jogging and running paces may introduce slight complexity, warranting a minimal score for Intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout duration is 21 minutes and 22 seconds with an intensity level of 1 out of 3, indicating a low-intensity session. The interval format and jogging/running pace intervals slightly elevate the effort above pure Light classification, but the primary focus remains beginner-friendly, resting comfortably in the Light category with a slight contribution from Moderate due to its structured intervals.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

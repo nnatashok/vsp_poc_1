@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Stretching",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.8,
+  "categoriesExplanation": "The primary category for this workout is 'Indoor rowing' due to the explicit reference to rowing techniques such as stroke refinement and pick drills, which are specific to the activity of rowing ('legs-only', 'legs and arms', etc.). The presence of these rowing-specific terms strongly indicates an indoor rowing workout, leading to a high confidence score of 0.9. \n\nThe inclusion of 'cool-down' in the workout name and description suggests a low-intensity focus on gentle movements. Therefore, 'Stretching' is considered as a secondary category with a lower score of 0.3, acknowledging the cool-down aspect, but is not the primary focus. The format's emphasis on technique rather than flexibility confirms that 'Stretching' is supporting rather than central. \n\nNo other categories like 'Mat' or 'Yoga' are suitable given the clear focus on rowing execution in a structured manner, rather than general floor exercises or relaxation techniques."
+}

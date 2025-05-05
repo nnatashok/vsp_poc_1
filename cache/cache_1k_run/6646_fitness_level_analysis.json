@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.85
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which means the technique difficulty can only be Beginner or Intermediate. Given the \"steady state\" format and the basic rate change from rhythm 20 to 22 over 21 minutes, this workout demands very minimal coordination beyond basic rowing form. The instructional cues are likely focused on maintaining endurance rather than technical precision. Hence, it aligns strongly with Beginner level but has a slight possibility for Intermediate due to the duration.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout spans 21 minutes with low to moderate rhythm changes (from 20 to 22), suggesting a steady aerobic activity which primarily focuses on endurance. The stated workout intensity level of 1 out of 3 indicates a relatively low demand, suitable for beginners but also marginally challenging over its duration which makes it overlap with the lower spectrum of moderate effort.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

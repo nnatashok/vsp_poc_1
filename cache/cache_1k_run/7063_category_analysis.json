@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Mat",
+      "score": 0.9
+    },
+    {
+      "name": "Body weight",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout 'Core Strength' is classified primarily as 'Mat' with high confidence (score: 0.9) because the description emphasizes exercises performed 'on the mat,' which is explicitly mentioned in both the category and description. The focus on 'isolating your core' further supports this categorization, suggesting mat-based core exercises. 'Body weight' is another relevant category (score: 0.7) since the workout is a 'strength workout' aimed at core building, typically utilizing only the individual's body weight without any specific equipment. The high-intensity music playlist, featuring energetic tracks like 'Shivers (Dillon Francis Remix),' supports the notion of a dynamic core workout rather than a purely meditative or relaxation-focused session, ruling out categories like 'Yoga' or 'Pilates.' The metadata provides strong alignment with these categories, leaving little ambiguity in classification. Other categories such as 'HIIT', 'Weight workout', or 'Yoga' were excluded due to the explicit focus on core strength and lack of equipment-intensive descriptions."
+}

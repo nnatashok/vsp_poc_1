@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.1
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout type is 'breathe', within the rowing category, suggesting a focus on rhythmic, controlled movements rather than complex techniques. The workout is described as suitable for building a cardio base at low rhythms, indicating simplicity and accessibility of exercises, aligning well with a Beginner technique level. Limited coordination is required since the rowing at low rhythms does not introduce advanced movement patterns.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.2
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout duration is approximately 21 minutes, with an intensity level of 1 out of 3, indicating it is on the lower end of intensity. The focus on cardio base building at low rhythms suggests minimal exertion, suitable for beginners. Thus, this workout aligns closely with the Light effort difficulty category, with some allowance for a low Moderate fit.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

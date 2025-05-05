@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is titled 'Flight Plan Row' and mentioned as a movie-themed row, strongly suggesting the use of a rowing machine. The category includes 'standard' and 'row', which further indicates rowing. The metadata doesn't list any equipment, but based on the context and classification as a 'row' category by default, a rowing machine is required with very high confidence (0.9). The image shows a boat on water but refers to rowing in general, supporting this classification."
+}

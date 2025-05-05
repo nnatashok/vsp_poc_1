@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.8,
+  "categoriesExplanation": "The workout titled 'Sisters Row' strongly indicates that this session involves indoor rowing. The description mentions intervals of five and six minutes, which are hallmark signs of rowing workouts, confirming this as the primary category. The use of the word 'Row' explicitly points to rowing, contributing to a high confidence level of 0.9 for Indoor Rowing. The mention of 'intervals' also suggests a high-intensity structure, potentially classifying it as HIIT, indicated by the 'sweat' and 'format: interval'. However, since the intensity level is moderate (2 out of 3) and not maximized, the score for HIIT is 0.6. The classification avoids categories like Stretching, Yoga, or Meditation despite the possible relaxed family stories element as these do not match the stated workout structure and intensity."
+}

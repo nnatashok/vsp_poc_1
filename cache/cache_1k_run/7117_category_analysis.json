@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is classified primarily as 'HIIT' due to the explicit mention of '1-minute intervals at max pressure' and 'format: HIIT', indicating a high-intensity interval training structure. The intensity level is also at the maximum (3 out of 3), further reinforcing the intense nature typical of HIIT workouts. The inclusion of a 'max rhythm of 32' suggests a fast-paced regimen often associated with interval training.\n\nThe second category is 'Indoor rowing' as this is a rowing-focused workout, which is evident from the title 'Welcome to Seville Row', the reference to 'row' in the category, and the workout type 'drive', which implies rowing drive phases. Given the workout's emphasis on intervals and rowing, 'Indoor rowing' is a significant element of this session.\n\nThe music selection and setting ('Explore and learn about Seville') might suggest an immersive experience, but they do not influence the classification of fitness categories directly.\n\nNo other categories closely fit this workout's targeted high intensity and rowing focus, ensuring a high confidence in the chosen categories."
+}

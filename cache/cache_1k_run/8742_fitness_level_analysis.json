@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.1
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is classified within the 'row' category and the technique involves steady rowing at low rhythms with a maximum of 24 strokes per minute, indicating minimal complexity. The presence of multiple instructors could suggest a very minor increase in required coordination, slightly raising the potential for an Intermediate classification, but primarily it aligns with Beginner, as the movements involved (rowing) are fundamental and straightforward.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.85
+    },
+    {
+      "level": "Moderate",
+      "score": 0.15
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout is described as 'light effort', reinforced by the low intensity level of 1 out of 3 and the duration of just under 12 minutes. These details, alongside the 'breathe' format and the 'Steady' row category, point to low energy expenditure and an emphasis on maintaining a gentle pace, typical of Light effort workouts. However, rowing inherently requires more effort than very gentle activities, warranting a slight consideration for a Moderate alignment.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

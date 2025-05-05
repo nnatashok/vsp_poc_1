@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type is categorized as 'drive,' which has a default technique requirement of Intermediate for rowing-based workouts. However, since the action primarily involves rowing (Category: 'row'), this typically aligns with Beginner or Intermediate difficulty. Considering the HIIT format with a max rhythm of 32, the Intermediate level is supported, but elements remain relatively simple due to the focus on consistent rowing movements, warranting a Beginner score as well.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.7
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout duration of 21 minutes with HIIT intervals indicates a Challenging effort level. The workout intensity is marked as 3 out of 3, implying high physical demand, further supported by the sweat-inducing 32 max rhythm. Despite the short duration, the high-paced nature and intense music playlist (e.g., rock) suggest elevated energy expenditure typical for a Challenging level.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

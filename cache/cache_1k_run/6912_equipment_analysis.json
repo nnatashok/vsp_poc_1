@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is categorized under 'row', indicating the use of a rowing machine is integral to the session. The metadata explicitly mentions controlling each stroke, which is a specific action performed on a rowing machine. The high confidence score of 1.0 is due to the clear connection between the workout type ('row') and the equipment required. The image further suggests rowing, although it's outdoor water rowing, it aligns with the overall theme of rowing exercises. Therefore, the rowing machine is crucial for simulating the environment described."
+}

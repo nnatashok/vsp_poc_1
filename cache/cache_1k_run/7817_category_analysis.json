@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The workout is predominantly an 'Indoor rowing' session as indicated by the title '80's Fun Summer Row' and explicitly mentioned under 'Category' and 'Workout Description' that refers to 'rowing' and 'intervals'. The description of the workout involves 'four sets of 4-minute intervals followed by six sets of 45-second intervals', making it a structured interval workout, which aligns with the 'HIIT' category due to the alternating intensity levels, thus justifying a score of 0.7. While the emphasis is primarily on the rowing aspect, the interval training format supports the inclusion of 'HIIT'. No other categories such as Mat or Body weight apply due to the lack of evidence for floor exercises, and other cardio categories (like Elliptical, Running, or Indoor biking) are not suitable given the rowing-specific setup. The overall confidence is high due to clear explicit indicators and alignment with the description, hence a confidence level of 0.95 is assigned."
+}

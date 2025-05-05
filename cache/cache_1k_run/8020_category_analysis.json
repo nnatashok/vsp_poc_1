@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.8
+    },
+    {
+      "name": "Indoor rowing",
+      "score": 1.0
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The metadata explicitly indicates this is a 'fast-paced row' with a 15-second intensity burst format, typically indicative of HIIT, confirming it as a High-Intensity Interval Training session. The workout format is labeled as 'HIIT' and there is an emphasis on a 'drive' category which in this context aligns with HIIT elements due to the fast-paced, intense format. The 'maximum rhythm: 34', coupled with 'workout intensity level: 3 out of 3', and musical choices from rock genres suggest a high-energy workout consistent with the characteristics of HIIT.\n\nThe very high confidence in 'Indoor rowing' stems from multiple clear indications, including the title 'React and Move Row', the description mentioning 'row along the Charles', and the keyword 'row' appearing under 'Category'. These all strongly point to the primary exercise being rowing, specifically performed indoors as no indication of it being an outdoor or on-water activity. Therefore, 'Indoor rowing' is assigned a score of 1.0.\n\nThe playlist consisting of high-energy tracks supports the intense nature of the workout, aligning with HIIT dynamics. No indicators validate other categories such as 'Mat', 'Yoga', or 'Elliptical', solidifying the classification."
+}

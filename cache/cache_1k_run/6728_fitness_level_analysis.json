@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized as 'Drive' and 'row', indicating that it involves rowing exercises. According to our classification guideline, rowing-based exercises generally range from Beginner to Intermediate in terms of technique difficulty. The 'Drive' label typically suggests a more technique-intensive session within rowing, whereby mastery over maintaining form during high-paced rowing is expected. Therefore, for this workout, an Intermediate technique difficulty is highly suitable.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    },
+    {
+      "level": "Extreme",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is marked with an intensity level of 3 out of 3, suggesting it is highly demanding. Its format focuses on power with a max rhythm of 30+ strokes, which indicates elevated physical exertion. Despite the short duration of 11 minutes and 27 seconds, the focus on climbing intervals and achieving a personal best implies a high intensity. These factors collectively point to a Challenging effort level with a strong leaning towards Extreme, due to the high-intensity nature emphasized in the metadata.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

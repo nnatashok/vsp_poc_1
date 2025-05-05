@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout type is noted as 'pilates' in the metadata, and the category 'On The Mat' strongly suggests the need for a mat. Additionally, the workout is set outdoors in the image, with the participant using a mat. These elements provide very high confidence (0.9) that a mat is central to this Pilates workout. Other equipment is not mentioned or implied, aligning with a typical mat-based Pilates routine."
+}

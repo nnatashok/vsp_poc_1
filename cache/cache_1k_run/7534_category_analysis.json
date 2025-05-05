@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category \"Indoor rowing\" is supported by the title and description, both of which emphasize rowing exercises. The term 'Climb Row' indicates a rowing workout which is further confirmed by the metadata tags 'row' and descriptions of rhythmic climbing and blasting, typical in structured rowing regimens. Therefore, a score of 0.8 is assigned to \"Indoor rowing\" due to these explicit indicators and standard tags.\n\nThe secondary category \"HIIT\" is selected because of phrases like \"3-minute climbing efforts\" and \"final 1-minute blaster\" in the description, which suggest short bursts of high-intensity activity consistent with high-intensity interval training. The term 'sweat' as a workout type and the indicator of a fairly high intensity level of 2 out of 3 also support this classification, though less directly linked to HIIT. Therefore, a score of 0.6 is assigned to \"HIIT\" for its implied high intensity and interval-based structure.\n\nOther categories are excluded as there are no obvious indicators for activities like \"Mat,\" \"Yoga,\" or \"Treadmill.\" Despite a relatively relaxed maximum rhythm of 28, this suggests increasing intensity levels during the workout rather than a meditative or stretching session."
+}

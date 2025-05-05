@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'Sweat,standard,row', with a major focus on technique as indicated by 'technique focused workout'. The rowing component is manageable either at a Beginner or Intermediate level due to Hydrow's rule. The focus on building speed requires understanding of stroke execution, slightly increasing the complexity to an Intermediate level, corroborating the user fitness requirement of Intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The duration of 21 minutes with a max rhythm of 32 and focus on speed-building indicates moderate energy expenditure which fits a Moderate effort level. Rhythm cues at 32 likely involve maintaining a dynamic pace, making it more physically demanding than light activity levels. The subjectively rated intensity level of 2 out of 3 confirms this alignment.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is a rowing-based 'sweat' session described as having an 'intensity level 2 out of 3'. Given that it's a rowing workout, the technique difficulty cannot exceed Intermediate. The expected rhythm and format elements (pyramid) suggest some coordination and endurance are beneficial, justifying a strong Beginner score and a moderate Intermediate score.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.3
+    },
+    {
+      "level": "Moderate",
+      "score": 0.8
+    },
+    {
+      "level": "Challenging",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout's duration is approximately 11 minutes and 28 seconds, structured in 4-minute intervals. The 'sweat' category and an intensity level classified as '2 out of 3' suggest a significant cardiovascular effort, aligning with Moderate effort, while the short duration prevents a full Challenging classification. The pyramid format may increase intensity perception slightly, but overall the energy expenditure is likely to be moderate for most users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

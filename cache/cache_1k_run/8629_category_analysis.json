@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout video is classified primarily as 'Indoor rowing' due to several pieces of strong evidence from the metadata: the workout name 'Power Transitions Row' clearly indicates rowing activity, and the term 'row' is explicitly mentioned in both the Workout Type and Category fields. Furthermore, the format is described as 'Power' with a max rhythm of 32, which aligns with the dynamic nature of rowing workouts.\n\nA secondary classification of 'HIIT' is suggested with a moderate score. The metadata indicates an 'intensity level: 3 out of 3,' suggesting a high-intensity workout. The mention of 'Power Transitions' and maintaining 'power during shifts in rhythm' supports the idea of interval training associated with high-intensity sessions. The dance and global hits music stations also imply an upbeat, energetic environment typical of HIIT workouts.\n\nOverall, the evidence strongly supports indoor rowing as the primary category, with a high likelihood of HIIT elements due to the intensity and rhythmic transitions described."
+}

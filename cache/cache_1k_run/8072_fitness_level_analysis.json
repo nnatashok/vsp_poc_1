@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is a rowing session, classified under the 'breathe' type, typically focusing on rhythmic and steady-paced rowing. The description suggests alternating efforts at jogging and running paces but within a rowing context, which remains relatively straightforward in technique. As this is predominantly a rowing activity, and following the rule that 'row' workouts have a maximum Technique Difficulty of Intermediate, this aligns strongly with Beginner due to the simplicity of rowing motions. However, the interval component introduces a slight element of coordination, which justifies a weak Intermediate score.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout description and its duration of just over 31 minutes suggest it is not particularly demanding, supported by the specified intensity level of 1 out of 3. The 'breathe' format implies a focus on maintaining a sustainable pace with a low max rhythm, which further suggests a light energy expenditure. The interval mention could elevate effort slightly, but the overall design leans towards a light-to-moderate effort, suitable for beginners.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

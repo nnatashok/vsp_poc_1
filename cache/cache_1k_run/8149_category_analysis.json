@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.75
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is classified under 'Indoor rowing' with a high confidence score of 0.9 because the metadata explicitly describes it as involving 'row' and emphasizes rowing in Chicago. The workout's high-intensity intervals are indicative of a rowing session designed to ignite the legs and lungs. The additional classification as 'HIIT' with a score of 0.75 is due to the mention of 'high-intensity intervals' in the description, indicating a structured workout with alternating phases of intense effort and possibly rest. The absence of an instructor suggests a focus on the exercise routine itself, characteristic of structured HIIT formats. Other potential categories such as 'Mat', 'Treadmill', or 'Running' are excluded due to the clear emphasis on rowing and intensity level. The chosen music playlist and genre support an energetic and fast-paced exercise environment typical of high-intensity workouts."
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Mat",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is best classified under 'Indoor rowing' with a score of 0.9, due to explicit references to rowing in the workout name ('Choosing Yourself Row') and category tags such as 'row'. Additionally, the workout's description and format ('Climb', 'sweat') align well with rowing, which often includes varying intensity levels. The maximum rhythm of 28 also suggests rowing, where stroke rates are typically mentioned. The playlist with upbeat and moody pop songs could support maintaining rhythm during rowing. The 'Mat' category is included with a score of 0.3, considering potential for floor exercises or stretches typically associated with rowing sessions for warm-up or cool-down, but this is less emphasized in the description. Other categories like 'HIIT' or 'Weight workout' were excluded due to lack of explicit strength training or interval indicators."
+}

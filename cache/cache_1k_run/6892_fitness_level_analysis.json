@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.2
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout 'Arms + Core Row' is categorized as a 'row' workout, which by platform-specific rules, limits the technique difficulty to be either 'Beginner' or 'Intermediate'. The description emphasizes core engagement and a hip pivot, which requires some attention to detail but is not overly complex, suggesting an Intermediate level. The focus on technique, combined with the 'Technique' format and the presence of specific drills, supports these exercises being slightly more complex, pushing firmly into the Intermediate realm.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.6
+    },
+    {
+      "level": "Challenging",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout duration is just over 21 minutes, and it's categorized under 'sweat' with an intensity level of 2 out of 3, suggesting a moderate to challenging level of effort. The row format inherently involves full-body movement and cardiovascular exertion. Given these factors, the effort difficulty likely aligns with 'Moderate' for most deconditioned users but has elements of 'Challenging' due to sustained exertion and intensity cues, thus both are applicable.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

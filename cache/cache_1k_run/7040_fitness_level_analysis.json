@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.2
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is classified under the Hydrow category 'Drive', which typically involves more technical and coordinated rowing techniques. While rowing generally limits technique difficulty to Beginner or Intermediate, the 'Drive' classification indicates more advanced rowing techniques. Given the interval and sprint nature of the workout, particularly at a 32 rhythm, this aligns with Intermediate up to Advanced level rowing execution. The technique requires maintaining proper form during high-intensity and sprint intervals, which increases technical complexity.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    },
+    {
+      "level": "Extreme",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout involves a series of high-intensity intervals and sprints over a 21-minute period, categorized as HIIT with intensity level 3 out of 3. The max 32 rhythm and short recovery periods between intervals suggest a very demanding workout, implying Challenging to Extreme effort difficulty. Given the sustained high intensity throughout the workout, significant energy expenditure is required, aligning with a Challenging to Extreme effort classification, with a higher probability for Challenging due to its overall duration and setup.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

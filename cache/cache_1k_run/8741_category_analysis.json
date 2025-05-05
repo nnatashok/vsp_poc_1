@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    },
+    {
+      "name": "Mat",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is classified primarily as 'Indoor rowing' with high confidence (0.8 score) due to clear indications from the metadata. The use of terms like 'rhythms,' 'row,' and the format 'technique' suggest a focus on rowing rhythm and control, typical of an indoor rowing session. The presence of 'standard,row' in the category also reinforces this classification. As a secondary category, 'Mat' is included with a lower score (0.3) as the 'warm-up' and 'technique' aspects can imply mat-based instructional or preparation exercises. However, the lack of explicit mention of floor-based movements reduces the confidence in this secondary classification. Other categories such as HIIT, Yoga, or Elliptical were not suitable as there's no evidence supporting them, emphasizing the indoor rowing focus."
+}

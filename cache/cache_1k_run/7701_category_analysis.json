@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is explicitly described as 'Ultimate HIIT Row,' where 'HIIT' and 'Row' provide strong indicators of the categories. The description emphasizes 'heart pumping intervals' and 'high rhythms,' typical of High-Intensity Interval Training (HIIT), supporting a very high confidence level (score: 0.9). Additionally, the rowing aspect is evident from metadata tags such as 'Category: Drive,standard,row' and 'Format: HIIT,' indicating that this workout involves rowing machine elements (Indoor rowing score: 0.8). The 'Workout intensity level: 3 out of 3' further reinforces the high-intensity nature. While it involves rowing, it's classified under HIIT rather than Indoor rowing purely due to the explicit intensity and interval-based structure. The presence of upbeat pop music aligns well with high-energy workouts, giving further context. The absence of detailed information about equipment supports the inference that a rowing machine is likely used given the context, not directly mentioned."
+}

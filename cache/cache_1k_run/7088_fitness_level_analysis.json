@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout's focus is on learning the proper catch position and practicing three-quarter slide drills. These are rowing-specific movements, which typically involve basic technique rather than complex coordination, aligning with Beginner level technique. However, the focus on technique refinements like 'catch position' suggests a touch of complexity, warranting a slight Intermediate score.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.4
+    },
+    {
+      "level": "Moderate",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout is categorized under 'sweat' with an intensity level of 2 out of 3, suggesting moderate effort. The duration of approximately 22 minutes doesn't demand extreme physical capacity, aligning well with a Moderate level. The rowing focus typically involves continuous but not overwhelming physical exertion, suitable for low-to-medium energy expenditure, which partially aligns with Light effort as well.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

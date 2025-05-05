@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 1.0
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is titled 'Resistance Row' and categorized in the metadata under 'Drive, standard, row', which directly indicates that this is an 'Indoor rowing' activity on a rowing machine. Additionally, the description mentions 'high intensity intervals' with an 'intensity level: 3 out of 3,' suggesting that the workout involves high-intensity interval training (HIIT), as reinforced by the use of 'Power' and 'drive' terms which are often associated with intense effort phases characteristic of HIIT. The duration of 31 minutes and 43 seconds also fits typical HIIT session lengths. The inclusion of specific music genres and tracks does not directly alter the workout classification but complements the energetic and intense nature of the activity. Hence, 'Indoor rowing' is assigned a score of 1.0 due to its explicit mention, and 'HIIT' is assigned a score of 0.6 for the implied intensity and interval format."
+}

@@ -1,0 +1,26 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "techniqueDifficultyConfidence": 1.0,
+  "techniqueDifficultyExplanation": "Given the workout type is 'drive' and involves sprinting pieces in a rowing context, the Technique Difficulty is classified as Intermediate. The 'Drive' tag suggests a focus on intensity as well as maintaining proper rowing form during fast-paced sprints, which aligns more with coordination and movement complexity expected at the Intermediate level for rowing workouts.",
+  "effortDifficulty": [
+    {
+      "level": "Extreme",
+      "score": 0.9
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout description mentions 'sprinting pieces', 'climb in rhythm', and maximum rhythm of 30, signifying high intensity and physical demand, especially when sustained for nearly 22 minutes. These elements, combined with the Format being 'Climb' and the highest intensity rating (3/3), strongly indicate that the session requires a significant amount of energy expenditure typical of an Extreme effort difficulty level.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

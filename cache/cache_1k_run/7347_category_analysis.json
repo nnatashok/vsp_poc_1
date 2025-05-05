@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Mat",
+      "score": 0.2
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category selected is 'Indoor rowing' with a high confidence score of 0.9. This is based on explicit mentions in the metadata, such as the phrases 'Stroke Upgrade Warm-Up,' 'refine your technique,' 'each part of your stroke,' and 'resistance and efficiency.' These terms directly indicate that the workout involves rowing, specifically focusing on technique improvement. Additionally, the 'Category' tag includes 'row,' further supporting this classification.\n\nA secondary category, 'Mat,' is considered with a low score of 0.2. Although the metadata emphasizes rowing, the term 'Technique' might imply some floor or preparatory exercises that could occur off-machine. However, given the context and the absence of any specific floor exercise mention, this category is less relevant.\n\nThe metadata lacks significant additional indicators related to other possible categories such as 'Pilates,' 'Stretching,' or 'Yoga,' making 'Indoor rowing' the most accurate classification."
+}

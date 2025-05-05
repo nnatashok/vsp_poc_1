@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is classified under the rowing category with a type 'breathe', which typically emphasizes rhythm and pacing over technical rowing skills. Given the description with simple stroke rate intervals and a format labeled as 'standard row', the movements required are relatively straightforward, aligning with a Beginner technique difficulty. The Intermediate score is due to interval variation, which may require some minor stroke adjustments.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.6
+    },
+    {
+      "level": "Moderate",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout duration is approximately 21 minutes and includes interval training, making it slightly more engaging than continuously steady rowing. However, with the intensity level noted as 1 out of 3 and the moderate stroke rate (18-24 SPM), the physical demand is not high, aligning closest with a Light effort. The structure with intervals slightly nudges it towards Moderate for less fit users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

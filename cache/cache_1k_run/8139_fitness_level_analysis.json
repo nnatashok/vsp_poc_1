@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.2
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is categorized as 'Drive' and 'Row', and per Hydrow-specific rules, this typically falls into the Intermediate category. The description mentions 'higher rhythms' and 'pushing out of comfort zone', which suggests movement complexity suitable to an Intermediate level. However, 'Drive' workouts could involve more challenge, justifying a stronger score for Intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.1
+    },
+    {
+      "level": "Challenging",
+      "score": 0.8
+    },
+    {
+      "level": "Extreme",
+      "score": 0.7
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The 'Drive' workout type points to a high intensity which aligns with Hydrow's default settings, and the intensity level is 3 out of 3, reflecting a highly demanding session. The short duration suggests sustained high effort without long rest, fitting both 'Challenging' and 'Extreme' effort levels. The description also supports this with phrases like 'push yourself out of your comfort zone'.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

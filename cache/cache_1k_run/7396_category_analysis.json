@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Mat",
+      "score": 0.8
+    },
+    {
+      "name": "Body weight",
+      "score": 0.75
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The video is classified primarily under 'Mat' with a score of 0.8 because the metadata indicates it is an 'On The Mat' workout, suggesting that exercises are performed on the floor. The absence of equipment suggests a bodyweight-focused session, which aligns with 'Body weight' at a score of 0.75, as the workout aims for whole body strength using likely body weight exercises. The title 'Beginner Whole Body Strength' and description denote a full body workout aimed at strength, which typically involves body weight or minimal equipment exercises, further supporting these categories. The 'Strength' specification in the workout type corroborates the focus on building strength rather than cardio or flexibility training. Other categories like 'Weight workout' are excluded due to the absence of specific equipment mentioned. Confidence is high due to clear metadata indications but lacks specificity which prevents a perfect score."
+}

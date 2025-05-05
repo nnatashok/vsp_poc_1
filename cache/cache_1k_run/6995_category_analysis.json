@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Pilates",
+      "score": 0.9
+    },
+    {
+      "name": "Mat",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is classified under 'Pilates' with a high confidence score of 0.9 due to explicit mention of 'Whole Body Pilates' in the workout name. Additionally, the workout type is specified as 'pilates' in the metadata, which directly corresponds to this category. The score reflects the central focus on Pilates-based exercises. The 'Mat' category is also assigned a score of 0.7, as the workout includes 'on-the-mat' exercises, implying a focus on mat work typically associated with Pilates routines. The music and playlist information, featuring upbeat remixes and global hits, suggests a dynamic session but does not influence the core Pilates nature of the workout. Other categories were not considered as the provided metadata gives a clear emphasis on Pilates and mat exercises."
+}

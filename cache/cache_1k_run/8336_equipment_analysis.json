@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.8
+    },
+    {
+      "equipment": "Foam roller",
+      "confidence": 0.8
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is titled \"Hip Mobility\" and falls under the category \"On The Mat,\" which strongly implies that a mat is essential for performing exercises on the floor comfortably, leading to a high confidence score of 0.8 for a mat. Additionally, the description notes that a foam roller is recommended, which explicitly suggests its use in the routine, warranting a high confidence score of 0.8. The image confirms the presence of both a mat and a foam roller, supporting the inference made from the metadata. The workout duration of 10 minutes also fits short mobility and stretching sessions typically complemented by these equipment."
+}

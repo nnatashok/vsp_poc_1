@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout, titled 'Hip-Hop Row,' explicitly indicates a rowing workout through its use of the term 'Row.' The description reinforces this, as participants engage in '2-minute intervals' which are characteristic of rowing workouts. The 'max rhythm: 32' further suggests indoor rowing, given that rowing stroke rates often range from 20-30 strokes per minute, making 'Indoor rowing' the primary category with high confidence (score: 0.9). Additionally, the format being 'Interval' and the name 'Interval' in the description suggest a pattern consistent with High-Intensity Interval Training (HIIT), where shorter, intense periods of activity are alternated with rest or lower-intensity periods. The mention of 'Workout intensity level: 2 out of 3' also indicates a higher intensity workout, thus justifying the secondary category of HIIT with a score of 0.7. The music and playlist do not suggest any direct correlation to other categories, confirming the primary focus on intensive rowing with interval structure, excluding categories like stretching or yoga."
+}

@@ -1,0 +1,26 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Advanced",
+      "score": 0.9
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout type is classified as 'drive,' a Hydrow-specific category often linked with advanced technique due to the emphasis on specific rowing metrics and precise control during high-intensity intervals. The use of the term 'focus on your split' suggests the need for good form and technique to maintain this pace, indicating a complexity beyond beginner or intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Extreme",
+      "score": 0.9
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout is a high-intensity interval training (HIIT) session with a maximum rhythm of 32 and a duration of over 11 minutes. The workout intensity is rated 3 out of 3, which suggests an extremely high level of physical demand. The emphasis on maintaining a specific split time requires sustained effort over the duration, indicating a high energy expenditure and minimal rest periods.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

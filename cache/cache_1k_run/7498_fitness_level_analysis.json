@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout category is 'row', which typically implies simpler movement, fitting within the Beginner or Intermediate technique difficulty. The description emphasizes low rhythms, suggesting a basic rowing technique alignment, supporting a Beginner level. The term 'Breathe' and workout intensity level of 1 out of 3 reinforces that the execution complexity is simple for those new to rowing.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.2
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout is designed to build aerobic endurance with 3-minute intervals at low rhythms, spanning over 21 minutes, which suggests low energy expenditure suitable for beginners. With a low maximal rhythm of 24 strokes per minute and a workout intensity level of 1 out of 3, the effort required is below moderate, being predominantly Light but with slight Moderate aspects.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

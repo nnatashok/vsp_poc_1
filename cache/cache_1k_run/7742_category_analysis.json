@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is dominantly an 'Indoor rowing' session, evidenced by phrases such as \"row on Lake Tahoe,\" \"climb,\" and classification as a 'row' workout. The use of a rowing machine is implied for representing the rowing experience, and the focus on rhythm (max rhythm: 26) further indicates a structured rowing session. Therefore, this category is assigned a high score of 0.9 due to the explicit indication of rowing activity. \n\nThe playlist selection emphasizes energetic rock music, suggesting potential intervals or intensity changes. With the workout described as a 'climb at altitude,' it resembles a structured intensity progression typical in 'HIIT.' The 'sweat' and 'intensity level 2 out of 3' suggest moderately high intensity, justifying a score of 0.5 for 'HIIT.' The description lacks details on rapid intervals or rest periods, leading to only moderate confidence here. Other categories such as 'Mat' or 'Body weight' were excluded as there's no indication of floor exercises or equipment other than a rowing machine."
+}

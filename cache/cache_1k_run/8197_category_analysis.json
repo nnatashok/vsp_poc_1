@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Mat",
+      "score": 0.9
+    },
+    {
+      "name": "Body weight",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout title \"Core Strength\" and the description, which mentions exercises like planks and Russian twists, indicate a core-focused workout. These exercises are typically performed on a mat, justifying the selection of the 'Mat' category with a high confidence score of 0.9. Additionally, since the workout involves bodyweight exercises to build strength without mentioning any equipment, the 'Body weight' category is also applicable, with a score of 0.7 due to the focus on strength and use of bodyweight for resistance. Other categories such as 'Pilates' or 'Weight workout' are less suitable because the description does not emphasize the specific methodologies or equipment associated with those categories."
+}

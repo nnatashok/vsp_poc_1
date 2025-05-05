@@ -1,0 +1,13 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesExplanation": "The primary category identified is 'Indoor rowing' with a score of 0.9, based on the title \"Enhance Your Endurance Row\" and multiple references in the metadata such as 'Workout Name', 'Category: Sweat, standard, row', and the description mentioning rowing intervals. The strong focus on rowing, combined with the segmented interval format described ('Format: Interval'), indicates a structured rowing workout typically performed on an ergometer.\n\n'HIIT' is the secondary category with a score of 0.7 due to the 'Interval' format highlighted in the metadata. Interval training suggests alternating periods of effort and rest, a hallmark of High-Intensity Interval Training (HIIT). The music description featuring energetic tracks supports an intensive workout atmosphere. \n\nOther potential categories such as 'Mat', 'Yoga', or 'Pilates' were considered but excluded due to the lack of familial indicators for these activities in the title or description, emphasizing instead the rowing machine usage and interval structure."
+}

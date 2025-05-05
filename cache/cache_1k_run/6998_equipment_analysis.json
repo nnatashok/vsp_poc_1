@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is categorized under 'On The Mat' and described as a restorative practice, suggesting exercises performed on the floor. The presence of a mat in the provided image supports this. The title 'Chest Opening Restore' aligns with yoga or pilates exercises typically done on a mat. Therefore, the confidence in requiring a 'Mat' for this workout is very high, at 0.9. No other equipment is mentioned or implied in the metadata."
+}

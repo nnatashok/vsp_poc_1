@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.75
+    },
+    {
+      "name": "Stretching",
+      "score": 0.45
+    }
+  ],
+  "categoriesConfidence": 0.7,
+  "categoriesExplanation": "This workout video titled 'Proper Technique Cool-Down' is classified based on the provided metadata. The term 'cool down' and the structured focus on cycling through two drills suggest a workout that emphasizes reducing intensity, possibly involving stretching or low-impact activity. However, the mention of 'row' in the category field and the presence of terms like 'technique' indicate that this likely involves rowing drills, hence the classification as 'Indoor rowing' with a score of 0.75, reflecting high confidence in the focus being on rowing technique in a low intensity format. \n\nThe usage of 'cool down' also suggests a relaxation phase typical in stretching exercises, warranting a 'Stretching' classification with a score of 0.45, though the confidence is moderate due to the lack of explicit stretching cues. The information does not indicate high-intensity activities, thereby excluding HIIT and similar classifications. The absence of instructor details and lack of specific equipment mention fits with the practice of rowing techniques, typically done at a lower pace after main workouts."
+}

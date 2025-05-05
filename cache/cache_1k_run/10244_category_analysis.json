@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.7
+    },
+    {
+      "name": "Stretching",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.6,
+  "categoriesExplanation": "The metadata provided strongly suggests an 'Indoor rowing' and slight 'Stretching' classification for the workout. The title \"Drop Your Split: Recovery Cool-Down\" along with terms like \"recovery\" and \"cool down\" imply a session focused on post-rowing recovery, which traditionally involves rowing at a lower pace. The description mentions a focus on 'breathing and recovery', which aligns with a light rowing activity rather than more static stretching moves, hence the higher score for 'Indoor rowing' (0.7). However, the use of phrases such as 'Equipments: {}' and 'Chill low, Cool/Downtempo music genre' could also suggest elements of a calm cool-down period typically involving static or dynamic stretching, giving 'Stretching' a moderate presence (0.3). The absence of equipment and the mention of a maximum rhythm aligns with managing row intensity, indicating a row-centric cool-down. Overall confidence is moderately high given these indicators."
+}

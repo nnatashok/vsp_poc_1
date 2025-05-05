@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Weight workout",
+      "score": 0.8
+    },
+    {
+      "name": "Mat",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is titled 'Upper Body Strength with Bands,' which strongly suggests a focus on strength training using resistance bands. This fits within the 'Weight workout' category as resistance bands are a form of resistance equipment. The description confirms this focus, as it states the goal is to 'strengthen your upper body,' further justifying this classification. Given the presence of resistance bands, the 'Weight workout' category receives a high score of 0.8. \n\nThe metadata mentions 'On The Mat' indicating floor-based exercises without complex gym machines, placing this workout in the 'Mat' category as well, albeit with a slightly lower emphasis, scoring a 0.7. The presence of indie and global hits music does not significantly impact category classification.\n\nThere are no indicators suggesting this is a 'Body weight' or 'Calisthenics' routine, as resistance bands are the primary equipment used for strengthening. The information provided leads to a high confidence level of 0.9 due to clear descriptors in the title and description."
+}

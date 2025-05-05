@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.8,
+  "categoriesExplanation": "The workout is classified primarily as 'Indoor rowing' due to the title 'Sweet Spot Row', which clearly indicates a rowing-focused session. The metadata further reinforces this with the mention of \"negative splitting\" and a \"max rhythm: 28\"\u2014both terms commonly associated with rowing machine workouts (ergometers). The description of interval training (\"two 4-minute intervals\") suggests a nature of high-intensity activity, justifying the secondary classification into 'HIIT'. Furthermore, the genre of music, while not specifying an exact genre, includes upbeat tracks that align with a rhythmic and energetic workout, which is typical for high-intensity rowing intervals. The confidence level is high (0.8) due to explicit references to rowing and structured intervals, though not absolute due to slight ambiguity in music and the general use of 'sweat' which can be broadly applied."
+}

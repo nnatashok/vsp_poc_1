@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "Given the workout type is 'row' and the description indicates it is a low-intensity session led by Sera Moon, the technique difficulty aligns more with 'Beginner'. Rowing can be considered both Beginner and Intermediate by platform rules. The emphasis on 'breathe' further lowers complexity, hence the score of 0.8 for Beginner technique and 0.2 for Intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.9
+    },
+    {
+      "level": "Moderate",
+      "score": 0.1
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is a low-intensity 'breathe' format row lasting just over 31 minutes, with an effort level rating of 1 out of 3. These factors strongly suggest Light effort difficulty, aligning well with gentle cardio exercise requirements. However, the duration slightly raises the potential to Moderate, resulting in a rating of 0.9 for Light and 0.1 for Moderate.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

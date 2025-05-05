@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.35
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.65
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The Technique Difficulty is classified as Intermediate with a strong alignment score of 0.65 due to the 'drive' workout type and category indicating a more intense rowing session. Although the basic rowing technique is not inherently complex, the 'Drive' format typically requires good coordination and body awareness due to higher stroke rates, like the max rhythm of 32, demanding precise technique execution under pressure. Thus, the classification is skewed towards Intermediate with relatively high confidence.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.7
+    },
+    {
+      "level": "Extreme",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The Effort Difficulty is challenging due to the high intensity level (3 out of 3), the HIIT format demanding high exertion with minimal rest, and the stroke requirement at the top of every minute. Despite the short duration\u201411 minutes\u2014the intensity cues ('give it all you've got') elevate the energy expenditure, aligning the workout with a Challenging level score of 0.7, with some Extreme elements (score of 0.3) owing to the pacing enforced by the format.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

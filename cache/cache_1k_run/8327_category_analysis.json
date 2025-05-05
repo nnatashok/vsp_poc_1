@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.8,
+  "categoriesExplanation": "The workout is primarily categorized as 'Indoor rowing' due to key indicators such as the workout name 'Endurance Building Row' and the category tags which include 'row'. The use of 'steady' and a specific maximum rhythm of 22 suggests a focus on sustained, controlled rowing movements, which aligns strongly with indoor rowing exercises. This category is assigned a very high confidence score of 0.9 due to explicit references to rowing. \n\nA secondary category considered is 'Breathing exercises', reflected in the workout type mentioned as 'breathe'. However, it is of lower confidence at 0.3 because the primary focus remains on rowing. The explicit description of breathing could imply a component that emphasizes breathing techniques, but does not detract from the primary rowing focus. Since the title and description do not include common indicators of any Yoga or Stretching elements, these categories were not considered. The low-intensity level (1 out of 3) underscores a less intense but steady cardiovascular workout, as typical in endurance-focused rowing sessions."
+}

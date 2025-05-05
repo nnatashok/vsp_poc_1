@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary category 'Indoor rowing' was chosen because the workout's title, 'Power Intervals Row,' and the description explicitly mention intervals on a rowing machine, indicating a rowing-focused session. The metadata's tags, such as 'row,' further support this classification. A high score of 0.9 was assigned due to strong evidence from multiple elements in the metadata.\n\nThe secondary category 'HIIT' is included due to the interval format described as '90\" and 60\" intervals,' which is characteristic of High-Intensity Interval Training (HIIT). The intensity level of 2 out of 3 and the description emphasizing power and endurance further support the HIIT classification. Despite lacking explicit 'HIIT' terminology, the intent aligns well with HIIT principles, earning it a score of 0.7. \n\nOther categories were excluded as the information provided specifically focuses on cardio and interval intensity within the context of rowing. The workout is not performed on other equipment, making categories like 'Mat' or 'Weight workout' irrelevant."
+}

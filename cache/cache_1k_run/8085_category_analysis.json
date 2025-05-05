@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.7
+    },
+    {
+      "name": "Meditation",
+      "score": 0.4
+    },
+    {
+      "name": "Stretching",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.6,
+  "categoriesExplanation": "The workout, titled 'Reflection Cool-Down', includes a mix of categories, as inferred from the metadata and description. 'Indoor rowing' (score: 0.7) is supported by the 'standard,row' tags and the 'Max rhythm' information indicating a rowing format workout. It suggests a rowing machine might be involved, though no explicit visuals or equipment data confirm this, reducing confidence. The use of guided questions after a workout implies a reflective and calming component, justifying a secondary categorization of 'Meditation' (score: 0.4), owing to its focus on mindfulness and self-awareness. Finally, 'Stretching' (score: 0.3) is considered due to its common association with cool-down phases in various workout contexts, though there is no direct mention of stretching exercises limiting its score. Other categories such as 'HIIT', 'Mat', or intense cardio types were excluded due to the low intensity and reflective nature implied in the workout description and exercise type."
+}

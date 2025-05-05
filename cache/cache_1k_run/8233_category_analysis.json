@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 1
+    },
+    {
+      "name": "HIIT",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.8,
+  "categoriesExplanation": "The classification of this workout into 'Indoor rowing' is driven by the presence of the term 'row' in the title 'Family Connection Row' and keywords such as 'foundations of speed and power' in the description, which are typical of rowing workouts. The use of 'rhythms' and an emphasis on 'speed and power' further support this classification, indicating a focus on rowing mechanics and technique. The max rhythm mentioned as 34 aligns with rowing stroke rates, which are commonly measured in strokes per minute. The inclusion of 'intervals' in the format shares traits with High-Intensity Interval Training (HIIT), suggesting bursts of intense activity followed by rest, which aligns with the workout's description and overall structure. However, the intensity level of 2 out of 3 indicates moderate intensity, thus assigning a lower score for HIIT."
+}

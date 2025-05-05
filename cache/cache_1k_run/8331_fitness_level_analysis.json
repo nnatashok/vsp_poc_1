@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type, 'row', and the 'sweat' category typically involve movements that are straightforward but can incorporate more coordination at higher intensities. The intermediate rhythm component (max rhythm of 26) suggests some level of coordination but remains within the limits of rowing's basic movement pattern. Given these factors and the intermediate user fitness requirement, the technique difficulty aligns strongly with a 'Beginner' to 'Intermediate' classification, favoring the former due to the routine nature of the rowing motion.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "With a duration of 16 minutes and a format described as 'sweat' with an intensity level of 2 out of 3, this workout is expected to be somewhat demanding but not excessively so. The pyramid style implies increasing intensity with potential rest intervals, typical of moderate workouts. These factors suggest a primarily 'Moderate' effort, with components of 'Challenging' effort given the continuous activity and intensity cues. This classification aligns well for individuals with lower motivations but provides a challenge befitting intermediate-level workouts.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

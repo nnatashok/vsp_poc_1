@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary category assigned is 'Indoor rowing' with a score of 0.9. The reasoning for this classification is based on the explicit mention of a '4-minute on 1-minute off rowing workout,' which clearly indicates the use of a rowing machine. The title 'Rhyme or Climb Row,' along with a max rhythm of 28, solidifies the focus on rowing as the core activity.\n\nThe secondary category is 'HIIT' with a score of 0.6. The workout involves intervals ('4-minute on 1-minute off'), which suggests a structure aligned with high-intensity interval training principles, especially since it is described with a 'sweat' intensity level.\n\nThe categories were chosen based on the precise reference to rowing and the interval-based structure that implies high intensity. Other categories were excluded due to the lack of indicators for non-rowing activities, the explicit focus on rowing, and the particular description of workout intensity."
+}

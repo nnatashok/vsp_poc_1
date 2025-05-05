@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.7
+    },
+    {
+      "name": "Weight workout",
+      "score": 0.7
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.75,
+  "categoriesExplanation": "The workout titled 'High Intensity Circuit' involves rowing intervals and a full-body dumbbell circuit. The description specifies '2.5-minute rowing intervals,' indicating a significant portion of the workout involves indoor rowing, justifying the 'Indoor rowing' category with a score of 0.7. The use of 'whole body dumbbell circuit exercises' clearly indicates strength training with weights, aligning with the 'Weight workout' category at a similar score of 0.7 due to its central role. The format and workout name suggest a high-intensity circuit, which aligns with HIIT principles (short bursts of intense activity), supporting inclusion in the 'HIIT' category with a score of 0.6 due to implicit high-intensity interval characteristics. The requirement of 'dumbbells' and 'mini band' further supports these categorizations. Overall, the high intensity and use of varied equipment identify these primary categories while excluding 'Mat' and 'Yoga' due to lack of related exercises."
+}

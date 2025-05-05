@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The categories were assigned based on explicit indicators in the metadata. The term 'Race' in the workout name and description suggests a competitive element typical of rowing, aligning with 'Indoor rowing'. The use of terms such as 'explode with power and speed' during '5-minute pieces' implies a high-intensity workout, consistent with 'HIIT'. The reference to 'power', 'speed', and a 'final 1-minute effort' in the description also supports these classifications. Furthermore, the genre of the music playlist, featuring upbeat tracks, supports high-intensity activities. The intensity level 3 out of 3 strengthens the indication of a very active workout setting, consistent with 'Indoor rowing' and 'HIIT'. No other categories like Mat, Yoga, or Meditation are applicable here due to the focus on intensity, power, and competition."
+}

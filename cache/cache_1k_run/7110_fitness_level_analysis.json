@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is primarily classified under the 'row' category, which, per platform guidelines, limits technique difficulty to either Beginner or Intermediate. Given the interval format with rhythm shifts at max 28 spm, it suggests some level of pacing and coordination, moderately aligning with Intermediate. However, the lack of additional complex movements suggests a stronger fit with Beginner technique levels, thus scores are slightly higher for Beginner.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout lasts for 21 minutes with an interval format where rhythm shifts every minute, creating a moderately intense workout. The intensity is rated 2 out of 3, indicating a moderately to significantly demanding session. The use of a pop/dance playlist implies energetic pacing. These factors suggest the effort required fits well with Moderate, and has significant elements of Challenging intensity level, thus both scores are strong.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

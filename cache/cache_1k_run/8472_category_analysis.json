@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Weight workout",
+      "score": 0.6
+    },
+    {
+      "name": "Mat",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category assigned is HIIT, based on explicit mentions of 'circuit', '2-minute intervals on Hydrow', and a 'total body workout', which are indicative of interval training with high intensity. The use of the rowing machine 'Hydrow' in conjunction with off-machine exercises suggests a hybrid HIIT format, aligning with traditional High-Intensity Interval Training that alternates intense activity with rest or lower intensity. The explicit lyrics and energetic music choice further suggest a high-intensity environment, supporting the HIIT classification, rated at 0.9 for strong presence. \n\nThe 'Weight workout' category is also relevant due to the inclusion of 'dumbbells' as equipment, indicative of strength training elements within the workout. This presence is rated at 0.6 given the clear reference to resistance training tools.\n\nLastly, the 'Mat' category is considered due to the label 'On The Mat', implying exercises conducted off the Hydrow on a mat, such as bodyweight movements or exercises incorporating dumbbells, but its presence is secondary (scored at 0.4) compared to the primary focus on HIIT."
+}

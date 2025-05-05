@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is primarily classified as 'Indoor rowing' due to the explicit mention of 'Steady State Row' in the title and multiple indicators of a rowing-focused session: the description emphasizes staying steady at specific rhythms (22 and 24), common in rowing workouts. The format and tags further confirm a rowing focus, with the 'steady' format aligning with indoor rowing practices. The score of 0.9 reflects the strong presence of rowing elements. \n\nThe 'Breathing exercises' category is considered due to the 'breathe' type mentioned in the workout type and category. However, the rowing elements overshadow the breathing aspect, making it a secondary focus. Therefore, a score of 0.3 is assigned to this category, indicating a mild presence. The intensity level of 1 out of 3, coupled with rock music, suggests a relaxed pace, typical for steady-state rowing, but supports rather than defines breathing exercises. Other categories like 'Yoga', 'Stretching', and 'Meditation' are excluded due to lack of evidence supporting mind-body or flexibility components."
+}

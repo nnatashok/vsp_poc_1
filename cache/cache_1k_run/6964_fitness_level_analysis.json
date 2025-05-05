@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 1
+    }
+  ],
+  "techniqueDifficultyConfidence": 1,
+  "techniqueDifficultyExplanation": "The technique difficulty for this workout is classified as Beginner. The workout description, 'Finding Balance Row,' indicates a focus on balance and steady rowing, which implies basic coordination without technical complexity. The workout category 'row' aligns with Beginner or Intermediate levels, but the user fitness level requirement explicitly stated as 'Beginner' overrides this to confirm a Beginner designation.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout has an intensity level of 1 out of 3, suggesting low energy expenditure, making it a Light effort difficulty. However, the duration is just under 17 minutes, incorporating two steady 6-minute rowing pieces, which may be moderately challenging for very deconditioned individuals, granting a Moderate score with lower confidence for less fit users. The music and max rhythm of 22 suggest a relaxed pace, supporting a primarily Light classification.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

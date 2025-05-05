@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.2
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.1
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The Technique Difficulty for this workout is primarily Intermediate (score 0.7) due to the nature of HIIT rowing sessions. Such sessions require a good understanding of rowing form and rhythm synchronization with music, especially up to a max rhythm of 32. However, it's not overly complex or technical like Olympic lifts, which keeps it from reaching Advanced or Expert levels. The presence of 'Drive' typically denotes an Advanced classification, but as this is a row-based workout, Intermediate fits better, keeping in line with user fitness level constraints requiring Advanced.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.3
+    },
+    {
+      "level": "Challenging",
+      "score": 0.8
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The Effort Difficulty for this workout is primarily Challenging (score 0.8). The metadata indicates the workout is a Drive format with high-intensity intervals, suggested by keywords like 'high-intensity' and 'intervals'. A workout intensity level of 3 out of 3 further underscores the significant demand placed on participants. The short duration of 11 minutes fits the HIIT training paradigm, where maximal effort is expected in brief bursts.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

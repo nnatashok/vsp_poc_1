@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.7
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.8,
+  "categoriesExplanation": "The workout is classified primarily under 'Indoor rowing' with a high confidence of 0.9 due to the term 'row' in the title, which strongly indicates the use of a rowing machine, and the description that mentions intervals at different pace levels. The inclusion of 'Breathing exercises' is supported by the 'breathe' mention in the workout type, and the focus on different types of focus suggests a breathing or mental element, hence given a score of 0.7. 'HIIT' is also relevant with a score of 0.6, as the format specifies 'Interval,' a common attribute of high-intensity interval training. Despite the low intensity level (1 out of 3), the interval structure justifies this classification. The absence of definite keywords for categories like 'Yoga' or 'Stretching,' along with the metadata focus, excludes them from consideration."
+}

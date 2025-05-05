@@ -28,6 +28,8 @@ EQUIPMENT OPTIONS:
 20. Foam roller - For myofascial release and recovery
 21. Other - Any equipment not listed above (specify in explanation)
 
+IMPORTANT: If the category type is 'row', the output must include "Rowing machine" with a high confidence score.
+
 ANALYSIS GUIDELINES:
 1. Examine the title, description, and tags carefully for explicit equipment mentions.
 2. Look for keywords suggesting what equipment is used or needed.

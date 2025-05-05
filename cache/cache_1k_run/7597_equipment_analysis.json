@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout metadata categorizes this video as both a 'cool down' and a 'row', with the row emphasis suggesting a rowing-related activity. The title \"Pauses Cool-Down\" and description about honing technique imply a focus on rowing technique refinement. The image shows a person in a rowing scull, reinforcing the rowing aspect. Although the workout is a cool-down, which might traditionally not require equipment, the context heavily indicates the use of a rowing machine for proper technique practice. Hence, 'Rowing machine' is included with very high confidence."
+}

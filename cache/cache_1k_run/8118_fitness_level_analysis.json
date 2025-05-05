@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The 'Drive' category and 'row' workout type inherently suggest a rowing-based workout where movements are typically simple due to the structural motion of rowing, leading to a Beginner or Intermediate technique classification. The high-intensity burst format may require more finesse, supporting an Intermediate classification. Hence, the scores reflect strong alignment to both Beginner and Intermediate levels, aligning with the user's 'Advanced' requirement for fitness level, but technique remains intermediate at most due to rowing and Drive categorial constraints.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.4
+    },
+    {
+      "level": "Challenging",
+      "score": 0.7
+    },
+    {
+      "level": "Extreme",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is marked as HIIT with an intensity level 3 out of 3, indicating a very high intensity which aligns with Challenging or Extreme effort level. Despite the short duration of 11 minutes, the high rhythm above 32+ indicates significant cardiovascular demand which could be extreme for many users. The requirement to reach high rhythms in short bursts further indicates a challenging workout, resulting in higher alignment with Challenging and moderate alignment with Extreme levels.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

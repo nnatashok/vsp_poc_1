@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    },
+    {
+      "name": "HIIT",
+      "score": 0.9
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The workout is clearly designated as a High-Intensity Interval Training (HIIT) session, as indicated by the title 'Power HIIT Row' and the description which mentions 'high intensity intervals' and 'sprint and max pace'. This provides very strong evidence that HIIT is a central component of this workout, warranting a score of 0.9. The mention of 'row' in both the title and the category tag, along with references to rhythm and max pace, suggests an indoor rowing context. While the description does not explicitly mention a rowing machine, the repeated references to 'row' in both the title and tags, as well as the typical emphasis on power and pace in rowing workouts, strongly imply an indoor rowing component, justifying a score of 0.8 for 'Indoor rowing'. The intense nature of the workout, as denoted by a max intensity level of 3 out of 3, supports the classification of both categories with high confidence (0.95). Other potential categories such as 'Mat', 'Body weight', or 'Weight workout' are excluded due to lack of relevant indicators related to those activities."
+}

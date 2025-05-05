@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.85
+    },
+    {
+      "name": "Indoor rowing",
+      "score": 0.75
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is strongly identified as a High-Intensity Interval Training (HIIT) due to the explicit mention of 'HIIT' in both the workout name ('Express Bootcamp HIIT Row') and the format description ('Format: HIIT'). The '90-second intervals' also suggest typical HIIT structuring with short bursts of intense activity. This high confidence is represented by a score of 0.85 for the HIIT category. \n\nAdditionally, the workout likely includes Indoor Rowing, as inferred from the inclusion of 'row' in the workout name and description ('Workout Type: drive, Category: Drive,standard,row'). This suggests the primary exercise equipment is a rowing machine, aligning with indoor rowing activities. The equipment mentions and workout structure support this classification, with a score of 0.75 to reflect its significance. \n\nThe intensity level marked as '3 out of 3' further substantiates an intense, HIIT-style workout, reinforcing our confidence in the selected categories. Other potential categories such as 'Mat', 'Walking', or 'Body weight' are excluded due to their lack of mention and the strong focus on rowing and interval training."
+}

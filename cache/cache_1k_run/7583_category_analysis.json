@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Yoga",
+      "score": 0.25
+    },
+    {
+      "name": "Stretching",
+      "score": 0.5
+    },
+    {
+      "name": "Indoor rowing",
+      "score": 0.75
+    }
+  ],
+  "categoriesConfidence": 0.65,
+  "categoriesExplanation": "The workout titled \"Reduced Slide Cool-Down\" suggests a cool-down session rather than an intense workout, indicating it might involve some gentle movements or stretching. 'Cool Down' indicates a reduction in intensity commonly associated with stretching or low-intensity activity. The mention of technique and 'row' in the category implies the session has indoor rowing elements, although it might be more focused on form and relaxation rather than exertion, leading to selecting 'Indoor rowing' with a moderate to high score of 0.75. \n\n'Yoga' and 'Stretching' are considered due to the 'cool down' nature, but no explicit yoga poses or stretching exercises are detailed in the metadata, leading to 'Stretching' receiving a moderate score of 0.5 while 'Yoga' a mild score of 0.25. The absence of direct indicators like 'pose' or 'asana' reduces the confidence for categorizing it as Yoga. The integration of songs from Chet Faker, typically mellow, supports a relaxation focus. Uncertainty primarily arises from interpreting 'technique' more towards rowing form improvements or general cooldown stretching, hence a moderate overall confidence of 0.65."
+}

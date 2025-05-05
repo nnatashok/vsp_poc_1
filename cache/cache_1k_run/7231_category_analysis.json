@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    },
+    {
+      "name": "Stretching",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.78,
+  "categoriesExplanation": "The workout, titled 'Pause Drill Cool-Down,' and described as a session where viewers reinforce technique through a pause drill, suggests a focus on rowing technique improvement. This is reinforced by the 'Category' metadata, which includes 'standard,row,' indicating it's a rowing-based exercise. The max rhythm of 22 and the technical nature of the session further underscore its alignment with Indoor Rowing.\n\nAlthough termed a 'cool down,' which often involves gentle activities, the primary focus remains on rowing with technique reinforcement rather than purely flexibility exercises, therefore, Indoor Rowing is assigned a high score of 0.8.\n\nThe inclusion of 'cool down' in the title suggests elements typical of stretches or gradual easing down, indicating a mild presence of Stretching, hence it receives a lower score of 0.4. However, the absence of specific stretches or meditation elements rules out categories such as Yoga or Meditation."
+}

@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is classified under 'row', which typically involves simple to moderately complex movements. The 'Energizing Endurance Row' is a 31-minute workout with intervals, requiring users to adjust their speed and power. While rowing itself is generally a simple movement, maintaining proper form over an extended duration can challenge those not familiar with endurance rowing. Hence, the technique difficulty leans towards Beginner due to the straightforward nature (score of 0.7) but also slightly towards Intermediate (score of 0.6) due to the potential complexity of managing endurance and intervals.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.8
+    },
+    {
+      "level": "Challenging",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout is moderately intense with an intensity level of 2 out of 3, indicating that it involves a considerable amount of effort over 31 minutes with intervals. These characteristics promote a moderate energy expenditure (score of 0.8). The interval format and duration suggest that it requires a continuous effort with limited rest, supporting a challenging effort difficulty rating as well (score of 0.6), especially for less fit users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

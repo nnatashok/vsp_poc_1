@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is categorized as 'row', which, according to Hydrow-specific rules, restricts the Technique Difficulty to Beginner or Intermediate. The 'Breathe' category and an intensity level of 1 out of 3 suggest there are minimal technical challenges involved. The format 'Climb' indicates some rhythm coordination but remains basic, hence the strong alignment with Beginner.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.85
+    },
+    {
+      "level": "Moderate",
+      "score": 0.45
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout has a relatively short duration of 16 minutes and 20 seconds, which limits overall energy expenditure and intensity. The intensity is rated 1 out of 3, suggesting low physical demand. The effort level aligns strongly with 'Light', but the climbing rhythm and rowing components suggest a moderate element for some users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

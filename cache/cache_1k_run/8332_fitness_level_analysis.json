@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The technique difficulty is gauged by the 'row' category and intensity level. Rowing is typically considered at most an Intermediate activity in terms of technique. The description doesn't indicate advanced or expert-level complexity in movements. Therefore, Beginner and Intermediate align well with the evidence provided.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The effort difficulty takes into account the workout duration of approximately 21 minutes, and the 'pyramid' format alongside a max rhythm of 28, indicating varying intensity. The intensity level is marked 2 out of 3 and the 'sweat' type suggests more effort than a light workout. Therefore, Moderate and Challenging levels are appropriate, reflecting the combined duration, slightly increased intensity, and rhythm aspects.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

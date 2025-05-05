@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Stretching",
+      "score": 0.2
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is primarily classified as 'Indoor rowing' based on the workout description and title which specifically mention rowing at low rhythms. The key term 'row at low rhythms' and the maximum rhythm of 20 indicate a rowing machine workout, fitting into the 'Indoor rowing' category. This is supported by the structure of the workout, focusing on technique with steady pacing, typical of rowing exercises. The cool-down nature of the session suggests a relaxed pace, aligning with the indication of low rhythm.\n\nA secondary classification with a lower score is 'Stretching' because cool-downs can sometimes include stretching exercises. However, the presence of rowing as the primary activity makes this a mild presence rather than a key characteristic.\n\nConfidence in the 'Indoor rowing' classification is high (0.9) due to explicit references to rowing, while the 'Stretching' classification is moderate (0.2), reflecting the secondary focus during cool-down phases."
+}

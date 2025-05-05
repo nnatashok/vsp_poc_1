@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 1
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The primary category assigned is 'Indoor rowing' with a high score of 1 due to the explicit reference to 'row' in the workout name 'Human Body Facts Row' and the structured format 'Interval', which is consistent with many rowing workouts. The workout description mentions 'shift in effort levels', supporting an interval-style approach typical of rowing routines, and the inclusion of a sweat-based workout focus aligns with cardio-intensive rowing sessions. Furthermore, the specified equipment is empty, which suggests the use of cardio machines like a rowing machine rather than added equipment typical of other workout types. \nThe secondary category, 'HIIT', is assigned a score of 0.6, as the description of interval format and shifting effort levels can imply elements of high-intensity interval training. However, there's no explicit use of the term 'HIIT' and the intensity level is defined as 2 out of 3, implying a moderately intense workout rather than max intensity expected from traditional HIIT. The reference to 'sweat' and dance/global hits music further aligns with an energetic, possibly high-paced exercise format. Therefore, HIIT is considered a relevant, albeit secondary, category."
+}

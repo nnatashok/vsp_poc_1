@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.95
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is titled 'Team Endurance Row' and is categorized under 'row', which strongly indicates the need for a rowing machine. The description mentions 'endurance row', further reinforcing this requirement. Although the image shows outdoor rowing, the context of the workout within the platform suggests the use of an indoor rowing machine. Therefore, the rowing machine is essential for this workout with very high confidence."
+}

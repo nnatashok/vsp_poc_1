@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Pilates",
+      "score": 0.9
+    },
+    {
+      "name": "Mat",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is explicitly labeled as a 'Beginner Core Pilates' session, directly correlating with the 'Pilates' category. The description further reinforces this by using the specific term 'Pilates,' indicating a high focus on controlled core strengthening and body alignment, typical of Pilates methods. Hence, this category receives a high score of 0.9 due to its centrality. \n\nAdditionally, the category 'Mat' is pertinent as the workout is performed on a mat, as suggested by phrases like 'On The Mat' in the metadata. This indicates that the session involves exercises performed primarily on the floor, aligning with general mat workout practices. Therefore, it is assigned a score of 0.6, acknowledging the environment but with a lower emphasis than the primary Pilates focus. \n\nOther potential categories were excluded as there is no mention of any equipment use that would suggest a weight workout, and the low-impact nature of Pilates excludes categories like HIIT or running."
+}

@@ -1,0 +1,10 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout title 'Steady Cool-Down' and description suggest a low-intensity rowing activity. The phrase 'Row steadily along the Charles River' explicitly indicates rowing exercise, which implies the use of a rowing machine simulating this experience as there is no mention of actual outdoor rowing. The metadata mentions 'Cool Down', which refers to the intensity rather than the type of exercise, aligning with a lower-paced session rather than a category like Stretching or Meditation. The '20 max rhythm' supports the notion of a controlled rowing pace. Although the term 'cool down' is used, the primary modality of the exercise is rowing, evidenced by 'row steadily', which is why 'Indoor rowing' is classified strongly here with a score of 0.9. Other categories like Mat or Yoga were excluded due to the absence of related indicators in the metadata."
+}

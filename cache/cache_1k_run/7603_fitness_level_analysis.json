@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.75
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout type 'drive' indicates a high-level rowing session, which is designated as Advanced, but since the platform specifies either Beginner or Intermediate for rowing, we classify it as Intermediate for technique. The use of max pace intervals in rowing can require good coordination and control, supporting this classification.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    },
+    {
+      "level": "Extreme",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout has three 7-minute max effort intervals in a 32-minute session, and is marked with the highest intensity level of 3 out of 3. This suggests significant energy expenditure and physical demand, aligning with 'Challenging', and partly 'Extreme' effort due to the pacing and duration of each interval.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

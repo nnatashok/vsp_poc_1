@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 1.0,
+  "techniqueDifficultyExplanation": "The workout is categorized primarily under 'row', with a breathe format, indicating a focus on maintaining pace and rhythm rather than technical complexity. Rowing typically requires fundamental body movements that align with the Beginner level, as it involves minimal coordination. The description mentions 'jog pace' and 'climb,' suggesting some variation in pace but not enough to elevate to a full Intermediate complexity.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.85
+    },
+    {
+      "level": "Moderate",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "At 11 minutes and 20 seconds, the duration is short, suggesting lower energy expenditure. The intensity level is rated 1 out of 3, implying that it is low-impact and lower effort. The term 'breathe' further supports this, focusing more on rhythmic breathing rather than effortful exertion. The 'jog pace' clue aligns slightly more with a low to moderate effort level, but overall, it is predominantly 'Light'.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

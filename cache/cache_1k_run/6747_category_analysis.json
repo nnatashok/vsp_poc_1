@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    },
+    {
+      "name": "Stretching",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.75,
+  "categoriesExplanation": "The workout is titled 'Pauses Cool-Down' and includes activities such as 'rowing' and 'pausing and stretching,' directly indicating an 'Indoor rowing' focus. This is reinforced in the description which clearly states a '4-minutes rowing and 1-minute pausing and stretching' format, supporting an 'Indoor rowing' classification with a high score of 0.8 due to its central role. The term 'pausing and stretching' suggests a secondary 'Stretching' component, which justifies a moderate score of 0.4 for this category. The cool down nature mentioned in metadata aligns with lower intensity usually associated with stretching or gentle movements. The metadata does not support other categories like HIIT or Weight workouts. The overall confidence level of the classification is high at 0.75 due to clear indicators and specificity in the activity description."
+}

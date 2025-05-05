@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type 'drive' is a Hydrow-specific format, known for its intense and technically demanding rowing, aligning with the metadata tag. The complexity involved in 'matching each stroke' to maintain high rhythms at 32 strokes per minute suggests an Intermediate level for those unfamiliar with rowing. The advanced nature of precisely matching strokes in a high-intensity format has elements that extend towards Advanced, but this is less typical for rowing. Thus, scores are given as 0.8 for Intermediate and 0.4 for Advanced to reflect this balance.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.7
+    },
+    {
+      "level": "Extreme",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is a short-duration HIIT at high intensity (level 3 out of 3) with a max rhythm of 32 strokes per minute. These factors contribute to high energy expenditure, making it Challenging for most users, especially those in poor shape. The structure also borders on Extreme, given the drive format's intensity, pushing energy expenditure to a high level. Thus, a score of 0.7 is given for Challenging and 0.5 for Extreme.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Indoor rowing",
+      "score": 0.85
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The workout is classified as 'HIIT' and 'Indoor Rowing' based on the given metadata. The title 'Bootcamp HIIT Row' explicitly indicates a High-Intensity Interval Training category, which is supported by the description mentioning 'intervals climbing in rhythm' and the 'workout intensity level: 3 out of 3'. These factors point towards a high-intensity workout, justifying a high score of 0.9 for the 'HIIT' category. Additionally, the use of the 'row' keyword in the title and the category tags 'standard,row' suggest that an indoor rowing machine is central to the workout, further supported by phrases like 'ignite your legs and lungs', indicating aerobic exercise commonly associated with rowing. This justifies a score of 0.85 for 'Indoor rowing'. The absence of any other equipment or workout elements suggests that no other category is as relevant as these two."
+}

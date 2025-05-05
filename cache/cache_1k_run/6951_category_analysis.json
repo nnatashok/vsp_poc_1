@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is titled \"Low Rhythm Cardio Row,\" indicating a rowing workout, which is reinforced by the description mentioning intervals and driving through legs, common in rowing exercises. The use of terms like 'intervals' and 'max rhythm' strongly suggests an indoor rowing context, justifying the very high confidence score of 0.8 for the 'Indoor rowing' category. \n\nAlthough the workout type is mentioned as 'breathe' and 'category' includes 'Breathe', the description and format primarily focus on cardio rowing intervals. However, considering the low intensity level (1 out of 3) and emphasis on rhythm, breathing might be a component to maintain the pace and flow of the workout. This supports the inclusion of 'Breathing exercises' with a moderate presence and a score of 0.6. \n\nNo explicit indicators suggested other categories like 'Yoga' or 'Stretching' as principal components, so they were excluded. The overall classification reflects a combination of rowing with an emphasis on controlled breathing."
+}

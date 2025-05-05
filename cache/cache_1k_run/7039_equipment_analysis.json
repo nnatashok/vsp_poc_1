@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    },
+    {
+      "equipment": "Mat",
+      "confidence": 0.8
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout title \"Mobility + 10 Min Breathe Combo\" and the description mention moving to the Hydrow for climbing intervals. The presence of the term 'row' in the category indicates that a rowing machine is essential for this workout, hence a very high confidence score (1.0) for the \"Rowing machine.\" The image shows a person on a rowing machine, further supporting this. Additionally, the description mentions 'Open up and activate your body' which suggests a mobility or warm-up session, commonly performed on a 'Mat,' as observed in the image, giving it a high confidence score (0.8). No other equipment is explicitly or implicitly indicated in the metadata."
+}

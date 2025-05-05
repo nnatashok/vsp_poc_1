@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category chosen is 'Indoor rowing' with a high confidence score of 0.9. This classification is based on the title 'Steady Cruise Row' and the description detailing five 4-minute intervals at a steady pace, which strongly suggest a rowing workout. The music and playlist, while not directly indicative, support a paced, rhythmic exercise format, typical of rowing sessions.\n\nAdditionally, the inclusion of 'breathe' in the workout type and category, along with a lower intensity level of 1 out of 3, implies an emphasis on controlled breathing, supporting the secondary category of 'Breathing exercises' with a score of 0.5. The focus on breathing could be an integral part of the rowing technique rather than a standalone breathing exercise session.\n\nCategories such as 'Meditation' or 'Yoga' are not applicable despite the breathing focus due to the specific nature of the rowing intervals described, excluding other potential physical or mental disciplines."
+}

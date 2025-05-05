@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized as 'row', which limits the Technique Difficulty levels to Beginner or Intermediate. The pyramid format provides a structured yet straightforward rowing experience that doesn't require advanced skills. The focus on interval training with a max rhythm of 28 suggests that some coordination is needed, but it remains accessible to beginners.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout spans 21 minutes and 45 seconds and is classified under the 'sweat' category with an intensity level of 2 out of 3, indicating a more than moderate effort is required. The 5-minute pyramid intervals suggest steady intensity with periods of increased rhythm. This, combined with upbeat music, points to a Moderate to Challenging effort level.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

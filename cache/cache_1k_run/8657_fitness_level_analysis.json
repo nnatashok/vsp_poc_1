@@ -1,0 +1,49 @@
+{
+  "type": "object",
+  "properties": {
+    "techniqueDifficulty": [
+      {
+        "level": "Beginner",
+        "score": 0.4
+      },
+      {
+        "level": "Intermediate",
+        "score": 0.6
+      }
+    ],
+    "techniqueDifficultyConfidence": 0.75,
+    "techniqueDifficultyExplanation": "The workout type is specified as 'drive', which on this platform typically involves movements with technical demands surpassing beginner-level exercises. Thus, although rowing exercises can inherently fall under Beginner or Intermediate, the additional classification as a 'Drive' workout suggests coordination and skill complexity akin to Intermediate level. This aligns with the Advanced user fitness requirement, suggesting that some rowing techniques employed may necessitate proficiency and experience.",
+    "effortDifficulty": [
+      {
+        "level": "Challenging",
+        "score": 0.8
+      },
+      {
+        "level": "Extreme",
+        "score": 0.5
+      }
+    ],
+    "effortDifficultyConfidence": 0.85,
+    "effortDifficultyExplanation": "The workout is categorized as HIIT with a max rhythm of 30, and a short duration of 11 minutes and 24 seconds, indicating a high-intensity session. The workout intensity is rated 3 out of 3, which aligns with challenging exertion levels due to intermittent high-energy output typical of HIIT workouts. Short duration with high rhythm further denotes limited rest periods, increasing the effort challenge significantly, akin to Extreme exertion for less fit users.",
+    "requiredFitnessLevel": [
+      {
+        "level": "Advanced",
+        "score": 0.8
+      },
+      {
+        "level": "Elite",
+        "score": 0.4
+      }
+    ],
+    "requiredFitnessLevelConfidence": 0.8,
+    "requiredFitnessLevelExplanation": "Given the workout's classification under 'Drive' and its intensity level rated 3 out of 3, the exercises are inherently demanding, aligning with an Advanced fitness level. The HIIT format suggests intense energy expenditure and quick recovery needs, positioning this workout possibly towards Elite levels. The Advanced requirement aligns well with both technique and effort difficulty analyzed, but since the metadata indicates a user fitness level of Advanced, it remains the primary level while implying some Elite readiness."
+  },
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

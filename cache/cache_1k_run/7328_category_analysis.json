@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Pilates",
+      "score": 1.0
+    },
+    {
+      "name": "Mat",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is explicitly identified as 'Classical Pilates' in the title and description, indicating a strong focus on Pilates exercises. The tags 'Workout Type: pilates' and 'Category: On The Mat' further reinforce this classification. Hence, 'Pilates' is assigned a score of 1.0 due to its central role in the workout content. Additionally, the mention of 'On The Mat' suggests that the exercises are performed on a mat without any specific equipment, supporting its classification under 'Mat' as well. This category receives a score of 0.7, reflecting its supporting yet not central role. There is no indication or suggestion of other categories, such as Yoga or Stretching, as the focus remains on Pilates exercises."
+}

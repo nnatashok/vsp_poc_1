@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is categorized primarily as 'Indoor rowing' with high confidence based on several key pieces of metadata. The title 'Sunset Row' and the tags 'breathe', 'row' indicate that this is a rowing workout, specifically performed on a rowing machine. Although the specific word 'indoor' is not mentioned, the context suggests an indoor setting due to the use of a rowing machine, which aligns with typical 'Indoor rowing' sessions, hence the high score of 0.9 for this category. \n\nThe 'Breathing exercises' category was also considered because the Workout Type mentions 'breathe', suggesting a focus on breathing rhythms during the workout, which explains the score of 0.6. The low intensity level of 1 out of 3 and the mention of maintaining 'lower rhythms' support the idea of a breathing-focused rowing session. \n\nNo other categories were applicable due to the specific focus on rowing and breathing. The description did not hint at any other type of exercise or equipment usage."
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 1.0
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary category assigned is 'Indoor rowing' with a score of 1.0, as the title 'Unleashed Row' and the description directly reference a rowing workout with three 7-minute intervals at maximum pace. The use of terms like 'max rhythm' and 'interval' strongly indicates a rowing format. The intensity level of 3 out of 3 and the format 'interval' supports the assignment of 'HIIT' (High-Intensity Interval Training) as a secondary category with a score of 0.6, since it involves intervals of high-intensity efforts. No specific location or additional equipment is mentioned, confirming the indoor and rowing-focused setup further. Other categories like 'Mat', 'Yoga', or 'Body weight' are excluded due to the lack of relevant indications."
+}

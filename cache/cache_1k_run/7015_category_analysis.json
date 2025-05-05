@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Pilates",
+      "score": 1.0
+    },
+    {
+      "name": "Mat",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The primary category assigned is 'Pilates' with a score of 1.0. This categorization is based on explicit metadata indicating the workout is based on 'Whole Body Pilates,' focusing on pilates exercises. The term 'pilates' is used in both the workout name and type. The description further supports this by mentioning circuits of pilates exercises led by instructors Christie and Mike. \n\nThe secondary category is 'Mat,' with a score of 0.7. The metadata mentions the category as 'On The Mat,' which implies that exercises are performed on the mat, typical in pilates sessions that focus on floor exercises. However, this is a supporting category rather than the primary identity of the workout. \n\nNo indication for resistance equipment usage was found, aligning with the mat exercises. Other categories like 'Yoga' or 'Stretching' were excluded due to the clear emphasis on pilates, and the exercise setting described did not explicitly indicate these other practices. The confidence level is high at 0.95 due to the strong alignment of descriptors and name."
+}

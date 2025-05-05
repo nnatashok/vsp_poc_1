@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 1.0
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is primarily classified as 'Indoor rowing' with a score of 1.0 because the title 'Unleashed Row' explicitly indicates a rowing workout. Additionally, phrases like 'crossing the finish line with Dani' and 'three 6-minute efforts at your maximum pace' suggest a focus on rowing exercises. The category is further supported by metadata tags such as 'row' and 'standard,row'.\n\nSecondly, 'HIIT' is also an applicable category with a score of 0.6 due to the interval format described, where exercisers perform 'three 6-minute efforts at your maximum pace'. This aligns with high-intensity interval training characteristics, as it involves alternating between exertion and recovery periods. Moreover, the intensity level is stated as 3 out of 3, reinforcing the workout's resemblance to HIIT.\n\nThe confidence level in these classifications is high at 0.9, due to the clear and consistent indicators from the metadata that specify the nature of the workout as high-intensity rowing."
+}

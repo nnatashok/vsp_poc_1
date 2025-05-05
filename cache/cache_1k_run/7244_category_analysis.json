@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The main category identified from the video metadata is 'Indoor rowing' due to the title 'Steady Row' and description that specifies \"steadily row to 90s hits\". This clearly indicates the use of a rowing machine, and the 'Format: Steady' along with 'Max rhythm: 24' suggests a consistent rowing cadence, which is characteristic of rowing workouts. The score of 0.9 indicates very strong confidence based on explicit metadata evidence.\n\nThe secondary category is 'Breathing exercises' with a moderate score of 0.5. The 'Workout Type: breathe' and 'Category: Breathe,standard,row' suggest an emphasis on breathing, which might align with breathing exercises typically included in steady, low-intensity workouts to regulate heart rate and oxygen flow. However, the emphasis is less clear than the rowing aspect, reflecting a moderate presence.\n\nAn intensity level of 1 out of 3 and the term 'low-intensity' further support that this is a relaxed rowing workout rather than high-intensity interval training. The presence of music from '90s Global Hits' aligns with creating a steady rhythm but doesn't significantly impact the categorization beyond enhancement of overall workout experience."
+}

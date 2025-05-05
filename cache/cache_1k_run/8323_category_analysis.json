@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Stretching",
+      "score": 0.8
+    },
+    {
+      "name": "Indoor rowing",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.75,
+  "categoriesExplanation": "The workout 'Steady Cool-Down' is characterized primarily as a cool-down and involves steady pacing. The description mentions 'catch your breath and stretch out your legs,' suggesting a focus on relaxation and flexibility post-exercise, which aligns well with the 'Stretching' category. This category is scored at 0.8 due to these explicit indicators. Additionally, the use of the term 'row' in the metadata suggests an association with rowing activities. Although this session is not explicitly high-intensity or strength-focused, it might involve the rowing machine for a gentle cool-down exercise, thus qualifying it moderately for 'Indoor rowing' at a score of 0.5. Other categories such as 'Yoga' or 'Meditation' were considered but excluded due to the lack of mindfulness or meditative indicators. The music selection and cool-down description reinforce a low-intensity, relaxing environment. Overall, the confidence level is high at 0.75 owing to clear descriptions of activities typical of a cooldown routine."
+}

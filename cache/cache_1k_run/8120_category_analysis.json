@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The title 'Focused Intervals Row' and the description mentioning intervals along with the setting of the Charles River strongly suggest an indoor rowing workout. The presence of intervals implies a structured format with periods of effort and rest, which is characteristic of HIIT (High-Intensity Interval Training). The mention of a 'max rhythm: 28' further supports the classification as Indoor Rowing since it typically involves stroke rates. The workout intensity level of 2 out of 3 indicates a challenging session, reinforcing the HIIT classification, though it is secondary to the rowing aspect. The music genre, 'Pop mid, Global Hits,' complements an energetic workout session but does not skew classification toward any other category. Therefore, 'Indoor rowing' is the primary category with a score of 0.9 due to the explicit indicators, and 'HIIT' is the secondary category with a score of 0.7 due to the structured intervals, both with high confidence."
+}

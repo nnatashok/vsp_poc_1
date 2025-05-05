@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', suggesting basic to moderate rowing technique. The description, 'power at low speeds' with an emphasis on rhythm control, implies a more technical element than simple rowing, but not beyond intermediate complexity. Given the lack of complex, technical maneuvers typical of advanced rowing, this aligns strongly with Beginner and moderately with Intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.8
+    },
+    {
+      "level": "Challenging",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout's duration of 21 minutes at a 2/3 intensity rating and category under 'sweat,' implies moderate to challenging physical demand, suitable for those with some workout experience but less so for complete beginners. The music's mid-intensity aligns with a moderate effort level, and given the rowing nature, the workout demands cardiovascular engagement typical of Moderate effort with a hint of challenging due to sustained energy output required over 3-minute intervals.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

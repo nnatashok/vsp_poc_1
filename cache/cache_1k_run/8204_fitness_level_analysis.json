@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The metadata indicates a 'Drive' workout type focused on rowing, with high rhythm requirements (28 to 34 strokes per minute). While rowing itself is considered beginner to intermediate in technique complexity, the inclusion of a 'Drive' classification traditionally suggests a higher skill level, pushing it to a strong Intermediate classification. Additionally, high rhythm HIIT intervals may require moderate coordination and control, aligning well with Intermediate technique difficulty.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.7
+    },
+    {
+      "level": "Extreme",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout intensity level is rated as 3 out of 3, indicating a highly demanding session. The use of high rhythm intervals (28 to 34) in a HIIT format suggests significant energy expenditure and short rest periods over almost 12 minutes, aligning more with Challenging effort difficulty. However, the term 'Drive' often implies a notably intense session, warranting partial consideration towards an Extreme classification.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

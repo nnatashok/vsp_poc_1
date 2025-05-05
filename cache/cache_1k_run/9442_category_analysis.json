@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout metadata strongly indicates that this is an Indoor rowing workout. The description mentions 'exert power through your legs to accumulate maximum meter' and 'practice a rate capped race,' which are typical activities associated with rowing on a ergometer. The workout type labels 'row' and 'category: Drive, standard, row' further emphasize this association, justifying a high score of 0.9 for Indoor rowing due to the explicit references to rowing-related activity. \n\nAdditionally, the high intensity level (3 out of 3) and the 'Power' format hint at elements of High-Intensity Interval Training (HIIT), especially since participants exert maximum effort within the given duration of 21 minutes. This suggests significant exertion and effort, qualities of HIIT workouts, thus receiving a supporting score of 0.6 for this category. The description lacks any mention of stretching, yoga, or breathing exercises, excluding those categories."
+}

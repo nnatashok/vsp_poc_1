@@ -326,11 +326,11 @@ def process_workouts_csv_mp(input_csv_path, output_csv_path, max_workouts=None,
 if __name__ == "__main__":
     # Set up command line argument parsing
     parser = argparse.ArgumentParser(description='Process Hydrow workout videos from a CSV file')
-    parser.add_argument('--input', type=str, default="csvpath",#! PLaceholder here
+    parser.add_argument('--input', type=str, default="placeholder",
                         help='Path to input CSV file containing Hydrow metadata in JSONs')
     parser.add_argument('--output', type=str, default="workouts_analyzed.csv", 
                         help='Path to output CSV file for analysis results')
-    parser.add_argument('--max', type=int, default=None,#! NONE
+    parser.add_argument('--max', type=int, default=None,
                         help='Maximum number of workouts to process')
     parser.add_argument('--no-category', action='store_false', dest='category',
                         help='Disable workout category analysis')

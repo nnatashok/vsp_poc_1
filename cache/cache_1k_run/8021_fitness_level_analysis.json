@@ -1,0 +1,26 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The technique difficulty for this workout is classified as Intermediate due to the row-based format and the Drive workout type. Rowing as an exercise generally requires a certain level of coordination, especially when paired with a Drive format which is designed to push performance (as suggested by the name Drive), thus bumping it up to Intermediate. The race-like structure and rhythm variations further contribute to this classification. Rowing workouts cannot surpass Intermediate in the technique difficulty metric, ensuring compatibility with Hydrow's guidelines.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "This workout is marked with an intensity level of 3 out of 3 and involves repeating intervals at high rhythms of 28 and 30, indicating a high-intensity effort across its 16-minute duration. The short duration combined with high rhythm levels and the lack of prolonged rest suggests a high intensity that aligns with a Challenging level. The music genre and selection hint at maintaining a high tempo, reinforcing the challenging effort level intended for users who are fit, though still approachable for determined beginners with relevant motivation.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout 'Athlete Evolution Row' strongly indicates an indoor rowing session, as evidenced by the title ('Row') and category ('row'). The format description specifically mentions interval training with a 'Max rhythm: 28' and 'Interval' format, which aligns with High-Intensity Interval Training (HIIT), although it remains primarily a rowing workout. The moderate intensity (2 out of 3) and 16-minute duration are typical for an interval session. The use of 'Sweat' and 'standard' in tags further supports an energetic, possibly interval nature. Thus, the primary category is Indoor Rowing (score 0.9) due to direct mention, while HIIT (score 0.7) is included due to the format and sweat-inducing indications."
+}

@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type is 'row', which by Hydrow's specific guidelines can only be classified as either Beginner or Intermediate for Technique Difficulty. The format is standard rowing intervals which require some coordination, supporting a Beginner rating with moderate confidence for Intermediate due to the rhythm elements.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.6
+    },
+    {
+      "level": "Challenging",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout has 90-second interval rows and is labeled with a workout intensity level of 2 out of 3. The duration of 16 minutes and 30 seconds suggests it is moderately demanding. Considering these factors, the workout has a Moderate effort requirement with some elements that suggest it may also be Challenging for less fit individuals.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

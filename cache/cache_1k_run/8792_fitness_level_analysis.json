@@ -1,0 +1,26 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout category is 'row', and the workout type is 'drive', which elevates the complexity to an Intermediate Technique Difficulty. Despite the absence of intricate movements typical in Advanced or Expert categories, the high-intensity intervals suggest the need for maintaining proper form at a faster pace, aligning with Intermediate level techniques.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The 'drive' workout type, combined with HIIT format and high-intensity intervals of varying lengths up to 1 minute, reflects a Challenging Effort Difficulty. This is further supported by the maximum intensity level marked as 3 out of 3, suggesting significant energy expenditure and physical demand, aligning closely with the challenging intensity for deconditioned users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

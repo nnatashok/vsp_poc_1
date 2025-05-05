@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    },
+    {
+      "name": "Stretching",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout title 'Stretch + Steady Cool-Down' and description indicate a combination of stretching and rowing activities. The term 'gently stretch your hamstrings' points towards a stretching component, and 'gentle strokes to cool your body down' suggests steady rowing. The use of 'Max rhythm: 22' is specific to rowing settings, reinforcing the 'Indoor rowing' classification with a high confidence score of 0.8. The inclusion of a 'Steady' format further supports this classification as it describes a consistent rowing pace. Given the focus on stretching at the workout's start, stretching is assigned a score of 0.7. The brief 5-minute duration and the 'cool down' emphasis suggest moderate intensity, aligning well with these categories. 'Cool Down' and 'standard row' in the metadata further highlight the primary focus on rowing and stretching, while the alternative station provides an atmospheric background but does not impact classification significantly."
+}

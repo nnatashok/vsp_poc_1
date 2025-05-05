@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Mat",
+      "score": 0.85
+    },
+    {
+      "name": "Stretching",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is labeled under the category 'On The Mat,' indicating exercises are performed primarily on an exercise mat, which aligns well with the 'Mat' category. The description highlights mobility practice and posture correction, both of which are strongly associated with stretching routines, thus supporting the classification under 'Stretching' as well. The absence of any specific exercise equipment and the focus on 'mobility' further suggest that the exercises rely on body movements typically done on a mat and involve stretching. Therefore, 'Mat' was rated at 0.85 due to its central role, and 'Stretching' at 0.7 due to its significant presence."
+}

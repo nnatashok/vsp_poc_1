@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which means the Technique Difficulty can only be rated as 'Beginner' or 'Intermediate'. With a max rhythm of 28 and a format specified as 'Climb', the coordination required does not exceed an intermediate level. However, since the user fitness level requirements specify 'Intermediate', it validates a technique difficulty slightly leaning towards both Beginner and Intermediate due to basic rowing principles involved.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.6
+    },
+    {
+      "level": "Challenging",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout's duration is 16 minutes and 30 seconds, which combined with the intensity level 2 out of 3 and category 'sweat' indicates a higher energy expenditure typical of a moderate to challenging intensity for deconditioned individuals. The '4-minute on 1-minute off' structure is somewhat demanding for those in poor physical shape, thus a weak alignment with 'Challenging' and a stronger alignment with 'Moderate' is appropriate.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

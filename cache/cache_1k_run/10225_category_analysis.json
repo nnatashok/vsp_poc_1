@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary category assigned is 'Indoor rowing' with a score of 0.9. The title 'Drop Your Split Row: #9 of 11' and description explicitly refer to a rowing exercise, indicating that this workout is designed primarily for a rowing machine or ergometer. Terms like 'Drop Your Split' are specific to rowing, further reinforcing this classification. The endurance format and focus on 'splits' are typical of rowing workouts.\n\nThe secondary category 'HIIT' is assigned with a score of 0.6 due to the high-intensity level described as '3 out of 3' and the structured pace reduction which suggests interval-like training elements. Additionally, the intense nature and focus on maximum rhythm and test simulation resemble high-intensity training principles.\n\nCategories such as 'Mat', 'Yoga', and 'Body weight' were excluded because the equipment and focus clearly revolve around rowing. Similarly, categories related to cycling, walking, and running were not applicable given the specific references to rowing activities. Overall, confidence in the categorization is very high due to strong explicit indicators in the metadata."
+}

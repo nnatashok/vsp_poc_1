@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Pilates",
+      "score": 0.85
+    },
+    {
+      "name": "Mat",
+      "score": 0.65
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is titled \"Core Burn Express\" and the description mentions \"plank exercises\" and \"mat pilates,\" which strongly indicates a focus on Pilates. The explicit mention of \"pilates\" in the workout type reinforces this classification, justifying the high score (0.85) for the Pilates category. The mention of \"plank exercises\" aligns with core-focused workouts typically found in Pilates routines, adding further evidence.\n\nThe category \"On The Mat\" suggests that the workout involves exercises performed on an exercise mat, which aligns with Mat exercises. The absence of equipment and the description of \"mat pilates workout\" indicate activities performed on a mat, supporting a classification under Mat with a reasonable score (0.65).\n\nOther categories, such as Yoga or Stretching, were excluded due to the specificity of \"pilates\" exercises mentioned, and the absence of any elements typical of these practices. The overall confidence in these classifications is high at 0.9 due to explicit mentions and coherent metadata."
+}

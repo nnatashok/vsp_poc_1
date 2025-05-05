@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.9
+    },
+    {
+      "level": "Beginner",
+      "score": 0.1
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type is categorized as 'drive', which typically signifies more advanced skills in rowing, given the powerful strokes and higher tempo required. Despite this, due to the rowing nature and the user's fitness level requirement labeled as Advanced, it aligns with Intermediate technique difficulty. The max rhythm of 32 reinforces the requirement for some coordination and body control.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.9
+    },
+    {
+      "level": "Moderate",
+      "score": 0.1
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout title 'Vancouver Challenge Row' and the classification as a 'Drive' format suggest a high-intensity effort, particularly as the goal is maximum meter accumulation. The short duration (1 minute 56 seconds) contributes to reducing overall effort, but the intensity level of 3 out of 3 and the drive type indicate significant effort in the short span. Hence, it aligns strongly with 'Challenging' for less fit users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

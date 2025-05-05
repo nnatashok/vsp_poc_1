@@ -1,0 +1,10 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout metadata indicates a clear focus on rowing activities. The title \"Cardio Intervals Row\" explicitly mentions rowing and cardio intervals, supporting the classification of 'Indoor rowing'. The description also refers to 'cardio boosting intervals,' which implies a structured, possibly varied-intensity workout characteristic of rowing sessions that include intervals. The mention of 'Max rhythm: 26' is typical of a stroke rate in rowing. Despite the mention of 'breathe' as part of the workout type, which could hint at breathing exercises, the primary activity is rowing, as suggested by 'Category: Breathe,standard,row.' The inclusion of rowing-related terms, along with the structured nature of intervals, suggests a high level of confidence (0.85) in classifying this as an 'Indoor rowing' workout, with a score of 0.9 for its strength as a defining feature."
+}

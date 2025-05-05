@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is classified under the 'row' category, which allows for either Beginner or Intermediate Technique Difficulty. Given the workout's title 'Cardio Control Row' and the specified rhythm levels (22 and 24), this suggests a focus on maintaining a steady pace, which is typically straightforward for most users. The workout's description emphasizes 'practice controlling your split,' which may require some coordination, but is generally accessible, hence a strong alignment with Beginner at 0.8 and a slight consideration for Intermediate at 0.2.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "With a duration of just over 11 minutes and an intensity level of 1 out of 3, the workout fits well within a Light effort difficulty. The focus on maintaining split times at certain rhythms suggests a controlled activity level rather than high intensity. However, the presence of cardio components implies it might still be somewhat demanding for very beginners, which is why Moderate is considered at a lower score of 0.3.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

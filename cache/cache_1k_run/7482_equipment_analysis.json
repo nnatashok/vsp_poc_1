@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout's metadata indicates that it falls under the 'row' category, which strongly implies the use of a rowing machine. Additionally, the description mentions 'Reinforce strong body positions each stroke,' and 'Max rhythm: 22,' both of which suggest rowing motions associated with a rowing machine. The very high confidence score of 1.0 is assigned because of the explicit mention of 'row' in the category, making the rowing machine central to this workout. The image also shows an individual in a rowing position, further supporting the use of this equipment."
+}

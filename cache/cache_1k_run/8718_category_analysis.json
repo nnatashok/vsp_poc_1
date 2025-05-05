@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    },
+    {
+      "name": "Mat",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.75,
+  "categoriesExplanation": "The workout is primarily classified as 'Indoor rowing' with a high confidence level due to explicit references to rowing in both the workout name and description (e.g., \"instructional for new and veteran rowers\" and \"Hip Pivot with Shoulder Positioning\"). While it is labeled as a 'warm-up', the content is specific to rowing, focusing on techniques relevant to this exercise form, hence its strong categorization as 'Indoor rowing' (score: 0.8). The presence of body movement instruction might suggest a 'Mat' category because the focus on physical postures indicates an element of mat work (score: 0.4). Other categories, such as 'Stretching' or 'Body weight', are excluded due to lack of specific emphasis on flexibility improvement or strength exercises in the provided metadata."
+}

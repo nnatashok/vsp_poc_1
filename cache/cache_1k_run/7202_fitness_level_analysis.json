@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.2
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "Given the workout is categorized as a 'row' type under 'Drive', the technique difficulty is influenced by Hydrow's rules, permitting classification as either Beginner or Intermediate. Despite being named 'Drive', the interval format and high rhythm (max rhythm of 32) suggest that maintaining proper form could present notable challenges to less experienced users.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.4
+    },
+    {
+      "level": "Extreme",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The effort difficulty is classified between Challenging and Extreme due to the intensity cues provided: a high workout intensity level (3 out of 3), a relatively short but intense duration of 11 minutes and 22 seconds, and the demand to finish with a 3-minute max pace effort. This reflects a high energy expenditure typical of extreme workouts, especially for deconditioned users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

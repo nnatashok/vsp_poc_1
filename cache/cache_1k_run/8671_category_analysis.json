@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is classified as 'Indoor rowing' with a high score of 0.9 due to strong indicators in the metadata, such as 'race to accumulate maximum meters,' 'Max rhythm: 32,' and 'standard,row.' These explicitly refer to an indoor rowing workout focused on distance and paced rowing, typical for a rowing machine. The use of terms like 'race' and 'accumulate meters' supports this conclusion. \n\nAn additional category of 'HIIT' is considered with a score of 0.6, as the workout description emphasizes 'Power' and a format called 'drive,' suggesting high intensity and structured intervals. Furthermore, the intensity level is 3 out of 3, indicating a challenging session. The playlist featuring energetic songs aligns with intense workout types like HIIT. \n\nOther categories were excluded due to insufficient evidence, such as a lack of specific references to other equipment or exercise formats. The combination of these factors supports the conclusion of the workout being primarily an indoor rowing session, potentially integrating HIIT elements."
+}

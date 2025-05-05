@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 1
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The workout is classified primarily as 'Indoor rowing' because it involves rowing activities, specifically focused on the concept of rowing ('Power to Rhythm Row') and transitions from power strokes to rhythm, typical of rowing exercises. The inclusion of terms like 'row' and the setting ('Charles River') strongly suggests an emphasis on rowing as the central exercise, justifying a score of 1 for 'Indoor rowing'. Secondly, it fits the 'HIIT' category due to the description indicating quick transitions and a format explicitly mentioned as 'HIIT'. The workout's high intensity level (3 of 3) aligns with typical HIIT workout sessions, and the described format of quick transitions supports this classification, resulting in a confidence score of 0.7 for HIIT. Other categories like 'Mat', 'Pilates', 'Yoga', or 'Stretching' were excluded due to lack of relevant evidence supporting activities falling under those categories."
+}

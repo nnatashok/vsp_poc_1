@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Advanced",
+      "score": 0.9
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.95,
+  "techniqueDifficultyExplanation": "The workout type is a 'drive,' which according to Hydrow's specific rules, aligns with an 'Advanced' level of technique difficulty. The metadata includes keywords like 'advanced' and 'drive,' indicating the session requires sophisticated rowing techniques and substantial coordination.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.75
+    },
+    {
+      "level": "Extreme",
+      "score": 0.85
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout is described as an 'endurance row' with an intensity level of 3 out of 3. The 22-minute duration and high rhythm indicate a high-energy session, pushing it towards 'Extreme.' However, it remains accessible at a 'Challenging' level due to the presence of any rest periods and music-driven pacing.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.8,
+  "categoriesExplanation": "The workout titled 'Whittier Challenge Row' explicitly mentioned rowing as its core activity, as seen from the title and metadata, indicating a focus on rowing. The use of terms like 'challenge,' 'maximum meters,' 'one-minute challenge,' '32+ rhythm,' and 'Power' suggests a focus on intensity often found in rowing workouts. This justifies categorizing it under 'Indoor rowing' with high confidence and a score of 0.9, as the workout's main feature is clearly the rowing component.\n\nThe description also mentions 'workout intensity level: 3 out of 3,' which, alongside the words 'one-minute challenge' and 'maximum meters,' suggests an intense, potentially interval-driven format. Therefore, 'HIIT' is an applicable category, though with a slightly lower score of 0.6, as it complements the rowing aspect. The format and intensity imply short bursts of effort, a key feature of HIIT workouts. The absence of details about the interval structure lowers the score slightly.\n\nOther categories such as 'Mat', 'Yoga', or 'Walking' were excluded as there are no indicators of these activities in the metadata."
+}

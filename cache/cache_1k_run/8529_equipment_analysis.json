@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Dumbbells",
+      "confidence": 1.0
+    },
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The metadata explicitly mentions the use of dumbbells ('Total body work with dumbbells off Hydrow') with a tag for 'dumbbells' in the equipment section, giving it a confidence score of 1.0. Furthermore, the exercise involves 'short intervals on Hydrow,' a clear reference to a rowing machine, supporting its inclusion with a confidence score of 0.9. The category 'On The Mat' suggests exercises on a mat, but the lack of explicit mention of a mat means it doesn't receive a separate listing. These equipment items suit the upper and lower body circuit workout described."
+}

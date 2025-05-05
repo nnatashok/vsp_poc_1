@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 1
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is titled 'Climbing Intervals Row' and involves climbing interval exercises, with specific reference to rowing fundamentals, ensuring a clear indicator of 'Indoor rowing.' The description emphasizes the workout being led through intervals, with '22 to 26' likely referring to strokes per minute specific to rowing machines, strongly justifying a score of 1.0 for Indoor rowing. The additional classification as 'breathe' in the metadata suggests elements of controlled breathing or relaxation techniques, therefore justifying a secondary classification as 'Breathing exercises' with a moderate score of 0.4 due to the less explicit focus compared to rowing. While the equipment field is empty, it is consistent with an indoor rowing scenario, where specific mentions aren't always necessary if the rowing context is clear. The mention of an intensity level of 1 out of 3 and music genres do not impact categorization but align with potential relaxation or steady-paced rhythm indicative of breathing focus."
+}

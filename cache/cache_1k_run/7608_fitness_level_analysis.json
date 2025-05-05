@@ -1,0 +1,26 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 1
+    }
+  ],
+  "techniqueDifficultyConfidence": 1.0,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'drive', which per Hydrow's guidelines, automatically assigns an 'Intermediate' level for technique difficulty. The interval format with a high max rhythm suggests movements that require some coordination but are not complex enough for higher categorization.",
+  "effortDifficulty": [
+    {
+      "level": "Extreme",
+      "score": 0.95
+    }
+  ],
+  "effortDifficultyConfidence": 0.95,
+  "effortDifficultyExplanation": "The workout features a high intensity level (3 out of 3) with a sprint pace focus, demanding a significant energy expenditure over longer intervals. The combination of these factors leads to an 'Extreme' effort classification, suitable for advanced users, especially considering the phrases 'hold a sprint pace' and 'max effort at the finish'.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

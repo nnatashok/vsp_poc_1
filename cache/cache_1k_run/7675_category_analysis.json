@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    },
+    {
+      "name": "Stretching",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.8,
+  "categoriesExplanation": "The workout title 'Finesse Your Finish Cool-Down' and the description mentions 'cool-down' which is a period usually associated with lower intensity after a main workout. The mention of 'perfect your posture at the finish' indicates a focus on technique, specifically related to rowing as implied by the term 'finish' which is a common term in rowing. The metadata includes tags like 'Category: Cool Down, standard, row' which further supports the focus on rowing, thus strongly indicating the 'Indoor rowing' category with a score of 0.8 due to its explicit presence. The description also suggests a technical focus, which aligns with elements of 'Stretching' as it involves refining posture, but since it is not the main focus, it has a moderate relevance with a score of 0.4. No mention of equipment or other categories further supports this classification. The overall confidence is high due to the explicit mention of rowing-related terms."
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.85
+    },
+    {
+      "name": "Body weight",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is most appropriately classified under 'Indoor rowing' due to explicit references to rowing techniques and drills in the title and description, notably the mention of a 'Pick Drill' and focus on 'Technique' format, which commonly relates to rowing practice. The score for this category is high at 0.85, reflecting very strong evidence from metadata. \n\n'Body weight' is also considered as a secondary category with a moderate score of 0.5, as 'drills' can often include bodyweight exercises to reinforce technique, although this is less explicit in the metadata.\n\nOther categories such as 'Mat', 'Stretching', or 'Pilates' were not considered because the focus is on rowing and power intervals, not on flexibility, core strength, or mat work. The confidence level is high at 0.9 due to clear indications in the metadata relating directly to rowing drills."
+}

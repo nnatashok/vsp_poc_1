@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row' with a 'breathe' workout type, meaning it primarily focuses on rhythm and sustained effort rather than complex movements. These factors suggest a basic to moderately coordinated effort, aligning with a Beginner technique level. The rhythm cap of 24, indicative of a moderate pace, may require slightly more than minimal coordination, which justifies a partial inclusion of Intermediate classification.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout duration is 16 minutes, with an intensity level of 1 out of 3, described as focusing on building endurance and maintaining a rhythm. These elements imply a Light to Moderate effort level, suitable for deconditioned users. There is evidence to support light aerobic energy expenditure, while the pyramid format suggests gradual intensity increases, hence the moderate score.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

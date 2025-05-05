@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category for this workout is 'Indoor rowing' with a score of 0.8. This is strongly indicated by the workout name 'Focused Cardio Row' and the description mentioning 'cardio building workout' through rowing strokes. The interval format and a medium max rhythm further suggest a structured rowing session. \n\nThe secondary category is 'Breathing exercises' with a score of 0.6, inferred from the 'Workout Type' explicitly stating 'breathe' and 'Category' including 'Breathe'. While the primary focus is on rowing, the mention of 'breathe' suggests an emphasis on controlled breathing during the workout, which fits into breathing exercises.\n\nThe confidence level is high at 0.85 due to explicit details about rowing and the inclusion of breathing techniques. Other categories such as 'Mat', 'Yoga', or 'Meditation' are not applicable as they do not align with the description or the nature of the workout activities. The music and playlist information do not significantly influence the category selection, primarily serving as background elements to support the workout."
+}

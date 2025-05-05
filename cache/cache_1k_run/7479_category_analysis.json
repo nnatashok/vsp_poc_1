@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Yoga",
+      "score": 1.0
+    },
+    {
+      "name": "Mat",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is classified primarily as 'Yoga' due to the presence of terms like 'hip-opening flow' and 'gently open up your hips' which are typical descriptors associated with yoga. The recommendation of using yoga blocks further reinforces this category, assigning it the highest confidence score of 1.0 as it is a defining characteristic of a yoga routine. The secondary classification as 'Mat' is supported by the phrase 'on the mat' and 'flow', commonly indicating exercises performed on a mat, often without much equipment. Given that the workout is described as 'on-the-mat' and involves gentle movements with a focus on flexibility, a score of 0.7 for 'Mat' is appropriate, though it takes a secondary place to the very evident yoga classification. Chill and downtempo music genres also align with yoga's calming environment. Other categories such as 'Stretching', 'Meditation', or 'Pilates' were considered but excluded due to the specific emphasis on 'flow' and use of equipment typical to yoga."
+}

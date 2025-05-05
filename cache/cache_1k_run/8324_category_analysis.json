@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Body weight",
+      "score": 0.9
+    },
+    {
+      "name": "Mat",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The workout video is categorized strongly as a 'Body weight' session based on the explicit mention of 'Bodyweight Strength' in the title and description, signifying exercises using the body's weight to improve strength. This aligns with the workout type specification as 'strength.' The session's emphasis on 'moving your body' with music further supports the classification as an engaging, dynamic bodyweight routine, leading to a high score of 0.9.\n\n'On The Mat' is indicated in the category, and the lack of equipment reinforces that exercises are likely performed on a mat, correlating with general mat-based workouts. The specific use of the phrase 'On The Mat' suggests some exercises may involve floor positions typically associated with mat work, granting it a moderate score of 0.7. The session is quite clear in its focus on strength and movement, which exclude other categories like 'Yoga' or 'Stretching,' as they don't align with the described intensity and structure of the workout.\n\nConfidence in classification is very high due to clear indicators pointing towards body weight and mat-based exercise routines."
+}

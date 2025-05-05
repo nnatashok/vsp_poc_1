@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is primarily classified as 'Indoor rowing' because the description explicitly mentions 'steady row along the Charles River,' indicating it is centered around rowing, even though it suggests a more relaxed pace. The additional details such as 'pyramid' format are common in rowing exercises, further supporting this classification. The score of 0.9 reflects a very high confidence level due to these clear indicators.\n\nThe secondary classification into 'Breathing exercises' with a score of 0.4 is due to the terms 'breathe' and 'breathe,standard,row' listed in the metadata. However, the primary focus remains on rowing, and there is limited information about specific breathing techniques used, resulting in moderate confidence in this secondary classification."
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Stretching",
+      "score": 0.9
+    },
+    {
+      "name": "Mat",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category assigned is 'Stretching' with a high score of 0.9 due to the explicit mention in the workout name 'Stretching for Runners', the description stating 'move through both static and dynamic stretches', and the workout type being labeled as 'stretching'. These elements provide strong evidence for classifying the workout predominantly as a stretching routine. The secondary category 'Mat' is assigned with a score of 0.6, indicating the workout is performed on the mat, as inferred from the category label 'On The Mat', and no equipment needed. This suggests exercises are likely conducted on the floor, supporting the inclusion of the Mat category. Other categories like 'Running' or 'Yoga' were not considered due to the lack of relevant indicators in the provided metadata."
+}

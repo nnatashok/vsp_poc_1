@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary category 'Indoor rowing' was selected based on the explicit mention of rowing-related terms such as 'meters', 'sprint pace', and 'intervals', which are indicative of an indoor rowing workout. The metadata also includes rowing-specific tags like 'standard', 'row', and 'drive', reinforcing the association with rowing.\n\nThe secondary category 'HIIT' was chosen due to the structure described as having 'longer intervals' with a 'sprint pace', leading to a 'max effort at the finish'. This aligns with the characteristics of high-intensity interval training, which typically involves bursts of intense exercise followed by rest or low-intensity periods.\n\nThe workout being part of a 'Race' and having a 'max rhythm' of 32 further implies a competitive and intensive session, suitable for both indoor rowing and HIIT classifications. The absence of an instructor and unspecified equipment suggests a focus on the rowing machine itself, which is strongly corroborated by the music selection of rock songs that often energize high-intensity workouts. The high confidence level of 0.9 is assigned given these clear indicators."
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Pilates",
+      "score": 0.95
+    },
+    {
+      "name": "Mat",
+      "score": 0.65
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary category for this workout is 'Pilates', as indicated by explicit mentions in both the workout name ('Beginner Core Pilates') and the description ('Christie leads you through pilates exercises'). This suggests that engaging the core through controlled movements, a hallmark of Pilates, is the focus of the workout. The 'Pilates' category receives a high score of 0.95 due to these strong indicators. \n\nAdditionally, the category 'Mat' is also applicable, evidenced by the metadata tags 'On The Mat' and 'standard,on-the-mat', which suggest that the exercises are performed on the floor, characteristic of mat workouts. The 'Mat' category receives a moderate score of 0.65 since the workout involves traditional Pilates exercises but emphasizes the use of a mat for these floor-based activities. \n\nNo other categories, such as 'Yoga' or 'Stretching', are applicable as the focus on Pilates and core engagement is pronounced with no indication of flexible or meditative components."
+}

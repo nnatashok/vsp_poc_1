@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Body weight",
+      "score": 0.9
+    },
+    {
+      "name": "Mat",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The strongest category for this workout is 'Body weight' with a score of 0.9. This choice is primarily based on the phrase 'bodyweight exercises' in the description, which clearly indicates that the workout focuses on strength training using the participant's own body weight as resistance. The intervals mentioned (30'' and 45'') suggest a structured routine typical of bodyweight workouts.\n\nThe second category is 'Mat', with a score of 0.7. The mention of 'Category: On The Mat' and the lack of any equipment needed (\u00157Equipment:{}\u00157) implies that the exercises are likely performed on a mat, supporting the 'Mat' classification.\n\nAlternative categories such as 'Weight workout' were excluded due to the absence of equipment. Similarly, 'HIIT' was not chosen as there were no specific indicators of high-intensity intervals, despite the terms 'intervals'.\n\nOverall, the classification of this workout is based on the explicit mention of bodyweight exercises and mat use, with high confidence due to clear metadata indicators."
+}

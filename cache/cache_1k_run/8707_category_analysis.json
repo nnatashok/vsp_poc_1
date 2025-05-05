@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Pilates",
+      "score": 0.9
+    },
+    {
+      "name": "Mat",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is explicitly labeled as a Pilates session in both the title (\"Post-Row Core Pilates\") and the description (\"...in this post-row Pilates session\"). This strong repetition directly supports the classification into the Pilates category with a very high confidence score of 0.9. Additionally, the workout is referred to as being 'on-the-mat' both in the tags (\"On The Mat, standard, on-the-mat\") and suggested indirectly through the nature of Pilates exercises, which commonly occur on a mat. Hence, the Mat category is assigned with a score of 0.7. The description focuses on core strengthening, which aligns well with Pilates' focus on controlled movements and core strength. No indicators suggest other potential categories such as Yoga or Stretching, leading to their exclusion."
+}

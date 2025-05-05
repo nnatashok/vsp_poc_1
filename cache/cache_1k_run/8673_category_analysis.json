@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The metadata strongly indicates that this is an 'Indoor rowing' workout due to terms like 'race to accumulate maximum meters,' 'Max rhythm: 32,' and 'Category: Drive,standard,row.' These terms explicitly reference the use of a rowing machine and the format of the workout as a competitive, meter-accumulation session which is typical in rowing exercises. The intensity level of 3 out of 3 and the format 'Power' suggest a high-intensity workout, which aligns with principles of 'HIIT' (High-Intensity Interval Training), especially considering the rhythms and competitive nature indicated. However, there is no explicit mention of intervals, which introduces some uncertainty and lowers the HIIT score, but the implied elements of intensity and power justify its inclusion at a moderate level. The lack of an instructor and the focus on competition and distance supports these classifications. Other categories like 'Elliptical' or 'Treadmill' were excluded due to a lack of relevant evidence for those activities."
+}

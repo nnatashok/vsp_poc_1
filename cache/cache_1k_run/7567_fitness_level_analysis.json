@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The exercises are rowing-based with intervals, described as steady with occasional bursts, which aligns mostly with Beginner technique due to its straightforward nature. While rowing inherently requires some coordination, the Beginner classification is justified by the steady format and explicit Beginner user fitness level requirement. Intermediate is partially applicable due to potential need for form correction during bursts, but less emphasized.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.6
+    },
+    {
+      "level": "Moderate",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout consists of 2-minute steady intervals with 30-second bursts, categorized as 'breathe' with an intensity level of 1 out of 3. This structure suggests a Light level difficulty for deconditioned users, given the presence of rest and moderate overall intensity. It approaches Moderate effort due to the duration of 21 minutes and burst intervals, but remains accessible to beginners.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

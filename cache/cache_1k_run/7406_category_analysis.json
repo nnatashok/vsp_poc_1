@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.5
+    },
+    {
+      "name": "Other",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is titled 'Climbing Ladder Row', which strongly suggests it is an indoor rowing workout. The use of intervals (5', 4', 3', 2', and 1') aligns with common rowing training practices. Additionally, the described rhythm and format of 'Climb', along with the max rhythm indicator, further supports this inference since these are typical in rowing workouts. Given the direct mention of 'row' under categories, I assign Indoor Rowing a score of 0.9.\n\nThe mention of 'breathe' as a workout type, along with the category 'Breathe', indicates some focus on breathing exercises, though this overlaps with rowing's emphasis on breathing, thereby assigning it a moderate score of 0.5. \n\nThe workout does not fit under traditional breathing exercise classes but is rather an aspect within the rowing routine. Hence, the 'Other' category is included with a score of 0.3 due to the unique combination indicated by the metadata, despite the core elements being primarily associated with rowing."
+}

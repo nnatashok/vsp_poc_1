@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The metadata indicates that this workout belongs to the categories \"warm-up\" and \"row,\" which implies the use of a rowing machine. Additionally, the image depicts rowing activity, confirming that a rowing machine is central to simulating this outdoor experience in an indoor environment. The absence of other specified equipment and the context of the warm-up being related to rowing further justifies assigning a very high confidence (0.9) to the necessity of a rowing machine. No additional equipment is mentioned or suggested in the metadata."
+}

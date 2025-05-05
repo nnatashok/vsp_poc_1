@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 1
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is clearly classified as 'Indoor rowing' due to the use of rowing-related terms like 'race', 'meters', 'rhythms', and the general 'row' category mentioned in the metadata. The high rhythm and power format indicating an intense workout, alongside the workout intensity level being 3 out of 3 suggests a competitive and challenging rowing session, thus scoring it a 1.0 for Indoor Rowing. Additionally, the mention of a 'race', 'high rhythms', and intense effort ('maximum meters') suggests elements of High-Intensity Interval Training (HIIT), where participants are likely pushing their limits in intervals, thus scoring 0.6 for HIIT as a secondary but relevant categorization. The metadata does not support other categories like Pilates, Yoga, or Weight Workout, which differentiates the session from stretching, relaxation, or weight-based strength training."
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 1
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary category for this workout is \"Indoor rowing\" with a score of 1.0 due to the explicit mention of it being a 'training row' and the use of 'pyramid intervals', which are commonly associated with rowing workouts. The metadata includes 'row' in the category section, further confirming its focus on rowing, which indicates a very high confidence level. The secondary category considered is \"HIIT\" with a score of 0.6. The pyramid format suggests a high-intensity interval approach, where intensity shifts with changing intervals, aligning with HIIT characteristics. The intensity level of '2 out of 3' also supports this. While the workout is not explicitly labeled as HIIT, the structure and intensity level provide sufficient implicit evidence to support its inclusion as a secondary category. Music genre and song choices suggest a high-energy workout, which is consistent with interval training. Other categories like 'Mat' or 'Body weight' were excluded as there is no mention of floor exercises or weight involvement."
+}

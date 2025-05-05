@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout type 'row' typically falls under Beginner or Intermediate technique difficulty. The video is classified under 'breathe', indicating a focus on maintaining a steady effort, which aligns with less complex movements. Since the User Fitness Level Requirement is Beginner, the likely alignment is heavily in favor of a Beginner technique difficulty, despite the inclusion of interval training which might suggest slight Intermediate influences. Thus, Beginners will find it accessible, with a slight nod towards Intermediate due to interval format.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The duration of 31 minutes and 43 seconds combined with a workout intensity of 1 out of 3 suggests a Light to Moderate effort difficulty. The interval format could increase the challenge slightly, but the description highlights 'maintain a steady effort', which tempers the intensity. Based on these factors, the predominant classification is Light, with some elements reaching Moderate, considering it's accessible to Beginners.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

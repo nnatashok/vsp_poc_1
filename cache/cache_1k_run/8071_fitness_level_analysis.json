@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.3
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout type is categorized as 'Drive' which aligns with Hydrow-specific rules, indicating an advanced level. However, since the primary movement is rowing and the description does not mention complex maneuvers, it suggests a technique difficulty that is more fitting with rowing's Beginner to Intermediate classification. Given the user fitness level requirement specified as 'Advanced', the complexity is slightly higher, leading to the intermediate level being the most applicable.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.6
+    },
+    {
+      "level": "Extreme",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The session is brief (1 minute and 44 seconds) but is a 'challenge for maximum meters' with a rhythm and effort that increases every 15 seconds. The workout is tagged with an intensity level of 3 out of 3, denoting high effort. While the workout duration is short, the high-intensity demand for maximum meters and the designation of 'Drive' increase the effort level. This makes the effort difficulty align with Challenging to Extreme given the context of maximizing effort in a short time.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

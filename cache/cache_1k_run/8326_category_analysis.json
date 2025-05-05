@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Pilates",
+      "score": 0.9
+    },
+    {
+      "name": "Mat",
+      "score": 0.8
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The workout is classified as 'Pilates' with high confidence due to explicit references in both the title ('Post-Row Pilates') and description ('post-row Pilates session'). These strong indicators suggest that Pilates is the central focus. Additionally, the tags 'On The Mat' and 'standard', combined with the description's focus on mat-based activities (glute activation and chest stretching), justify inclusion in the 'Mat' category with a slightly lower score. The absence of any mentioned equipment further supports the 'Mat' classification, indicating a workout performed primarily on the floor. The music genre and playlist provide little insight into physical categorization but suggest a dynamic, yet calming atmosphere typical of Pilates. Other potential categories, such as 'Stretching', were considered but excluded due to lack of emphasis beyond minor stretching mentioned."
+}

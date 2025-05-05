@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 1.0
+    },
+    {
+      "equipment": "Blocks",
+      "confidence": 0.8
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is categorized under 'On The Mat,standard,on-the-mat', indicating a mat is essential for performing the exercises, leading to a very high confidence score of 1.0 for a mat. The description explicitly mentions 'yoga blocks recommended', giving a high confidence score of 0.8 for blocks. The image further confirms the use of both a mat and blocks, as they are visible next to the instructor performing a yoga pose. There is no mention or implication of any other equipment required."
+}

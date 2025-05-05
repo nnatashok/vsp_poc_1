@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.8
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.75,
+  "categoriesExplanation": "The workout titled 'Two Stroke Cool-Down' features a format of rowing with alternating two strokes of high effort and two strokes of low effort, which aligns with an interval-style workout. The explicit mention of 'row' in the category and 'two strokes' suggests the use of a rowing machine, classifying it under 'Indoor rowing' with high confidence (score 0.8). The interval nature of alternating efforts corresponds with 'HIIT' as it involves periods of varying intensity, though it is a cool-down, so HIIT is secondary with a lower score of 0.6. The workout type specified as 'cool down' signifies a reduced-intensity session, reinforcing these categories while excluding 'Mat' or 'Yoga', which are unrelated to the indications of rowing and intervals."
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Pilates",
+      "score": 1
+    },
+    {
+      "name": "Mat",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary category for this workout is 'Pilates' with a score of 1.0, indicating extremely high confidence. This is directly supported by the explicit mention of 'Whole Body Pilates' in the workout name and the description highlighting 'pilates exercises' with Christie and James. Additionally, 'Workout Type: pilates' and 'Category: On The Mat' further reinforce this classification, suggesting a core focus on Pilates practice.\n\nThe secondary category is 'Mat' with a score of 0.7 because the metadata includes 'Category: On The Mat' and describes circuit-based exercises typically performed on a mat. While Pilates is almost exclusively a mat-based exercise involving controlled movements and core strength, the indication of a 'mat' category is also apparent from typical Pilates exercises. The playlist, music choice, and location description ('Seville') do not contradict this classification, focusing on relaxation and smooth practice typical of Pilates routines.\n\nNo other categories are relevant here, as the focus is clearly on Pilates rather than strength training, cardio, or flexibility exercises like yoga."
+}

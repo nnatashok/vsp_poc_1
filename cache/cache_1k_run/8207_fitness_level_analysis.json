@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is categorized as 'Breathe' and 'Row', which typically aligns with Beginner to Intermediate technique difficulty. Rowing requires some coordination, but in this case, the rowing is set at low rhythms with only short bursts within an interval format, indicating it's approachable for beginners. The absence of advanced technical requirements or complex movements justifies a higher Beginner score. The slight Intermediate score reflects the need for some coordination during rhythm changes.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.2
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout duration is 21 minutes and is marked with an intensity level of 1 out of 3, indicating a relatively low-demand session. The interval format includes short bursts but implies manageable effort due to the focus on 'Cruise at lower rhythms'. Therefore, it's mostly Light in effort, suitable for less active individuals. The slight Moderate score accounts for the bursts of increased rhythm.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

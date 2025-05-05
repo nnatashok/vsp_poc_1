@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The technique difficulty for 'Rock HIIT Row' is classified as Intermediate with a score of 0.7. As per Hydrow-specific rules, the 'row' category generally restricts the technique difficulty to Beginner or Intermediate. The 'drive' workout type aligns with slightly complex rowing exercises that require good coordination, pushing it to Intermediate. There's an Advanced technique level indicated by the user fitness requirement, but due to the 'row' category, Intermediate remains most appropriate.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    },
+    {
+      "level": "Extreme",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The effort difficulty is assessed as Challenging with a score of 0.8 due to the 'HIIT' format and a maximum rhythm of 32 strokes per minute. These factors indicate a high-intensity workout. The duration is over 17 minutes, which is enough time to sustain significant energy expenditure, pushing it slightly towards Extreme. However, given the intensity level of 3/3, Challenging is the primary classification, with some overlap into the Extreme range.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

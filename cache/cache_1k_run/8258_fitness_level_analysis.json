@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized as 'drive', which according to Hydrow's specific rules, dictates an 'Advanced' technique difficulty. However, given the rowing nature of the workout and the sprints, this activity aligns more closely with 'Intermediate' for typical rowing movements, especially considering the focus on driving through the legs and maintaining coordination at a high stroke rate. The high-intensity nature with a rhythm max over 30 strokes per minute further supports an 'Intermediate' categorization for most users, indicating a strong alignment.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.7
+    },
+    {
+      "level": "Extreme",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout involves 90\", 60\", and 30\" high-intensity sprints, characterized by a rhythm of 30+ strokes per minute. With a duration of 31 minutes and a high intensity marked as 3 out of 3, energy expenditure would be significant, especially due to the nature of HIIT and minimal rest. While normally a rowing HIIT would clearly imply a 'Challenging' level, the description and duration imply aspects that could verge on 'Extreme', particularly for less conditioned individuals, thus sharing score attribution.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

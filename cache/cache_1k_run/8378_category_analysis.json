@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Yoga",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.8,
+  "categoriesExplanation": "The primary category 'Indoor rowing' was chosen with a high confidence level (score: 0.9) due to explicit mentions of rowing in the workout name ('Rest Focused Cool-Down') and description ('intentional rest while rowing'). The description and format ('Steady') suggest it is a low-intensity rowing workout meant for a cool-down phase. Despite the low intensity, it is distinctively related to rowing, distinguishing it from other low-intensity activities such as Yoga or Meditation. The 'Yoga' category was considered with a lower score (0.4) due to the element of 'intentional rest' which slightly aligns with some aspects of Yoga's meditative practices, though this is primarily a rowing workout. Other categories like Stretching or Meditation were excluded as the activity is explicitly rowing-focused and not primarily about flexibility or mindfulness exercises."
+}

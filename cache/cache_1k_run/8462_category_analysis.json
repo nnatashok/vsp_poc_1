@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Mat",
+      "score": 0.8
+    },
+    {
+      "name": "Body weight",
+      "score": 0.6
+    },
+    {
+      "name": "Indoor rowing",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.8,
+  "categoriesExplanation": "The workout combines 'Core + Cardio Circuit' with a noted 'Total body work off Hydrow and 90-second intervals on Hydrow', suggesting a hybrid session incorporating both mat and rowing machine exercises. The category 'Mat' is strongly supported by the tags 'On The Mat' and 'standard,on-the-mat', along with core and cardio circuit descriptors that suggest exercises performed on an exercise mat. This is scored at 0.8 for strong presence. 'Body weight' is also indicated by the body circuit nature and use of dumbbells for strength training, scoring 0.6 as important, but less dominant than the mat aspect. 'Indoor rowing' is marked due to the mention of 'intervals on Hydrow', but since rowing is not the central focus and occurs for short intervals, it scores 0.4. Other categories like 'Elliptical', 'HIIT', 'Running', 'Treadmill', 'Walking', 'Pilates', 'Stretching', 'Yoga', 'Breathing exercises', 'Meditation', 'Calisthenics', and 'Weight workout' are less relevant based on the provided metadata."
+}

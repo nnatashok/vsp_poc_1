@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor rowing",
+      "score": 0.9
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is clearly categorized under 'Indoor rowing' as evidenced by both the term 'row' in the title 'Holiday Traditions Row' and the description that mentions 'row in Miami'. The inclusion of max rhythm and interval format further supports this classification, as these are common in rowing workouts. The term 'jogging effort' and interval format indicates varying tempo which aligns with rowing practices, justifying a strong presence score of 0.9. Additionally, the metadata mentions 'breathe' multiple times, suggesting a focus on breathing exercises as part of the session, although it appears less central than the rowing, assigning it a score of 0.6. The music playlist does not influence the category directly aside from setting a holiday-themed ambiance. The intensity level of 1 out of 3 indicates a lower intensity session, compatible with both categories chosen. Although 'breathe' suggests a calmer experience, the central element is rowing, thus excluding categories such as Meditation or Yoga."
+}

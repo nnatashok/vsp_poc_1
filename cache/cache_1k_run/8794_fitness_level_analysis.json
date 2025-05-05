@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is described as a 'Drive' type row, which Hydrow classifies as Intermediate for technique difficulty. The focus on improving stroke technique with varying rhythms and a high max rhythm of 32 suggests a certain level of coordination is required. However, since it's a rowing workout, the complexity is kept at an Intermediate level as per the established platform rules.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.75
+    },
+    {
+      "level": "Extreme",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout has a duration of 16 minutes, which is relatively short; however, the intensity level is marked as 3 out of 3, indicating it is highly demanding. The description of focusing on technique with 'varying rhythms' suggests a high degree of exertion. The playlist of high-energy, classic rock songs supports this as they often accompany more vigorous activities. Thus, the effort difficulty leans towards Challenging, with a substantial leaning towards Extreme due to maximum exertion prompts.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

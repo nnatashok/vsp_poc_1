@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Body weight",
+      "score": 0.8
+    },
+    {
+      "name": "Mat",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is explicitly focused on bodyweight exercises, as described by the title 'Beginner Bodyweight Strength' and further supported by the description that mentions 'bodyweight exercises' focused on strengthening various body parts. This clearly indicates the primary category as 'Body weight' with a high confidence score of 0.8, reflecting its central presence in the workout.\n\nThe mention of 'On The Mat' in the metadata suggests that these exercises are likely to be performed on an exercise mat, which aligns with the 'Mat' category. Although the exercises are strength-focused, the setting implies mat usage, justifying a moderate presence with a score of 0.6.\n\nNo equipment is required, confirming the focus on body weight. Other categories like 'Weight workout' or 'Calisthenics' are not suitable due to the absence of equipment and the beginner-friendly nature, which is less intensive than typical calisthenics."
+}

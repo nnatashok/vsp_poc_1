@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Mat",
+      "score": 0.8
+    },
+    {
+      "name": "Body weight",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout titled 'Lower Body Strength' in the metadata clearly indicates a focus on 'strength'. The category 'On The Mat' is mentioned explicitly, suggesting that exercises are performed on a mat, which aligns with floor-based exercises such as mat workouts. The absence of any equipment and the mention of 'standard, on-the-mat' further confirm that this workout does not rely on additional apparatus, reinforcing the Mat category (score: 0.8).\n\nThe overall description and title provide strong indications of strength training, specifically targeting the lower body. This, along with the workout type specified as 'strength', suggests that exercises likely involve body weight to build strength, supporting the inclusion of the Body weight category (score: 0.7).\n\nThe combination of metadata suggesting strength focus without specific mention of weights, along with no listed equipment, supports these classifications with high confidence. Other categories like 'Weight workout' were excluded as there's a lack of evidence supporting the use of additional weights or machines."
+}

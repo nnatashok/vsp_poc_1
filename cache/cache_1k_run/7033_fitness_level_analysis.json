@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.1
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is a rowing-based session, inherently suitable for beginners due to its repetitive and straightforward nature. The moderate rhythm and gentle climb, as mentioned in the workout description, further indicate the movements are not overly complex, aligning with the Beginner classification at score 0.9. It could marginally fit into Intermediate if the intervals demanded more precise timing, but this is speculative given the data, hence a low score of 0.1 for Intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.6
+    },
+    {
+      "level": "Moderate",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout's effort difficulty is marked by a low intensity level (1 out of 3) and a relatively short duration of 21 minutes, which supports a Light level classification with a score of 0.6. The interval format and rhythm climbing could elevate physical demand slightly for unconditioned users, suggesting moderate difficulty might be appropriate in some cases, justifying a score of 0.4 for Moderate. Overall, the session remains accessible to most beginner participants, resulting in high confidence for assigned scores.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The metadata and image both strongly indicate that a rowing machine is necessary for this workout. The workout name 'Motivational HIIT Row' and the category 'row' explicitly imply rowing. The use of high-intensity intervals in a rowing format confirms that a rowing machine is central to the workout. Additionally, the image depicts a person using a rowing machine, further supporting its necessity. Therefore, a very high confidence score of 1.0 is assigned to the rowing machine."
+}

@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout involves rowing, a straightforward exercise typically fitting a Beginner to Intermediate level in technique difficulty. The description and format 'Climb' imply some variability but still suggest simple rowing motions. No specific advanced rowing techniques or coordination-heavy movements are mentioned, suggesting strong alignment with Beginner (score: 0.9) and some with Intermediate (score: 0.6) due to the rhythm variation.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.75
+    },
+    {
+      "level": "Challenging",
+      "score": 0.45
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout duration is 31 minutes with a climbing format indicating sustained effort over time. Although the intensity is rated 1 out of 3, the 'rhythm increase' and '8-minute climbs' suggest consistent moderate effort, suitable for deconditioned users. This aligns with Moderate effort (score: 0.75), though the total duration and rhythm shifts could challenge less fit users, slightly aligning with Challenging effort (score: 0.45).",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 1
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is classified under the 'row' category. According to Hydrow-specific rules, rowing workouts can only be Beginner or Intermediate in Technique Difficulty. The use of straightforward intervals suggests simplicity in movement. Therefore, with a strong alignment towards the simplicity of rowing movements and user fitness requirement tagged as 'Beginner', this workout earns a rating of 1 for Beginner Technique Difficulty.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.75
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "With a duration of 21 minutes and an intensity level of 1 out of 3, this workout is not particularly demanding. The 'breathe' workout type and the focus on maintaining a consistent split in intervals imply a controlled pace, likely placing it in the Light to Moderate range. Additionally, the music tempo aligns with a relaxed pace, suitable for deconditioned users. Therefore, it scores a 0.75 for Light and 0.5 for Moderate effort difficulty.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

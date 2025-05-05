@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.95
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout type is listed as \"drive,standard,row,\" indicating that rowing is the primary focus. The category explicitly includes \"row,\" and the description supports this with references to racing and rhythm, both relevant to rowing sessions. Although the image shows outdoor rowing, the metadata suggests an indoor rowing session, so a 'Rowing machine' is required with high confidence (0.95). No other equipment is specified or implied due to the focus on rowing, so this is the only necessary equipment."
+}

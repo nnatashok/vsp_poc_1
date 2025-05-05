@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.75
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.25
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout type is categorized under 'row', which typically aligns with either Beginner or Intermediate levels of technique difficulty due to the nature of rowing exercises, which require fundamental coordination. Given the standard category and less complex exercise involved, it strongly aligns with the Beginner level but may include transitions that slightly elevate it to Intermediate. Keywords like 'shift in rhythm' and standard row techniques support a moderate but manageable complexity in execution.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.8
+    },
+    {
+      "level": "Challenging",
+      "score": 0.2
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is an interval format with a duration of 21 minutes 30 seconds and an intensity level of 2 out of 3, which indicates a moderate level of physical demand. Intervals and rhythmic shifts imply some degree of exertion and sustained effort, leading to a strong alignment with moderate effort difficulty. The 28-max rhythm suggests an elevated pace, hinting at brief challenging elements, thus warranting some alignment with the Challenging level.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}
