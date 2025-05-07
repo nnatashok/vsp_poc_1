@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout clearly fits the 'Indoor rowing' category due to the presence of terms like 'Row' in the title and 'Format: Interval' in the description. The high maximum rhythm (32) and intense nature (Intensity level 3 out of 3) suggest a demanding rowing session, justifying a high score of 0.9 for this category. The inclusion of intervals, as mentioned in the description, corresponds with the structure of High-Intensity Interval Training (HIIT), specifically during indoor rowing routines, warranting a 0.7 score for HIIT. The dance and global hits playlist supports a dynamic workout atmosphere, reinforcing the energetic nature of the session. Other categories like 'Mat', 'Stretching', or 'Yoga' were excluded due to lack of indicators in the metadata suggesting their relevance."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

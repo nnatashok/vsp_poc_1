@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "HIIT",
-      "score": 0.6
+      "name": "Warm-up",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.7,
-  "categoriesExplanation": "The workout is titled 'Pop-Up Warm-Up', with a description emphasizing an increase in heart rate through rhythmical shifts, suggesting a dynamic warm-up process typical in rowing sessions. The use of 'max rhythm: 30' and 'Format: Interval' points towards a structured interval-based approach, common in HIIT sessions, especially in beginner rowing workouts. Although the category 'warm-up' is specified, which isn't a defined category here, the mention of 'standard,row' aligns strongly with Indoor Rowing. Despite the lack of explicit indoor rowing equipment mention, the format and rhythm focus suggest rowing activity. The Pop and Global Hits music might also suggest a more dynamic session, supporting the HIIT aspect. Hence, Indoor Rowing is highly probable (0.8), with HIIT also likely but to a lesser extent (0.6) due to the interval format."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

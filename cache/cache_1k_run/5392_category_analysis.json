@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Yoga",
-      "score": 0.9
-    },
-    {
-      "name": "Mat",
-      "score": 0.5
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.95,
-  "categoriesExplanation": "The workout video \"Master Your Chaturanga\" strongly indicates a Yoga workout. The title directly references \"Chaturanga,\" a common pose in Yoga, and the description reinforces this by mentioning poses such as \"plank pose\" and \"low plank pose\". These poses are integral to Yoga practice, particularly in sequences like Sun Salutations. \n\nAdditionally, the description emphasizes core and upper body activation, which aligns with Yoga practices that focus on strength and balance in these areas. The playlist featuring chill and downtempo music genres also supports a calm, focused exercise environment typical of Yoga sessions.\n\nThe metadata classifies the workout under \"On The Mat,\" which further suggests a Mat-based format, where exercises are likely performed on an exercise mat\u2014even though the primary focus remains Yoga.\n\nI assigned a high confidence level (0.9) for Yoga as the central category due to its strong presence in the title and description. The Mat category receives a moderate score (0.5) because the exercise is performed on the mat but is not the main focus like Yoga."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

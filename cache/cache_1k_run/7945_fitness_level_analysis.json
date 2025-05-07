@@ -3,26 +3,22 @@
     {
       "level": "Intermediate",
       "score": 0.8
-    },
-    {
-      "level": "Advanced",
-      "score": 0.4
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout type 'drive' is a Hydrow-specific format, known for its intense and technically demanding rowing, aligning with the metadata tag. The complexity involved in 'matching each stroke' to maintain high rhythms at 32 strokes per minute suggests an Intermediate level for those unfamiliar with rowing. The advanced nature of precisely matching strokes in a high-intensity format has elements that extend towards Advanced, but this is less typical for rowing. Thus, scores are given as 0.8 for Intermediate and 0.4 for Advanced to reflect this balance.",
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row' with 'Drive' type, suggesting a higher level of complexity compared to standard rowing sessions. As per Hydrow's rules, the Technique Difficulty can only range from Beginner to Intermediate. The focus on 'proper form' and 'results' and alignment with a national-level athlete imply a higher technique execution than a simple row. However, due to category constraints, the strongest alignment within permissible levels is Intermediate.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.7
+      "score": 0.75
     },
     {
       "level": "Extreme",
-      "score": 0.5
+      "score": 0.65
     }
   ],
   "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout is a short-duration HIIT at high intensity (level 3 out of 3) with a max rhythm of 32 strokes per minute. These factors contribute to high energy expenditure, making it Challenging for most users, especially those in poor shape. The structure also borders on Extreme, given the drive format's intensity, pushing energy expenditure to a high level. Thus, a score of 0.7 is given for Challenging and 0.5 for Extreme.",
+  "effortDifficultyExplanation": "The HIIT format, with a high rhythm of 32, indicates a high-intensity level increasing energy expenditure and physical demand significantly. The workout is short but intense, lasting 11:17 minutes with maximum intensity level (3 out of 3), suggesting it requires a consistent effort that matches the level of 'Challenging' and approaches 'Extreme' due to intensity cues, rhythm, and HIIT format. The playlist comprises high-energy pop hits supporting a fast-paced environment.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

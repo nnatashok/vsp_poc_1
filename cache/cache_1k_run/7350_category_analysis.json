@@ -1,18 +1,10 @@
 {
   "categories": [
     {
-      "name": "Mat",
-      "score": 0.9
-    },
-    {
-      "name": "Body weight",
-      "score": 0.8
-    },
-    {
       "name": "Stretching",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The video is titled 'Dynamic Warm-Up,' which suggests a preparatory exercise routine, likely involving dynamic movements. The description explicitly mentions 'mobility and bodyweight exercises,' indicating that the workout involves exercises typically performed on a mat without additional equipment, supporting the categories 'Mat' and 'Body Weight.' These exercises often utilize the bodyweight for resistance, confirming 'Body Weight' as a significant category with a score of 0.8. The emphasis on 'mobility' implies movement and stretching activities to increase flexibility and prepare the body for more intense exercise, suggesting 'Stretching' as a relevant category with a score of 0.6. The playlist with energetic dance music aligns with a dynamic warm-up setting rather than a meditative or relaxed practice. Given that the primary focus is on dynamic movements and mobility without equipment, 'Mat' is the most suitable category, scored at 0.9, with high confidence based on the available metadata. Other categories like 'Yoga' or 'Pilates' were excluded due to the lack of specific mentions of such practices."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

@@ -2,27 +2,19 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.8
-    },
-    {
-      "level": "Intermediate",
-      "score": 0.2
+      "score": 1
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is categorized as 'row', which typically involves straightforward rowing techniques. This aligns with the 'Beginner' technique difficulty level. The presence of intervals suggests a small potential for variability, slightly leaning towards 'Intermediate'. However, as per the Hydrow-specific rule for rowing, 'Intermediate' can be considered but given the beginner fitness level requirement and the category, 'Beginner' is more emphasized.",
+  "techniqueDifficultyExplanation": "The workout is classified as a rowing exercise and falls under the 'row' category. According to the Hydrow-specific rules, technique difficulty for rowing workouts can only be either Beginner or Intermediate levels. Given the beginner-friendly User Fitness Level Requirement and the focus on building endurance with standard rowing intervals, the movements are straightforward with minimal complexity. Hence, a 'Beginner' classification with very high confidence is appropriate.",
   "effortDifficulty": [
     {
       "level": "Moderate",
       "score": 0.7
-    },
-    {
-      "level": "Challenging",
-      "score": 0.3
     }
   ],
   "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout consists of 4-minute and 30-second intervals over a 31-minute duration, promoting endurance and cardio development, which surpasses a 'Light' level. An intensity level of 1 out of 3, while not overly demanding, indicates the session requires continuous effort that fits a 'Moderate' effort difficulty. The classification leans towards 'Moderate' but acknowledges some 'Challenging' elements due to the interval format that requires sustained engagement.",
+  "effortDifficultyExplanation": "The workout's intensity level is rated 1 out of 3, indicating a relatively low-intensity session. However, the 31-minute duration with 4-minute and 30-second intervals suggests consistent effort over a significant period, elevating the effort level beyond 'Light'. Thus, it aligns well with a 'Moderate' effort difficulty classification, suitable for individuals building stamina and cardio, which is slightly challenging for deconditioned users.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

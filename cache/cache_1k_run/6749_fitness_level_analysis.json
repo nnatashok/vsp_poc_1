@@ -9,20 +9,20 @@
       "score": 0.6
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout type is 'row', which by Hydrow's specific guidelines can only be classified as either Beginner or Intermediate for Technique Difficulty. The format is standard rowing intervals which require some coordination, supporting a Beginner rating with moderate confidence for Intermediate due to the rhythm elements.",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is classified as 'row' and 'sweat,' which typically involves straightforward rowing motions. Although the workout includes '90\" intervals,' it's described primarily as a rowing exercise, indicating basic rowing technique. However, the presence of rhythm intervals suggests some degree of coordination, aligning moderately with Intermediate. The instructor's focus on 'proper form' and reference to 'intervals that pop up in rhythm' further implies the need for some technique awareness beyond Beginner. Hence, a Beginner to Intermediate technique difficulty rating is appropriate, with higher confidence due to explicit metadata descriptions.",
   "effortDifficulty": [
     {
       "level": "Moderate",
-      "score": 0.6
+      "score": 0.7
     },
     {
       "level": "Challenging",
       "score": 0.5
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout has 90-second interval rows and is labeled with a workout intensity level of 2 out of 3. The duration of 16 minutes and 30 seconds suggests it is moderately demanding. Considering these factors, the workout has a Moderate effort requirement with some elements that suggest it may also be Challenging for less fit individuals.",
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout's duration is 16:30, with '90\" intervals' suggesting a structured effort that can increase heart rate and energy expenditure, indicative of a Moderate Effort Difficulty. With an intensity marked as 2 out of 3 and rhythm adjustments in intervals, the workout may require significant effort, justifying a secondary Challenging effort level for less conditioned users. Therefore, both levels are appropriate, with moderate-to-high confidence based on workout duration, structure, and intensity indicators in the metadata.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

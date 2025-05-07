@@ -1,28 +1,24 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Beginner",
-      "score": 0.2
-    },
-    {
       "level": "Intermediate",
-      "score": 0.8
+      "score": 0.7
     }
   ],
-  "techniqueDifficultyConfidence": 0.85,
-  "techniqueDifficultyExplanation": "The workout type \"Drive\" typically indicates a high level of technique sophistication needed, often providing an \"Advanced\" categorization. However, since the exercise category is 'row', the technique difficulty is best classified between Beginner and Intermediate. The structured intervals and focus on speed and power suggest a moderate level of technique sensitivity, tipping towards Intermediate but not necessarily advanced due to the rowing categorial constraint.",
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout is categorized primarily as 'row' under 'Drive', which typically requires a higher understanding of rowing techniques than basic rowing sessions. Given the 'Drive' category and the 'HIIT' format, the technique difficulty aligns with intermediate, as it demands maintaining good form during variable intensity phases and requires more coordination than beginner level.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.6
+      "score": 0.9
     },
     {
       "level": "Extreme",
-      "score": 0.4
+      "score": 0.6
     }
   ],
   "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "The workout features 90\", 60\", and 30\" HIIT intervals, indicating significant physical intensity. Combined with the descriptor 'Drive' and an intensity of 3 out of 3, this suggests a very demanding session with high energy output. The playlist's energetic tracks further hint at supporting sustained high-effort rowing. This classifies the effort difficulty as Challenging, but on the cusp of Extreme due to the high-intensity focus.",
+  "effortDifficultyExplanation": "The workout's duration is relatively long for a HIIT session at 31 minutes, indicating a significant energy expenditure. The intensity level is marked as 3 out of 3, and the format includes high-intensity intervals of 90\", 60\", and 30\", which imply short rest and sustained high effort, pushing it into the challenging to extreme range for less fit users.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

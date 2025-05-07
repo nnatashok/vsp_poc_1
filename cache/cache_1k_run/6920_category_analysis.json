@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Yoga",
-      "score": 0.8
-    },
-    {
-      "name": "Mat",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The primary category assigned is 'Yoga' with a high score of 0.8 due to the explicit mention of 'Yoga' in the workout name, 'Yoga Align for the Spine'. This indicates that the workout focuses on yoga practices, particularly those targeting spinal alignment and tension release. The description phrases 'find stability and stillness' support the yoga categorization, as these are common aspects of yoga sessions. Additionally, the phrase 'release tension in your back and lengthen your spine' is typical of yoga's emphasis on flexibility and posture improvement. \n\nThe secondary category is 'Mat' with a score of 0.6, as the video likely involves exercises performed on a mat given the mention of 'On the Mat' and 'standard,on-the-mat' in the category section. However, 'Yoga' remains the central theme, hence it receives the higher score.\n\nThe workout does not fit into other categories like 'Stretching' or 'Meditation' due to the specific reference to yoga and absence of broader meditation or distinct stretching components."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

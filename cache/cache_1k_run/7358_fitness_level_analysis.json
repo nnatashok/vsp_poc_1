@@ -6,23 +6,23 @@
     },
     {
       "level": "Intermediate",
-      "score": 0.2
-    }
-  ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'row' and 'breathe', with a max rhythm at 24, implying it remains relatively straightforward. The 'Consistent Effort Row' indicates maintaining consistent effort rather than complex movements, typical of beginner to intermediate rowing. Since the user fitness level requirement is Beginner, the technique likely involves basic rowing mechanics without advanced technical elements, supporting a classification of Beginner with some aspects of Intermediate difficulty.",
-  "effortDifficulty": [
-    {
-      "level": "Light",
-      "score": 0.6
-    },
-    {
-      "level": "Moderate",
       "score": 0.4
     }
   ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is classified under the 'row' category, which inherently restricts the technique difficulty to Beginner or Intermediate levels as per Hydrow-specific rules. The description mentions maintaining consistent effort with a focus on rhythms between 20 to 24, implying some level of rhythm control which could suggest an Intermediate level for untrained individuals. However, since the workout is beginner-rated, a higher score is assigned to Beginner level, reflecting its accessibility.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
   "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The workout duration of 21 minutes and an intensity level of 1 out of 3 suggests a lighter effort requirement, suitable for beginners. However, being an interval workout with a rhythm change from 20 to 24 might introduce a moderate energy expenditure aspect, leading to a combination of Light to Moderate effort classification. These factors fit the beginner user requirement, indicating a relatively low intensity for physically deconditioned users.",
+  "effortDifficultyExplanation": "The workout duration is moderate at 21 minutes, which could lead to a higher effort for deconditioned users. The interval format with rhythm changes suggests some intensity. However, with an intensity rating of 1 out of 3 and a focus on maintaining consistency rather than peak exertion, most of the effort is aligned with Light difficulty, though some users might find it Moderately challenging due to rhythm shifts.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

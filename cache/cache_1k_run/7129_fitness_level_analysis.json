@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.7
+      "score": 0.9
     },
     {
       "level": "Intermediate",
       "score": 0.6
     }
   ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout is classified under 'row', which typically involves simple to moderately complex movements. The 'Energizing Endurance Row' is a 31-minute workout with intervals, requiring users to adjust their speed and power. While rowing itself is generally a simple movement, maintaining proper form over an extended duration can challenge those not familiar with endurance rowing. Hence, the technique difficulty leans towards Beginner due to the straightforward nature (score of 0.7) but also slightly towards Intermediate (score of 0.6) due to the potential complexity of managing endurance and intervals.",
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which typically suggests Beginner or Intermediate level technique difficulty due to the rhythmic and repetitive nature of rowing exercises. Interval format might introduce some complexity as users have to adjust speed in different segments, thus supporting the Intermediate classification as a secondary fit. The primary movements in rowing do not typically demand high levels of coordination, thus strongly aligning with a Beginner technique difficulty.",
   "effortDifficulty": [
     {
       "level": "Moderate",
-      "score": 0.8
+      "score": 0.7
     },
     {
       "level": "Challenging",
-      "score": 0.6
+      "score": 0.65
     }
   ],
   "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The workout is moderately intense with an intensity level of 2 out of 3, indicating that it involves a considerable amount of effort over 31 minutes with intervals. These characteristics promote a moderate energy expenditure (score of 0.8). The interval format and duration suggest that it requires a continuous effort with limited rest, supporting a challenging effort difficulty rating as well (score of 0.6), especially for less fit users.",
+  "effortDifficultyExplanation": "The video lasts for over 30 minutes with a focus on segments that build speed, power, and endurance which can be taxing, especially for deconditioned users. The 'sweat' workout type and an intensity level of 2 out of 3 suggest a physically demanding routine. The interval format with a max rhythm of 32 further indicates a varied and challenging session aligned with Moderate and Challenging effort levels for less fit users.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

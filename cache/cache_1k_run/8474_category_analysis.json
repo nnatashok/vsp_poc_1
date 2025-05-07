@@ -1,18 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "Mat",
-      "score": 0.7
-    },
-    {
-      "name": "Weight workout",
-      "score": 0.6
+      "name": "Calisthenics",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The metadata for 'Whole Body Circuit' indicates a mixed workout type involving both rowing on the Hydrow and exercises off the rower. The mention of intervals 'on-Hydrow' suggests a significant component of the workout is indoor rowing, justifying a strong score of 0.8 for this category. The term 'On The Mat' and 'circuit' as well as 'body work off Hydrow' implies exercises done on the floor, contributing to the inclusion of the 'Mat' category with a score of 0.7. Furthermore, the presence of 'dumbbells' as equipment for this workout suggests strength training exercises, supporting the 'Weight workout' category with a score of 0.6. While the music and playlist indicate a high-energy atmosphere, they do not directly influence the classification. The combined confidence is high due to specific mentions of equipment and workout locations."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

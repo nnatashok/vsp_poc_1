@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.75
+      "score": 0.7
     },
     {
       "level": "Intermediate",
-      "score": 0.3
-    }
-  ],
-  "techniqueDifficultyConfidence": 0.7,
-  "techniqueDifficultyExplanation": "The workout is a rowing-based interval exercise, which typically involves straightforward movement focusing on stroke rate adjustment. The Technique Difficulty for rowing exercises can range up to Intermediate. Given that the stroke rates are relatively standard and not specifically indicated as involving intricate technique, the Beginner level is more strongly aligned. The inclusion of multiple instructors suggests a focus on guidance, slightly bolstering the Intermediate rating.",
-  "effortDifficulty": [
-    {
-      "level": "Moderate",
-      "score": 0.8
-    },
-    {
-      "level": "Challenging",
       "score": 0.6
     }
   ],
-  "effortDifficultyConfidence": 0.75,
-  "effortDifficultyExplanation": "The workout duration of over 16 minutes with varying stroke rates (22, 26, 28 spm) reflects a Moderate to Challenging effort requirement. The description emphasizes 'building endurance,' indicating sustained effort but not excessive intensity. The intensity level marked as 2 out of 3 suggests a higher effort expectation, thus strongly supporting the Moderate level and moderately supporting Challenging difficulty.",
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout type is 'row', which aligns with the rule that technique difficulty can be either Beginner or Intermediate. The use of varied stroke rates (22, 26, and 28) suggests some level of coordination, slightly increasing technique complexity to Intermediate. However, rowing is fundamentally simple, leaning more towards Beginner techniques, supported by the label 'standard row.'",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.6
+    },
+    {
+      "level": "Moderate",
+      "score": 0.8
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout's classification as 'sweat' and its 16-minute duration suggest a moderate to challenging physical effort level. The 'sweat' type and intensity level 2 out of 3 indicate a workout that's more demanding than basic endurance exercises but not extremely taxing. Interval training with varying stroke rates implies increased cardiovascular demand, elevating effort to between Moderate and Challenging.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

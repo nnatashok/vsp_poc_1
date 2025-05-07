@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.8
-    },
-    {
-      "level": "Intermediate",
-      "score": 0.6
-    }
-  ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout category is 'row', which constrains the technique difficulty to Beginner or Intermediate. Given the HIIT format, users may need some coordination to match the rhythm of 28 strokes per minute, and thus there is moderate complexity. The 'Learn and Burn' nature hints at gaining instructional insights while rowing, further justifying an emphasis on technique learning, slightly elevating the difficulty to the lower intermediate range. However, the overall complexity is likely more beginner-friendly because rowing inherently involves straightforward, repetitive motion patterns.",
-  "effortDifficulty": [
-    {
-      "level": "Moderate",
       "score": 0.7
     },
     {
-      "level": "Challenging",
-      "score": 0.5
+      "level": "Intermediate",
+      "score": 0.2
     }
   ],
-  "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The workout is categorized under 'sweat' and is in a HIIT format, which inherently suggests a higher intensity level. The workout is relatively short at 16 minutes and 21 seconds, which limits the potential for extreme energy expenditure. The rhythm is paced at 28, and while labeled as intensity level 2 out of 3, the short duration and intermittent nature typical of HIIT place the effort demand more in the moderate to challenging range for deconditioned users.",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which allows for either Beginner or Intermediate technique difficulty. It is titled 'Learn and Burn Row', suggesting an educational focus that implies accessible instruction. Additionally, the instructor focuses on proper form, indicating that it might be slightly geared towards ensuring basic technique, hence having a Beginner to low Intermediate technique difficulty.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.8
+    },
+    {
+      "level": "Challenging",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is a 16-minute HIIT session with a max rhythm of 28, under a 'sweat' category, suggesting a focus on elevating heart rate and calorie burn. Intensity is marked 2 out of 3, indicating a vigorous yet controlled effort level. Combining these cues, the workout aligns well with Moderate effort difficulty for less fit users but borders on Challenging due to the high-intensity interval format.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

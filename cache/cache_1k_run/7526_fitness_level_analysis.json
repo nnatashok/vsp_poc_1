@@ -6,23 +6,23 @@
     },
     {
       "level": "Intermediate",
-      "score": 0.2
+      "score": 0.5
     }
   ],
-  "techniqueDifficultyConfidence": 0.85,
-  "techniqueDifficultyExplanation": "The workout type categorization as 'row' automatically places the technique difficulty at either 'Beginner' or 'Intermediate' per Hydrow-specific guidelines. Given the lack of any complex instructions or specialized movements mentioned, this workout likely focuses on maintaining rowing basics, which aligns strongly with 'Beginner' technique difficulty. The inclusion of intervals may add slight complexity, thus 'Intermediate' is included, but less prominently.",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The technique difficulty of the 'Father's Day Row' workout is primarily Beginner with a score of 0.8. This classification is supported by the workout being categorized under 'row', which typically involves straightforward, repetitive rowing movements that are low in coordination complexity. The Intermediate score of 0.5 is attributed to the interval format, which can add a slight level of complexity, though ultimately the rowing remains foundational in technique.",
   "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.3
+    },
     {
       "level": "Moderate",
       "score": 0.7
-    },
-    {
-      "level": "Challenging",
-      "score": 0.3
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The duration of about 16 minutes with an intensity level of 2 out of 3 suggests a moderately intense workout. Intervals could mean bursts of higher intensity effort interspersed with rest, pushing it towards moderate. The 'sweat' category and emphasis on pace maintenance suggest a moderately demanding effort, with some potential for challenge during high-intensity intervals.",
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The effort difficulty is best classified as Moderate with a score of 0.7, based on the workout description and metadata. The workout is 16 minutes long, which aligns with a moderate level of physical demand. The intervals format typically increases the intensity, while the 'sweat' category suggests a more vigorous session than basic rowing, aligning with a moderate energy level. The '2 out of 3' intensity rating further supports this classification, indicating a stronger physical effort than light exercises.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

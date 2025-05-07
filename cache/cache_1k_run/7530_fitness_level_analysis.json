@@ -2,7 +2,7 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.7
+      "score": 0.8
     },
     {
       "level": "Intermediate",
@@ -10,7 +10,7 @@
     }
   ],
   "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout is classified under the category 'row,' which typically includes basic rowing movements. The interval format with increasing rhythm suggests some complexity, but it remains within the realm of rowing, which is generally considered Beginner to Intermediate. Given the User Fitness Level Requirement set as Intermediate, and based on the metadata indicating a structured row session with increasing intensity, it's reasonable to assign a stronger alignment to these levels, with Beginner slightly preferred due to simpler, repetitive motion involved.",
+  "techniqueDifficultyExplanation": "The workout is primarily a rowing session, categorized under 'Sweat', with a focus on rhythm and intensity. Given the workout type is 'row', technique difficulty is constrained to either 'Beginner' or 'Intermediate'. The description suggests increasing rhythm which may require some coordination, aligning with 'Intermediate'. However, it remains largely accessible due to its standard categorization, resulting in a strong alignment with 'Beginner'.",
   "effortDifficulty": [
     {
       "level": "Moderate",
@@ -21,8 +21,8 @@
       "score": 0.6
     }
   ],
-  "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The workout duration of 21 minutes with 5-minute intervals and rhythm maxing at 30 suggests a moderately demanding effort level, especially for less fit users. The description indicates increased intensity over intervals, supporting a moderate to challenging classification. The 'Intensity level 2 out of 3' suggests significant energy expenditure but not extreme, suitable for those building their fitness. Thus, there's a clear alignment with both Moderate and Challenging levels, with an inclination towards Moderate given the intensity level described.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout spans 21 minutes and is formatted as an interval 'sweat' session, suggesting increased intensity with tempo changes. The intensity level given is 2 out of 3, indicating a medium-to-high effort level. Given the interval nature and consistent 5-minute rhythm increases, it leans towards 'Challenging' but remains primarily 'Moderate' for users with lower fitness levels, hence a stronger alignment with 'Moderate'.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

@@ -1,24 +1,20 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Advanced",
-      "score": 0.8
+      "level": "Intermediate",
+      "score": 0.9
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'Drive', which Hydrow specifically associates with Advanced technique difficulty due to potentially complex and technical rowing movements. The HIIT format, involving sprints with specific rhythm targets, requires participants to maintain proper form under fatigue, demanding a higher level of skill and coordination. Despite being a rowing workout, the 'Drive' category sets a higher baseline.",
+  "techniqueDifficultyExplanation": "The Technique Difficulty is classified as Intermediate due to the nature of the workout. The workout is a 'Drive' type which, according to Hydrow-specific rules, denotes more advanced rowing techniques requiring coordination and control. Though 'row' only allows a Beginner or Intermediate classification, the inclusion of varying sprint formats within the session slightly elevates the complexity. This justifies a strong Intermediate classification as there is a clear emphasis on control and rhythm changes.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.7
-    },
-    {
-      "level": "Extreme",
-      "score": 0.6
+      "score": 0.75
     }
   ],
-  "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "The 21-minute workout is structured as a HIIT session with maximum effort sprints at high rhythms, demanding significant physical exertion. The intensity level is 3 out of 3, suggesting a high demand on cardiovascular and muscular endurance. While the duration is moderate, the combination of short sprints and high intensity qualifies it as challenging, pushing towards extreme for users in poor physical condition.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The Effort Difficulty is judged to be Challenging. The sprint nature of the workout, utilizing intervals of 2', 1', and 30\u201d suggests high intensity, especially highlighted by the maximum rhythm reaching 34 strokes per minute. The overall duration is relatively short, at just over 21 minutes, but the intensity level is marked 3 out of 3. This signals strong energy expenditure within the brief time frame and aligns with the indicators of significant effort. The duration, combined with high-intensity sprints and minimal rest, supports a Challenging classification for those less physically conditioned.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

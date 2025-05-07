@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The primary category for this workout is \"Indoor rowing,\" with a very high confidence score of 0.9. The title \"Double the Fun Row\" and the mention of 'intervals with Aquil and Laine' are strong indicators of a rowing-focused workout. Additionally, the metadata explicitly uses 'row' in the category and describes the activity as a workout with intervals, confirming the use of a rowing machine.\n\nThe second category is \"HIIT\" with a score of 0.6. This is due to the format description \"Interval\" and \"Workout intensity level: 2 out of 3,\" suggesting a structured workout with alternating high-intensity efforts, typical of HIIT training. However, the mention of 'Power through 2' and 1' intervals' strongly aligns with HIIT's structure, though the intensity level is described as moderate. Therefore, the HIIT classification has a slightly lower confidence score compared to Indoor rowing. Other categories were not considered because there is no indication of other activities or equipment, and the focus remains on rowing intervals."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

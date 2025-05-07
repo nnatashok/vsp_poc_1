@@ -2,19 +2,19 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.2
+      "score": 0.6
     },
     {
       "level": "Intermediate",
       "score": 0.8
     }
   ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout 'Arms + Core Row' is categorized as a 'row' workout, which by platform-specific rules, limits the technique difficulty to be either 'Beginner' or 'Intermediate'. The description emphasizes core engagement and a hip pivot, which requires some attention to detail but is not overly complex, suggesting an Intermediate level. The focus on technique, combined with the 'Technique' format and the presence of specific drills, supports these exercises being slightly more complex, pushing firmly into the Intermediate realm.",
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which inherently limits technique difficulty to Beginner or Intermediate as per guidelines. However, the focus on core engagement and hip pivot indicates a slightly higher complexity typical of rowing drills, aligning closer with Intermediate. The mention of a technique format further supports this, as it suggests attention to form, lifting the scoring towards Intermediate.",
   "effortDifficulty": [
     {
       "level": "Moderate",
-      "score": 0.6
+      "score": 0.75
     },
     {
       "level": "Challenging",
@@ -22,7 +22,7 @@
     }
   ],
   "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The workout duration is just over 21 minutes, and it's categorized under 'sweat' with an intensity level of 2 out of 3, suggesting a moderate to challenging level of effort. The row format inherently involves full-body movement and cardiovascular exertion. Given these factors, the effort difficulty likely aligns with 'Moderate' for most deconditioned users but has elements of 'Challenging' due to sustained exertion and intensity cues, thus both are applicable.",
+  "effortDifficultyExplanation": "The workout duration is approximately 21 minutes with a moderate max rhythm of 28, which suggests a reasonably sustained effort but not excessively high. The metadata describes the intensity as level 2 out of 3, indicating it's designed to be more than just a light engagement. Thus, there's strong alignment with Moderate difficulty, but the potential challenging core engagement nudges some scoring towards Challenging effort as well.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

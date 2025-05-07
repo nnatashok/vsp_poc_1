@@ -2,27 +2,23 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.9
-    },
-    {
-      "level": "Intermediate",
-      "score": 0.1
+      "score": 1
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is a 'row' category, which restricts technique difficulty to either Beginner or Intermediate. Given the description indicates 'low rhythms' and basic driving through legs, which are foundational rowing movements, it strongly aligns with Beginner level. The mention of 'intervals' introduces a slight complexity found in Intermediate, but not sufficiently to change the primary classification.",
+  "techniqueDifficultyExplanation": "The workout type is 'Row', which restricts the Technique Difficulty to either Beginner or Intermediate. Given the workout's focus on 'low rhythms' and its description of utilizing 'drive through your legs', these are basic rowing strokes that do not require complex coordination. Furthermore, the presence of intervals suggests a structured format, but still beginner-friendly given the context of 'low rhythms.' Thus, technique difficulty aligns strongly with a Beginner level.",
   "effortDifficulty": [
     {
-      "level": "Light",
-      "score": 0.65
+      "level": "Moderate",
+      "score": 0.75
     },
     {
-      "level": "Moderate",
-      "score": 0.35
+      "level": "Light",
+      "score": 0.5
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout's intensity level is 1 out of 3, indicating low intensity. The duration is moderately long at 21 minutes, but the 'low rhythm' suggests lower energy output. Combining an interval format with a low maximum rhythm, it aligns with Light effort, suitable for beginners, with some Moderate elements due to the duration and intervals.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout's duration of 21 minutes and 'low rhythm' focus suggest moderate energy demands, fitting between Light and Moderate effort. The workout intensity is rated 1 out of 3, indicating it's not overly taxing but involves more than minimal exertion, reflecting slightly higher energy expenditure than pure Beginner workouts. Interval training typically involves bursts of activity alternating with rest, hence moderately challenging but with an essence of Light effort due to controlled pacing.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

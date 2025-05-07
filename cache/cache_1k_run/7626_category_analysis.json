@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Mat",
-      "score": 0.3
+      "name": "Warm-up",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The title 'Rhythm Climb Warm-Up' and description, which mentions increasing rhythm, suggest a workout focused on gradually increasing effort, common in rowing activities. The metadata includes the tag 'row,' directly indicating an indoor rowing category, which matches the pattern of moving from a 20 to a 30 rhythm, a typical aspect of rowing workouts. The duration (5:43) is suitable for a warm-up session typically aligned with rowing training, emphasizing its preparatory nature. The evidence strongly supports 'Indoor rowing' with a very high confidence of 0.9.\n\nWhile 'Mat' could be considered due to the warm-up and potential floor exercises, there is no explicit mention of mat exercises, lowering its confidence score to 0.3. This category is included due to the general nature of a warm-up that might include preparatory ground exercises.\n\nOther categories like 'HIIT' or 'Yoga' are excluded because they aren't indicated by rhythm work or metadata. The lack of specification regarding equipment suggests rowing movements primarily and does not indicate the use of bodyweight exercises prominent in 'Mat' workouts."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

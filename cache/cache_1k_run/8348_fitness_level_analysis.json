@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Intermediate",
-      "score": 0.75
+      "score": 0.6
     },
     {
       "level": "Advanced",
-      "score": 0.5
+      "score": 0.8
     }
   ],
-  "techniqueDifficultyConfidence": 0.7,
-  "techniqueDifficultyExplanation": "The workout type is 'drive', associated with Hydrow-specific rules requiring higher technique skills than standard rowing. Normally, rowing workouts fall into Beginner or Intermediate levels; however, the combination of the high rhythm of 34 and the interval-based HIIT format indicates a higher technical demand on coordination and form. This suggests Intermediate to Advanced technique difficulty, with a stronger fit for Intermediate due to the 'row' category.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized as a 'Drive' rowing session, which, according to Hydrow's specific rules, suggests an Advanced level of technique difficulty. The description emphasizes 'in-depth technical detail' and 'expert technical instruction' by a Paralympic-level instructor, further justifying a higher technique rating at the Advanced level. However, given that rowing generally involves repetitive, full-body motions that aren't exceptionally complex, an Intermediate rating also applies but is less fitting based on this context.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.75
+      "score": 0.7
     },
     {
       "level": "Extreme",
-      "score": 0.3
+      "score": 0.9
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The HIIT format paired with a max rhythm of 34 in a 'drive' workout type suggests a high energy expenditure, especially during 45-second intervals. The 16-minute duration suggests a shorter but intense session, consistent with a Challenging level. The intensity level 3 out of 3 strengthens this assessment, adding some alignment with an Extreme level, although the duration slightly moderates this.",
+  "effortDifficultyConfidence": 1.0,
+  "effortDifficultyExplanation": "The workout is a high-intensity interval training (HIIT) session with an intensity level marked at the highest setting (3 out of 3). The intense rhythm (max rhythm: 34) and short intervals (45 seconds) are indicative of a demanding workout routine. Additionally, the 16-minute duration suggests a concentrated effort with minimal rest, aligning with Challenging and possibly Extreme effort difficulty for less fit users.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

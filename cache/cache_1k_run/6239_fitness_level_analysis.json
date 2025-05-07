@@ -14,11 +14,15 @@
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 1.0
+      "score": 0.95
+    },
+    {
+      "level": "Moderate",
+      "score": 0.1
     }
   ],
-  "effortDifficultyConfidence": 1.0,
-  "effortDifficultyExplanation": "The workout has a short duration of 11 minutes and 8 seconds and is a restorative session with 'wind down' as a descriptor, indicating very low physical demands. The Chill/low music genre complements a relaxing session that emphasizes mental relaxation over physical exertion. Thus, the effort difficulty is firmly categorized as Light with a score of 1.0 due to its minimal energy requirement.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout duration of 11 minutes, combined with the term 'restore' and relaxing music genres, suggests very low energy expenditure, appropriate for a Light effort level. The restorative nature implies a gentle routine, likely consisting of stretches or relaxation poses without any intense physical exertion. This is very suitable for deconditioned users or complete beginners, thus aligning strongly with the Light category. A marginal score for Moderate is given to reflect any potential slight physical exertion beyond complete rest.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

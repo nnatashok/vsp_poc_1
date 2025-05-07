@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Stretching",
-      "score": 0.4
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is classified primarily as 'Indoor rowing' with a very high confidence score of 0.9. The title \"Low Rhythm Cool-Down\" and the description indicate controlled rowing with steady strokes, typical of an indoor rowing session. The term 'cool down' implies a low-intensity session, which aligns with the 'Indoor rowing' category in a relaxed format. Additionally, the description mentions controlling strokes, reinforcing this category choice. \n\nThe secondary category of 'Stretching' is considered with a moderate confidence score of 0.4 due to the cool-down nature of the workout. Cool-down sessions often involve stretching routines to help relax muscles after intense workouts, although this is not explicitly mentioned, the low-intensity and relaxation aspect of a cool down may overlap with stretching exercises.\n\nOther categories were excluded because the specific elements of rowing and controlled strokes did not fit them as accurately."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Pilates",
-      "score": 0.9
-    },
-    {
-      "name": "Mat",
-      "score": 0.8
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is explicitly described as a 'runners-focused Pilates session,' which directly supports the selection of the 'Pilates' category (score: 0.9). Pilates is known for strengthening core and hip muscles, aligning with the description, reinforcing high confidence in this choice. Additionally, the classification tag 'On The Mat' suggests exercises performed predominantly on an exercise mat, justifying the secondary consideration of the 'Mat' category (score: 0.8). The absence of equipment further emphasizes mat-based exercises typical of Pilates. The music selection includes explicit lyrics and a focus on pop and global hits, aligning with an energetic but focused workout environment characteristic of Pilates sessions that use upbeat music to maintain rhythm. No keywords or metadata suggest other categories such as 'Yoga' or 'Bodyweight,' thereby excluding them from consideration."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

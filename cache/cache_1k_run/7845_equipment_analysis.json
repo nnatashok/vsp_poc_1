@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout video titled 'Club 26 Row' explicitly falls under the category of 'row' as indicated in the metadata. The description emphasizes building endurance and consistency during rowing intervals, which strongly indicates the centrality of a rowing machine to the workout. According to the analysis guidelines, if the workout category includes 'row', the output must include 'Rowing machine' with a high confidence score. As such, a rowing machine is identified with very high confidence (1.0) as the required equipment. The absence of other explicit mentions of different equipment types in the title or description confirms that the rowing machine is the primary equipment needed."
+}

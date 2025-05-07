@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Pilates",
-      "score": 0.9
-    },
-    {
-      "name": "Mat",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.95,
-  "categoriesExplanation": "The title and description clearly indicate that the workout is a Pilates session, with phrases such as \"Whole Body Pilates\" and \"classical pilates structure\" explicitly pointing to the Pilates category. The score of 0.9 reflects this strong emphasis and adherence to Pilates techniques. Additionally, the metadata tags \"On The Mat\" suggest exercises that are performed on an exercise mat, reinforcing the inclusion of the 'Mat' category with a score of 0.7. However, 'Mat' receives a slightly lower score than Pilates because the primary focus is clearly on maintaining classical Pilates structure rather than general mat exercises. The usage of ambient music further complements a Pilates session, although music alone is not a strong indicator of workout type."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

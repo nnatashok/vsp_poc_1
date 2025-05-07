@@ -2,9 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 1.0
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout is explicitly categorized as an 'endurance row,' making 'Indoor rowing' the most suitable category. The mention of maintaining a 'consistent power level' at varying rhythms and the inclusion of a 'max rhythm' value reinforces the rowing aspect. The keyword 'row' in both description and category tags (sweat, standard, row) further supports this classification. The workout's duration of approximately 16 minutes and a moderate intensity level (2 out of 3) suggest a focused rowing session aiming for cardiovascular endurance rather than a mixed or complex workout regime. There's no evidence of other types of exercise equipment or alternative workout styles, which aligns strongly with a dedicated indoor rowing session. This results in a very high confidence classification for 'Indoor rowing.' Other potential categories, such as 'HIIT' or 'Mat,' are excluded due to lack of interval training or mat-based exercise mentions."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

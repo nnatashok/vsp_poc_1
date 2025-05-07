@@ -1,34 +1,30 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Beginner",
-      "score": 0.3
-    },
-    {
-      "level": "Intermediate",
-      "score": 0.7
+      "level": "Advanced",
+      "score": 0.85
     }
   ],
+  "techniqueDifficultyExplanation": "The technique difficulty of this workout is classified as Advanced due to the 'drive' workout type, which indicates a higher complexity similar to advanced rowing techniques that require good coordination and body awareness. Additionally, the inclusion of high-intensity intervals (HIIT) and a focus on proper form demanding advanced technique skills contribute to this rating.",
   "techniqueDifficultyConfidence": 0.85,
-  "techniqueDifficultyExplanation": "The workout is a 'row' type as indicated by the category and name, which suggests a technique difficulty that ranges from Beginner to Intermediate. The presence of the \"Drive\" format implies more intensity and focus on powerful strokes, aligning better with Intermediate. However, the rowing movements are fundamental, thus offering a 0.3 score for Beginner and a 0.7 for Intermediate due to the Drive classification and focus on HIIT rowing.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.7
+      "score": 0.75
     },
     {
       "level": "Extreme",
       "score": 0.6
     }
   ],
-  "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "The workout includes HIIT intervals and the highest intensity level of 3, which indicates a formidable energy demand that aligns with higher effort levels. The 15-second high-intensity intervals at a max rhythm of 32 make it inherently Challenging, corresponding to the short rest associated with HIIT. The short duration (11 minutes) with intense Drive promotion gives Extreme considerations since users push near-max efforts, contributing to ratings of 0.7 for Challenging and 0.6 for Extreme.",
+  "effortDifficultyExplanation": "This workout is highly demanding due to the HIIT format and 'drive' category, requiring participants to exert maximal effort in short bursts ('15-seconds at a time'). The workout is relatively short but intense, aligning with a Challenging effort level. The workout intensity level is maxed at 3 out of 3, suggesting it verges on Extreme for less conditioned users.",
+  "effortDifficultyConfidence": 0.8,
   "requiredFitnessLevel": [
     {
       "level": "Advanced",
       "score": 1.0
     }
   ],
-  "requiredFitnessLevelConfidence": 1.0,
-  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed.",
+  "requiredFitnessLevelConfidence": 1.0
 }

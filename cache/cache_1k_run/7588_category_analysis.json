@@ -1,18 +1,10 @@
 {
   "categories": [
     {
-      "name": "Meditation",
-      "score": 0.7
-    },
-    {
       "name": "Yoga",
-      "score": 0.8
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.75,
-  "categoriesExplanation": "This workout, titled 'Breath Focused Flow', suggests an emphasis on breath and movement, typically found in Yoga. The descriptor 'flow' commonly aligns with yoga practices, specifically Vinyasa flow, where breath guides movement. Additionally, the metadata directly lists 'On The Mat,' reinforcing a floor-based exercise routine. The focus on breath, along with the music genre described as 'Chill mid, Cool/Downtempo,' suggests a mindful, relaxing atmosphere, often associated with Meditation and Breathing exercises. The absence of equipment aligns with typical mat-based workouts associated with Yoga. Therefore, Yoga is scored highest (0.8) due to its strong presence in the metadata, followed by Meditation (0.7) and Breathing exercises (0.6), given the explicit focus on breathing."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

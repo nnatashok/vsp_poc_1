@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Mat",
-      "score": 0.9
-    },
-    {
       "name": "Yoga",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is classified primarily under the 'Mat' category, as explicitly indicated by the metadata mentioning 'On The Mat' and 'flow'. The term 'flow' often suggests a sequence of movements or a routine, which aligns with mat-based exercises that may include elements similar to dance or dynamic stretching, rather than static postures. The description highlights a 'fast paced flow designed to build your body heat', which suggests a dynamic mat workout.\n\nThe secondary category is 'Yoga', with moderate confidence. The use of the term 'flow' often correlates with Yoga practices, particularly Vinyasa or Flow Yoga, which emphasizes a continuous sequence of movements. However, precise details commonly associated with Yoga, such as specific postures or Yoga-related terminology, are not present, hence the moderate score.\n\nThe use of music genres like 'Chill mid' and 'Cool/Downtempo' reinforces the relaxed yet active nature of a flow, often seen in Mat exercises or Yoga.\n\nOther categories were excluded due to the lack of any equipment or explicit mentions of activities related to strength training, cycling, or rowing."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

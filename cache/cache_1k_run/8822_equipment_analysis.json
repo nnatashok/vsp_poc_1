@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.95
+    }
+  ],
+  "requiredEquipmentExplanation": "The metadata indicates that this workout's category is 'row', explicitly suggesting the use of a 'Rowing machine'. The title 'Welcome to Rio Row' and the description mention intervals, which are commonly performed on rowing machines in fitness contexts. Further supporting evidence includes the instructor being an Olympian rower, and the intensive nature of the workout ('Duration: 0:11:17','Workout intensity level: 3 out of 3') consistent with the capabilities of a rowing machine. All these details combined provide very high confidence (0.95) that a rowing machine is central to this workout."
+}

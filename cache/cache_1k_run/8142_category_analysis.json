@@ -1,10 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.9
+      "name": "Warm-up",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout video is classified under 'Indoor rowing' due to several strong indicators in the metadata. The title 'Pressure Pyramid Warm-Up' suggests a preparatory exercise, which aligns with the descriptor 'warm-up' in the metadata. The phrase 'power to every stroke while staying steady at rhythm 20' explicitly indicates a rowing workout, as 'stroke' commonly refers to rowing movements. The term 'rhythm 20' also implies a structured rowing pace often used in ergometer training. Although this workout has a warm-up focus, the equipment, setting, and description clearly point to indoor rowing rather than general warm-up activities. Consequently, the category 'Indoor rowing' is assigned with a high score of 0.9 because of these explicit cues and the contextual emphasis on rowing."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

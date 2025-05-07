@@ -14,15 +14,15 @@
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.9
+      "score": 0.8
     },
     {
       "level": "Moderate",
-      "score": 0.4
+      "score": 0.2
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout is short, with a duration of just over 10 minutes, typical for a warm-up. It focuses on increasing rhythm and power, which might elevate effort slightly, yet not intensely. Given it's a warm-up with a max rhythm set at 34, which is moderately high for rowing, it can slightly challenge a beginner. Thus, it clearly aligns with Light effort, accommodating those just starting, but with some features hinting at Moderate due to the rhythm component.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is a 'warm-up,' which inherently suggests a lower intensity level intended to prepare for further exercise. The duration is relatively short at 10:52 minutes, supporting a Light effort classification. The use of terms like 'warm-up' and the focus on raising rhythm and power without further intensity cues indicate that the energy expenditure is minimal. However, the inclusion of power and rhythm work justifies a slight consideration for Moderate effort difficulty (0.2).",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

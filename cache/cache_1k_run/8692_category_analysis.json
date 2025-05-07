@@ -1,18 +1,10 @@
 {
   "categories": [
     {
-      "name": "Weight workout",
-      "score": 0.8
-    },
-    {
-      "name": "Indoor rowing",
-      "score": 0.4
-    },
-    {
-      "name": "Mat",
-      "score": 0.6
+      "name": "Calisthenics",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.8,
-  "categoriesExplanation": "The workout is first classified as 'Weight workout' with a high score of 0.8 because it prominently features the use of dumbbells, as indicated in the equipment metadata. This suggests a focus on strength training as a central element. 'Indoor rowing' is assigned a score of 0.4 due to the mention of 'Hydrow,' a rowing machine, and the workout structure (EMOM) which involves brief rowing periods, however, it is not the primary focus. The 'Mat' category receives a score of 0.6 since the workout type is described as 'On The Mat,' implying floor exercises possibly involving a mat setup. This selection is reinforced by the title 'Upper Body Circuit' and the workout description's emphasis on upper body exercises, indicating exercises on the mat. Categories such as 'Yoga,' 'Pilates,' or 'Body weight' were not chosen due to the lack of explicit references to their respective practices."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

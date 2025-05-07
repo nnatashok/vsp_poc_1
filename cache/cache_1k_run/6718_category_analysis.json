@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Yoga",
-      "score": 0.9
-    },
-    {
-      "name": "Mat",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.95,
-  "categoriesExplanation": "The workout video is clearly focused on a 'Beginner Yoga Flow,' as evidenced by the title and description. The use of 'flow' suggests a series of connected yoga poses typical in a Vinyasa-style practice, reinforcing the categorization as 'Yoga.' The description invites relaxation, aligning well with the calming nature of yoga routines, and the chill music playlist further supports this interpretation. The 'Beginner-friendly yoga flow' indicates a structured yoga practice aimed at newcomers.\n\nThe secondary category of 'Mat' has been assigned due to the use of standard yoga mat exercises noted in the 'On The Mat' tag. This reflects general floor exercises without additional equipment. However, since the primary activity is clearly yoga, 'Mat' has been given a lower score.\n\nOverall, there is very high confidence (0.95) in these categories, with Yoga being the primary focus (score 0.9), and Mat providing supportive evidence (score 0.6). Other potential categories such as Meditation or Stretching were excluded due to the specific nature of yoga indicated in the metadata."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

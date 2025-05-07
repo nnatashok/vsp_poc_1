@@ -2,7 +2,7 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.7
+      "score": 0.9
     },
     {
       "level": "Intermediate",
@@ -10,7 +10,7 @@
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'row' with a 'stealthy 80s' music theme, suggesting a steady pace. As per Hydrow's guidelines, rowing workouts typically align with Beginner or Intermediate technique levels. Given the steady state nature of the workout ('steady' format) and the relative simplicity of maintaining rhythm in a basic rowing session with a maximum rhythm of 22, the technique difficulty strongly aligns with Beginner with some possibility of being Intermediate. The absence of an instructor indicates fewer complex cues, reinforcing this alignment.",
+  "techniqueDifficultyExplanation": "The technique difficulty for this workout is skewed towards beginner due to its classification as a 'row' workout, which limits Technique Difficulty to Beginner or Intermediate. The metadata indicates a 'breathe' workout with a steady format, suggesting simple and easy-to-follow rowing movements. The Beginner score is high because the intensity level is 1 out of 3, designed to maintain a consistent effort, aligning with basic rowing technique.",
   "effortDifficulty": [
     {
       "level": "Light",
@@ -18,11 +18,11 @@
     },
     {
       "level": "Moderate",
-      "score": 0.2
+      "score": 0.4
     }
   ],
   "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout has a duration of approximately 11 minutes and is described with a workout intensity level of 1 out of 3, indicating low overall demand. The 'breathe' category further supports a Light effort level, aiming for relaxation rather than exertion. The steady pace and moderate rhythm (22 strokes) contribute minimally to physical exertion, aligning with a Light effort level, although the requirement to maintain a constant rhythm suggests a slight possibility of it being Moderately difficult for extremely deconditioned users.",
+  "effortDifficultyExplanation": "The effort difficulty is primarily Light given the workout's short duration (11 minutes) and low intensity level (1 out of 3). The goal is to maintain a steady rhythm with a max stroke rate of 22, suitable for those with low fitness levels. While it's slightly more than minimal physical demand, it's still considered beginner-friendly with some light energetic components, thus Light is strongly aligned and Moderate somewhat aligned.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

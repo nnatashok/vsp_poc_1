@@ -2,7 +2,7 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.9
+      "score": 0.7
     },
     {
       "level": "Intermediate",
@@ -10,7 +10,7 @@
     }
   ],
   "techniqueDifficultyConfidence": 0.85,
-  "techniqueDifficultyExplanation": "The workout is classified under 'row', which by rule can only be rated as Beginner or Intermediate for technique difficulty. Given the 'sweat' workout type and the metadata 'standard, row,' the technique involves basic rowing but may involve slightly more coordination due to the 'Climb' format and rhythm synchronization with the instructor. This leads to a high Beginner score due to ease of rowing and a moderate Intermediate score for rhythm complexity.",
+  "techniqueDifficultyExplanation": "The workout is based on rowing, which typically falls into the Beginner to Intermediate technique difficulty levels. The metadata indicates the workout focuses on rowing in sync, which requires some coordination, aligning it slightly with Intermediate skill. Additionally, the workout description emphasizes high-energy yet encouraging execution without overly complex movements, suitable for users beginning to develop more skill. Thus, it balances between Beginner and Intermediate levels.",
   "effortDifficulty": [
     {
       "level": "Moderate",
@@ -18,11 +18,11 @@
     },
     {
       "level": "Challenging",
-      "score": 0.5
+      "score": 0.55
     }
   ],
   "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout type is 'sweat', paired with a maximum rhythm of 28 strokes per minute and a duration of just under 22 minutes. The intensity level is 2 out of 3, suggesting moderate exertion. The 'Climb' format suggests varying intensity, aligning with a Moderate effort difficulty. The rhythm and duration further elevate this effort, supporting a moderate Challenging rating for less fit users due to sustained rowing without rest.",
+  "effortDifficultyExplanation": "The workout, lasting 21 minutes with a climb format, involves continuous rowing at a max rhythm of 28, suggesting moderate intensity. The description tags it as 'sweat,' consistent with a Moderate to Challenging effort level. An intensity rating of 2 out of 3 supports a more challenging aspect for less fit users. However, it is still manageable due to the moderate duration and controlled rhythm, reflecting both Moderate and Challenging effort levels for beginners but primarily targeting intermediates.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

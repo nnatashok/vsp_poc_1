@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Mat",
-      "score": 0.4
+      "name": "Warm-up",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout metadata suggests a warm-up routine designed to prepare for more intense workouts. The specific mention of being 'on the shores of Seward' with instructors Dani and Mike indicates a setting that could be related to rowing. The categorization includes 'standard, row', and the format is mentioned as 'Intervals', which fits the pattern of rowing workouts, especially low-intensity or warm-up rowing sessions. Thus, 'Indoor rowing' is given a high score of 0.9 due to the specificity around this type of activity.\n\nThe mention of 'Intervals' and 'Warm-up' could also indicate mat exercises which sometimes involve rhythm-based movements to music, justifying a secondary classification under 'Mat'. However, since there's no explicit mention of a rowing machine, 'Mat' is given a moderate score of 0.4 to reflect this alternative interpretation, though with less certainty than 'Indoor rowing'.\n\nDespite the mentions of music genres and artists, these do not substantially influence workout categorization but provide a backdrop typical for warm-up sessions. Other categories like 'HIIT', 'Yoga', or 'Stretching' were excluded due to lack of relevant thematic indicators."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Yoga",
-      "score": 0.85
-    },
-    {
-      "name": "Mat",
-      "score": 0.75
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The primary category assigned is 'Yoga' with a high confidence score of 0.85. This is strongly supported by the workout name 'Yoga For Runners' and the description which explicitly mentions a 'yoga align session'. The session is designed to release tension, common in yoga routines. Additionally, the reference to an 'align session' suggests yoga's focus on posture and balance.\n\nThe secondary category 'Mat' is assigned with a score of 0.75. The association with 'On The Mat' and 'standard, on-the-mat' categories in metadata implies exercises typically performed on a mat, further supported by the yoga context.\n\nOther potential categories like 'Stretching' were considered due to the focus on releasing tension in legs and feet. However, the mention of 'yoga' specifically directs classification to 'Yoga' and 'Mat' as primary. The calm and relaxing nature of the playlist, with songs like 'Smoke Too Much' and 'Girl (Radio Edit)', supports these choices, emphasizing a meditative and gentle session."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

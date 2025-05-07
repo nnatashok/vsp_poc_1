@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The primary category 'Indoor rowing' was chosen due to the workout name 'Endurance Pyramid Row' and the description which mentions 'rhythms 20, 22, and 24 during 2' intervals,' indicating that a rowing machine (ergometer) is being used for interval training. The workout type 'row' and keyword 'pyramid' further support this classification, giving it a high confidence score of 0.9.\n\n'Breathing exercises' was also selected because 'Workout Type: breathe' and 'Category: Breathe' both suggest a focus on breathing technique, which is often emphasized in rowing workouts for optimizing performance and endurance. However, the emphasis seems less pronounced than the rowing aspect, so it's given a moderate score of 0.6.\n\nOther categories such as 'Yoga' or 'Meditation' were considered but excluded due to the absence of any explicit mention of these practices in the workout description or tags."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Body weight",
-      "score": 0.9
-    },
-    {
-      "name": "Mat",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout is titled 'Bodyweight Strength,' which strongly suggests that it focuses primarily on using one's own body weight for exercise, leading to a high score of 0.9 for the 'Body weight' category. The description emphasizes all bodyweight exercises meant to elevate heart rate and strengthen the body, further confirming that no external weights or resistance equipment are used. The term 'On The Mat, standard, on-the-mat' within the category metadata and the absence of any equipment support the use of a mat for completing the exercises, justifying a corresponding score of 0.7 for the 'Mat' category. Pop and Global Hits music provide energetic accompaniment, typical for maintaining rhythm in such workouts, enhancing the overall workout atmosphere. Other categories like 'Pilates,' 'Yoga,' or 'Calisthenics' were deemed not applicable due to lack of specific elements such as core-focused control movements or flexibility training mentioned in the metadata."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

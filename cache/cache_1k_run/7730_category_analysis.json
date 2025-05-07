@@ -2,17 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.7
-    },
-    {
-      "name": "Mat",
-      "score": 0.3
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout video metadata strongly points towards 'Indoor rowing' as the primary category due to references in the workout name '80s Intervals Row' and the description mentioning the format as 'Intervals' with a focus on intensity ('max rhythm: 30'). These elements highlight rowing-focused exercises, and the inclusion of the word 'row' confirms this categorization with a score of 0.9.\n\nAdditionally, the mention of 'Intervals' and 'intensity level: 2 out of 3' in the workout type suggests that 'HIIT' is also a relevant category. Given that HIIT typically involves periods of intense activity followed by rest, this aligns with the structured intervals described, therefore a score of 0.7 is assigned.\n\nA mild presence of the 'Mat' category is considered with a score of 0.3, as mat work could potentially be incorporated in the intervals, although this is less explicit in the metadata.\n\nThe confidence in these categories is high due to clear indicators such as the structured interval format and emphasis on rowing, whereas other categories like 'Yoga' or 'Pilates' are irrelevant due to the explicit focus on intensity and rhythm."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

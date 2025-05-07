@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is labeled 'Fourth of July Row' and is clearly identified as a rowing workout, particularly considering the consistent use of 'row' in the metadata. The description indicates a cardio focus, concentrated on fitness improvement, which aligns well with 'Indoor rowing'. The interval format mentioned also suggests elements of 'High-Intensity Interval Training (HIIT)' as it implies periods of varied intensity, a hallmark of HIIT workouts. The term 'sweat' and category tags like 'Sweat' and 'interval' further support this classification, indicating a vigorous workout setup. Therefore, 'Indoor rowing' is scored at 0.9, given its central role, and 'HIIT' is scored at 0.6 for its notable presence due to the interval structure. The confidence in these classifications is high at 0.85, as the metadata strongly indicates their applicability. Other categories were excluded as they do not align well with the emphasis on rowing and intensity."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

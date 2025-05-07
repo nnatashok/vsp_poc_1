@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Pilates",
-      "score": 0.9
-    },
-    {
-      "name": "Mat",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 1.0,
-  "categoriesExplanation": "The workout is explicitly classified as 'Pilates' in the metadata, indicating it focuses on Pilates exercises, specifically the classical 'hundred' exercise. This is further backed by multiple mentions: 'Workout Name' includes 'The Hundred Pilates Challenge', and 'Workout Type' also lists 'pilates'. Thus, the 'Pilates' category is scored at 0.9 due to its strong presence and focus.\n\nThe 'Mat' category is also relevant as the description mentions 'the hundred, a classical pilates mat exercise', and 'Category' includes 'On The Mat'. This suggests that the exercise is mat-based, which justifies a score of 0.7. However, the greater emphasis is on the Pilates component, so it receives a slightly lower score.\n\nThe high confidence level of 1.0 is due to clear and direct indicators in the workout title and description. There are no conflicting elements to suggest involvement in other categories such as 'Stretching' or 'Yoga' due to the specific focus on Pilates."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

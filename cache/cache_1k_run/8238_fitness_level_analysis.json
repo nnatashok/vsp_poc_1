@@ -14,15 +14,11 @@
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.9
-    },
-    {
-      "level": "Moderate",
-      "score": 0.3
+      "score": 1.0
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout duration is just over five minutes and is explicitly a 'cool down', indicating low intensity and energy expenditure. Its goal is to promote recovery, typical of 'Light' effort workouts. The 'Steady' format and low rhythm further support a minimal effort classification, though maintaining proper form could elevate it slightly toward 'Moderate'.",
+  "effortDifficultyConfidence": 0.95,
+  "effortDifficultyExplanation": "The short duration (5:44) and the nature of the workout being a 'cool down' mark it as Light in effort difficulty. Cool downs typically focus on gradual reduction of heart rate and relaxation, rather than physical exertion. With a max rhythm of 22, it signals a low-intensity session, making it very fit for users needing a gentle conclusion to a workout.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

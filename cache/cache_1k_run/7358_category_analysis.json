@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is primarily classified as 'Indoor rowing' due to explicit mentions of rowing related terms in the workout name and description, such as 'Consistent Effort Row' and 'rhythms 20 to 24,' which are typically associated with rowing stroke rates. The mention of 'row' as a category further supports this classification, resulting in a score of 0.9 reflecting a central defining characteristic of the session. Additionally, 'Breathing exercises' are considered because the Workout Type field explicitly lists 'breathe,' suggesting a focus on breathing technique, though it is less central to the video content compared to rowing. This results in a secondary score of 0.6 for 'Breathing exercises.' The workout's low intensity level and focus on consistency align with a moderate approach to cardio and breath control. Other categories such as 'Yoga' or 'Stretching' were excluded due to the absence of postural or flexibility indicators. The confidence level for these classifications is set at 0.85, indicating strong explicit indicators from relevant metadata."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

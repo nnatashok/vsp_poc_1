@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "Stretching",
-      "score": 0.6
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.7,
-  "categoriesExplanation": "The workout is titled 'Technique + Stretch Cool-Down,' which suggests a focus on rowing technique followed by stretching. The description emphasizes prioritizing proper form and technique, which is indicative of an indoor rowing session, especially considering the 'Format: Technique' and 'Category: Cool Down,standard,row' tags. The reference to 'ending your session with a few stretches' aligns with the Stretching category as a secondary focus. Although the environment or exact equipment is not explicitly mentioned for rowing, the context suggests that rowing and stretching are integral to the session. The overall confidence is supported by genre cues and the structured nature of the workout. Stretching, while present, is outlined more as a component of a structured rowing cooldown rather than the primary activity."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

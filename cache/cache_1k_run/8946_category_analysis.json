@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Body weight",
-      "score": 0.8
-    },
-    {
-      "name": "Mat",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout title 'Core Strength' and the 'strength' workout type strongly suggest a focus on exercises that enhance core muscle strength, likely involving bodyweight exercises given the absence of specified equipment. The categories 'On The Mat, standard, on-the-mat' imply exercises performed on an exercise mat, which is common for bodyweight and core workouts. Although the exact nature of exercises is unspecified, the duration of just over 5 minutes aligns with short, focused core-strengthening routines. The score of 0.8 for Body weight reflects the strong emphasis on core and strength, which typically leverage body weight for resistance. The Mat category receives a score of 0.7 due to the explicit mention of 'on-the-mat' in the category tags, indicating floor-based exercises. Overall, the confidence level for these classifications is high due to the explicit indications related to workout purpose and style."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

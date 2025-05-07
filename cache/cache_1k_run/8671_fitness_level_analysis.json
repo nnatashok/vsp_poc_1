@@ -1,28 +1,20 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Beginner",
-      "score": 0.4
-    },
-    {
       "level": "Intermediate",
-      "score": 0.6
+      "score": 0.8
     }
   ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout type is 'drive', which the Hydrow-specific rules indicate as 'Advanced'. However, since this workout is also categorized under 'row', it allows for a reduction in technique difficulty to either Beginner or Intermediate. The rowing category dictates that movements are generally simple enough for beginners or those with slight coordination challenge. The presence of a max rhythm of 32 suggests a slightly higher complexity, aligning more closely with Intermediate levels, hence the higher score for Intermediate.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type is 'drive', which according to Hydrow's specific rules, aligns with an 'Intermediate' technique difficulty for row-based workouts. This is due to the focused attention on maintaining proper form during a 'Drive' session, which requires a moderate level of coordination and body awareness, but it does not reach 'Advanced' due to being a rowing-focused exercise. The technique difficulty score reflects a strong alignment with this level.",
   "effortDifficulty": [
     {
       "level": "Challenging",
       "score": 0.7
-    },
-    {
-      "level": "Extreme",
-      "score": 0.4
     }
   ],
   "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout has an intensity level 3 out of 3, indicating high physical demand. The format 'Power' and the max rhythm of 32 suggest a high-energy rowing session. The 11-minute duration is relatively short, leaning towards less extreme energy expenditure compared to longer workouts. Nonetheless, the Drive category implies significant effort, requiring sustained power output, which aligns with Challenging to Extreme levels. Given the advanced tagging, the primary score leans towards Challenging, but the possibility for Extreme is considered.",
+  "effortDifficultyExplanation": "The workout is marked with an intensity level of 3 out of 3 and described as a 'Power' format, indicating a high level of energy expenditure. Additionally, the session is approximately 11 minutes long with a high rhythm of 32, suggesting a continuous high effort. The effort required is challenging, especially for less fit users, but the duration is not long enough to classify it as 'Extreme' for users at a low motivation level. Thus, while intense, it remains in the 'Challenging' category, demonstrating a strong alignment with this level.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

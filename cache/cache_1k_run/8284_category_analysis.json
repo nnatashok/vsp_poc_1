@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout is classified as 'Indoor rowing' with a high confidence level due to several specific indicators in the metadata. The use of terms like 'race', 'maximum pace', and 'power' suggest a rowing session. Furthermore, the workout description emphasizes rhythmic pacing ('28 thru 32'), commonly associated with rowing stroke rates in a competitive or performance-driven context. Additionally, the 'row' tag in the category field, along with the term 'drive', strongly indicates an indoor rowing workout focused on intense power output. \n\nThe 'HIIT' category is also relevant since the workout is described as having a high intensity level (3 out of 3) and uses high-energy music for motivation, which aligns with high-intensity interval training elements. Despite not stating intervals explicitly, the focus on 'maximum pace' and driving rhythms suggests fast-paced efforts typical of HIIT sessions. This is why 'Indoor rowing' scored 0.9 and 'HIIT' scored 0.7."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

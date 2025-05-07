@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.4
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The title 'Hard, Harder, Hardest Row' and the mention of intervals in the description clearly indicate an 'Indoor rowing' workout, which is the primary activity. The use of terms like 'power strokes' and 'intervals' highlights a structured indoor rowing session, thus 'Indoor rowing' is assigned a score of 0.9, reflecting its prominence.\n\nThe reference to 'Workout Type: breathe' suggests an emphasis on breathing techniques, potentially making 'Breathing exercises' a secondary focus of this workout. However, since the main activity is rowing with varying intensities, the presence of breathing exercises is considered supplementary, leading to a lower score of 0.4.\n\nThe interval format, duration, and description imply a focused rowing session with a minor emphasis on breathing, ruling out other categories like 'HIIT', 'Mat', or 'Weight workout'. The overall category confidence is high due to clear indicators in the metadata."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

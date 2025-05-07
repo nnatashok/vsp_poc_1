@@ -14,11 +14,15 @@
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 1.0
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
     }
   ],
-  "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "The workout is a short row-based warm-up lasting 11 minutes, mainly focused on technique refinement. This implies low energy expenditure, as warm-ups are designed to prepare the body without significant fatigue. The format indicates that intensity will not be high, aligning with typical attributes of a 'Light' effort difficulty. There are no indications of high-paced or intense elements that would elevate the effort level.",
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout is labeled as a 'warm-up', typically involving lower intensity and shorter duration. The workout lasts 11 minutes, which is a relatively short duration geared towards warming up rather than exertion. The focus on technique and efficiency over intensity further supports a 'Light' classification. However, since it involves rowing and operates at a rhythm of up to 28, there is a slight alignment with 'Moderate' effort, but the overall focus remains on technique rather than exertion.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.75
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.65
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.7,
-  "categoriesExplanation": "The workout is best categorized under 'Indoor rowing' and 'Breathing exercises'. The title 'Self-Care Row' along with the description mentioning 'cruise down the Charles River' suggests a rowing session, indicating 'Indoor rowing' as a primary category with a score of 0.75. The 'Workout Type' specifies 'breathe', and 'breathe' is also listed as a category, suggesting an emphasis on controlled breathing, possibly as a form of 'Breathing exercises', with a score of 0.65. The low intensity (level 1 out of 3) aligns with a serene rowing and breathing focus, supported by soft pop music for a relaxing atmosphere. Other categories like 'Yoga' or 'Meditation' were considered but not chosen due to the explicit mention of rowing and the absence of traditional mind-body integration practices. The 'Climb' format might suggest intensity intervals, but with the low overall intensity, it remains secondary."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

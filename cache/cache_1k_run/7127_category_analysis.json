@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Pilates",
-      "score": 0.9
-    },
-    {
-      "name": "Mat",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The explicit mention of 'Core Burn Express Pilates' in the workout name and description provides strong evidence for categorizing this as a Pilates workout, given it explicitly states 'Strengthen and stretch your core with Christie and Laine' through Pilates exercises. The use of Pilates techniques inherently involves mat work, which is corroborated by the category tags 'On The Mat' and 'on-the-mat'. The absence of equipment further supports this categorization as such exercises primarily utilize body movements and placement over a mat, which is a core aspect of Pilates sessions. Therefore, a score of 0.9 is assigned to 'Pilates' given its central role, while 'Mat' is scored at 0.6 due to its supportive role but not being explicitly named. 'Standard' and the music genre reinforce the intensity and setting but do not influence category selection."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

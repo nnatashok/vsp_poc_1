@@ -1,18 +1,10 @@
 {
   "categories": [
     {
-      "name": "Running",
-      "score": 0.7
-    },
-    {
       "name": "Pilates",
-      "score": 0.8
-    },
-    {
-      "name": "Mat",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.75,
-  "categoriesExplanation": "The workout is titled 'Runner's Program #3 of 9', which strongly suggests it's oriented towards running, although the actual activity may not be running itself. The description mentions 'adjust your pace' and 'work your core,' suggesting elements of running training with a focus on core strengthening, which could be a supportive activity for runners, hence the 'Running' category with a score of 0.7. The tagged workout type is 'Pilates', which implies that the exercises emphasize controlled movements and core work consistent with Pilates exercises, awarding this category a score of 0.8 given its explicit mention. The category 'Mat' is selected as the description refers to the workout being 'On The Mat,' aligning with exercises performed on a mat which can also supplement Pilates, thus scoring 0.6. The music playlist features pump-up running songs, reinforcing the connection to running support activities. The absence of explicit rowing, cycling, or weight-based training, along with the nature of the exercises, excludes other potential categories."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

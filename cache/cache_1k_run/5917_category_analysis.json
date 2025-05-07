@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Pilates",
-      "score": 0.8
-    },
-    {
-      "name": "Mat",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is titled \"Core Burn Express\" and described as a quick core workout led by Christie. The description and category tags such as 'On The Mat' suggest a focus on strength exercises performed on a mat. The explicit mention of 'Workout Type: pilates' indicates a Pilates session, which focuses on core strength through controlled movements. The music playlist composed of hip hop/R&B and global hits suggests a contemporary and lively setting, often complementary to lower intensity but focused exercises like Pilates. The absence of equipment and the 5-minute duration suggest a concentrated, efficient workout focused on core conditioning typical of Pilates and mat exercises. The high confidence level (0.85) is due to the clear mention of pilates in the metadata, while the score for the Mat category is slightly lower since it supports rather than defines the workout."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

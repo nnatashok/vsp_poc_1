@@ -22,7 +22,7 @@ from equipment_classifier import EQUIPMENT_PROMPT, EQUIPMENT_USER_PROMPT, EQUIPM
 from db_transformer import transform_to_db_structure
 
 def analyse_hydrow_workout(workout_json, openai_api_key,
-                          cache_dir='cache', force_refresh=False,
+                          cache_dir='cache', force_refresh=False, #!
                           enable_category=True, enable_fitness_level=True,
                           enable_vibe=True, enable_spirit=True, enable_equipment=True,
                           enable_image_in_meta=False):
@@ -60,16 +60,30 @@ def analyse_hydrow_workout(workout_json, openai_api_key,
 
     # extract image and textual summary
     meta = extract_hydrow_meta_from_json(workout_json)
-    if not enable_image_in_meta:
-        del meta['image']
 
     # Initialize combined analysis
     video_id = workout_json.get("id")
+    instructor_name = workout_json.get("instructors", {}).get("stroke", {}).get("name")
+    if instructor_name == "No Athlete": instructor_name = "Unknown"
     combined_analysis = {
         "video_id": video_id,
         "video_url":  workout_json.get("shareUrl"),
         "video_title": workout_json.get("name"),
-        "duration": workout_json.get("duration")}
+        "duration": workout_json.get("duration"),
+        'video_metadata':workout_json,
+        'video_metadata_cleaned': meta,
+        "channel_title": instructor_name,
+        "hydrow_category_name": workout_json.get("category", {}).get("name", "N/A"),
+        "instructor_name": instructor_name,
+        "duration_seconds": workout_json.get("duration"),
+        "poster_uri": meta['image']
+        }
+    # with open("cats_map.txt",mode="a") as f:
+    #     f.write(f'{workout_json.get("category", {}).get("id", "N/A")}: {workout_json.get("workoutTypes")[0].lower().strip()}')
+    #     f.write("\n")
+
+    if not enable_image_in_meta:
+        del meta['image']
 
     # Define classifier configurations
     classifiers = [
@@ -114,6 +128,9 @@ def analyse_hydrow_workout(workout_json, openai_api_key,
             "response_format": VIBE_RESPONSE_FORMAT
         }
     ]
+    # Flag to track if any classifier had an error
+    has_errors = False
+    review_comments = []
 
     # Run each enabled classifier
     try:
@@ -132,7 +149,7 @@ def analyse_hydrow_workout(workout_json, openai_api_key,
                     print(f"Loaded {name} analysis from cache: {cache_path}")
                 except Exception as e:
                     print(f"Error loading cached {name} analysis: {str(e)}. Running fresh analysis.")
-                    if not (classifier['name']=='fitness_level'):
+                    if not (classifier['name']=='fitness_level' or classifier['name']=='category'):
                         analysis = run_classifier(
                             oai_client,
                             meta,
@@ -141,10 +158,15 @@ def analyse_hydrow_workout(workout_json, openai_api_key,
                             classifier["response_format"]
                         )
                         cache_data(analysis, cache_path)
+                    elif classifier['name']=='category':
+                        # ! we indroduce hardcoded mapping
+                        workout_type = workout_json.get('workoutTypes')[0].lower().strip()
+                        analysis = hardcoded_category_clf(workout_type=workout_type)
+                        cache_data(analysis, cache_path)
                     else:
                         # ! now we proceed with fintess lvl, which is partially hardcoded
                         workout_type = workout_json.get('workoutTypes')[0].lower().strip()
-                        fitness_base_schema = prefill_fitness_schema(workout_type)
+                        fitness_base_schema = prefill_fitness_schema(workout_type, meta)
                         meta_f_lvl = meta
                         meta_f_lvl['text'] = meta_f_lvl['text'] + f"\nUser Fitness Level Requirements are {', '.join([e['level'] for e in fitness_base_schema.get('requiredFitnessLevel')])}"
                         analysis = run_classifier(
@@ -167,7 +189,7 @@ def analyse_hydrow_workout(workout_json, openai_api_key,
                                                                                     "techniqueDifficultyExplanation"]) 
                         cache_data(analysis, cache_path)
             else:
-                if not (classifier['name']=='fitness_level'):
+                if not (classifier['name']=='fitness_level' or classifier['name']=='category'):
                     analysis = run_classifier(
                         oai_client,
                         meta,
@@ -176,10 +198,15 @@ def analyse_hydrow_workout(workout_json, openai_api_key,
                         classifier["response_format"]
                     )
                     cache_data(analysis, cache_path)
+                elif classifier['name']=='category':
+                    # ! we indroduce hardcoded mapping
+                    workout_type = workout_json.get('workoutTypes')[0].lower().strip()
+                    analysis = hardcoded_category_clf(workout_type=workout_type)
+                    cache_data(analysis, cache_path)
                 else:
                     # ! now we proceed with fintess lvl, which is partially hardcoded
                     workout_type = workout_json.get('workoutTypes')[0].lower().strip()
-                    fitness_base_schema = prefill_fitness_schema(workout_type)
+                    fitness_base_schema = prefill_fitness_schema(workout_type, meta)
                     meta_f_lvl = meta
                     meta_f_lvl['text'] = meta_f_lvl['text'] + f"\nUser Fitness Level Requirements are {', '.join([e['level'] for e in fitness_base_schema.get('requiredFitnessLevel')])}"
                     analysis = run_classifier(
@@ -201,15 +228,31 @@ def analyse_hydrow_workout(workout_json, openai_api_key,
                                                                                 "techniqueDifficultyConfidence",
                                                                                 "techniqueDifficultyExplanation"]) 
                     cache_data(analysis, cache_path)                 
+            # Check for errors in the classifier result
+            if "error" in analysis:
+                has_errors = True
+                error_message = f"Error in {name} classifier: {analysis.get('error')}"
+                review_comments.append(error_message)
 
+                # Add review comment tag if present
+                if "review_comment" in analysis:
+                    if analysis["review_comment"] not in review_comments:
+                        review_comments.append(analysis["review_comment"])
+            
             combined_analysis[name] = analysis
+        # Update reviewable status based on errors
+        if has_errors:
+            combined_analysis["reviewable"] = False
+            combined_analysis["review_comment"] = "; ".join(review_comments)
+        
         return combined_analysis
 
     except Exception as e:
-        return {"error": f"Failed to perform combined analysis: {str(e)}"}
+        error_message = f"Failed to perform combined analysis: {str(e)}"
+        return return_error_analysis(error_message, workout_json)
 
 # Other functions remain unchanged
-def prefill_fitness_schema(workout_type: str) -> dict:
+def prefill_fitness_schema(workout_type: str, full_meta:str) -> dict:
     """
     Pre-fills the fitness level response schema based on hardcoded rules for workoutType.
 
@@ -255,6 +298,30 @@ def prefill_fitness_schema(workout_type: str) -> dict:
         schema["requiredFitnessLevelExplanation"] = (
             f"The workoutType is '{workout_type.capitalize()}', which is explicitly defined as a {level} workout "
             f"based on platform rules. No further inference needed."
+        )
+    
+    elif "beginner" in full_meta['text'].lower().strip():
+        schema["requiredFitnessLevel"] = [
+            {"level": "Beginner", "score": 1.0},
+            {"level": "Intermediate", "score": 1.0},
+        ]
+        schema["requiredFitnessLevelConfidence"] = 1.0
+        schema["requiredFitnessLevelExplanation"] = (
+            f"Workout type '{workout_type}' is not one of the specialized Hydrow categories "
+            f"(Breathe, Sweat, Drive, Distance). And workout description mentiones it is meant for beginners."
+        )
+        
+        # If workout is suitable for all fitness levels, then technique ia also can be adgusted to any level
+        schema["techniqueDifficulty"] = [
+            {"level": "Beginner", "score": 1.0},
+            {"level": "Intermediate", "score": 1.0}
+        ]
+        schema["techniqueDifficultyConfidence"] = 1.0
+        schema["techniqueDifficultyExplanation"] = (
+            f"Since the workout is marked as suitable for all fitness levels (Beginner, Intermediate, Advanced), "
+            f"the technique difficulty is considered adaptable. Movements can be scaled in complexity, and users are "
+            f"expected to modify techniques based on their capability. Therefore, all difficulty levels from Beginner "
+            f"to Expert are assigned equal suitability with a score of 1.0."
         )
     else:
         # For all other workout types, mark as suitable for all levels
@@ -320,17 +387,18 @@ def extract_video_id(raw_json: str, idx:int) -> str:
         schema['id']=video_id
     return video_id
                
+def format_duration(seconds):
+        if not seconds:
+            return "Unknown duration"
+        h, m, s = seconds // 3600, (seconds % 3600) // 60, seconds % 60
+        return f"{h:02}:{m:02}:{s:02}"
+
 def extract_hydrow_meta_from_json(data: Dict[str, Any]) -> Dict[str, Any]:
     """
     Extract and format metadata as per specific rules.
     Returns a dictionary with 'text' (string summary) and 'image' (url).
     """
 
-    def format_duration(seconds):
-        if not seconds:
-            return "Unknown duration"
-        h, m, s = seconds // 3600, (seconds % 3600) // 60, seconds % 60
-        return f"{h} hours {m} minutes {s} seconds"
 
     def get_music_genre(data):
         genre = data.get("MusicGenre")
@@ -343,13 +411,13 @@ def extract_hydrow_meta_from_json(data: Dict[str, Any]) -> Dict[str, Any]:
         return genre
 
     def get_playlist_summary(data):
-        playlist = data.get("playlist", [])
+        playlist = data.get("playlist") if data.get("playlist") else []
         playlist_str = "\nPlaylist played:\n"
         for element in playlist:
             song = element.get("song","")
             artist = element.get("artist","")
             playlist_str+= f"Song '{song}' by the atrist '{artist}';\n"
-        if not playlist:
+        if not len(playlist):
             return ""
         return playlist_str
 
@@ -371,7 +439,8 @@ def extract_hydrow_meta_from_json(data: Dict[str, Any]) -> Dict[str, Any]:
                 bio = match.iloc[0, 1]
             else:
                 print(f"No bio found for instructor: {instructor_name}")
-                return instructor_name+":\n"+bio+"\n"
+                bio = ""
+            return instructor_name+":\n"+bio+"\n"
 
         else:
             print(f"File not found: {file_path}")
@@ -492,3 +561,45 @@ def openai_call_with_retry(oai_client, model, messages, response_format):
     # This should only happen if we exhaust all retries
     raise Exception("Failed after maximum retry attempts")
 
+def hardcoded_category_clf(workout_type):
+    mapping = { 'cool down':'Cool-down',
+                'strength':'Body weight',
+                'stretching':'Stretching',
+                'warm-up':'Warm-up',
+                'drive':'Indoor rowing',
+                'sweat':'Indoor rowing',
+                'flow':'Yoga',
+                'breathe':'Indoor rowing',
+                'pilates':'Pilates',
+                'restore':'Yoga',
+                'align':'Yoga',
+                'mobility':'Stretching',
+                'circuit':'Calisthenics',
+                'journey':'Indoor rowing'}
+    try:
+        name = mapping[workout_type]
+    except:
+        raise ValueError
+    
+    out ={  "categories": [{
+                            "name": name,
+                            "score": 1
+                        }],
+            "categoriesConfidence": 1,
+            "categoriesExplanation": "The Category is assigned by predefined mapping."
+            }
+    return out
+
+def return_error_analysis(error_message, workout_json=None):
+    return {
+            "error": error_message,
+            "reviewable": False,
+            "review_comment": f"processing_error {error_message}",
+            "video_id": workout_json.get("id")  if workout_json else None,
+            "video_url": workout_json.get("shareUrl") if workout_json else None,
+            "video_title": workout_json.get("name") if workout_json else None,
+            "duration": format_duration(workout_json.get("duration")) if workout_json else None,
+            'video_metadata': workout_json,
+            'video_metadata_cleaned': extract_hydrow_meta_from_json(workout_json) if workout_json else None,
+            "channel_title": workout_json.get("instructors", {}).get("stroke", {}).get("name") if workout_json else None
+        }

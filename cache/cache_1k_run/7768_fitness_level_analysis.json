@@ -1,20 +1,24 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Advanced",
-      "score": 0.8
+      "level": "Intermediate",
+      "score": 0.9
     }
   ],
-  "techniqueDifficultyConfidence": 1.0,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'Drive', which according to Hydrow's specific rules, requires an Advanced technique difficulty classification. The 'Drive' workout type involves complex rowing movements that demand good understanding and execution of rowing techniques, indicating a strong alignment with advanced technique difficulty.",
+  "techniqueDifficultyConfidence": 0.88,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row' and 'drive', placing it primarily in the Beginner or Intermediate technique difficulty category as per the Hydrow-specific rules. While 'Drive' workouts usually demand advanced rowing skill and awareness, they are mostly related to physical exertion and intensity rather than complex technical maneuvers. As such, the technique required, though more demanding than a simple row, is still within the bounds of Intermediate.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.75
+      "score": 0.7
+    },
+    {
+      "level": "Extreme",
+      "score": 0.8
     }
   ],
-  "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "The workout is an interval format with a maximum rhythm of 32 and a duration of 21 minutes and 27 seconds. It also has a maximum intensity level of 3 out of 3. These factors suggest a high level of physical exertion, aligned with the 'Challenging' effort difficulty level, particularly given the target audience's baseline fitness.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The video description and scoring signals a maximum intensity level (3 out of 3), a hallmark of an extreme energy percentage expectation of the user. The workout duration is reasonably long at over 21 minutes, featuring intervals that usually increase cardiovascular and muscular demand, leading to a high energy expenditure. These factors strongly indicate a Challenging to Extreme level of effort difficulty, suitable for more conditioned users. The rhythmic cue of a max rhythm of 32, further points to a demanding workout pushing the effort difficulty to the upper levels.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

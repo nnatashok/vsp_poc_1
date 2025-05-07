@@ -14,11 +14,15 @@
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 1.0
+      "score": 0.9
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
     }
   ],
-  "effortDifficultyConfidence": 1.0,
-  "effortDifficultyExplanation": "The workout is described as 'Energizing Cool-Down', indicating a low effort, relaxed pace. With a duration of just under 6 minutes and the fact that it's a cool-down workout, this strongly aligns with a 'Light' effort difficulty, as evidenced by the emphasis on 'stay loose' and 'keep things light and energetic', which are typical of gentle movements aimed at winding down from more intense activity.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout's short duration of 5 minutes and focus on being light ('cool down') indicates low energy expenditure, appropriate for a Light effort difficulty classification. There is some mention of '10 stroke accelerations,' which might add slight intensity, placing a weak link to Moderate difficulty. However, the primary focus of a cool-down is relaxation and recovery, strongly supporting a Light effort rating.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "HIIT",
-      "score": 0.9
-    },
-    {
       "name": "Indoor rowing",
-      "score": 0.85
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout is classified as both 'HIIT' and 'Indoor rowing'. The title 'Drive Your Split Down Row' and description explicitly mention a focus on 'split', a term commonly associated with rowing and pacing in rowing workouts. The term 'high-intensity intervals' in the description strongly indicates a HIIT workout, as HIIT is characterized by intense bursts of exercise followed by rest or lower-intensity periods. The metadata also includes 'Category: Drive,standard,row', further indicating the workout involves an indoor rowing session. The instructor, music, and playlist details align with a vigorous and energetic session, as indicated by high-intensity dance and global hits. Therefore, a score of 0.9 is assigned to HIIT due to the strong emphasis on intensity, and a score of 0.85 to Indoor rowing due to the specific mention of 'split' and 'row'. Other categories are excluded due to lack of relevant indicators."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

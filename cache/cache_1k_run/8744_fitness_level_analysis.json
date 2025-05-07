@@ -1,28 +1,24 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Beginner",
-      "score": 0.35
-    },
-    {
-      "level": "Intermediate",
-      "score": 0.65
+      "level": "Advanced",
+      "score": 0.9
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The Technique Difficulty is classified as Intermediate with a strong alignment score of 0.65 due to the 'drive' workout type and category indicating a more intense rowing session. Although the basic rowing technique is not inherently complex, the 'Drive' format typically requires good coordination and body awareness due to higher stroke rates, like the max rhythm of 32, demanding precise technique execution under pressure. Thus, the classification is skewed towards Intermediate with relatively high confidence.",
+  "techniqueDifficultyExplanation": "Based on the metadata, the workout type is marked as 'drive', which in Hydrow's classification typically aligns with an Advanced technique difficulty. The instructors' prestigious rowing background and the demand for quick transitions ('15 strokes at the top of every minute') further imply a substantial level of technical proficiency is necessary to maintain proper form, especially at a high cadence of 32 spm (strokes per minute). Although 'row' implies either Beginner or Intermediate in general, the 'drive' classification trumps this due to its specific demands on technique.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.7
+      "score": 0.75
     },
     {
       "level": "Extreme",
-      "score": 0.3
+      "score": 0.6
     }
   ],
   "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The Effort Difficulty is challenging due to the high intensity level (3 out of 3), the HIIT format demanding high exertion with minimal rest, and the stroke requirement at the top of every minute. Despite the short duration\u201411 minutes\u2014the intensity cues ('give it all you've got') elevate the energy expenditure, aligning the workout with a Challenging level score of 0.7, with some Extreme elements (score of 0.3) owing to the pacing enforced by the format.",
+  "effortDifficultyExplanation": "The workout's HIIT format with a max rhythm of 32 spm suggests high energy demands. A 11-minute duration with intensely paced efforts ('15 strokes at the top of every minute') indicates a significant energy expenditure. The workout is rated 3 out of 3 in intensity, further supporting its classification as Challenging, with a leaning towards Extreme due to the intensity and format of HIIT. This supports a higher energy output requirement, making the session physically demanding.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

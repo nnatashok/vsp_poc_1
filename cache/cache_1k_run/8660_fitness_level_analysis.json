@@ -2,23 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 1.0
-    }
-  ],
-  "techniqueDifficultyConfidence": 1.0,
-  "techniqueDifficultyExplanation": "The workout is categorized as a 'row', which generally aligns with beginner or intermediate technique difficulty on the platform. This particular session is described as a gentle-paced row with a focus on maintaining a steady rhythm (max rhythm: 26, intensity level: 1 out of 3). The session is also under the 'breathe' category which typically involves simpler, more relaxed rowing exercises. These elements indicate simple, straightforward motions requiring minimal coordination, aligning strongly with a beginner technique difficulty classification.",
-  "effortDifficulty": [
-    {
-      "level": "Light",
-      "score": 0.8
+      "score": 0.9
     },
     {
-      "level": "Moderate",
+      "level": "Intermediate",
       "score": 0.4
     }
   ],
-  "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "The workout lasts for 21 minutes and 18 seconds, with a max rhythm of 26 and an overall low intensity level of 1 out of 3, suggesting lower physical demands. The 'breathe' format indicates a focus on steady pacing rather than intense exertion. While the duration is moderate, the descriptions of pacing and intensity imply less energy expenditure, making this primarily a light effort workout. However, users in poorer shape might find maintaining a steady rhythm moderately challenging, thus warranting a secondary moderate score with lower weight.",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout type is 'breathe' and categorized under 'row', which suggests low complexity in movements. The technique difficulty for a rowing workout typically ranges from Beginner to Intermediate level. Since this is a steady-paced workout with no indication of complex moves, it aligns more closely with the Beginner level, scoring a 0.9, with a partial alignment to Intermediate due to the potential coordination required in rowing, scoring 0.4.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.85
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout intensity is labeled as 1 out of 3, indicating it is on the lower end of the effort scale. Additionally, the description mentions maintaining a steady pace, suggesting a focus on endurance rather than high intensity. The duration of 21:18 minutes at a maximum rhythm of 26 aligns with a Light effort level with a score of 0.85, as these factors suggest it would not be overly taxing, though some moderate aspects are present, with a score of 0.3, due to the active engagement of rowing muscles.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

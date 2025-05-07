@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Body weight",
-      "score": 0.8
-    },
-    {
-      "name": "Mat",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.8,
-  "categoriesExplanation": "The primary category 'Body weight' was assigned with a score of 0.8 due to the explicit mention of 'Bodyweight Strength' in the workout name and description. This indicates the focus is on strength exercises using only body weight as resistance. The description also highlights exercises targeting the core and lower body, which are typical for bodyweight workouts.\n\nThe 'Mat' category is also relevant and given a score of 0.6. The workout description and category tags explicitly categorize this workout as 'On The Mat,' suggesting that the exercises are performed on a mat, typical for bodyweight exercises focusing on specific muscle groups like the core and lower body.\n\nThere is high confidence in these classifications due to the clear indicators in the workout name, description, and tags. Other potential categories, such as 'Calisthenics,' were excluded due to the absence of specific mention of gymnastic movements or a broader range of bodyweight exercises that typically define calisthenics. The energetic music selection supports an active workout but does not directly influence the category beyond confirming an exercise rather than meditative or relaxing session."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

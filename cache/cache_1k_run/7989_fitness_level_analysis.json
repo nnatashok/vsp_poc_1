@@ -1,24 +1,24 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Intermediate",
-      "score": 0.75
+      "level": "Advanced",
+      "score": 0.7
     }
   ],
   "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'row' type with the 'Drive' category. According to the platform's rules, this technique can only be classified as either Beginner or Intermediate. Given the HIIT format and max rhythm of 30, this suggests higher technical skill requirements than basic rowing, thus earning an Intermediate level with high confidence. Further, the 'Drive' workout type generally suggests heightened complexity in rowing technique.",
+  "techniqueDifficultyExplanation": "The workout is classified under Hydrow's 'Drive', which typically requires advanced technique due to its challenging and fast-paced nature. The workout includes quick intervals at high rhythms (28-30), indicating a need for proper rowing technique and coordination to maintain efficiency and power, aligning with an advanced level of technique difficulty.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.8
+      "score": 0.7
     },
     {
       "level": "Extreme",
-      "score": 0.4
+      "score": 0.5
     }
   ],
-  "effortDifficultyConfidence": 0.75,
-  "effortDifficultyExplanation": "The workout is 11 minutes long with a high intensity level of 3 out of 3, which indicates a demanding session even within a short duration. The HIIT format and use of high rhythms (28-30) suggest substantial energy expenditure and limited rest periods. Thus, it is classified as Challenging with a strong alignment score; there's also some overlap into the Extreme category due to the reported highest intensity level and rapid pace, though this part is less dominant.",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The HIIT format, along with the workout's maximum rhythm of 30 and a 3 out of 3 intensity rating, indicates a high energy expenditure over a relatively short duration. These factors suggest significant physical demand, aligning with challenging and potentially extreme effort difficulty for deconditioned users.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

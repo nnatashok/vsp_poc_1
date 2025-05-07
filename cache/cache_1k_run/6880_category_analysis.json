@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is classified primarily as 'Indoor rowing' with a strong score of 0.9 because the title 'February Race: Week 5 of 5' and description's mention of 'climbing interval' and 'drive' clearly refer to rowing terminology. The emphasis on 'Power' and achieving a 'new personal best' imply a rowing machine workout aimed at improving performance. Additionally, the 'standard' and 'row' tags further confirm this category. The high-intensity level ('3 out of 3') and the upbeat pop and global hits playlist suggest an energetic session, aligning also with a 'HIIT' classification assigned a score of 0.7 due to the interval and performance-focused nature of the workout. Other categories like 'Weight workout' or 'Mat' are excluded due to lack of any related metadata or explicit mentions indicating weight lifting or floor exercises."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

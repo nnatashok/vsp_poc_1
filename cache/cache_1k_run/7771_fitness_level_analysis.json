@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.9
+      "score": 0.8
     },
     {
       "level": "Intermediate",
-      "score": 0.1
+      "score": 0.5
     }
   ],
-  "techniqueDifficultyConfidence": 0.95,
-  "techniqueDifficultyExplanation": "Given the workout category includes 'row', the technique difficulty is expected to be between Beginner and Intermediate. Since the user fitness level requirement is 'Beginner', and the description emphasizes pace control and steady rowing without technical nuances or advanced techniques, this supports a strong alignment with Beginner (score: 0.9). A slight Intermediate aspect (score: 0.1) is noted due to maintaining a consistent split over intervals.",
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "Given that the workout category is 'row', the technique difficulty can be categorized into either Beginner or Intermediate according to Hydrow-specific rules. The inclusion of varied pace intervals might imply some coordination, hence scoring Intermediate a bit lower. Overall, the straightforward nature of rowing with breathing cues suggests a stronger alignment with Beginner level.",
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.7
+      "score": 0.9
     },
     {
       "level": "Moderate",
-      "score": 0.3
+      "score": 0.4
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout is 31 minutes long, with 'breathe' as the workout type and an intensity level of 1 out of 3, indicating a low energy expenditure suitable for a less challenging effort. Therefore, the effort difficulty aligns primarily with Light (score: 0.7), while several intervals suggest a slight alignment with Moderate (score: 0.3). This is due to managing pace and duration, which may pose a mild challenge for beginners.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout lasts for over 31 minutes with an intensity level of 1 out of 3, indicating low energy expenditure. The 'breathe' type and multiple rest intervals suggest lower effort demand. While it's slightly challenging due to duration, it's predominantly a low-intensity workout, aligning mostly with 'Light'. Some intervals could push it towards 'Moderate', but not significantly enough to dominate the classification.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

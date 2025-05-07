@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.9
+    },
+    {
+      "level": "Advanced",
+      "score": 0.7
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is classified as a 'drive' type, which typically includes high-intensity interval rowing workouts. This format inherently suggests a technique difficulty around the Intermediate level due to the coordination required for maintaining high stroke rates and adjusting between 30 to 28 S/M. However, the emphasis on pushing limits and mimicking a race adds complexity, warranting a slight alignment with Advanced techniques due to needing practiced skill in rowing form to avoid injury during such intense efforts.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.9
+    },
+    {
+      "level": "Extreme",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout duration is short at 8:38 minutes, but with an emphasis on high intensity (especially being labeled 3 out of 3 for intensity) and interval format, it demands significant cardiovascular and muscular effort. The 2,000-meter race simulation with high stroke rates (up to 34 S/M) suggests a challenging effort for the average user, bordering on extreme for deconditioned participants. While the effort is very demanding, the short duration limits overall energy expenditure, justifying a Challenging primary rating with an Extreme secondary consideration.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

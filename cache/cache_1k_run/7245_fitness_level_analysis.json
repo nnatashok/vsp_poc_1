@@ -9,20 +9,16 @@
       "score": 1.0
     }
   ],
-  "techniqueDifficultyConfidence": 1.0,
   "techniqueDifficultyExplanation": "Since the workout is marked as suitable for all fitness levels (Beginner, Intermediate, Advanced), the technique difficulty is considered adaptable. Movements can be scaled in complexity, and users are expected to modify techniques based on their capability. Therefore, all difficulty levels from Beginner to Expert are assigned equal suitability with a score of 1.0.",
+  "techniqueDifficultyConfidence": 1.0,
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.95
-    },
-    {
-      "level": "Moderate",
-      "score": 0.1
+      "score": 1.0
     }
   ],
-  "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "This is a 10-minute foam rolling session, predominantly for warm-up or recovery, suggesting very low energy expenditure. This aligns closely with the 'Light' classification, as the session is neither intense nor lengthy. The lack of vigorous movement supports a Light intensity with a small possibility of being moderately challenging for those with very low fitness levels.",
+  "effortDifficultyExplanation": "The workout duration is short at 10 minutes and 41 seconds, and it's categorized as a mobility session, which is typically low in intensity and energy expenditure. Foam rolling is a gentle activity designed for warm-up or recovery, further indicating a low effort requirement. These factors contribute to a Light effort difficulty classification.",
+  "effortDifficultyConfidence": 1.0,
   "requiredFitnessLevel": [
     {
       "level": "Beginner",
@@ -37,6 +33,6 @@
       "score": 1.0
     }
   ],
-  "requiredFitnessLevelConfidence": 1.0,
-  "requiredFitnessLevelExplanation": "Workout type 'mobility' is not one of the specialized Hydrow categories (Breathe, Sweat, Drive, Distance). It is treated as suitable for all fitness levels."
+  "requiredFitnessLevelExplanation": "Workout type 'mobility' is not one of the specialized Hydrow categories (Breathe, Sweat, Drive, Distance). It is treated as suitable for all fitness levels.",
+  "requiredFitnessLevelConfidence": 1.0
 }

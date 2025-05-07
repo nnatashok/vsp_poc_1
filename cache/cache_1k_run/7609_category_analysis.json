@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "HIIT",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout title 'July Race: Week 2 of 4' and description highlight an emphasis on sprint pace and interval format, which are typical features of rowing workouts. The term 'gain big meters' alongside the mention of 'row' in the tags strongly indicate that this is an indoor rowing session. The mention of 'interval' and 'max effort at the finish' aligns with high-intensity training principles, suggesting a HIIT component. The intensity level is marked as 3 out of 3, further supporting the classification into HIIT due to the vigorous nature of the workout. The equipment field is empty but given the content and context, it's reasonable to infer the need for a rowing machine. The use of high-energy, rock-themed music tracks supports an intense, dynamic workout atmosphere, reinforcing the high-intensity aspect. Therefore, 'Indoor rowing' is scored at 0.8 for being the core activity, and 'HIIT' is scored at 0.7 for its strong presence in the training style."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

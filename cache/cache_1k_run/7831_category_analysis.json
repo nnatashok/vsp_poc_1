@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout titled \"Cardio Intervals Row\" directly indicates rowing as the primary activity, supported by the category tags 'row' and the description mentioning rhythmic intervals. This strongly suggests the category 'Indoor rowing', meriting a high score of 0.9 for its central role in the workout. The description's emphasis on 'intervals' and 'elevate your heart rate' aligns with the format typically seen in High-Intensity Interval Training (HIIT), warranting its inclusion as a secondary category with a score of 0.7. The absence of explicit mention of rowing equipment or the instructor does not detract from this categorization due to clear explicit indicators from the title and description. The high-intensity music playlist further supports these classifications by aiding in maintaining a vigorous workout pace."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

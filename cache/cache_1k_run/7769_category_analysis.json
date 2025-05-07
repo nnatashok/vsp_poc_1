@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.75
-    },
-    {
-      "name": "Stretching",
-      "score": 0.25
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.7,
-  "categoriesExplanation": "The workout, titled 'Synchronization Cool-Down' and described as a gentle, smooth rhythm session with a format marked as 'steady,' coupled with a low maximum rhythm of 22, indicates that this is likely a cool-down rowing session. The title and description suggest a relaxed approach typical of low-intensity rowing, which could otherwise be mistaken for stretching if misinterpreted. However, crucially, the reference to a 'standard,row' in the category and absence of any specific stretching or yoga-related terms leads to the categorization primarily as 'Indoor rowing' with a score of 0.75 due to the emphasis on gentle rhythm on the river, which is indicative of a rowing activity. 'Stretching' receives a score of 0.25 as the cool down aspect may involve light stretching movements as part of winding down from a more vigorous workout, but due to the lack of explicit flexibility training elements, it's not the primary classification. The evidence from the duration, music genre, and setting supports a low-intensity activity, aligning with the rowing classification."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

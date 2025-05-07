@@ -1,28 +1,24 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Beginner",
-      "score": 0.2
-    },
-    {
       "level": "Intermediate",
-      "score": 0.8
+      "score": 0.7
     }
   ],
   "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "This workout is classified as 'Drive', which on the Hydrow platform denotes an advanced level of rowing technique. However, according to rules for rowing workouts, the technique difficulty typically ranges from Beginner to Intermediate due to the movement's inherent simplicity compared to more complex exercises. The high rhythm (up to 32) suggests a need for good coordination and technique, elevating it from Beginner to Intermediate with a strong confidence score due to the Drive classification.",
+  "techniqueDifficultyExplanation": "The workout is classified under 'drive' and 'row', suggesting a level of sophistication in rowing technique with a blend of power elements, placing it at Intermediate. The focus on rhythms 28 through 32 and the expert guidance from Dani, a Paralympian medalist known for expert technical instruction, further supports this classification. However, since it's rowing-based, it cannot be higher than Intermediate.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.6
+      "score": 0.9
     },
     {
       "level": "Extreme",
-      "score": 0.8
+      "score": 0.6
     }
   ],
-  "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "The workout is particularly intense, described as 'maximum pace' and reaching an intensity level 3 out of 3. The use of 'drive' in the format indicates a focus on power, further implying a significant physical demand. The inclusion of high rhythm rates (28-32) compounds this by increasing the cardiovascular challenge. The duration of 21 minutes and 32 seconds, combined with this intensity, strongly aligns with an 'Extreme' effort difficulty, but is not the most taxing possible, thus also scoring well in 'Challenging'.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout's duration of 21:32 minutes, combined with a maximum pace and high-intensity number of 3 out of 3, indicates high energy expenditure at intense paces. This suggests patterns that are Challenging for most, but might edge into Extreme for deconditioned users due to sustained high-pacing and minimal rest messaging implied in the metadata.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

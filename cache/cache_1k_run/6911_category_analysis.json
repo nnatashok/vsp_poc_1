@@ -2,9 +2,9 @@
   "categories": [
     {
       "name": "Pilates",
-      "score": 0.9
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The primary category identified for this workout is 'Pilates,' which is supported by several strong indicators:\n\n1. **Explicit Mention in Metadata:** The workout type explicitly states 'pilates,' a clear and direct match to the category.\n\n2. **Title Context:** The title 'Post-Row Pilates' links the workout to Pilates, emphasizing its role as a complementary routine following rowing, focusing on core and body alignment, common in Pilates workouts.\n\n3. **Category Tags:** The metadata's category section lists 'On The Mat,' which aligns with Pilates, as such workouts are typically performed on a mat with a focus on controlled, mat-based exercises.\n\n4. **Body Focus:** The description mentions targeting glutes and hamstrings, which are often areas targeted in Pilates sessions for toning and strengthening.\n\nGiven these multiple indicators, the score for 'Pilates' is set at 0.9 with a high confidence level of 0.85. Other categories like 'Mat' were considered but are ultimately a subset of the Pilates routine described, making them redundant in this context."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

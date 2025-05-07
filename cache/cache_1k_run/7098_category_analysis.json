@@ -3,12 +3,8 @@
     {
       "name": "Indoor rowing",
       "score": 1
-    },
-    {
-      "name": "Mat",
-      "score": 0.3
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The primary category assigned is 'Indoor rowing' with a high confidence score of 1.0. This is due to several indicators in the metadata: the workout name 'Climbing the Ladder Row' and the specified category 'row' strongly suggest an indoor rowing workout. The description mentions 'technique row,' further solidifying this classification. Additionally, the format 'Interval' aligns with common indoor rowing workouts where intervals are used to vary intensity and pace.\n\nA secondary category considered is 'Mat,' given the presence of a 'technique' aspect in the description which might involve some instruction or low-intensity work off the machine. However, this is given a low score of 0.3 due to insufficient explicit indicators that additional mat work is a significant component of the workout.\n\nExcluded categories like HIIT, Running, and others were considered but lack specific supporting metadata relevant to this workout."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

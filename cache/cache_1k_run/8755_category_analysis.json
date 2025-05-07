@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.75
-    },
-    {
-      "name": "Stretching",
-      "score": 0.5
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.75,
-  "categoriesExplanation": "The metadata provides several indicators for classifying the workout. The title 'Decompress Cool-Down' and description mentioning 'relax into your stroke' suggest a rowing session that focuses on recovery. 'Max rhythm: 20, Format: Steady' confirms the intensity is low and consistent, typical for a cool-down phase, which aligns with low-intensity rowing workouts, making 'Indoor rowing' with a score of 0.75 appropriate due to its strong presence. Additionally, the keywords 'decompress' and 'relax' imply elements of 'Stretching' or flexibility training, meriting a 0.5 score since it's likely a secondary, yet significant component of the session. The absence of direct stretching or yoga terminology reduces confidence in a higher stretching score. The overall confidence is high due to the explicit mention of 'row' and structured cool-down context in the metadata."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

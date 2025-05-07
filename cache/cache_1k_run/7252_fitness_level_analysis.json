@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.2
+      "score": 0.4
     },
     {
       "level": "Intermediate",
-      "score": 0.8
+      "score": 0.7
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is classified under 'row' and 'drive' categories, which Hydrow rules dictate can only be Beginner or Intermediate for technique difficulty. 'Drive' workouts generally imply a focus on rhythm and intensity rather than complex movements, aligning with an Intermediate level. This is supported by the description mentioning rhythm shifts and max-effort intervals, suggesting the need for some coordination and body awareness, thus aligning with Intermediate technique.",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The Technique Difficulty for this workout should be classified between Beginner and Intermediate. The workout category is 'row', which means the movements are primarily focused on rowing, typically involving straightforward coordination. The use of intervals and a high-intensity rhythm might increase the complexity slightly, pushing it toward Intermediate. However, it does not reach the complexity of Advanced or Expert levels.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.6
+      "score": 0.7
     },
     {
       "level": "Extreme",
-      "score": 1.0
+      "score": 0.9
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout features max-effort intervals and is categorized under 'drive' with an intensity level of 3 out of 3. The 21-minute duration paired with the high rhythm (34+ strokes per minute) and intense music selections imply a high-energy expenditure. This suggests an Extreme effort difficulty, especially with the focus on max effort, but may also be challenging for less fit users.",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "This workout should be classified between Challenging and Extreme for Effort Difficulty. The metadata suggests a high-intensity interval row with a max rhythm of 34+, indicating a demanding pace. The duration of 21:26 is moderate but, combined with the drive format and the intensity level of 3 out of 3, suggests a very high energy expenditure, supporting the Extreme rating.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

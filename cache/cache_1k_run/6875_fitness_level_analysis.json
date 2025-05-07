@@ -2,19 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.7
-    }
-  ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'row', and per platform guidelines, this suggests a default Technique Difficulty of Beginner or Intermediate. The absence of complex movements or any special equipment use confirms a Beginner level technique. Keywords like 'power' and 'endurance' imply a focus on intensity over complexity, supporting this classification.",
-  "effortDifficulty": [
+      "score": 0.8
+    },
     {
-      "level": "Challenging",
+      "level": "Intermediate",
       "score": 0.6
     }
   ],
-  "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The workout involves high-intensity '90\" and 60\" intervals' with a max rhythm of 28, which indicates a significant energy expenditure, suitable for an interval-style. Despite the 11-minute duration, the intensity level of '2 out of 3' points to a Challenging effort difficulty, especially given the interval training format designed to enhance power and endurance.",
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout is categorized as a 'row' and fits within the Hydrow-specific guideline that allows for technique difficulty classification at either 'Beginner' or 'Intermediate' levels. The presence of a max rhythm of 28 and the format as 'Interval' suggests some level of complexity in maintaining form at higher intensities, hence the score for 'Intermediate'. Despite this, the emphasis on rhythm and intervals is characteristic of structured rowing workouts suitable for beginners with guidance, resulting in a high Beginner score.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout's duration is 11:18, which coupled with interval work focusing on 90-second and 60-second cycles suggests a moderate effort level, supported by its 'sweat' category and instructor cues focused on endurance. The intensity level is described as 2 out of 3, indicating it sits slightly above moderate but not extreme, hence splitting some score into the challenging category but predominantly remaining moderate.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

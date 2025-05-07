@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Body weight",
-      "score": 0.8
-    },
-    {
-      "name": "Mat",
-      "score": 0.7
+      "name": "Calisthenics",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is titled 'Bodyweight Circuit,' which strongly indicates the use of body weight exercises, fitting perfectly into the 'Body weight' category. Moreover, the description mentions 'bodyweight circuit designed for all levels,' reaffirming this focus. The 'Format: AMRAP' (As Many Rounds As Possible) style is common in bodyweight circuit training, further supporting the classification. The descriptor 'Category: On The Mat, standard, on-the-mat' suggests exercises performed on an exercise mat without equipment, justifying the inclusion of the 'Mat' category. The absence of any specified equipment and the relatively short duration also align with bodyweight and mat workouts. Overall, the evidence from the title and description provides high confidence in these classifications, with 'Body weight' being the primary focus, and 'Mat' as a significant component based on the metadata."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

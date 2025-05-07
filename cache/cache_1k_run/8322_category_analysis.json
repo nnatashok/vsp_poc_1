@@ -3,12 +3,8 @@
     {
       "name": "Indoor rowing",
       "score": 1
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.7
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The primary category assigned is 'Indoor rowing' with a score of 1.0 due to explicit references to rowing both in the workout name 'Steady Speed Row' and the description 'Find the resistance at the front end of your stroke with James.' These details strongly indicate use of a rowing machine. The video also uses rowing-specific terminology such as 'resistance' and 'stroke.' The inclusion of 'Bergen' suggests a scenic rowing workout, but this doesn't alter its classification as indoor rowing.\n\nThe secondary category is 'Breathing exercises' with a score of 0.7. This is suggested by the 'Workout Type' being described as 'breathe' and 'steady,' which implies a focus on controlled breathing during the workout. The intensity level is also low (1 out of 3), supporting a connection with the breathing component. However, this is secondary to the core rowing activity.\n\nOther categories like 'Stretching' or 'Meditation' were not considered due to the evident emphasis on rowing and the lack of related indicators. The confidence level for category classification is very high due to strong explicit indicators in the given metadata."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

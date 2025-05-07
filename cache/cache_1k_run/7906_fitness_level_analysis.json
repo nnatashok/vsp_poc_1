@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.8
+      "score": 0.9
     },
     {
       "level": "Intermediate",
-      "score": 0.2
+      "score": 0.6
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout category is 'row', allowing for either Beginner or Intermediate classification for technique difficulty. Due to the user fitness level requirement marked as 'Beginner' and the mention of 'building endurance' indicating potentially repetitive rhythmic movements, the technique is classified primarily at the Beginner level. The intervals might introduce slight complexity, justifying a small score for Intermediate technique difficulty.",
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is rowing-based with intervals, which typically involve consistent, straightforward movement. The description emphasizes building endurance with no mention of complex movements, aligning with Beginner technique levels. However, the interval format and rhythm max of 30 suggest some coordination, giving secondary alignment with Intermediate.",
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.8
+      "score": 0.6
     },
     {
       "level": "Moderate",
-      "score": 0.4
+      "score": 0.8
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "With a platform-specific intensity level of 1 out of 3 and a duration of 21 minutes, this workout is designed for lower exertion levels, aligning strongly with 'Light' effort. However, intervals and a max rhythm of 30 might introduce some elements of increased intensity, warranting a moderate score in the 'Moderate' category as it may challenge deconditioned users slightly more than a straightforward session.",
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout duration of 21 minutes and the activity's designation of intensity level 1 out of 3 suggest a low to moderate effort. Although the interval format might suggest higher intensity, the overall light nature of 'breathe' format and instructor's focus on making the experience enjoyable suggest effort is primarily Moderate.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

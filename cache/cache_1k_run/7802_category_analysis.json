@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The title 'Racing Rock Row' and description indicate a workout centered around rowing, specifically with a high rhythm and classic rock playlist, which suggests an energetic and motivating session. The inclusion of terms like 'rev your engine,' 'tackle high rhythm numbers,' and 'intermediate level' support the classification as an 'Indoor rowing' workout. The explicit mention of 'Max rhythm: 34' and 'Format: Intervals' also aligns well with High-Intensity Interval Training (HIIT), suggesting alternating periods of intense rowing and rest, suitable for a HIIT categorization. Additionally, the workout is labeled with intensity level 3 out of 3, reinforcing the HIIT classification. Given these strong indicators, there is high confidence in categorizing this as 'Indoor rowing' with a strong presence and 'HIIT' with a moderate-strong presence. No evidence suggests other exercise forms like Pilates or Yoga; therefore, they are not considered."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

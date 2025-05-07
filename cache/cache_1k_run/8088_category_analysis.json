@@ -3,12 +3,8 @@
     {
       "name": "Indoor rowing",
       "score": 1
-    },
-    {
-      "name": "HIIT",
-      "score": 0.5
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The title 'Core Focused Row' and description explicitly indicate that this is an indoor rowing workout, hence it receives the highest score of 1.0 for 'Indoor rowing'. The mention of 'power' and 'efforts at rhythm 26' suggests intervals of exertion that are characteristic of High-Intensity Interval Training (HIIT), justifying a secondary score of 0.5 for 'HIIT'. The intensity level 2 out of 3 indicates a high-energy workout, aligning with HIIT principles. The playlist, featuring energetic music, further supports this classification. The lack of any mention of stretching, yoga, or similar activities excludes those categories. Overall, there is very high confidence in classifying it primarily as 'Indoor rowing' with elements of HIIT."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

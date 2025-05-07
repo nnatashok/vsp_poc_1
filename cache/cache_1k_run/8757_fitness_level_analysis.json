@@ -2,15 +2,15 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.8
+      "score": 0.9
     },
     {
       "level": "Intermediate",
       "score": 0.2
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is classified primarily as 'row' and notes 'steady state' rowing between rhythms 20 to 22. This indicates simple, repetitive rowing strokes without complex variations or adjustments, suitable for those in poor physical shape. Since the technique rating considers 'row' as either Beginner or Intermediate, this session aligns closely with the Beginner criteria due to its straightforward nature, with a minor alignment with Intermediate for slight rhythmic coordination skills.",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is labeled as a 'steady state row' with rhythms between 20 to 22, which are not considered technically challenging for rowing. This is supported by the workout category 'breathe', indicating a focus on steady, less aggressive rowing. Given these factors and the classification rules for 'row' workouts, this aligns strongly with a Beginner technique difficulty, with some possibility of being Intermediate due to the rhythm.",
   "effortDifficulty": [
     {
       "level": "Light",
@@ -18,11 +18,11 @@
     },
     {
       "level": "Moderate",
-      "score": 0.3
+      "score": 0.4
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout is described as a 'steady state row' with an 11-minute duration and a rhythm of 20 to 22, marked with an intensity level of 1 out of 3. This suggests low energetic demands, with steady pacing that makes it suitable for deconditioned users. Although there's a small increase towards moderate effort due to sustained activity, the short duration and low-intensity indicator primarily align with a Light effort difficulty.",
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The duration of the workout is 11:21 at a 'steady state' rowing with classifications like breathe and an intensity level of '1 out of 3'. These factors suggest low energy expenditure and effort. The rhythm and pace implied by the workout description further reinforce this being appropriate for a Light effort level, with some alignment towards Moderate due to the continuous nature of rowing.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

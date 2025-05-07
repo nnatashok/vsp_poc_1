@@ -14,15 +14,11 @@
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.9
-    },
-    {
-      "level": "Moderate",
-      "score": 0.1
+      "score": 1.0
     }
   ],
-  "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "The workout duration is just over 10 minutes, marked as a 'cool down', which inherently suggests low intensity. Elements like a max rhythm of 22 and music genres that indicate a relaxing atmosphere reinforce the expectation of low physical demand, aligning very strongly with Light effort difficulty. There is minimal indication of increased physical demand, thus possible overlap into 'Moderate' is slight.",
+  "effortDifficultyConfidence": 1.0,
+  "effortDifficultyExplanation": "The workout is a 'cool down' lasting 10 minutes, indicating a Light effort difficulty. Cool-downs are inherently low in intensity, designed to help the body transition from exercise to rest, which perfectly aligns with a Light effort categorization. The absence of high energy or high volume cues further supports this classification.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

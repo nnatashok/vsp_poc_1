@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "HIIT",
-      "score": 0.9
-    },
-    {
       "name": "Indoor rowing",
-      "score": 0.85
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The primary category 'HIIT' is chosen due to the explicit mention of 'high intensity intervals' in both the title and description, affirming that this workout involves intervals of high-intensity activities, thus fitting the HIIT classification. The 'Indoor rowing' category is supported by the title 'Rhythm 30 HIIT Row' and the metadata categories like 'drive' and 'row', indicating that this session is performed using a rowing machine. The rhythm and pacing indicated by 'Rhythm 30' also align with structured rowing sessions. The intensity level is marked as 3 out of 3, further validating the HIIT classification. Both categories are strongly evident based on these indicators, leading to a high confidence level of 0.9 for the classification."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

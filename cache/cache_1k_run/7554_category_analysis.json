@@ -1,10 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.9
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.8,
-  "categoriesExplanation": "The workout video's metadata strongly indicates an 'Indoor rowing' classification. Despite the term 'cool down' and the relaxed phrasing of 'Reinforce technique as you cool down,' the presence of phrases like 'Three Part Pause Cool-Down,' which specifically mentions a rowing technique reinforcement, indicates it's fundamentally a rowing workout focused on technique refinement. \n\nAlthough the workout title and description suggest a cooling down phase, which is generally a lower intensity activity, this does not suggest a shift into general stretching, yoga, or meditation categories. Instead, it still aligns with rowing but with a technical focus. The use of terms 'technique,' 'Charles River,' and the row-specific terminology supports that rowing is the main focus here. The mention of rhythm control ('Max rhythm: 22') further supports rowing, which often involves rhythm and stroke rate as key metrics. \n\nThe lack of specified equipment in this metadata does not suggest other workout types such as HIIT, Weight workout, or Yoga, and the cultural references in music style complement the cool-down environment without affecting the workout's classification. The confidence in classifying this as 'Indoor rowing' is high at 0.8 because of the direct references to rowing techniques and environments."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

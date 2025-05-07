@@ -14,15 +14,11 @@
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.95
-    },
-    {
-      "level": "Moderate",
-      "score": 0.05
+      "score": 1.0
     }
   ],
-  "effortDifficultyConfidence": 1.0,
-  "effortDifficultyExplanation": "Given the workout is only 5 minutes and 47 seconds long and is specifically designed as a 'cool down', it is unlikely to be physically demanding. Cool downs are usually less intense and involve light activities meant to regulate the heart rate after more strenuous workouts. There is a small presence of effort due to the 'steady' format which might involve consistent, albeit gentle, movements but overall, it aligns strongly with a 'Light' effort difficulty classification.",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout type is 'cool down' and lasts only 5 minutes and 47 seconds, which is very short. Cool downs are typically designed to reduce heart rate and promote relaxation, which involves low energy expenditure. The steady format and max rhythm of 22 further suggest minimal physical demand, aligning strongly with the Light effort difficulty level.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

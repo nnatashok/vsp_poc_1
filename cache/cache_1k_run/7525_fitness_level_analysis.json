@@ -14,11 +14,15 @@
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 1
+      "score": 0.9
+    },
+    {
+      "level": "Moderate",
+      "score": 0.1
     }
   ],
-  "effortDifficultyConfidence": 0.95,
-  "effortDifficultyExplanation": "The workout is described as a 'cool-down', lasting just under 6 minutes, with music from chill genres. Cool-down exercises inherently involve low-intensity activities aimed at reducing heart rate and promoting relaxation, which corresponds to a 'Light' effort level. The short duration and structure as a cool-down are indicators that it is not physically demanding, consolidating its classification as Light.",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout is a 'cool down' with a short duration of under 6 minutes and is part of the 'cool down' category. This suggests very low-intensity exercise aimed at relaxation and stretching, typical of cool-down routines to reduce heart rate and tension. The low effort required, supported by the adapted music selection (Chill low, Cool/Downtempo) and the description of emphasizing relaxation, corroborates a Light effort difficulty level.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

@@ -1,24 +1,28 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Intermediate",
+      "level": "Beginner",
       "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 1
     }
   ],
   "techniqueDifficultyConfidence": 0.95,
-  "techniqueDifficultyExplanation": "The workout type is 'Drive', indicating a conditional focus on technique due to driving power during rowing intervals. These are key for strong, explosive strokes in rowing, highlighting the importance of proper form. With rowing and the category specified as 'row', this places Technique Difficulty firmly at Intermediate, following platform-specific rules that consider rowing technique as either Beginner or Intermediate, peaking here due to its Drive nature.",
+  "techniqueDifficultyExplanation": "The workoutType 'Drive' suggests a higher technique difficulty, aligning with more complex rowing sessions, typically requiring better form and coordination. Since it's a rowing-based workout, the allowed classification is Beginner or Intermediate. The HIIT format with specified intervals indicates coordination needs beyond basic levels, thus strongly justifying an 'Intermediate' classification. Given the high rhythm and intensity descriptions, there is also evidence for higher difficulty execution but without exceeding 'Intermediate.'",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.7
+      "score": 1
     },
     {
       "level": "Extreme",
-      "score": 0.5
+      "score": 0.6
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout is classified as HIIT and has an intensity level of 3 out of 3, but is relatively short at 11 minutes, which points to a high-intensity demand but not prolonged extreme exertion. The format involving intervals of 60, 45, and 30 seconds will require bursts of energy, aligning more so with Challenging, but carefully toeing into Extreme, due to both pace and type of workout (Drive).",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout is designed using HIIT intervals (60, 45, and 30-second bursts), which inherently increase the physical demands. The maximum rhythm of 30 and intensity level graded 3 out of 3 suggest significant energy expenditure, aligning with a 'Challenging' effort level. Furthermore, the limited rest typically associated with HIIT sessions could push the boundaries of effort towards 'Extreme,' particularly for deconditioned users. Overall, the workout's duration and structure mainly fit the 'Challenging' category.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Mat",
-      "score": 0.75
-    },
-    {
-      "name": "Stretching",
-      "score": 0.25
+      "name": "Yoga",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.7,
-  "categoriesExplanation": "The workout is classified primarily under 'Mat' with a score of 0.75 due to its title 'Twists Align' and description, which suggest exercises performed on an exercise mat. The title mentions 'Twists Align,' indicating a focus on activities that involve twisting movements, typically done on a mat. The category assignments in the metadata ('On The Mat') further support this classification. \n\nThe secondary classification is 'Stretching' with a score of 0.25. The description indicates opening up the side body and moving through twists, which implies stretching movements aimed at improving flexibility. Additionally, the playlist features slow and relaxed songs, which typically accompany stretching or mat workouts. \n\nThe absence of specified equipment and the description of overlooking the mountains in Norway suggest a calm and low-intensity setting, ruling out higher intensity categories. Therefore, using an evidential approach based on the provided title, description, and tags, 'Mat' and 'Stretching' are the most fitting categories."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

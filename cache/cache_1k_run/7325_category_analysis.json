@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout titled 'Club 26 Row' and the detailed description indicate it is an indoor rowing workout. The mention of 'intervals with Mike' and 'hold a rhythm 26' strongly suggests the use of a rowing machine for this exercise, as rhythms and intervals are typical features of rowing workouts. The metadata further lists it under categories like 'row' and highlights interval training, which aligns with both rowing and HIIT attributes. The specified intensity level '2 out of 3' and 'sweat' suggest a moderate to high-intensity workout. Therefore, 'Indoor rowing' is assigned a high score (0.9) due to the strong presence of rowing-specific details. 'HIIT' receives a moderate score (0.6) because of the interval format mentioned, even though the intensity is not extremely high. Other categories were not considered due to the lack of relevant indicators in the metadata."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "HIIT",
-      "score": 0.7
-    },
-    {
       "name": "Indoor rowing",
-      "score": 0.9
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.8,
-  "categoriesExplanation": "The video metadata suggests that this is primarily an 'Indoor rowing' workout due to the repeated emphasis on rowing-related terms, such as 'race,' 'rhythms,' and 'maximum meters,' alongside the format 'Power' and workout type 'drive, standard, row.' These indicators strongly suggest that the exercise is performed on a rowing machine. Thus, this category receives a high confidence score of 0.9 due to explicit rowing references in the description and categories.\n\nAdditionally, the workout is characterized by a high-intensity level, noted as '3 out of 3,' and involves maintaining a high rhythm for a relatively short duration of about 11 minutes, which aligns with the principles of 'HIIT' (High-Intensity Interval Training). The terms such as 'prepare to stay in the zone,' 'race,' and 'high rhythms' suggest a workout performed at high intensity. Therefore, 'HIIT' is identified as another suitable category with a solid score of 0.7.\n\nThe choice of playlist, featuring energetic and dynamic tracks, further supports the high-energy and possibly interval nature of the session, reinforcing the selected categories. Lower potential categories like 'Stretching' or 'Yoga' are excluded due to the lack of any flexibility or mindfulness elements and the clearly stated intense nature of the exercise."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

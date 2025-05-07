@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "Stretching",
-      "score": 0.5
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.8,
-  "categoriesExplanation": "The primary category 'Indoor rowing' is chosen with high confidence due to the metadata explicitly mentioning 'row' and a focus on steady pacing typically associated with indoor rowing machines. The workout is characterized as a 'cool down' while maintaining rhythm at a steady pace, which indicates rowing rather than more passive activities like stretching or yoga. The inclusion of 'Cool Down,standard,row' in the category section adds further support for this classification, resulting in an assignment score of 0.8.\n\nThe secondary category 'Stretching' is included with moderate confidence. The workout is described as both physical and mental recovery, which often entails an element of stretching to aid in recovery and relaxation. While the focus on rowing limits the direct emphasis on stretching, the cool-down nature of the workout implicitly involves some flexibility or recovery movements, leading to a score of 0.5.\n\nOther potential categories such as Yoga or Meditation were considered but excluded due to the lack of any mindfulness or posture-focused keywords, making 'Indoor rowing' and 'Stretching' the most relevant classifications."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

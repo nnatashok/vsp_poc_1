@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Pilates",
-      "score": 0.9
-    },
-    {
-      "name": "Mat",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout is explicitly described as an 'advanced core pilates workout,' which directly points to the \u2018Pilates\u2019 category. This assertion is supported by the metadata fields stating 'Workout Type: pilates' and the title 'Core Burn Express,' which suggests a focus on core strength, commonly associated with Pilates exercises. The presence of the term 'On The Mat' in the category field and the absence of any specified equipment suggest that it is also fitting for the 'Mat' category. The music selection, including tracks like 'Heat Waves' and 'Came Here For Love,' aligns with a potentially rhythmic, high-energy workout enhancing the Pilates focus. The confidence level is very high (0.9) due to the explicit mentions of Pilates in both the title and description, and the absence of additional equipment or specific indicators that would suggest another category."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

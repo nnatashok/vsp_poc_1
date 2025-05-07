@@ -2,11 +2,15 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 1.0
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'row' which, according to Hydrow's platform-specific rules, limits the technique difficulty to either Beginner or Intermediate. Since the user fitness level requirement explicitly states 'Beginner', and there are no complex movements or technique cues indicated in the description or metadata, this aligns well with the Beginner level. The focus on \"endurance intervals\" and low rhythms further supports a Beginner classification as it suggests fundamental rowing techniques without added complexity.",
+  "techniqueDifficultyExplanation": "The workout is classified under the 'row' category, which commonly has technique difficulties ranging between Beginner to Intermediate. Considering this, along with the description of building power at low rhythms and its focus on endurance intervals, the technique involved is likely straightforward rowing at a moderate pace, aligning with a Beginner level. However, given the interval format and some level of coordination required, there is a slight alignment with Intermediate too.",
   "effortDifficulty": [
     {
       "level": "Light",
@@ -14,11 +18,11 @@
     },
     {
       "level": "Moderate",
-      "score": 0.6
+      "score": 0.5
     }
   ],
-  "effortDifficultyConfidence": 0.75,
-  "effortDifficultyExplanation": "With a workout duration of approximately 21 minutes and being described as an 'endurance interval' session at a 'max rhythm' of 24, the effort seems moderate for beginner standards. However, the intensity level is marked as 1 out of 3 and the workout type labeled as 'breathe', which indicates a low-energy, beginner-friendly cardio routine. The effort difficulty is likely to be easier due to the format and intensity cues, thus aligning primarily with Light effort and moderately with Moderate effort.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is 21 minutes long with a max rhythm of 24, reflecting a low-intensity setting. The description mentions 'endurance intervals', which is slightly more physically demanding but remains accessible due to the low intensity rating of 1 out of 3. Thus, this workout fits strongly into the Light category with a moderate alignment to Moderate, acknowledging the slight increased complexity of intervals.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

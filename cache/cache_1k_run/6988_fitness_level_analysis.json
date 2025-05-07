@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 1.0
-    },
-    {
-      "level": "Intermediate",
-      "score": 1.0
-    }
-  ],
-  "techniqueDifficultyConfidence": 1.0,
-  "techniqueDifficultyExplanation": "Since the workout is marked as suitable for all fitness levels (Beginner, Intermediate, Advanced), the technique difficulty is considered adaptable. Movements can be scaled in complexity, and users are expected to modify techniques based on their capability. Therefore, all difficulty levels from Beginner to Expert are assigned equal suitability with a score of 1.0.",
-  "effortDifficulty": [
-    {
-      "level": "Light",
       "score": 0.8
     },
     {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The metadata indicates a Beginner yoga routine, as suggested clearly by the workout name 'Beginner Yoga Align'. Typical beginner yoga aligns with basic poses and movements which do not require advanced coordination or skill. The on-the-mat category further aligns with beginner-level practices which typically involve straightforward yoga poses that focus on basic alignment, breathing, and balance. The inclusion of an experienced yoga instructor, Owen, implies that the movements could introduce some elements of coordination or form refinement, thus a minimal score for 'Intermediate' is given.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.9
+    },
+    {
       "level": "Moderate",
-      "score": 0.5
+      "score": 0.1
     }
   ],
   "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout duration is relatively short at just under 16 minutes, and the music is described as 'Chill low' and 'Cool/Downtempo,' suggesting a low-intensity, relaxing session. As a beginner yoga class, it likely involves gentle stretching and breathing exercises, which contribute to a light effort requirement. However, yoga can involve some sustained poses that may slightly elevate the intensity, leading to a secondary alignment with moderate effort difficulty.",
+  "effortDifficultyExplanation": "The workout is marked as 15 minutes, typically a short duration session which aligns with light effort difficulty. The chill and downtempo genres suggest a relaxed intensity, commonly associated with light yoga or gentle stretching, perfect for beginners. Considering the music tempo and the description of slow-paced movement, there is only a slight consideration for 'Moderate' difficulty due to potential engagement in deeper stretches or mild core activation, common in align yoga.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",
@@ -31,12 +31,8 @@
     {
       "level": "Intermediate",
       "score": 1.0
-    },
-    {
-      "level": "Advanced",
-      "score": 1.0
     }
   ],
   "requiredFitnessLevelConfidence": 1.0,
-  "requiredFitnessLevelExplanation": "Workout type 'align' is not one of the specialized Hydrow categories (Breathe, Sweat, Drive, Distance). It is treated as suitable for all fitness levels."
+  "requiredFitnessLevelExplanation": "Workout type 'align' is not one of the specialized Hydrow categories (Breathe, Sweat, Drive, Distance). And workout description mentiones it is meant for beginners."
 }

@@ -13,16 +13,12 @@
   "techniqueDifficultyExplanation": "Since the workout is marked as suitable for all fitness levels (Beginner, Intermediate, Advanced), the technique difficulty is considered adaptable. Movements can be scaled in complexity, and users are expected to modify techniques based on their capability. Therefore, all difficulty levels from Beginner to Expert are assigned equal suitability with a score of 1.0.",
   "effortDifficulty": [
     {
-      "level": "Light",
-      "score": 0.7
-    },
-    {
       "level": "Moderate",
-      "score": 0.5
+      "score": 0.65
     }
   ],
-  "effortDifficultyConfidence": 0.75,
-  "effortDifficultyExplanation": "The workout duration is short (20 minutes), classifying it as a low-to-moderate intensity session suitable for most beginners. The absence of intense cardio activities or challenging strength elements suggests this is more aligned with light effort (0.7). The 'Moderate' level (0.5) is supported by pilates' often controlled holds and movements which can be moderately taxing, albeit accessible for the entry-level user due to the duration and absence of equipment.",
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The 20-minute duration paired with the core-focused nature of the Pilates workout suggests a Moderate effort level. While pilates is not typically high intensity, the focus on core work can be challenging but is generally manageable by users with low-to-medium fitness levels. No additional equipment or high-intensity intervals are mentioned, further supporting a moderate classification. The scenic and potentially calming setting may contribute to a sustainable workout rhythm.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

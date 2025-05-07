@@ -14,11 +14,15 @@
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.95
+      "score": 0.85
+    },
+    {
+      "level": "Moderate",
+      "score": 0.2
     }
   ],
-  "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "The 10-minute duration and description focusing on 'mobility' and 'posture' suggest a session with minimal physical exertion. Mobility workouts are generally low in intensity given their rehabilitative nature. This implies very low energy expenditure, aligning closely with a Light effort difficulty. There are no cues for high intensity or cardio that would suggest a higher effort difficulty.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "With a duration of just over 10 minutes and the focus on 'fix your posture', the workout is expected to have low energy expenditure. The purpose is to enhance mobility, typically involving gentle stretches and body adjustments, resulting in low physical exertion. Hence, it strongly aligns with the Light effort difficulty (score: 0.85). While there may be minor elements that could slightly raise the heart rate, pushing it towards Moderate difficulty, this alignment is weak (score: 0.2).",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

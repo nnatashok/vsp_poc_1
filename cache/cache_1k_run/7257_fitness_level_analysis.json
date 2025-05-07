@@ -14,11 +14,15 @@
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.9
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.2
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout is short in duration (5 minutes 53 seconds), focusing on rhythmic rowing at a max rhythm of 32 which aligns with a warm-up format. Such conditions indicate a low-intensity session, primarily aimed at warming up the body lightly. Thus, it is classified as Light effort difficulty due to its brevity and nature as a warm-up.",
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The short duration of 5:53 minutes, combined with the classification as a 'warm-up', indicates low energy demands. While the segment of 'building in rhythm' may introduce slight increases in intensity, the overall design as a warm-up suggests minimal energy expenditure, aligning it primarily with a Light effort difficulty and marginally with Moderate due to the interval format.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "HIIT",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.8,
-  "categoriesExplanation": "The workout 'Girl Power Row' is strongly aligned with the 'Indoor rowing' category due to the mention of 'row' in the workout name and category, indicating the use of a rowing machine or similar equipment. The description of the workout involving '1-minute intervals' suggests an structure typical of 'HIIT' (High Intensity Interval Training), which is also explicitly mentioned in the format. The intensity level of 3 out of 3 suggests that the workout is demanding, further aligning it with both FIIT and rowing, particularly considering the maximum rhythm of 32 beats. Additionally, while the playlist supports a high-energy environment, it does not explicitly influence the categorization beyond confirming the intense nature of this activity. Other categories like 'Mat', 'Body weight', or 'Weight workout' are excluded due to the lack of related equipment or exercise types."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

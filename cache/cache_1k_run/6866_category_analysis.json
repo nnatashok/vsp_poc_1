@@ -1,10 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.9
+      "name": "Warm-up",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The metadata strongly indicates an 'Indoor rowing' workout, evidenced by explicit mentions of 'strokes' and the phrase 'legs only, legs and core, and full strokes,' which are common terms in rowing techniques. The use of 'Technique Warm-Up' in the title and the description suggests a focus on rowing form and technique, reinforced by the 'Format: Technique' and 'Category: row' entries. The absence of specified workout equipment and the short duration fit the profile of a focused rowing technique session. Other potential categories like 'Mat' or 'Body weight' were excluded since the description is heavily oriented towards rowing activities and technique refinement rather than general floor exercises or bodyweight workouts. The confidence level is high due to the consistent theme of rowing prevalent throughout the metadata."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

@@ -13,16 +13,12 @@
   "techniqueDifficultyExplanation": "Since the workout is marked as suitable for all fitness levels (Beginner, Intermediate, Advanced), the technique difficulty is considered adaptable. Movements can be scaled in complexity, and users are expected to modify techniques based on their capability. Therefore, all difficulty levels from Beginner to Expert are assigned equal suitability with a score of 1.0.",
   "effortDifficulty": [
     {
-      "level": "Light",
-      "score": 0.9
-    },
-    {
       "level": "Moderate",
-      "score": 0.4
+      "score": 0.7
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The duration of the workout is approximately 31 minutes, which is relatively short. Combined with the restorative focus, this indicates a lower energy expenditure. The playlist featuring 'Chill mid' and 'Cool/Downtempo' radio stations supports a relaxed pace, suitable for a light effort classification. 'Yoga flow' might introduce a small measure of moderate exertion due to continuous movement, but the overall demand remains light to moderate.",
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout duration of 31 minutes suggests a moderate energy requirement. Yoga generally varies in intensity, but 'flow and restore' with chill music implies a rhythm that balances movement with relaxation rather than intense exertion. This setup aligns well with a Moderate difficulty level, making it accessible to users with varied fitness backgrounds as per the designated requirements, suitable for a Moderate effort classification.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

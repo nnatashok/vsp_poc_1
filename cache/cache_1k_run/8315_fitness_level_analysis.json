@@ -6,11 +6,11 @@
     },
     {
       "level": "Intermediate",
-      "score": 0.6
+      "score": 0.3
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which typically involves straightforward rowing strokes, thus aligning it with beginner to intermediate technique difficulty. The description does not mention any complex movements, supporting a Beginner rating (score: 0.7), but the inclusion of interval formats suggests some coordination and pacing, which could justify an Intermediate rating (score: 0.6).",
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout type is 'row' which restricts the Technique Difficulty to either Beginner or Intermediate. The workout involves interval rowing sessions with rhythm up to 30 spm, which suggests a focus on fundamental rowing skills and endurance, rather than complex movement patterns. This leans more towards Beginner given the straightforward nature of rowing, but some elements of technique, such as maintaining proper form during higher rhythm intervals, justify including Intermediate. Hence, 0.7 Beginner and 0.3 Intermediate scores.",
   "effortDifficulty": [
     {
       "level": "Moderate",
@@ -18,11 +18,11 @@
     },
     {
       "level": "Challenging",
-      "score": 0.5
+      "score": 0.2
     }
   ],
   "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout has a duration of over 21 minutes and features an interval format with a max rhythm of 30, aligning it with a Moderate effort difficulty (score: 0.8). With an intensity level of 2 out of 3, it suggests moderate physical demand. Intervals can be physically strenuous, which aligns with a potential Challenging rating (score: 0.5) for less fit users.",
+  "effortDifficultyExplanation": "The duration of the workout (21:19) and the interval nature with 3, 2, 1-minute splits indicate moderate energy expenditure. The intensity is marked as 2 out of 3, reinforcing this. It is physically demanding for less fit users but not excessively so. High rhythm and coaching to maintain effort align more with a Moderate level, but the continuous encouragement and energy expenditure support a minimal inclusion of the Challenging classification.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

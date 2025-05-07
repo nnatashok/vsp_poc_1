@@ -3,12 +3,8 @@
     {
       "name": "Pilates",
       "score": 1
-    },
-    {
-      "name": "Mat",
-      "score": 0.7
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout title 'Core Pilates' and description explicitly indicate a Pilates session focused on core strengthening, particularly targeting the obliques. The use of the term 'Pilates' directly aligns with the Pilates category, warranting a high confidence score of 1. The mention of 'on the mat' in the category and description, along with the focus on twisting exercises typical of Pilates, supports the Mat category being applicable as well. This adds context that the exercises are performed without additional equipment on a mat, giving the Mat category a score of 0.7. The upbeat music playlist featuring dance and pop hits might suggest higher energy but does not detract from the Pilates classification, as music choice does not definitively indicate workout category in this context."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

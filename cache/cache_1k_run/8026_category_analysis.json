@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.75
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.8,
-  "categoriesExplanation": "The workout titled 'October Race: Week 3 of 4' is strongly indicative of an indoor rowing session due to the tag 'row' and the format description involving rhythm, which is a common term used in rowing to describe stroke rate. The mention of 'Race off' and specific rhythm values (28 followed by 30) are specific cues often used in rowing workouts to denote stroke rates and intervals, supporting the classification of 'Indoor rowing' with a high score of 0.9.\n\nThe description of the workout also highlights alternating interval formats ('three minute intervals at a rhythm 28 followed by two minute intervals at a rhythm 30'), which is characteristic of High-Intensity Interval Training (HIIT). The use of 'interval' in the description directly implies that this format was used, further matched by the 'intensity level: 3 out of 3', indicating a vigorous exercise regimen. This suggests a strong presence of HIIT elements, which lends to the category receiving a score of 0.75.\n\nOther potential categories such as 'Weight workout' or 'Mat' were excluded as no evidence of weights or mat-based exercises was found. The playlist featuring high-energy music aligns with both vigorous indoor rowing sessions and interval training."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Body weight",
-      "score": 0.9
-    },
-    {
-      "name": "Weight workout",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout, titled 'Lower Body Strength with Bands', suggests a focus on strength exercises using a resistance band, aligning well with both the 'Body weight' and 'Weight workout' categories. While the description indicates the use of a resistance band, which often requires body weight to provide resistance, the 'Body weight' category is strongly applicable (score: 0.9) due to the nature of band exercises enhancing the resistance offered by one's own weight.\n\nThe 'Weight workout' category (score: 0.7) is applicable as resistance bands are a form of resistance equipment akin to weights, used to build strength, thus making it logical to include 'Weight workout' at a slightly lower confidence level.\n\nThe video duration of around 10 minutes aligns with a typical short, strength-focused workout. The playlist featuring energetic dance and global hits music further suggests a workout oriented towards motivation and intensity suitable for a strength session. The absence of any explicit cardio or flexibility focus, coupled with the specific mention of strength building and equipment (bands), excludes other potential categories like 'Mat' or 'Stretching'. The overall confidence level of 0.85 reflects the clear indication of focused lower body strength exercises with bands."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

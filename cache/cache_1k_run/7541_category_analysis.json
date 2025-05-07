@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Weight workout",
-      "score": 0.7
-    },
-    {
-      "name": "Mat",
-      "score": 0.8
+      "name": "Body weight",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The title 'Upper Body Strength with Long Resistance Band' and the description 'Build strength in your upper body' indicate a focus on strength training, which typically involves resistance and weight elements. Given the mention of a 'long resistance band,' this aligns well with 'Weight workout'. The use of a resistance band is a recognized form of strength training equipment, suggesting a score of 0.7 for 'Weight workout'. Additionally, the 'Workout Type' is labeled as 'strength' and references 'corrective movements' which typically involve focused muscle work, supporting this categorization.\n\nFurthermore, the metadata categorizes the video under 'On The Mat,' firmly suggesting that the exercises are performed on a mat. This aligns with exercises typically done on the floor without large machinery or equipment, justifying a score of 0.8 for 'Mat'. \n\nThe absence of cardiovascular, high-intensity, or full-body training indicators precludes categories like HIIT or Body weight. The playlist with tracks like 'Music And Lights' and 'Floating Through Space' doesn't specifically influence the workout categorization."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Body weight",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The primary category assigned is 'Indoor rowing' with a high confidence level (Score: 0.9). This is supported by the workout name 'Arms + Core Row,' which directly indicates rowing activity. The description further reinforces this with terms like 'each stroke' and 'Mac calls the drills from bow,' which are explicitly associated with rowing techniques. The workout type labeled as 'row' and 'sweat' also aligns with the physical demands of rowing, especially at a 'max rhythm: 28' and an intensity level of 2 out of 3, suggesting it's a vigorous indoor rowing session rather than a low-intensity exercise. \n\nThe second category is 'Body weight' with a moderate score (Score: 0.6) due to the focus on core engagement and the hip pivot, which are body-focused exercises often performed without additional equipment. However, this is less dominant than rowing, hence the lower score. Other categories such as 'HIIT' or 'Weight workout' were excluded due to lack of explicit high-intensity intervals or weight training descriptions. Overall, the metadata provides strong indicators for the selected categories, with 'Indoor rowing' being the most defining."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

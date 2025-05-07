@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.65
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The primary reason for classifying this workout as 'Indoor rowing' is the presence of the term 'Row' in the title, 'Shift to Sprint Row,' indicating it is performed on a rowing machine. This, combined with the focus on rhythmic and effort shifts, strongly signals a rowing workout. The workout description describes it as involving changing rhythms and effort levels, consistent with rowing intervals which match the 'Indoor rowing' category. The score of 0.9 reflects this strong indication.\n\nAdditionally, the mention of 'interval' and varying rhythm and effort levels suggests characteristics of 'HIIT' training, which often involves alternating intense and less intense periods. Although the intensity is noted as '2 out of 3,' it aligns with a structured interval training style typically seen in HIIT workouts, which justifies a moderate score of 0.65.\n\nThe absence of specific terminology relevant to other workout types like 'Yoga,' 'Pilates,' or 'Mat' reinforces the exclusion of those categories. The confidence level is set at 0.85 due to the clear indications of rowing and intensity intervals in the metadata."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

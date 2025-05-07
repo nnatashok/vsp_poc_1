@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Pilates",
-      "score": 1.0
-    },
-    {
-      "name": "Mat",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout is clearly a Pilates session as indicated by the name 'Glute Burn Pilates' and explicit mention in the workout description and type metadata (\"Workout Type: Pilates\"). The focus on isolating the glutes and building strength is a typical aspect of Pilates workouts. Given the centrality of Pilates to the provided metadata, this category is assigned a high score of 1.0, indicating it is the defining characteristic of the workout. \n\nAdditionally, the workout is mentioned as \"On The Mat\" and is categorized under \"Category: On The Mat\" in the description, which suggests a focus on mat-based exercises. This supports classifying it under the 'Mat' category, but since it is less central than the Pilates aspect, the 'Mat' category is given a slightly lower score of 0.7. \n\nThe absence of equipment and the short duration further imply a typical mat-based floor session and reinforce these categories. No other potential categories, such as 'Body weight' or 'Strength', are as pertinent given the focus on a specific Pilates technique, differentiating it from general strength or body weight sessions."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

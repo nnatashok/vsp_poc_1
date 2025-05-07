@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.5
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The primary category assigned is 'Indoor rowing' with a high confidence score of 0.9. This is due to the explicit mention of rowing in the workout name ('Stay Steady Together Row') and the description ('recognize the unique sport of rowing'). The steady rhythm and rowing-focused terms strongly indicate that the workout primarily involves indoor rowing.\n\nAn additional minor category of 'Breathing exercises' is considered with a moderate confidence score of 0.5. This is based on the workout type being labeled as 'breathe' and mentioning a focus on rhythm over intensity, suggesting an emphasis on controlled breathing.\n\nThe workout's intensity level is 1 out of 3, aligning with a submaximal effort typically found in rowing workouts that emphasize breathing control. The music playlist with songs from Pop low and Global Hits also supports a moderate tempo which suits steady rowing routines. Other categories such as 'Mat', 'Yoga', 'Pilates', and 'Meditation' were excluded due to the clear rowing focus."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

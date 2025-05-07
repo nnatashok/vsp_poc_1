@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "HIIT",
-      "score": 0.8
-    },
-    {
       "name": "Indoor rowing",
-      "score": 0.8
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout is titled 'Hill Sprints Row,' which directly indicates a rowing exercise with an element of sprinting, consistent with high-intensity training. The description mentions 'use all of your effort and power to climb in rhythm during short sprinting pieces,' which aligns with High-Intensity Interval Training (HIIT) due to the emphasis on exertion and short bursts of activity. The indicated intensity level of '3 out of 3' further supports this categorization, as HIIT workouts are typically high-intensity. Additionally, the metadata lists 'standard,row' as categories, further reinforcing the use of a rowing machine, qualifying it for the 'Indoor rowing' category. The term 'hill sprints' typically associated with running or cycling is used metaphorically here for rowing, explaining the specific application of an intense rowing session. Therefore, HIIT and Indoor rowing are strongly evident, assigning a score of 0.8 for each category."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

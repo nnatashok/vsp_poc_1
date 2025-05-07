@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.7
+      "name": "Warm-up",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout video titled 'Power Strokes Warm-Up' and categorically described with tags like 'warm-up' and 'row' strongly indicates a focus on rowing exercises, placing it in the 'Indoor rowing' category with a high confidence score of 0.9. The terms 'quick and powerful strokes' and 'interval' format suggest elements of High-Intensity Interval Training (HIIT), likely focusing on short bursts of intense activity typical in HIIT workouts. Thus, the 'HIIT' category is also applicable with a score of 0.7. While stretching or general mat workouts could theoretically apply to a warm-up, the specific mention of rowing and intervals solidly defines the primary activities, excluding other categories."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

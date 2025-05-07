@@ -1,16 +1,12 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Beginner",
-      "score": 0.2
-    },
-    {
-      "level": "Intermediate",
-      "score": 0.8
+      "level": "Advanced",
+      "score": 0.85
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The Technique Difficulty classification is strongly influenced by the workout type, 'Drive', and category 'row'. According to the rules, this constrains the classification to 'Beginner' or 'Intermediate'. Given the power-focused nature and the 'Drive' type, which typically involves intensifying the row using increased power and varied rhythms, it necessitates an Intermediate technique level to ensure proper form and coordination, particularly at higher rhythms.",
+  "techniqueDifficultyExplanation": "The workout is a 'Drive' type row, which for Hydrow implies an Advanced technique difficulty due to the need for mastery in coordination and power generation at high rhythms, specifically stating a maximum rhythm of 30. This requires a high level of coordination, body awareness, and correct form under intense conditions, which makes it beyond Beginner or Intermediate levels.",
   "effortDifficulty": [
     {
       "level": "Challenging",
@@ -18,11 +14,11 @@
     },
     {
       "level": "Extreme",
-      "score": 0.25
+      "score": 0.6
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The Effort Difficulty is determined by several factors including the overall duration of 31 minutes and the high rhythm max of 30. The workout intensity level is indicated as 3 out of 3, suggesting a physically demanding session. The 'Drive' format typically involves intense rowing sessions focusing on power output, making this workout challenging for most users, especially those in poor physical condition. The playlist containing energetic tracks supports a high energy expenditure classification. Consequently, the effort level aligns strongly with 'Challenging' but elements of 'Extreme' are present due to the high designated intensity.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is power-focused with a 31-minute duration and an intensity level marked at 3 out of 3, indicating a high energy expenditure. The description suggests generating power across various rhythms, which requires continuous effort and high cardiovascular and muscular demand. This aligns with Challenging to Extreme effort levels for most users, particularly those who are less conditioned.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

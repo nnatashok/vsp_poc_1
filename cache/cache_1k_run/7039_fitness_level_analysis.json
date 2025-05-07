@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.7
+      "score": 0.9
     },
     {
       "level": "Intermediate",
       "score": 0.4
     }
   ],
-  "techniqueDifficultyConfidence": 0.75,
-  "techniqueDifficultyExplanation": "The workout is listed as a 'breathe' type, which implies a focus on steady, controlled exercise rather than high intensity or complex sequences. Additionally, the inclusion of 'Mobility' suggests simple movements aimed at flexibility and body awareness. Given the rowing activity involved, the technique difficulty aligns primarily with 'Beginner' due to its straightforward nature, yet some elements may require 'Intermediate' technique due to transitional movements in the combo format.",
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout involves rowing with a format designed to 'open up and activate your body,' suggesting focus on basic movements rather than complex techniques. Rowing typically defaults to Beginner or Intermediate technique. The 'breathe' aspect implies simple controlled movements. Therefore, strong Beginner alignment (0.9) with moderate Intermediate alignment (0.4) due to combination format.",
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.6
+      "score": 0.8
     },
     {
       "level": "Moderate",
       "score": 0.4
     }
   ],
-  "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The workout duration is relatively short at 21 minutes, and described as 'breathe' with an intensity level of 1 out of 3, indicating low exertion. The '2-minute climbing intervals' might induce slightly elevated effort, hence a partial 'Moderate' score, but overall it remains largely 'Light' due to the primary focus on breathing and mobility.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The duration is 21 minutes with an intensity level of 1 out of 3, indicating a low intensity workout, likely involving gentle mobility exercises and light rowing with 'breathe' components. This supports a Light effort difficulty (0.8) with some Moderate effort (0.4) due to climbing intervals in rowing.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

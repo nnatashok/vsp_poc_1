@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Yoga",
-      "score": 0.9
-    },
-    {
-      "name": "Stretching",
-      "score": 0.4
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The primary category selected is 'Yoga', with a high confidence level of 0.9 due to explicit references in the workout name 'Gentle Restorative Yoga' and description, indicating it is a yoga practice. The use of terms like 'restorative practice' further confirms the yoga aspect, specifically pointing to a relaxed, restorative session typically associated with yoga. Additionally, the mention of 'On The Mat' in the categories suggests a mat-based workout, common in yoga sessions.\n\nA secondary category considered is 'Stretching', with a more moderate score of 0.4. This is due to possible stretching elements involved in a gentle restorative yoga practice, as they often include stretching to improve flexibility and relaxation. However, the focus is primarily on the yoga aspect, as stretching is not the main focus.\n\nOther categories like 'Pilates', 'Meditation', or 'Breathing exercises' were excluded due to lack of explicit or implicit indicators specific to those practices in the metadata."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

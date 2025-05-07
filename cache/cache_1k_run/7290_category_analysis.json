@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.8
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The analysis of the metadata strongly supports the classification of this workout as both 'Indoor rowing' and 'HIIT'. The title \"Newport Beach HIIT Row\" immediately suggests a rowing workout with high-intensity intervals. The description further reinforces this by specifying \"ten sets of 1-minute high intensity intervals,\" indicating a HIIT format, which involves alternating periods of intense activity and rest. This is a core characteristic of HIIT workouts.\n\nThe categorization tags include \"Drive, standard, row,\" with \"row\" directly pointing to an indoor rowing workout. The mention of a 'max rhythm of 34' also suggests metrics commonly associated with rowing machines. Additionally, the workout's described intensity level is '3 out of 3,' which aligns with the high-intensity nature of both HIIT and targeted indoor rowing workouts. \n\nTherefore, the strong presence of indicators for both categories justifies the scores: 'Indoor rowing' is given a score of 0.9, reflecting its central role, while 'HIIT' scores 0.8 due to its clearly emphasized format throughout the description."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

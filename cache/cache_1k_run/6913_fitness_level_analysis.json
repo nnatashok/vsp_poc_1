@@ -3,26 +3,22 @@
     {
       "level": "Intermediate",
       "score": 0.7
-    },
-    {
-      "level": "Advanced",
-      "score": 0
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The technique difficulty for 'Rock HIIT Row' is classified as Intermediate with a score of 0.7. As per Hydrow-specific rules, the 'row' category generally restricts the technique difficulty to Beginner or Intermediate. The 'drive' workout type aligns with slightly complex rowing exercises that require good coordination, pushing it to Intermediate. There's an Advanced technique level indicated by the user fitness requirement, but due to the 'row' category, Intermediate remains most appropriate.",
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout type 'drive' in a rowing context suggests intermediate difficulty due to the emphasis on technique and power application, as supported by the advanced level requirement in the metadata. The HIIT format typically includes complex timing and pacing rather than movement technique complexity, setting it firmly as Intermediate.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.8
+      "score": 0.7
     },
     {
       "level": "Extreme",
-      "score": 0.4
+      "score": 0.3
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The effort difficulty is assessed as Challenging with a score of 0.8 due to the 'HIIT' format and a maximum rhythm of 32 strokes per minute. These factors indicate a high-intensity workout. The duration is over 17 minutes, which is enough time to sustain significant energy expenditure, pushing it slightly towards Extreme. However, given the intensity level of 3/3, Challenging is the primary classification, with some overlap into the Extreme range.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout's intensity level is rated 3 out of 3, indicating a highly demanding session. The 17-minute duration with high-intensity intervals (HIIT) suggests a demanding workout. The format likely involves short rest periods, consistent with a 'challenging' to 'extreme' effort level, and supported by the 'Drive' category known for advanced rowing workouts.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

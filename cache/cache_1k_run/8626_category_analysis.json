@@ -2,9 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 1.0
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.95,
-  "categoriesExplanation": "The primary indicator for categorizing this workout as 'Indoor rowing' is explicitly given in the metadata itself with the phrases 'Club 26 Row' and the tags 'row'. The description details an interval format which is common in rowing workouts, specifically using time intervals typical for ergometer sessions ('1', 2', 3', and 4' intervals at a rhythm 26'). The term 'sweat' suggests a cardio or endurance focus which further aligns with rowing exercises. Given the structured interval training on a rowing machine and emphasis on rhythm, the score of 1.0 for the 'Indoor rowing' category reflects a very strong presence. While the intensity and music genre suggest an engaging and moderately intense session, they do not indicate any other category. Other potential categories such as HIIT, Mat, or Treadmill were excluded as there's no mention of high intensity, bodyweight exercises, or running in the provided metadata."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

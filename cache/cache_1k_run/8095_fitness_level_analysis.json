@@ -1,28 +1,24 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Beginner",
-      "score": 0.7
-    },
-    {
-      "level": "Intermediate",
+      "level": "Advanced",
       "score": 0.9
     }
   ],
-  "techniqueDifficultyConfidence": 0.85,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'row' and 'Drive', specific to rowing exercises that typically range from Beginner to Intermediate on the technique difficulty scale. Even though the user fitness level requirement is Advanced, rowing movements rarely reach higher than Intermediate in technique complexity. The metadata lacks any indication of complex movement patterns beyond advanced rhythm coordination, which aligns with Intermediate difficulty.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'Drive', which per Hydrow rules, places the technique difficulty at an Advanced level automatically, regardless of the usual rowing classification. The emphasis on high rhythms and long duration suggests complex coordination and stamina are necessary, as further aligned with the 'Drive' category.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.75
+      "score": 0.8
     },
     {
       "level": "Extreme",
-      "score": 0.5
+      "score": 0.7
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout is designed as a Drive session, implying high-intensity output for a short duration (11 minutes 22 seconds) with a pace targeting maximum meters at a high rhythm (32). The intensity is rated 3 out of 3, indicating significant physical demands that push it into the 'Challenging' category, with potential for 'Extreme' exertion. This categorization is supported by the metadata indicators: 'race', 'high rhythms', and maximum energy expenditure cues.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout description highlights intense elements such as sustained 10-minute races at maximum rhythm (32 strokes per minute), which indicates high energy expenditure. The format (Power) coupled with a top intensity level (3 out of 3) further suggests that high physical effort is required, aligning with Challenging to Extreme effort difficulty levels.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

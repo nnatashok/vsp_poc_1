@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout video titled \"Be Present Row\" suggests that the primary focus is on rowing, as indicated by the word 'Row' and the use of 'steady' and 'rhythm' in the description. The metadata further specifies 'row' under the category, supporting this being an 'Indoor rowing' session. Additionally, the description emphasizes being present with emotions and breathing, and tags such as 'breathe' and 'breathe,standard,row' indicate an element of mindfulness or controlled breathing. Thus, 'Breathing exercises' is also relevant. The low-intensity level (1 out of 3) aligns with a relaxed rowing session, where breathing and mindfulness are emphasized. Given the strong indicators for rowing and breathing emphasis, 'Indoor rowing' receives a score of 0.9, and 'Breathing exercises' a score of 0.6 due to the supportive yet less dominant role."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

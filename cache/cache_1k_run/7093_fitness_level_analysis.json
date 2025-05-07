@@ -3,10 +3,14 @@
     {
       "level": "Intermediate",
       "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout type 'drive' implies that the exercises are focused on power and intense application of force during rowing, which requires good understanding of rowing mechanics but not excessively complex movements. 'Drive' in rowing typically aligns with an Intermediate technique difficulty due to the need for controlled power application and rhythm at higher strokes-per-minute (32 rhythm).",
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout type 'drive' in the Hydrow platform is typically associated with higher difficulty levels due to its focus on powerful, technical rowing strokes and intense pacing, aligned with the 'Interval' format requiring coordination and rhythm. Despite this, the primary action being rowing keeps it within Intermediate due to Hydrow rules, though advanced aspects may be present given the instructor's Olympic background.",
   "effortDifficulty": [
     {
       "level": "Challenging",
@@ -14,11 +18,11 @@
     },
     {
       "level": "Extreme",
-      "score": 0.6
+      "score": 0.2
     }
   ],
   "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout's duration of 21 minutes with a high intensity level (3 out of 3) and a max rhythm of 32 indicates a high energy output typical of a challenging workout. The format being 'Interval' boosts this, as intervals tend to elevate heart rates significantly due to burst efforts and minimal rest. However, the drive category and high stroke rhythm also suggest that some users might find it extremely taxing, thus partially justifying an 'Extreme' score as well.",
+  "effortDifficultyExplanation": "The workout's intensity level is marked as 3 out of 3, indicating it is very demanding. The interval format and high rhythm (max rhythm of 32) further suggest sustained, high-energy output, requiring significant physical exertion over the 21-minute duration. This places it primarily in the Challenging category but with elements of Extreme due to the overall structure and reported intensity.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

@@ -2,15 +2,15 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.7
+      "score": 0.75
     },
     {
       "level": "Intermediate",
-      "score": 0.3
+      "score": 0.25
     }
   ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "This workout is classified under the 'row' category. According to Hydrow-specific rules, rowing workouts generally have a technique difficulty level of either Beginner or Intermediate. The mention of climbing in intensity suggests some complexity, but the rowing format typically requires minimal advanced coordination. Thus, a stronger alignment towards Beginner is supported by its straightforward nature, but including Intermediate as well due to the workout's climbing aspect and rhythm coordination involved.",
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "Since 'row' is a category of the workout, the Technique Difficulty is constrained by Hydrow's rules to be either Beginner or Intermediate. The description highlights a focus on proper form and climbing intensity, which suggests a small degree of complexity, linking this workout weakly to Intermediate. The rowing element primarily keeps it grounded in Beginner complexity.",
   "effortDifficulty": [
     {
       "level": "Moderate",
@@ -21,8 +21,8 @@
       "score": 0.3
     }
   ],
-  "effortDifficultyConfidence": 0.75,
-  "effortDifficultyExplanation": "With a duration of 16 minutes and a medium intensity level marked as 2 out of 3, this workout is relatively brief but maintains a significant effort due to the climbing intensity format. Rhythmic elements at a max rhythm of 28 contribute to more physical demand, aligning it closer to Moderate with some elements of Challenging, particularly for individuals in poor shape.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The short duration of 16:14 minutes likely does not lead to high energy expenditure, aligning it closer to Moderate effort. However, the format as 'sweat' and a max rhythm of 28, combined with an intensity level of 2 out of 3, indicates the inclusion of some challenging elements, giving it some alignment with Challenging.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

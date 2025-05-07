@@ -2,9 +2,9 @@
   "categories": [
     {
       "name": "Yoga",
-      "score": 0.9
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout titled 'Standing Posture Align' suggests a focus on alignment in standing postures, which is characteristic of yoga practices. The description further reinforces this by mentioning 'yoga align' and emphasizes improvements in standing postures with two instructors named Owen and Nick. Although the category 'On The Mat' is indicated in the metadata, it's more fitting to classify this under 'Yoga' specifically, given the explicit reference to a yoga practice. The music playlist, though upbeat and featuring pop songs, does not direct the classification away from yoga, since music choice can vary significantly in yoga sessions. The duration of 10 minutes and 50 seconds supports a short-focused yoga session rather than a full-length fitness workout. Therefore, 'Yoga' is assigned a score of 0.9 due to its strong presence, while other potential mat-based workout categories are excluded because there are no indications of general floor or bodyweight exercises in this metadata."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

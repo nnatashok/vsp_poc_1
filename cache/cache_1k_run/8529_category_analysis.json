@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Mat",
-      "score": 0.7
-    },
-    {
-      "name": "Weight workout",
-      "score": 0.8
+      "name": "Calisthenics",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is clearly a 'Weight workout' due to the use of dumbbells, as indicated in the equipment metadata. Additionally, the workout type 'circuit' implies a structured series of exercises, often involving strength training and heavy reliance on weights. This category is assigned with a score of 0.8 due to these strong indicators.\n\nSecondly, the category 'Mat' is also applicable because the workout involves total body work 'off Hydrow' and is categorized under 'On The Mat', suggesting exercises performed on the floor without a rowing machine. The use of the phrase 'On the Mat' in the original metadata reinforces this classification, therefore scoring it a 0.7.\n\nThe combination of these elements leads to a high confidence level of 0.85, as explicit mentions of equipment use and the nature of the workout format suggest a strong presence of these categories."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

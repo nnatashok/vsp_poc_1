@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.7
-    },
-    {
-      "level": "Intermediate",
-      "score": 0.3
-    }
-  ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The 'Tampa Intervals Row' is classified as a rowing workout, indicated by the category and title. Based on Hydrow's guidelines, rowing workouts have a technique difficulty range limited to Beginner or Intermediate. The mention of 'Drive through your legs during intervals' signifies a focus on proper rowing form, suggesting a slight complexity but not exceeding Intermediate. Therefore, Beginner is strongly aligned due to the simplicity of the exercise, while Intermediate is partially aligned due to the focus on form.",
-  "effortDifficulty": [
-    {
-      "level": "Moderate",
       "score": 0.8
     },
     {
-      "level": "Challenging",
-      "score": 0.2
+      "level": "Intermediate",
+      "score": 0.6
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The duration of the workout is 21 minutes and 30 seconds, with an interval format and an intensity level indicated as 2 out of 3. These factors suggest a workout that is more intense than light but not excessively demanding. The interval nature increases effort, aligning well with Moderate effort difficulty. The music's mid-intensity supports this classification. A moderate alignment with Challenging is also noted, given the interval feature which may increase cardiovascular demands.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized under the 'row' category, limiting technique difficulty to a maximum of 'Intermediate'. Given the emphasis on driving through the legs and maintaining rhythm during intervals, the movements require basic coordination and body awareness typical of rowing. Rowing as a movement itself is less complex compared to compound lifts or advanced yoga poses, justifying a strong alignment with 'Beginner' (score: 0.8) and moderate alignment with 'Intermediate' (score: 0.6).",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout duration is 21 minutes and 30 seconds, which is moderate. Combined with an intensity level of 2 out of 3 and the interval format, this implies moderate to challenging energy expenditure, especially for deconditioned users. The format 'interval' suggests periods of higher intensity, raising the energy demand slightly, warranting a primary classification of 'Moderate' (score: 0.7) and secondary readiness for 'Challenging' (score: 0.5) due to interval training's nature and duration.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

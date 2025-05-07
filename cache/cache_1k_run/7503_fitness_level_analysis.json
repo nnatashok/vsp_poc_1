@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.7
+      "score": 0.75
     },
     {
       "level": "Intermediate",
-      "score": 0.3
+      "score": 0.5
     }
   ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout is a rowing session, as indicated by the category 'row'. According to platform-specific rules, rowing workouts can either have a Beginner or Intermediate rating for technique difficulty. The video involves interval training at stroke rhythms of 26 and 28, which requires some coordination but remains fairly basic. The absence of complex movement patterns or additional equipment suggests that this session falls slightly more towards the Beginner level of technique difficulty, although there are elements of coordination aligned with an Intermediate level.",
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is classified under the rowing category, defaulting Technique Difficulty to Beginner or Intermediate. With interval rhythms of 26 and 28, the execution complexity remains low, suitable for general rowing activities which do not require advanced technical skills.",
   "effortDifficulty": [
     {
       "level": "Moderate",
-      "score": 0.6
+      "score": 0.7
     },
     {
       "level": "Challenging",
-      "score": 0.4
+      "score": 0.45
     }
   ],
-  "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The workout consists of 5 intervals of 2 minutes each, with a total duration of around 21 minutes, which suggests a fairly moderate effort overall. The stated workout intensity level of 2 out of 3 and the max rhythm of 28 indicate that the session involves a significant amount of exertion, though it is not exceedingly strenuous. These factors, combined with the interval format and the motivational rock playlist, lead to a slightly higher Moderate but entering Challenging territory for users who may be deconditioned or less motivated.",
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout comprises 21 minutes of intervals at a moderate intensity level of 2 out of 3, with a rhythm of 26-28, indicating a Moderate effort suitable for moderately fit users. The combination of the workout duration and rhythm suggests some challenge for deconditioned users, but it is not excessively demanding.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

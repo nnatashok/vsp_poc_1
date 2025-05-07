@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.6
+      "score": 0.9
     },
     {
       "level": "Intermediate",
       "score": 0.4
     }
   ],
-  "techniqueDifficultyConfidence": 0.7,
-  "techniqueDifficultyExplanation": "The user's fitness level requirement is Intermediate, indicating that the Technique Difficulty should align. Given the workout type is 'row', this aligns with either Beginner or Intermediate. The workout description includes moderate complexity elements like controlling rhythm and adjusting power, supporting a Beginner to Intermediate rating. However, considering the 11-minute duration and rhythm control aspects, the alignment skews slightly towards Beginner with a moderate Intermediate component due to rhythm variation.",
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is classified under the 'row' category, which restricts the technique difficulty to either Beginner or Intermediate levels. The core activity, rowing, involves repetitive, low-complexity movements that primarily require maintaining a consistent stroke form. Given the workout intensity level of 2 out of 3 and a focus on varying rhythms, there is an element of coordination involved, slightly edging towards the Intermediate level. However, overall, the movement complexity remains low, justifying a high score for Beginner.",
   "effortDifficulty": [
-    {
-      "level": "Light",
-      "score": 0.3
-    },
     {
       "level": "Moderate",
       "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.4
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout, tagged as 'sweat' and 'Power' with an intensity level of 2 out of 3, indicates a moderate energy exertion rather than light. The short duration (11 minutes and 19 seconds) prevents it from being highly demanding physically, lending to a Moderate classification. The effort required to maintain control over rhythm variation can elevate energy expenditure slightly beyond Light but does not reach Challenging or Extreme due to the brevity of the workout.",
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout has a duration of 11:19 and is labeled within the 'sweat' category, indicating a focus on cardio and endurance. With an intensity level marked as 2 out of 3, it is moderately demanding, particularly due to the emphasis on power and rhythm variation. These factors increase the energy expenditure beyond a light workout, suggesting a moderate effort difficulty, with challenging aspects for less fit users.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

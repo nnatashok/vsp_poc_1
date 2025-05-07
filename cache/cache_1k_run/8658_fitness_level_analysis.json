@@ -1,28 +1,20 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Beginner",
-      "score": 0.6
-    },
-    {
-      "level": "Intermediate",
-      "score": 0.8
-    }
-  ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout is categorized as 'drive' and 'row', suggesting rowing is the primary exercise. Given that rowing generally involves synchronized movements but is not overly technical, this aligns with an Intermediate technique difficulty. The advanced category applies when coordination and skill are involved, which is consistent with synchronization in high-rhythm contexts (max rhythm 30). \"Drive\" workouts on Hydrow typically indicate a higher technique requirement, hence the higher confidence in Intermediate classification.",
-  "effortDifficulty": [
-    {
-      "level": "Challenging",
-      "score": 0.5
-    },
-    {
-      "level": "Extreme",
+      "level": "Advanced",
       "score": 0.9
     }
   ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout type is classified as 'drive,' which according to Hydrow's specific rules should be considered Advanced due to its technical rowing elements and coordination requirements. The 'HIIT' format and 'Drive' category further support a higher classification on the technique difficulty scale, as they suggest complex rowing tasks that require good body awareness and coordination. This content is not classified under the simple rowing categories, confirming its advanced nature.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.95
+    }
+  ],
   "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "The workout is a HIIT (High-Intensity Interval Training) format with an intensity level of 3 out of 3, suggesting high physical demand. The duration of 21 minutes is relatively short but typical for intense cardio sessions. HIIT with maximum rhythm cues to push effort levels to the extreme, aligning with very high energy expenditure. Therefore, the high-intensity cues ('Drive' Type and \"raising your heart rate\") justify classifying this as Extreme effort primarily, with some alignment with Challenging, focusing on scalability.",
+  "effortDifficultyExplanation": "The workout is labeled as high intensity with a max rhythm of 30, aligning with an intensity level of 3 out of 3, suggesting a highly demanding session in terms of energy expenditure. The 21-minute duration for a high-intensity interval training (HIIT) format likely involves minimal rest periods and significant cardiovascular effort, making it considerable energy expenditure for most users, classifying it as Challenging.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

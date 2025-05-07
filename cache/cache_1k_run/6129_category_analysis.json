@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Yoga",
-      "score": 0.8
-    },
-    {
-      "name": "Mat",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.8,
-  "categoriesExplanation": "The workout is classified as 'Yoga' with a high confidence score of 0.8 due to the explicit mention of 'Restorative Yoga' in the title and the description emphasizing gentle movements and holding poses, which aligns closely with yoga practices. Additionally, 'On The Mat' is mentioned in the category, suggesting floor-based exercises typical of a yoga session. The duration of 16 minutes and the chill, downtempo music suggest a relaxed, meditative atmosphere that is characteristic of restorative yoga sessions. There is a secondary classification as a 'Mat' workout with a score of 0.6 because the workout involves floor exercises on a mat, but yoga is the more defining characteristic. Other potential categories such as 'Meditation' or 'Stretching' are excluded because the focus on yoga-specific poses aligns more closely with 'Yoga' rather than general meditation or stretching practices."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

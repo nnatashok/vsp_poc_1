@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.85
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.95,
-  "categoriesExplanation": "The workout 'Running Up the Hill Row' is strongly classified under 'Indoor rowing' with a score of 0.9 because of the mentions of 'row' and 'drive' in the workout metadata, implying a strong focus on rowing exercises. This is further supported by the highest workout intensity level (3 out of 3), which aligns with intense indoor rowing sessions. The workout is also categorized under 'HIIT' with a score of 0.85 due to the description indicating 'four phases of HIIT intervals,' explicitly highlighting a high-intensity interval training element. The duration is typical for HIIT workouts. The musical playlist featuring energetic and upbeat tracks like 'You Spin Me Round' and 'Running Up That Hill' supports the high-intensity nature. Although the metadata mentions 'rowing,' which is conducted on a rowing machine, the emphasis on 'HIIT intervals' justifies including both categories with high confidence. Other categories were excluded as they do not fit the description or workout style evidenced here."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

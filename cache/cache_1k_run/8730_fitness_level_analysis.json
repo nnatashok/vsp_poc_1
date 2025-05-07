@@ -1,28 +1,20 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Beginner",
-      "score": 0.5
-    },
-    {
       "level": "Intermediate",
-      "score": 0.9
+      "score": 1.0
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'row' and 'drive', which suggests an emphasis on rowing transitions, a standard technique aspect in rowing workouts. As per Hydrow's classification, 'drive' typically involves strong, efficient rowing strokes that can be complex due to tempo and power adjustments. However, rowing movements generally are categorized as Beginner to Intermediate based on technique complexity, with strong cues from 'drive' giving it a stronger lean towards Intermediate. The user fitness requirement of Advanced does not restrict categorization to this level for technique difficulty.",
+  "techniqueDifficultyExplanation": "The 'Transitions Down Row' workout is categorized under 'Drive', which typically involves systematic and regimented rowing techniques. For rowing workouts, the technique difficulty is usually rated as Beginner or Intermediate. Despite the 'Drive' categorization, which suggests an advanced structured path, rowing itself remains within the Intermediate difficulty due to consistent repetitive rowing motions. Hence, this workout is rated as Intermediate for technique due to its complexity in rhythm transitions, but still accessible for developing skills.",
   "effortDifficulty": [
     {
-      "level": "Moderate",
-      "score": 0.5
-    },
-    {
       "level": "Challenging",
-      "score": 0.8
+      "score": 0.7
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout duration of over 21 minutes and the max rhythm of 32, combined with its categorization as 'drive' and an intensity level of 3 out of 3, indicates a significant physical demand. The intervals imply varying intensity, typical of challenging exercises. Although medium in duration, 'drive' type workouts usually necessitate high energy, indicating a Challenging intensity, but fall short of Extreme due to lack of additional information indicating heavy load or lack of rest.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is designed with the 'Drive' type, which emphasizes high intensity and rhythm, indicated by a max rhythm of 32 and a duration of 21:22 minutes. The intensity is marked 3 out of 3, indicating that the session is quite demanding. This setup requires sustained energy and effort, particularly in maintaining power through intervals. Hence, the effort level is appropriately rated as Challenging due to the high pace and intensity that Buffy, a three-time Olympian, provides in her training approach.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

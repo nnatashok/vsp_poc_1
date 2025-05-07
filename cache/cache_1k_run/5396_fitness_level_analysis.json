@@ -6,23 +6,23 @@
     },
     {
       "level": "Intermediate",
-      "score": 0.1
+      "score": 0.3
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout type 'row' caps the Technique Difficulty at Intermediate, but given the metadata, particularly the 'standard' row categorization and user fitness level requirement of 'Beginner', the Technique Difficulty is predominantly Beginner. The class description emphasizes accountability rather than complex rowing techniques, indicating minimal coordination requirement.",
+  "techniqueDifficultyConfidence": 0.87,
+  "techniqueDifficultyExplanation": "The workout is rowing-based, which according to the guidelines limits technique difficulty to Beginner or Intermediate. The description emphasizes accountability with 'proper form' as a focus, suggesting some degree of technique but likely beginner-friendly due to its categorization under 'Breathe' and 'standard'. The 'breathe' workout type and mention of 'endurance' usually requires basic technique, not complex movements. Therefore, there is strong alignment with Beginner level.",
   "effortDifficulty": [
     {
-      "level": "Light",
-      "score": 0.4
+      "level": "Moderate",
+      "score": 0.8
     },
     {
-      "level": "Moderate",
-      "score": 0.6
+      "level": "Challenging",
+      "score": 0.4
     }
   ],
-  "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "With a duration of over 30 minutes, this class could be moderately physically demanding, yet the workout intensity level is only 1 out of 3, indicative of a less strenuous effort. The focus on 'endurance' and rhythm max of 30 suggests some mild intensity, but overall, it remains accessible to less conditioned users. The format 'climb' could require more energy, but its classification under 'breathe' lessens total effort.",
+  "effortDifficultyConfidence": 0.82,
+  "effortDifficultyExplanation": "The workout lasts 31:32, indicating moderate duration for an endurance row. The intensity level is 1 out of 3, suggesting a focus on sustained effort rather than explosive intensity, aligning with moderate effort difficulty. The presence of rhythmic elements like 'Climb' hints at some exertion, positioning it between Moderate and Challenging for users with low fitness motivation.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

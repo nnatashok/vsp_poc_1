@@ -6,11 +6,11 @@
     },
     {
       "level": "Intermediate",
-      "score": 0.5
+      "score": 0.1
     }
   ],
-  "techniqueDifficultyConfidence": 0.85,
-  "techniqueDifficultyExplanation": "The workout is classified with a 'row' category which typically suggests beginner to intermediate technique difficulty. The description emphasizes prioritizing form at shorter slide lengths, indicating a focus on basic rowing movements rather than complex techniques. There is no mention of advanced technical skills like power rows or complex usage of equipment, aligning with beginner technique difficulty. Since 'row' workouts can sometimes require coordination, there's a strong (0.5) alignment with intermediate, but predominantly beginner (0.9).",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is a rowing session ('row') labeled with a 'breathe' category, which typically involves a lower intensity and focus on form rather than technical complexity. The 'Shortened Slide' technique suggests a focus on specific rowing form, which might slightly elevate complexity to Intermediate, but it remains Beginner-friendly due to its alignment with 'Prioritize your form,' indicating accessible technique expectations. Hence, a high confidence in Beginner classification with a slight nod to Intermediate.",
   "effortDifficulty": [
     {
       "level": "Light",
@@ -18,11 +18,11 @@
     },
     {
       "level": "Moderate",
-      "score": 0.6
+      "score": 0.2
     }
   ],
-  "effortDifficultyConfidence": 0.75,
-  "effortDifficultyExplanation": "The duration of 21 minutes and steady format, with an intensity level of 1 out of 3, suggests that this workout requires low to moderate effort. The aim is to prioritize form and improve quickness on shorter slide lengths at a max rhythm of 26, which is unlikely to be physically demanding for more fit individuals but might pose slight challenges to complete beginners. Thus, there's a very strong alignment with 'Light' and moderate alignment with 'Moderate' due to the length and general intensity cues from metadata.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout's intensity level is 1 out of 3, which translates to a light effort demand. The focus on steady rhythm and 'breathe' workout type aligns with a calming, low-intensity session. The short duration (approximately 21 minutes) further supports this, suggesting the workout is suitable for maintaining effort without exertion. While 'shortened slide' demands some quickness, the overall effort remains predominately Light, with a slight Moderate alignment due to the rhythmic component.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

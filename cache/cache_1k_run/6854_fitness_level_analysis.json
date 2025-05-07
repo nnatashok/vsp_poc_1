@@ -2,15 +2,15 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.6
+      "score": 0.8
     },
     {
       "level": "Intermediate",
-      "score": 0.7
+      "score": 0.6
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which typically indicates a Beginner to Intermediate level of technique complexity due to the repetitive and straightforward nature of rowing movements. The focus on technique and connection between legs and core suggests a slightly higher level of complexity aligning with Intermediate. The session is technique-focused but not explicitly challenging, with no complex movements beyond rowing indicated in the metadata. Therefore, Beginner and Intermediate align well.",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The video focuses on rowing technique, which generally aligns with Beginner to Intermediate levels due to the relative simplicity of rowing mechanics compared to more complex movements. The cross-reference with the 'Technique' format in the metadata suggests careful attention to proper form, elevating the potential difficulty slightly, but not above Intermediate.",
   "effortDifficulty": [
     {
       "level": "Moderate",
@@ -21,8 +21,8 @@
       "score": 0.5
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout duration of 21 minutes and 30 seconds with an intensity level of 2 out of 3 suggests a moderately challenging session, primarily emphasizing technique rather than vigorous energy expenditure. The rhythm max of 30 and playlist suggest an engaging yet not overly intense pace, pointing towards Moderate to Challenging effort. This aligns with the 'sweat' workout type, further indicating a slightly higher effort level than typical technique sessions.",
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The 21:30-minute duration combined with a maximum rhythm of 30 suggests Moderate effort, particularly given the aerobic nature of rowing. The 'sweat' workout type and an intensity level of 2 out of 3 indicate it requires more than Light effort, leaning towards Moderate to Challenging for less fit users, especially considering the continuous activity involved.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

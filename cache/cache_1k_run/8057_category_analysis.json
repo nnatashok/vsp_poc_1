@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is titled 'Teammate Energy Row,' and the description clearly indicates that it involves rowing exercises ('Feel the energy working out'). Additionally, the format is stated as 'Interval,' which strongly implies an alternating intensity structure, resounding with the principles of HIIT. The workout is described to involve 'two 4-minute intervals' and uses terms like 'sweat' and 'standard row,' emphasizing the presence of a rowing machine and interval training. The intensity level of '2 out of 3' further suggests a moderately intense workout, characteristic of both rowing and interval training formats. Given these factors, the primary category is confidently 'Indoor rowing' with a score of 0.9 due to the explicit mention and focused nature of the workout on rowing. 'HIIT' is also relevant with a score of 0.7, due to the clear interval structure described, uncommon in relaxed, low-intensity workouts."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

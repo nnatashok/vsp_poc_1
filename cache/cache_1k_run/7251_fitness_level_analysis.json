@@ -13,16 +13,16 @@
   "techniqueDifficultyExplanation": "Since the workout is marked as suitable for all fitness levels (Beginner, Intermediate, Advanced), the technique difficulty is considered adaptable. Movements can be scaled in complexity, and users are expected to modify techniques based on their capability. Therefore, all difficulty levels from Beginner to Expert are assigned equal suitability with a score of 1.0.",
   "effortDifficulty": [
     {
-      "level": "Light",
-      "score": 0.5
+      "level": "Moderate",
+      "score": 0.7
     },
     {
-      "level": "Moderate",
+      "level": "Challenging",
       "score": 0.5
     }
   ],
-  "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The workout is 20 minutes and 50 seconds long, consisting of four rounds of bodyweight exercises, which suggests a moderate level of energy expenditure. Without external weights or intense interval training, the workout could fall into a lighter intensity range. However, as there are multiple rounds, the energy output bumps effort closer to a moderate range, appealing to beginners and intermediate exercisers who need a bit more engagement without overstraining.",
+  "effortDifficultyConfidence": 0.6,
+  "effortDifficultyExplanation": "The workout duration is just over 20 minutes and consists of continuous rounds of exercises, implying sustained effort. The 'strength' workout type with 'four rounds' and no rest indicated suggests a moderate energy expenditure, fitting a Moderate effort difficulty. However, the involvement of a two-time Olympian instructor implies a higher challenge level due to potentially high-intensity cueing and motivation, supporting a Challenging classification as well. Hence, Moderate (score 0.7) and Challenging (score 0.5) levels are suitable.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

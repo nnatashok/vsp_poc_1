@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.8
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.95,
-  "categoriesExplanation": "The video titled \"Commit to Fit: Staying on Track Row\" is classified primarily under 'Indoor rowing' and 'HIIT' based on several strong indicators in the metadata. The workout description mentions a \"high-intensity drive,\" suggesting a rigorous and dynamic exercise format consistent with HIIT. Furthermore, the format is explicitly stated as 'HIIT' with a maximum rhythm of 30, confirming the high-intensity interval training component. The category tags such as 'drive', 'standard', and 'row' along with the absence of any other equipment and the mentioned 'row' specifically indicate indoor rowing as a central part of the workout. The workout intensity level of 3 out of 3 further supports this classification. The high confidence levels (0.95) reflect clear and explicit evidence from the metadata supporting these categories."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

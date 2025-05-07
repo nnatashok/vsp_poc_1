@@ -1,18 +1,10 @@
 {
   "categories": [
     {
-      "name": "Mat",
-      "score": 0.7
-    },
-    {
       "name": "Body weight",
-      "score": 0.4
-    },
-    {
-      "name": "Weight workout",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.75,
-  "categoriesExplanation": "The workout 'Upper Body Strength with Bands' involves using resistance bands, which strongly indicates strength training with auxiliary equipment. The descriptor 'On The Mat' suggests exercises are performed on a mat, hence categorizing it under 'Mat' (score: 0.7). The mention of 'build overall strength' and 'resistance bands' aligns with 'Weight workout' (score: 0.6), given bands contribute resistance, akin to weights. Though categorized as body weight, the resistance bands' usage slightly differentiates it, but it remains relevant due to the strength focus without heavy equipment, thus 'Body weight' is included with a moderate score of 0.4. The dance and global hits music suggest a vibrant but not overly intense workout, reinforcing these categories."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout metadata indicates this is an 'Indoor rowing' session due to terms like 'race', 'row', and 'drive', which are associated with rowing exercises. The mention of '5-minute pieces' and a 'final 1-minute effort' suggests interval training, indicative of 'HIIT'. The descriptors 'explode with power' and 'Format: Power' align with high-intensity activities, reinforcing the classification of 'HIIT'. The intensity level being '3 out of 3' further supports the high-intensity nature of the workout, which is characteristic of HIIT sessions. Music choices such as 'Dance high' and 'Global Hits' suggest an energetic, fast-paced workout environment, which matches the intensity expected in both categories. The high confidence level of 0.85 is due to specific mention of rowing terminology and interval training, leaving little ambiguity about the workout type."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

@@ -1,10 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 1.0
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.95,
-  "categoriesExplanation": "The workout entitled 'Feel the Rhythm Cool-Down' is classified as 'Indoor rowing' with very high confidence. The description explicitly mentions rowing at rhythms 22 and 24, which is a clear indicator of indoor rowing exercise done on a rowing machine. The mention of practicing rowing with eyes closed further reinforces this classification as it suggests a familiarization and sensory focus while rowing, often a technique used to enhance rowing performance.\n\nThe interval format and focus on rhythm are common in structured rowing workouts meant to enhance capacity and pacing, further strengthening the classification of indoor rowing. Although the workout is a cool-down, it should not be classified under 'Stretching' or similar categories, as its primary focus remains rowing. No other categories are relevant based on the provided metadata, and keywords like 'cool down' and 'standard' do not directly correspond to other distinct exercise types in the list."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

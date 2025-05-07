@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.7
-    },
-    {
-      "name": "Stretching",
-      "score": 0.5
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.6,
-  "categoriesExplanation": "The workout video titled 'Steady Cool-Down' is classified primarily as 'Indoor rowing' with a moderate confidence score of 0.7. This classification is based on the context provided, particularly the mention of a 'max rhythm' of 22, which suggests a rowing cadence, and the category including 'row.' Although there is no explicit mention of a rowing machine, the use of rhythm and location description along the Charles River suggests a rowing association. The cool-down nature of the workout means it's of low intensity, which is typical for a rowing cooldown.\n\nIn addition, there is a strong element of 'Stretching' with a score of 0.5 due to the 'cool down' focus of the workout, which implies activities to help the body transition into rest, often involving stretching movements. However, explicit stretching movements are not detailed, so the confidence is lower.\n\nOther categories such as 'Yoga' or 'Meditation' are not included because the evidence does not reflect mind-body or meditative practices."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

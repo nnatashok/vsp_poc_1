@@ -2,27 +2,23 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.7
-    },
-    {
-      "level": "Intermediate",
-      "score": 0.3
-    }
-  ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout focuses on rowing, a movement classified as Beginner or Intermediate in technique difficulty. The description highlights a focus on technique, particularly involving the legs and core, indicating some complexity but within the rowing context. The exercise does not involve complex equipment or advanced skills, maintaining its Beginner to Intermediate classification. The Intermediate user fitness requirement supports this classification as well.",
-  "effortDifficulty": [
-    {
-      "level": "Moderate",
       "score": 0.8
     },
     {
-      "level": "Challenging",
-      "score": 0.2
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row' and described as 'technique oriented' with a focus on legs and core. While rowing generally involves straightforward movements, the mention of improved technique suggests elements intermediate users might find beneficial. However, the fundamental movements are basic, which aligns with a 'Beginner' to 'Intermediate' range. Thus, technique difficulty scores are 0.8 for Beginner and 0.6 for Intermediate, with high confidence due to the emphasis on rowing technique and standard rowing practices.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
     }
   ],
   "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "With an intensity level of 2 out of 3, and a focus on 'sweat' with intervals, this workout is designed to moderately challenge the cardiovascular system. An 11-minute duration suggests a quick, but moderately intense effort suitable for users needing a stronger than light challenge, but not extreme. The rowing focus aligns with moderate energy expenditure, with potential brief high effort bursts due to interval format. Thus, it falls primarily into the Moderate effort difficulty classification, with a slight lean towards Challenging.",
+  "effortDifficultyExplanation": "The workout duration is 11:19 minutes, and with an intensity level of 2 out of 3, this indicates a reasonable effort is required without being overly challenging for less fit users. The interval format could increase the intensity slightly, but the manageable duration suggests a moderate energy requirement. This aligns more with 'Moderate' effort difficulty at a score of 0.7, with clear cues pointing towards a moderate level of exertion required during the session.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

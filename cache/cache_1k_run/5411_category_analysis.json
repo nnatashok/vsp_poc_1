@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Mat",
-      "score": 0.8
-    },
-    {
       "name": "Yoga",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.75,
-  "categoriesExplanation": "The video metadata strongly suggests that the workout should be classified primarily as 'Mat,' with a secondary consideration for 'Yoga.' The workout is explicitly described as 'Signature Flow' and the description mentions 'Owen's signature flow,' indicating a sequence of fluid movements that are common in yoga and similar mat exercises. The 'Category' tag confirms this by labeling it as 'On The Mat.' Additionally, the music selection, particularly in the 'Chill mid' and 'Cool/Downtempo' genres, further supports a relaxed flow that is associated with yoga practices. However, the lack of specific yoga poses mentioned in the metadata prevents assigning it a higher score for 'Yoga,' which is why it receives a slightly lower score. 'Mat' is therefore the most appropriate primary category with high confidence, and 'Yoga' is considered a significant element. Other categories were excluded due to no evidence of equipment, high-intensity intervals, or other specific exercise types in the metadata."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

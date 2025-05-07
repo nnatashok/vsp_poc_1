@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "HIIT",
-      "score": 0.9
-    },
-    {
       "name": "Indoor rowing",
-      "score": 0.8
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout is classified primarily as HIIT due to the explicit mention of 'high intensity intervals' in the description. The use of the phrases 'build your fitness base' and 'intensity level: 3 out of 3' further supports the high-intensity nature, warranting a high score for HIIT (0.9). Additionally, the workout is likely an Indoor rowing session as indicated by the title 'Cross Training Row' and the presence of 'row' and 'drive' in the category metadata. These indicators justify a strong score for Indoor rowing (0.8). Although the term 'standard' could imply a regular format, it does not specify an alternative category distinct from HIIT and rowing. The playlist featuring high-energy tracks aligns with the intense workout nature, reinforcing the classification. This analysis has a very high confidence level (0.9) due to explicit evidence matching the category descriptions."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

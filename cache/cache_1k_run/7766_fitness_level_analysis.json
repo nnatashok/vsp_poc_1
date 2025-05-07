@@ -14,11 +14,15 @@
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.8
+      "score": 0.85
+    },
+    {
+      "level": "Moderate",
+      "score": 0.15
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout's duration is only 5 minutes and 38 seconds, and it is classified as a mobility session with 'Open up your shoulders'. This suggests a focus on stretching and light activity rather than high-intensity or endurance-based tasks. Such sessions are typically lower in energy expenditure, designed to enhance flexibility and movement without significant energy output, indicating a 'Light' effort difficulty.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The duration of the workout is very short (5:38 minutes), and given that it is a mobility session, the physical demand is low, suitable for light effort. The lack of equipment and the purpose to 'open up' the shoulders suggest low energy expenditure. The overall confidence is high in classifying this as Light effort, with a slight potential for moderate effort due to targeted muscle engagement.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

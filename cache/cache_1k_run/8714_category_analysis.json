@@ -1,18 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "Body weight",
-      "score": 0.4
-    },
-    {
-      "name": "Stretching",
-      "score": 0.2
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.76,
-  "categoriesExplanation": "The main category assigned is 'Indoor rowing' with a score of 0.8 due to phrases such as 'Technique Cool-Down' and 'pause drills to reinforce technique' which indicate rowing practices, specifically cool-down phases involving rowing machines. The term 'cool-down' suggests a lower intensity, but the inclusion of technique work specific to rowing supports this category strongly. A secondary category is 'Body weight' with a score of 0.4. This is because 'pause drills' often imply exercises that can be performed without equipment, using body weight to focus on body control and precision, especially during technical practice. 'Stretching' is considered with a score of 0.2 due to the mention of 'cool-down,' which often includes flexibility work, although the primary focus here is on rowing technique. 'Indoor biking', 'Elliptical', or other categories were excluded due to lack of relevant indicative language. The confidence level is high at 0.76 due to clear language about rowing techniques, although there is some ambiguity about the exact nature of the exercises involved in the drills."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

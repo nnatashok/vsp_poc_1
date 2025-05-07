@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Yoga",
-      "score": 0.75
-    },
-    {
-      "name": "Mat",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.7,
-  "categoriesExplanation": "The workout titled 'Core Flow' and described as 'fire up your core with Owen in this heat-building flow' strongly indicates a yoga session. The use of 'flow' suggests a sequence of movements often associated with Vinyasa or flow yoga, thus the 'Yoga' category is assigned a score of 0.75, indicating a strong presence. The recommendation of a yoga block further supports this.\n\nThe 'On The Mat' category tag and the absence of any specific equipment imply floor exercises primarily on a mat, contributing to the selection of the 'Mat' category with a score of 0.6. The 'Chill mid, Cool/Downtempo' music and its associated relaxed vibe align with yoga and mat exercises rather than high-intensity workouts.\n\nOther categories like 'Pilates' or 'Stretching' were considered but dismissed due to specific emphasis on 'flow' related to yoga practices. Therefore, no evidence suggests a higher confidence level beyond a 0.7."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

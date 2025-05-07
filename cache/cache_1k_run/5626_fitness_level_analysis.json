@@ -1,20 +1,16 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Beginner",
-      "score": 0.1
-    },
-    {
       "level": "Intermediate",
-      "score": 0.8
+      "score": 0.9
     }
   ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout type 'Drive' and category 'row' suggest rowing-based exercises, which typically fall under Beginner or Intermediate technique. The use of a 'HIIT' format indicates a more complex coordination of high-intensity intervals, suggesting Intermediate level. However, the rowing modality keeps the complexity from reaching Advanced levels.",
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is categorized specifically as 'Drive', which follows Hydrow's specific rule elevating its technique difficulty to 'Intermediate'. Given its rowing focus, normally it could be Beginner or Intermediate, but the 'Drive' designation dictates this level care should be taken with maintaining form during high-intensity intervals.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.6
+      "score": 0.8
     },
     {
       "level": "Extreme",
@@ -22,7 +18,7 @@
     }
   ],
   "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The 21-minute duration at a high-intensity level 3 out of 3, combined with the HIIT format, indicates a physically demanding workout. Short, intense intervals with max rhythms of 32 reinforce a high energy expenditure. Thus, the effort is between Challenging and Extreme, optimally falling towards the higher end due to the 'drive' categorization.",
+  "effortDifficultyExplanation": "The HIIT format and max rhythm of 32 indicate a workout demanding high-intensity bursts and energy expenditure. Combined with a 21-minute duration and an intensity level of 3 out of 3, this workout is highly demanding. The effort is primarily in the \"Challenging\" category for most users, but the clear designation suggests elements that could feel \"Extreme\" for deconditioned users.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

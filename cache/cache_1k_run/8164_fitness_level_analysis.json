@@ -13,16 +13,16 @@
   "techniqueDifficultyExplanation": "Since the workout is marked as suitable for all fitness levels (Beginner, Intermediate, Advanced), the technique difficulty is considered adaptable. Movements can be scaled in complexity, and users are expected to modify techniques based on their capability. Therefore, all difficulty levels from Beginner to Expert are assigned equal suitability with a score of 1.0.",
   "effortDifficulty": [
     {
-      "level": "Light",
-      "score": 0.4
+      "level": "Moderate",
+      "score": 0.75
     },
     {
-      "level": "Moderate",
-      "score": 0.6
+      "level": "Challenging",
+      "score": 0.25
     }
   ],
   "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "Given the short duration (15 minutes and 45 seconds), the energy expenditure for this workout is expected to be moderate. The use of mini bands can increase resistance, hence increasing the effort required without making it overly intense. The music choice, aligned with genres like Dance and Global Hits, implies a steady, motivating rhythm, which further complements a moderate pace rather than an intense one. Therefore, the workout is likely between Light to Moderate effort, leaning more towards Moderate due to the inclusion of resistance bands and the focus on strength, even if lower body-focused and short in duration.",
+  "effortDifficultyExplanation": "The workout's duration of 15 minutes and focus on 'strength' with the addition of mini bands indicates a moderate level of effort due to muscle engagement. The short duration and lack of high-intensity cues suggest it is not likely to be 'Challenging' for most users but could be moderately effortful due to continuous band tension and strength work.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

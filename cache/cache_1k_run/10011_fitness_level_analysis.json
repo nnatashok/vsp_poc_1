@@ -13,16 +13,16 @@
   "techniqueDifficultyExplanation": "Since the workout is marked as suitable for all fitness levels (Beginner, Intermediate, Advanced), the technique difficulty is considered adaptable. Movements can be scaled in complexity, and users are expected to modify techniques based on their capability. Therefore, all difficulty levels from Beginner to Expert are assigned equal suitability with a score of 1.0.",
   "effortDifficulty": [
     {
-      "level": "Moderate",
-      "score": 0.5
-    },
-    {
       "level": "Challenging",
       "score": 0.8
+    },
+    {
+      "level": "Extreme",
+      "score": 0.4
     }
   ],
   "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout's duration of over 30 minutes, involving 2.5-minute rowing intervals combined with a whole body dumbbell circuit, points to a Challenging effort level. The circuit format and inclusion of mini bands likely increase intensity, requiring significant energy expenditure. However, it also aligns moderately with a Moderate level, especially for less fit users, due to the non-elite nature of exercises involved.",
+  "effortDifficultyExplanation": "With a duration of approximately 30 minutes and a circuit format, this workout involves sustained effort and high-intensity intervals with dumbbells and rowing. The inclusion of whole-body exercises and minimal rest typically elevates the effort level, aligning it with a Challenging rating. The use of high rhythm (28) contributes to potentially high cardiovascular demand, hinting at aspects of Extreme effort, but overall, it remains primarily Challenging for deconditioned users.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

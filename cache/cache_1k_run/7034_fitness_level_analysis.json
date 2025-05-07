@@ -14,15 +14,15 @@
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.8
+      "score": 0.7
     },
     {
       "level": "Moderate",
-      "score": 0.4
+      "score": 0.3
     }
   ],
-  "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The workout duration is under 6 minutes, typical of low energy expenditure. The format as a 'warm-up' and part of a rowing session with max rhythm of 28 suggests light cardiovascular effort. Thus, it strongly aligns with Light effort (score: 0.8). The phrase 'increase your heart rate' and alternating between 'walk and sprint pace' slightly elevates intensity, aligning moderately with Moderate effort (score: 0.4). No intense or prolonged activities suggest higher effort levels.",
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout duration is short (5 minutes and 52 seconds), consistent with a warm-up format, suggesting low overall energy expenditure. The description specifies a gradual heart rate increase, which is typical for light exercises, though mentions moving between walk and sprint may pose a slight increase towards 'Moderate'. Sports influences such as 'rock mid-intensity' music offer a rhythmic pulse without pushing high intensity. Combined, there is stronger alignment with 'Light', but minor leaning towards 'Moderate' due to pace shifts.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

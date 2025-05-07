@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Mat",
-      "score": 0.3
+      "name": "Warm-up",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The primary category assigned is \"Indoor rowing\" with a high score of 0.9. This decision is based on the prominent clue in the workout name 'Pick Drill + Power Warm-Up' and the description mentioning technical and power-focused elements, which are typical for rowing workouts aimed at improving technique. Additionally, the metadata's explicit mention of 'standard,row' as part of the category further reinforces this classification. \n\nThough the workout type is a warm-up, the reference to technical refinement implies a rowing context rather than a general warm-up. The use of rhythmic elements and the technical focus are characteristic of rowing drills, justifying the high confidence level. \n\nA less influential secondary category is \"Mat\" with a score of 0.3, which considers the brief and technique-focused nature that could involve mat work or warm-up routines using body movements without significant equipment. However, indoor rowing remains the dominant element. Other categories like HIIT or Weight workout were excluded due to the specific focus on technique and endurance rather than high intensity or strength training. Therefore, the primary focus of this workout remains on rowing."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

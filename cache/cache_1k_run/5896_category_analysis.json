@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The primary category 'Indoor rowing' was chosen based on implicit mention of 'row' in the workout name 'Climb Row' and description \"gradually climbing in rhythm,\" which suggests a rowing machine workout. The absence of any explicitly mentioned equipment implies rowing is performed on standard rowing machines typical for such workouts. The reference to 'rhythm' aligns with the typical rowing cadence. The secondary category 'Breathing exercises' was attributed due to the workout type listing 'breathe' and 'breathe,standard,row' under categories implies inclusion and focus on breath control, common during rowing for efficiency and endurance. The workout's intensity level of 1 out of 3 indicates a relaxed pace, which complements breathing focus, but does not suggest stretching, meditation, or yoga. Overall, the evidence supports 'Indoor rowing' as a strong presence due to the defining characteristics of a rowing workout, while 'Breathing exercises' presents a noticeable secondary element."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

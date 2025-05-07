@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Running",
-      "score": 0.7
-    },
-    {
-      "name": "Walking",
-      "score": 0.6
+      "name": "Warm-up",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.75,
-  "categoriesExplanation": "The metadata strongly suggests a focus on activities involving variations in pace, specifically shifting between 'run and walk.' The term 'run' immediately indicates a running component, leading to the assignment of the 'Running' category with a score of 0.7, reflecting the central role of this activity in the workout. The mention of 'walk pace' clearly justifies the inclusion of the 'Walking' category, with a score of 0.6, as transitions between running and walking define the workout. Both categories align with the warm-up intention mentioned in the metadata. Due to the absence of rowing-specific equipment and focus, 'Indoor rowing' was not selected, and other categories like 'Mat' or 'Elliptical' were also not applicable. The confidence level of 0.75 is due to the clear description of the workout type and pace transitions."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

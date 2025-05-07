@@ -1,28 +1,24 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Beginner",
-      "score": 0.8
-    },
-    {
       "level": "Intermediate",
-      "score": 0.6
+      "score": 0.8
     }
   ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout is classified under the 'Drive' category, which is always rated as Advanced. However, because this is a 'row' workout, the Technique Difficulty must align to either Beginner or Intermediate. The absence of complex technical instructions and the HIIT format suggests mostly straightforward rowing, hence aligning more closely with Beginner and Intermediate Technique Difficulty levels.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type is listed as 'drive', which on Hydrow platform indicates that the movements are more complex, aligning with at least an intermediate level. Despite rowing being the key focus, which usually ranges from Beginner to Intermediate, the 'Drive' workout type signifies a higher complexity requiring better coordination and body control.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 1.0
+      "score": 0.9
     },
     {
       "level": "Extreme",
-      "score": 0.7
+      "score": 0.6
     }
   ],
-  "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "The workout comprises high-intensity intervals (HIIT) with a max rhythm of 28 for over 21 minutes, indicating a high energy expenditure suited to Challenging levels. Listed as 'Intensity Level 3 of 3,' it matches the Extreme category, though less definitive since the max rhythm is not excessively high for extremely fit individuals.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The category is 'Drive', corresponding to high-intensity rowing intervals led by an Olympian. The 'high intensity intervals' and max rhythm of 28, combined with workout intensity level 3 out of 3, imply this workout is physically demanding. The 21-minute duration also supports a 'Challenging' to 'Extreme' effort level, tailored for those accustomed to exertion. However, given the target audience, 'Challenging' is the primary classification since 'Extreme' might deter less motivated users.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

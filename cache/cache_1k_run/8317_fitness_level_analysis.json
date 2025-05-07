@@ -2,27 +2,19 @@
   "techniqueDifficulty": [
     {
       "level": "Intermediate",
-      "score": 0.7
-    },
-    {
-      "level": "Advanced",
-      "score": 0.3
+      "score": 0.9
     }
   ],
-  "techniqueDifficultyConfidence": 0.7,
-  "techniqueDifficultyExplanation": "This workout involves rowing, indicated by its 'row' category and driving focus in the 'drive' type. The rowing activity can range from beginner to intermediate in terms of technique, as it emphasizes proper form and rhythm. However, integrating HIIT elements and a 3 out of 3 intensity level suggests a more complex execution likely needing intermediate skill to manage pacing and electricity. There's a slight tilt towards advanced due to the 'drive' component, known for demanding power and control, raising it above basic rowing complexity. Thus, it is mainly intermediate, with a nod towards advanced techniques due to these factors.",
+  "techniqueDifficultyConfidence": 0.95,
+  "techniqueDifficultyExplanation": "The workout features a 'Drive' format, specifically a HIIT row, which typically requires an intermediate level of coordination given the faster pace and rhythm changes indicated by a max rhythm of 32. Although rowing generally may be beginner or intermediate, the combination with HIIT and being categorized as 'Drive' increases complexity. Additional complexities such as pacing, transitioning between intervals, and potentially explosive rowing strokes align more with 'Intermediate.'",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.8
-    },
-    {
-      "level": "Extreme",
-      "score": 0.4
+      "score": 0.85
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The effort difficulty is driven by the 21-minute duration, intense HIIT structure, and high-intensity music. With rapid intervals escalating in duration, participants face increased cardiovascular and muscular demands. The 'drive' workout type, paired with a stated intensity of 3 out of 3, supports that this session likely pushes into the challenging or extreme brackets, particularly for less conditioned users. The continuous cycling through energetic phases underscores a significant physical exertion level typical of challenging efforts, with elements approaching extreme exertion due to consistent high-intensity cues and minimal rest likely present in HIIT formats.",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout duration of over 21 minutes with a focus on 'HIIT' indicates high energy expenditure, compounded by a maximum intensity level of 3 out of 3. This suggests a demanding workout with limited rest, typical of high-intensity interval training, which aligns closely with 'Challenging' difficulty. The fast-paced music genre further supports this level of energetic demand, reinforcing it as more than just moderate effort.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

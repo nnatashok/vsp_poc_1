@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout 'All In One Row' was classified as 'Indoor rowing' with a high confidence score of 0.9 due to numerous explicit references in the metadata. The workout title directly mentions 'row' and the description elaborates on a workout format typical for rowing, including a 'warm-up,' '45-minutes at a Sweat intensity,' and a 'cool-down.' Additionally, the 'Category' and 'Workout Type' fields both include terms like 'row' and 'Sweat,' further supporting this classification. \n\nAdditionally, 'HIIT' is also a suitable classification with a score of 0.7 because the workout description mentions 'Intervals,' which is a key characteristic of HIIT workouts. This is coupled with the format of the workout, focusing on rhythm and sweat intensity, which aligns well with interval training principles. \n\nThe use of the term 'sweat intensity' and an intensity level of 2 out of 3 underscores a relatively high-intensity session, supportive of both rowing and HIIT classifications. Other categories like 'Mat', 'Treadmill', or 'Body weight' weren't considered because the metadata did not mention any related equipment or training style."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

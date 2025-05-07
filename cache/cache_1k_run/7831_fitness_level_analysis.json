@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.8
+      "score": 0.7
     },
     {
       "level": "Intermediate",
       "score": 0.6
     }
   ],
-  "techniqueDifficultyConfidence": 0.85,
-  "techniqueDifficultyExplanation": "The workout category 'row' indicates that the technique difficulty can only be rated as either Beginner or Intermediate. The workout description suggests the session involves rhythm shifts, which might require slight coordination but not complex movement. Therefore, there is a strong alignment with Beginner technique difficulty due to the simplicity of rowing mechanics, with some moderate alignment towards Intermediate, informed by the paced rhythms and occasional complexity in timing the strokes.",
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout is identified as a rowing category with intervals, utilizing 'sweat' as the intensity type. In Hydrow's schema, rowing workouts typically don't exceed Intermediate difficulty regarding technique. The mention of intervals shifting in rhythm may suggest some coordination is required, but overall, these factors keep the technical difficulty mainly in the Beginner to Intermediate range.",
   "effortDifficulty": [
     {
       "level": "Moderate",
-      "score": 0.75
+      "score": 0.6
     },
     {
       "level": "Challenging",
-      "score": 0.5
+      "score": 0.7
     }
   ],
   "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout involves cardio intervals with a max rhythm of 28 strokes, hinting at elevated energy expenditure. The description mentions an elevated heart rate, aligning with moderate intensity. Despite its short duration (11 minutes 16 seconds), the 'sweat' type implies a more demanding than light effort, suggesting moderate to challenging effort levels. The workout intensity level of 2 out of 3 supports these observations, implying most users would find it moderately challenging.",
+  "effortDifficultyExplanation": "The intensity is marked at 2 out of 3, indicating a moderately high effort level. The workout focuses on cardio intervals and lasts for over 11 minutes, which would elevate heart rate and increase energy expenditure over simple, steady-state activities. The use of tempo cues ('max rhythm: 28') signifies a challenging pace for the typical deconditioned user.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

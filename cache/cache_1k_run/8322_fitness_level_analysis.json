@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.9
+      "score": 1
     },
     {
       "level": "Intermediate",
-      "score": 0.1
+      "score": 0.2
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is categorized as a 'row' type, which generally suggests basic rowing movements. Given the 'standard' category and lack of additional equipment or complex techniques mentioned, the movements are likely simple and straightforward. The user fitness level requirements state 'Beginner', reinforcing this as a workout suitable for those with minimal rowing skills. Any coordination needed to maintain 'steady speed' at a 'max rhythm: 20' is manageable for beginners, hence a Beginner level is most appropriate with high confidence, although executing consistent rows could suggest a minor intermediate component.",
+  "techniqueDifficultyExplanation": "The workout is categorized as a 'breathe' rowing session, which typically focuses on maintaining a steady pace and emphasizes rhythmic stroke management. Given this, the technique required aligns closely with Beginner levels because rowing inherently involves basic movement patterns with minimal complexity, particularly in a non-intense, rhythmic rowing session. Although some elements might slightly suggest an Intermediate level due to maintaining form over the duration, the metadata clearly positions this as accessible to beginners, further supported by the requirement for a 'beginner' user fitness level.",
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.75
+      "score": 1
     },
     {
       "level": "Moderate",
-      "score": 0.25
+      "score": 0.4
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout is brief at just over 11 minutes and is classified with a low intensity (1 out of 3). 'Steady' format indicates a lower, consistent exertion level without spikes in intensity. The emphasis on 'breathe' suggests a focus on controlled, moderate energy expenditure, suitable for less fit users. Although rhythmic coordination is needed, the light classification is strongly supported given the gentle pace implied by the 'max rhythm: 20' and absence of additional strenuous tasks, with some moderate consideration due to sustained effort required.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is a 'steady speed' rowing session lasting 11 minutes with a maximum rhythm of 20. This correlates with Light to Moderate effort levels. The workout's intensity level is labeled as 1 out of 3, suggesting it is relatively gentle, especially considering its short duration and low rhythmic cadence, typically requiring low-to-moderate physical exertion.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

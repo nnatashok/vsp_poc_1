@@ -14,15 +14,11 @@
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.95
-    },
-    {
-      "level": "Moderate",
-      "score": 0.05
+      "score": 1.0
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout is brief, with a duration of just over 5 minutes and classified as a 'warm-up'. Given the length and purpose, the energy expenditure is likely to be low, making it suitable for users with lower fitness levels. The intent is to prepare the body, not to challenge it physically, which typically results in a light effort classification. Thus, the overwhelming alignment is with a Light effort level, considering the non-intensive context and music genres like 'Pop mid, Global Hits' indicating a relaxed tempo suitable for warm-ups.",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout duration is just 5 minutes and 42 seconds, classified under 'warm-up'. These factors suggest very low physical demand, suited for preparation or introduction rather than exertion. Given the instructional focus on technique, the intensity is low, consistent with the Light effort level.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

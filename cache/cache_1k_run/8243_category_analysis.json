@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.8
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.95,
-  "categoriesExplanation": "The workout video 'Welcome to Prague Row' is clearly categorized under 'Indoor rowing' with a high confidence score of 0.9. This is primarily due to the explicit description mentioning 'join Mike in Hydrow's newest Destination, Prague,' and tags like 'row', indicating the use of a rowing machine, which is a hallmark of indoor rowing workouts. Additionally, the inclusion of '1-minute intervals' suggests a structured format commonly associated with rowing exercises.\n\nThe workout also aligns strongly with the 'HIIT' category, scoring 0.8. The description explicitly states 'Format: HIIT,' and mentions '1-minute intervals,' which are characteristic of high-intensity interval training where periods of intense activity are interspersed with rest. The highest intensity level (3 out of 3) further supports the HIIT classification.\n\nOther potential categories like 'Mat' or 'Body weight' are not considered because there are no references to these exercises, nor is there evidence of equipment beyond the rowing machine. Overall, the metadata supports a high confidence level in both selected categories."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

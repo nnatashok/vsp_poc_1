@@ -1,24 +1,20 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Beginner",
-      "score": 0.7
-    },
-    {
       "level": "Intermediate",
-      "score": 0.3
+      "score": 0.9
     }
   ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout is a rowing-based session categorized under 'drive'. In Hydrow workouts, 'drive' sessions are typically more advanced, focusing on power and speed, which usually would imply higher complexity. However, since the workout category is 'row', the technique difficulty is limited to 'Beginner' or 'Intermediate' per guidelines. The mention of 'building energy and power during intervals' suggests a certain level of coordination and technique, aligning weakly with 'Intermediate' but strongly with 'Beginner' as it remains primarily a rowing workout.",
+  "techniqueDifficultyConfidence": 1.0,
+  "techniqueDifficultyExplanation": "The workout type 'Drive' and category 'Drive,standard,row' suggest a rowing-based workout, where technique difficulty is typically capped at 'Intermediate' per Hydrow-specific rules. The 'Drive' workout involves high-level rowing endurance and power, thus it aligns with Intermediate level, as complex coordination is required to maintain correct form at high stroke rates.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.75
+      "score": 0.8
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The intensity level is 3 out of 3, combined with interval training, which typically demands higher energy expenditure and includes minimal rest. The max rhythm of 36+ strokes per minute indicates a vigorous pace maintained throughout. Although the session is only approximately 16.5 minutes long, the format, pace, and intensity suggest it requires a significant physical effort, fitting 'Challenging' well, especially for individuals in poor physical shape.",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout has an interval format with a high max rhythm of 36+ which indicates a demanding tempo. The 'drive' type and the description emphasize building energy and power, typical of high-energy workouts. The intensity rating is 3 out of 3, indicating significant physical demand, aligning with 'Challenging' as it requires sustained efforts, especially at high pace intervals.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

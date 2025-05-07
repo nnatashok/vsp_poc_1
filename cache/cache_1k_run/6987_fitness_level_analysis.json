@@ -1,28 +1,20 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Beginner",
-      "score": 0.6
-    },
-    {
       "level": "Intermediate",
-      "score": 0.8
+      "score": 1.0
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is tagged as both 'row' and 'Drive'. While the 'row' classification typically limits technique difficulty to Beginner or Intermediate, the 'Drive' tag signifies more advanced rowing techniques. However, due to the primary category being rowing, the technique difficulty aligns more with Intermediate as it requires good pacing and coordination through the intervals and max pace 'blasters', reflecting a higher complexity than basic rowing but still within the Intermediate scope.",
+  "techniqueDifficultyExplanation": "The workout type is a 'drive' and 'row', which typically involves complex but accessible rowing techniques. Given the description of building power with run pace intervals and max pace blasters, the exercises demand coordination and control but are within an intermediate level. The rowing activity and interval format suggest a structured technique requiring some skill, aligning with Intermediate difficulty fully.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.7
-    },
-    {
-      "level": "Extreme",
-      "score": 0.9
+      "score": 0.8
     }
   ],
-  "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "The workout involves 21 minutes of interval training with a max rhythm of 30 and is given a high intensity of 3 out of 3, which indicates a substantial energy expenditure and physical demand. The use of interval pacing and brief high-intensity 'blasters' suggest it is very demanding, particularly for those not well-conditioned, aligning it closely with the Extreme level for effort difficulty.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout's intensity level is 3 out of 3, indicating high physical demand. The intervals of '2-minute power at run pace' and 'max pace for 30\" blasters' are indicative of short bursts of high effort, typical of a challenging intensity for deconditioned users. The duration of 21:34 is moderate, but the interval nature and intensity level suggest significant physical effort, aligning strong-to-extreme challenging difficulty.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

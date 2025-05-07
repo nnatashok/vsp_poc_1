@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.5
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout video titled 'Solid Technique Row' is clearly an 'Indoor rowing' session, as indicated by the terms 'row' and 'technique-oriented row' in both the title and description. This is further supported by the metadata tag 'row' and the emphasis on prioritizing 'perfect form', a common focus in rowing technique workouts. The format includes intervals, typical of rowing training, and the max rhythm is provided, suggesting it's related to rowing strokes. Therefore, 'Indoor rowing' is given a high score of 0.9 due to direct and strong evidence.\n\nThe presence of 'breathe' and 'Breathing exercises' in the workout type and category tags suggests that there is a considerable focus on breathing, important in rowing to maintain rhythm and efficiency. Despite 'Breathe' being in the category tag and description, the primary nature of the workout aligns more with rowing, thus it's given a moderate score of 0.5 indicating a supportive role rather than a central one.\n\nThe low intensity level ('1 out of 3') also supports this classification, as technique and breathing-focused sessions usually have a lower intensity level compared to more intense rowing workouts. The absence of explicit focus on stretching or meditation rules out those categories."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

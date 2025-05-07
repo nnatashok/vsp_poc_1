@@ -2,15 +2,15 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.9
+      "score": 0.7
     },
     {
       "level": "Intermediate",
-      "score": 0.6
+      "score": 0.3
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which typically limits Technique Difficulty to Beginner or Intermediate. The format includes climbing sets of 'ladders,' but the activity is done on a rowing machine, which inherently simplifies coordination demands compared to exercises off the machine. The lack of an instructor may slightly raise the complexity, so while Beginner is strongly aligned (score: 0.9), Intermediate has a moderate association due to self-guidance needed (score: 0.6).",
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout category is 'row', which restricts the Technique Difficulty to Beginner or Intermediate. The mention of 'Hold the same effort with Aisyah as you climb two sets of ladders' introduces slight complexity as it may imply some coordination. However, the User Fitness Level Requirements indicate 'Beginner', and the intensity level is 1 out of 3, suggesting the movements are largely straightforward, which aligns with a Beginner classification.",
   "effortDifficulty": [
     {
       "level": "Light",
@@ -18,11 +18,11 @@
     },
     {
       "level": "Moderate",
-      "score": 0.5
+      "score": 0.2
     }
   ],
   "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout lasts for approximately 21 minutes, and is described with a breathing focus and intensity level 1 out of 3, suggesting low energy expenditure. However, the 'climb' and max rhythm of 24 could pose minor challenges for some deconditioned users, warranting a moderate score as a secondary consideration. Thus, it leans towards Light (score: 0.8) with some alignment to Moderate (score: 0.5).",
+  "effortDifficultyExplanation": "The workout duration is 21:22 and is classified as intensity level 1 out of 3, which suggests low energy expenditure. The term 'Breathe' in the workout type typically implies a focus on steady pace rather than high exertion. Therefore, the effort is predominantly Light, with a slight push towards Moderate due to the rhythm factor of 24, indicating a consistent, but not highly demanding effort.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

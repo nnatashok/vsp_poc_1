@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.3
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The primary category 'Indoor rowing' is selected with a high confidence score of 0.9 due to explicit references in the workout name and description to rhythmic intervals and rowing, suggesting a workout performed on a rowing machine. The term 'Interval Row' in the title and 'Build your cardio' in the description explicitly indicate a focus on rowing and cardio intervals, confirming its presence as the central activity. The secondary category 'Breathing exercises' is considered with a lower score of 0.3 based on the metadata's mention of 'Workout Type: breathe' and 'Category: Breathe,' which suggest some emphasis on breathing. However, since rowing is the primary focus and intensity level is moderate (1 out of 3), the breathing aspect seems to be more supportive, possibly as a pacing or rhythm technique during the workout, rather than a major focus. Other potential categories like 'HIIT' or 'Mat' have been excluded due to lack of evidence indicating high intensity or mat exercises."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "HIIT",
-      "score": 0.8
-    },
-    {
       "name": "Indoor rowing",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout is classified predominantly under 'HIIT' due to the specified format of \"Bootcamp HIIT Row\", with emphasis on short intervals and quick recovery as mentioned in the description. The title explicitly includes 'HIIT', and the max rhythm of 30, along with the high-intensity level of 3 out of 3, aligns with common characteristics of High-Intensity Interval Training. Additionally, the categorization of 'Indoor rowing' is supported by the mention of 'row' in the category and title tags and the implied use of indoor rowing equipment typical in HIIT rowing workouts. The music genre, consisting primarily of high-energy dance tracks, further supports a high-intensity and dynamic workout atmosphere typical of HIIT sessions. The confidence level is high due to explicit indicators in both the title and description."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

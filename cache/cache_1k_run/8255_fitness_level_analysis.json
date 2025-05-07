@@ -1,28 +1,20 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Advanced",
-      "score": 0.8
-    },
-    {
       "level": "Intermediate",
-      "score": 0.5
+      "score": 0.8
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'Drive', which according to Hydrow's specific rules, defaults to an Advanced technique level due to the inherent complexity and skill required for Drive workouts. The requirement of maintaining a high rhythm (30+) also supports the Advanced classification, as this demands a high level of coordination and control. However, given that the workout is fundamentally rowing-based, there is still some alignment with Intermediate due to the general nature of rowing movements, albeit less so here.",
+  "techniqueDifficultyExplanation": "The workout is classified as a Drive workout type in rowing, which traditionally suggests more technical form and skill compared to basic rowing. Though typically Technique Difficulty for row workouts caps at Intermediate, the label 'Drive' implies some complexity requiring a coordinated effort, justifying a strong Intermediate classification with high confidence. The workout also uses interval training, which requires precise pacing and technique adaptation.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.7
-    },
-    {
-      "level": "Extreme",
-      "score": 0.4
+      "score": 0.8
     }
   ],
   "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout's effort difficulty is highly influenced by its classification as a 'Drive' workout with a maximum rhythm exceeding 30. The intensity level is marked as 3 out of 3, indicating high physical demand, further supported by the interval format which implies less rest. The 21-minute duration with high rhythm challenges suggests a Challenging to Extreme effort, but the classification leans more strongly towards Challenging due to the duration not reaching a high-demand threshold typical of Extreme levels.",
+  "effortDifficultyExplanation": "The workout presents a high effort level due to its 21-minute duration and interval format, especially with maximum rhythms reaching 30+, demanding physical intensity. The 'Drive' nature implies a higher energy expenditure. With a workout intensity of 3 out of 3, this classification suggests significant physical demand consistent with a 'Challenging' rating, strongly aligned with the metadata indicators.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "Mat",
-      "score": 0.4
+      "name": "Warm-up",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.7,
-  "categoriesExplanation": "The primary category selected is 'Indoor rowing' with a high confidence level, scoring 0.8. This is derived from the description mentioning 'practice three-stroke accelerations,' which are specific to rowing activities. Additionally, the category tags include 'row,' indicating a workout that utilizes a rowing machine or involves rowing techniques, aligning closely with indoor rowing exercises. \n\nThe 'Mat' category is assigned a lower score of 0.4 as a secondary potential category due to the inclusion of 'warm-up' in the title and description. While the workout involves rowing techniques, warm-up activities could often include general mat exercises or low-impact movements to prepare the body for more intense exercise, but not clearly specified, leading to moderate confidence.\n\nOther categories like 'HIIT' or 'Body weight' are not selected due to a lack of specific high-intensity or non-equipment-based exercise indicators typically found with those workout types."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

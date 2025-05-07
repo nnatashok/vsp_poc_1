@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Mat",
-      "score": 0.8
-    },
-    {
       "name": "Stretching",
-      "score": 0.5
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.75,
-  "categoriesExplanation": "The workout is categorized primarily as 'Mat' due to the title 'Pre-Row Standing Dynamic Warm-Up' suggesting exercises performed in a standing position likely on a mat, especially given the 'On The Mat' category tag. This is reinforced by the description 'dynamically warm-up your whole body,' indicating mat-based exercises that aim to prepare for a rowing race. The classification under 'mobility' and 'standard,on-the-mat' further supports the Mat category, with a strong emphasis on full-body movement without additional equipment. \n\n'Stretching' has been assigned a moderate score since the description emphasizes warming up the whole body, which typically involves dynamic stretching exercises for flexibility and mobility enhancement. However, there is no explicit mention of deep stretching sequences. Hence, the score is moderate for Stretching, given the potential overlap between mobility exercises and dynamic stretching. Other categories were excluded due to the lack of equipment or specific focus on strength or cardiovascular elements typical of other workout types."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

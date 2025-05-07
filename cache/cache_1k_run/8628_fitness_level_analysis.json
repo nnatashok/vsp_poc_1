@@ -6,23 +6,23 @@
     },
     {
       "level": "Intermediate",
-      "score": 0.6
+      "score": 0.2
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is categorized as 'row', which aligns with either Beginner or Intermediate for technique difficulty. The term 'breathe' suggests a focus on controlled, rhythmic rowing rather than complex techniques, indicating a strong Beginner alignment (0.8). The workout also mentions intervals and rhythm adjustments, which involve some degree of coordination, suggesting partial alignment with Intermediate (0.6).",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout type is 'breathe' and categorized under 'row', indicating the Technique Difficulty cannot exceed Intermediate. The description implies a focus on rhythm and growth mindset with no complex movements mentioned, aligning strongly with Beginner. The interval format and mention of shifting rhythms slightly suggest an Intermediate complexity, but the primary focus remains approachable, justifying a primarily Beginner classification.",
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.8
+      "score": 0.9
     },
     {
       "level": "Moderate",
-      "score": 0.4
+      "score": 0.1
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The effort difficulty is indicated by the duration (16 minutes) and the intensity level (1 out of 3). This suggests a low-intensity workout meant to engage users without overexerting them, which aligns strongly with the Light level (0.8). The use of intervals and a moderate rhythm (max 26) suggests a potential for slightly increased effort, offering a weaker alignment with Moderate (0.4).",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout intensity level is rated 1 out of 3, indicating a Light effort difficulty. The short duration of 16 minutes and the use of terms like 'low rhythms' further support a Light intensity. Although it includes intervals, the emphasis on breathing suggests minimal physical exertion, aligning with a Light classification, with some consideration for Moderate due to intervals.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

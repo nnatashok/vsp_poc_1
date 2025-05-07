@@ -2,23 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 1
+      "score": 0.85
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
     }
   ],
-  "techniqueDifficultyConfidence": 1,
-  "techniqueDifficultyExplanation": "The workout is classified under rowing (category includes 'row'), which signifies a technique difficulty that ranges from Beginner to Intermediate. Given the 'breathe' workout type and a focus on rhythmic buildup, it's clear that the exercises are designed to be accessible with straightforward movements that cater to users making a fitness comeback. Furthermore, the metadata explicitly states a user fitness requirement of 'Beginner', reinforcing this classification. Thus, the technique difficulty is best rated as Beginner with high confidence, aligning with the user's Beginner-level requirement and the nature of the workout.",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is categorized as a 'Breathe' and 'row' session, which inherently suggests a simpler form of exercise featuring basic rowing motions. The metadata emphasizes a gradual rhythm increase, aligning with beginner progression. The lack of complex technical cues supports a 'Beginner' classification. However, the inclusion of 'Climb' format with a moderate max rhythm of 24 slightly raises the potential technique complexity, justifying a minor consideration for 'Intermediate'.",
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.8
+      "score": 0.9
     },
     {
       "level": "Moderate",
-      "score": 0.6
+      "score": 0.4
     }
   ],
-  "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "The workout duration is 21 minutes, and it uses a 'breathe' workout type, suggesting focus on controlled movements and less intensity. The metadata indicates a workout intensity of 1 out of 3, signaling a gentle demand on the participant. These factors combined suggest energy expenditure and rest are tailored to be suitable for those returning to fitness. The moderate rhythm build-up further supports a light-to-moderate effort classification as participants will experience light cardiovascular exertion. Considering the gradual nature and structure of the workout, the effort difficulty aligns strongly with Light to Moderate.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout duration is approachable at 21 minutes, and the intensity is specified as 1 out of 3, indicating a gentle effort level. Sera Moon's narrative leans towards an encouraging but not overly strenuous workout aimed at those recovering or restarting fitness routines. The rhythmic build may require some effort, suggesting a slight influence into 'Moderate' effort. However, absent high-intensity intervals or heavy exertion, it aligns most with 'Light' effort difficulty.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

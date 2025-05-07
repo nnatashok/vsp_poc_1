@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.75
+      "score": 0.6
     },
     {
       "level": "Intermediate",
-      "score": 0.25
+      "score": 0.8
     }
   ],
-  "techniqueDifficultyConfidence": 0.85,
-  "techniqueDifficultyExplanation": "The workout type is categorized under 'row', which typically aligns with either Beginner or Intermediate levels of technique difficulty due to the nature of rowing exercises, which require fundamental coordination. Given the standard category and less complex exercise involved, it strongly aligns with the Beginner level but may include transitions that slightly elevate it to Intermediate. Keywords like 'shift in rhythm' and standard row techniques support a moderate but manageable complexity in execution.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row' which according to Hydrow-specific rules allows for Beginner or Intermediate classification only. Given the focus on rhythm and intervals, there is some coordination involved, nudging it towards Intermediate. However, rowing can be accessible with proper form, keeping the Beginner level relevant. Confidence is high due to workshop type and rowing category.",
   "effortDifficulty": [
     {
       "level": "Moderate",
-      "score": 0.8
+      "score": 0.7
     },
     {
       "level": "Challenging",
-      "score": 0.2
+      "score": 0.6
     }
   ],
   "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout is an interval format with a duration of 21 minutes 30 seconds and an intensity level of 2 out of 3, which indicates a moderate level of physical demand. Intervals and rhythmic shifts imply some degree of exertion and sustained effort, leading to a strong alignment with moderate effort difficulty. The 28-max rhythm suggests an elevated pace, hinting at brief challenging elements, thus warranting some alignment with the Challenging level.",
+  "effortDifficultyExplanation": "The duration of 21:30 minutes, with an interval format and max rhythm of 28, suggests significant physical effort, especially given it's a 'Sweat' workout type. The effort intensity is marked as 2 out of 3, aligning with Moderate, while rhythm shifts imply a step towards Challenging. The playlist further supports sustained activity. Confidence is high due to clear metadata alignment.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

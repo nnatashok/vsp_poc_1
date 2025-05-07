@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Stretching",
-      "score": 0.3
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is primarily classified as 'Indoor rowing' with a high confidence level. This conclusion is supported by the mention of \"adding gentle meters\" and the context of cooling down, which aligns with low-intensity rowing activities, especially considering the title 'Longevity Cool-Down' and tags like 'row'. The description refers to being along Lake Tahoe, which suggests an immersive rowing experience. The rhythm and format indicators further support this classification. \n\nAdditionally, there is a mild presence of 'Stretching' as secondary classification due to the nature of a cool-down, which often involves stretching exercises to relax the body post-workout. However, since the main activity involves gentle rowing to add meters, the score for 'Stretching' remains lower. Other categories such as 'Yoga', 'Pilates', or 'Meditation' are excluded due to lack of relevant indicators in the metadata."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

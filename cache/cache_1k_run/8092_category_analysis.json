@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Mat",
-      "score": 0.7
-    },
-    {
-      "name": "Weight workout",
-      "score": 0.6
+      "name": "Body weight",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.8,
-  "categoriesExplanation": "The workout is focused on 'Upper Body Strength with Bands,' explicitly mentioned in the title and description. The title suggests the use of resistance bands to enhance upper body strength, indicating a resistance or weight training element. The description elaborates on improving posture and strengthening the shoulders and upper back, further reinforcing the strength aspect. 'On The Mat' is listed in the category and repeated as 'Category: On The Mat', implying that the workout involves exercises performed primarily on a mat. The use of short and long resistance bands supports classifying this as a 'Weight workout' due to the resistance provided by the bands, albeit not traditional free weights. Therefore, the 'Mat' category receives a score of 0.7 due to the explicit mention and standard on-the-mat classification, while 'Weight workout' is assigned 0.6 as it includes a significant focus on strength using resistance bands. Music and playlist details, while unspecified for intensity, suggest an energetic backdrop, potentially elevating the strength focus over relaxation categories such as Yoga or Stretching."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

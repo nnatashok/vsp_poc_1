@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Pilates",
-      "score": 0.9
-    },
-    {
-      "name": "Mat",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout's primary classification is 'Pilates' as explicitly stated in both the workout name and description. It mentions 'mat style pilates' for an 'experienced level', indicating a strong emphasis on Pilates techniques that focus on core strength and controlled movements. The score of 0.9 reflects the high confidence from direct references in the metadata. 'Mat' is another suitable category given the description 'on the mat' and 'mat style', suggesting exercises performed on the ground as captured by the tags. This category is assigned a score of 0.7 due to the supportive nature of mat work in Pilates. Despite being labeled as 'advanced', a higher intensity category like HIIT is not relevant, as the focus is on controlled Pilates movements rather than high-intensity or aerobic exercises. The contemporary pop playlist suggests an energetic ambiance rather than a relaxing or meditative one, aligning well with an advanced yet structured Pilates session."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

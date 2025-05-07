@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The primary category 'Indoor rowing' was selected due to multiple explicit indicators: the workout title 'Low Rhythm Row', description focusing on rowing along the Hillsborough River, and the use of the term 'row' in the metadata category. The interval format and reference to max rhythm also support the inference of a rowing session. This assignment is made with very high confidence, scoring 0.9, as rowing is a central defining characteristic. \n\nThe secondary category 'Breathing exercises' scored 0.6 as the workout type is specified as 'breathe', implying a focus on breathing alongside rowing. The low intensity level (1 out of 3) aligns with controlled breathing exercises, thus supporting its inclusion. The confidence reflects supportive role of breathing in the workout, hence a moderate presence."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

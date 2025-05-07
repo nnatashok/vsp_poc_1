@@ -9,20 +9,20 @@
       "score": 0.1
     }
   ],
-  "techniqueDifficultyConfidence": 0.85,
-  "techniqueDifficultyExplanation": "The workout is classified under the rowing category. According to the guidelines, rowing workouts can only have a Technique Difficulty of Beginner or Intermediate. The description notes simple intervals with increasing strokes per minute (20-24), implying basic rowing. As such, it's accessible for beginners with minimal coordination required. However, slight complexity in pacing and rhythm introduces a weak Intermediate element.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is classified under the 'row' category, which can only be rated Beginner or Intermediate for technique difficulty. Since the User Fitness Level Requirement is Beginner, it aligns with the Beginner level. The rowing format 'Climb' suggests some variability but isn't enough to warrant more than a slight increase towards Intermediate. The max rhythm of 24 strokes per minute indicates a manageable pace for beginners.",
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.6
+      "score": 0.7
     },
     {
       "level": "Moderate",
-      "score": 0.4
+      "score": 0.3
     }
   ],
-  "effortDifficultyConfidence": 0.75,
-  "effortDifficultyExplanation": "Given a 21-minute duration and an intensity level of 1 out of 3, the workout appears to be generally low-intensity, aligning with Light effort level. The prescribed pacing (20-24 SPM) suggests maintaining a fairly relaxed rowing rhythm, suitable for inexperienced users. Nonetheless, the climb format with 5-minute intervals can introduce moderate challenges, hence there is a partial alignment with Moderate effort difficulty.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout duration is 21 minutes with intervals at 20 to 24 strokes per minute, suggesting a gentle to moderate cardiovascular demand suitable for beginners. The intensity level is 1 out of 3, indicating a light effort. The scoring reflects the endurance-building nature, slightly touching Moderate due to being longer than a very short session.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

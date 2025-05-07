@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Yoga",
-      "score": 1.0
-    },
-    {
-      "name": "Meditation",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The primary category 'Yoga' was selected with high confidence (score of 1.0) because the workout is explicitly described as 'Wind Down Restorative Yoga' in both the title and description. The mention of 'restore' further emphasizes a restorative yoga practice, aimed at relaxation and unwinding, which falls under the yoga category, particularly the restorative style. \n\nThe secondary category 'Meditation' was selected with moderate confidence (score of 0.7) due to the intent of the workout, 'to relax and wind down... perfect for before bed', suggesting a meditative or calming component often present in such practices. The music choice ('Chill low', 'Cool/Downtempo') supports this meditative environment.\n\nTerms like 'on the mat' suggest the physical location but do not change the core function of the workout. Other categories like 'Stretching', 'Breathing exercises', or 'Pilates' were excluded as they are neither explicitly mentioned nor implied with significant evidence in the metadata."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

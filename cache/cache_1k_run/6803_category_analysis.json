@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is classified under 'Indoor rowing' with a high confidence score of 0.9 because the session is explicitly described as a 'Weekly Conditioning Row' with intervals, which strongly indicates the use of a rowing machine. The detailed description of '3' intervals at a rhythm 26' further supports this, confirming that rowing is the central aspect. Additionally, the workout is described using interval training formats, waking it aligned with the principles of 'HIIT'. The mention of '2' rests in between' intervals indicates an alternation between work and rest, a hallmark of HIIT workouts, justifying its inclusion with a score of 0.7. The music and playlist metadata, primarily consisting of energetic 'Dance mid, Global Hits' tracks, supports this classification by suggesting a dynamic and engaging workout atmosphere typical of HIIT sessions. Other categories such as Elliptical, Indoor biking, or Running are not applicable as there are clear indicators pointing towards rowing and interval training."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

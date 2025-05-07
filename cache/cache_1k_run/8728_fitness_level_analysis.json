@@ -13,16 +13,16 @@
   "techniqueDifficultyExplanation": "Since the workout is marked as suitable for all fitness levels (Beginner, Intermediate, Advanced), the technique difficulty is considered adaptable. Movements can be scaled in complexity, and users are expected to modify techniques based on their capability. Therefore, all difficulty levels from Beginner to Expert are assigned equal suitability with a score of 1.0.",
   "effortDifficulty": [
     {
-      "level": "Light",
-      "score": 0.25
+      "level": "Moderate",
+      "score": 0.65
     },
     {
-      "level": "Moderate",
-      "score": 0.7
+      "level": "Challenging",
+      "score": 0.5
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The 10-minute circuit with an EMOM format and exercise transitions implies moderate effort, assuming continuous movement without extended breaks. Dumbbell and rowing inclusions suggest more than light effort for deconditioned users, likely moderate due to higher energy exertion required, even over a short duration.",
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout is set at a moderate pace with a max rhythm of 24 in an EMOM format, indicating a reasonably paced workout, increasing the effort level. The 10-minute duration suggests a Moderate effort level (0.65), while the inclusion of a rowing segment and dumbbell exercises implies a closer to Challenging level of energy expenditure for a less conditioned user. Therefore, it balances between Moderate (0.65) and Challenging (0.5).",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 1.0
-    },
-    {
-      "name": "HIIT",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.95,
-  "categoriesExplanation": "The primary category 'Indoor rowing' is chosen with high confidence based on multiple indicators: the term 'row' in the workout name 'Power Rock Row,' and the 'category' field which includes 'row.' The 'format' indicates 'Interval,' aligning with common rowing sessions that involve varying intensities, reinforcing the 'Indoor rowing' category. A score of 1.0 reflects the strong, central focus on rowing.\n\nA secondary category 'HIIT' is considered with a score of 0.7 due to elements of 'interval' training and 'drive' format, which suggests high-intensity phases typical of High-Intensity Interval Training sessions. Additionally, the 'workout intensity level' is marked 3 out of 3, indicating a high-intensity workout, further supporting the HIIT presence. However, it's secondary to rowing given the lack of explicit intensity alternation detail typically associated with HIIT.\n\nCategories like 'Breathing exercises,' 'Meditation,' or 'Yoga' are excluded due to the absence of relaxation or mindfulness elements. Other categories involving different equipment or exercise styles are also irrelevant based on the metadata provided."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

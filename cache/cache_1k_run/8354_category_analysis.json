@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Mat",
-      "score": 0.6
-    },
-    {
-      "name": "Indoor rowing",
-      "score": 0.4
+      "name": "Warm-up",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.75,
-  "categoriesExplanation": "The workout 'Technique + Quickness Warm-Up' is described as a warm-up drill focused on technique. The use of the term 'cycling through drills' suggests that these may involve floor-based exercises or mat exercises, which leads to the classification as 'Mat' with a moderate score of 0.6, indicative of its presence as warming up often involves dynamic, low-impact movements that do not require equipment. The mention of a format that includes 'Techniques' and its standard category label as 'row' suggests an association with rowing, leading to a secondary classification as 'Indoor rowing' with a score of 0.4. However, due to the broad and somewhat unclear description, the confidence level is set at 0.75, indicating high confidence based on available information but acknowledging some ambiguity in the exact activities involved. No specific equipment or rowing machine is mentioned, thus the heavier lean towards 'Mat' due to the nature of a non-equipment based warm-up."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

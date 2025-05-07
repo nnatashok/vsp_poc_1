@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "HIIT",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.8,
-  "categoriesExplanation": "The workout is classified primarily as 'Indoor rowing' with high confidence due to the explicit mention of 'row' in the category and the description indicating it involves racing to accumulate meters. The term 'Vancouver Challenge Row' strongly suggests a rowing focus. The use of 'accumulate as many meters as possible' and 'power' implies a rowing machine workout. 'HIIT' is also appropriate due to the short duration of just under 2 minutes paired with a high-intensity level of 3 out of 3, suggesting a burst of high-effort which is characteristic of High-Intensity Interval Training. The music choice featuring explicit lyrics and rock genre also corresponds with the high-energy level typically seen in HIIT workouts. Other categories like 'Mat', 'Weight workout', and 'Pilates' were excluded due to lack of relevant keywords and context-specific elements. Overall, the metadata provides significant indicators for a rowing workout with an intense, interval-like format."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

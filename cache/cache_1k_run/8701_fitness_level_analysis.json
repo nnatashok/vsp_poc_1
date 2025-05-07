@@ -2,15 +2,11 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.9
-    },
-    {
-      "level": "Intermediate",
-      "score": 0.2
+      "score": 0.8
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is classified primarily as 'row', which indicates that the technique difficulty should be capped at Beginner or Intermediate. The description 'gently climb in rhythm and effort' and the absence of an instructor suggest straightforward movements. Since it is categorized under 'Breathe' and 'standard', this implies minimal complexity, reinforcing a Beginner technique difficulty with strong alignment, possibly up to Intermediate if considering perfect form.",
+  "techniqueDifficultyExplanation": "The workout is rowing-based, classified under the 'breathe' workout type, which typically suggests a focus on controlled, less intense effort. The metadata indicates a 'standard' category and describes the session as a 'gentle climb' and 'cruise', all terms associated with simple execution. The rhythm is moderate at max 26, further supporting minimal complexity. Hydrow's rule for rowing technique allows Beginner or Intermediate, but the focus on a gentle climb and beginner-friendly approach leads to a solid Beginner classification.",
   "effortDifficulty": [
     {
       "level": "Light",
@@ -18,11 +14,11 @@
     },
     {
       "level": "Moderate",
-      "score": 0.3
+      "score": 0.4
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The duration of just over 11 minutes and the workout intensity level of 1 out of 3 indicate a low energy expenditure. The workout is also part of the 'Breathe' category, further suggesting a relaxed pace. The description 'gently climb in rhythm and effort' aligns with a Light effort difficulty. Moderate effort is possible if a user chooses to up their rhythm, but the metadata suggests an overall Light effort.",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The duration is just over 11 minutes, qualifying as a short workout. Descriptive terms like 'gently climb' and 'cruising' suggest an easy-going pace, matched by an intensity level marked 1 out of 3. It's a 'breathe' workout type, typically not demanding extensive physical effort. While there's some coordination due to rhythm changes, it remains mostly Light intensity with potential for some to find it Moderately demanding due to the rhythmic climb component, hence a slight consideration for Moderate effort.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

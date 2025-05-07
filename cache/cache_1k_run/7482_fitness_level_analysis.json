@@ -14,11 +14,15 @@
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 1.0
+      "score": 0.95
+    },
+    {
+      "level": "Moderate",
+      "score": 0.1
     }
   ],
-  "effortDifficultyConfidence": 1.0,
-  "effortDifficultyExplanation": "The workout is a cool down session, lasting only 5 minutes and 44 seconds with a maximum rhythm of 22 strokes per minute, which indicates a very low intensity. Cool downs are designed for recovery after workouts, emphasizing low energy expenditure, confirming a Light effort level with high confidence.",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "This is a short, 5:44-minute cool-down workout. The duration implies minimal energy expenditure, common for light effort classifications. The use of terms like 'cool down' further suggests negligible physical demands. Therefore, the Light effort level aligns strongly (0.95), while Moderate consideration is weak (0.1).",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

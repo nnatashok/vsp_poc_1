@@ -1,24 +1,28 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Intermediate",
+      "level": "Advanced",
       "score": 0.8
+    },
+    {
+      "level": "Expert",
+      "score": 0.7
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout type 'Drive' heavily influences the classification towards 'Advanced' or 'Expert' technique difficulty due to its nature of requiring advanced rowing techniques. However, given the platform's specific rule for rowing workouts, the technique difficulty can only be classified as Beginner or Intermediate. The interval format suggests some coordination skill, pushing it towards Intermediate.",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is classified as 'Drive' which typically indicates a higher technique difficulty due to the use of rowing machine with emphasis on form. Despite the general rule for rowing limiting technique difficulty to Beginner or Intermediate, the specific classification as 'Drive' overrides this, suggesting higher complexity. Given the metadata, including the maximum rhythm of 30 and 'in-depth technical detail' provided by a Paralympian instructor, an Advanced level is justified. The Expert score derives from the technique emphasis, but falls short due to lack of specific extreme technical components beyond rowing.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.7
+      "score": 0.85
     },
     {
       "level": "Extreme",
-      "score": 0.3
+      "score": 0.75
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout involves three 6-minute efforts at maximum pace, which suggests a high energy expenditure typical of interval workouts. The intensity level is labeled as 3 out of 3, indicative of its demanding nature. The presence of intense music also supports a higher energy output. Hence, the effort difficulty is primarily 'Challenging', with a partial 'Extreme' alignment due to the described intensity level.",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout involves three intervals of 6-minute maximum pace efforts within a 31:28 minute session, indicating high physical demand suitable for advanced users. The intensity is rated at the maximum level (3 out of 3), corresponding to a Challenging level due to the sustained exertion at high rhythm. Meanwhile, the intervals at maximum pace with a rhythm of 30 merit an Extreme score, though slightly lower due to the rest intervals inherent in interval training.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

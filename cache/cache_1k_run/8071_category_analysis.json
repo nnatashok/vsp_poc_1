@@ -2,9 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 1.0
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.95,
-  "categoriesExplanation": "The workout title 'Bergen Challenge Row' directly mentions rowing, indicating an indoor rowing session. The description includes phrases like 'one-minute challenge for maximum meters,' which further supports the classification of an indoor rowing workout focused on covering as much distance as possible in a short time. Additionally, terms such as 'Max rhythm: 34' and 'Format: Power' align with metrics typically associated with rowing machines. Despite the intense nature of the workout (intensity level: 3 out of 3), it should not be classified under HIIT because it doesn't mention interval training or rest periods but rather a continuous power output challenge. Given these strong indicators, the score for Indoor rowing is set at 1.0, reflecting absolute confidence in this classification."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

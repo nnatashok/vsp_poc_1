@@ -13,16 +13,16 @@
   "techniqueDifficultyExplanation": "Since the workout is marked as suitable for all fitness levels (Beginner, Intermediate, Advanced), the technique difficulty is considered adaptable. Movements can be scaled in complexity, and users are expected to modify techniques based on their capability. Therefore, all difficulty levels from Beginner to Expert are assigned equal suitability with a score of 1.0.",
   "effortDifficulty": [
     {
-      "level": "Moderate",
-      "score": 0.8
+      "level": "Light",
+      "score": 0.3
     },
     {
-      "level": "Challenging",
-      "score": 0.2
+      "level": "Moderate",
+      "score": 0.7
     }
   ],
-  "effortDifficultyConfidence": 0.75,
-  "effortDifficultyExplanation": "The workout lasts over 20 minutes and focuses on core and lower body exercises which increases energy demand, suitable for a 'Moderate' effort level for less conditioned users. The descriptors like 'feel the burn' suggest significant engagement, hinting at a modest 'Challenging' intensity. However, as a bodyweight routine without equipment, it likely resides mostly in the 'Moderate' range.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is 20 minutes long, which is moderate in duration. Combined with the description of working the core and lower body, this suggests a low-to-medium intensity workout level. The music choices such as Dance mid and Global Hits typically accompany a rhythm that may encourage more active engagement but within manageable bounds, especially with no additional weight or complex choreography involved. Altogether, this results in a moderate energy expenditure suitable for individuals ranging from deconditioned beginners to slightly more conditioned individuals.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

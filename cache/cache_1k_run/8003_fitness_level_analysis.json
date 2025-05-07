@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 1.0
+      "score": 0.9
     },
     {
       "level": "Intermediate",
-      "score": 1.0
+      "score": 0.6
     }
   ],
-  "techniqueDifficultyConfidence": 1.0,
-  "techniqueDifficultyExplanation": "Since the workout is marked as suitable for all fitness levels (Beginner, Intermediate, Advanced), the technique difficulty is considered adaptable. Movements can be scaled in complexity, and users are expected to modify techniques based on their capability. Therefore, all difficulty levels from Beginner to Expert are assigned equal suitability with a score of 1.0.",
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout type is 'flow', specifically a yoga flow, implying a range of movements from simple to slightly complex. The description suggests it is suitable for all levels, indicating both beginner-friendly poses and slightly more challenging intermediate sequences. The lack of specific equipment and short duration align with low complexity. Thus, there is a very strong alignment with Beginner and a moderate alignment with Intermediate technique difficulty.",
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.8
+      "score": 0.9
     },
     {
       "level": "Moderate",
-      "score": 0.5
+      "score": 0.6
     }
   ],
   "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "A 15-minute yoga flow is relatively short, suggesting light physical demand. Yoga typically emphasizes controlled movements and breathing, aligning with the 'Chill mid' and 'Cool/Downtempo' music, which further supports a relaxed intensity. However, the phrase 'build heat throughout your body' implies some moderate effort is possible. Hence, Light (score 0.8) is most fitting, with some potential for Moderate effort (score 0.5).",
+  "effortDifficultyExplanation": "The workout is a short, 15-minute yoga session described to 'build heat', which suggests a light to moderate effort. The duration and the chill music support a light intensity, suitable for beginners, although some poses may require moderate effort especially for those less fit, justifying the scores. The absence of intense cardio or high-intensity cues supports this classification.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",
@@ -31,12 +31,8 @@
     {
       "level": "Intermediate",
       "score": 1.0
-    },
-    {
-      "level": "Advanced",
-      "score": 1.0
     }
   ],
   "requiredFitnessLevelConfidence": 1.0,
-  "requiredFitnessLevelExplanation": "Workout type 'flow' is not one of the specialized Hydrow categories (Breathe, Sweat, Drive, Distance). It is treated as suitable for all fitness levels."
+  "requiredFitnessLevelExplanation": "Workout type 'flow' is not one of the specialized Hydrow categories (Breathe, Sweat, Drive, Distance). And workout description mentiones it is meant for beginners."
 }

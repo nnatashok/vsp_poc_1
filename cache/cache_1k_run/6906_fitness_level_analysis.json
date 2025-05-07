@@ -10,11 +10,11 @@
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is classified as a 'sweat' category row, with an interval format that involves climbing in rhythm. Rowing, by nature, has a technique difficulty of either Beginner or Intermediate. The lack of instructor guidance suggests slightly lower complexity. The interval format with varying rhythms indicates some coordination might be necessary, which supports an Intermediate classification, but the complexity isn't high due to the absence of advanced technical cues, thus Beginner is also strongly applicable.",
+  "techniqueDifficultyExplanation": "The workout 'Climbing Intervals Row' is categorized as a 'row' type, which typically limits the technique difficulty to Beginner or Intermediate. The climbing rhythm and interval format suggest a need for some coordination, but not to a complex level. Thus, the technique difficulty aligns well with Beginner at a score of 0.8 and Intermediate at 0.6 due to the rhythmic focus. The alignment with intermediate is justified by the interval nature, requiring some rhythm adaptation but still fitting within the Hydrow constraint of Beginner or Intermediate for rowing workouts.",
   "effortDifficulty": [
     {
       "level": "Moderate",
-      "score": 0.7
+      "score": 0.8
     },
     {
       "level": "Challenging",
@@ -22,7 +22,7 @@
     }
   ],
   "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout lasts 21 minutes and 34 seconds with an interval format, characterized by increasing intensity, as suggested by the 'climbing in rhythm' descriptor. The workout type 'sweat' and intensity level 2 out of 3 imply a significant physical demand. The duration falls short of extreme exertion, but the rowing intervals at a high rhythm make it more demanding than light or moderate intensity alone, placing it between Moderate and Challenging effort levels.",
+  "effortDifficultyExplanation": "The workout involves 4' and 3' interval pieces, which indicate a moderate to challenging effort level, especially when combined with a duration of over 21 minutes and a climbing rhythm peaking at 30 strokes per minute. The 'sweat' category suggests a moderate intensity focus, and the description of challenging oneself implies a considerable energy demand. The intensity level marked as 2 out of 3 further suggests that while this workout is relatively intense, it falls short of extreme difficulty, thus aligning moderately with challenging.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

@@ -3,26 +3,22 @@
     {
       "level": "Beginner",
       "score": 1.0
-    },
-    {
-      "level": "Intermediate",
-      "score": 0.2
     }
   ],
-  "techniqueDifficultyConfidence": 1.0,
-  "techniqueDifficultyExplanation": "The 'Steady Climb Row' workout falls under the 'row' category, which according to Hydrow's platform rules, typically suggests a technique difficulty classification of 'Beginner' or 'Intermediate'. The exercise primarily involves rowing, a basic and repetitive motion requiring minimal coordination compared to other workout modalities. Given the Beginner user fitness level requirement and the lack of complex movement descriptions, the highest confidence score is attributed to the 'Beginner' level.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row' which typically places technique difficulty in the Beginner to Intermediate range. However, the workout is specifically noted as 'Breathe' and designed for users with a Beginner fitness level, highlighting simplicity in movements. The format 'Climb' suggests a steadily increasing effort, yet maintains a beginner-friendly execution. Therefore, it is most accurately classified as Beginner with a very high confidence.",
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.8
+      "score": 0.7
     },
     {
       "level": "Moderate",
       "score": 0.5
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout's duration is 11 minutes and 24 seconds, with an intensity level of 1 out of 3, indicating a low-intensity nature. This aligns with 'Light' effort difficulty for deconditioned users, as the session seems suitable for complete beginners requiring gentle engagement. The climb format and steady rhythm at a moderate pace slightly suggest 'Moderate' effort due to gradual intensity increases, but this factor is not strong enough to outweigh the overall 'Light' classification.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout has a duration of 11:24 minutes, which is relatively short, aligning with a mild to moderate physical demand. The 'breathe' workout type and an intensity level of 1 out of 3 suggest that the energy expenditure is low, suitable for beginners. The increasing rhythm (26) in 'Climb' may introduce brief moderate effort, but overall, it's likely to remain Light to Moderate for deconditioned users.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

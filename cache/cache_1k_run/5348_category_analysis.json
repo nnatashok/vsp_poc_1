@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.4
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.75,
-  "categoriesExplanation": "The primary category chosen is 'Indoor Rowing' with a score of 0.8 due to explicit references to 'Hydrow's Beginner Training Camp' and alternating rhythms of 22 and 26, suggesting the use of a rowing machine. The term 'row' in the metadata further supports this classification. The workout's location, Charles River, may suggest a rowing context though performed indoors. The secondary category 'Breathing exercises' receives a score of 0.4, inferred from the workout type labelled as 'breathe', indicating a focus on controlled breathing, often a feature of beginner rowing workouts to establish a rhythmic pattern. The low intensity level (1 out of 3) and short duration also align with a focus on foundational breathing techniques. However, due to the absence of explicit mention of classic breathing exercises like pranayama or meditative focus, its presence is considered moderate. No other categories like Mat, HIIT, or Stretching apply, given the specificity of the rowing context and lack of indicators for such activities."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

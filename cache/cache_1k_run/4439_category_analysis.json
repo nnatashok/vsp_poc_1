@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout is primarily classified as 'Indoor rowing' with a high confidence score of 0.9. This is clearly indicated by the term 'row' in both the title 'Journey to Success Row' and the description where participants row in sync, as well as the metadata categorization words like 'row' and 'climb' which suggest rowing is a central component.\n\nA secondary category, 'HIIT', is also appropriate, with a score of 0.6. Although 'HIIT' is not explicitly mentioned, the workout engages a 'Format: Climb' and a 'Max rhythm: 28', implying intensity fluctuations typical of interval training. Furthermore, the 'Workout intensity level: 2 out of 3', suggests a more intense workout characteristic of HIIT. However, since the intensity rating isn't maximal, rowing remains the primary focus.\n\nThe use of high-energy pop and global hits music further supports the idea of a dynamic, possibly interval-based workout. Other categories like 'Mat', 'Running', or 'Yoga' were excluded due to lack of supporting evidence."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

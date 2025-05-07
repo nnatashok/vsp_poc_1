@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Yoga",
-      "score": 0.9
-    },
-    {
-      "name": "Stretching",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout titled 'Relaxation Restore' strongly indicates a yoga session focused on relaxation and stillness. The description explicitly mentions being guided through poses, which aligns closely with a Yoga practice (0.9 score). Additionally, the recommendation to use yoga blocks further reinforces the Yoga classification. The Calm Radio station accompanying the workout and the context of finding 'stillness in your body and mind' suggests a restorative yoga session, emphasizing gentle stretching and relaxation techniques. Thus, a secondary category of Stretching is applicable (0.7 score). The mention of 'poses laying on your back' implies gentle activities focused on improving flexibility and relaxation, which fits both Yoga and Stretching categories, but more predominantly Yoga. The absence of explicit dynamics or bodyweight exercises ruled out other categories, such as HIIT, Pilates, or Body weight."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

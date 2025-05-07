@@ -1,28 +1,20 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Beginner",
-      "score": 0.4
-    },
-    {
       "level": "Intermediate",
-      "score": 0.6
+      "score": 0.7
     }
   ],
-  "techniqueDifficultyConfidence": 0.75,
-  "techniqueDifficultyExplanation": "The workout is classified under 'Drive', which typically aligns with a higher technique complexity. According to Hydrow rules, for a row workout like this one, the technique difficulty can range from Beginner to Intermediate. The use of pyramid-style intervals that change in duration suggests some coordination is needed, indicating an Intermediate difficulty. However, rowing itself is straightforward, allowing a partial Beginner score, but the 'Drive' element increases overall complexity slightly.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "In this workout, the combination of 'drive' workout type and 'pyramid' format implies a measure of complexity often associated with intermediate-level rowing technique, as it involves maintaining form through varying rhythm and intensity. The metadata tags it as 'Drive', which on Hydrow indicates an expectation of some coordination and effort but not reaching advanced complexity, aligning with an Intermediate rating.",
   "effortDifficulty": [
     {
       "level": "Challenging",
       "score": 0.75
-    },
-    {
-      "level": "Extreme",
-      "score": 0.5
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The 'Drive' workout type and a max rhythm of 32 indicate high intensity, consistent with the highest workout intensity level (3 out of 3). The duration of over 21 minutes and complex interval structure suggest significant energy expenditure, placing this workout at least in the Challenging category. The combination of these elements pushes the effort demand towards the Extreme, but given the audience, we classify it more firmly under Challenging with evidence of it bordering on Extreme for less conditioned users.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout's intensity is rated 3 out of 3, reflecting significant physical demands. The 21-minute duration with increasing interval lengths (30\", 45\", 60\") requires sustained effort, aligning with moderate to challenging difficulty. Given intervals and pace descriptors, the effort is substantial, grading strong for 'Challenging', requiring robust energy expenditure despite the workout's concise duration.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which limits technique difficulty to Beginner or Intermediate levels. The description mentions focusing on sustaining power and rhythm shifts, which suggests some complexity. The instructor, Paralympic medalist Dani Hansen, provides in-depth technical detail, further indicating an Intermediate level. Therefore, Intermediate is the most fitting classification with strong confidence, though Beginner remains possible for less complex rowing mechanics.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.8
+    },
+    {
+      "level": "Challenging",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout has a moderate duration of 16:25 minutes and is designed as 'sweat', indicating a more energy-demanding session. It involves sustaining power and rhythm shifts, which requires effort. The intensity is rated 2 out of 3, suggesting a physical demand higher than moderate but lower than extreme, positioning it as challenging for lower fitness levels. Hence, Moderate is the dominant classification with a case for Challenging given the sustained effort required.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

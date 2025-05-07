@@ -1,20 +1,28 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Intermediate",
-      "score": 0.6
-    }
-  ],
-  "techniqueDifficultyConfidence": 0.7,
-  "techniqueDifficultyExplanation": "The workout is categorized as 'row' and 'Drive', which on the Hydrow platform often implies advanced rowing techniques. While the row classification typically restricts to Beginner or Intermediate, the mention of 'Drive' and 'HIIT' suggests some complexity warranting an Intermediate classification, despite simplistic movements inherent in rowing.",
-  "effortDifficulty": [
+      "level": "Beginner",
+      "score": 0.2
+    },
     {
-      "level": "Challenging",
+      "level": "Intermediate",
       "score": 0.8
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout involves 60-second HIIT intervals, designed to be very intense given the maximum rhythm of 28. With an 'intensity level' of 3 out of 3, this suggests a high demand on cardiovascular and muscular endurance. Furthermore, the short, intense nature of the intervals likely places it in the Challenging category.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The technique difficulty for this workout is classified as Intermediate. The category 'row' allows for a maximum technique level of Intermediate, even with complex workouts. The inclusion of 'drive' in the workout type, typically aligned with Advanced, suggests higher complexity but within the acceptable Intermediate level for rowing movements. High rhythm and the presence of a skilled Olympian instructor guide correct form during intense intervals, thus supporting the Intermediate classification, adjusted for row-specific protocols.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.6
+    },
+    {
+      "level": "Extreme",
+      "score": 0.9
+    }
+  ],
+  "effortDifficultyConfidence": 1.0,
+  "effortDifficultyExplanation": "The effort difficulty is classified between Challenging and Extreme due to the high-intensity interval training format ('HIIT'), a maximal rhythm of 28, three out of three intensity level, and Olympian-level guidance. These factors indicate high physical demand, notable energy expenditure, and shorter rest periods, aligning with both Challenging and Extreme efforts for less fit users.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

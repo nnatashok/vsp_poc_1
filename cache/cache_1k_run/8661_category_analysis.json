@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.6
-    },
-    {
-      "name": "Stretching",
-      "score": 0.5
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.7,
-  "categoriesExplanation": "The title 'Steady Cool-Down' and the description suggest a workout aimed at relaxing the body after exercise. The presence of rowing terminology like 'Max rhythm: 22' and 'Format: Steady' indicates an indoor rowing activity, which justifies the assignment of the 'Indoor rowing' category with a score of 0.6, as 'steady' often refers to a consistent rowing pace. The time-frame (5 minutes and 47 seconds) suggests a brief session typical of a cool-down rather than a full workout. However, given the focus on technique tips and the context of a cool-down phase, elements of stretching may be involved to promote flexibility and relaxation, hence a score of 0.5 for 'Stretching'. Other categories, such as Yoga and Meditation, were considered but excluded due to lack of evidence of their practices or techniques."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

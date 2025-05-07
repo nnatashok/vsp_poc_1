@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Body weight",
-      "score": 0.85
-    },
-    {
-      "name": "Mat",
-      "score": 0.75
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout name 'Bodyweight Strength' and the description emphasizing 'rounds of bodyweight exercises' strongly indicate the 'Body weight' category, as it involves strength exercises using only body weight as resistance. The workout description and category details mention 'On The Mat', suggesting exercises performed on an exercise mat, aligning with the 'Mat' category. Since the workout involves bodyweight exercises aimed at building strength, and no equipment is needed as stated in the metadata, the 'Body weight' category is given a high score of 0.85, underscoring its central focus. 'Mat' is also relevant due to the environment and routine on the mat, giving it a score of 0.75, indicating its significant presence in the workout. The use of genres like Hip Hop/R&B may imply a dynamic intensity but does not detract from the primary focus of bodyweight and mat exercises. Other categories like 'Weight workout' or 'Pilates' were excluded due to the explicit mention of body weight and the lack of additional equipment or specific focus on core alignment typical of Pilates."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

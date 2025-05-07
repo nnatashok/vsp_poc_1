@@ -1,12 +1,12 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Advanced",
-      "score": 0.85
+      "level": "Intermediate",
+      "score": 0.7
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout falls under 'Drive', which Hydrow rules dictate as requiring high technique due to its intense nature. While rowing is inherently simpler, the Drive category emphasizes technical execution and synchronization at high rates, particularly with a max rhythm of 34, indicating a more complex execution requiring good form and understanding. As stated, no modifications are indicated for simpler movement varieties, thus confirming its Advanced rating with high confidence.",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout type is 'drive', which typically involves advanced rowing techniques requiring good coordination and body awareness. Since the workout category includes 'row', it logically has a Technique Difficulty of either Beginner or Intermediate. Considering the 'drive' designation, which suggests a more advanced technique, the Intermediate level is most appropriate. The high rhythm (max 34) and HIIT format further suggest a stronger alignment with Intermediate difficulty.",
   "effortDifficulty": [
     {
       "level": "Challenging",
@@ -17,8 +17,8 @@
       "score": 0.6
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout markedly points to an intensity level 3 out of 3, supported by a 46-minute duration and HIIT nature. The emphasis on sprint and max effort, particularly with short intervals, suggests a high energy expenditure typical of challenging levels, bolstered further by potential extremes for highly deconditioned users. The music choice and lack of listed rest periods also suggest a consistent, intense session. Given the contextual evidence, the workout is challenging to extreme for less fit individuals, with strong confidence.",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout is classified as a high-intensity interval training (HIIT) session with an intensity level of 3 out of 3. This indicates a high level of energy expenditure and physical demand, especially given the duration of 46:37. The inclusion of sprint and max effort intervals heightens the physical challenge, aligning with Challenging effort difficulty. However, given the max rhythm of 34 and the effort expected during intervals, some elements could be considered Extreme for users in poor physical shape. Therefore, both Challenging and Extreme levels are suggested, with a higher emphasis on Challenging due to the greater probability of alignment for most users.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

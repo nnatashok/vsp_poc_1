@@ -2,7 +2,7 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.75
+      "score": 0.8
     },
     {
       "level": "Intermediate",
@@ -10,19 +10,19 @@
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout type is 'row' and falls under the 'standard' category, suggesting a typical rowing technique. In line with Hydrow-specific rules, technique difficulty for 'row' can be Beginner or Intermediate. The use of intervals typically requires some level of rhythm and coordination, aligning moderate complexity with 'Intermediate' but not exceeding it. Hence, it logically aligns with both Beginner and Intermediate.",
+  "techniqueDifficultyExplanation": "Given the workout category is 'row', the technique difficulty is limited to Beginner or Intermediate. The workout emphasizes endurance with interval training on a rowing machine, which involves basic coordination and a steady rhythm. Thus, it aligns strongly with Beginner due to the straightforward nature of rowing but has moderate alignment with Intermediate due to the length and interval format.",
   "effortDifficulty": [
     {
-      "level": "Moderate",
+      "level": "Challenging",
       "score": 0.7
     },
     {
-      "level": "Challenging",
-      "score": 0.6
+      "level": "Moderate",
+      "score": 0.5
     }
   ],
   "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout lasts over an hour and contains interval training with a max rhythm of 30, suggesting a variable intensity throughout the duration. Despite being rated a 2 out of 3 in intensity, the length and format of the workout produce a moderate to high energy output, aligning well with 'Moderate' for general deconditioned users and inching towards 'Challenging' for less fit users engaging in prolonged efforts.",
+  "effortDifficultyExplanation": "The workout is 1 hour and 26 minutes long with a format of intervals, contributing to a significant energy expenditure suitable for the 'Challenging' level, particularly for individuals with lower fitness levels. The music intensity and max rhythm of 30 support a dynamic and enduring session, indicating strong alignment with a Challenging effort level and a moderate fit with Moderate difficulty due to the workout's duration and intensity settings.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

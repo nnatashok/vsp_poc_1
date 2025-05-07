@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.5
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is classified primarily as 'Indoor rowing' due to the use of the word 'row' in the title and the description explicitly mentioning rowing-related terms such as 'technique' and 'split.' The structure of the workout involves climbing 'up and down the pyramid,' indicating structured intervals typical of rowing sessions. The 'max rhythm' of 26 and the pyramid interval format are strongly indicative of rowing workouts, as these are common training structures used in rowing.\n\nBreathing exercises are also considered due to the 'Workout Type' being listed as 'breathe' and 'Category' including 'breathe'. However, this is considered a supplementary aspect to the main rowing focus, leading to a lower score of 0.5 for this category.\n\nThe workout description, playlist, and intensity level all support low to moderate intensity, aligning with cardio-focused rowing rather than categories like HIIT or Yoga. The lack of other equipment or references to exercises specific to non-rowing activities further solidifies 'Indoor rowing' as the primary category."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

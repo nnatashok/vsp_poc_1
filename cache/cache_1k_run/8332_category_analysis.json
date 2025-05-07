@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.3
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The primary category chosen is 'Indoor rowing' with a high confidence score (0.9). This is based on the explicit mention of 'Memory Lane Row' in the workout name, which strongly indicates a rowing workout. Further supporting this classification is the use of terms like \"row\" and the 'standard,row' in the category field, which unmistakably point towards rowing exercises. The format noted as 'Pyramid' often pertains to rowing workouts where the intensity and effort vary in a structured manner, reinforcing this choice.\n\nThe second category, 'HIIT', was selected with a low score (0.3). This is due to the workout's description mentioning 'sweat,' and its intensity level of 2 out of 3, which suggests a moderately intense workout that may incorporate elements of high-intensity interval training, like changes in tempo or effort consistent with a pyramid scheme. However, given the primary indication of rowing, this is a supplementary category rather than a primary one.\n\nOther categories like 'Mat', 'Yoga', or 'Walking' were excluded as there's no evidence supporting those activities in the metadata. Overall, the provided data closely ties the workout's nature to indoor rowing, with minor elements suggestive of HIIT components."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

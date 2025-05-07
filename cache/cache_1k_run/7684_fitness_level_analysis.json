@@ -1,20 +1,28 @@
 {
   "techniqueDifficulty": [
     {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
       "level": "Advanced",
-      "score": 0.8
+      "score": 0.9
     }
   ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout is classified under 'Drive', which Hydrow defines as inherently Advanced due to its emphasis on power and technical proficiency in rowing. 'Drive' signifies a requirement for maintaining high intensity with effective technique across short durations, a characteristic of advanced technique difficulty. The format 'Power' indicates focus on strength, difficult for lower skill users. Additionally, the need to synchronize at a max rhythm of 32+ requires some rowing expertise, reinforcing the Advanced classification.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized with 'drive' and involves high-intensity rowing at max rhythm 32+, indicating a more technical rowing requirement. Given this complexity, the Technique Difficulty is primarily 'Advanced' (score: 0.9), aligning with Hydrow-specific rules. The 'Intermediate' level (score: 0.7) also applies because while the rhythm is high, it doesn't involve complex equipment or movement patterns beyond rowing, thus serving multiple fitness levels inclusively.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.7
+      "score": 0.85
+    },
+    {
+      "level": "Extreme",
+      "score": 0.75
     }
   ],
-  "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The workout, despite its short duration of 1 minute and 50 seconds, is high intensity, as indicated by the maximum rhythm of 32+ SPM and 'Power' format, aiming for maximum meters in a short time. These elements elevate physical demand to Challenging, appropriate for significant but not extreme energy expenditure. The intensity level 3/3 suggests energy expenditure beyond moderate levels but doesn't extend duration enough for an 'Extreme' classification.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The effort difficulty is 'Challenging' (score: 0.85) due to the short duration that emphasizes high-intensity effort aimed at achieving maximum meters. The Workout Intensity Level is 3 out of 3, suggesting a high energy expenditure. The 'Extreme' level (score: 0.75) is plausible considering the format 'Power' and rhythm, although the short duration slightly mitigates this.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

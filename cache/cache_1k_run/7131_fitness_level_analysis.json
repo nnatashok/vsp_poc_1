@@ -1,20 +1,36 @@
 {
   "techniqueDifficulty": [
     {
+      "level": "Beginner",
+      "score": 0.2
+    },
+    {
       "level": "Intermediate",
-      "score": 0.7
+      "score": 0.6
+    },
+    {
+      "level": "Advanced",
+      "score": 0.8
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout type is classified as 'drive', and the category includes 'row', which typically sets the Technique Difficulty between Beginner and Intermediate according to the specific Hydrow rules. 'Drive' workouts are considered advanced because they often involve challenging rowing techniques and intervals, suggesting a higher technical requirement than typical rowing workouts. Therefore, Intermediate is the most appropriate level given the sprint intervals and overall drive classification.",
+  "techniqueDifficultyExplanation": "The workout type is 'Drive', which according to Hydrow-specific rules, is typically classified as 'Advanced' due to the technical focus on rowing. Despite the 'row' category, the specific 'Drive' type overrides the typical classification and suggests advanced technical instruction, as supported by Dani's emphasis on 'in-depth technical detail'. However, considering the general rowing simplicity, there's still partial fit for 'Intermediate'.",
   "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.6
+    },
+    {
+      "level": "Challenging",
+      "score": 0.8
+    },
     {
       "level": "Extreme",
       "score": 0.8
     }
   ],
-  "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "The workout features two intense 4-minute sprint intervals, which are highly demanding and reflect an intensity score of 3 out of 3. The rhythm data indicates a high stroke rate of 30, and the structure as an 'interval' workout implies high energy expenditure with limited rest, all of which align with an 'Extreme' effort difficulty. The short total duration still contains significant high-intensity work, making this workout very demanding for most users.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The effort difficulty is high due to the 'Workout intensity level: 3 out of 3' and 'fast sprint for two 4-minute intervals', indicating a very demanding workout. The interval format with high rhythm (max 30) contributes to extreme energy expenditure, suggesting the 'Extreme' level. However, the relatively short duration (around 12 minutes) makes a strong argument for the 'Challenging' level as well, aligning with high training intensity but not prolonged duration typical of the most intense workouts.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout is classified primarily as 'Indoor Rowing' due to explicit indicators in the metadata, such as the title 'Team Sprint Row,' the description emphasizing rowing sprints (e.g., '3' and 2' sprinting pieces'), and the specified categories including 'row.' These all strongly indicate the use of a rowing machine and rowing exercises. The mention of a 'climb in rhythm' also suggests an ergometer or rowing machine workout. Given the format described as 'Climb' and the high-intensity level (3 out of 3), the workout also fits into the 'HIIT' category. The '3' and '2' minute sprint pieces indicate interval training, a characteristic of HIIT. The strong intensity and phrasing suggest vigorous exercise bursts, supporting this classification. The high energy dance and global hits playlist bolsters the energizing and intense nature of the workout. Other categories such as Yoga, Pilates, or Mat were not considered due to the explicit rowing context and equipment use."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

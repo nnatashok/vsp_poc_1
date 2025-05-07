@@ -2,21 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "Pilates",
-      "score": 0.6
-    },
-    {
-      "name": "Yoga",
-      "score": 0.6
-    },
-    {
-      "name": "HIIT",
-      "score": 0.4
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout is a combination of several distinct activities, each explicitly mentioned in the metadata. The 'Drive' and 'HIIT workout with Mike' sections strongly suggest 'Indoor rowing' and 'HIIT' components, as these terms are usually associated with rowing workouts on the Hydrow and high-intensity exercises, respectively. This supports a high score of 0.8 for 'Indoor rowing' and a moderate score of 0.4 for 'HIIT'. The session begins with 'pilates with Christie,' explicitly indicating a Pilates session, which justifies a score of 0.6 for 'Pilates'. Furthermore, the workout concludes with 'yoga with Owen,' indicating a significant yoga component, meriting a score of 0.6 for 'Yoga'. Given the 20-minute duration and the inclusion of both Pilates and Yoga, there was no single dominating workout type, hence all four categories reflect a part of the workout. The overall confidence in the classification is very high at 0.9, due to direct references to each activity in the description."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

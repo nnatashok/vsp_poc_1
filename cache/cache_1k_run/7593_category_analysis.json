@@ -1,18 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Stretching",
-      "score": 0.5
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.3
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The video 'Reconnection Cool-Down' is predominantly an indoor rowing workout, as indicated by the metadata references to 'rowing at both half-slide and full slide'. This is a clear indicator of the use of a rowing machine. The 'Technique' format suggests it's aimed at refining rowing form, thus focusing on practice rather than intense exercise, typical of rowing workouts. The mention of a 'cool down' phase suggests the inclusion of stretching or low-intensity exercises, common in post-workout cooling periods, supporting the secondary classification under 'Stretching'. Lastly, since reconnecting might involve calming activities like controlled breathing, 'Breathing exercises' could be modestly present. Due to these factors, 'Indoor rowing' is given a strong score of 0.9, while 'Stretching' receives a moderate score of 0.5 and 'Breathing exercises' a mild score of 0.3. Other categories like HIIT or Mat are excluded due to the lack of related high-intensity or floor exercise indicators."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

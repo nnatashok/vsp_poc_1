@@ -1,18 +1,10 @@
 {
   "categories": [
     {
-      "name": "Weight workout",
-      "score": 0.8
-    },
-    {
-      "name": "Indoor rowing",
-      "score": 0.4
-    },
-    {
-      "name": "Mat",
-      "score": 0.2
+      "name": "Calisthenics",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.8,
-  "categoriesExplanation": "The workout title 'Whole Body Circuit' and description clearly indicate a focus on total body exercises, mentioning the use of dumbbells and an element of rowing ('2-minute row on Hydrow'). This suggests the primary category should be 'Weight workout' as it involves dumbbells for strength training, warranting a high score of 0.8. The mention of 'a 2-minute row on Hydrow' supports a secondary classification of 'Indoor rowing', though it is a minor part of the workout, justifying a moderate score of 0.4. The overall description and tag 'on-the-mat' suggests some exercises may be performed on a mat, providing a slight basis to include 'Mat' with a score of 0.2. Despite potential confusion with the 'Mat' tag, the dominant elements are the use of dumbbells and rowing, focusing heavily on a comprehensive workout rather than a simple mat-based session. Therefore, 'Weight workout' and 'Indoor rowing' represent the core activities."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

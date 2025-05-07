@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "Mat",
-      "score": 0.4
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.75,
-  "categoriesExplanation": "The workout is titled 'Technique Cool-Down,' which suggests a focus on rowing technique during a cool-down phase. The description emphasizes reinforcing technique, implying this is a skill-focused session on a rowing machine. Although relaxed, it still centers around rowing, aligning it with the 'Indoor rowing' category with a high score of 0.8 due to explicit mention of 'technique' and 'row' in the category metadata. \n\nWhile the Playlist cited 'Joe McBride' with genres like Blues/Jazz, Cool/Downtempo, it aligns with a cooldown atmosphere rather than guiding specific workout category. \n\nThe secondary consideration for 'Mat' with a score of 0.4 is due to the cool-down nature, where participants might disembark the rowing machine for mild stretches or technique reinforcement without equipment. However, the core of the workout remains closely tied to rowing, which is why 'Indoor rowing' takes precedence. No other category fits as closely, especially since standard mat activities like stretching, Yoga, or Pilates are not explicitly mentioned."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

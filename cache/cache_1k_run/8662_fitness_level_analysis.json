@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.8
+      "score": 0.9
     },
     {
       "level": "Intermediate",
-      "score": 0.2
+      "score": 0.1
     }
   ],
-  "techniqueDifficultyConfidence": 0.7,
-  "techniqueDifficultyExplanation": "The workout is categorized as 'row', automatically placing it in the Beginner or Intermediate technique difficulty levels. Given the descriptors like 'low rhythm' and 'interval format', which require some basic coordination, it is primarily aligned with Beginner, with slight elements of Intermediate due to the interval aspect.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', and according to Hydrow-specific rules, technique difficulty for rowing can be marked as either Beginner or Intermediate. Given the description focuses on 'proper form and results' with a rhythmic approach and mentions 'slightly higher efforts', there is a minimal complexity in technique, suggesting a strong alignment with Beginner with a slight consideration for Intermediate due to rhythm focus.",
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.8
+      "score": 0.6
     },
     {
       "level": "Moderate",
-      "score": 0.2
+      "score": 0.4
     }
   ],
-  "effortDifficultyConfidence": 0.65,
-  "effortDifficultyExplanation": "The workout is of 'breathe' type and has an intensity level of 1 out of 3, indicating a focus on lower exertion. The 'low rhythm' rowing with intervals increases the exertion slightly, suggesting a predominant Light level with minor influences of Moderate, thus fitting deconditioned users well.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout's intensity level is 1 out of 3, indicating a light effort expectation, supported by the 'breathe' category focusing on lower rhythms. However, the workout is 31 minutes long with interval training, which could be challenging for complete beginners, indicating a potential for moderate effort involvement. Given 'slightly higher efforts', the energy expenditure fluctuates, hence a primarily Light effort with some Moderate consideration.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

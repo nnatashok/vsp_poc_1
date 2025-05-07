@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "HIIT",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is primarily classified as 'Indoor rowing' with a score of 0.8 due to the use of terms like 'row', '28 rhythm', and 'interval' in the metadata. These suggest a structured rowing workout with specific cadence and interval formats typical of rowing sessions. Additionally, the score reflects the central theme of the workout, which is rowing. The second category, 'HIIT', is assigned a score of 0.7 due to the description of the workout as similar to '400m repeats' and the indication of 'interval' format, which are characteristic of high-intensity interval training. The high intensity level (3 out of 3) further supports this categorization. Other potential categories like 'Running' are not chosen despite the term 'Runner's Program' because the keywords such as 'row' and format indicators point more specifically to a rowing session rather than an outdoor or treadmill running activity. The confidence level of 0.85 is based on explicit references to rowing-related terms and the structured interval nature of the session."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

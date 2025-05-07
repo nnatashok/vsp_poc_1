@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.8
+      "score": 0.7
     },
     {
       "level": "Intermediate",
-      "score": 0.2
+      "score": 0.8
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "Given that the workout type is 'row', Hydrow-specific rules are applied, and the technique difficulty can only range from Beginner to Intermediate. The workout is described with focus on rhythm and climbing, suggesting a rhythmic and consistent rowing pace. This aligns more with Beginner due to the straightforward nature of rowing, but the mention of 'Drive through your legs' suggests an element of proper technique positioning slightly above very basic rowing.",
+  "techniqueDifficultyExplanation": "The workout is classified as 'row', which limits the Technique Difficulty to either Beginner or Intermediate according to rules. The involvement of rhythmic climbing and driving through legs suggests a slightly complex technique, warranting an Intermediate classification. However, the basic rowing motion aligns well with Beginner difficulty. Therefore, scores of 0.7 for Beginner and 0.8 for Intermediate are assigned, with high confidence due to clear rowing-based activity and moderate rhythm involved.",
   "effortDifficulty": [
     {
       "level": "Moderate",
-      "score": 0.6
+      "score": 0.7
     },
     {
       "level": "Challenging",
-      "score": 0.4
+      "score": 0.6
     }
   ],
   "effortDifficultyConfidence": 0.75,
-  "effortDifficultyExplanation": "The workout is classified under the category 'sweat' and runs for about 11 minutes with a Rhythm of 26, signifying a quick pace. This, combined with the 'climb' format, indicates a moderately challenging exertion that could be demanding for deconditioned users but is not prolonged enough to be extremely challenging. The intensity level of 2 medium-scale suggests a moderate to challenging effort fitting primarily under Moderate difficulty.",
+  "effortDifficultyExplanation": "The duration of 11 minutes and the workout intensity of 2 out of 3 suggest a workout that is moderately challenging, hence scores of 0.7 for Moderate and 0.6 for Challenging. The rhythmic 26 max cadence and 'sweat' category imply a level of intensity that will require considerable effort, especially for deconditioned users. The narrative of making the workout seem less intense through humor further reinforces the challenging aspect. This assessment is made with moderate to high confidence based on metadata indicators.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

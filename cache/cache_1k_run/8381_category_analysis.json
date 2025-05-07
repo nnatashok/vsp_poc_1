@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.9
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.95,
-  "categoriesExplanation": "The workout is clearly classified under 'Indoor rowing' and 'HIIT' due to explicit references in the metadata. The title 'Pure Energy Row' and the description mentioning 'high-intensity intervals along the Charles River' strongly imply a rowing workout, supported by the max rhythm of 32, which is typical for a rowing cadence, confirming it as 'Indoor rowing' with a score of 0.9. 'HIIT' is directly mentioned as the format of the workout, indicating intervals of intense exercise, further justified by the workout intensity level of 3 out of 3, and therefore it also receives a score of 0.9. The energetic playlist with artists typically associated with high-energy music, like Pitbull and The Score, supports the high-intensity nature of the workout. There is no indication for other categories such as 'Mat', 'Yoga', or 'Weight workout', which were excluded due to lack of any supporting evidence in the metadata."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

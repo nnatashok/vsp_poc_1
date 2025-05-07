@@ -1,18 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
+      "name": "Cool-down",
       "score": 1
-    },
-    {
-      "name": "Stretching",
-      "score": 0.4
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.2
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The primary category assigned is 'Indoor rowing' with a high score of 1.0 because the workout clearly focuses on rowing techniques, specifically refining the 'catch position' and performing 'legs only drills'. These terms indicate that this is a rowing machine-based activity that focuses on improving rowing form. Despite the mention of 'cool down' and 'technique', these are integral parts of rowing and do not align with other categories like stretching or yoga.\n\nA secondary category of 'Stretching' with a score of 0.4 is included because the workout involves a 'cool down' phase, which might involve some elements of flexibility or gentle stretching to aid in muscle recovery post-exercise. However, given the emphasis on technique and rowing specifics, it's less pronounced.\n\nAdditionally, 'Breathing exercises' is considered with a low score of 0.2 as there might be some focus on controlled breathing during the technique drills to improve performance, but this is likely not a central theme.\n\nThe confidence level is high (0.85) due to explicit references to rowing drills and technique instructions. Other categories were excluded as there are no explicit mentions or implications of non-rowing exercises or equipment."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

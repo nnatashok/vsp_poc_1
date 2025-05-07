@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "Stretching",
-      "score": 0.4
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.8,
-  "categoriesExplanation": "The workout video titled 'Technique Cool-Down' suggests a low-intensity session designed to help participants cool down post-intensive exercise. The term 'Technique' in the description, combined with 'Cool-Down,' implies that the focus is on maintaining proper body positions, which is typically important in rowing. This is supported by the metadata tag 'row,' suggesting a rowing focus. Thus, 'Indoor rowing' is assigned a high score of 0.8, reflecting its significance in the workout.\n\nThe cool-down aspect indicated aligns with elements of 'Stretching,' as cool-down routines often include stretching to reduce muscle tension. Hence, 'Stretching' is assigned a moderate score of 0.4 due to its partial relevance in the cooling-down process.\n\nMusic details like 'Pop low, Global Hits' suggest a relaxed atmosphere suitable for cooldowns but do not specifically guide classification.\n\nOverall, the clearest indicators are for 'Indoor rowing' due to the metadata and description emphasis on technique in rowing scenarios."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

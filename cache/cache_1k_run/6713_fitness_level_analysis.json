@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.8
-    },
-    {
-      "level": "Intermediate",
-      "score": 0.2
-    }
-  ],
-  "techniqueDifficultyConfidence": 0.85,
-  "techniqueDifficultyExplanation": "The workout is categorized as a 'row' type, which, per classification guidelines, limits the technique difficulty to 'Beginner' or 'Intermediate'. The description suggests building rhythm at a jog pace without complex movement patterns, aligning with Beginner level. However, the incorporation of maintaining rhythm and pace introduces a minor aspect of coordination, justifying a slight inclusion of Intermediate level.",
-  "effortDifficulty": [
-    {
-      "level": "Light",
       "score": 0.9
     },
     {
-      "level": "Moderate",
-      "score": 0.1
+      "level": "Intermediate",
+      "score": 0.6
     }
   ],
-  "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "The workout duration is relatively short at 11 minutes with a 'breathe' type and an intensity level marked as 1 out of 3. The focus on rhythm building at a jogging pace suggests minimal physical exertion, aligning strongly with the Light effort difficulty. The jog pace cues a slight increase in challenge, hence Moderate is considered but with less weight.",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is classified as a 'row' type with a 'breathe' format, generally focusing on maintaining a rhythmic pace rather than intensive or complex rowing techniques. Given the 'Beginner' user fitness level requirement and the emphasis on building rhythm at a jog pace, the movements are likely straightforward, aligning strongly with Beginner (score: 0.9). The possibility of some coordination involved in maintaining a rhythm gives it a moderate Intermediate score (score: 0.6), but the primary technique needs remain basic.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The video is of short duration (11:17 minutes), focusing on a rhythm-building approach rather than high-intensity exercise, and is noted to be a 1 out of 3 on the intensity scale. These factors suggest a low energy expenditure suitable for complete beginners, aligning well with Light (0.7). A moderate level is possible due to continuous rowing movement, but the intended intensity and the 'breathe' category predominantly indicate a gentle difficulty level.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

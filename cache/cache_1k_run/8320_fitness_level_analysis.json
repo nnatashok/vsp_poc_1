@@ -1,28 +1,20 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Beginner",
-      "score": 0.6
-    },
-    {
       "level": "Intermediate",
-      "score": 0.4
+      "score": 0.8
     }
   ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The Technique Difficulty of this workout should primarily be categorized as 'Beginner' given the rowing workout type, which typically involves simple repetitive movement patterns that are easy to perform once basic form is learned. However, slight consideration for 'Intermediate' is warranted due to the inclusion of interval training and the workout's categorization as 'drive,' potentially requiring more coordination and control, thus giving a score of 0.4 for Intermediate.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'Drive,' which Hydrow classifies as Advanced. However, because the workout type is 'row', the Technique Difficulty is limited to a maximum of 'Intermediate.' The mention of \"high-intensity intervals\" suggests a level of complexity above basic, yet still within the bounds of rower techniques deemed suitable for Intermediate users.",
   "effortDifficulty": [
     {
-      "level": "Challenging",
-      "score": 0.8
-    },
-    {
       "level": "Extreme",
-      "score": 0.5
+      "score": 0.9
     }
   ],
   "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "The Effort Difficulty is categorized as 'Challenging' because this workout involves high-intensity interval training (HIIT) with a max rhythm of 32, which suggests significant exertion over the 11-minute duration. However, due to the workout's 'drive' type classification and max intensity level of 3 out of 3, there is also a strong case for it being 'Extreme,' indicating very high energy space demand, thus scored at 0.5 for Extreme.",
+  "effortDifficultyExplanation": "The workout is described as 'high-intensity intervals' with a workout intensity level of 3 out of 3, indicating a vigorous physical demand. The workout's format (HIIT) and the involvement of a max rhythm of 32 strokes per minute further support its classification as Extremely demanding, requiring high effort from participants.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

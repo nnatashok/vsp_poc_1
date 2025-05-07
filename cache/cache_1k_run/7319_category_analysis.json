@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.75,
-  "categoriesExplanation": "The primary category 'Indoor rowing' is chosen due to explicit references to rowing within the title 'Cardio Cruise Row' and the description indicating intervals with 'Max rhythm: 26'. The metadata specifies 'row' in the category tag, affirming its central role with a score of 0.8 due to explicit confirmation in the text. The second category, 'Breathing exercises', is considered due to the description keywords, 'Stay relaxed each stroke' and 'Workout Type: breathe'. The low intensity of the workout also supports a reduced focus on exertion, which aligns with elements of breathing exercise routines, justifying a score of 0.6. Other categories like 'Yoga' or 'Meditation' were excluded as the focus is not on mindfulness or specific poses but rather on rowing at a relaxed pace. Additionally, the music selection points towards maintaining a steady, relaxed rhythm, rather than high-intensity intervals, supporting these category choices. The confidence is moderate (0.75) given that there is a potential overlap with 'Stretching' or 'Yoga', but the stronger evidence is with 'Indoor rowing' and breathing principles."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

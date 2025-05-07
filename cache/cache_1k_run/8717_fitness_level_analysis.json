@@ -1,28 +1,28 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Intermediate",
-      "score": 0.75
+      "level": "Advanced",
+      "score": 0.9
     },
     {
-      "level": "Advanced",
-      "score": 0.25
+      "level": "Intermediate",
+      "score": 0.6
     }
   ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "Given that the workout type is 'drive', which is classified as requiring technical movements and coordination typical of 'Advanced' workouts on Hydrow, the technique difficulty slightly leans towards Intermediate as there are no explicitly technical movements mentioned. However, considering the advanced intensity level and the nature of rowing, it suggests more precision and technicality in rowing, aligning well with Intermediate and a hint of Advanced.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type is classified as 'drive', which according to Hydrow specific rules indicates advanced technique difficulty regardless of typical rowing classification. The presence of power intervals and high-intensity intervals suggests complex rowing techniques. Despite the row category typically aligning with beginner or intermediate classification, the 'drive' tag overrides this with advanced requirements.",
   "effortDifficulty": [
+    {
+      "level": "Extreme",
+      "score": 0.8
+    },
     {
       "level": "Challenging",
       "score": 0.7
-    },
-    {
-      "level": "Extreme",
-      "score": 0.3
     }
   ],
-  "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "The workout involves power intervals and high-intensity intervals, which are known for their high energy expenditure and effort level, making it challenging. Combined with a high rhythm max of 34 and a duration of over 21 minutes, this escalates the effort level towards challenging, with elements of extreme duration, given the intensity rating of 3 out of 3.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout features power and high-intensity intervals across a 21-minute duration with a maximum rhythm of 34, indicating a high energy output and minimal rest. The intensity level being 3 out of 3 further supports a very demanding session, likely falling between challenging and extreme effort for those less conditioned, aligning more with extreme due to the high intensity and structured intervals.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

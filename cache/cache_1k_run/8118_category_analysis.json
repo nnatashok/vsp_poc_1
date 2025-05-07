@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "HIIT",
-      "score": 0.8
-    },
-    {
       "name": "Indoor rowing",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout titled 'Quick Bursts Row' and described as involving 'high rhythms for short bursts' clearly indicates a classification under HIIT (High-Intensity Interval Training), as the format is explicitly mentioned as HIIT in the metadata. The short bursts refer to the intense intervals typical of HIIT sessions, further strengthened by the noted max rhythm of 32+ and an intensity level rated 3 out of 3. Additionally, the term 'race course in Norway' and category tags such as 'row' suggest that the workout is performed on a rowing machine, making 'Indoor rowing' a relevant category with moderate confidence. Although the workout's duration is relatively short at 11 minutes, this aligns with typical HIIT session lengths, especially those that emphasize intensity over endurance. The focus is clearly on HIIT and rowing, which are naturally complementary in this context, thus excluding other potential categories such as 'Elliptical' or 'Running' which have no supporting metadata evidence."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

@@ -1,28 +1,20 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Beginner",
-      "score": 0.3
-    },
-    {
       "level": "Intermediate",
-      "score": 0.7
+      "score": 0.75
     }
   ],
   "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout is categorized as 'Drive' and 'row', which defaults to either Beginner or Intermediate for technique difficulty. As a 'Drive' workout, it involves consistent rowing with focus on power, which requires some skill to maintain proper form, especially during a race-paced session. However, the movement complexity is not high compared to complex technical exercises. Therefore, Intermediate is more indicative of the skill level required for maintaining form under fatigue, while Beginner is a lesser fit.",
+  "techniqueDifficultyExplanation": "The workout is a 'drive' type on a rowing machine, which indicates a higher level of technique needed than basic rowing. While rowing generally is beginner to intermediate, specific 'drive' workouts require good coordination and body awareness to maintain form at a power-focused pace and rhythm cap. This aligns closely with an Intermediate technique difficulty score due to the need to exert power consistent with a rate-capped race, challenging coordination and technique execution.",
   "effortDifficulty": [
     {
       "level": "Challenging",
       "score": 0.7
-    },
-    {
-      "level": "Extreme",
-      "score": 0.5
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout's effort difficulty is driven by a 'Drive' format focused on power rowing for over 21 minutes at an intensity level marked 3 out of 3. This indicates significant energy expenditure and sustained effort, suitable for users accustomed to high-intensity exercises. Although it doesn't include very high cadence, the focus on power and the race condition make it demanding. Thus, it aligns strongly with 'Challenging' and moderately with 'Extreme' due to its high-intensity nature and duration.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is described as 'drive,' which inherently suggests a higher level of physical effort due to its power focus. With a maximum rhythm of 18 and an intensity level of 3 out of 3, the session is designed to be demanding, aiming to maximize meter accumulation over a period of 21:27 minutes. This involves significant cardiovascular and muscular effort, categorizing the effort difficulty as Challenging due to sustained intensity and the power emphasis.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

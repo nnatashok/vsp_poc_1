@@ -2,15 +2,15 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.8
+      "score": 0.9
     },
     {
       "level": "Intermediate",
-      "score": 0.2
+      "score": 0.1
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout type is 'row' and listed under the 'breathe' and 'standard' categories, which typically indicates beginner to intermediate technique difficulty. The max rhythm of 26 signifies a steady pace rather than technical or varied movement patterns. Given the basic nature of rowing and the absence of advanced rowing techniques mentioned, the technique difficulty is predominantly Beginner, with a slight alignment to Intermediate.",
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "This is a rowing-based workout indicated by the category 'standard,row', which aligns with Hydrow's rule that Technique Difficulty can be Beginner or Intermediate. Given the focus on 'breathe' and technical instruction by an expert instructor, the movements are likely straightforward while being well-instructed, which suits a Beginner rating strongly (score = 0.9) with some room for slight intermediate complexity (score = 0.1).",
   "effortDifficulty": [
     {
       "level": "Light",
@@ -21,8 +21,8 @@
       "score": 0.3
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout duration is 16 minutes and 26 seconds, with an intensity level rated 1 out of 3, implying a low to moderate energy demand suitable for a less intense effort. The 'breathe' format and steady max rhythm further suggest lighter effort, although the climbing format might slightly increase energy expenditure.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is categorized under 'breathe' with an intensity of '1 out of 3', suggesting low energy expenditure. The duration of 16 minutes and format 'Climb' implies a steady but low-impact effort, aligning closely with 'Light' effort (score = 0.7) and a slight overlap with 'Moderate' effort from the rhythmic climbing structure (score = 0.3).",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

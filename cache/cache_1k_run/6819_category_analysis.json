@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Mat",
-      "score": 0.2
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The metadata strongly indicates that the workout is centered around rowing, as evidenced by terms like 'steadily row at low rhythms' and the category tags 'standard,row'. This directly suggests 'Indoor rowing', which is given the highest score of 0.9 due to explicit references. The description of a 'cool down' activity and the use of the phrase 'help your body recover' suggests this is a low-intensity rowing session rather than a stretching or yoga session, reinforcing the classification as a rowing workout rather than other forms of recovery workouts.\n\nThe mention of 'cool down' and low rhythms might also suggest a mild cross-category presence of general mat-based relaxation techniques, which is given a mild score of 0.2 under the 'Mat' category, though it's clear that the primary equipment and activity involved is rowing. The confidence level is high (0.85) due to numerous direct references to rowing, but recognizes the low-intensity and recovery focus of the session. The exclusion of 'Stretching', 'Yoga', or 'Meditation' is due to the lack of explicit mindfulness or flexibility activity content."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

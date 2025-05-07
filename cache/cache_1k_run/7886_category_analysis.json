@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "HIIT",
-      "score": 0.9
-    },
-    {
       "name": "Indoor rowing",
-      "score": 0.85
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout 'Rage Row' is classified as HIIT and Indoor rowing based on several metadata indicators. The title 'Rage Row' suggests an indoor rowing session, which is further supported by the explicit tags 'row' and 'drive' that typically refer to rowing activities. The description highlights the high-intensity nature of the workout with '60-second intervals,' aligning with the HIIT category. The max rhythm of '32+' implies a fast pace common in HIIT workouts. The intensity level of '3 out of 3' indicates a demanding session, characteristic of HIIT. Additionally, the playlist consisting of upbeat music tracks from artists like Flo Rida and Lil Nas X suggests a vigorous workout environment. While the workout title and tags suggest rowing, there are no explicit mentions of an elliptical machine, treadmill, or weights, ruling out other potential categories. Given the strong indicators and alignment with the description and format, HIIT and Indoor rowing are the most accurate classifications, with scores reflecting the confidence in these categories."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

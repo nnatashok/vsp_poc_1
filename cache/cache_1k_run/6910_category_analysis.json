@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.85
-    },
-    {
-      "name": "Stretching",
-      "score": 0.4
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout is classified primarily as 'Indoor rowing' because the title 'Technique Cool-Down' and description both imply the use of a rowing machine. The description mentions 'pause drills' which are specific types of exercises often associated with rowing, supporting this classification. The term 'cool down' suggests a lighter and less intense exercise session, typical after a main workout, further reinforcing the indoor rowing focus. This is emphasized by the tags 'row' and 'standard', which strongly indicate rowing is the primary activity involved. 'Indoor rowing' is assigned a high confidence score of 0.85 due to these clear indicators.\n\n'\"Stretching\" is included as a secondary category with a lower score of 0.4 because the workout involves a cool-down phase which generally includes stretching exercises to reduce intensity gradually, however, it is not the central feature of the session."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

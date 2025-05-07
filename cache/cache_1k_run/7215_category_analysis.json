@@ -1,10 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.8
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.8,
-  "categoriesExplanation": "The workout is classified as 'Indoor rowing' with high confidence due to the nature of the exercise described. The title 'Two Strokes Cool-Down' and the description mentioning 'two strokes on two strokes off drills' strongly indicate a rowing workout. The use of terms such as 'Technique' and 'cool down' support this as it suggests a low-intensity rowing session focused on reinforcing proper technique. The absence of any location, equipment, or other activities related to non-rowing workouts, as well as the lack of yoga, meditation, or stretching descriptions, makes rowing the most appropriate category. The music genre and playlist information do not significantly affect the classification, as they are not directly related to the type of physical activity being performed. This results in a score of 0.8 for Indoor rowing, due to explicit indicators of rowing activity in the metadata."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

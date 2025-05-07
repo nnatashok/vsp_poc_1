@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "Stretching",
-      "score": 0.4
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.75,
-  "categoriesExplanation": "The workout is titled 'Sunset Cool-Down' and described as a rowing-related activity at sunset, indicating it involves a rowing machine, thus categorizing it under 'Indoor rowing' with high confidence (score 0.8). This is further supported by phrases like 'rowing at sunset' and the workout type being 'cool down', which suggests a relaxed pace rather than intense activity, aligning with typical rowing activities that aim to soothe and transition the body after more strenuous exercise. The playlist of soft tunes from Ella Fitzgerald further supports this relaxed, cooling down theme.\n\nStretching is considered secondarily with moderate confidence (score 0.4) as cool-down sessions often incorporate light stretching to aid recovery, although this is less evident in the metadata. However, the workout's focus on a 'cool-down' suggests some stretching exercises might be included, hence the consideration."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

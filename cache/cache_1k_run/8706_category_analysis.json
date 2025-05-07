@@ -3,12 +3,8 @@
     {
       "name": "Indoor rowing",
       "score": 1
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.7
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout is best classified as 'Indoor rowing' due to the explicit mention of 'Endurance Climb Row' in the workout name, which clearly indicates a workout involving a rowing machine. The description further supports this with references to 'climb in rhythm' and 'endurance,' both applicable to rowing. The rhythm max of 22 aligns with rowing stroke rates. The 'row' label in the tags also points to indoor rowing. \n\nThe secondary category 'Breathing exercises' is also applicable given the 'Workout Type: breathe' and 'Category: Breathe' tags. These suggest an emphasis on controlled breathing, which is often important in longer endurance workouts to maintain rhythm and stamina. \n\nThe moderate intensity level suggests a consistent, rhythmic workout without high peaks in exertion, further aligning with indoor rowing. Other categories such as 'Mat', 'Weight workout', or 'Yoga' were excluded due to no indication of related exercises in the metadata."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

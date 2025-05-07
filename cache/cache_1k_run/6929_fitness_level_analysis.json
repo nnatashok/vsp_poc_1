@@ -1,24 +1,28 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Intermediate",
-      "score": 0.7
+      "level": "Beginner",
+      "score": 0.2
     },
     {
-      "level": "Advanced",
-      "score": 0.4
+      "level": "Intermediate",
+      "score": 0.8
     }
   ],
-  "techniqueDifficultyConfidence": 0.7,
-  "techniqueDifficultyExplanation": "The workout type is 'drive', which according to Hydrow-specific rules, categorizes Technique Difficulty as Advanced due to the requirement for a good sense of rhythm and pacing, especially at peak rhythms of 32. However, 'row' category typically aligns with Beginner to Intermediate. Given the Fitness Level Requirements, techniques may involve advanced pacing techniques, but rowing remains fundamentally less complex than multi-component workouts, justifying both Intermediate and Advanced consideration.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'drive' and includes rhythm climbing to 32 strokes per minute, which implies a need for coordination and control. Given that Hydrow-specific rules apply with this being a 'Drive' workout, it defaults to an advanced level of technique. However, considering the rowing constraints, the technique complexity is capped at Intermediate, aligning with the categorized Drive workout class's requirements.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.75
+      "score": 0.1
+    },
+    {
+      "level": "Extreme",
+      "score": 0.9
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The duration of 16 minutes and the high rhythm intensity of a max rhythm of 32 suggest a physically demanding workout, especially for those who are not highly conditioned. The description emphasizes maximizing efforts within short bursts ('one-minute efforts'), suggesting a high effort intensity despite the short duration. Thus, it aligns with a Challenging effort level given its significant physical demands and elevated drive challenge.",
+  "effortDifficultyConfidence": 0.95,
+  "effortDifficultyExplanation": "The metadata highlights a workout intensity level of 3 out of 3 with 'maximizing every second' and 'best efforts,' suggesting high physical demand. These descriptors indicate a high energy expenditure and sustained effort across 16 minutes, justifying the Extreme level alignment for effort difficulty.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

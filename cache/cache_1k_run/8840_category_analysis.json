@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "Stretching",
-      "score": 0.4
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.7,
-  "categoriesExplanation": "The primary category assigned is 'Indoor rowing' with a score of 0.8. The title 'Swing-Focused Cool-Down' and tags 'technique cool-down' and 'row' indicate that the workout involves a rowing motion, likely completed on a rowing machine, and focuses on technique refinement. The 'max rhythm: 22' suggests a rowing cadence, supporting this classification. \n\nThe secondary category is 'Stretching,' with a score of 0.4. The term 'cool-down' implies lower intensity and possibly involves stretching elements, typical for post-workout cooldowns to aid recovery. However, the lack of explicit mention of stretching exercises only warrants a moderate score.\n\nOther categories such as 'Yoga,' 'Breathing exercises,' or 'Meditation' were excluded due to the lack of any explicit mention of mind-body practices or specific relaxation techniques."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

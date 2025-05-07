@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "HIIT",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The primary category assigned is 'Indoor rowing' with a high confidence score of 0.8 due to the explicit references in the workout name 'Need for Speed Row' and the category indications 'Drive, standard, row'. The workout description emphasizes building speed during intervals, typical for rowing workouts especially with varying rhythms specified (26 through 32 strokes per minute), reinforcing the indoor rowing category. The secondary category is 'HIIT', scoring 0.7, as the format explicitly mentions HIIT, describing intervals of 45\" and 50\" which are characteristic of high-intensity interval training. The description also references maximum rhythm and intensity level 3 out of 3, implying high exertion typical of HIIT. Other categories such as Mat, Elliptical, or Treadmill are excluded due to the lack of relevant indicators in the metadata."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

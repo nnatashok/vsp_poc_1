@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "Stretching",
-      "score": 0.4
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.8,
-  "categoriesExplanation": "The title 'Technique Cool-Down' and description indicate a focus on rowing techniques, which strongly suggests this is an 'Indoor rowing' workout. Although the workout takes place along the Charles River, the mention of rowing and breakdown of the rowing stroke suggest the use of a rowing machine, likely indoors, given the structured nature of the 'Technique' format. The 'Cool Down' and 'Technique' tags imply a lower intensity and more form-focused session typical of a cool-down phase, which might include light rowing aids in relaxation and muscle tension release after a workout, so a 'Stretching' category is partially relevant, hence a lower score. The use of music such as pop low and global hits supports the relaxed pace. 'Indoor rowing' is scored at 0.8 as it is central to the workout, while 'Stretching' is given a 0.4 score to account for the cool-down nature. Other categories were considered but excluded as there are no explicit mentions or indicators supporting them."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

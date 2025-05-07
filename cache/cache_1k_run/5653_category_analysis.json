@@ -1,18 +1,10 @@
 {
   "categories": [
     {
-      "name": "HIIT",
-      "score": 0.9
-    },
-    {
-      "name": "Mat",
-      "score": 0.7
-    },
-    {
       "name": "Body weight",
-      "score": 0.5
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout video is titled 'HIIT Strength', which provides a very high confidence indicator for categorizing it as a 'HIIT' workout (score 0.9). The description further corroborates this, mentioning it as a HIIT style workout focusing on getting the heart rate up, which is typical of high-intensity interval training. \n\nThe metadata indicates 'Category: On The Mat' and 'Workout Type: strength' as well as the lack of specified equipment, which suggests that the workout may be performed without traditional weights or machines, thus likely involving mat-based exercises. This aligns with the 'Mat' category (score 0.7) for exercises performed on an exercise mat. \n\nThe strength aspect implied by 'HIIT Strength' and the lack of equipment suggests the use of body weight for resistance, supporting the 'Body weight' category (score 0.5), though this is a supplementary classification compared to HIIT and Mat. \n\nThe playlist comprises energetic dance remixes, which are often used to maintain high energy levels in HIIT workouts, reinforcing the primary classification."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

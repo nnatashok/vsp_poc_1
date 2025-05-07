@@ -1,20 +1,28 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Advanced",
-      "score": 0.8
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout type 'Drive' indicates a complex rowing workout that aligns with Hydrow's classification of technique difficulty, likely involving high coordination and control at a fast pace. The use of 'Drive' usually upgrades the complexity to at least Advanced. The description of 'ten sets of 1-minute high intensity intervals' and high max rhythm (34) suggests moderately complex rowing techniques are involved to maintain form at high speeds.",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout type is 'row', which suggests either Beginner or Intermediate technique difficulty according to the Hydrow platform rules. The description mentions ten sets of 1-minute high-intensity intervals requiring consistent rowing technique, which can be demanding for those unfamiliar but does not exceed 'Intermediate' due to rowing's limited complexity in mechanics. This aligns with the Drive format, which typically indicates more demanding row workouts that require proper form without being overly technical.",
   "effortDifficulty": [
     {
       "level": "Challenging",
       "score": 0.7
+    },
+    {
+      "level": "Extreme",
+      "score": 0.8
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout is a 'HIIT Row', indicating high intensity intervals. With 21 minutes of duration and the highest intensity level of 3, this involves significant energy expenditure, but the relatively short duration keeps it at Challenging rather than Extreme. The high max rhythm further implies demand on cardiovascular and muscular endurance, contributing to its Challenging classification.",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout features a HIIT format with ten 1-minute high-intensity intervals, noted as having a 3 out of 3 intensity level. This suggests a very physically demanding session, especially in a 21-minute time frame with potential minimal rest between sets, typical of a HIIT workout. Thus, the effort difficulty is strongly Challenging and borders on Extreme Energy expenditure due to the demanding nature of maintaining maximum rhythm for high-intensity intervals, which can be daunting for users with low fitness levels.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

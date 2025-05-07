@@ -1,20 +1,28 @@
 {
   "techniqueDifficulty": [
     {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
       "level": "Intermediate",
-      "score": 1
+      "score": 0.7
     }
   ],
-  "techniqueDifficultyConfidence": 1.0,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'drive', which per Hydrow's guidelines, automatically assigns an 'Intermediate' level for technique difficulty. The interval format with a high max rhythm suggests movements that require some coordination but are not complex enough for higher categorization.",
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout type 'drive' under Hydrow-specific rules is classified at an advanced technical level. However, given the workout is primarily a rowing session, the technique difficulty aligns with Beginner to Intermediate levels due to the focus on consistent rowing pace rather than complex movements. The intervals and max rhythm of 32 indicate a moderate need for coordination but do not elevate it beyond Intermediate.",
   "effortDifficulty": [
     {
-      "level": "Extreme",
-      "score": 0.95
+      "level": "Moderate",
+      "score": 0.3
+    },
+    {
+      "level": "Challenging",
+      "score": 0.9
     }
   ],
-  "effortDifficultyConfidence": 0.95,
-  "effortDifficultyExplanation": "The workout features a high intensity level (3 out of 3) with a sprint pace focus, demanding a significant energy expenditure over longer intervals. The combination of these factors leads to an 'Extreme' effort classification, suitable for advanced users, especially considering the phrases 'hold a sprint pace' and 'max effort at the finish'.",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The interval format with a max rhythm of 32 and description of \"holding a sprint pace\" followed by a \"max effort at the finish\" suggests a physically demanding session. With a duration of 16:29 minutes, the effort difficulty is high. An intensity level of 3 out of 3 supports a Challenging score, indicating significant energy expenditure and physical demand beyond Moderate difficulty.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

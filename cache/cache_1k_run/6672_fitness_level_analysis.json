@@ -6,23 +6,23 @@
     },
     {
       "level": "Intermediate",
-      "score": 0.7
+      "score": 0.1
     }
   ],
-  "techniqueDifficultyConfidence": 0.85,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which, according to the Hydrow-specific rule, allows for technique levels of Beginner or Intermediate. The workout description does not mention any complex rowing techniques, suggesting straightforward movements. Additionally, the rhythm is relatively low, reinforcing simplicity. Thus, a Beginner level score of 0.9 is justified, with Intermediate at 0.7 for slight complexity related to maintaining a consistent pace.",
+  "techniqueDifficultyConfidence": 0.95,
+  "techniqueDifficultyExplanation": "The technique difficulty is classified as Beginner with a score of 0.9 due to the workout being a rowing session. The metadata indicates a 'breathe' workout type, which suggests a focus on maintaining steady pacing rather than complex movements. Rowing generally involves straightforward technique, particularly in the steady format at low rhythms. There is no indication of advanced techniques being employed, further supported by the beginner-level fitness requirement.",
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.8
+      "score": 0.75
     },
     {
       "level": "Moderate",
-      "score": 0.5
+      "score": 0.25
     }
   ],
-  "effortDifficultyConfidence": 0.75,
-  "effortDifficultyExplanation": "The workout is only 11 minutes long and features a low to moderate max rhythm at 24, indicating minimal physical demand, which supports a Light effort level. However, the brief duration and rowing activity justify a Moderate categorization as well, but to a lesser extent given the low intensity level marked at 1 out of 3, warranting a score of 0.8 for Light and 0.5 for Moderate.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The effort difficulty is assessed as Light with a score of 0.75. The workout is a 'breathe' type and has an intensity level of 1 out of 3, indicating low demand. The duration of 11 minutes and the focus on lower rhythms align with a light intensity workout. However, given the cardiovascular engagement of rowing, a slight overlap into Moderate can be considered.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

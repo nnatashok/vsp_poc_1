@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.6
-    },
-    {
-      "level": "Intermediate",
-      "score": 0.4
-    }
-  ],
-  "techniqueDifficultyConfidence": 0.7,
-  "techniqueDifficultyExplanation": "The workout involves rowing with a focus on rhythmic intervals rather than technical demands. Rowing generally falls within Beginner to Intermediate levels, as indicated by the use of a simple rowing motion without complex coordination or movements. The absence of advanced rowing techniques or specific form adjustments keeps it at a fundamental level. Therefore, Beginner is more strongly aligned due to simple execution requirements, but Intermediate is considered due to the sustained interval workout structure.",
-  "effortDifficulty": [
-    {
-      "level": "Moderate",
       "score": 0.7
     },
     {
-      "level": "Challenging",
+      "level": "Intermediate",
       "score": 0.3
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The 16-minute interval session with an intensity of 2 out of 3 suggests a moderately demanding workout. The interval format with rhythms raised to 30 emphasizes a higher level of effort, yet the relatively short duration keeps it from reaching higher exhaustion levels. As such, Moderate effort difficulty is more aligned due to control over duration and rhythm, but Challenging aspects can arise for those less fit due to the interval nature.",
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout type is 'row', which restricts Technique Difficulty to Beginner or Intermediate as per Hydrow-specific rules. Although the instructor focuses on proper form, the emphasis on rhythm and intervals suggests some complexity. Thus, Beginner is the primary classification, with some consideration for Intermediate due to the interval format.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.65
+    },
+    {
+      "level": "Challenging",
+      "score": 0.35
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout involves intervals with a max rhythm of 30 over a 16-minute duration. This, along with an intensity level of 2 out of 3, places the effort difficulty primarily in the Moderate range. The 'sweat' category and focus on rhythm suggest some physical exertion, giving some weight to the Challenging level.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

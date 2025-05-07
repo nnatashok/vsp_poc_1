@@ -3,12 +3,8 @@
     {
       "name": "Indoor rowing",
       "score": 1
-    },
-    {
-      "name": "HIIT",
-      "score": 0.6
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The 'Establishing Max Effort Row' workout is strongly identified as an 'Indoor rowing' session due to its use of the term 'row' in both the workout name and description, along with the mention of power-focused, rhythm-based rowing activity. This indicates a central rowing component, justifying a score of 1.0. Additionally, the workout format is noted as 'Power' with a high intensity (3 out of 3), suggesting elements of High-Intensity Interval Training (HIIT) given the emphasis on generating power and high effort at various rhythms. The variety of languages and energies in the music playlist, such as dance and global hits remixes, supports a dynamic and intense environment typical of HIIT sessions. Although the term 'drive' is used, its alignment with rowing terms and power metrics implies rather than a vehicle-based workout, it solidifies the intense, energy-driven nature of the rowing session. Thus, HIIT is included with a score of 0.6 for the intensity aspect."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

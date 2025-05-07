@@ -14,15 +14,15 @@
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.9
+      "score": 0.95
     },
     {
       "level": "Moderate",
-      "score": 0.4
+      "score": 0.5
     }
   ],
-  "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "The workout has a short duration (5 minutes 38 seconds), which typically correlates with a lower energy expenditure, especially given its classification as a warm-up. Additionally, warm-ups generally focus on preparing the body through low-intensity activities. These details suggest a Light Effort Difficulty, strongly supported by the brief and preparatory nature of the workout (0.9), while the rhythm component moderately contributes to a slightly challenging pace, justifying a weaker association with Moderate Effort Difficulty (0.4).",
+  "effortDifficultyConfidence": 0.87,
+  "effortDifficultyExplanation": "The 'Peppy Warm-Up' has a short duration of 5:38 and is designated specifically as a warm-up, which are typically low-intensity exercises aimed at preparing the body without causing significant fatigue. Therefore, it strongly aligns with Light Effort Difficulty. However, the interval format does add a slight intensity boost (reflected as Moderate), but due to the session's purpose as a warm-up, this is not dominant. Thus, Light receives the highest score, with confidence in this classification being very high due to clear metadata cues.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

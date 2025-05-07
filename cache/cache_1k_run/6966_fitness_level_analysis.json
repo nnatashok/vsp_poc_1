@@ -13,16 +13,12 @@
   "techniqueDifficultyExplanation": "Since the workout is marked as suitable for all fitness levels (Beginner, Intermediate, Advanced), the technique difficulty is considered adaptable. Movements can be scaled in complexity, and users are expected to modify techniques based on their capability. Therefore, all difficulty levels from Beginner to Expert are assigned equal suitability with a score of 1.0.",
   "effortDifficulty": [
     {
-      "level": "Light",
-      "score": 0.3
-    },
-    {
       "level": "Moderate",
-      "score": 0.6
+      "score": 0.7
     }
   ],
-  "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The 16-minute duration is relatively short, and 'start slow' indicates a gradual intensity increase, which aligns with moderate effort. The calming music genre reinforces a moderately demanding flow, more taxing than light activities but manageable within a short timeframe, highlighting a light-to-moderate effort level for most participants.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout's 16-minute duration, along with the term 'power flow,' indicates a sustained, albeit not overly intense, effort. The session progresses from a slower start to increased intensity. Thus, it aligns with a Moderate effort. The Chill mid and Cool/Downtempo music suggests a rhythmic but not overly strenuous pace.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

@@ -2,15 +2,15 @@
   "techniqueDifficulty": [
     {
       "level": "Intermediate",
-      "score": 0.75
+      "score": 1
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is categorized as 'drive' in a rowing format, which typically involves maintaining proper rowing form and rhythm. With a max rhythm of 32 indicating rapid movements, this aligns more closely with Intermediate difficulty due to the need for some coordination and body awareness. Rowing itself can be seen as either Beginner or Intermediate in technique difficulty, but the specified 'drive' category supports an Intermediate classification. The assigned fitness requirement of 'Advanced' suggests this level too.",
+  "techniqueDifficultyExplanation": "The workout is a 'Drive' type, which according to Hydrow-specific rules, is classified as Advanced in technique difficulty. However, due to it being rowing-based as per the 'row' category, the technique difficulty is classified as Intermediate. The intervals at different rhythms suggest the need for coordination, but the rowing nature simplifies the movement complexity to fit an Intermediate difficulty level.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.8
+      "score": 0.7
     },
     {
       "level": "Extreme",
@@ -18,7 +18,7 @@
     }
   ],
   "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout uses a high-intensity interval training (HIIT) format with a short duration of just over 11 minutes and demanding 50-second intervals at a rhythm of 26, followed by 10-second bursts at a rhythm of 32. The intense rhythm coupled with continuous effort suggests a Challenging effort at minimum. The workout's maximum effort level of 3 out of 3 indicates that it could be considered Extreme for those less conditioned, but the short duration moderates this to some extent.",
+  "effortDifficultyExplanation": "With a workout duration of 11:13 minutes and max rhythm at 32 RPM during HIIT intervals, the workout is intensive. The 3 out of 3 intensity rating suggests it's very demanding. The interval nature, with only 10 seconds of rest, increases effort difficulty significantly, making it Challenging to Extreme particularly for less fit individuals.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

@@ -1,28 +1,20 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Beginner",
-      "score": 0.8
-    },
-    {
       "level": "Intermediate",
-      "score": 0.6
+      "score": 0.75
     }
   ],
-  "techniqueDifficultyConfidence": 0.7,
-  "techniqueDifficultyExplanation": "The workout type is listed as 'Drive', which generally implies a higher complexity due to the intense and precise nature of rowing in this format. However, since the workout category includes 'row', the technique difficulty is limited to either Beginner or Intermediate. This, along with the use of intervals, suggests some technical coordination, leading to a 0.8 score for Beginner and 0.6 for Intermediate.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized as 'Drive' under Hydrow's system, which specifies that the Technique Difficulty should be classified as Advanced due to the specific rhythms and focus on proper form emphasized in 'Drive'. However, since 'row' category is a primary indicator, the Technique Difficulty can only be Beginner or Intermediate. Given the focus on varying rhythms and proper form emphasized by the instructor, and the advanced User Fitness Level Requirement, an Intermediate categorization fits better with these constraints.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.8
-    },
-    {
-      "level": "Extreme",
-      "score": 0.6
+      "score": 0.85
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The duration of 16 minutes and 23 seconds, combined with intervals at varying rhythms and the stated maximum rhythm of 30, contributes to significant energy expenditure. The workout intensity is at the maximum level, 3 out of 3, suggestive of a physically demanding session. These factors align primarily with a Challenging effort level, scoring 0.8, while the top intensity contributes to a moderate alignment with Extreme, scoring 0.6.",
+  "effortDifficultyConfidence": 0.95,
+  "effortDifficultyExplanation": "The workout involves intervals of 30-second, 60-second, and 2-minute segments with a maximum rhythm of 30, indicating frequent changes and sustained effort over a moderately long duration of 16:23. The intensity level is rated 3 out of 3, suggesting that it's physically demanding, thus aligning well with the Challenging effort difficulty category. This intensity is appropriate given the endurance-focused and high-energy style of the instructor, Nick Karwoski.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

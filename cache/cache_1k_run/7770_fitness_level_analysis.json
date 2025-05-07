@@ -2,31 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.1
+      "score": 0.3
     },
     {
       "level": "Intermediate",
-      "score": 0.8
-    },
-    {
-      "level": "Advanced",
-      "score": 1.0
+      "score": 0.7
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workoutType is 'drive', which adheres to the Hydrow-specific rule that commands an 'Advanced' classification for technique difficulty due to the emphasis on high coordination and form integrity at a rapid stroke pace (max rhythm of 34). Although rowing typically fits between Beginner and Intermediate, the 'Drive' category elevates this workout to Advanced technique due to the increased demand on precision and power.",
+  "techniqueDifficultyExplanation": "Given the workout type is 'row' and the specific format is 'Drive', which is designated as Hydrow's more advanced category, the technique difficulty can be either Beginner or Intermediate. The use of intervals and a max rhythm of 34 suggest a more coordinated and controlled rowing technique, aligning stronger with Intermediate. 'Drive' also implies more technical skill required than absolute Beginner-level workouts, though it's not reaching complexities of Advanced or Expert exercises.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.6
+      "score": 0.8
     },
     {
       "level": "Extreme",
-      "score": 0.9
+      "score": 0.6
     }
   ],
   "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout is 11 minutes and 23 seconds long, set at an intensity level of 3 out of 3, involving 1-minute intervals, which signifies high intensity typical of HIIT. This setup requires significant effort, with minimal rest between intense bursts of rowing, marking it as Extreme for most deconditioned users. However, given the relatively shorter duration, it is less overwhelming than longer extreme workouts, placing it very close to Extreme but also verging into Challenging.",
+  "effortDifficultyExplanation": "The workout is a HIIT format which inherently demands high energy expenditure. With 'Drive' categorization and an intensity level of 3 out of 3, this indicates it requires significant physical effort. Although only 11 minutes long, the 1-minute intervals at a high rhythm add intensity equivalent to lengthier sessions. This situates it squarely in the Challenging category, with some possibility of being Extreme for those less conditioned due to the high intensity HIIT elements.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

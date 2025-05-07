@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Stretching",
-      "score": 0.5
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is labeled as a 'cool down' focused on 'preparing yourself for the catch position,' which suggests it involves rowing-related activities, thus fitting the 'Indoor Rowing' category. The steadiest rhythm indication and rowing-related terminology ('catch position') provide strong evidence that the workout focuses on rowing technique and recovery, not active rowing at full intensity. Therefore, 'Indoor Rowing' is assigned with a high score of 0.9 due to the strong relevance.\n\nThe mention of a 'cool-down' implies low-intensity, possibly introducing stretching or light movements to help relax muscles post-workout. This association suggests a mild presence of stretching aspects, justifying a score of 0.5 in the 'Stretching' category. However, this is less definitive since the stretching is not explicitly mentioned, hence the moderate score.\n\nOther categories like 'Yoga' or 'Meditation' were excluded as there are no references to mindfulness, meditation, or yoga postures. Likewise, equipment-related categories such as 'Weight workout' are irrelevant due to the lack of any equipment usage indicated beyond minimal rowing reference. The confidence level of 0.85 reflects the video's strong alignment with rowing and the technical cool-down component."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

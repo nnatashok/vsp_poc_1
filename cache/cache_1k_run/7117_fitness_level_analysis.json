@@ -2,27 +2,19 @@
   "techniqueDifficulty": [
     {
       "level": "Intermediate",
-      "score": 0.7
-    },
-    {
-      "level": "Advanced",
-      "score": 0.4
+      "score": 1
     }
   ],
-  "techniqueDifficultyConfidence": 0.75,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'drive,' which aligns with advanced technique requirements specific to Hydrow's classification. This suggests a higher complexity due to the need for proper rowing form at high intensities. However, since it is still a rowing workout, the Technique Difficulty may predominantly be Intermediate, reflecting the moderately complex movement typical of rowing workouts.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'Drive', which on Hydrow is automatically assigned an Intermediate technique difficulty level, as it involves maintaining proper rowing form during high-intensity intervals. The emphasis on using correct form and the advanced user requirement suggest some complexity, but not beyond Intermediate given the rowing context, aligning with Hydrow guidelines.",
   "effortDifficulty": [
     {
-      "level": "Challenging",
-      "score": 0.6
-    },
-    {
       "level": "Extreme",
-      "score": 0.5
+      "score": 0.8
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout involves HIIT format intervals at max pressure with a high rhythm of 32, marked intensity level 3 out of 3, indicating significant energy expenditure. The short duration (11 minutes) with the intense format supports a Challenging to Extreme effort classification, making it strenuous for less fit users.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout consists of 1-minute intervals at max pressure with a maximum rhythm of 32, classified as intense (3 out of 3) in Hydrow\u2019s system. The HIIT format and short duration suggest high intensity and energy demand, classifying it as Extreme for users in poor shape. The strong evidence of high intensity aligns with the platform's standard for challenging cardiovascular workouts.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

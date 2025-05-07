@@ -6,11 +6,11 @@
     },
     {
       "level": "Intermediate",
-      "score": 1.0
+      "score": 0.2
     }
   ],
-  "techniqueDifficultyConfidence": 1.0,
-  "techniqueDifficultyExplanation": "Since the workout is marked as suitable for all fitness levels (Beginner, Intermediate, Advanced), the technique difficulty is considered adaptable. Movements can be scaled in complexity, and users are expected to modify techniques based on their capability. Therefore, all difficulty levels from Beginner to Expert are assigned equal suitability with a score of 1.0.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is classified as 'strength' with a focus on beginner-friendly bodyweight exercises, as indicated in the description. Bodyweight exercises such as push-ups or planks typically require minimal technical ability, making them suitable for beginners. The presence of the instructor's credentials suggests potential for slight complexity, slightly extending into the Intermediate range, although the focus on being beginner-friendly minimizes this.",
   "effortDifficulty": [
     {
       "level": "Light",
@@ -18,11 +18,11 @@
     },
     {
       "level": "Moderate",
-      "score": 0.3
+      "score": 0.5
     }
   ],
   "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout's duration of just over 10 minutes suggests a low effort requirement, which aligns with the Light effort difficulty. The focus on upper body strength indicates some degree of muscle engagement but without equipment or intense cardio, it is unlikely to be very demanding. Beginner-friendly descriptions suggest ease, supporting Light difficulty, but the addition of strength exercises introduces a minor element of Moderate exertion.",
+  "effortDifficultyExplanation": "With a short duration of 10 minutes and beginner-friendly bodyweight exercises, the workout is likely to have low-to-moderate energy expenditure, making it suitable for those not used to extensive physical activity. The lack of equipment and inclusion in the 'On The Mat' category suggest it is not as intense as other strength workouts, aligning with a Light to Moderate effort level.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",
@@ -31,12 +31,8 @@
     {
       "level": "Intermediate",
       "score": 1.0
-    },
-    {
-      "level": "Advanced",
-      "score": 1.0
     }
   ],
   "requiredFitnessLevelConfidence": 1.0,
-  "requiredFitnessLevelExplanation": "Workout type 'strength' is not one of the specialized Hydrow categories (Breathe, Sweat, Drive, Distance). It is treated as suitable for all fitness levels."
+  "requiredFitnessLevelExplanation": "Workout type 'strength' is not one of the specialized Hydrow categories (Breathe, Sweat, Drive, Distance). And workout description mentiones it is meant for beginners."
 }

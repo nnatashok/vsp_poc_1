@@ -6,23 +6,23 @@
     },
     {
       "level": "Intermediate",
-      "score": 0.2
+      "score": 0.6
     }
   ],
-  "techniqueDifficultyConfidence": 0.85,
-  "techniqueDifficultyExplanation": "The workout is classified under 'row', which limits the Technique Difficulty to either Beginner or Intermediate. The description mentions 'climbing in rhythm', which suggests some coordination but not beyond the Beginner or Intermediate level. No complex movements or equipment usage are indicated, supporting a strong Beginner classification.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type is categorized as 'breathe' with 'row', which usually demands less technical skills, forwarding the classification to the Beginner or Intermediate level. The intervals and climb format suggest some coordination might be required, supporting Intermediate classification. However, since the User Fitness Level Requirement is Beginner, the workout should not exceed Intermediate complexity. Overall, with minimal technical fitness requirement with instinctual rowing movements, strongly aligns with Beginner (0.9) and fairly moderately with Intermediate (0.6).",
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.6
+      "score": 0.85
     },
     {
       "level": "Moderate",
       "score": 0.4
     }
   ],
-  "effortDifficultyConfidence": 0.75,
-  "effortDifficultyExplanation": "The workout has an intensity level of 1 out of 3, indicative of a lighter effort. Its duration of 21 minutes with intervals and a maximum rhythm of 26 suggests low-to-moderate energy expenditure. The breathe format and calm music genre reinforce a lighter effort classification, suitable for beginners, with some possibility of Moderate alignment for deconditioned users.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout's 'breathe' type and low intensity level of 1 out of 3 indicates light exertion. Despite being led by a motivational Olympian, the music choice of acoustic and low-beat songs and focus on mindfulness, suggest a calm, steady pace rather than high intensity. The 21-minute duration, without reported intense intervals, supports a Light (0.85) effort difficulty classification with some potential for a Moderate (0.4) classification due to its slightly rhythmic nature during interval climbing.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

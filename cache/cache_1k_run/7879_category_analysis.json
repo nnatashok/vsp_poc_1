@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "Stretching",
-      "score": 0.6
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.8,
-  "categoriesExplanation": "The workout is titled 'Recovery Cool-Down', suggesting a session focused on recovery and relaxation. The description mentions 'cooling your body down and reinforcing technique,' typically associated with the end of a workout session, especially in rowing. The explicit mention of 'category: Cool Down,standard,row' confirms a rowing component, which suggests inclusion of rowing as part of the recovery process. Therefore, 'Indoor rowing' is assigned with a score of 0.8 because of direct mention and strong correlation with rowing activities meant for recovery.\n\nThe secondary focus on 'cooling down and reinforcing technique' indicates a stretching component as well, typically part of a cool-down to relax muscles post-exercise, hence the inclusion of 'Stretching' with a moderate score of 0.6. The workout's nature as a cool-down ruled out high-intensity categories.\n\nThe absence of direct indicators of other activities such as Yoga or Pilates, combined with the playlist, suggests a focus on gentle movement, aligning with cooling down and stretching."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

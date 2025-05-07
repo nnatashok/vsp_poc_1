@@ -1,28 +1,28 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Beginner",
-      "score": 0.2
-    },
-    {
       "level": "Intermediate",
       "score": 0.8
+    },
+    {
+      "level": "Beginner",
+      "score": 0.5
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout category includes 'row' which typically aligns with Beginner or Intermediate technique difficulty by Hydrow-specific rules. Given the specific workout type 'drive', this generally indicates more complex rowing workouts that require mastering a strong, consistent stroke and good posture, making it likely Intermediate difficulty. However, rowing itself doesn't involve highly technical movements alone, preventing an Advanced classification.",
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout type 'drive' in the context of a rowing workout indicates a higher technique difficulty due to complex rowing sequences typically found in Hydrow's 'Drive' category, suggesting Intermediate level. However, because the workout is row-based and takes place with supportive team energy in a format meant for varied skill levels, there is also a fit for Beginner level. The Metadata suggests the workout is supportive and fun, but the 'Drive' format implies solid proficiency in rowing mechanics.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.7
+      "score": 0.85
     },
     {
-      "level": "Extreme",
-      "score": 0.3
+      "level": "Moderate",
+      "score": 0.4
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout is labeled as HIIT with a max rhythm of 30 in the 'drive' format, indicating intense rowing intervals. The intensity is rated 3 out of 3, suggesting it's physically demanding. The relatively short duration (11 minutes) aligns with HIIT workouts typically meant for vigorous effort, making it challenging but not necessarily extreme as the session length is still limited, yet intense enough to push users with a lower fitness level.",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The effort difficulty is rated as Challenging due to the HIIT format, max rhythm of 30 s/m, and intensity level of 3 out of 3, indicative of a high-energy, fast-paced workout. This high cardiovascular demand is consistent with workouts that would be challenging for less fit individuals. However, the duration is relatively short at 11 minutes, aligning moderately with a Moderate classification for some partes of the class.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.75
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout is classified as 'Indoor rowing' with a high confidence score of 0.9 primarily because the metadata specifies 'race' and 'rhythm' intervals, which are typical for rowing workouts. The use of 'standard,row' in the category also strongly indicates a rowing session. The specific mention of rhythms and the format being 'Interval' align with the indoor rowing workout format, especially as it includes intervals at different rhythms (28 and 30), which are common aspects of a rowing race or training. \n\nThe 'HIIT' category is assigned with a score of 0.75 because the workout includes interval training, as indicated by the 'Format: Interval' note and alternating rhythms, which are characteristic of High-Intensity Interval Training (HIIT). The description of the intensity level as a '3 out of 3' further suggests a high-intensity session typical of HIIT workouts. \n\nOther potential categories like 'Mat' or 'Body weight' were excluded due to the lack of any mention of mat work or bodyweight exercises. The absence of equipment specifics confirms it's primarily focused on an ergometer or rowing machine session, ensuring no misclassification as Stretching or Yoga."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

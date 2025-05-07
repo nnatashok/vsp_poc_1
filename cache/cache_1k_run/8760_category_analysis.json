@@ -3,12 +3,8 @@
     {
       "name": "Indoor rowing",
       "score": 1
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.65
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is most appropriately categorized as 'Indoor rowing' based on strong evidence from the title, description, and provided metadata. The title 'Confidence Builder Row' and the mention of intervals, rhythms, and 'stroke by stroke' in the description explicitly indicate a rowing workout. The structured intervals and a maximum rhythm of 26 further suggest activities on a rowing machine, thereby justifying a high confidence score of 1.0 for this category. The use of the term 'breathe' both in the Workout Type and Category indicates a significant focus on breathing techniques during the workout, aligning with the 'Breathing exercises' category. This warrants a moderate score of 0.65. Despite the low intensity level (1 out of 3), the nature of the workout is not similar to Stretching, Meditation, or Yoga, which is reinforced by the structured interval format."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

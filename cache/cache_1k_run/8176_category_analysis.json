@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 1.0
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.5
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.95,
-  "categoriesExplanation": "The primary category assigned is 'Indoor rowing' with a score of 1.0. The evidence for this is explicit in the workout name 'Low Rhythm Row' and the category tag 'row', indicating the use of a rowing machine. The mention of rowing rhythms such as 18, 22, and 24 also supports this classification. The workout description emphasizes leg power, typical of rowing workouts. The secondary category 'Breathing exercises' is considered with a score of 0.5. This is inferred from the workout type 'breathe' and the inclusion of 'Breathe' in the category, suggesting an emphasis on breathing, possibly integrated into the row. The workout intensity level is low, rated 1 out of 3, aligning with a calm, breathing-focused rowing session. The music choice, featuring upbeat and mainstream tracks, supports a rhythmic but not high-intensity vibe, reinforcing the rowing categorization. Other categories such as 'Mat', 'Body weight', or 'Weight workout' are excluded as there's no indication of floor exercises, bodyweight movements, or weight training equipment."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

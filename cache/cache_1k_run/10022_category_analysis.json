@@ -1,18 +1,10 @@
 {
   "categories": [
     {
-      "name": "Mat",
-      "score": 0.8
-    },
-    {
-      "name": "Weight workout",
-      "score": 0.7
-    },
-    {
-      "name": "HIIT",
-      "score": 0.6
+      "name": "Calisthenics",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout is classified primarily as 'Mat' with a score of 0.8 due to the 'On The Mat' tag and the circuit format which suggests exercises performed on the floor. The inclusion of 'dumbbells' in the equipment list strongly indicates a 'Weight workout', supporting a high intensity approach, leading to a score of 0.7. The presence of 'cardio intervals' and a circuit format aligns with characteristics of 'HIIT' (High-Intensity Interval Training), thus earning it a score of 0.6. The explicit mention of dumbbells and the description of whole-body exercises make Pilates and Yoga categories irrelevant, while the combination of weights and cardio excludes categories like Stretching, Meditation, or Breathing exercises. Overall, confidence is high at 0.9 due to explicit tags and detailed workout description."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

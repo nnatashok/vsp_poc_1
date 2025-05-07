@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Yoga",
-      "score": 0.9
-    },
-    {
-      "name": "Meditation",
-      "score": 0.5
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The primary category 'Yoga' is selected with a high confidence score of 0.9 due to explicit references to 'Yoga Flow' in the workout name and description. The term 'flow' strongly indicates a sequence of yoga postures connected smoothly, reinforcing the yoga classification. Additionally, the category tags 'On The Mat' and 'standard,on-the-mat' support this interpretation, suggesting yoga or similar mat-based exercises.\n\nThe secondary category 'Meditation' is given a moderate score of 0.5. The playlist choices, such as 'Chill mid' and 'Cool/Downtempo', along with song selections like 'Sundream' and 'Hush', suggest a calming atmosphere often associated with mindfulness and meditation practices. However, the primary focus remains on the physical aspect of yoga. Other categories like 'Stretching' or 'Mat' were considered but excluded due to stronger indicators for yoga and the lack of specific references to flexibility training or non-yoga specific floor exercises. There is also no indication of high-intensity, strength, or aerobic elements, ruling out other potential categories."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

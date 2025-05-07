@@ -2,23 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.8
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.1
     }
   ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "Given the workout type 'row' and the indication that the User Fitness Level Requirement is 'Beginner', the technique difficulty aligns with Beginner level. Rowing generally involves straightforward movements and is particularly suitable for beginners when guided properly.\"",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which suggests the technique difficulty can only be Beginner or Intermediate. Given the 'breathe' workout type and the description emphasizing maintaining a consistent pace, it is likely that the exercises are simple, focusing on rhythm and breath, typical of a Beginner level activity. The mention of 'challenge' implies a slight complexity, hence the small score assigned to Intermediate.",
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.7
+      "score": 0.8
     },
     {
       "level": "Moderate",
-      "score": 0.4
+      "score": 0.2
     }
   ],
-  "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The workout has a low intensity level (1 out of 3) and a brief duration of just over 11 minutes. These factors suggest a low to medium energy expenditure, making it a Light effort workout with some potential Moderate aspects due to the interval nature which might require some physical engagement.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The duration of the workout is 11:22 minutes with an intensity level of 1 out of 3, indicating it's relatively less demanding. This aligns it closely with Light effort difficulty as users maintain a consistent pace with some interval work. The term 'challenge yourself' with the interval format suggests moderate alignment with a Moderate level, but overall, the Light classification is more fitting for less fit users.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

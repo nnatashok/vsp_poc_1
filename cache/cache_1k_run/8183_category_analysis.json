@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Pilates",
-      "score": 1.0
-    },
-    {
-      "name": "Mat",
-      "score": 0.8
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The primary category assigned is 'Pilates' with a score of 1.0 due to explicit indicators from both the workout name and description, which mention 'Core Pilates' and 'pilates session' respectively. This indicates a strong focus on pilates exercises that are specifically targeting the core. Additionally, the workout type is listed as 'pilates', which reinforces this classification with very high confidence. \n\nThe next category chosen is 'Mat', with a score of 0.8. This is because the description notes that all exercises are performed on the back, indicative of a mat-based workout. The additional categories provided, 'On The Mat', also support this inference. \n\nOther workout categories such as 'Yoga' or 'Stretching' were not selected because the pilates focus is clearly emphasized, without any indicators of yoga or flexibility-centric content. The absence of exercise equipment further supports the inclusion of the 'Mat' category."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

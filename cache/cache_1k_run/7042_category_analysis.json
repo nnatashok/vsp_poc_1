@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.7
+      "name": "Warm-up",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is titled 'Race on the Thames Warm-Up', which suggests a rowing activity, likely indoors given the context of a structured, timed session with specific rhythm and pacing instructions, aligning with 'Indoor rowing'. The metadata indicates the workout involves intervals, aligning it with HIIT format. The description emphasizes aspects typical of rowing workouts, such as 'leg drive' and 'set your pace', both of which are key components in rowing. The interval format denotes an element of high-intensity interval training, supporting its classification as HIIT, despite being a warm-up, with a moderately high score. There is no mention of other equipment or workout forms, reinforcing the indoor rowing categorization with the strongest score due to its specific naming and content description. Music genre and playlist do not significantly affect the classification but provide a motivational background common in intense or disciplined exercise formats."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

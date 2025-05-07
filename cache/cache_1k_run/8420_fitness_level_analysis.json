@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.6
-    },
-    {
-      "level": "Intermediate",
-      "score": 0.4
-    }
-  ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout type is 'row', which defaults the Technique Difficulty to be either Beginner or Intermediate based on platform guidelines. The provided User Fitness Level Requirement aligns with 'Intermediate', suggesting that while basic, this workout might incorporate some slightly more complex rowing intervals that require coordination. This is indicated by the 'sweat' category and the rhythm intensity of 28, potentially challenging for a complete beginner but not overly complex.",
-  "effortDifficulty": [
-    {
-      "level": "Moderate",
       "score": 0.7
     },
     {
-      "level": "Challenging",
+      "level": "Intermediate",
       "score": 0.3
     }
   ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which limits the technique difficulty to Beginner or Intermediate. The description 'Time Under Tension Row' suggests a focus on maintaining a particular intensity or effort level during rowing intervals. The 'interval' format indicates some degree of complexity but not beyond intermediate. However, given that rowing itself is straightforward when not involving technical elements, the dominant technique difficulty leans towards Beginner with moderate alignment to Intermediate due to the interval aspect.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.8
+    },
+    {
+      "level": "Challenging",
+      "score": 0.2
+    }
+  ],
   "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The description, 'Build cardio and endurance with ... interval,' suggests moderate energy demand, aligning with the effort category of the workout (Sweat). The duration of 11 minutes 14 seconds implies a higher level of intensity, particularly for a less fit audience, which increases the effort difficulty slightly. The intensity level is marked as 2 out of 3, strengthening the inference of moderate effort with potential challenging intervals.",
+  "effortDifficultyExplanation": "The workout duration is 11 minutes and tagged with a max rhythm of 28, suggesting a moderate pace. The workout intensity level is noted as 2 out of 3, indicating moderate effort demand. While interval training typically heightens effort, the short duration ensures it remains primarily moderate with some challenges. Thus, Moderate effort difficulty is predominant, with slight alignment towards Challenging.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

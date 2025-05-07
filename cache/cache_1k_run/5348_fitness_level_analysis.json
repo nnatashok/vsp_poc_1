@@ -6,23 +6,23 @@
     },
     {
       "level": "Intermediate",
-      "score": 0.2
+      "score": 0.1
     }
   ],
-  "techniqueDifficultyConfidence": 0.85,
-  "techniqueDifficultyExplanation": "The workout is categorized as 'row', which traditionally aligns with Beginner or Intermediate technique difficulty. Given the metadata mentions 'Beginner Camp' and alternating rhythm not exceeding 26, it suggests rudimentary rowing which aligns more closely with Beginner-level technique. The confidence is high due to direct reference to a Beginner Training Camp within a simple rhythm format.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout involves rowing with a rhythm of 22 to 26 stroke rate and is part of a 'Beginner Training Camp', explicitly suggesting a focus on simple, straightforward movements. Since it is a rowing workout, the technique difficulty can only be 'Beginner' or 'Intermediate.' Given the indication that this is for beginners and has a low intensity, there\u2019s strong alignment with a Beginner level.",
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.85
+      "score": 0.8
     },
     {
       "level": "Moderate",
-      "score": 0.3
+      "score": 0.1
     }
   ],
   "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "Though the format 'Climb' might suggest increasing exertion, the duration of 11 minutes and an intensity level of 1 out of 3 clearly suggests a Light effort difficulty. The use of 'Beginner' in both title and description indicates it is meant to be very accessible to new rowers, further supporting a Light classification with some potential overlap into Moderate due to rhythm variance.",
+  "effortDifficultyExplanation": "The workout is relatively short at 11:23 minutes and is rated with an intensity level of 1 out of 3, indicating it is designed to be low effort. The 'breathe' workout type further suggests a focus on gentle, steady activity without intense bursts, aligning closely with a 'Light' effort difficulty. The use of a max rhythm of 26 in a beginner setting supports a Light effort difficulty classification with slight Moderate considerations due to rhythm changes.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

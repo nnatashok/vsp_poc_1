@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout title 'The New Normal Row' and the listed format 'Climb' along with the explicit categorization of 'row' in the metadata strongly indicate that this is an 'Indoor rowing' workout. The use of the word 'Climb' suggests a gradual increase in intensity, which is typical in rowing formats. The description focusing on rhythm and intensity, along with the mention of a 'Max rhythm: 26', further supports the rowing classification, leading to a high confidence score for 'Indoor rowing' (0.9).\n\nThe presence of the category 'Breathe,' along with the low intensity level (1 out of 3), suggests that controlled breathing is a part of the workout. While this does not usually classify a typical breathing exercise session, it is an indicator of breathing focused activities being integrated into this rowing session. Therefore, the 'Breathing exercises' category is assigned with a moderate score of 0.6 reflecting its secondary emphasis.\n\nOther potential categories like 'Yoga' or 'Meditation' are excluded due to lack of mindfulness or meditation-specific content. Similarly, 'Stretching' is not considered as the workout appears primarily focused on cardio and rhythm."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

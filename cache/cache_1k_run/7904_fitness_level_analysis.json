@@ -6,23 +6,23 @@
     },
     {
       "level": "Intermediate",
-      "score": 0.4
-    }
-  ],
-  "techniqueDifficultyConfidence": 0.85,
-  "techniqueDifficultyExplanation": "The workout is classified under the 'row' category, which per Hydrow-specific rules restricts technique difficulty to either Beginner or Intermediate. Given the 'breathe' type and the simplicity implied by the 'Step by Step' title, it aligns strongly with the Beginner level. The absence of complex movement descriptions and the user fitness requirement being Beginner support this. The intermediate score reflects the slightly challenging rhythm of 24, which requires some coordination, but overall simplicity prevails.",
-  "effortDifficulty": [
-    {
-      "level": "Light",
-      "score": 0.8
-    },
-    {
-      "level": "Moderate",
       "score": 0.3
     }
   ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout category is 'row', which limits the technique difficulty to either Beginner or Intermediate. The instructor emphasizes proper form, suggesting a need for some technical awareness, but the overall workout design 'Breathe' and focus on elevation implies a more accessible workout. Beginner classification is substantial given the user fitness level requirement reinforces this.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.4
+    }
+  ],
   "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "With an intensity level of 1 out of 3 and a duration just over 11 minutes, the workout exudes characteristics of a Light effort level. The 'breathe' workout type and music choice further suggest a paced, less intense session appropriate for users easing into activity. The Climb format hints at some varying effort but not enough to elevate beyond Light for most users.",
+  "effortDifficultyExplanation": "The workout duration of over 11 minutes and the 'breathe' type emphasize a lighter intensity. The intensity level is marked as 1 out of 3, further confirming it is not very demanding physically. While rhythm suggests some energy expenditure, indicators such as 'elevate your rhythm gently' align better with a Light to Moderate categorization.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

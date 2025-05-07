@@ -9,20 +9,20 @@
       "score": 0.2
     }
   ],
-  "techniqueDifficultyConfidence": 0.85,
-  "techniqueDifficultyExplanation": "The workout type is 'row', which typically falls under Beginner or Intermediate Technique Difficulty levels according to Hydrow-specific guidelines. The description emphasizes a focus on slowing down and creating space, suggesting a more mindful, less complex movement pattern. Furthermore, the workout intensity is relatively low, marked at 1 out of 3, which reinforces the likelihood of simple rowing movements. Given these factors, the Technique Difficulty is predominantly Beginner due to the straightforward nature of rowing, with a slight possibility of Intermediate complexity due to the interval format, though this is minimal.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type is classified as 'breathe', which suggests a focus on relaxation and breathing techniques rather than complex rowing drills. The category 'row' typically aligns with beginner or intermediate technique difficulty due to the straightforward nature of rowing. Given the interval format which can add some complexity, there is a minor alignment with Intermediate, but strong alignment (0.8) with Beginner given the relaxation theme indicated in 'Creating Space'.",
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.75
+      "score": 0.8
     },
     {
       "level": "Moderate",
-      "score": 0.25
+      "score": 0.2
     }
   ],
-  "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "The workout is 21 minutes and categorized with a low intensity of 1 out of 3, which indicates that it is likely not highly demanding, suitable for those new to regular exercise. The focus on 'breathe' and 'creating space' implies a low-energy, mindful session designed more for relaxation or gentle cardio, suggesting a Light Effort Difficulty. The inclusion of interval format raises a possibility of Moderate effort due to the potential introduction of varied rhythmic challenges, but this is less emphasized, leading to a primarily Light classification.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is categorized as 'breathe' and has an intensity level of 1 out of 3, suggesting it isn't overly demanding. The 21-minute duration with a focus on 'creating space' further supports a light energy expenditure. The playlist and 'oldies' theme imply a relaxed pace. Although the interval format may introduce brief effort spikes, the primary classification remains Light (0.8), with a minor consideration for Moderate due to the interval structure.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

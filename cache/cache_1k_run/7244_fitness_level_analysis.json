@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.95
+      "score": 0.9
     },
     {
       "level": "Intermediate",
-      "score": 0.4
+      "score": 0.2
     }
   ],
-  "techniqueDifficultyConfidence": 0.85,
-  "techniqueDifficultyExplanation": "Given the workout's categorization as a 'row,' technique difficulty must be either Beginner or Intermediate. The description mentions 'low-intensity,' and the format 'Steady' suggests a focus on consistency rather than technical prowess. Thus, the simplistic repetitive motion of rowing aligns well with the Beginner classification with a high confidence score. Certain cues, like the extended time and the rhythm cap at 24, suggest that maintaining form over time is slightly more involved, lending a weaker case for Intermediate.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type is 'row', which inherently categorizes the technique difficulty as either Beginner or Intermediate. Given the 'breathe' workout type and an intensity level of 1 out of 3, this indicates a steady pace without complex movements, aligning more with Beginner. The structured nature of rowing and rhythm control at 24 max rhythm also aligns with Beginner or early Intermediate, but lacks signals of complex coordination needed for Intermediate.",
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.65
+      "score": 0.8
     },
     {
       "level": "Moderate",
-      "score": 0.55
+      "score": 0.2
     }
   ],
-  "effortDifficultyConfidence": 0.75,
-  "effortDifficultyExplanation": "The workout is split into three 15-minute low-intensity segments, indicating a less intense energy requirement per segment, aligning with a 'Light' effort difficulty classification. The overall duration of 61 minutes, punctuated by the potential necessity for pacing, suggests a Moderate level of overall exertion. However, the primary intensity cue of '1 out of 3' and the 'breathe' workout type reinforce the Light classification slightly more, with the steady rhythm bolstering moderate confidence.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is divided into three 15-minute segments, each designated as low-intensity with a total duration of 1 hour and 22 minutes. The intensity level is marked as 1 out of 3, indicating very mild effort. Although lengthy, the low intensity and slower, steady rhythm suggest Light effort, possibly stretching into Moderate due to total workout time, but the cuffing descriptors lean heavily into the Light category.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

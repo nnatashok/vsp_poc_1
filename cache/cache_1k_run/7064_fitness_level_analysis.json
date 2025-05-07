@@ -1,28 +1,20 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Advanced",
-      "score": 0.6
-    },
-    {
       "level": "Intermediate",
-      "score": 0.4
+      "score": 0.7
     }
   ],
   "techniqueDifficultyConfidence": 0.75,
-  "techniqueDifficultyExplanation": "The workout type is marked as 'Drive', which according to Hydrow's specific guidelines indicates an advanced level of technique difficulty. This implies that the workout involves technical rowing techniques potentially requiring good coordination and body awareness. However, since the workout category includes 'row', Intermediate is still relevant due to typical rowing movements which generally are not extremely technical. The description also suggests a need for technique in shifting effort and rhythm, justifying a score for Advanced but also allowing Intermediate due to rowing norms.",
+  "techniqueDifficultyExplanation": "The workout is classified as 'drive', which according to Hydrow-specific rules aligns with Advanced technique difficulty. However, since the workout is rowing-based and involves intervals, the movements are likely to require some coordination and rhythm, making an intermediate level more appropriate while still aligning under the 'drive' rule.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.75
-    },
-    {
-      "level": "Extreme",
-      "score": 0.25
+      "score": 0.85
     }
   ],
   "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout is 21 minutes long with interval training, marked with the highest intensity level (3 out of 3). The combination of short, high-intensity intervals (60-second bursts) with a max rhythm of 32 infers significant cardiovascular and muscular effort, especially since users need to maintain high performance repeatedly. The interval format generally increases the physical demand, giving a strong score to Challenging. Due to these factors, Extreme also receives a partial score, as less fit users might find it overwhelming.",
+  "effortDifficultyExplanation": "Given the 21-minute duration and the high intensity rating (3 out of 3), combined with interval training that demands shifts in effort and rhythm, the effort difficulty is strong. The use of high-tempo music suggests a pace designed to push physical limits, making it demanding for less fit users.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

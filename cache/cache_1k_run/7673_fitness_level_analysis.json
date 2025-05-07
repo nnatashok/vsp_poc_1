@@ -9,8 +9,8 @@
       "score": 0.2
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout type is 'row', which according to Hydrow-specific rules limits the technique difficulty to Beginner or Intermediate. Given the description of the session titled '80s Intervals Row', the emphasis is likely on maintaining rhythm and basic rowing form. The workout description and intensity cues like simple interval format support a Beginner level, while the category 'standard, row' suggests a potential for slightly more complexity characteristic of Intermediate. Thus, Beginner is the dominant classification due to minimal complexity involved in a standard rowing format at an intensity level marked 1 out of 3.",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which by Hydrow-specific rules assigns it a maximum Technique Difficulty of Intermediate. However, the format of the workout 'Interval' and the description indicating it is part of a 'Breathe' category suggest the movements are simplified for focus on rhythmic breathing and endurance rather than complexity, aligning strongly with a Beginner level. The associated rhythm (max rhythm: 26) aligns with beginner-level rhythm drills, but the presence of an experienced Olympian coach slightly elevates the possibility of intermediate complexities.",
   "effortDifficulty": [
     {
       "level": "Light",
@@ -21,8 +21,8 @@
       "score": 0.3
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout duration is 21 minutes and 20 seconds with an interval format. The intensity level is marked as 1 out of 3, which suggests it is intended to be accessible to beginners. The interval setup can make it slightly more engaging, but not excessively demanding. Furthermore, the focus on 80's music hints at a light-hearted, enjoyable session rather than an intense training environment. Hence, Light difficulty is predominant because of the lower intensity and relatively short duration, but Moderate is partially applicable due to possible effort required in managing interval changes.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout duration of 21 minutes combined with an intensity level of 1 out of a possible 3 suggests a relatively low energy expenditure, typical of a Light effort category. Furthermore, the category 'Breathe' suggests a focus on controlled, consistent effort rather than high exertion levels, aligning well with a Light rating. However, the presence of interval training introduces some variability in effort, justifying partial alignment with Moderate exertion.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

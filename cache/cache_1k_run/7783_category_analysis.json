@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Mat",
-      "score": 0.9
-    },
-    {
-      "name": "Body weight",
-      "score": 0.7
+      "name": "Yoga",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is labeled as a 'flow' focusing on core exercises, which suggests a Mat workout. The description highlights a tranquil and serene environment with a focus on a 'flow,' indicating fluid, controlled movements typical of Mat exercises. The playlist contains downtempo and chill music, aligning with a less intense workout style. The explicitly mentioned category 'On The Mat' reinforces the classification of this workout as Mat-based, with a very high confidence score of 0.9. \n\nThe focus on core exercises, alongside the absence of specified equipment, indicates a Body weight workout as a secondary category. Although 'Yoga' might have been considered due to the term 'flow,' the workout description and metadata lack specific Yoga terminology or body-mind elements, which suggests a stronger alignment with general Mat exercises and core-focused Body weight exercises."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

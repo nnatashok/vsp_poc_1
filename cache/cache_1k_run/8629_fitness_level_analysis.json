@@ -1,16 +1,16 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Intermediate",
-      "score": 0.7
+      "level": "Beginner",
+      "score": 0.6
     },
     {
-      "level": "Advanced",
-      "score": 0.4
+      "level": "Intermediate",
+      "score": 0.8
     }
   ],
   "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout is categorized as a 'Drive' type, which indicates a higher level of technical skill in rowing due to emphasis on power transitions. This suggests movements are more refined than basic rowing, aligning with Intermediate and partially Advanced technique difficulty. The description mentioning 'maintain your power during shifts in rhythm' implies coordination and control, characteristic of Intermediate to Advanced levels.",
+  "techniqueDifficultyExplanation": "The workout type is 'drive', which aligns with Hydrow's classification system, indicating a higher level of technical skill generally around the Intermediate or Advanced level. However, since the primary activity is rowing\u2014a category restricted to Beginner or Intermediate\u2014this workout is deemed best fitting the Intermediate level. The description mentions 'shifts in rhythm', suggesting some complexity beyond basic rowing, leading to a stronger score at an Intermediate level. Consequently, the score for Beginner is moderate due to the foundational nature of rowing itself.",
   "effortDifficulty": [
     {
       "level": "Challenging",
@@ -21,8 +21,8 @@
       "score": 0.5
     }
   ],
-  "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "The workout has an intensity level of 3 out of 3, indicating high physical demand. The duration of 11 minutes suggests a high-intensity session with minimal rest, corroborating the Challenging to Extreme classification. The high max rhythm of 32 and music choices further indicate a sustained effort, raising the energy expenditure significantly.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The effort difficulty is assessed as Challenging with a potential towards Extreme, based on the short yet intense duration (11 minutes) paired with a max rhythm of 32 and a workout intensity level of 3 out of 3. Intense cues and songs from high-energy radio stations align with a very high exertion level. Given the intensity and dynamic nature of power transitions referenced in the description, the demand on energy expenditure is substantial, thus strongly supporting the Challenging classification with some consideration for Extreme effort.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

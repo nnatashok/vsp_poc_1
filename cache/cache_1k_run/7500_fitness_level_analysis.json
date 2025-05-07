@@ -1,20 +1,20 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Advanced",
+      "level": "Intermediate",
       "score": 0.8
     }
   ],
-  "techniqueDifficultyConfidence": 0.85,
-  "techniqueDifficultyExplanation": "The workout type 'drive' specifically aligns with Hydrow's categorization of technique difficulty, which automatically elevates it to Advanced due to the required coordination and skill level in handling the intensity and rhythm of the rowing intervals. Despite intervals typically involving repetitive motion, the expertise needed to maintain form at high intensity places it firmly in the Advanced category. The drive focus also suggests a technical aspect outside of Beginner or Intermediate levels.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is classified under 'row' and 'drive', which suggests a focus on rowing technique. As per Hydrow's workoutType rule for 'drive', it's classified as Advanced. However, because it's a rowing workout, the technique difficulty is limited to Intermediate as per platform guidelines. The instruction by a former U.S. National Triathlon Team member and focus on '400m repeats' may demand more technical precision than a basic rowing session, confirming this level.",
   "effortDifficulty": [
     {
-      "level": "Extreme",
+      "level": "Challenging",
       "score": 0.8
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout's intensity level is marked at 3 out of 3, indicating a very rigorous intensity. The interval format, high rhythm (28 strokes per minute max), and 21-minute duration emphasize high physical demand without noted rest intervals typical of interval workouts. The focus on 'drive' underscores this high effort difficulty, suggesting a workout that ranks as Extreme due to the required energy expenditure and maintained high-intensity bursts.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout's effort is categorized as '3 out of 3' intensity, indicating it is physically demanding. Although the duration of 21 minutes isn't extensive, the format is interval-based, likening it to '400m repeats', which are typically high-intensity efforts with short rests, making the workout effort significant for users in poor physical shape. Given these factors, 'Challenging' is a fitting classification.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

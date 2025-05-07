@@ -1,18 +1,10 @@
 {
   "categories": [
     {
-      "name": "Weight workout",
-      "score": 0.7
-    },
-    {
-      "name": "Indoor rowing",
-      "score": 0.4
-    },
-    {
-      "name": "Mat",
-      "score": 0.3
+      "name": "Calisthenics",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.8,
-  "categoriesExplanation": "The workout video is categorized under 'Weight workout' with a high confidence score of 0.7 due to the emphasis on lower body exercises, such as 'reverse lunges,' 'kickstand RDLs,' and 'goblet squats,' all of which specifically involve the use of 'dumbbells' to enhance muscular strength and endurance. This aligns well with the description mentioning 'build lower body strength.' Additionally, the mention of 'bursts on the Hydrow' suggests some involvement of an 'Indoor rowing' component, contributing to a supplementary cardio and core workout aspect, scoring 0.4 for this category due to its secondary presence. Furthermore, the 'dynamic warm-up on the mat' suggests the primary setup is on a mat, giving 'Mat' activities a score of 0.3 since these are mainly preparatory, not the main focus. While the mention of 'circuit' generally implies a varied routine, the primary elements derived from the workout's content and metadata support these category choices with a confident categorization."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

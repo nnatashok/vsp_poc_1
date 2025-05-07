@@ -3,12 +3,8 @@
     {
       "name": "Indoor rowing",
       "score": 1
-    },
-    {
-      "name": "HIIT",
-      "score": 0.6
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The primary category assigned is 'Indoor rowing' with a high score of 1. The workout's name 'Happiness + Well-Being Row' and description both explicitly reference rowing. Additionally, the max rhythm of 28 and the use of interval formats, as mentioned in the workout description, clearly indicate rowing intervals, which are a key characteristic of indoor rowing workouts. The secondary category is 'HIIT' with a score of 0.6. Although the primary focus is on rowing, the format of 'two and three-minute intervals' suggests high-intensity interval training aspects, hence the classification in HIIT. The workout's intensity level of 2 out of 3 and the 'sweat' label support a moderately high intensity, aligning with typical HIIT characteristics. Other categories like 'Yoga', 'Mat', or 'Body weight' are excluded due to a lack of relevant elements such as mat exercises, bodyweight movements, or mindfulness practices in the metadata."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

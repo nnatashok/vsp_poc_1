@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "HIIT",
-      "score": 0.9
-    },
-    {
       "name": "Indoor rowing",
-      "score": 0.85
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.95,
-  "categoriesExplanation": "The workout titled 'Mind Over Matter Row' strongly indicates a high-intensity interval training (HIIT) session with a clear emphasis on rowing. The description explicitly mentions 'high-intensity intervals,' and the term 'max rhythm: 32' suggests a rowing cadence, aligning with typical HIIT workouts. The provided category tags include 'row' and 'Drive,' further supporting the classification as an indoor rowing session. The intensity level '3 out of 3' underscores the high-intensity nature, reinforcing both the HIIT and Indoor rowing categories. The playlist includes high-energy tracks from artists known for dynamic pop hits, matching the high-intensity workout profile. Other categories like Yoga, Pilates, or Body weight are excluded due to the lack of indications for such practices. The high confidence in the HIIT classification comes from the explicit intensity and format described, while the confidence in Indoor rowing is due to the contextual cues and metadata provided."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

@@ -1,18 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.79
-    },
-    {
-      "name": "Stretching",
-      "score": 0.59
-    },
-    {
-      "name": "Yoga",
-      "score": 0.39
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.75,
-  "categoriesExplanation": "The workout is classified as 'Indoor rowing' due to the context provided in the metadata, such as the mention of 'steady' format, 'cool down, standard, row' category, and max rhythm of 20, which strongly suggest a rowing machine is involved, albeit at a low intensity. This category is given the highest score (0.79) reflecting high confidence even though low intensity. 'Stretching' is considered next as the workout description mentions 'cool down' and 'scan your body from your head to your toes', indicating a focus on flexibility and relaxation. This aligns with stretching routines, justifying a moderate score of 0.59. The presence of 'mindfulness' suggests some elements akin to 'Yoga', though less central, resulting in a lower score of 0.39. The lack of explicit indicators beyond cool down activities precludes higher scores for Yoga or Stretching. The absence of the instructor and lack of intense physical activity suggest exclusion of HIIT, Elliptical, or Weight workout categories."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

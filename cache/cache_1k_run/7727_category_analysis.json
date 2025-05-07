@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout title 'Cardio Cruise Row' and the keyword 'row' in the category indicate a strong emphasis on rowing exercises, suggesting the 'Indoor rowing' classification. The description notes a 'low intensity, longer workout' led by Sera Moon, reinforcing the likelihood of rowing being central to the workout. Additionally, the 'Workout Type' listed as 'breathe' and 'Category' as 'Breathe' suggests a component of controlled breathing, aligning with 'Breathing exercises'. The indicated 'Workout intensity level: 1 out of 3' further supports a lower intensity activity, typical of controlled breathing practices. Although the workout is likely performed on a rowing machine, the presence of the term 'breathe' multiple times suggests a significant focus on breathing techniques, which justifies a secondary category of 'Breathing exercises'. Other categories were excluded due to lack of relevant indicators."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

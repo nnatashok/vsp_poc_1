@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Mat",
-      "score": 0.8
-    },
-    {
-      "name": "Body weight",
-      "score": 0.7
+      "name": "Calisthenics",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout title 'Lower Body with Mini-Band Circuit' and the description indicate a focus on lower body exercises utilizing a mini-band. The term 'circuit' suggests a structured session with a series of exercises repeated, which is often characteristic of Mat workouts that don't require extensive equipment. The mention of 'bodyweight exercises' aligns with the Body weight category, further supported by the 'On The Mat' tag indicating ground-based exercises. The absence of an instructor or specific music guiding the session shifts focus to individual movement with minimal equipment. The workout's short duration of 10 minutes and 45 seconds suggests a concise, efficient workout often typical for quick Mat circuits. Thus, 'Mat' receives a high score of 0.8 as the primary format, and 'Body weight' is relevant with a score of 0.7, reflecting the use of body weight alongside the mini-band for resistance. Other categories such as 'Weight workout' or 'HIIT' are excluded due to the lack of heavy equipment or high-intensity intervals described in the metadata."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

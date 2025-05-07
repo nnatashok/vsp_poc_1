@@ -1,24 +1,28 @@
 {
   "techniqueDifficulty": [
     {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
       "level": "Intermediate",
       "score": 0.8
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout type is 'drive', which as per Hydrow-specific rules, typically involves more complex rowing techniques that go beyond beginner-friendly movements due to the higher requirement of rhythm and power. Combined with the 'row' category and the objective of accumulating maximum meters, it positions this session as Intermediate in technique, despite its seemingly straightforward rowing format.",
+  "techniqueDifficultyExplanation": "The workout type 'drive' and category 'row' typically require a high degree of power output and precision. However, based on Hydrow-specific categories, a 'row' technique can only be rated up to 'Intermediate'. Thus, while the movements may have elements of complexity due to the drive component, they are still classified as Intermediate. The user fitness requirement of 'Advanced' suggests complexity, but the established rule for rowing workouts limits technique difficulty.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.75
+      "score": 0.9
     },
     {
       "level": "Extreme",
-      "score": 0.6
+      "score": 0.7
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The effort difficulty is driven by the 'drive' format with an intensity level of 3 out of 3, indicating a highly demanding session. The workout's short duration of 11 minutes and 18 seconds coupled with a high rhythm (34) suggests high-intensity intervals near maximum output, which is consistent with challenging effort. The focus on power and maximum meters adds to the demanding nature, placing it between challenging and extreme.",
+  "effortDifficultyConfidence": 0.95,
+  "effortDifficultyExplanation": "The duration of 11:18 minutes with a high rhythm of 34 and a workout intensity rated 3 out of 3 suggests a very physically demanding session. The focus on 'accumulating maximum meters' implies significant exertion and high energy output. For less fit users, this aligns with near 'Extreme' effort, but since it's on the shorter side, 'Challenging' remains the more appropriate classification.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

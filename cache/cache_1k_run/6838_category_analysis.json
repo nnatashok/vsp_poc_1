@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.5
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The primary category for this workout is 'Indoor rowing', with a high confidence level of 0.9. This is evident from the workout name 'Cardio Clean Up Row' and the description mentioning 'stroke' adjustments, which strongly indicate rowing activity. The mention of 'Interval' format also supports this classification, as interval training is a common approach in rowing workouts.\n\nThe secondary category is 'Breathing exercises', with a moderate score of 0.5. The workout type is listed as 'breathe' and 'breathing', suggesting a focus on breathing techniques during the session. However, the primary emphasis still appears to be on rowing, making this category secondary.\n\nThe intensity level of '1 out of 3' suggests a low-intensity workout, aligning with light cardio and controlled breathing exercises, rather than more intense forms of rowing or HIIT. The downtown Miami discovery theme might imply a more leisurely, exploratory row rather than a high-performance session.\n\nOther categories were excluded due to the specific mention of 'row', and lack of evidence for activities such as Yoga, Pilates, or other non-rowing exercises."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

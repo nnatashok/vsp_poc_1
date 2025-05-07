@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is primarily an \"Indoor rowing\" session, as indicated by the title 'Endurance + Speed Row' and the presence of interval training on a rowing machine. The description mentions 3-minute intervals and shorter speed intervals, which are typical for rowing workouts. The use of 'row' and interval format confirms this categorization with high confidence (0.9).\n\nThe presence of 'speed intervals' and the indication of 'Workout intensity level: 2 out of 3' suggest elements of High-Intensity Interval Training (HIIT), albeit within a structured rowing format. This is supported by the format description of 'interval,' which is a hallmark of HIIT workouts. Therefore, \"HIIT\" is also an appropriate category, but with slightly lower confidence (0.7) due to the specific emphasis on rowing.\n\nOther categories such as \"Treadmill\", \"Mat\", or \"Running\" are excluded as there are no indications of running or non-equipment moves, and the focus is strictly on rowing exercises."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

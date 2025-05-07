@@ -2,15 +2,15 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 1.0
+      "score": 0.7
     },
     {
       "level": "Intermediate",
-      "score": 0.2
+      "score": 0.3
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout, categorized as a 'row' type, generally involves straightforward rowing techniques that align with a Beginner difficulty. The metadata indicates a 'breathe' workout, typically designed for more relaxed and rhythm-focused activity, further supporting that the movements are simple with minimal coordination required. However, the 'climb' format might introduce a slight complexity, accounting for a low Intermediate score. Overall, simplicity and rhythm-based structure strongly suggest a Beginner level.",
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which typically involves straightforward rowing movements. Given the 'breathe' category and a focus on rhythm every five minutes, this indicates a slightly more structured approach, possibly increasing complexity slightly beyond pure beginner level. Nonetheless, the row category ensures that the technique remains largely accessible, aligning most closely with Beginner and somewhat with Intermediate level.",
   "effortDifficulty": [
     {
       "level": "Light",
@@ -21,8 +21,8 @@
       "score": 0.3
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout lasts 16 minutes and is described as 'breathe' with a 'climb' format, indicating a low to moderate energy requirement. The intensity level is 1 out of 3, suggesting a less physically demanding session appropriate for deconditioned users. The music genres played are mid-energy, which complements the light to moderate effort required for maintaining rhythm in rowing. Thus, the effort difficulty is primarily categorized as Light, with some potential for moderate exertion.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout has a duration of 16:23 and is set to a max rhythm of 24, with an intensity level of 1 out of 3. This suggests a workout that is manageable and suitable for beginners or those with lower fitness. The 'Climb' format may introduce some rhythmic progression requiring minor additional effort, but the overall intensity is low to moderate, fitting primarily within the Light category with a moderate aspect.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

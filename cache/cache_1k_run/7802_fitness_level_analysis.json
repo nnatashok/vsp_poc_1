@@ -2,27 +2,39 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.1
+      "score": 0.0
     },
     {
       "level": "Intermediate",
       "score": 0.9
+    },
+    {
+      "level": "Advanced",
+      "score": 0.9
+    },
+    {
+      "level": "Expert",
+      "score": 0.0
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout type is 'drive', which is specifically categorized under Hydrow rules as Advanced. However, given that the category is 'row', the technique difficulty cannot exceed Intermediate. Thus, the technique difficulty aligns strongly with 'Intermediate' due to high rhythm rowing, but potential errors by beginners slightly suggest consideration for 'Beginner'.",
+  "techniqueDifficultyExplanation": "The workout is part of Hydrow's 'Drive' category, which automatically assigns an Advanced technique difficulty due to the complex, rhythm-based rowing involved. This requires substantial body coordination and rowing proficiency, supported by metadata context such as the high rhythm number (Max rhythm: 34) indicating advanced rowing technique. Therefore, it fits the Advanced category with high confidence.",
   "effortDifficulty": [
     {
+      "level": "Moderate",
+      "score": 0.0
+    },
+    {
       "level": "Challenging",
-      "score": 0.4
+      "score": 0.25
     },
     {
       "level": "Extreme",
-      "score": 0.8
+      "score": 1.0
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout intensity is at the maximum level (3 out of 3), and the workout involves intervals with a high rhythm max of 34 strokes per minute. This indicates high energy expenditure and short rest intervals, suggesting 'Extreme' effort difficulty. However, considering users with low fitness, this would generally be challenging as well, hence scores are given for both levels with higher confidence towards Extreme.",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The duration of over 30 minutes, the interval format, high rhythm number, and an intensity level of 3 out of 3 directly place this workout in the Extreme category. The use of high-energy rock music further suggests a demanding session intended to maintain high energy output. Therefore, the demanding nature aligned with 'Drive' workouts and high intensity level validate this classification.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

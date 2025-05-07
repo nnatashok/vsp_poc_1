@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.5
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The primary category 'Indoor rowing' is selected because the title 'Commit to It Row' and the description 'cruise down the Charles River' strongly suggest a rowing-focused workout, which is corroborated by the associated category tags like 'row.' This clearly aligns with an indoor rowing session on a machine, especially with the inclusion of tempo-related terms like 'Max rhythm: 26' and 'Format: Climb,' which are typical metrics used in rowing workouts. The high confidence (0.9) is due to several clear indicators pointing to indoor rowing.\n\nThe secondary category 'Breathing exercises' is considered with moderate presence (score 0.5) due to the mention of 'Workout Type: breathe' and the listed category 'Breathe,standard,row.' These imply that breath work or respiratory control is an important component of this workout, though it is not the dominant feature. The workout's intensity level of 1 out of 3 suggests a relaxed pace, possibly focusing on breathing.\n\nOther categories like 'Stretching', 'Meditation', or 'Yoga' were excluded because there are no direct references or implications that these elements are involved in the workout, focusing instead on rowing and breathing techniques."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

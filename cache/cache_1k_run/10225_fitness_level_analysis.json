@@ -6,15 +6,19 @@
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is classified under the 'drive' workoutType, which according to Hydrow-specific rules automatically categorizes the Technique Difficulty as Advanced. This is due to the nature of drive workouts requiring intense focus on rowing form and cadence alterations, as indicated by the description's emphasis on dynamic rhythm adjustments ('starting five splits above your goal average and gradually lowering throughout').",
+  "techniqueDifficultyExplanation": "The video is classified as a 'drive' workout, which is characterized by a challenging pace and technique demands. Despite a rowing category, the 'Drive' designation indicates a higher technical challenge due to the emphasis on maintaining precise form and control at higher intensity and split reduction. The metadata describes an 18-minute session focused on gradual intensity increases which aligns with advanced coordination and technique, warranting a strong advanced score.",
   "effortDifficulty": [
     {
+      "level": "Challenging",
+      "score": 0.7
+    },
+    {
       "level": "Extreme",
-      "score": 0.9
+      "score": 0.6
     }
   ],
   "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The Effort Difficulty for this workout is at an Extreme level. Though the duration is under 20 minutes, the description highlights a 'closest simulation to your ultimate 20-minute test', and utilizes phrases like 'Embrace the challenge', which imply high intensity. The workout requires maintaining a consistent but demanding pace ('Max rhythm: 30') with an intensity level of 3 out of 3, necessitating significant physical exertion from participants.",
+  "effortDifficultyExplanation": "The workout is notably intense, labeled as a 'Drive' with maximal rhythm at 30 and an intensity rating of 3 out of 3, indicating significant physical exertion. The workout's duration of nearly 20 minutes further contributes to this demand. While 'Challenging' describes typical steady, vigorous workouts, the crescendo of intensity to a personal test matches elements of 'Extreme', though slightly less extreme due to its duration. Therefore, it fits challenging to extreme.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

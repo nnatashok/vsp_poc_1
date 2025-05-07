@@ -2,19 +2,23 @@
   "techniqueDifficulty": [
     {
       "level": "Intermediate",
-      "score": 0.8
+      "score": 0.75
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout falls under the 'Drive' category, which according to Hydrow's specific rules, indicates an Advanced classification. However, given the rowing focus and the user requirement set as Advanced, an Intermediate technique difficulty is more appropriate. Rowing requires some coordination and technique to execute properly at higher intensities and rhythms, especially in a power format tailored to accumulating maximum meters, indicating a solid Intermediate difficulty.",
+  "techniqueDifficultyExplanation": "The workout is categorized under 'drive' and 'row'. According to platform-specific rules, these categories primarily involve rowing exercises, which can vary in complexity but are bounded to either Beginner or Intermediate levels as per rules for rowing workouts. Given the 'Drive' category and power focus, the rowing technique likely involves maintaining form and power output at higher strokes per minute, thus elevating it to Intermediate, supported by the workout's emphasis on a race to accumulate meters with a high rhythm (max rhythm: 32).",
   "effortDifficulty": [
     {
+      "level": "Challenging",
+      "score": 0.65
+    },
+    {
       "level": "Extreme",
-      "score": 0.85
+      "score": 0.2
     }
   ],
   "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout is labeled with the highest intensity level (3 out of 3) and focuses on accumulating maximum meters in a Drive format. While the duration is under 12 minutes, making it a relatively short session, the high rhythm of up to 32 strokes per minute and the emphasis on power output suggest a high energy expenditure. This aligns closely with an Extreme level of effort difficulty, especially given the Advanced user fitness level requirement.",
+  "effortDifficultyExplanation": "The effort difficulty is heavily influenced by the workout's attributes: an 11:28 duration with a 'power' format and 'Drive' category \u2013 inherently more physically taxing given high-intensity output is typically required to race for maximum meters. The intensity level is marked as 3 out of 3, which indicates a workout that is very demanding. However, considering the 11-minute duration, while intense, it's more of a 'Challenging' workout primarily due to short duration. Yet the intensity hints at 'Extreme', but this only partially fits due to workout length not sustaining extreme energy expenditure.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

@@ -2,19 +2,19 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 1.0
+      "score": 0.7
     },
     {
       "level": "Intermediate",
       "score": 0.6
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is classified under the 'row' category, which typically involves basic rowing movements. Such movements are generally accessible and require minimal coordination, aligning it with a Beginner technique difficulty. Considering the Interval format and a maximum rhythm of 28, which may demand slightly more rhythm awareness and pacing, an additional Intermediate score is applied at a lower confidence.",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "Since the workout is categorized as 'row', following the Hydrow-specific guideline, the technique difficulty can only be Beginner or Intermediate. The workout duration is relatively short at 16 minutes, and the description indicates simple interval rowing which aligns with these levels, supporting a score for both Beginner and Intermediate.",
   "effortDifficulty": [
     {
       "level": "Moderate",
-      "score": 1.0
+      "score": 0.65
     },
     {
       "level": "Challenging",
@@ -22,7 +22,7 @@
     }
   ],
   "effortDifficultyConfidence": 0.75,
-  "effortDifficultyExplanation": "The workout has a duration of 16 minutes and is structured as interval training, which increases physical demand. The intensity level of 2 out of 3 suggests it is designed to offer some cardiovascular challenge, making it moderately demanding. Given the rhythm cap and lack of rest detail, it leans towards Moderate, though the Interval format could suggest some Challenging aspects, hence the lower score for Challenging.",
+  "effortDifficultyExplanation": "The workout format 'Interval' and category 'Sweat' suggest a higher intensity, supported by the intensity level marked as 2 out of 3. The use of motivating intervals of two to three minutes indicates moderate effort, but with potential bursts of exertion placing some it into Challenging territory for less fit users. Thus, a Moderate rating is the strongest fit with some alignment to Challenging.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

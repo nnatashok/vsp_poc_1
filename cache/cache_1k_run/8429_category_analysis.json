@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.95
-    },
-    {
-      "name": "HIIT",
-      "score": 0.85
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.95,
-  "categoriesExplanation": "The workout titled 'Racing Mindset Row' and the description mentioning 'ignite your legs and lungs' strongly indicate an intense rowing session, aligning it closely with 'Indoor rowing.' The explicit mention of the format being 'HIIT' and an 'intensity level: 3 out of 3' suggests a high-intensity interval training setup. The 'drive' type and the context of 'bolt down the Charles River' metaphorically reinforce the high-energy and competitive elements typical of both indoor rowing and HIIT workouts. These indicators collectively support a high confidence rating for 'Indoor rowing' (score 0.95) due to its centrality in the metadata and 'HIIT' (score 0.85) due to the format and intensity level description. Other categories such as 'Treadmill' or 'Mat' are excluded due to the lack of relevant context in the metadata pointing to those activities."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

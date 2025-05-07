@@ -2,27 +2,23 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.8
-    },
-    {
-      "level": "Intermediate",
-      "score": 0.2
+      "score": 1
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout category is 'row', which typically suggests a Beginner or Intermediate technique difficulty. With a steady format and emphasis on balance and rhythm rather than complex movement patterns, the technique difficulty leans towards Beginner. The absence of cues for complex technical elements confirms this, alongside the user requirements indicating a level suitable for Beginners, reducing the likelihood of an Intermediate classification.",
+  "techniqueDifficultyConfidence": 1,
+  "techniqueDifficultyExplanation": "The workout type is 'row', and according to Hydrow-specific rules, rowing workouts can be classified as either 'Beginner' or 'Intermediate'. Given that the user's fitness level requirement is explicitly stated as 'Beginner', the technique difficulty aligns with this level. The movements involved in rowing are straightforward with minimal coordination required, especially in a 'Breathe' format focused on rhythm and grace rather than technical proficiency.",
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.6
+      "score": 0.8
     },
     {
       "level": "Moderate",
-      "score": 0.4
+      "score": 0.6
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout is 21 minutes long with a max rhythm of 22 in a steady format marked with a low intensity level (1 out of 3), suggesting it is not very demanding. This positions the effort level predominantly at Light. The presence of a rhythm requires moderate control, which edges it slightly towards Moderate, but the intensity cues (1 out of 3) largely support a Light classification.",
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout is described as a 'breathe' session with a focus on balance, grace, and strength, operating at rhythms of 20 and 22. With a duration of over 21 minutes, it implies sustained physical activity, but the intensity is stated as 1 out of 3. This suggests a primarily Light effort appropriate for beginners, and possibly Moderate due to the continuous nature of rowing. The effort level is heightened marginally by the rhythmic focus, but overall it remains suitable for those new to fitness.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

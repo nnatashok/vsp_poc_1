@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "Mat",
-      "score": 0.2
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.7,
-  "categoriesExplanation": "The primary category 'Indoor rowing' is chosen due to the strong indicator in both the workout name 'Race on the Thames' and description which implies a rowing activity. The term 'cool-down' suggests low intensity typically associated with rowing post-exercise sessions, and the 'cool down, standard, row' tags further reinforce this. The presence of a rhythmic pace ('Max rhythm: 22') associated with standard rowing metrics, enhances confidence in an indoor rowing classification with a score of 0.8. The additional category 'Mat' is suggested with a score of 0.2 to account for the low-intensity and relaxation elements typical of cool-down sessions, which sometimes incorporate mat exercises, though no direct evidence supports this is a focus. Other categories like 'Stretching', 'Yoga', or 'Meditation' were excluded as the metadata doesn't specifically indicate activities aligning closely with these types."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

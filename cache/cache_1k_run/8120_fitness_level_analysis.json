@@ -2,27 +2,31 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.7
+      "score": 0.75
     },
     {
       "level": "Intermediate",
-      "score": 0.6
+      "score": 0.25
     }
   ],
-  "techniqueDifficultyConfidence": 0.85,
-  "techniqueDifficultyExplanation": "The workout is classified under 'row', and the Technique Difficulty can primarily be classified between Beginner and Intermediate. The use of 'Focused Intervals' suggests some degree of rhythm change and mental focus, indicating a slight elevation in technique. However, rowing itself remains primarily a straightforward endurance exercise, aligning with Beginner to Intermediate level requirements. The absence of any specific equipment or advanced maneuvers supports this classification.",
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout is rowing-based, adhering to the 'row' classification rule where technique difficulty can typically only be Beginner or Intermediate. The session involves intervals led by an Olympic rower, which may introduce slight coordination demand, thus marginally increasing the complexity beyond a pure beginner level, but not sufficiently to fully justify Intermediate without further evidence of complex movement cues.",
   "effortDifficulty": [
     {
+      "level": "Light",
+      "score": 0.2
+    },
+    {
       "level": "Moderate",
-      "score": 0.8
+      "score": 0.6
     },
     {
       "level": "Challenging",
-      "score": 0.5
+      "score": 0.2
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout has a duration of approximately 11 minutes and is rated at intensity level 2 out of 3. Given it is an interval workout, this suggests an elevated heart rate is maintained, with moderate energy expenditure. The shift in rhythm and 'sweat' categorization align with moderate effort, but the short duration limits it from being truly challenging. Thus, it aligns strongly with a Moderate effort level, with some overlap into Challenging for less fit individuals.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The interval format with a duration of 11:21 suggests a moderate level of physical exertion. The 'sweat' workout type indicates a light-to-medium energy expenditure, and the intermediate intensity level (2 out of 3) positions it in the lower to mid-range of effort compared to an intense format. Thus, it primarily aligns with Moderate-level energy demand, with some alignment to Challenging due to the interval nature but tempered by the short duration.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

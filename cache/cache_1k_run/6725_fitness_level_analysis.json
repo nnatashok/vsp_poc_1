@@ -1,20 +1,28 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Advanced",
-      "score": 0.9
+      "level": "Beginner",
+      "score": 0.2
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
     }
   ],
-  "techniqueDifficultyConfidence": 0.95,
-  "techniqueDifficultyExplanation": "The workout is categorized as a 'Drive' type, which inherently suggests a higher level of technique difficulty, aligned with Advanced-level coordination and control. The 'Power' format and interval training implied by the 'climbing intervals' require proficient technique to execute effectively. Rowing at a 'max rhythm: 30+' further supports an advanced technique difficulty due to the need for synchronized and controlled movements. The metadata strongly supports this classification with the user fitness level requirement explicitly stating 'Advanced'.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "Given the workout type as 'drive' and category as 'row', the technique difficulty is limited to either Beginner or Intermediate as per Hydrow-specific rules. The term 'drive' suggests an advanced focus but remains within rowing-specific guidelines, which caps the possible difficulty at Intermediate. Therefore, the technique required is primarily in maintaining proper rowing form during power strokes, aligning strongly with the Intermediate level.",
   "effortDifficulty": [
     {
+      "level": "Moderate",
+      "score": 0.3
+    },
+    {
       "level": "Challenging",
-      "score": 0.85
+      "score": 0.7
     }
   ],
   "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "The workout is short in duration (11:27 minutes), but the interval-based, high-intensity 'Drive' workout with a max rhythm of 30+ suggests significant energy expenditure. The description emphasizes 'taking control of climbing intervals' which typically indicates elevated cardiovascular demand and muscular endurance, aligning with 'Challenging' effort. The absence of rest periods implies continuous high effort, thereby confirming a high caloric and energy output typical of slightly shorter, intense workouts. An intensity level of 3 out of 3 further corroborates this level of physical demand.",
+  "effortDifficultyExplanation": "The short duration of 11:27 is compact but implies high-intensity intervals given the power format and maximum rhythm over 30. The descriptor 'turn up the heat' and the goal to achieve a personal best indicate significant effort, aligning mostly with Challenging. However, given the compact session length, the workout can still accommodate those at a Moderate level of fitness as an intense yet brief workout.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

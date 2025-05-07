@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.4
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.87,
-  "categoriesExplanation": "The title 'Pop Pyramid Row' and the description of 7-minute intervals clearly indicate that this is a rowing workout, making 'Indoor rowing' the strongest category. The pyramid format usually involves varying intensity, supporting this classification with strong confidence. The focus on a 'breathe' workout type suggests an emphasis on controlled breathing, hence 'Breathing exercises' is considered, but with a lower score because the primary activity is still rowing. The intensity level of 1 out of 3 reflects a lower intensity workout typical of endurance-building sessions. The playlist featuring popular pop songs aligns with a relaxed atmosphere but doesn't influence the rowing aspect. Other categories are less relevant, as the equipment involved and explicit mention of rowing exclude wider classifications like 'Mat' or 'Yoga.' Thus, the categories chosen are 'Indoor rowing' with very high confidence and 'Breathing exercises' with moderate confidence."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Yoga",
-      "score": 0.9
-    },
-    {
-      "name": "Stretching",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout is classified primarily as 'Yoga' with high confidence based on the title 'Legs Focused Align' and description indicating a 'lower-body-focused yoga session.' The mention of 'On The Mat' in the category and the use of yoga blocks as recommended equipment further supports this classification. The secondary category of 'Stretching' is included with moderate confidence due to the emphasis on stretching the lower body, as mentioned in the workout description. The duration of 10 minutes and the chill music genre also align with a yoga/stretching session, further reinforcing the classification. There is no indication of high-intensity or aerobic elements, thus excluding categories like 'HIIT' or 'Cardio.'"
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

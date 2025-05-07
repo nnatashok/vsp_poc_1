@@ -13,16 +13,12 @@
   "techniqueDifficultyExplanation": "Since the workout is marked as suitable for all fitness levels (Beginner, Intermediate, Advanced), the technique difficulty is considered adaptable. Movements can be scaled in complexity, and users are expected to modify techniques based on their capability. Therefore, all difficulty levels from Beginner to Expert are assigned equal suitability with a score of 1.0.",
   "effortDifficulty": [
     {
-      "level": "Light",
-      "score": 0.75
-    },
-    {
       "level": "Moderate",
-      "score": 0.5
+      "score": 0.6
     }
   ],
-  "effortDifficultyConfidence": 0.75,
-  "effortDifficultyExplanation": "The 21-minute duration combined with 'Chill mid' and 'Cool/Downtempo' music genres suggest a low-intensity session focused on controlled breathing and movement, typical of light to moderate energy expenditure sessions. Additionally, core-focused yoga flow usually requires attention to breath control and posture rather than exerting a high cardio or muscular demand, aligning it with Light, potentially reaching Moderate if a user engages deeply with core tension.",
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout duration is 21 minutes, which is substantial but not overly long, suggesting a moderate level of physical exertion. Core-centered yoga, combined with the use of ambient music (Chill mid, Cool/Downtempo), implies a workout intensity that is controlled yet sustaining, aligning well with a Moderate level of effort difficulty. It's likely accessible to those with some physical challenge capacity but does not push into higher exertion like a HIIT session would.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

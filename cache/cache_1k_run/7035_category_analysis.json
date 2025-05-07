@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Yoga",
-      "score": 0.9
-    },
-    {
-      "name": "Mat",
-      "score": 0.5
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout is classified primarily as 'Yoga' with high confidence (score 0.9) based on several factors: the title \"Morning Yoga Flow\" explicitly mentions yoga, and the description indicates a 'yoga flow' designed to be approachable for all levels. These are clear indicators of a yoga-style session, focusing on flow and mindfulness typical of yoga practice. \n\nThe 'Mat' category is also relevant (score 0.5) since the workout is classified under 'On The Mat' and involves activities typical for mat workouts, which are often floor-based exercises like yoga. However, 'Mat' is secondary to 'Yoga' as the primary activity.\n\nThe duration of 20 minutes and the chill, downtempo music playlist support a relaxed, flow-oriented session, reinforcing the Yoga classification. No evidence suggests other categories like 'Stretching' or 'Breathing exercises' as primary focuses, thus they were excluded. The overall confidence in these classifications is high (0.9) given the explicit references to yoga in both the title and description."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

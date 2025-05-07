@@ -13,16 +13,16 @@
   "techniqueDifficultyExplanation": "Since the workout is marked as suitable for all fitness levels (Beginner, Intermediate, Advanced), the technique difficulty is considered adaptable. Movements can be scaled in complexity, and users are expected to modify techniques based on their capability. Therefore, all difficulty levels from Beginner to Expert are assigned equal suitability with a score of 1.0.",
   "effortDifficulty": [
     {
-      "level": "Moderate",
-      "score": 0.65
+      "level": "Light",
+      "score": 0.2
     },
     {
-      "level": "Challenging",
-      "score": 0.35
+      "level": "Moderate",
+      "score": 0.65
     }
   ],
   "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The workout duration is 30 minutes, which is moderate in length. While pilates is generally less intense than high-impact workouts, the whole-body focus suggests a comprehensive session that may involve continuous movement, aligning with a Moderate intensity level. The background music from Hip Hop/R&B Mid and Global Hits might add to the tempo, making it slightly more engaging physically. Given these factors, Moderate fits well, with some aspects potentially Challenging for less fit users.",
+  "effortDifficultyExplanation": "The workout is of moderate duration (30 minutes) and as a Pilates routine, it typically involves low-impact exercises focusing on control and flexibility rather than high energy expenditure. This aligns it with a Moderate effort difficulty, although the overall gentler nature of Pilates, as well as the inclusion of radio hits rather than high-energy music, supports a minimal Light level score as well.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

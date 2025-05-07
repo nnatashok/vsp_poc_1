@@ -14,11 +14,15 @@
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 1.0
+      "score": 0.85
+    },
+    {
+      "level": "Moderate",
+      "score": 0.15
     }
   ],
-  "effortDifficultyConfidence": 1.0,
-  "effortDifficultyExplanation": "The session is specifically a 'Cool Down' exercise, which is designed for light effort, as indicated by its short duration of just over 5 minutes and its focus on low-intensity movements ('low rhythm strokes'). Such sessions are generally meant to be relaxing and help transition the body to a resting state, aligning perfectly with the light effort category. The high confidence stems from the format and descriptive elements of the workout.",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "With a workout type of 'cool down' and a duration of only 5 minutes and 40 seconds, the Effort Difficulty is classified as Light. The session's purpose is to serve as a cool down, which inherently suggests low energy expenditure. The rhythm is low, which further reduces intensity. It is aligned with Light difficulty (score 0.85), with a small potential for Moderate difficulty (score 0.15) due to rowing engagement.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

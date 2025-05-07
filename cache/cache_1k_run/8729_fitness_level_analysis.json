@@ -3,22 +3,26 @@
     {
       "level": "Beginner",
       "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
     }
   ],
   "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout type specified is 'breathe', which typically indicates a focus on steady, controlled rowing, suitable for beginners. The metadata categorizes the workout as 'row', and based on Hydrow guidelines, this aligns with a Beginner or Intermediate technique difficulty. The format 'pyramid' may introduce minor additional complexity due to varying intensity but remains within the Beginner scope given the overall classification and lack of complex movements.",
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which typically involves movements that are either Beginner or Intermediate in nature. The term 'pyramids' suggests some variation in intensity or speed, but the overall activity remains rowing-focused and does not require complex movements. Therefore, the technique difficulty aligns strongly with the Beginner level (score: 0.8) due to the simple, repetitive nature of rowing movements, with a slight consideration for Intermediate (score: 0.2) due to potential coordination needed with changes in rhythm during pyramids.",
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.75
+      "score": 0.8
     },
     {
       "level": "Moderate",
-      "score": 0.6
+      "score": 0.2
     }
   ],
-  "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "With a duration of 21 minutes, this workout offers manageable length for beginners, and a 'breathe' workout is generally low in physical intensity, indicated further by a max rhythm of 26. The intensity level is marked as 1 out of 3, implying light to moderate effort. The music genre choice and instructor absence support a more relaxed, self-paced approach, suitable for users requiring gentle cardiovascular activity, thus favoring a Light effort classification, though potentially shifting into Moderate at points due to the 'pyramid' structure.",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout's duration is 21:15, which is relatively short, and the intensity level is listed as 1 out of 3, suggesting a focus on being more gentle and less demanding. As a 'breathe' workout, it emphasizes endurance at a manageable pace rather than high intensity. Therefore, the effort difficulty is primarily Light (score: 0.8), suitable for beginners and those of low fitness, with a slight possibility of being Moderate (score: 0.2) due to varying rhythm in pyramid sets which might increase the overall demand slightly.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

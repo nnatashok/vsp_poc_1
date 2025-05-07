@@ -2,15 +2,15 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.8
+      "score": 0.9
     },
     {
       "level": "Intermediate",
-      "score": 0.2
+      "score": 0.5
     }
   ],
-  "techniqueDifficultyConfidence": 0.85,
-  "techniqueDifficultyExplanation": "The workout is categorized as 'Breathe' and 'Row', which typically aligns with Beginner to Intermediate technique difficulty. Rowing requires some coordination, but in this case, the rowing is set at low rhythms with only short bursts within an interval format, indicating it's approachable for beginners. The absence of advanced technical requirements or complex movements justifies a higher Beginner score. The slight Intermediate score reflects the need for some coordination during rhythm changes.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The technique difficulty for 'Rainy Cardio Row' aligns strongly with the Beginner level due to its classification under 'row' and 'breathe' workout type. Rowing generally requires less technical skills compared to other high-skill exercises, and is beginner-friendly. Although there is an element of rhythm change which could introduce a moderate complexity, it remains largely accessible. The user requirement being Beginner further reinforces this alignment. The Intermediate score is given due to the interval format which might involve some coordination in adjusting rhythm, though it's simplified by the clear structure provided by the instructors.",
   "effortDifficulty": [
     {
       "level": "Light",
@@ -18,11 +18,11 @@
     },
     {
       "level": "Moderate",
-      "score": 0.2
+      "score": 0.3
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout duration is 21 minutes and is marked with an intensity level of 1 out of 3, indicating a relatively low-demand session. The interval format includes short bursts but implies manageable effort due to the focus on 'Cruise at lower rhythms'. Therefore, it's mostly Light in effort, suitable for less active individuals. The slight Moderate score accounts for the bursts of increased rhythm.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is classified as 'breathe' with a 21-minute duration, indicating a focus on steady, manageable intensity. With a reported intensity level of 1 out of 3, it is best suited for those new to fitness or with low endurance, aligning well with a Light effort difficulty. The inclusion of short bursts in intervals suggests there are occasional moderate challenges, yet the overall session remains predominantly light in demand, thus the moderate score.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

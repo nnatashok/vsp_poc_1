@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "HIIT",
-      "score": 0.75
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout titled 'Confidence Builder Row' strongly suggests an 'Indoor rowing' category given the specific mention of 'row' and the presence of 'intervals at a variety of rhythms'. The description includes terms like 'ignite your legs and lungs' and 'rhythms', logically pointing towards a rowing machine-based workout. The high-intensity nature of this session is reinforced by the 'Workout intensity level: 3 out of 3' and 'Format: HIIT', which indicates High-Intensity Interval Training. The combination of these elements, along with the duration of 11 minutes and high-paced music by artists known for energetic tracks like The Prodigy, supports both 'Indoor rowing' and 'HIIT'. The score of 0.8 for 'Indoor rowing' is based on explicit cues from the workout name and format, while the 0.75 for 'HIIT' stems from the specific interval-based format and intensity description. Other categories such as 'Mat', 'Body weight', 'Stretching', or 'Yoga' are excluded due to lack of relevant indicators."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

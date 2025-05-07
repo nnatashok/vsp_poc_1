@@ -1,24 +1,28 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Intermediate",
-      "score": 1.0
-    }
-  ],
-  "techniqueDifficultyConfidence": 1.0,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'Drive' which, according to Hydrow's specific rules, overrides typical classification and automatically aligns with Advanced technique difficulty. However, since it is a rowing workout, the technique difficulty is capped at Intermediate. This requires a decent level of coordination and familiarity with rowing mechanics.",
-  "effortDifficulty": [
-    {
-      "level": "Challenging",
-      "score": 0.8
+      "level": "Beginner",
+      "score": 0.3
     },
     {
-      "level": "Extreme",
+      "level": "Intermediate",
+      "score": 0.7
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is classified under the 'Drive' category for rowing, which typically suggests a more advanced technique. However, the nature of the workout involves rowing, which inherently limits the upper bound of technique difficulty to 'Intermediate'. The presence of one-minute intervals introduced a slight complexity, indicating a strong alignment with Intermediate (score 0.7) but also reflecting that there is still simplicity worthy of Beginner alignment (score 0.3).",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
       "score": 0.4
+    },
+    {
+      "level": "Challenging",
+      "score": 0.6
     }
   ],
   "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "The workout's format is HIIT, which suggests short, intense bursts of activity followed by rest periods. Additionally, the intensity level is marked as 3 out of 3, indicating a high energy expenditure. The intensity, combined with a max rhythm of 30 and a duration of 11 minutes, strongly suggests a Challenging effort level. The intense nature of 'Drive' as a workout type also indicates it could verge on Extreme for deconditioned users.",
+  "effortDifficultyExplanation": "The workout's HIIT format and intensity level at 3 out of 3 indicate that the session is significantly demanding. The duration of 11 minutes of rowing with high rhythm implies a challenging effort difficulty. A score of 0.6 reflects this challenge, particularly for less fit users, while a score of 0.4 recognizes that brief duration might not reach extreme levels for all participants.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

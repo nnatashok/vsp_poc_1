@@ -1,12 +1,16 @@
 {
   "techniqueDifficulty": [
     {
+      "level": "Advanced",
+      "score": 0.8
+    },
+    {
       "level": "Intermediate",
-      "score": 0.75
+      "score": 0.6
     }
   ],
-  "techniqueDifficultyConfidence": 0.85,
-  "techniqueDifficultyExplanation": "The workout type 'drive' indicates a high-level rowing session, which is designated as Advanced, but since the platform specifies either Beginner or Intermediate for rowing, we classify it as Intermediate for technique. The use of max pace intervals in rowing can require good coordination and control, supporting this classification.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "Given the workout falls under the category 'Drive', it automatically assumes a higher technical difficulty due to its advanced rowing technique requirements. The description highlights 'max pace' intervals and the expertise of a Paralympic medalist, indicating sophisticated rowing techniques and instruction. Thus, despite being a rowing workout generally classified under Beginner to Intermediate, it aligns with an Advanced categorization. Intermediate is also applicable due to row-type format, however, with less confidence.",
   "effortDifficulty": [
     {
       "level": "Challenging",
@@ -18,7 +22,7 @@
     }
   ],
   "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout has three 7-minute max effort intervals in a 32-minute session, and is marked with the highest intensity level of 3 out of 3. This suggests significant energy expenditure and physical demand, aligning with 'Challenging', and partly 'Extreme' effort due to the pacing and duration of each interval.",
+  "effortDifficultyExplanation": "The 'max pace' intervals of 7 minutes each suggest a high energy expenditure and intense physical demand, fitting a 'Challenging' level. The interval structure and the highest intensity level of 3, along with the a 32-minute duration, justify potential consideration for an 'Extreme' rating, yet musically driven and upbeat environment may make it more accessible to users, fitting more comfortably in 'Challenging'.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

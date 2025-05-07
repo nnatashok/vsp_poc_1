@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.75
-    },
-    {
-      "name": "Stretching",
-      "score": 0.45
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.7,
-  "categoriesExplanation": "The primary category chosen is 'Indoor rowing' with a score of 0.75. This is inferred from the metadata elements such as the 22 rhythm and the specific mention of 'standard,row' in the category, which strongly indicates a rowing-related workout. The 22 rhythm is typical in rowing sessions that maintain a steady state, rather than aim for high-intensity intervals. 'Stretching' is included with a lower score of 0.45, reflecting the 'cool down' nature of the workout and the intention to decrease heart rate gradually. This implies a focus on relaxation and slow pace, common in cool-down and stretching routines. However, this is a secondary component as the category 'standard,row' suggests a rowing-centric approach. No indication supports categories like HIIT or Yoga, hence they are excluded."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

@@ -14,11 +14,15 @@
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 1
+      "score": 1.0
+    },
+    {
+      "level": "Moderate",
+      "score": 0.4
     }
   ],
-  "effortDifficultyConfidence": 1,
-  "effortDifficultyExplanation": "The workout's designation as a 'Cool Down' and its short duration of under 6 minutes suggest minimal physical demand. The focus is on slower, controlled rowing meant to lower heart rate and aid recovery. With a max rhythm of 20, it's aligned with a Light effort difficulty, suitable even for those in poor shape.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "With a short duration of 5:42 minutes and the description focusing on a steady pace, the energy expenditure is minimal, appropriate for a cool-down phase rather than active cardio. Light energy demands suggest a 'Light' level, with a marginal association with 'Moderate' given the rowing involvement.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

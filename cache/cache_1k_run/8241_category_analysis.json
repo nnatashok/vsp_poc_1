@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Yoga",
-      "score": 0.9
-    },
-    {
-      "name": "Mat",
-      "score": 0.4
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The primary category 'Yoga' is selected with high confidence (score: 0.9) based on the workout description, which mentions 'lengthen your side body' and 'gentle twists'. These terms are indicative of yoga practices, particularly in sequences that involve flexibility and rotational movements. The use of yoga blocks as optional equipment further supports this classification. The workout duration of just over 11 minutes fits well with a short yoga session focused on specific body areas. The secondary category 'Mat' (score: 0.4) is included to reflect the exercise format as floor-based, aligning with the label 'On The Mat' in the metadata, though its role is less central compared to yoga. The playlist suggests a calm, relaxed atmosphere typical for yoga, reinforcing this classification. Other potential categories like 'Stretching' or 'Pilates' were excluded due to the strong indicators pointing towards a yoga routine."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.8,
-  "categoriesExplanation": "The workout is titled 'Beginner Bursts Row' and described with '2-minute intervals with 30-second bursts of speed,' which clearly indicates rowing activity, fitting the 'Indoor rowing' category with a strong score of 0.8. The description emphasizes maintaining a steady format with a max rhythm of 26, supporting this categorization. Although the metadata mentions 'breathe' as a workout type and category, and given the low-intensity level (1 out of 3), 'Breathing exercises' is also selected with a moderate score of 0.6, as breathing control might be a component of this workout. The word 'breathe' is used multiple times in the metadata, reinforcing this selection. Other categories like 'HIIT' were discounted due to the low intensity and primary focus on steady, rhythmic rowing."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

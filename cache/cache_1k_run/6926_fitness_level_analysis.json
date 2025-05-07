@@ -6,15 +6,15 @@
     },
     {
       "level": "Intermediate",
-      "score": 0.4
+      "score": 0.5
     }
   ],
   "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout falls under the 'row' category and involves rhythmic interval climbing with a max rhythm of 30, suggesting the need for coordination to maintain cadence. However, rowing typically requires basic technique. The Intermediate level is suggested for those managing pace changes, contributing to a higher score but it's accessible to beginners, aligning with Hydrow's guidelines for rowing workouts.",
+  "techniqueDifficultyExplanation": "The workout type 'row' generally defaults technique difficulty to 'Beginner' or 'Intermediate' as per platform-specific rules. The description mentions 'climb in rhythm during 2-minute intervals' which indicates a structured and rhythmic rowing technique, aligning well with 'Intermediate'. However, the general nature of rowing remains accessible for beginners, suggesting a strong overlap with 'Beginner'. Thus, Beginner is given a slightly higher emphasis.",
   "effortDifficulty": [
     {
       "level": "Moderate",
-      "score": 0.7
+      "score": 0.6
     },
     {
       "level": "Challenging",
@@ -22,7 +22,7 @@
     }
   ],
   "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The workout, labeled as 'sweat', indicates a moderate to high effort level. A duration of over 11 minutes with interval training contributes to a higher physical demand. Level 2 out of 3 intensity suggests more than light exertion but not the maximum, warranting a moderate classification with elements of challenge due to the interval factor.",
+  "effortDifficultyExplanation": "The workout is an 11-minute interval rowing session with a max rhythm of 30, suggesting heightened exertion during run and sprint paces. Described as a 'sweat' beat type indicates increased intensity, fitting both 'Moderate' and 'Challenging' levels. Since the workout intensity level is 2 out of 3, effort is notably high making both levels applicable. 'Moderate' reflects typical row intensity, while 'Challenging' aligns with the increased exertion of intervals.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

@@ -14,15 +14,11 @@
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.95
-    },
-    {
-      "level": "Moderate",
-      "score": 0.3
+      "score": 0.9
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "Given the short duration of 5 minutes and the description as a 'cool-down', the workout has a very low physical demand, aligning it strongly with a Light effort difficulty. The max rhythm is relatively low at 20, typical of cooldown sessions, confirming it as minimally demanding physically. It has a weak alignment with Moderate level due to its potential demand on users unfamiliar with maintaining correct wrist position over time.",
+  "effortDifficultyConfidence": 1.0,
+  "effortDifficultyExplanation": "The workout is a technical cool-down with a short duration of 5:43 minutes and a low max rhythm of 20, indicating minimal physical exertion. This clearly aligns with a Light effort difficulty as it is consistent with gentle stretching and movement associated with cool downs.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

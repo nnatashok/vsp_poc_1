@@ -6,23 +6,23 @@
     },
     {
       "level": "Intermediate",
-      "score": 0.3
+      "score": 0.6
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is a rowing session, categorized under 'standard,row', which directly correlates to Hydrow's technique difficulty rules where rowing movements are classified as Beginner or Intermediate. The 'Climbing Intervals Row' description suggests basic interval variations but does not indicate complex rowing techniques. Thus, the primary classification is Beginner with a possibility of Intermediate due to the interval format introducing some complexity.",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', allowing a technique difficulty rating of either Beginner or Intermediate. Given the workout's focus on interval rowing, which typically involves basic stroking techniques without requiring advanced skill, both Beginner (0.7) and Intermediate (0.6) ratings are applicable. The combined indication of an Intermediate fitness level requirement suggests slightly more structure than a pure beginner workout, but ultimately the movements are not complex.",
   "effortDifficulty": [
     {
       "level": "Moderate",
-      "score": 0.8
+      "score": 0.7
     },
     {
       "level": "Challenging",
-      "score": 0.2
+      "score": 0.5
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout duration is approximately 31 minutes, which is moderately demanding, and its type 'sweat' indicates an intention to increase heart rate. The 'interval' format with a maximum rhythm of 30 entails periods of increased intensity, suggesting a level between Moderate and Challenging. However, with an intensity level of 2 out of 3, Moderate is more strongly aligned, possibly challenging for less fit users.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout duration is 31:28 minutes with an intensity level of 2 out of 3, suggesting a moderately demanding session. Interval rowing at a max rhythm of 30 can elevate heart rates, particularly for those less conditioned, making it more than a light effort yet not as intense as elite-level training. Therefore, Moderate (0.7) and Challenging (0.5) labels aptly describe the effort involved, given the intended audience of generally lower fitness levels.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

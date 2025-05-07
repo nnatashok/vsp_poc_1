@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 1.0
-    },
-    {
-      "name": "HIIT",
-      "score": 0.5
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The primary category, 'Indoor rowing,' was selected due to explicit indicators in the metadata, including the workout name 'Earth Day Row' and the description focusing on intervals executed during a rowing activity. The format 'Pyramid' and the mention of a max rhythm of 28 further corroborate that this is a structured rowing workout, earning a score of 1.0 due to clear alignment with the category. Additionally, a secondary category 'HIIT' (High-Intensity Interval Training) was identified, as the workout involves intervals designed to elevate the heart rate, typical of HIIT training. The intensity level of 2 out of 3 and the description of it as a 'sweat' type of workout suggest that it includes an element of intensity and intervals warranting a 0.5 score. Other categories like Mat, Pilates, or Weight workout were excluded as they don't match the rowing focus of this workout."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

@@ -5,20 +5,20 @@
       "score": 1.0
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is categorized as 'Drive' and 'row', indicating that it involves rowing exercises. According to our classification guideline, rowing-based exercises generally range from Beginner to Intermediate in terms of technique difficulty. The 'Drive' label typically suggests a more technique-intensive session within rowing, whereby mastery over maintaining form during high-paced rowing is expected. Therefore, for this workout, an Intermediate technique difficulty is highly suitable.",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The exercise type being 'row' sets a boundary for technique difficulty, allowing only Beginner or Intermediate. Given the inclusion of 'Drive' in the workout type, it directly implies an Intermediate level of technique difficulty, aligning with rowing actions that require some skill and practice to perform effectively.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.8
+      "score": 1.0
     },
     {
       "level": "Extreme",
       "score": 0.6
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout is marked with an intensity level of 3 out of 3, suggesting it is highly demanding. Its format focuses on power with a max rhythm of 30+ strokes, which indicates elevated physical exertion. Despite the short duration of 11 minutes and 27 seconds, the focus on climbing intervals and achieving a personal best implies a high intensity. These factors collectively point to a Challenging effort level with a strong leaning towards Extreme, due to the high-intensity nature emphasized in the metadata.",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout has a high intensity level rated 3 out of 3 and a format tagged 'Power', both indicators of significant energy demands and high physical exertion, reinforcing a Challenging effort difficulty. The expectation to push for personal bests and climbing intervals increase intensity further. Thus, Challenging is strongly aligned with the possibility of Extreme for very deconditioned individuals.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

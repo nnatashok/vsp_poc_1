@@ -13,16 +13,16 @@
   "techniqueDifficultyExplanation": "Since the workout is marked as suitable for all fitness levels (Beginner, Intermediate, Advanced), the technique difficulty is considered adaptable. Movements can be scaled in complexity, and users are expected to modify techniques based on their capability. Therefore, all difficulty levels from Beginner to Expert are assigned equal suitability with a score of 1.0.",
   "effortDifficulty": [
     {
-      "level": "Light",
-      "score": 0.65
+      "level": "Moderate",
+      "score": 0.7
     },
     {
-      "level": "Moderate",
-      "score": 0.4
+      "level": "Light",
+      "score": 0.3
     }
   ],
-  "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The workout duration is 20 minutes, indicating a low to moderate effort level typical for yoga sessions. The music selection and description suggest a mellow atmosphere, indicating less energy-intensive activity. Thus, a Light to Moderate effort difficulty rating fits well.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The duration of the workout is 20:57, which is relatively short, and the playlist consists of chill, downtempo music suggesting a less intense session. Given the yoga context, the physical demand is mainly in sustaining poses and transitions, making it more effortful than a completely sedentary routine. Thus, it leans towards Moderate effort difficulty with a strong score of 0.7 but retains a light component reflected in a score of 0.3 due to the relaxing nature of the music and the suitability for beginners.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

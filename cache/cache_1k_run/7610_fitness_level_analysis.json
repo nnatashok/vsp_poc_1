@@ -1,20 +1,28 @@
 {
   "techniqueDifficulty": [
     {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
       "level": "Intermediate",
-      "score": 0.8
+      "score": 0.7
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout type is specified as 'Drive', a format that involves high-intensity rowing with technique requiring good form and coordination. Although the Drive type can often align with intermediate technique difficulty due to its structured pacing and intensity, rowing itself inherently has a baseline assumption of beginner-friendly to intermediate complexity. Given the interval format and high pacing tempo of 32 strokes per minute, an intermediate level is appropriate here to ensure proper form during such demanding phases.",
+  "techniqueDifficultyExplanation": "The workout is categorized under 'Drive,standard,row', where row-based workouts typically range from Beginner to Intermediate in technique difficulty. Given the absence of specific complex movements and the nature of rowing becoming progressively more challenging with technique refinement rather than complexity, an Intermediate classification is more fitting, aligning with the 'Drive' label suggesting advanced understanding or effort, albeit commonly within rowing technique simplicity.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.9
+      "score": 0.7
+    },
+    {
+      "level": "Extreme",
+      "score": 0.6
     }
   ],
   "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout involves holding sprint paces during intervals and includes a max effort finish within a 16-minute session. This indicates a high energy expenditure, aligning with a challenging effort level. The workout's intensity is marked as level 3 out of 3, emphasizing significant physical demand. The high rhythm and interval nature further enhance the intensity, making it physically demanding for less conditioned users, though not reaching 'Extreme' as each interval grants some recovery potential.",
+  "effortDifficultyExplanation": "The workout description indicates high-demand sprints and maximal effort finishes, with a 3/3 intensity level, suggesting substantial energy expenditure and little rest due to interval format, implying significant physical demand. Duration slightly over 16 minutes with a sprint focus supports a classification of Challenging to Extreme effort difficulty, particularly for individuals not regularly performing high-intensity rowing.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

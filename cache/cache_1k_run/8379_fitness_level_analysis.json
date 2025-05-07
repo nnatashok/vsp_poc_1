@@ -1,28 +1,24 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Beginner",
-      "score": 0.3
-    },
-    {
       "level": "Intermediate",
-      "score": 0.7
+      "score": 0.75
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is categorized as a 'Drive', which on Hydrow corresponds to a more intense rowing session but not necessarily complex in movement. The technique difficulty should align with rowing which is executed with either Beginner or Intermediate precision. Given the 'Drive' type which typically increases the coordination required, this leans towards 'Intermediate'.",
+  "techniqueDifficultyExplanation": "The workout type is marked as 'Drive', which on Hydrow indicates a higher technique complexity, aligning with Intermediate. The focus on high-intensity rowing intervals and rhythm cues suggest movements require a degree of skill and experience, aligning with Intermediate technique difficulty. However, since it's row-based, it will not exceed Intermediate in difficulty.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.6
+      "score": 0.8
     },
     {
       "level": "Extreme",
-      "score": 1.0
+      "score": 0.6
     }
   ],
-  "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "The workout has a 3 out of 3 intensity rating and is an interval row session lasting over 30 minutes, suggesting high energy expenditure. The rhythm being available at 32+ indicates a sustained high-intensity effort aligning strongly with an 'Extreme' difficulty level, though it could be 'Challenging' for some advanced users.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout duration of over 30 minutes, combined with the high-intensity descriptor and max rhythm exceeding 32, suggests a demanding workout. The 'Drive' classification and intensity level marked at 3 out of 3 further support a significant physical challenge for users, placing the effort difficulty strongly within the Challenging category, with aspects of Extreme due to intensity and continuous interval format.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

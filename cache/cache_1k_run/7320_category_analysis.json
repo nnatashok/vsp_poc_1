@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Stretching",
-      "score": 0.5
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is categorized as 'Indoor rowing' (score: 0.9) and 'Stretching' (score: 0.5). The high score for 'Indoor rowing' is due to multiple explicit references: the title mentions 'Technique Focused Cool-Down' and the description emphasizes focusing on 'rowing technique.' Additionally, 'max rhythm: 22' and 'format: Technique' also imply a rowing-related technique workout, which aligns with the platform emphasis on rowing. The moderate score for 'Stretching' is based on the workout type being a 'cool down,' suggesting some stretching or flexibility emphasis as part of winding down after physical activity. The low tempo and controlled nature of the activity further supports an element of stretching as the body cools down."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.87
-    },
-    {
-      "name": "HIIT",
-      "score": 0.65
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The primary and most evident category for this workout is 'Indoor rowing' as the workout's name 'Creative Passions Row' and description involve rowing intervals, explicitly indicating rowing exercises. The max rhythm of 30 and the format of intervals further supports this classification, showing typical characteristics of a rowing workout. \n\nAnother relevant category is 'HIIT' since the workout involves interval training (3, 2, 1-minute intervals), a common structure for high-intensity interval training, although the intensity level is moderate (2 out of 3), which is somewhat less common for traditional HIIT but can still apply in broader definitions. The description indicates a rhythmic, structured exercise session which aligns with HIIT methodologies. \n\nThese categories are supported by the aligned workout type tags: 'sweat' and 'intervals', and their moderate scoring reflects the available evidence with consideration of the workout's intensity and duration characteristics."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

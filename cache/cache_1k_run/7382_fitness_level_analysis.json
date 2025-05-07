@@ -2,19 +2,19 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.8
+      "score": 0.9
     },
     {
       "level": "Intermediate",
-      "score": 0.2
+      "score": 0.3
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which means by Hydrow-specific rules, the Technique Difficulty defaults to be either Beginner or Intermediate. The use of simple rhythms (20 and 24) and emphasis on breathing and relaxation indicates simplicity suitable for beginners. Therefore, I have assigned a high score to Beginner, with a slight acknowledgment that maintaining rhythm might require some coordination, giving Intermediate a low score.",
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is categorized as 'row', which defaults Technique Difficulty to Beginner or Intermediate under the given rules. The exercise involves alternating rowing rhythms, which may introduce some complexity, but remains fundamentally a rowing activity. As a 'Breathe' type workout focusing on staying relaxed, it does not require high technical precision, reinforcing the Beginner level categorization. Intermediate level is partially considered due to the rhythm alternation but scored lower as it aligns less with the core workout intent and description.",
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.6
+      "score": 0.8
     },
     {
       "level": "Moderate",
@@ -22,7 +22,7 @@
     }
   ],
   "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout is a 'breathe' format with an intensity level of 1 out of 3. The interval format with a duration of 31 minutes can be somewhat challenging, but given the relaxed nature focusing on breathing, it leans towards Low to Moderate energy expenditure. Hence, I have allocated the scores with more weight on the Light difficulty with some consideration for Moderate.",
+  "effortDifficultyExplanation": "With a duration of 31 minutes at a low workout intensity level (1 out of 3), the Effort Difficulty leans towards the Light category. The interval format with rhythm changes could require moderate effort for some, but the primary focus on breathing and relaxation supports a Light classification. The Moderate score is provided as there could be episodes of increased exertion during rhythm changes, but these are relatively mild due to the calming influence of the 'breathe' category.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

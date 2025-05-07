@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The primary category chosen is 'Indoor rowing' with a score of 0.9 due to the clear indicators from the workout name 'Club 26 Row', description mentioning 'elevating heart rate', 'intervals', and the category tag 'row'. The explicit mention of rhythm and intervals strongly suggests rowing activity. The workout's format being 'interval', combined with terms like 'elevate your heart rate', fits the 'HIIT' category as well with a score of 0.7, indicating that it includes elements of high-intensity interval training. This inference is supported by the 'sweat' tag and the mid-intensity level, suggesting a moderately intense workout. The use of songs with a driving rhythm further supports a dynamic, rhythmic workout session. Other categories such as 'Elliptical', 'Indoor biking', or 'Mat' were excluded as there is no mention or implication of such equipment or exercises."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

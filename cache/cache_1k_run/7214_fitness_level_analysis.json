@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.7
+      "score": 0.8
     },
     {
       "level": "Intermediate",
-      "score": 0.3
+      "score": 0.6
     }
   ],
-  "techniqueDifficultyConfidence": 0.75,
-  "techniqueDifficultyExplanation": "The workout is primarily based on rowing (category: row), which typically involves the same fundamental movement. Rowing is inherently simple in terms of technique for those previously exposed to the basic rowing motion, aligning with the lower-end of Beginner level. However, some degree of technique refinement to manage varying speeds slightly raises the complexity, contributing to a 0.3 score for Intermediate.",
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "Given the category is 'row' and the focus is on intervals, the Technique Difficulty inherently falls into the Beginner to Intermediate range. Rowing involves repetitive motion primarily using leg and back muscles in coordination but is generally straightforward. However, the interval nature may demand some coordination and rhythm management, justifying a higher alignment with Intermediate.",
   "effortDifficulty": [
     {
       "level": "Moderate",
-      "score": 0.7
+      "score": 0.8
     },
     {
       "level": "Challenging",
-      "score": 0.3
+      "score": 0.6
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout is designed as an interval format, combining endurance (longer intervals) and speed (shorter bursts), over a duration of 31 minutes. The overall intensity is moderately high due to the format and rhythm (max 32), indication of sustained effort. This results in a strong alignment with Moderate and a partial alignment with Challenging due to the combination of sustained and high-intensity intervals, suitable for intermediate users seeking a slightly higher challenge.",
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout duration is over 30 minutes with intervals, which suggests a moderate to high cardiovascular demand due to the sustained exertion and varying rhythms up to a max of 32 strokes per minute. Additionally, being under a 'sweat' category indicates a higher intensity, aligning with both Moderate and Challenging effort levels.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

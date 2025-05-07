@@ -9,7 +9,7 @@ from multiprocessing import Pool
 import time 
 
 from env_utils import load_api_keys
-from unified_workout_classifier import analyse_hydrow_workout, extract_video_id, extract_hydrow_meta_from_json
+from unified_workout_classifier import analyse_hydrow_workout, extract_video_id, return_error_analysis
 from json_stats_collection import flatten_json
 from db_transformer import transform_to_db_structure
 
@@ -58,18 +58,21 @@ def analyze_workout(args):
         schema = json.loads(raw_json)
     except Exception:
         print(f"Process {process_id}: Failed to parse JSON")
-        return None
+        return return_error_analysis("Failed to parse JSON", None)
 
     try:
         idx = schema.get("id")
     except:
-        print(f"Process id: {process_id}. All workouts must have unique id. Skipping")
-        return None
-
+        print(f"Process id: {process_id}. All workouts must have unique id. Skipping.")
+        return return_error_analysis("Workout meta has no unique id. Skipping.", schema)
+        
+    if idx == 7573 or idx==8310 or idx==9800 or idx==8723:
+        pass
     flat_schema = flatten_json(schema)
     if not any(k.endswith("musicGenre") for k in flat_schema):
         print(f"Process {process_id}: Skipping workout #{idx} — no musicGenre")
-        return None
+        return return_error_analysis("No musicGenre", schema)
+        
 
     video_id = idx
     
@@ -87,9 +90,10 @@ def analyze_workout(args):
             enable_image_in_meta=enabled_features['image']
         )
 
+
         if "error" in result:
             print(f"Process {process_id}: Error during analysis: {result['error']}")
-            return None
+            return return_error_analysis(None, "Error during analysis.")
 
         db_structure = transform_to_db_structure(result)
 
@@ -99,6 +103,7 @@ def analyze_workout(args):
             'video_title': db_structure.get('video_title', ''),
             'channel_title': db_structure.get('channel_title', ''),
             'duration': db_structure.get('duration', ''),
+            'duration_minutes': db_structure.get('duration_minutes', ''),
             'category': db_structure.get('category', ''),
             'subcategory': db_structure.get('subcategory', ''),
             'secondary_category': db_structure.get('secondary_category', ''),
@@ -113,14 +118,26 @@ def analyze_workout(args):
             'secondary_spirit': db_structure.get('secondary_spirit', ''),
             'primary_vibe': db_structure.get('primary_vibe', ''),
             'secondary_vibe': db_structure.get('secondary_vibe', ''),
-            'full_analysis_json': json.dumps(result)
+            'reviewable': db_structure.get('reviewable', ''),
+            'review_comment': db_structure.get('review_comment', ''),
+            'primary_technique_difficulty': db_structure.get('primary_technique_difficulty', ''),
+            'secondary_technique_difficulty': db_structure.get('secondary_technique_difficulty', ''),
+            'tertiary_technique_difficulty': db_structure.get('tertiary_technique_difficulty', ''),
+            'primary_effort_difficulty': db_structure.get('primary_effort_difficulty', ''),
+            'secondary_effort_difficulty': db_structure.get('secondary_effort_difficulty', ''),
+            'tertiary_effort_difficulty': db_structure.get('tertiary_effort_difficulty', ''),
+            'full_analysis_json': json.dumps(result, ensure_ascii=False, indent=2, sort_keys=True),
+            'hydrow_category_name':db_structure.get('hydrow_category_name', ''),
+            'instructor_name':db_structure.get('instructor_name', ''),
+            'duration_seconds':db_structure.get('duration_seconds', ''),
+            'poster_uri':db_structure.get('poster_uri', '')
         }
         print(f"Process {process_id}: Successfully analyzed workout: {video_id}")
         return output_data
 
     except Exception as e:
         print(f"Process {process_id}: Unexpected error for workout #{idx}: {str(e)}")
-        return None
+        return return_error_analysis(schema, "Unexpected error for workout.")
 
 
 def write_results_to_csv(results, output_csv_path):
@@ -155,10 +172,10 @@ def write_results_to_csv(results, output_csv_path):
             'reviewable', 'review_comment',
             'primary_technique_difficulty', 'secondary_technique_difficulty', 'tertiary_technique_difficulty',
             'primary_effort_difficulty', 'secondary_effort_difficulty', 'tertiary_effort_difficulty',
-            'full_analysis_json'
+            'full_analysis_json', 'instructor_name', 'duration_seconds', 'hydrow_category_name', 'poster_uri'
     ]
     with open(output_csv_path, 'w', newline='', encoding='utf-8') as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore')
         writer.writeheader()
         for result in unique_results.values():
             writer.writerow(result)
@@ -326,11 +343,11 @@ def process_workouts_csv_mp(input_csv_path, output_csv_path, max_workouts=None,
 if __name__ == "__main__":
     # Set up command line argument parsing
     parser = argparse.ArgumentParser(description='Process Hydrow workout videos from a CSV file')
-    parser.add_argument('--input', type=str, default="placeholder",
+    parser.add_argument('--input', type=str, default="placehoder",#!
                         help='Path to input CSV file containing Hydrow metadata in JSONs')
-    parser.add_argument('--output', type=str, default="workouts_analyzed.csv", 
+    parser.add_argument('--output', type=str, default="workouts_analyzed.csv", #! 
                         help='Path to output CSV file for analysis results')
-    parser.add_argument('--max', type=int, default=None,
+    parser.add_argument('--max', type=int, default=None,#!
                         help='Maximum number of workouts to process')
     parser.add_argument('--no-category', action='store_false', dest='category',
                         help='Disable workout category analysis')
@@ -362,7 +379,7 @@ if __name__ == "__main__":
         enable_spirit=args.spirit,
         enable_equipment=args.equipment,
         include_image=args.image ,
-        num_processes=8
+        num_processes=8 #!
     )
 
     # Cannot use results directly here as they are deduplicated in write_results_to_csv function

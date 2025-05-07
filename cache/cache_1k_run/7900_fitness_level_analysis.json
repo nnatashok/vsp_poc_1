@@ -5,8 +5,8 @@
       "score": 0.75
     }
   ],
-  "techniqueDifficultyConfidence": 0.85,
-  "techniqueDifficultyExplanation": "The workout type 'Drive' is a rowing-based workout, which follows the Hydrow-specific rule that automatically classifies technique difficulty as Intermediate or lower. The nature of rowing in 'Drive' suggests a focus on maintaining form at sprint and max paces, requiring some coordination, making Intermediate the most logical classification. The interval format with sprinting aligns with this complexity level in rowing workouts.",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout type is 'drive', which according to Hydrow-specific rules, corresponds to a high level of technical difficulty within rowing workouts. However, given the primary rowing-based focus of Hydrow, such difficulty often caps at the 'Intermediate' level. The sprint and max pace intervals require coordination and technical skill but still align with the 'Intermediate' category.",
   "effortDifficulty": [
     {
       "level": "Challenging",
@@ -14,11 +14,11 @@
     },
     {
       "level": "Extreme",
-      "score": 0.65
+      "score": 0.4
     }
   ],
-  "effortDifficultyConfidence": 0.75,
-  "effortDifficultyExplanation": "The workout is categorized with a maximum intensity level of 3 out of 3, indicating a potentially very demanding effort. The interval format with 90-second sprints and 30-second max pushes suggests a challenging energy expenditure. The 21-minute duration with continuous high-intensity intervals justifies a classification of Challenging to Extreme effort. Given the Drive category specifically tailored for rigorous rowing sessions, a dual classification acknowledges potential variable perceptions of load.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout comprises 90-second sprints and max pace pushes, indicating a high-intensity interval training format. The maximum rhythm of 28 increases the energy expenditure, making it physically demanding. While effort difficulty is seen as 'Challenging' primarily, the intense 30-second max push segments can push the effort difficulty towards 'Extreme'.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

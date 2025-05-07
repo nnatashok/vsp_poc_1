@@ -14,11 +14,15 @@
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.95
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.2
     }
   ],
-  "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "As a cool down lasting only 10 minutes and part of a 'row' workout type, the energy expenditure is minimal. The focus is likely on relaxation and stretching post-exercise, aligning with low intensity, supported by 'cool-down' and 'Reflective' descriptors. Thus, 'Light' effort difficulty is suitable.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is described as a 'cool-down' with a relatively short duration of 10:41 minutes. Cool-downs are inherently less intense, focusing on recovery and relaxation after a more strenuous workout. The inclusion of a reflective, music-driven approach further reduces the physical demand, making 'Light' the most fitting classification, with a marginal possibility of 'Moderate' due to the rowing component.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

@@ -6,23 +6,23 @@
     },
     {
       "level": "Intermediate",
-      "score": 0.6
+      "score": 0.7
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is classified as 'row', which defaults the technique difficulty to either Beginner or Intermediate. 'Endurance Intervals Row' suggests straightforward rowing patterns with rhythmic changes, aligning well with a Beginner rating. However, the 'Interval' format, with climbing intervals and a max rhythm of 28, introduces a moderate level of complexity, supporting an Intermediate rating. Therefore, both Beginner and Intermediate levels are applicable, with a stronger lean towards Beginner due to the simplicity of rowing movements.",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is a 'row' category with interval format, suggesting some complexity, but as it's rowing-focused, the technique remains within 'Beginner' to 'Intermediate'. The max rhythm of 28 hints at higher coordination, aligning with 'Intermediate'. However, given the rowing-specific technique simplification, both Beginner (0.8) and Intermediate (0.7) are fitting scores.",
   "effortDifficulty": [
     {
       "level": "Moderate",
-      "score": 0.7
+      "score": 0.6
     },
     {
       "level": "Challenging",
-      "score": 0.5
+      "score": 0.7
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout description characterizes the intensity level as 2 out of 3, aligning with Moderate to Challenging effort. The 16-minute duration of 'Endurance Intervals Row' and inclusion of interval training imply a steady energy demand. Rock and global hits apps might increase tempo perception, marginally raising intensity. Climbing intervals require effort but likely sustainability for Intermediate-level users, affirming both Moderate and Challenging designations, with greater emphasis on Moderate.",
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The interval format (climbing intervals over 16 minutes) requires sustained effort, and with a max rhythm of 28, this suggests significant engagement and energy expenditure, leading to a 'Challenging' (0.7) classification. However, the stated effort level of 2 out of 3 supports a 'Moderate' effort as well, resulting in a combined score assessment. The short duration (16:15) tempers the total exertion level, justifying both ratings.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

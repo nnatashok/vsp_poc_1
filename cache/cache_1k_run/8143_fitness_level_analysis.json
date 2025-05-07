@@ -2,23 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 1.0
+      "score": 0.85
     },
     {
       "level": "Intermediate",
-      "score": 1.0
+      "score": 0.75
     }
   ],
-  "techniqueDifficultyConfidence": 1.0,
-  "techniqueDifficultyExplanation": "Since the workout is marked as suitable for all fitness levels (Beginner, Intermediate, Advanced), the technique difficulty is considered adaptable. Movements can be scaled in complexity, and users are expected to modify techniques based on their capability. Therefore, all difficulty levels from Beginner to Expert are assigned equal suitability with a score of 1.0.",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is described as 'beginner-friendly' and involves bodyweight exercises, which typically suggest simple movements. However, the involvement of an Olympian as an instructor and the focus on full body strength may introduce slightly more complex bodyweight exercises that require some coordination, hence the consideration for Intermediate. The absence of equipment further reinforces simplicity.",
   "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
     {
       "level": "Moderate",
       "score": 0.65
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout lasts for 15 minutes and involves bodyweight strength exercises to strengthen various muscle groups. While it's labeled as beginner-friendly, the duration suggests moderate effort due to continuous work on major muscle groups with no equipment. This, combined with modern pop music, likely supports a steady tempo, aligning with Moderate effort difficulty.",
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout duration is relatively short at 15:43 minutes, which supports a Light effort classification. However, since it aims at strengthening the lower body, core, and upper body even without equipment, it suggests a low-to-medium energy expenditure requiring moderate effort from deconditioned users, bumping it slightly into the 'Moderate' category too.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",
@@ -27,12 +31,8 @@
     {
       "level": "Intermediate",
       "score": 1.0
-    },
-    {
-      "level": "Advanced",
-      "score": 1.0
     }
   ],
   "requiredFitnessLevelConfidence": 1.0,
-  "requiredFitnessLevelExplanation": "Workout type 'strength' is not one of the specialized Hydrow categories (Breathe, Sweat, Drive, Distance). It is treated as suitable for all fitness levels."
+  "requiredFitnessLevelExplanation": "Workout type 'strength' is not one of the specialized Hydrow categories (Breathe, Sweat, Drive, Distance). And workout description mentiones it is meant for beginners."
 }

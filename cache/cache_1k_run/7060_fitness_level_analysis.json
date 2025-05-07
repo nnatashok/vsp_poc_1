@@ -2,31 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.8
-    },
-    {
-      "level": "Intermediate",
-      "score": 0.6
-    }
-  ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The 'Living Authentically Row' is classified under the 'row' workout type. Based on the Hydrow-specific rules, rowing workouts default to a Beginner or Intermediate technique difficulty. The use of 'Interval' format suggests some coordination but remains in the Intermediate range when aligned with rowing. No advanced techniques or complex movements are indicated, supporting a score of 0.8 for Beginner and 0.6 for Intermediate, with high confidence due to clear metadata alignment.",
-  "effortDifficulty": [
-    {
-      "level": "Light",
-      "score": 0.4
-    },
-    {
-      "level": "Moderate",
       "score": 0.7
     },
     {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout type 'row' generally dictates the technique difficulty to be Beginner or Intermediate according to Hydrow-specific rules. With the focus primarily on rowing and considering the format as 'Interval,' the movements are likely structured and consistent but may require some coordination due to interval changes. The use of an experienced instructor further implies guidance through potentially complex pacing, suggesting partial Intermediate classification, but primarily falling into Beginner due to the inherent simplicity of rowing motions.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.6
+    },
+    {
       "level": "Challenging",
-      "score": 0.5
+      "score": 0.3
     }
   ],
   "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The intensity level is rated 2 out of 3, and the workout duration is just over 11 minutes, suggesting a balance between light and moderate effort. The interval format and moderate max rhythm (26) imply some exertion but not highly intense. Thus, the effort difficulty is moderately aligned with Light (0.4), strongly with Moderate (0.7), and moderately with Challenging (0.5) due to short duration and moderate intensity cues.",
+  "effortDifficultyExplanation": "With a duration of 11:24 and an intensity level of 2 out of 3, the workout presents a moderately challenging physical demand. The interval format likely introduces periods of heightened intensity, contributing to a classification between Moderate and Challenging. Although the session may require significant effort due to intervals, the relatively short duration suggests it's better suited towards those not entirely deconditioned, aligning more closely with Moderate energy expenditure.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

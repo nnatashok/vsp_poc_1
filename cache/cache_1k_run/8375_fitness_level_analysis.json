@@ -2,15 +2,15 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.75
+      "score": 0.7
     },
     {
       "level": "Intermediate",
-      "score": 0.5
+      "score": 0.3
     }
   ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout type is 'row', which restricts the technique difficulty classification to Beginner or Intermediate. The 'sweat' category with a maximum rhythm of 30 and 'Climb' format suggests a higher intensity but not significantly complex movements. The use of rowing techniques places it within Beginner to Intermediate on Technique Difficulty. A slightly higher score for Beginner is assigned because this does not require advanced rowing techniques or precision beyond a general rowing form.",
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout is categorized as 'row', which typically places technique difficulty at the 'Beginner' to 'Intermediate' level due to the natural rowing motion's straightforward nature. The metadata does not indicate advanced rowing techniques or highly technical skill requirements that would necessitate a higher classification. The presence of an experienced instructor providing in-depth technical detail supports a slight bump towards 'Intermediate', but the primary motion remains simple.",
   "effortDifficulty": [
     {
       "level": "Moderate",
@@ -18,11 +18,11 @@
     },
     {
       "level": "Challenging",
-      "score": 0.5
+      "score": 0.3
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout is 16.5 minutes long with an 'intensity level' of 2 out of 3. It involves rowing in rhythm during three and four-minute intervals that resemble steadily paced but demanding climbs. Such aspects align well with Moderate effort difficulty while extending some capacity into the Challenging domain due to HIIT-like intervals, even though the duration leans towards Moderate.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout includes intervals of climbing intensity, suggesting a somewhat demanding nature, especially for deconditioned users. The intensity level is marked as 2 out of 3, indicating a moderate to challenging effort. Based on the 16:30 duration and the high-energy music support, this workout will likely increase cardiovascular strain, meriting a 'Moderate' effort difficulty with some 'Challenging' components during the higher intensity segments.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

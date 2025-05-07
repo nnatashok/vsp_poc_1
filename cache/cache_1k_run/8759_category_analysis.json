@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is classified primarily as 'Indoor rowing' with high confidence (score: 0.9) due to explicit mentions of 'Row' in both the workout name and description. The workout involves 'row along' intervals, indicating use of a rowing machine. The categorization is further supported by the mention of a max rhythm of 26, which is typical for rowing cadences. The secondary category is 'HIIT' with a score of 0.7 because of the '2' and 3' intervals' format, typical of high-intensity interval training formats, although the intensity level is 2 out of 3, suggesting a moderate level of intensity. Other categories such as Yoga or Pilates were excluded due to the lack of relevant descriptive language or context usually associated with those practices."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 1.0
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.4
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout video titled 'Staying Cool Row' combined with a description noting a consistent pace and reference to interval format strongly indicates that the video is an 'Indoor rowing' workout. The 'row' keyword in the category list and the format description point directly to the use of a rowing machine. This is reinforced by the max rhythm of 26 and interval training format, which are characteristic of structured rowing workouts. \n\nAlthough the 'breathe' keyword is mentioned in the workout type, there is less emphasis on breathing exercises alone, as it seems more likely intended as part of the rowing workout's challenge to maintain consistency. Therefore, I assign a secondary, lower score to 'Breathing exercises' due to minimal evidence supporting a stand-alone breathing focus.\n\nThe duration is short, likely supplementary to a larger workout, indicating moderate intensity and further underpinning this classification. The playlist includes upbeat, rhythmic songs suitable for maintaining pacing during rowing. Other categories such as 'Stretching', 'Yoga', or 'Pilates' are excluded due to the lack of relevant indicators."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

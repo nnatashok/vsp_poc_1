@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.8
+      "score": 1
     },
     {
       "level": "Intermediate",
       "score": 0.2
     }
   ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout is classified under the categories 'Breathe' and 'row' with an intensity level of 1 out of 3, suggesting a focus on relaxation and smooth rowing rather than complex movements. Rowing activities, within this platform, are generally categorized as either Beginner or Intermediate in terms of technique difficulty due to the simple, repetitive nature of rowing motions. The absence of any technical instructions or complex movement descriptions supports a predominant Beginner classification with 0.8 confidence, though the 'Climb' format may introduce slight complexity justifying a minor consideration for Intermediate.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is a rowing session categorized under 'breathe' and 'row', which typically involves basic rowing techniques suitable for beginners. The rowing technique does not include complex movements, and the description emphasizes a gentle pace, with words like 'cruise' and 'soft pop' music. The focus on relaxation and a low maximum rhythm of 26 further suggests beginner-level technique.",
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.8
+      "score": 1
     },
     {
       "level": "Moderate",
-      "score": 0.2
+      "score": 0.3
     }
   ],
-  "effortDifficultyConfidence": 0.75,
-  "effortDifficultyExplanation": "The workout has a short duration of just over 11 minutes and is described as a 'Self-Care Row,' emphasizing a gentle, leisurely session. The intensity level is rated 1 out of 3, indicating low physical demand. The use of low-tempo pop music further suggests a relaxed pace. These factors align with a Light effort difficulty (0.8 score). Given the category 'Climb,' there is a minor element of resistance or gradual intensity buildup, slightly increasing effort towards Moderate (0.2 score).",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The short duration of 11:26 and the moderate intensity label ('1 out of 3') imply a light to moderate effort. The focus on 'self-care' and the 'breathe' workout type indicate a session aimed at relaxation rather than exertion. The music selection, featuring calm pop hits, supports a lighter effort level.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

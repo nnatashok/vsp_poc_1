@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.7
+      "score": 0.8
     },
     {
       "level": "Intermediate",
       "score": 0.6
     }
   ],
-  "techniqueDifficultyConfidence": 0.75,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'row' with 'standard' and 'sweat', which typically implies basic to moderately complex rowing movements. Given that \"row\" is inherently a simpler technique when following the Hydrow-specific progression model, it aligns with Beginner to Intermediate levels. The session is led without an instructor, which can demand more from users in terms of self-guidance and could increase the technique level to Intermediate for those unfamiliar with rowing.",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which generally suggests a Beginner to Intermediate technique difficulty. The workout description emphasizes 'fun', aligning with less technical difficulty. The lack of complex movements further supports a Beginner classification, but the emphasis on 'proper form' hints at potential Intermediate elements for users to ensure safety and effectiveness.",
   "effortDifficulty": [
     {
       "level": "Moderate",
-      "score": 0.75
+      "score": 0.7
     },
     {
       "level": "Challenging",
       "score": 0.5
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout is an interval 'sweat' session, indicating a focus on elevated heart rate and energy expenditure. With the maximum rhythm capping at 28 strokes per minute in a 16-minute session, it involves substantial physical exertion, classifying the effort as Moderate. The workout intensity level set at 2 out of 3 points towards a Challenging level for users starting at low fitness levels, but the short duration suggests it\u2019s more Moderate overall.",
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout is 16 minutes long with an interval format, which typically requires more energy than steady-state cardio, indicating a Moderate effort difficulty. The workout intensity level of 2 out of 3 suggests a slightly higher demand, classifying it as potentially Challenging for less fit users who might struggle with maintaining the higher max rhythm of 28 strokes per minute.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

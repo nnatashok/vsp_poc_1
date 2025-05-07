@@ -14,11 +14,15 @@
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.8
+      "score": 0.9
+    },
+    {
+      "level": "Moderate",
+      "score": 0.1
     }
   ],
-  "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "The workout consists of short durations of rowing and pausing, lasting under 6 minutes, with a low max rhythm of 22, indicating a relaxed pace. This classifies the effort difficulty as Light, suitable for a cooldown session. There is minimal energy expenditure expected, aligning with Beginner users or those looking for recovery or light exercise.",
+  "effortDifficultyConfidence": 0.95,
+  "effortDifficultyExplanation": "The workout is a short-duration, 5:47 cool-down with intervals of rowing and rest, which suggests it is light in energy expenditure. It is framed as a 'cool down', further indicating a low-intensity session. The frequent pauses (30 seconds of pausing after each minute of rowing) also contribute to a low effort requirement. While Sera Moon's tough background could suggest higher effort levels in other contexts, this session maintains a good relaxation flow. Consequently, there's a strong alignment with 'Light' (0.9) and minimal alignment with 'Moderate' (0.1).",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

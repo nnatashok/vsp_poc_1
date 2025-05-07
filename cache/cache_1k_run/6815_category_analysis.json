@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.6
-    },
-    {
-      "name": "Meditation",
-      "score": 0.4
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.75,
-  "categoriesExplanation": "The title \"Self Reflection Cool-Down\" and description indicate a calming end to a workout, often featuring both mental and physical relaxation components. Although the title and description do not explicitly mention rowing, the inclusion of the category \"row\" in the metadata and the context of the platform suggests this is involved. The term \"Cool Down\" generally signifies a reduction in intensity after a primary workout, aligning with activities like stretching or low-intensity rowing. Despite the absence of explicit rowing machine references, the tag \"row\" strongly points to an indoor rowing cool-down. The absence of specified equipment and the emphasis on the mind-body connection suggest elements of meditation or mental reflection, hence the secondary category of Meditation with a moderate score, especially given the reflective theme of \"accept and appreciate your individual fitness journey.\" The listing of popular dance and global hits music might support a lighter, rhythmic activity like a rowing cool-down rather than a completely serene Meditation session, thus supporting the primary categorization."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

@@ -13,12 +13,16 @@
   "techniqueDifficultyExplanation": "Since the workout is marked as suitable for all fitness levels (Beginner, Intermediate, Advanced), the technique difficulty is considered adaptable. Movements can be scaled in complexity, and users are expected to modify techniques based on their capability. Therefore, all difficulty levels from Beginner to Expert are assigned equal suitability with a score of 1.0.",
   "effortDifficulty": [
     {
+      "level": "Light",
+      "score": 0.6
+    },
+    {
       "level": "Moderate",
-      "score": 0.7
+      "score": 0.4
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The duration of 11 minutes and the description of a 'fast paced flow' intended to build body heat suggest a workout that demands moderate energy expenditure. The energetic playlist supports a brisk yet sustainable activity level, which could be challenging for less fit users but not overly taxing. Given these factors, 'Moderate' effort difficulty is appropriate, with some energy demand but within reach for beginners especially given the short duration.",
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "Given the short duration of 11:13, the effort difficulty leans towards the lower end. The fast-paced flow is aimed at building heat which does suggest a moderate energy expenditure for this short duration, common in gentle yoga practices. It is designed as a warm-up, indicating a less intense nature, but the pace increases physical demand slightly above simple relaxing poses, hence both 'Light' and 'Moderate' are appropriate.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

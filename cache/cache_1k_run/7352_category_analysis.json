@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is primarily classified as 'Indoor rowing' with a very high confidence score of 0.9. This is derived from the workout name 'Rev Your Engine Row', which mentions 'row', indicating the use of a rowing machine. The description emphasizes progression from 'legs only' strokes to 'full strokes' and mentions 'higher rhythms', suggesting rowing techniques. Furthermore, the categorization of 'drive', 'standard', and 'row' in the metadata aligns with an indoor rowing workout.\n\nThe secondary category is 'HIIT', assigned a score of 0.6. The classification is due to the 'Workout intensity level: 3 out of 3' and phrases such as 'accelerate to higher rhythms' suggesting a high-intensity workout with variable intensity levels typically found in HIIT sessions. The combination of high intensity and rhythmic music, particularly energetic genres like Hip Hop/R&B, supports this classification.\n\nOther categories like 'Mat', 'Body weight', or 'Weight workout' are excluded because there is no mention of exercises typical for these categories. The lack of a specified instructor also eliminates a class-based categorization like 'Pilates' or 'Yoga'."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

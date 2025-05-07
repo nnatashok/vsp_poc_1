@@ -1,28 +1,20 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Advanced",
-      "score": 0.8
-    },
-    {
       "level": "Intermediate",
-      "score": 0.4
+      "score": 1
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'Drive', which according to Hydrow's rules, places it in the 'Advanced' technique difficulty despite the row classification. The description of focusing on 'quick transitions from high power to high rhythms' suggests an advanced execution requirement, especially in maintaining form across varied intensity levels. Although it technically involves rowing, the 'Drive' classification indicates a significantly increased complexity than typical row workouts, warranting a high score in advanced technique.",
+  "techniqueDifficultyConfidence": 1,
+  "techniqueDifficultyExplanation": "The workout type is 'drive', a specific Hydrow category that automatically sets the technique difficulty to 'Advanced'. However, since the primary movement is rowing, the standard technique difficulty does not surpass 'Intermediate'. The workout's focus on 'quick transitions from high power to high rhythms' suggests a degree of coordination and rhythm that aligns strongly with an 'Intermediate' classification, particularly as rowing movements are generally not classified above this level unless explicitly described as complex or requiring advanced skill.",
   "effortDifficulty": [
     {
       "level": "Extreme",
-      "score": 0.8
-    },
-    {
-      "level": "Challenging",
-      "score": 0.5
+      "score": 0.95
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The intensity is rated 3 out of 3, indicative of the physical demand and energy expenditure involved, aligning the workout with 'Extreme' effort difficulty. The HIIT format and high rhythm (max rhythm: 34) further emphasize the demand for high-intensity output. The relatively short duration (11 minutes) with a focus on maintaining high power transitions contributes to a significant challenge, justifying the high score for extreme effort.",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The metadata indicates the workout is a high-intensity interval training (HIIT) format, described as 'Work on quick transitions from high power to high rhythms'. The high maximum rhythm of 34 coupled with the workout's categorization as 'Drive' implies a very demanding physical effort. Although the duration is relatively short (11:27), the intensity level is rated 3 out of 3, indicating maximal exertion. The context and instructor's description suggest a highly challenging effort level, strongly aligning with 'Extreme' based on the vigorous nature and intensity described.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

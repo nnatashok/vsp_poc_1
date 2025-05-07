@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.95,
-  "categoriesExplanation": "The workout is classified primarily under 'Indoor rowing' with a high confidence level. This is strongly justified by multiple metadata elements: the title 'Every Stroke Matters Row', description mentioning power, endurance, and speed, and specific tags such as 'row' and 'Drive'. The structured nature of rowing in intervals (as indicated by '10-minute segments') aligns with rowing workouts, indicating a central focus on rowing. The workout type, 'drive', and maximum rhythm of 32 strokes per minute further reinforce this classification.\n\nA secondary category of 'HIIT' is considered due to the workout's high-intensity level (3 out of 3) and the format emphasizing power, endurance, and speed, typical for interval training with varying intensities. However, the lack of explicit interval training mention and predominant rowing focus limits this to a supporting role.\n\nCategories like 'Mat', 'Yoga', or others are excluded due to the absence of exercises typical of those categories and the strong focus on rowing.\n\nOverall confidence is high, given explicit rowing references and consistent metadata indicators."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

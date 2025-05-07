@@ -2,9 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is classified as 'Indoor rowing' due to several key indicators found in the metadata. Firstly, the title 'National Team Pursuit Row' explicitly mentions 'row', directly implying rowing activity. Additionally, the description notes 'Sera's journey toward the National Team', suggesting a professional level of rowing training. The category tag includes 'row', reinforcing this classification. The format described as 'Climb' and intensity level of 2 out of 3 also align with a structured rowing workout, likely involving varied intensity levels typically seen in rowing sessions. The duration of 21 minutes and 30 seconds is typical for an indoor rowing session. Collectively, these elements strongly point to an indoor rowing workout, leading to high confidence in this classification. Other categories like 'HIIT' or 'Mat' were excluded due to lack of appropriate evidence, as there is no indication of high-intensity intervals or mat-based exercises in the metadata."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

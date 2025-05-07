@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.8
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.95,
-  "categoriesExplanation": "The workout video titled \"HIIT Row\" explicitly indicates that it is both a high-intensity interval training (HIIT) and rowing workout. The description further emphasizes the high-intensity nature by mentioning \"high-intensity intervals\" with a maximum rhythm of 30 and an intensity level of 3 out of 3. This aligns with HIIT's characteristic of alternating between intense activity and rest. Additionally, the metadata categorizes the workout as a 'row', further confirming that it involves indoor rowing. Although there is no reference to an instructor or layout specifics, the focus on intervals, intensity, and rowing machine ('drive, standard, row') strongly support the classification in both 'Indoor rowing' and 'HIIT' categories. The absence of additional equipment listed and the music genre mentioning pop and global hits do not detract from this classification. Therefore, 'Indoor rowing' and 'HIIT' are the most suitable categories for this workout."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

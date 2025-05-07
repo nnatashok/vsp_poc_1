@@ -2,9 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is classified primarily as 'Indoor rowing' due to explicit indications in the metadata. The title 'Steady State Row' and description mentioning 'row steadily at a 22 rhythm' clearly indicate a workout centered around rowing. The presence of '22 rhythm' suggests a rowing stroke rate, commonly associated with indoor rowing workouts. The 'Workout Type' including 'breathe' may imply a focus on breathing techniques, but this is secondary to the primary rowing activity. The duration and format as 'steady' suggest a sustained, continuous rowing effort. The intensity level of 1 out of 3 supports its classification as a moderate rowing session, not another type of fitness activity. Hence, 'Indoor rowing' is assigned a high score of 0.9 due to the solid, explicit indicators of a rowing workout. Other categories such as 'Breathing exercises' or 'Meditation' are not selected as they are not primarily relevant or explicitly indicated."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

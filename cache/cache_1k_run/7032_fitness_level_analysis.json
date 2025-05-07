@@ -1,28 +1,24 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Beginner",
-      "score": 0.8
-    },
-    {
       "level": "Intermediate",
-      "score": 0.6
+      "score": 0.7
     }
   ],
   "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "With 'row' as the workout category, the technique difficulty should be Beginner or Intermediate. The activity involves maintaining a set rhythm, common in rowing workouts, which isn't overly complex. While maintaining rhythm at max 30 might require some coordination, it remains within the 'Intermediate' threshold due to its rhythmic nature supportive of beginners.",
+  "techniqueDifficultyExplanation": "The workout focuses on rowing intervals, brisk changes in pace, and maintaining a specific rhythm, which aligns with the 'Intermediate' level. Row-based workouts have a Technique Difficulty of 'Beginner' or 'Intermediate' by definition. The mention of 'climb up in rhythm' suggests a need for coordination, supporting the Intermediate classification.",
   "effortDifficulty": [
     {
       "level": "Moderate",
-      "score": 0.75
+      "score": 0.7
     },
     {
       "level": "Challenging",
-      "score": 0.5
+      "score": 0.6
     }
   ],
-  "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The workout is 11 minutes and 32 seconds long and features climbing intervals, which likely increases the intensity. The intensity level is marked as 2 out of 3. While this level suggests significant engagement, the interval format allows for manageable effort with rest periods, leading to a 'Moderate' classification, though 'Challenging' is also possible for less fit users.",
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The Effort Difficulty is rated as moderate to challenging due to the interval format, which inherently increases intensity. The workout includes 4-minute intervals at a max rhythm of 30, which requires sustained effort. The intensity level is marked as 2 out of 3, indicating a challenging element but more suitable for those with some experience, hence both Moderate and Challenging levels are applicable.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

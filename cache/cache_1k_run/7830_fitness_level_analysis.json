@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.75
+      "score": 0.7
     },
     {
       "level": "Intermediate",
-      "score": 0.25
-    }
-  ],
-  "techniqueDifficultyConfidence": 0.75,
-  "techniqueDifficultyExplanation": "This workout falls under the 'row' category, which restricts the technique difficulty to Beginner or Intermediate. Although the use of intervals may suggest intermediate technique, the focus is on rhythm and simple movement patterns, aligning more strongly with Beginner level techniques. The metadata, highlighting 'Focus in on your technique' and the rhythmic shifts, suggests some combination of coordination and rowing form emphasis, giving a moderate score for Intermediate.",
-  "effortDifficulty": [
-    {
-      "level": "Moderate",
-      "score": 0.6
-    },
-    {
-      "level": "Challenging",
       "score": 0.4
     }
   ],
-  "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The workout's duration is relatively short at 11 minutes and 33 seconds, but it involves climbing intervals with a max rhythm of 28. This setup implies fluctuating intensity within a condensed period, aligning with moderate to challenging effort difficulty. The 'sweat' workout type and a workout intensity level of 2 out of 3 suggest significant physical demand yet suitable for users easing into higher effort workouts, supporting these scores.",
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout type 'row' naturally limits the technique difficulty to either Beginner or Intermediate, per platform-specific classification rules. The emphasis on technique within the workout description ('Focus in on your technique with Dani during intervals') slightly raises the complexity, but not beyond the intermediate level. The involvement of rhythm changes aligns it more with Beginner or at most Intermediate, as rowing itself is a straightforward movement. Thus, we can confidently classify as between Beginner (0.7) and Intermediate (0.4).",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.3
+    },
+    {
+      "level": "Moderate",
+      "score": 0.8
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The duration of 11:33 minutes and workout format being 'Climb' suggest a moderate difficulty due to implied intensity from interval and rhythm changes. The intensity level indicated as 2 out of 3 aligns with a Moderate effort difficulty. While the presence of music from 'Latin, Global Hits' radio stations may contribute to a faster pace, the shorter workout length keeps extreme classifications at bay. Therefore, the effort difficulty is confidently classified as Moderate with a score of 0.8, considering the intensity of interval-based rowing can be challenging but not excessively so for beginners.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

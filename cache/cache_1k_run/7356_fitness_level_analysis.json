@@ -3,22 +3,26 @@
     {
       "level": "Advanced",
       "score": 0.7
-    }
-  ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout is classified as 'Drive' in the metadata, which, according to Hydrow-specific rules, typically requires an Advanced level of technique difficulty. Although 'row' workouts generally cap at Intermediate difficulty, 'Drive' nuances involve a higher degree of technique due to intervals and heightened intensity, as denoted by the max rhythm of 32 and the specified intensity level of 3 out of 3.",
-  "effortDifficulty": [
-    {
-      "level": "Challenging",
-      "score": 0.6
     },
     {
-      "level": "Extreme",
+      "level": "Intermediate",
       "score": 0.3
     }
   ],
-  "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The workout features a high-intensity interval training (HIIT) format lasting over 20 minutes, with intervals described as 'attacks'. The prescribed max rhythm of 32, combined with the 3 out of 3 intensity level, suggests a significant energy consumption that aligns with a Challenging effort level, although the conditioning required might verge into Extreme for less fit users, warranting a minor score in that category.",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is categorized as a 'drive' which is associated with an advanced technique level due to its intensity and demand for proper rowing form above the standard 'row' category. This suggests a need for good coordination and body awareness to execute properly, in alignment with the assigned user fitness level requirement of 'Advanced'. The inclusion of 2-minute HIIT intervals implies intermediate to advanced technique complexity, justifying the inclusion of Intermediate and Advanced levels.",
+  "effortDifficulty": [
+    {
+      "level": "Extreme",
+      "score": 0.85
+    },
+    {
+      "level": "Challenging",
+      "score": 0.15
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout features 2-minute intervals in a HIIT format, classified as intensity level 3 out of 3, suggesting a high energy expenditure and physical demand. This duration and format imply a significant exertion level, marking it as an extreme effort difficulty for most users, especially those in poor physical shape. The drive category further underscores the intensity of the workout, supporting the alignment with 'Extreme' effort difficulty.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.4
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is classified as 'Indoor rowing' due to the explicit mention in the title 'Endurance Building Row' and the category tag 'row', which directly references rowing as the mode of exercise. The use of 'Interval' format indicates structured periods of work and rest typically seen in rowing workouts. The description mentions 'rhythms', suggesting a tempo control that is inherent to rowing.\n\nThe inclusion of 'breathe' in the workout type and category hints at a focus on breath control, which aligns with 'Breathing exercises'. However, since the primary activity is rowing, and breathing seems to be a secondary focus, the 'Breathing exercises' category is assigned a lower score.\n\nOverall confidence is high (0.85), as there are strong indicators for Indoor rowing."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

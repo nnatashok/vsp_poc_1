@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 1.0
-    },
-    {
-      "name": "HIIT",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout is classified primarily as 'Indoor rowing' based on multiple explicit indicators in the metadata. The title 'Piece by Piece Row' and the description, which describes efforts 'one minute at a time,' strongly suggest a rowing exercise format. The mention of rowing-related terms like 'Drive,standard,row' in the category field further solidify this classification, leading to a very high confidence score of 1.0 for Indoor rowing.\n\nAdditionally, the format of 'Intervals' and the workout intensity level of '3 out of 3' indicate it can be classified under 'HIIT' as well, since it involves high-intensity interval efforts, although the core activity remains rowing. This cross-association justifies a score of 0.7 for HIIT based on the interval and intensity format.\n\nOther categories such as Elliptical, Indoor biking, or Mat are excluded as there is no indication of those activities being involved, and the focus is specifically on rowing exercises."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

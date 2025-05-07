@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Stretching",
-      "score": 0.3
+      "name": "Warm-up",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout video titled 'Instructional: Ratio at Low Rhythms' is classified primarily under 'Indoor Rowing' with a high confidence score of 0.9. The title and description suggest a focus on rowing ('Ratio', 'rhythm'), which aligns with the specific skill of managing rhythm and ratio during rowing exercises. The mention of 'low rhythms' likely refers to maintaining a steady pace on a rowing machine, reinforcing its association with Indoor Rowing. This classification is strengthened as 'row' is listed in the category metadata. The secondary category, 'Stretching,' is assigned with a lower score of 0.3 because the 'Instructional' and 'Technique' format could involve aspects of flexibility or movement control, commonly linked with stretching routines. However, the description lacks specific indicators for stretching exercises. Despite the tags 'warm-up' and 'low rhythm,' which could imply a relaxed nature, rowing remains the central focus due to the rowing-specific terminology and context."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

@@ -2,15 +2,15 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.7
+      "score": 0.8
     },
     {
       "level": "Intermediate",
-      "score": 0.5
+      "score": 0.6
     }
   ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The row category typically aligns with Beginner or Intermediate Technique Difficulty. Given the interval format and moderate rhythm of 22 through 26, the exercise demands some coordination, consistent with Intermediate Technique. However, rowing's inherent simplicity also supports a Beginner rating. Therefore, this workout gently aligns with both Beginner (0.7) and Intermediate (0.5) levels with high confidence due to strong metadata indicators supporting simple rowing movements.",
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row' which indicates a technique difficulty primarily within 'Beginner' or 'Intermediate' levels. The interval format suggests a focus on rhythm change, which aligns with coordination and pacing, characteristic of an Intermediate level. However, rowing itself is largely accessible for most beginners, especially since no complex movements or exercises beyond rowing are specified in the metadata. Thus, Beginners would still find this navigable, warranting strong Beginner and moderate Intermediate scores.",
   "effortDifficulty": [
     {
       "level": "Moderate",
@@ -18,11 +18,11 @@
     },
     {
       "level": "Challenging",
-      "score": 0.6
+      "score": 0.45
     }
   ],
-  "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The workout is described as having an intensity level of 2 out of 3, indicating moderate effort. The duration of 11 minutes combined with 4-minute intense intervals suggests moderate to challenging energy expenditure. Given the interval structure with controlled heart rate increases, the effort aligns more with Moderate (0.75) difficulty, with some elements of Challenging (0.6) due to the potential difficulty in maintaining elevated rhythms for deconditioned users. This analysis is of high confidence, based on clear metadata hints.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout duration of 11:21 with two 4-minute intervals indicates sustained effort. The description highlights elevating heart rate, and a max rhythm of 26 emphasizes intensity within the set timeframe, signifying a more energy-demanding activity than Light. The use of a 2 out of 3 intensity level aligns with Moderate difficulty, with brief but intense intervals suggesting some alignment with Challenging, although less dominant due to the moderate overall rating and typical rowing format.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

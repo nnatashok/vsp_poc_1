@@ -1,20 +1,28 @@
 {
   "techniqueDifficulty": [
     {
+      "level": "Beginner",
+      "score": 0.2
+    },
+    {
       "level": "Intermediate",
       "score": 0.8
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'row' and 'drive,' which typically indicates a focus on power and rhythm. It involves sprinting pieces with high effort, demanding good coordination to maintain rhythm and form under intensity. Given Hydrow's rules where 'Drive' workouts are considered to have advanced technique elements, the technique difficulty is suitable for 'Intermediate' with high confidence. Complex coordination isn't required, but maintaining form during high-intensity rowing is slightly challenging.",
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', and therefore conforms to the guidelines that it can only be Beginner or Intermediate in technique difficulty. The designation 'Drive' implies a more dynamic and intensive rowing session, usually indicating the requirement for some technical coordination beyond the simplest movements, hence the Intermediate score of 0.8. Additionally, Olympic-level expertise of the trainer suggests movements could involve slightly complex coordination, strengthening Intermediate alignment.",
   "effortDifficulty": [
     {
+      "level": "Challenging",
+      "score": 0.6
+    },
+    {
       "level": "Extreme",
-      "score": 0.9
+      "score": 0.7
     }
   ],
-  "effortDifficultyConfidence": 0.95,
-  "effortDifficultyExplanation": "The workout type 'drive' with HIIT format and maximum rhythm of 30 indicates a very high-intensity workout. The description notes 'Use all of your effort and power,' aligned with a maximum intensity level of 3 out of 3. The short duration but high rhythm and intensity indicate an 'Extreme' effort difficulty level, as users must sustain maximal rowing sprints, demanding very high energy expenditure and effort.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is a high-intensity interval training (HIIT) format with a maximum rhythm of 30 and described as requiring 'all of your effort and power'. This indicates a significant level of exertion, typical of challenging workouts. Coupled with 'Workout intensity level: 3 out of 3' and 'short sprinting pieces', these elements align with the Extreme effort level. As HIIT workouts are energy-intensive, both Challenging and Extreme levels are feasible for deconditioned users, with Extreme scoring slightly higher at 0.7.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

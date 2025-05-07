@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout 'Consistency Row' clearly focuses on indoor rowing, as indicated by the title 'Row' and the description mentioning 'split' and 'intervals,' which are common terminology in rowing workouts. The mention of a 'max rhythm' and 'interval' format further suggests a structured rowing routine. Although the intensity level is 1 out of 3, indicating a low-intensity session, it is critical to differentiate from stretching or yoga as the main activity focuses on a rowing machine ('row'). The term 'breathe' in the metadata may imply a focus on breathing control, which is why 'Breathing exercises' has also been considered, albeit with a lower score due to lack of specific details. The use of energetic rock music suggests maintaining motivation during a repetitive rowing workout rather than a relaxing breathing session."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

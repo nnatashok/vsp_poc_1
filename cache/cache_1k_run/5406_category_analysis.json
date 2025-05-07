@@ -1,18 +1,10 @@
 {
   "categories": [
     {
-      "name": "HIIT",
-      "score": 0.75
-    },
-    {
-      "name": "Mat",
-      "score": 0.6
-    },
-    {
       "name": "Indoor rowing",
-      "score": 0.75
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.75,
-  "categoriesExplanation": "The workout is titled 'Drive + 5 Min HIIT Combo,' indicating a combination of different exercise modalities, with HIIT explicitly mentioned ('Work hard during high intensity intervals with Dani'), leading to a high confidence score for the HIIT category (0.75). Additionally, the description includes 'finish off with five minutes of core work on your mat,' which supports the inclusion of the Mat category due to the focus on floor-based exercises (score of 0.6). The 'Drive,standard,row' mention in the category hints strongly at rowing, aligning with the platform's focus on rowing workouts, thus Indoor rowing is assigned with a high score of 0.75. The intensity level of 3 out of 3 also supports the high-intensity nature of the workout. Therefore, HIIT and Indoor rowing are equally weighted, with a slight edge given to Mat due to the specified core work. Other categories like Body weight or Calisthenics are not selected due to lack of evidence pointing towards broader full-body or gymnastic-type movements."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

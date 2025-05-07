@@ -1,18 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.7
-    },
-    {
-      "name": "Weight workout",
-      "score": 0.7
-    },
-    {
-      "name": "Mat",
-      "score": 0.5
+      "name": "Calisthenics",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout titled \"Push Your Limits Circuit\" strongly indicates a combination of rowing and other exercises, inferred from phrases like 'rowing intervals at rhythms between 20 and 28' and 'dynamic on-the-mat moves'. This suggests a blend of Indoor Rowing and Mat-based exercises. The presence of 'dumbbells' as listed equipment and exercises such as 'single leg deadlift to bicep curls' and 'thrusters' justify the Weight Workout classification, as these are typical of strength training. The score of 0.7 for both Indoor Rowing and Weight Workout reflects their central role within the circuit format, while the Mat category, with a score of 0.5, indicates that mat exercises are a significant, though secondary, component. The description's emphasis on completing multiple rounds and dynamic movements reinforces the intensity and mixed nature of the session, supporting high confidence in this multi-faceted classification."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

@@ -1,17 +1,21 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Intermediate",
-      "score": 0.4
+      "level": "Beginner",
+      "score": 0.3
     },
     {
-      "level": "Advanced",
-      "score": 0.8
+      "level": "Intermediate",
+      "score": 0.7
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout type is classified as 'Drive', which Hydrow explicitly rates as Advanced. The inclusion of 'high-intensity intervals' and a max rhythm of 32 suggests complex pacing and coordination. While rowing can vary in technique difficulty, the 'Drive' category indicates a higher skill requirement for executing intense interval sessions with proper form.",
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "Since the workout category includes 'Drive' and 'row', the Technique Difficulty typically aligns with Beginner to Intermediate. The high-intensity nature suggests a higher complexity within rowing, leaning towards Intermediate. The rhythmic pace (max rhythm of 32) and involvement of HIIT indicate intermediate-level coordination, but since rowing can be performed with minimal technique at a basic level, we assign a stronger confidence to Intermediate.",
   "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.3
+    },
     {
       "level": "Challenging",
       "score": 0.6
@@ -21,8 +25,8 @@
       "score": 0.8
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The duration of 21 minutes combined with an intensity level of 3 out of 3 and a format of HIIT indicates a high level of physical exertion. The metadata highlights 'high-intensity intervals' and a supporting intense music playlist, which implies significant energy expenditure. The presence of HIIT further aligns with an 'Extreme' effort level for most users, especially for those in poor physical shape.",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout is clearly described as high-intensity with intervals, which typically suggests Extreme effort difficulty, particularly for deconditioned users. The format as 'HIIT' and the use of terms like 'give your all' underline the demanding nature. The '3 out of 3' intensity level further supports the classification of Extreme, with Challenging being a potential secondary classification due to a runtime of over 20 minutes, which sustains significant exertion.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

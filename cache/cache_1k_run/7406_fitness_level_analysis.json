@@ -2,7 +2,7 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 1.0
+      "score": 0.8
     },
     {
       "level": "Intermediate",
@@ -10,7 +10,7 @@
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which defaults to a Technique Difficulty of either Beginner or Intermediate according to Hydrow-specific rules. The description lacks complex movements and the rhythm format 'Climb' refers to intensity changes rather than technical complexity, indicating simple rowing strokes. Hence, a Beginner level is most appropriate (score: 1.0), with a moderate potential overlap with Intermediate due to variation in rhythm and duration (score: 0.4).",
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which restricts the Technique Difficulty to Beginner or Intermediate. The 'Climb' format typically involves rhythmic row intervals, suggesting some coordination but still manageable for beginners. The simplicity of rowing movements, reinforced by a beginner-friendly requirement, aligns strongly with Beginner (score: 0.8) and moderately with Intermediate (score: 0.4).",
   "effortDifficulty": [
     {
       "level": "Light",
@@ -18,11 +18,11 @@
     },
     {
       "level": "Moderate",
-      "score": 0.5
+      "score": 0.4
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The duration of 16 minutes and 22 seconds, coupled with an intensity level of 1 out of 3, suggests a Light effort level is appropriate (score: 0.8). However, interval training at a maximum rhythm of 28 SPAM can pose moderate challenges, slightly differentiating it from very passive activity. This provides some alignment with Moderate effort (score: 0.5).",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "A total duration of 16 minutes and intervals of decreasing duration (5', 4', 3', 2', 1') indicate a manageable effort level, consistent with a 'breathe' type activity and intensity level 1 (out of 3). This setup suggests a low-energy, steady workout suitable for beginners, with a strong alignment towards Light (score: 0.8) while incorporating some mild challenge characteristic of Moderate (score: 0.4) due to the rhythm component.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

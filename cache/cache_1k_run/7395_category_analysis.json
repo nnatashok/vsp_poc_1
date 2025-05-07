@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Mat",
-      "score": 0.85
-    },
-    {
       "name": "Body weight",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout titled 'Core Strength' and described as \"featuring four core-focused exercises\" strongly suggests a focus on mat-based exercises, as these typically involve core engagement activities like planks and sit-ups, often performed on a mat. The explicit mention of 'On The Mat' having a high relevance is clearly supported by the metadata. Additionally, the workout's classification under 'strength' and lack of specified equipment implies the use of body weight for resistance, further suggesting bodyweight exercises on the mat, hence the classification into 'Body weight' as a secondary category. Given the clarity of the description, a high confidence score of 0.85 is assigned, with slightly lower confidence in the 'Body weight' category due to the less explicit label. Other categories such as 'Pilates' or 'Yoga' were not considered due to the lack of any mention about breathing, postures, or mind-body practices, which these typically include."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

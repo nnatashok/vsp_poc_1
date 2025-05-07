@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.7
-    },
-    {
-      "name": "HIIT",
-      "score": 0.5
+      "name": "Warm-up",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.75,
-  "categoriesExplanation": "The workout metadata strongly suggests a classification of 'Indoor rowing' due to the tag 'row' in the Category field, indicating the use of a rowing machine. Additionally, the term 'Climb' in Format suggests a progressive increase in intensity, which is commonly associated with rowing workouts. However, the emphasis on 'power and quickness' as mentioned in the Title and Description hints at elements of interval training, elevating it towards a possible 'HIIT' experience, but not fully, thus a moderate score. The music is described as 'Mid-intensity' aligning with a dynamic workout, reinforcing the indoor rowing context since it reflects moderate cardiovascular effort. Despite the presence of 'warm-up', the workout's described focus suggests preparation for more intense rowing activity rather than a generic warm-up or any meditative form such as Yoga or Stretching."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

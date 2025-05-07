@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.8
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The primary category 'Indoor Rowing' was selected due to multiple references to rowing in the workout name ('International Women's Day Row') and the description which emphasizes a rowing workout theme. The equipment field is empty, but contextual clues about the activity being rowing-focused and the title itself strongly indicate indoor rowing on a machine.\n\nThe secondary category 'HIIT' is supported by the metadata: 'Format: HIIT,' indicating a High-Intensity Interval Training structure which aligns with the 'max rhythm: 30' and 'intensity level: 3 out of 3'. This suggests vigorous intervals typically found in HIIT sessions. The combination of high intensity and rhythm supports this classification.\n\nOther categories like 'Mat', 'Yoga', or 'Stretching' were excluded due to the lack of flexibility, breathing, or relaxation cues in the workout, and the intense, rhythmic nature of the session aligns poorly with these categories. Additionally, the playlist and cultural engagement theme enhance the purpose but do not change the core workout structure."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

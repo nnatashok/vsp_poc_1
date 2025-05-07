@@ -14,11 +14,15 @@
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 1
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.4
     }
   ],
-  "effortDifficultyConfidence": 1,
-  "effortDifficultyExplanation": "The workout is under 6 minutes long and classified as a warm-up, designed to prepare the user for further exercise rather than exert energy at a high rate. There is a focus on generating power at low rhythms, which is unlikely to be physically demanding. The music genres implied are not indicative of high intensity, further supporting the Light effort difficulty classification.",
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "With a duration of just 5:50 minutes and as a warm-up type, the effort difficulty is primarily classified as Light, aligning with its role in preparing the body with low energy expenditure. However, the focus on 'power generation' hints at some physical engagement, thus moderately aligning with the Moderate category. The short duration and warm-up nature limit the overall effort to a Light classification (0.8 score), with a slight acknowledgment of Moderate effort (0.4 score).",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

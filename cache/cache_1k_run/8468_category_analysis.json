@@ -1,18 +1,10 @@
 {
   "categories": [
     {
-      "name": "Mat",
-      "score": 0.8
-    },
-    {
-      "name": "Body weight",
-      "score": 0.7
-    },
-    {
-      "name": "Indoor rowing",
-      "score": 0.2
+      "name": "Calisthenics",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout title 'Plyometric Bodyweight Circuit' and the description suggest a focus on body weight exercises and a plyometric circuit, indicating exercises that could include jumps or rapid movements on the floor, which fits well with the 'Mat' category. The mention of interval training on Hydrow suggests the use of a rowing machine, albeit briefly, which is included under 'Indoor rowing' but only with a minor score due to the short duration. The workout's classification as 'On The Mat' supports the primary categorization as 'Mat,' with a high confidence score of 0.8. No specific equipment is mentioned, aligning with body weight exercises, hence a secondary 'Body weight' category is also assigned with a score of 0.7. The playlist's energetic Latin and Global Hits music further supports the active, rhythmic nature typical of plyometric workouts."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.95
-    },
-    {
-      "name": "HIIT",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout video entitled 'March Race: Week 4 of 4' strongly indicates an 'Indoor rowing' category due to references such as 'rack up those meters' and 'high rhythms,' which strongly suggest a rowing exercise. This, combined with the 'Format: Power' and workout type descriptors 'Drive, standard, row,' provides a compelling case for categorizing this as an indoor rowing workout. The intensity level rated as '3 out of 3' also suggests a highly demanding exercise, likely to involve high-intensity training elements, justifying the secondary classification as a 'HIIT' session. The phrase 'maintain high rhythms and pull off a new personal best' reinforces the element of high-intensity intervals commonly associated with HIIT workouts. The overall confidence in these categories is high at 0.9, as the metadata strongly supports these classifications."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

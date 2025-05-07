@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 1
+      "score": 0.9
     },
     {
       "level": "Intermediate",
-      "score": 0.6
-    }
-  ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout type 'row' inherently lends itself to Beginner or Intermediate levels of technique difficulty due to relatively simple rowing motion. The lack of specific coordination challenges or complex movements in the description suggests a strong alignment with Beginner difficulty (score: 1). However, a small component of differentiating rhythm ('Format: Climb' with a max rhythm of 24) points to Intermediate (score: 0.6).",
-  "effortDifficulty": [
-    {
-      "level": "Moderate",
-      "score": 0.8
-    },
-    {
-      "level": "Light",
       "score": 0.4
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout's duration of 31 minutes and a low intensity level (1 out of 3) suggest Moderate effort difficulty (score: 0.8), due to the extended activity period which requires sustained moderate effort. The 'Breathe' type indicates a focus on paced exhalation, aligning with Moderate as well. Some Light effort (score: 0.4) is suggested by the instructional theme and rowing nature.",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout primarily involves rowing, which generally has a low technique difficulty, fitting into the Beginner category. The term 'climb in rhythm' may imply some coordination in maintaining rhythm throughout the rowing session, which slightly suggests an Intermediate level. However, the overall simple, repetitive motion of rowing aligns more strongly with a Beginner level, especially given the 'breathe' classification and Beginner requirement.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The effort difficulty is largely determined by a 31-minute rowing session at a max rhythm of 24, indicative of a relatively low-intensity workout as suggested by the 'breathe' category. This aligns with Hydrow\u2019s workout intensity level of 1 out of 3, suggesting a primary classification of Light effort, suitable for deconditioned users and complete beginners. Some moderate exertion may be involved, indicated by 'climb in rhythm' and duration, placing a small score for Moderate effort.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

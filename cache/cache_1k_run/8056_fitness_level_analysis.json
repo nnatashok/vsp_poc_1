@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.6
+      "score": 0.7
     },
     {
       "level": "Intermediate",
-      "score": 0.6
+      "score": 0.5
     }
   ],
   "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "Given the workout is a rowing-based session within the 'Sweat' category, typical techniques involved are movements that, while requiring some coordination, align with Beginner to Intermediate levels. The metadata does not specify any advanced techniques or complex movement patterns, supporting an assignment of Beginner to Intermediate technique difficulty. Since the user fitness requirement is Intermediate, it aligns logically, and the absence of explicit complex technique indicators or instructions strengthens this classification.",
+  "techniqueDifficultyExplanation": "The workout is rowing-based, classified under 'row', which aligns with Hydrow's rules that Technique Difficulty can be either Beginner or Intermediate. The \"Introducing Buffy Row\" title indicates an introductory nature, which suggests a simplicity suitable for Beginners. The description emphasizes a practical and relatable approach, supporting a score towards Beginner. However, the involvement of a high-energy workout as led by an Olympian adds a slight Intermediate aspect, leading to scores of 0.7 for Beginner and 0.5 for Intermediate.",
   "effortDifficulty": [
     {
       "level": "Moderate",
-      "score": 1.0
+      "score": 0.6
     },
     {
       "level": "Challenging",
-      "score": 0.7
+      "score": 0.3
     }
   ],
-  "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "The workout\u2019s duration (21 minutes) combined with its interval format and a max rhythm of 26 suggests a workout requiring moderate energy expenditure. As a 'sweat' category activity, it is designed to be somewhat physically demanding. An intensity level of 2 out of 3 and the category description indicate a moderately challenging session for deconditioned users. This supports a strong alignment with a Moderate classification, with Challenging noted due to the physical demand of maintaining intervals, albeit not as intensely as classified as Extreme.",
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout duration of 21:20 minutes, paired with an interval format and an intensity level of 2 out of 3, points to a Moderate effort difficulty. The interval format suggests bursts of higher intensity, aligning with the description of Buffy's high-energy, efficient workouts, thus adding a Challenging aspect. The mix of relaxed and high-energy content indicates challenging features for unfit users, scoring 0.6 for Moderate and 0.3 for Challenging.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

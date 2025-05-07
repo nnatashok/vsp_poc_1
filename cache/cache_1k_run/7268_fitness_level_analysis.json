@@ -6,11 +6,11 @@
     },
     {
       "level": "Intermediate",
-      "score": 0.2
+      "score": 0.6
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is primarily rowing-based, which involves basic movement patterns requiring minimal coordination. The metadata indicates a 'row' category under the Hydrow platform, suggesting a maximum Technique Difficulty of 'Intermediate.' Since no complex movements or high coordination exercises are listed, a 'Beginner' level is more appropriate, but considering the 'Intermediate' fitness requirement stated by the user, a low score for 'Intermediate' is added.",
+  "techniqueDifficultyExplanation": "The workout is categorized under 'sweat,standard,row', which typically falls under the Technique Difficulty of Beginner to Intermediate due to the basic rowing strokes involved. The interval format implies some complexity, but the primary focus is rowing. Therefore, both Beginner and Intermediate levels are appropriate, emphasized by Nick's focus on proper form, which supports a Beginner rating for technique with a strong indication toward Intermediate due to the 1' on 1' off intervals.",
   "effortDifficulty": [
     {
       "level": "Moderate",
@@ -18,11 +18,11 @@
     },
     {
       "level": "Challenging",
-      "score": 0.25
+      "score": 0.5
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout is relatively short at 11 minutes and 17 seconds but uses an interval format ('1' on, 1' off'), indicating bursts of higher intensity activity with short rest. With a workout intensity of 2 out of 3, this suggests moderate energy expenditure. The rhythm maxing at 28 and the 'sweat' workout type imply some challenge, but not extreme. Therefore, 'Moderate' is appropriate with a contribution from 'Challenging' due to interval nature and intensity level.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is 11 minutes long with 1-minute intervals. The max rhythm of 28 signifies a moderate pace, suitable for deconditioned users to handle. The interval format, along with the workout intensity level of 2/3, suggests higher energy expenditure than a light workout. Therefore, the effort difficulty is best classified as Moderate with a strong potential for being Challenging due to the interval nature and the Sweat category.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

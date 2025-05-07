@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.4
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The primary category 'Indoor rowing' is assigned a score of 0.9 based on explicit references in the workout name and description such as 'Row at a rhythm' and the interval rowing format mentioned. This clearly indicates a focus on rowing exercises using a rowing machine. The rhythmic emphasis is typical of rowing workouts, further reinforcing this category.\n\nThe 'Breathing exercises' category is included with a score of 0.4 due to the term 'breathe' being mentioned in the workout type. However, the overall focus on rowing with specific rhythms makes this category less central. The moderate assignment reflects potential breathing technique integration during the rowing activity, characteristic of maintaining pace and endurance, but it is secondary to the rowing itself.\n\nThe moderate intensity level of 1 out of 3 suggests that the workout is a controlled cardio session rather than a high-intensity interval training (HIIT) or other high-energy workouts. Other categories like 'Yoga' or 'Meditation' were excluded because the context does not suggest mindfulness or relaxation as primary objectives."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

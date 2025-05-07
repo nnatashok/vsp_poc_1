@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "HIIT",
-      "score": 0.9
-    },
-    {
       "name": "Indoor rowing",
-      "score": 0.85
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout is classified primarily under 'HIIT' with a score of 0.9 because both the title 'Hip-Hop HIIT Row' and the description emphasize high-intensity interval training with 30 and 60-second intervals, indicating a HIIT format. The use of the word 'ignite' and the 'sweat' workout type further suggests vigorous intensity, supported by a 2 out of 3 intensity rating. 'Indoor rowing' is assigned a score of 0.85 as the word 'row' in the title and the 'row' category in the metadata all point to this workout being primarily performed on a rowing machine. The absence of specific equipment indicating another type of machine also supports this classification. The strong presence of interval training in the description reduces the likelihood of misclassification into categories like 'Mat', 'Body weight', or 'Weight workout', despite the energetic music genre suggested by the hip-hop playlist. Confidence in these categories is very high due to clear indicators in the metadata."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

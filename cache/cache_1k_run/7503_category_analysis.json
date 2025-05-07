@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The video is classified as 'Indoor rowing' with very high confidence due to multiple indicators: the workout name 'Runner's Program', description mentioning 'five 2-minute intervals', and tags like 'row'. This suggests a structured interval workout typically done on a rowing machine. The format and emphasis on rhythm further align with ergometer workouts.\n\nThe second category is 'HIIT' with high confidence, as the workout features 'five 2-minute intervals', aligning with HIIT's defining characteristic of interval-based training that aims to elevate heart rate. The use of a 'rock playlist' implies high-energy music, supporting the high-intensity intent.\n\nOther categories like 'Running' or 'Mat' were excluded due to explicit rowing-related tags and structured interval format, which are not consistent with their typical characteristics. The overall intensity level of 2 out of 3 further supports the classification as an active and engaging workout."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

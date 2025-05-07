@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.95
-    },
-    {
-      "name": "Body weight",
-      "score": 0.3
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout's metadata strongly points to 'Indoor rowing' as the primary category. The title 'Boat Movers Row' and the description emphasize rowing exercises, specifically focusing on leg and core muscles, referred to as 'boat movers'. The use of terminology such as 'interval workout' suggests a structured rowing routine aimed at improving technique, aligning with common characteristics of indoor rowing workouts. The mention of 'Max rhythm: 26' further confirms the focus on rowing as it correlates with rowing stroke rates. Therefore, 'Indoor rowing' is assigned a high score of 0.95 due to clear indicators.\n\nA secondary consideration is 'Body weight' (score: 0.3), as it appears there is a focus on core engagement which often involves exercises using body weight. However, the specific mention of rowing and the absence of explicit body weight exercises in the description make this less prominent.\n\nCategories like 'HIIT' or 'Weight workout' were excluded due to lack of exercise type diversity and absence of additional resistance equipment as indicated by the empty 'Equipment' field."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

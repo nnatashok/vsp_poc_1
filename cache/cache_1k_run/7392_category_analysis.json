@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Yoga",
-      "score": 0.9
-    },
-    {
-      "name": "Mat",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is categorized primarily as 'Yoga' with a significant score because the metadata frequently references yoga-specific terms, such as 'twists flow' and 'Yoga blocks recommended.' The use of the word 'flow' often indicates a continuous and rhythmic yoga session, and the focus on twisting motions aligns with yoga practice, particularly vinyasa or flow yoga styles. The 'Mat' category is also applicable with a strong score, as the tags 'On The Mat' and 'standard,on-the-mat' suggest exercises performed with a mat, typical in both yoga and general mat-based exercises. The ambient music selection, labeled as 'Chill mid, Cool/Downtempo,' fits well with a calming yoga environment rather than high-energy workouts, reinforcing the classification. Other categories were excluded based on the lack of intense or explicit mentions of other workout equipment and styles."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

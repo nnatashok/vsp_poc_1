@@ -13,16 +13,16 @@
   "techniqueDifficultyExplanation": "Since the workout is marked as suitable for all fitness levels (Beginner, Intermediate, Advanced), the technique difficulty is considered adaptable. Movements can be scaled in complexity, and users are expected to modify techniques based on their capability. Therefore, all difficulty levels from Beginner to Expert are assigned equal suitability with a score of 1.0.",
   "effortDifficulty": [
     {
-      "level": "Light",
-      "score": 0.2
-    },
-    {
       "level": "Moderate",
       "score": 0.6
+    },
+    {
+      "level": "Challenging",
+      "score": 0.4
     }
   ],
-  "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The workout is 20 minutes long with 60-second interval segments, suggesting a moderate intensity level. The explicit playlist likely aims to energize and maintain pace, typical of a moderate effort. The absence of extra equipment and an interval format both support a low-to-moderate effort classification suitable for varying fitness levels.",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The 20-minute duration, EMOM (Every Minute On the Minute) format and a 24 max rhythm indicate a steady pace with potentially short rest intervals. The description suggests a focus on lower body strength which could be more challenging. This combines to demand moderate but potentially challenging effort levels, especially for deconditioned users. Moderate fits due to the overall intensity being carefully orchestrated by the instructor, while Challenging receives a lower score reflecting potential exertion from continuous movement.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

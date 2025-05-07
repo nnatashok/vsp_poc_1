@@ -1,16 +1,16 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Beginner",
+      "level": "Intermediate",
       "score": 0.8
     },
     {
-      "level": "Intermediate",
+      "level": "Advanced",
       "score": 0.6
     }
   ],
-  "techniqueDifficultyConfidence": 0.75,
-  "techniqueDifficultyExplanation": "The workout type is specified as 'drive', which typically aligns with a higher technique difficulty due to the need for consistent rhythm and intensity in rowing, suggesting a Beginner to Intermediate level. Given that it is a rowing workout labeled as 'Drive', Beginners could manage simpler elements, but some coordination is required to handle the high rhythm intervals effectively, granting a higher technique classification at Intermediate.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type 'drive' categorically implies advanced-level rowing movements due to the coordination and intense focus required to maintain effective form over 1-minute intervals with a high rhythm (max 32). The Drive category in Hydrow workouts is usually reserved for those who can handle complex row motions with added rhythm challenges, indicating a strong understanding of rowing techniques is necessary. Nevertheless, as it is still within the row category, we maintain a score for Intermediate as well given the platform guidelines.",
   "effortDifficulty": [
     {
       "level": "Challenging",
@@ -22,7 +22,7 @@
     }
   ],
   "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout is an 11-minute HIIT session with intense rowing intervals of rhythm 32, supporting a Challenging classification due to its highly demanding nature for most users. The description uses phrases like 'heart pumping' and 'intensity level 3 out of 3', indicating a demanding workout. These cues point to a significant energy expenditure for a shorter duration, potentially reaching Extreme levels for less fit users.",
+  "effortDifficultyExplanation": "Given the high-intensity interval training (HIIT) format for this rowing workout, with all intervals under one minute and a maximum rhythm of 32, combined with the instructor's emphasis on heart-pumping efforts, there is a substantial energy expenditure demand. The workout's intensity level of 3 out of 3 supports the high challenge and possible extreme effort required\u2014particularly for less fit individuals\u2014making it highly demanding. This categorizes the effort difficulty strongly as Challenging with an overlay towards Extreme due to its compact, impactful nature.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

@@ -6,29 +6,29 @@
     },
     {
       "level": "Intermediate",
-      "score": 0.6
+      "score": 0.1
     }
   ],
-  "techniqueDifficultyExplanation": "The workout is largely rowing-focused, falling under the categories 'breathe,' 'standard,' and 'row.' According to the rules, rowing workouts can either be Beginner or Intermediate in difficulty. The metadata suggests a rhythm-focused session at a manageable max rhythm of 24, which aligns with Beginner level characteristics due to straightforward rowing movements. However, an interval format may require brief adjustment to change pace, introducing a slight complexity, nudging the technique into the lower Intermediate range.",
-  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is categorized primarily under the rowing category, which typically suggests Beginner to Intermediate technique difficulty due to straightforward, repetitive motion once basic form is understood. The presence of 'intervals climbing in rhythm' may introduce slight complexity, suggesting a very low score for Intermediate; however, 'Beginner' receives a 0.9 score as rowing itself is simple in nature, especially given the instructor's supportive and team-oriented focus.",
   "effortDifficulty": [
     {
-      "level": "Moderate",
-      "score": 0.7
+      "level": "Light",
+      "score": 0.85
     },
     {
-      "level": "Light",
-      "score": 0.6
+      "level": "Moderate",
+      "score": 0.15
     }
   ],
-  "effortDifficultyExplanation": "The duration of 21 minutes and 33 seconds, along with a mid-range rhythm and interval format, imply a workout that is not overtly strenuous but requires consistent effort. The intensity is marked as 1 out of 3, which suggests that the overall physical demand is on the lower side, better aligning with Moderate or Light effort levels. However, intervals often provide a slight challenge, hence scoring on the higher side of both Light and Moderate effort difficulty, reflecting the likely perceived exertion for deconditioned users.",
-  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout duration is over 20 minutes and uses an interval format, yet it is rated 1 out of 3 for intensity with instructions to maintain a jog pace. The 'Breathe' category generally indicates a lower effort workout, aligning with 'Light' effort difficulty at 0.85. However, the use of 'intervals' can slightly increase the exertion level to 'Moderate' at 0.15, suggesting some periods of increased energetic demand, hence the overall high confidence in 'Light'.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",
       "score": 1.0
     }
   ],
-  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed.",
-  "requiredFitnessLevelConfidence": 1.0
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
 }

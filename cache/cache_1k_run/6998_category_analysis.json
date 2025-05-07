@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Stretching",
-      "score": 0.7
-    },
-    {
       "name": "Yoga",
-      "score": 0.5
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.7,
-  "categoriesExplanation": "The workout titled 'Chest Opening Restore' and described as a 'restorative practice' strongly suggests a focus on flexibility and gentle movements, which are characteristic of Stretching and Yoga workouts. The playlist with genres like chill and downtempo hints at a relaxed, low-intensity session. The term 'restore' and 'open your chest and side body' indicates stretching-focused activities. 'On The Mat' and 'standard,on-the-mat' further implies mat-based exercises typically associated with these categories. Therefore, I have assigned 'Stretching' a score of 0.7 due to the explicit focus on bodily restoration, with 'Yoga' scoring 0.5 due to the restorative and mat-based elements, reflecting a moderate presence. Other categories such as 'HIIT', 'Cardio', or 'Weights' were ruled out due to the absence of high intensity or equipment-based exercises."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

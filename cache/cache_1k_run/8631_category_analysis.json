@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The primary category assigned is 'Indoor rowing' with a high confidence score of 0.9. This is strongly indicated by the workout name 'Double Pyramid Row' and the tags 'standard,row,' which suggest that the session is an indoor rowing workout. The description alludes to maintaining a rhythm, a common aspect of rowing workouts, and the mention of specific pacing (max rhythm: 26) aligns with rowing cadence.\n\n'Breathing exercises' is the secondary category with a score of 0.6. The metadata includes 'Workout Type: breathe,' indicating an emphasis on breathing during the session. The relatively low intensity level (1 out of 3) also suggests it might involve controlled breathing, characteristic of such exercises.\n\nOther categories like 'Yoga' or 'Stretching' were considered but excluded, as there is no specific mention of flexibility or meditative elements beyond breathing, nor does it fit the 'Mat' category due to the likely equipment-based nature of rowing. The music playlist, while energetic, does not specifically influence the categorization but supports the rhythmic aspect of rowing."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

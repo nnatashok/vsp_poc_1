@@ -2,7 +2,7 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.8
+      "score": 0.95
     },
     {
       "level": "Intermediate",
@@ -10,19 +10,19 @@
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is classified under the 'row' category, which allows for either Beginner or Intermediate Technique Difficulty. Given the workout's title 'Cardio Control Row' and the specified rhythm levels (22 and 24), this suggests a focus on maintaining a steady pace, which is typically straightforward for most users. The workout's description emphasizes 'practice controlling your split,' which may require some coordination, but is generally accessible, hence a strong alignment with Beginner at 0.8 and a slight consideration for Intermediate at 0.2.",
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which means the Technique Difficulty should either be Beginner or Intermediate. The description emphasizes practicing controlling splits at moderate rhythms (22 and 24), which suggests a focus on maintaining form rather than complex maneuvers. Given the 'breathe' workout type, it caters to sustaining effort rather than technical complexity. Thus, the Beginner level is strongly applicable with a slight possibility of Intermediate due to rhythm control.",
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.7
+      "score": 0.8
     },
     {
       "level": "Moderate",
-      "score": 0.3
+      "score": 0.5
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "With a duration of just over 11 minutes and an intensity level of 1 out of 3, the workout fits well within a Light effort difficulty. The focus on maintaining split times at certain rhythms suggests a controlled activity level rather than high intensity. However, the presence of cardio components implies it might still be somewhat demanding for very beginners, which is why Moderate is considered at a lower score of 0.3.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is described as cardio-focused but with an intensity level of 1 out of 3, indicating low overall energy expenditure. The duration of 11 minutes and format labeled as 'steady' further suggests a lighter physical demand rather than high intensity. The presence of rhythm management could slightly increase the demand to Moderate for deconditioned users. Therefore, the primary classification is Light with some consideration for Moderate effort.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

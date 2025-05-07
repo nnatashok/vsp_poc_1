@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Yoga",
-      "score": 0.9
-    },
-    {
-      "name": "Meditation",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout video is titled 'Flow + Restore for New Years', indicating a combination of yoga flow and restorative practices. The description explicitly mentions a 'yoga flow' and 'relaxing restore', both of which are core components of yoga workouts. The use of yoga blocks and a blanket as optional equipment further supports the classification in the Yoga category, as such props are commonly used in yoga sessions to enhance poses and support restorative practices. The playlist features chill and downtempo music, aligning with the relaxing nature of yoga, particularly in a restorative format. Therefore, Yoga is assigned a very high confidence score of 0.9. Additionally, the relaxing and restorative nature of the session could incorporate meditative elements, as these are often intertwined in yoga practices, which justifies a secondary category of Meditation with a score of 0.6. Other categories like Mat were considered but not chosen due to the specificity of yoga-related terms used in the description."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

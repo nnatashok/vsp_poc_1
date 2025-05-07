@@ -13,16 +13,16 @@
   "techniqueDifficultyExplanation": "Since the workout is marked as suitable for all fitness levels (Beginner, Intermediate, Advanced), the technique difficulty is considered adaptable. Movements can be scaled in complexity, and users are expected to modify techniques based on their capability. Therefore, all difficulty levels from Beginner to Expert are assigned equal suitability with a score of 1.0.",
   "effortDifficulty": [
     {
-      "level": "Moderate",
-      "score": 0.7
+      "level": "Light",
+      "score": 0.45
     },
     {
-      "level": "Light",
-      "score": 0.4
+      "level": "Moderate",
+      "score": 0.65
     }
   ],
-  "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The workout duration of approximately 16 minutes contributes to a shorter workload, aligning with Light to Moderate effort difficulty. Pilates enhances muscular endurance and has a moderate energy expenditure but does not reach high-intensity levels, thus a stronger score for Moderate. The presence of upbeat music probably promotes a more engaging but not necessarily more physically demanding experience.",
+  "effortDifficultyConfidence": 0.76,
+  "effortDifficultyExplanation": "The workout is 15 minutes long with a focus on core strength through Pilates, typically low-impact but potentially challenging due to the engagement of specific muscle groups. Pilates often requires maintaining muscle engagement and balance, which can be moderately effortful for deconditioned users (0.65). However, the short duration and Pilates nature, known for being adaptable, align with lighter effort levels suitable for Beginners (0.45). The medium intensity music suggests a moderate pace without high energy intensity, further supporting the Moderate classification.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

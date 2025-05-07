@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Mat",
-      "score": 0.7
-    },
-    {
       "name": "Body weight",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.75,
-  "categoriesExplanation": "The workout 'Lower Body Strength with Bands' is best classified under the 'Mat' category due to the explicit mention of 'On The Mat' in the workout details, suggesting exercises are performed on the floor, likely involving mat work. The presence of a mini-band indicates focused resistance training, which enhances lower body strength, aligning with bodyweight exercises often done in mat workouts. This supports a score of 0.7 for the 'Mat' category. Additionally, the workout is categorized as 'strength' and involves using mini-bands to build muscle, which fits within 'Body weight' as it uses minimal equipment enhancing natural body resistance; thus, this category also receives a score of 0.6. Other categories such as 'Weight workout' are excluded due to the lack of significant weight equipment use. The confidence level of 0.75 reflects the clarity provided by the title and description, supporting a strong inference of these categories."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

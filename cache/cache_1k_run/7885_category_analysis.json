@@ -2,17 +2,9 @@
   "categories": [
     {
       "name": "Pilates",
-      "score": 0.9
-    },
-    {
-      "name": "Mat",
-      "score": 0.7
-    },
-    {
-      "name": "Stretching",
-      "score": 0.5
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is categorized primarily as 'Pilates' with a high confidence score of 0.9, as the workout name 'Post-Row Pilates' and workout type explicitly mention 'pilates.' This directly aligns with the exercise focus of controlled movements and core strengthening typical of Pilates sessions. The 'Mat' category is also relevant, scoring 0.7, inferred from the 'Category: On The Mat,' suggesting exercises performed on a floor mat, which is common for Pilates routines. The presence of stretches, specifically 'stretch your hips,' could also imply a 'Stretching' component. Given the workout's context of post-row activity and the mention of stretches, a moderate score of 0.5 is assigned to 'Stretching'. The overall confidence in these categories is high due to explicit indications in the title, description, and metadata, but there is slight uncertainty due to lack of detailed movement breakdowns typical of a full Pilates or stretching routine."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

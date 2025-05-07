@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Yoga",
-      "score": 0.9
-    },
-    {
-      "name": "Mat",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is titled 'Heat Building Yoga Align,' which explicitly specifies it as a 'Yoga' session. The description mentions 'move with your breath through sun salutation,' indicating traditional yoga practice, which is typically performed on a mat, hence the secondary category 'Mat.' The tags 'On The Mat' and 'on-the-mat' further reinforce this context. The yoga session lasts about 11 minutes and features music genres like Chill and Cool/Downtempo, which are common in yoga sessions designed to maintain a relaxed yet focused environment. The selected categories exclude others such as Stretching or Meditation, as they do not fit the primary focus of sun salutations in yoga."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

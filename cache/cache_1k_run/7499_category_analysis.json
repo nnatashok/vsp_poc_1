@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Stretching",
-      "score": 0.9
-    },
-    {
-      "name": "Yoga",
-      "score": 0.55
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is best classified under 'Stretching' with a high confidence level because the description explicitly mentions 'stretching your hips, legs, and ankles after your run.' This is further supported by the listed workout type 'stretching' and category 'On The Mat,' indicating a floor-based routine typically involving stretching exercises. The reference to yoga blocks suggests elements of 'Yoga,' which is why it was included as a secondary category with moderate confidence. The use of yoga blocks indicates some yoga-inspired elements may be integrated, such as specific stretches or poses. However, the absence of direct mentions of yoga poses or mindfulness practices keeps the score for 'Yoga' lower. Other categories like 'Mat' were not selected due to the specific emphasis on stretching as a primary focus."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

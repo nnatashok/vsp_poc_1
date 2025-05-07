@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.7
-    },
-    {
-      "name": "Mat",
-      "score": 0.3
+      "name": "Warm-up",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.75,
-  "categoriesExplanation": "The metadata for the workout video entitled 'Gradual Warm-Up' suggests a focus on a rowing workout, as indicated by the mention of a 'gradual climb in rhythm' and the tag 'row' in the category. The workout's rhythmic music selection and format as an 'interval' session also align with a typical rowing warm-up activity, warranting a high score (0.7) for 'Indoor rowing.' This interpretation is consistent with activities typically incorporated into rowing training routines, even if explicit rowing machine use isn't directly stated.\n\nThe secondary assignment to 'Mat' with a score (0.3) reflects the workout's description as a 'warm-up' involving 'correct form,' which generally implies bodyweight movements or mobility exercises potentially performed on a mat. Although this is less directly indicated, it is a reasonable category inference based on context, especially as an alternative to rowing-dependent exercises. The confidence is moderate (0.75) mainly due to the language suggesting body movement involved in the warm-up, while the lack of explicit equipment usage details leaves room for flexible interpretation."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

@@ -2,19 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 1
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
     }
   ],
-  "techniqueDifficultyConfidence": 1.0,
-  "techniqueDifficultyExplanation": "The workout is a rowing session, which typically involves straightforward, repetitive movements requiring basic technique and coordination. The metadata mentions 'row' as the category, aligning this with the criteria for Beginner or Intermediate levels, according to Hydrow-specific rules. There are no complex movements or skills highlighted in the description, thus justifying a Beginner classification.",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is classified as 'row' which default Technique Difficulty is either Beginner or Intermediate. Given the climbing interval format, it may introduce a level of complexity slightly beyond basic rowing, but not excessively so. The mention of 'dynamic workouts' in the description suggests an emphasis on movement, which supports an Intermediate level.",
   "effortDifficulty": [
     {
       "level": "Moderate",
-      "score": 0.75
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.6
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The effort difficulty stems from the climbing intervals format, which suggests a progressive intensity. Although the workout's duration is relatively short, the climbing interval nature and a workout intensity labeled as 2 out of 3 imply added effort. The max rhythm of 30 also indicates a fair but manageable exertion level, positioning it strongly within the Moderate category.",
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The duration of 11:36 is relatively short, suggesting moderate energy expenditure. However, the format 'climb' with intervals can increase the intensity, moving it toward Challenging. The music and intensity level 2 out of 3 hint at a more vigorous effort than a typical light session, suitable for users who can handle medium effort.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

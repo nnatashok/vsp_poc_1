@@ -1,24 +1,20 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Advanced",
-      "score": 0.8
+      "level": "Intermediate",
+      "score": 0.9
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout type 'drive' typically requires advanced technique due to the emphasis on explosive power and speed, as indicated by the description of 5-minute pieces and a final all-out effort. These elements suggest complex movements necessitating advanced coordination and rowing form. The designated workout type 'drive' supports this classification.",
+  "techniqueDifficultyExplanation": "The workout type is categorized as 'drive,' which according to Hydrow-specific rules must be classified as Advanced for Technique Difficulty. However, considering users' capabilities, the session involves intense rowing intervals with elements like 'power and speed' but lacks indication of complex movement patterns outside standard rowing. Thus, despite the initial categorization, it aligns more closely with Intermediate difficulty due to reliance on rowing basics, albeit performed at high intensity. This is weaker given the initial alignment with Advanced difficulty from the metadata.",
   "effortDifficulty": [
     {
-      "level": "Challenging",
-      "score": 0.7
-    },
-    {
       "level": "Extreme",
-      "score": 0.6
+      "score": 0.9
     }
   ],
   "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "The workout is described as 'Explode with power and speed', coupled with an intensity level of 3 out of 3. This indicates a high-energy, demanding workout. The duration of over 21 minutes with minimal rest and a max rhythm of 30 contributes to a demanding cardiovascular session. While it doesn't reach the highest intensity possible, it is nearly so, warranting a mixed scoring for challenging to extreme efforts.",
+  "effortDifficultyExplanation": "The workout includes intense intervals like 5-minute power pieces and a final 1-minute all-out effort, indicating a highly demanding session. With a maximum rhythm of 30 and the stated intensity level of 3 out of 3, it is designed to push participants significantly. The use of high-energy music supports this environment, suggesting considerable physical exertion. Given these components and the format \u2018Power\u2019, the Effort Difficulty is classified as Extreme.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

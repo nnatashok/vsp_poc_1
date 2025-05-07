@@ -6,23 +6,23 @@
     },
     {
       "level": "Intermediate",
-      "score": 0.2
+      "score": 0.4
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is categorized as a 'row' under Hydrow-specific rules, limiting technique difficulty to Beginner or Intermediate. The lack of complex movements and the 'jog pace' description suggest the rowing technique required is straightforward. The pyramid format and focus on patience and resiliency slightly raise the complexity but not beyond Intermediate. Based on this, the Beginner level aligns strongly (score: 0.8) with minor alignment to Intermediate (score: 0.2).",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout primarily involves rowing, which generally falls under the 'Beginner' or 'Intermediate' category in terms of technique difficulty. The focus here is on 'a series of efforts at a jog pace' with a max rhythm of 24, indicating a lower complexity and coordination requirement that aligns well with the beginner to intermediate range. The metadata suggests that while there may be some complex breathing patterns as indicated by the 'breathe' workout type, overall, the movement complexity remains relatively low, supporting a stronger alignment with Beginner.",
   "effortDifficulty": [
     {
-      "level": "Moderate",
+      "level": "Light",
       "score": 0.7
     },
     {
-      "level": "Challenging",
-      "score": 0.3
+      "level": "Moderate",
+      "score": 0.5
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout duration of over 31 minutes at a 'jog pace' in a pyramid format suggests moderate energy expenditure. The intensity level is indicated as 1 out of 3, aligning with low-to-medium intensity efforts typical of 'Moderate' classification. Pyramid workouts typically require building and tapering effort, bumping the scale slightly towards 'Challenging'. Therefore, it's primarily moderate (score: 0.7) with some characteristics of challenging effort (score: 0.3).",
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout duration of 31:23, combined with a workout intensity level of 1 out of 3, suggests a Light effort difficulty. The description of jogging pace and the designation as a 'breathe' workout indicates a focus on controlled, rhythmic breathing and endurance rather than high intensity, reinforcing a need for moderate sustained effort. Therefore, it aligns strongly with a 'Light' effort, but also warrants consideration as 'Moderate' due to the duration and endurance involved.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

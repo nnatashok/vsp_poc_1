@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.7
+      "score": 0.8
     },
     {
       "level": "Intermediate",
-      "score": 0.3
+      "score": 0.6
     }
   ],
-  "techniqueDifficultyConfidence": 0.75,
-  "techniqueDifficultyExplanation": "The workout is categorized as 'row', which typically limits technique difficulty to Beginner or Intermediate levels. The absence of a specific instructor suggests less focus on technical coaching, reinforcing the perception of a lower complexity level. The 'sweat' type implies a focus on intensity over technical detail, supporting a primary classification of Beginner with a moderate note towards Intermediate due to the rhythm max of 30.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which typically limits Technique Difficulty to either Beginner or Intermediate. The format is a 'Climb', but rowing does not inherently require complex movements. Therefore, the score leans more towards Beginner with a strong Intermediate component due to the 'sweat' category, indicating increased intensity but not necessarily increased complexity.",
   "effortDifficulty": [
     {
       "level": "Moderate",
-      "score": 0.7
+      "score": 0.75
     },
     {
       "level": "Challenging",
-      "score": 0.3
+      "score": 0.6
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The effort difficulty is primarily moderate due to the workout's duration of 21 minutes and 30 seconds and a max rhythm of 30, aligning with higher intensity within a manageable timeframe for less fit users. The workout intensity level of '2 out of 3' suggests more effort than light workouts but not reaching extreme exertion, classifying it as mainly Moderate with a slight tendency towards Challenging.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout has a duration of 21:30 minutes with a maximum rhythm of 30, suggesting a steady pace. The 'sweat' category implies significant effort, and with an intensity level of 2 out of 3, it indicates a Moderate to Challenging effort. The playlist of popular energetic music and the format 'Climb' suggest an engaging, moderately demanding session suitable for participants with some level of fitness.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

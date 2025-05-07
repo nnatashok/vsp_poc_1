@@ -2,27 +2,23 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.6
+      "score": 0.9
     },
     {
       "level": "Intermediate",
-      "score": 0.4
-    }
-  ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which typically does not exceed an Intermediate technique difficulty level. The workout involves climbing in rhythm, which adds some complexity but remains within the realm of Beginner to Intermediate. The use of a rowing machine inherently limits complexity, aligning well with the requirement of 'Intermediate'. Hence, there's a stronger alignment with Beginner, while some aspects hint at Intermediate.",
-  "effortDifficulty": [
-    {
-      "level": "Moderate",
-      "score": 0.4
-    },
-    {
-      "level": "Challenging",
       "score": 0.6
     }
   ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized as 'row' within the standard category, which restricts the technique difficulty to at most Intermediate. The format 'climb,' which involves managing rhythm and intensity, suggests some level of coordination, but not beyond Intermediate. However, the exercises predominantly focus on rowing, generally fitting a Beginner to Intermediate technique difficulty. The workout requires rhythm adjustment, aligning with the Intermediate level, though the base rowing technique remains Beginner-level complex.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.8
+    }
+  ],
   "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The 'Sweat' category indicates an elevated effort level, supported by a workout intensity level of 2 out of 3. The 4-minute intervals at a max rhythm of 28 strokes per minute suggest a physically demanding session, adequate for a 'Challenging' effort level. However, at just over 11 minutes in duration, the overall energy expenditure might not be extreme, suggesting a moderate-to-challenging classification.",
+  "effortDifficultyExplanation": "The Effort Difficulty is influenced by the workout's duration (11:16 minutes) and the intensity level of 2 out of 3. The 4-minute interval structure, combined with a max rhythm of 28, suggests a focus on maintaining moderate intensity throughout, aligning with a Moderate effort difficulty. The 'sweat' type indicates a higher energy expenditure than 'light' but shouldn't be extremely challenging for deconditioned users, supporting a Moderate level with strong confidence.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

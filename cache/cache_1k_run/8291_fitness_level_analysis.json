@@ -6,23 +6,23 @@
     },
     {
       "level": "Intermediate",
-      "score": 0.1
+      "score": 0.5
     }
   ],
-  "techniqueDifficultyConfidence": 0.95,
-  "techniqueDifficultyExplanation": "The technique difficulty is evaluated as Beginner with strong confidence. The workoutType is categorized as 'row', which inherently suggests simpler, more accessible movement patterns typical for rowing sessions. This aligns with Hydrow's specific row classification rule where complexity is kept to a Beginner or Intermediate level. Given the stated User Fitness Level Requirement of Beginner, there's a high alignment towards Beginner. However, slight consideration is made for Intermediate due to potentially needing to maintain form over the 21-minute duration.",
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout 'Chicago Bridges Row' fits the Beginner technique difficulty primarily because it involves a standard rowing activity, which is generally straightforward and doesn't require complex movement patterns. The presence of a professional instructor with impressive credentials likely emphasizes technique, ensuring proper form even for beginners, hence slight alignment with Intermediate complexity. However, rowing itself, as indicated by the Category 'breathe,standard,row,' is simple enough for a Beginner rating to dominate.",
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.8
+      "score": 0.85
     },
     {
       "level": "Moderate",
-      "score": 0.2
+      "score": 0.5
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The effort difficulty leans towards Light based on several metadata indicators. The session duration is relatively brief at 21 minutes, and the intensity level is 1 out of 3, suggesting light exertion. With the category set as 'breathe' and maximum rhythm set at 24, this indicates a focus on maintaining a steady, comfortable pace suitable for light cardio. The 'breathe' format generally suggests focusing on endurance and steady state, rather than high-intensity effort, which classifies it primarily as Light, with some potential challenges as inferred from moderate music tempo.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout has a 'breathe' type with a duration of 21 minutes and an intensity level of 1 out of 3, indicating low energy expenditure aligned with Light effort. The rowing pace (max rhythm of 24) suggests a controlled and sustainable effort, suitable for beginners, though the duration and mild challenge of a climb format could moderately tax deconditioned users, lending some alignment with Moderate effort.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

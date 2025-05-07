@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Pilates",
-      "score": 0.9
-    },
-    {
-      "name": "Mat",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is clearly identified as 'Back Extension Pilates Challenge' within the title, explicitly mentioning 'pilates', which strongly suggests it falls under the Pilates category, garnering a high category confidence and score of 0.9. The description also reinforces this by mentioning 'pilates back extension exercise'. Furthermore, the provided category tags include 'On The Mat', explicitly indicating the workout's classification involving mat exercises, thus earning a score of 0.7 for the Mat category. The absence of additional equipment and the mention of keeping 'moving for the minute' aligns with typical Pilates practices rather than weightlifting or high-intensity exercises. The overall category confidence level is high due to direct references to pilates and mat-based exercises, leaving little ambiguity for other potential categories."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

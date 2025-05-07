@@ -6,27 +6,23 @@
     },
     {
       "level": "Intermediate",
-      "score": 0.3
+      "score": 0.6
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout format is 'Interval rowing' with a specified rhythm of 26, consistent with rowing workouts. As per our guidelines, rowing workouts' technique difficulty is capped at Intermediate. The description and lack of complex instructions further suggest Beginner technique difficulty, with no advanced rowing skills required.",
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout is categorized as a 'row', making Beginner and Intermediate the applicable levels for technique difficulty. The interval format requires some coordination and focus to maintain pace during intervals, suggesting a slight Intermediate aspect. The simplicity of rowing mechanics supports Beginner classification, with a score leaning towards Intermediate due to rhythm changes.",
   "effortDifficulty": [
     {
-      "level": "Light",
-      "score": 0.3
-    },
-    {
       "level": "Moderate",
-      "score": 0.5
+      "score": 0.7
     },
     {
       "level": "Challenging",
-      "score": 0.2
+      "score": 0.5
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout is 16 minutes long, using intervals of 3 minutes of rowing at a max rhythm of 26 followed by 2 minutes of rest, categorized under an intensity of 2 out of 3. This suggests a Moderate effort difficulty, as it\u2019s above very light and seated effort but below the high-intensity threshold. The interval format with significant rest periods allows recuperation, making it less than Challenging but more than Light.",
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout features a 'sweat' format with a rhythmic focus of intervals at a pace of 26, indicating a bit of intensity. At 16:23 minutes with 3-minute active and 2-minute rest intervals, effort is Moderate for less fit users, while the intensity level 2/3 suggests some Challenging aspects. These create an overall leaning towards Moderate effort with a component of Challenge given the interval nature.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

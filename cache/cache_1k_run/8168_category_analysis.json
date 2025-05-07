@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Mat",
-      "score": 0.6
-    },
-    {
-      "name": "Body weight",
-      "score": 0.4
+      "name": "Warm-up",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.65,
-  "categoriesExplanation": "The workout appears to focus on warming up the legs through a technique-oriented session. The title and description emphasize a 'Legs-Focused Warm-Up,' suggesting exercises targeting the legs. Without specific equipment mentioned and the categorization as 'warm-up' and 'technique,' it indicates a workout likely involving body movements performed on a mat rather than on a machine, leading to the selection of 'Mat' with a score of 0.6.\n\nWhile the mention of rowing is present, the details provided strongly suggest this is preparatory work rather than an indoor rowing session, hence excluding 'Indoor rowing.'\n\n'Body weight' is considered as a secondary category (score 0.4) since technique-based warm-ups often involve exercises using one's own body weight for mobility and activation. The absence of explicit mentions of weights, machines, or rowing machines points away from equipment-dependent categories.\n\nThe confidence level is moderate at 0.65, as the metadata lacks explicit indicators of typical mat exercises, relying instead on inference from the implied activities of a body-focused warm-up."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

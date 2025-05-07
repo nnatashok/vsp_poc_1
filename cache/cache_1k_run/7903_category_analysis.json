@@ -2,9 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The primary category for this workout is 'Indoor rowing.' This is based on explicit indicators in the metadata, such as the workout name 'Climbing Intervals Row' and the category tags 'row' and 'standard.' These clearly highlight that the workout is centered around rowing.\n\nThe workout description mentions \"three 4-minute intervals, climbing in rhythm and intensity,\" which suggests structured interval training performed on a rowing machine, further corroborating this classification. The emphasis on climbing rhythm and intensity aligns well with rowing activities, specifically indoor rowing where rhythm and pace can be closely monitored and controlled.\n\nThe intensity level is set at 2 out of 3, which matches a moderately challenging indoor rowing session. This, combined with the structured format (rhythm and climb), supports the choice of indoor rowing with a high confidence level of 0.9, as it is the defining characteristic of this workout.\n\nOther categories, such as HIIT, were not chosen despite mentions of intervals because the context and equipment indicate a rowing-specific workout rather than general high-intensity cross-training."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

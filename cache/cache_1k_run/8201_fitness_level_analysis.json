@@ -2,15 +2,15 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 1.0
+      "score": 0.6
     },
     {
       "level": "Intermediate",
-      "score": 0.8
+      "score": 0.6
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout category is 'row', which simplifies technique difficulty classification. Specifically, rowing activities tend to have a technique difficulty between Beginner and Intermediate due to the structured and rhythmic nature of the exercise, which primarily involves repetitive motions. The metadata indicates rowing along the Charles River with a format of 'Climb,' which implies a progressively challenging intensity but still aligns with Beginner to Intermediate due to the fundamental nature of rowing. The max rhythm of 30 supports a more engaging Intermediate level. Therefore, this workout comfortably fits within the Beginner and Intermediate bands, but since rowing is generally rhythmic and simpler, Beginner alignment is stronger with a score of 1.",
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout is focused on rowing, which typically involves basic to intermediate rowing techniques with minimal coordination needed, especially given the category is 'row'. However, the presence of the 'climb' format suggests a moderate complexity increase due to potential changes in rhythm and intensity. Therefore, the technique difficulty is classified as both Beginner and Intermediate with equal moderate confidence.",
   "effortDifficulty": [
     {
       "level": "Moderate",
@@ -18,11 +18,11 @@
     },
     {
       "level": "Challenging",
-      "score": 0.6
+      "score": 0.4
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout is classified as 'sweat', 'standard', and 'row', with a total duration of roughly 31 minutes and an intermediate intensity level (2 out of 3). The 'sweat' format and max rhythm of 30 suggest a continuous, moderately paced workout, likely aerobic, aligning with Moderate effort difficulty, given the energetic nature of the playlist. The climbing format implies increasing intensity over time, adding a Challenging element to less fit individuals, though this doesn't dominate the overall workout difficulty due to its predetermined pacing and endurance aspects typical of rowing. Consequently, the Moderate classification is stronger, with Challenging present but secondary.",
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout has a duration of over 30 minutes with a max rhythm of 30, suggesting a moderately sustained effort level. The 'sweat' type indicates medium intensity, aligning with moderate effort. The intensity rating of 2 out of 3 further supports a classification primarily at Moderate. Given the duration and rhythm, a Challenging level could apply for less conditioned users.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

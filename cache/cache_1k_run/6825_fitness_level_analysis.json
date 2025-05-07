@@ -2,15 +2,15 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.7
+      "score": 0.8
     },
     {
       "level": "Intermediate",
-      "score": 0.3
+      "score": 0.7
     }
   ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout is a rowing session categorized under 'Sweat, standard, row'. This indicates a primary focus on rowing activities, which generally align with the Beginner to Intermediate technique difficulty levels. The format involves 'intervals' with shifts in rhythm, suggesting that some coordination is required to maintain pace and adapt to rhythm changes, which supports a partial classification of Intermediate. However, rowing itself is a relatively straightforward exercise, especially under standard categorization, justifying a majority classification of Beginner.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row' and 'sweat', indicating rowing-based exercises, which typically fall within the Beginner to Intermediate range for Technique Difficulty. The mention of 'intervals' suggests some coordination but is not overly complex, aligning with Beginner to Intermediate levels. The presence of an Olympian instructor implies a well-structured session, potentially introducing elements that could elevate the complexity to Intermediate but not beyond, especially since the user fitness level requirement specifies Intermediate.",
   "effortDifficulty": [
     {
       "level": "Moderate",
@@ -18,11 +18,11 @@
     },
     {
       "level": "Challenging",
-      "score": 0.3
+      "score": 0.6
     }
   ],
-  "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The duration of 21 minutes and 26 seconds combined with the workout's intensity level of 2 out of 3 and the 'sweat' classification suggests a moderate level of energy expenditure and effort. The interval format with increasing rhythm indicates a moderate intensity workout, potentially challenging for less fit users over time. This aligns primarily with a Moderate effort difficulty, but the continuous rhythm increase adds a layer of challenge, warranting a partial classification of Challenging.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout duration is 21:26 minutes with intervals, implying a sustained effort which is more demanding than light exercises. The 'sweat' category and a max rhythm of 30 suggest a focus on cardiovascular endurance. The second-level intensity out of three indicates moderate to challenging effort, especially with climbing rhythms, aligning with both Moderate and Challenging levels. The dynamic nature of intervals with rhythmic climbs supports effort above light yet not reaching extreme levels.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

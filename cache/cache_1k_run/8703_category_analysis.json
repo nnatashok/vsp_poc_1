@@ -1,18 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.4
-    },
-    {
-      "name": "Yoga",
-      "score": 0.2
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout 'Technique Tips Cool-Down' is classified primarily as 'Indoor rowing' with a high confidence score of 0.9. This conclusion is drawn from the terms in the metadata such as 'rowing technique tips' and 'steady cool-down', which clearly indicate an activity involving a rowing machine. The workout is designed to encompass both physical and mental aspects of rowing, making it central to the classification. \n\nAdditionally, given the focus on 'mentality skills tips', there is a moderate possibility of incorporating breathing exercises into the routine. This is assigned a score of 0.4 as it complements the cool-down phase focusing on relaxation and mental skill while being a significant portion of physical cool-down especially in rowing.\n\nA slight attribution is made to 'Yoga' with a score of 0.2, acknowledging the mental and technique emphasis which often involves controlled movements akin to yoga principles but is not central. Other categories, such as Stretching or Meditation, were not chosen as the focus seems rather balanced rather than deeply focused on one singular practice of pure stretching or meditation techniques, aligning more with a comprehensive cool-down strategy inclusive of technique refinement."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

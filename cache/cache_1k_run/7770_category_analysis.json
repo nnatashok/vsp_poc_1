@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 1.0
-    },
-    {
-      "name": "HIIT",
-      "score": 0.8
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout titled 'Welcome to Norway Row' explicitly suggests rowing as the primary activity. The description further reinforces this by inviting participants to join rowing intervals ('1-minute intervals in Nord\u00e5svannet Bay'), which is a characteristic of Indoor Rowing workouts. 'Row' is also explicitly included in the category metadata, making 'Indoor rowing' a fitting choice with a very high confidence score of 1.0. \n\nAdditionally, the mention of '1-minute intervals' and 'Format: HIIT' indicates that the workout involves High-Intensity Interval Training, making 'HIIT' a relevant category with a high score of 0.8. The intense intervals imply a workout cycle with alternating periods of intense effort, typical of HIIT workouts. This classification excludes Yoga, Meditation, and similar categories due to the evident focus on rowing and intensity."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

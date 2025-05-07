@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "HIIT",
-      "score": 0.9
-    },
-    {
       "name": "Indoor rowing",
-      "score": 0.8
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout is classified into 'HIIT' and 'Indoor rowing' based on the provided metadata. The title 'HIIT Row' clearly suggests a combination of High-Intensity Interval Training using a rowing machine. The description mentions using '30, 45, and 60-second intervals,' which is a characteristic feature of HIIT workouts, justifying a high score of 0.9 for HIIT. Additionally, terms like 'elevate your heart rate' and 'Workout intensity level: 3 out of 3' emphasize the high-intensity aspect.\n\nThe use of the word 'row' in both the title and the description (including 'drive' and 'row' appearing in the category section) suggests the primary equipment is a rowing machine, leading to an 'Indoor rowing' classification with a score of 0.8. The workout's rhythmic focus ('Max rhythm: 32'), typical for rowing activities, supports this.\n\nAlternative categories like 'Treadmill' or 'Elliptical' were excluded due to lack of evidence, and 'Mat' or 'Body weight' are not applicable here as the workout centers on rowing."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

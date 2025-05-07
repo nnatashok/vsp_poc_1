@@ -2,15 +2,15 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.9
+      "score": 0.8
     },
     {
       "level": "Intermediate",
       "score": 0.2
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout involves steady rowing at rhythms of 22 and 26, which are basic rowing movements. Given that rowing is the primary focus and is classified under categories like 'breathe, standard, row', this aligns strongly with a Beginner technique difficulty. The move from a rhythm of 22 to 26 may require slight coordination, justifying a minimal score for Intermediate but it's primarily a beginner exercise.",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is classified under 'row,' which constrains the Technique Difficulty to Beginner or Intermediate. The metadata indicates a steady rowing routine with a rhythmic focus (max rhythm of 26), likely promoting basic rowing technique. As it targets 'Beginner' fitness levels, assigns lower complexity, albeit requiring some rhythm maintenance due to the rhythm 26 and corresponding body coordination involved, thus justifying a minor Intermediate score.",
   "effortDifficulty": [
     {
       "level": "Light",
@@ -18,11 +18,11 @@
     },
     {
       "level": "Moderate",
-      "score": 0.3
+      "score": 0.1
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout duration is relatively short, at just over 11 minutes, and falls under a 'breathe' category with an intensity level of 1 out of 3, suggesting a low physical demand. The rhythm increases slightly but remains low-impact, suitable for deconditioned users, primarily fitting a Light effort level with a slight lean into Moderate due to rhythm pacing.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout duration is 11:24 minutes with an intensity level of 1 out of 3, suggesting a low-intensity workout, consistent with a 'Breathe'-type categorization. The rhythm parameters are manageable, primarily targeting a beginner audience. Thus, the effort difficulty is predominantly Light, with a minor Moderate score due to possible cardio demands towards maintaining rhythm 26, but the short duration and lower intensity suggest very little drain on energy reserves.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

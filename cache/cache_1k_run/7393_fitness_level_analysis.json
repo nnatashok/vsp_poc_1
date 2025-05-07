@@ -9,8 +9,8 @@
       "score": 1.0
     }
   ],
-  "techniqueDifficultyConfidence": 1.0,
   "techniqueDifficultyExplanation": "Since the workout is marked as suitable for all fitness levels (Beginner, Intermediate, Advanced), the technique difficulty is considered adaptable. Movements can be scaled in complexity, and users are expected to modify techniques based on their capability. Therefore, all difficulty levels from Beginner to Expert are assigned equal suitability with a score of 1.0.",
+  "techniqueDifficultyConfidence": 1.0,
   "effortDifficulty": [
     {
       "level": "Light",
@@ -18,11 +18,11 @@
     },
     {
       "level": "Moderate",
-      "score": 0.4
+      "score": 0.3
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The video is described primarily as a short warm-up (5 minutes 52 seconds) with 'drills' and a 'power interval'. This suggests a low energy output but with a slightly increased demand due to the inclusion of intervals. Thus, the effort is rated primarily as Light, with some alignment to Moderate for less fit users due to the intermittent intensity of power intervals typical in warm-ups.",
+  "effortDifficultyExplanation": "The workout, titled as a 'warm-up,' involves technique reinforcement and power intervals. With a duration of only 5:52 minutes and the nature of warm-ups generally being lower in intensity, this places the effort difficulty as Light. The inclusion of a power interval could introduce a momentary increase in effort, justifying a small rating for Moderate. Nonetheless, the primary function is to prepare for more demanding workouts, keeping overall energy expenditure minimal.",
+  "effortDifficultyConfidence": 0.85,
   "requiredFitnessLevel": [
     {
       "level": "Beginner",
@@ -37,6 +37,6 @@
       "score": 1.0
     }
   ],
-  "requiredFitnessLevelConfidence": 1.0,
-  "requiredFitnessLevelExplanation": "Workout type 'warm-up' is not one of the specialized Hydrow categories (Breathe, Sweat, Drive, Distance). It is treated as suitable for all fitness levels."
+  "requiredFitnessLevelExplanation": "Workout type 'warm-up' is not one of the specialized Hydrow categories (Breathe, Sweat, Drive, Distance). It is treated as suitable for all fitness levels.",
+  "requiredFitnessLevelConfidence": 1.0
 }

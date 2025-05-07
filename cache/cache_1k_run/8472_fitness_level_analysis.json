@@ -13,16 +13,12 @@
   "techniqueDifficultyExplanation": "Since the workout is marked as suitable for all fitness levels (Beginner, Intermediate, Advanced), the technique difficulty is considered adaptable. Movements can be scaled in complexity, and users are expected to modify techniques based on their capability. Therefore, all difficulty levels from Beginner to Expert are assigned equal suitability with a score of 1.0.",
   "effortDifficulty": [
     {
-      "level": "Moderate",
-      "score": 0.6
-    },
-    {
       "level": "Challenging",
       "score": 0.7
     }
   ],
-  "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The 20-minute duration with circuit format and AMRAP (as many reps as possible) suggest that energy expenditure and intensity are relatively high. Plyometric exercises typically contribute to a Challenging effort level, but considering the inclusion of beginners, the workout may incorporate sufficient rest or scaled options, warranting a Moderate effort rating as well.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "With a 20-minute duration and a plyometric circuit format, this workout is likely moderately to highly intensive. The inclusion of dumbbells and multiple body parts in the workout strategy, combined with the high-energy music playlist, suggests a demanding effort. The AMRAP format with hydrow intervals targets endurance, cardiovascular fitness, and strength, pushing effort difficulty to a challenging level, especially for less conditioned users.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

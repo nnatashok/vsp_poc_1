@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout title 'Learn and Burn Row' and the max rhythm of 22 strongly indicate an 'Indoor rowing' session. The format described as 'Steady' and the use of rowing equipment further reinforce this classification, leading to a score of 0.8 for 'Indoor rowing' due to the direct and explicit association with rowing.\n\nThe workout is also labeled as 'breathe' and 'standard,row,' indicating a focus on controlled breathing alongside the rowing exercise. The intensity level of 1 out of 3 suggests a calmer, less intense workout. Given this context, 'Breathing exercises' is assigned a score of 0.6, as it complements the rowing in a manner consistent with breathing practice, though it is not the primary focus.\n\nOther categories such as 'Yoga' or 'Meditation' were not considered due to the absence of indicators related to mindfulness or meditation practices. 'Indoor rowing' remains the central component of this workout according to the metadata."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

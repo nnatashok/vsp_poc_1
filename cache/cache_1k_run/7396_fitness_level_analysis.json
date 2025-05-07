@@ -2,15 +2,15 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 1.0
+      "score": 0.8
     },
     {
       "level": "Intermediate",
-      "score": 1.0
+      "score": 0.2
     }
   ],
-  "techniqueDifficultyConfidence": 1.0,
-  "techniqueDifficultyExplanation": "Since the workout is marked as suitable for all fitness levels (Beginner, Intermediate, Advanced), the technique difficulty is considered adaptable. Movements can be scaled in complexity, and users are expected to modify techniques based on their capability. Therefore, all difficulty levels from Beginner to Expert are assigned equal suitability with a score of 1.0.",
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is titled 'Beginner Whole Body Strength,' which implies simple movements suitable for users at the beginner level. The description uses the term 'approachable,' reinforcing that exercises are straightforward with minimal complexity. As it is a bodyweight workout with no equipment, it is likely more aligned with beginner-level movements, though intermediate might apply to users due to potential multi-muscle involvement guided by an expert instructor.",
   "effortDifficulty": [
     {
       "level": "Light",
@@ -18,11 +18,11 @@
     },
     {
       "level": "Moderate",
-      "score": 0.5
+      "score": 0.2
     }
   ],
-  "effortDifficultyConfidence": 0.6,
-  "effortDifficultyExplanation": "The session is 15 minutes long, which suggests low duration and therefore limited energy expenditure, categorizing it predominantly as Light effort. Additionally, the terminology 'whole body workout' means the session could involve all major muscle groups, hinting at a Moderate effort challenge for unfit users. However, the emphasis on approachability and a Beginner target audience keeps the primary classification at the Light level, with some potential for Moderate exertion.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout has a short duration of approximately 16 minutes, indicating low energy expenditure. The term 'whole body strength' suggests low-to-medium intensity, ideal for deconditioned users. Considering the workout's beginner focus, the exertion level is predominantly 'Light,' although minimal elements of 'Moderate' effort might be present due to whole body engagement.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",
@@ -31,12 +31,8 @@
     {
       "level": "Intermediate",
       "score": 1.0
-    },
-    {
-      "level": "Advanced",
-      "score": 1.0
     }
   ],
   "requiredFitnessLevelConfidence": 1.0,
-  "requiredFitnessLevelExplanation": "Workout type 'strength' is not one of the specialized Hydrow categories (Breathe, Sweat, Drive, Distance). It is treated as suitable for all fitness levels."
+  "requiredFitnessLevelExplanation": "Workout type 'strength' is not one of the specialized Hydrow categories (Breathe, Sweat, Drive, Distance). And workout description mentiones it is meant for beginners."
 }

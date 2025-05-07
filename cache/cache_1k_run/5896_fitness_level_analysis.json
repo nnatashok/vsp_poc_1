@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.8
-    },
-    {
-      "level": "Intermediate",
-      "score": 0.2
-    }
-  ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which typically ranges from Beginner to Intermediate. Given the 'breathe' format focusing on rhythm and the simplicity implied by the 'climb' format, the movement complexity is low, aligning strongly with Beginner (0.8), with a small consideration for Intermediate (0.2) due to the rhythmic coordination required. Thus, technique remains accessible for most beginners with low entry-level skills.",
-  "effortDifficulty": [
-    {
-      "level": "Light",
       "score": 0.7
     },
     {
-      "level": "Moderate",
-      "score": 0.3
+      "level": "Intermediate",
+      "score": 0.5
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The duration of the workout is short, at 11 minutes, with a 1 out of 3 intensity level marked as 'breathe', indicating a gentle pace. This suggests the primary focus is on rhythm control rather than physical exertion, aligning well with Light difficulty (0.7). However, the 'climb' and use of rhythm coordination imply there may be slightly more exertion than the simplest workouts, allowing for a modest Moderate score (0.3).",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout category is 'row' which generally limits the technique difficulty to Beginner or Intermediate as per Hydrow-specific rules. The workout involves rhythmic climbing in rowing, but does not mention technical complexity beyond standard rowing techniques. Therefore, it aligns with Beginner to Intermediate due to the climbing rhythm component.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout is 11 minutes long and categorized as 'Breathe' with a max rhythm of 26, indicating a light to moderate intensity. The workout intensity level is 1 out of 3, which suggests a low energy expenditure suitable for deconditioned users, supported by the music selection which sets a moderate pace.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

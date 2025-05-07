@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.9
+      "score": 0.95
     },
     {
       "level": "Intermediate",
-      "score": 0.1
+      "score": 0.05
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is a rowing-based session, inherently suitable for beginners due to its repetitive and straightforward nature. The moderate rhythm and gentle climb, as mentioned in the workout description, further indicate the movements are not overly complex, aligning with the Beginner classification at score 0.9. It could marginally fit into Intermediate if the intervals demanded more precise timing, but this is speculative given the data, hence a low score of 0.1 for Intermediate.",
+  "techniqueDifficultyExplanation": "The workout type is categorized as 'row', and the description emphasizes a gentle climb with rhythm, which suggests simple rowing techniques focused on maintaining a pace rather than complex movements. 'Row' as a category typically involves repetitive, low-complexity motions, consistent with a Beginner technique level. The additional mention of rhythm may suggest a slight need for coordination, but not enough to significantly increase the difficulty to Intermediate. Therefore, Beginner is assessed with a score of 0.95, with some alignment towards Intermediate with a score of 0.05.",
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.6
+      "score": 0.9
     },
     {
       "level": "Moderate",
-      "score": 0.4
+      "score": 0.1
     }
   ],
-  "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The workout's effort difficulty is marked by a low intensity level (1 out of 3) and a relatively short duration of 21 minutes, which supports a Light level classification with a score of 0.6. The interval format and rhythm climbing could elevate physical demand slightly for unconditioned users, suggesting moderate difficulty might be appropriate in some cases, justifying a score of 0.4 for Moderate. Overall, the session remains accessible to most beginner participants, resulting in high confidence for assigned scores.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout duration is 21 minutes, which suggests a relatively brief session. The intensity level is 1 out of 3, indicating that this session is not designed to be highly strenuous. The format, 'Interval', suggests varied intensity but within a rhythmic and gentle setting as described. This matches well with a 'Light' effort difficulty, as it aligns with low energy expenditure expectations suitable for beginners. However, the nature of the interval format could introduce slight moderate efforts, which adds a small presence of 'Moderate' at 0.1.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

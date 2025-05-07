@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.95
-    },
-    {
-      "name": "HIIT",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is classified primarily as 'Indoor rowing' due to the explicit mention in the title ('Holiday Learn and Burn Row') and the category tags 'sweat' and 'row', which strongly indicate a rowing-focused session. This category receives a high score of 0.95 due to its central role and direct mention in the metadata.\n\nThe secondary category 'HIIT' is chosen based on the 'Format: Intervals' and 'Workout intensity level: 2 out of 3', which suggest elements of high-intensity interval training, albeit not the most intense form. The format implies alternating periods of exercise and rest, common in HIIT workouts. This category is given a score of 0.7 due to the clear implications of interval training in the description.\n\nOther categories, such as 'Mat' or 'Body weight', are excluded as there is no indication of mat-based exercises or bodyweight-focused training. The use of music from different holiday themes aligns with creating an engaging atmosphere rather than suggesting another workout type."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

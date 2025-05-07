@@ -13,16 +13,16 @@
   "techniqueDifficultyExplanation": "Since the workout is marked as suitable for all fitness levels (Beginner, Intermediate, Advanced), the technique difficulty is considered adaptable. Movements can be scaled in complexity, and users are expected to modify techniques based on their capability. Therefore, all difficulty levels from Beginner to Expert are assigned equal suitability with a score of 1.0.",
   "effortDifficulty": [
     {
-      "level": "Moderate",
+      "level": "Light",
       "score": 0.7
     },
     {
-      "level": "Light",
-      "score": 0.4
+      "level": "Moderate",
+      "score": 0.3
     }
   ],
   "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The yoga flow is 21 minutes long and likely consists of some sustained holds and movements that encourage flexibility and coordination. Given these characteristics, such duration at moderate intensity for deconditioned users suggests moderate effort. However, the calming music and the yoga categorization suggest it's not excessively demanding, justifying a light score.",
+  "effortDifficultyExplanation": "The workout is a 21-minute yoga flow, categorized as 'On The Mat', with music indicating a relaxed, chill vibe. This type of session typically involves controlled movements and breath control which are low-impact but can be physically engaging. Thus, the primary effort is light, suitable for less fit users, while moderate effort is represented through the duration and potential challenge of maintaining poses, common in yoga practices.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

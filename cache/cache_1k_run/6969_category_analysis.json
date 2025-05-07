@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.4
+      "name": "Warm-up",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is directly described as a warm-up for a race start, which typically involves the use of rowing techniques for competitive rowing. The title 'Race Start Warm-Up' and description indicate a specific focus on building power and quickness with an emphasis on technique ('adjusting your slide'), suggesting it involves Indoor rowing.\n\nThe category tags listed include 'row', further reinforcing the classification of Indoor rowing with high confidence (0.9).\n\nAlthough the workout is described as a warm-up, which could suggest a relaxed pace, the mention of 'building power and quickness' during 'start sequences' aligns with interval-style components often found in High-Intensity Interval Training (HIIT), although this is indicated with moderate confidence (0.4) due to the short duration and lack of explicit interval rest periods.\n\nOther potential categories like Mat, Yoga, or Stretching are excluded due to the specific rowing context and technique focus. The overall confidence level for these categories is high (0.85), given the clear context and description provided in the metadata."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

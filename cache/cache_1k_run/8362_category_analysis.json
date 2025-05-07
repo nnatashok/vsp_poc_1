@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.75,
-  "categoriesExplanation": "The primary category 'Indoor rowing' was chosen due to the use of the term 'Gratitude Row' in the title, suggesting a workout on a rowing machine. Additionally, the description mentions 'Climb in rhythm during a series of intervals,' which aligns with rowing movements, particularly the climb format indicative of increasing intensity or resistance. The presence of 'Max rhythm: 26' further implies control over rowing pace. This is scored at 0.8 for its strong implicit indication of rowing activity. The secondary category 'Breathing exercises' scores 0.6, inferred from the metadata's 'Workout Type: breathe' and descriptors like 'reflect on how you practice gratitude.' These phrases suggest an emphasis on mindfulness and breathing, fitting into relaxation or breathing exercises during the rowing intervals. Other categories such as 'HIIT' or 'Yoga' were considered but ultimately excluded due to the low intensity (1 out of 3) and lack of explicit markers for high intensity or yoga poses."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

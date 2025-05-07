@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.5
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.75,
-  "categoriesExplanation": "The title 'Consistent Effort Row' and the description explicitly indicate a rowing workout, supported by the categorization tags such as 'row'. The mention of '4 sets of 5' intervals' suggests the structure typical of an indoor rowing session. The explicit reference to maintaining 'rhythm with Mike' further aligns with rowing exercises which often emphasize rhythm and endurance. Based on these factors, this workout is classified primarily as 'Indoor rowing' with a score of 0.8 due to strong evidence in the metadata.\n\nThe 'breathe' type and 'Category: Breathe,standard,row' suggest an element of breathing exercises is incorporated, likely to pace the workout and help manage endurance; thus, 'Breathing exercises' is assigned a score of 0.5, indicating a moderate presence. While the 'Workout intensity level: 1 out of 3' suggests it is suitable for a relaxed pacing involving breathing emphasis, it does not align with a full 'Breathing exercises' class focus. Other potential categories such as 'Mat' or 'Weight workout' are excluded due to lack of evidence regarding floor exercises or use of additional weights."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

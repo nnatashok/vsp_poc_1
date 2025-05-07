@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.9
+      "score": 0.8
     },
     {
       "level": "Intermediate",
-      "score": 0.5
+      "score": 0.4
     }
   ],
-  "techniqueDifficultyConfidence": 0.85,
-  "techniqueDifficultyExplanation": "The workout is a rowing session, which, according to Hydrow-specific rules, generally falls between Beginner and Intermediate for technique difficulty. The session involves intervals with increasing rhythm from 22 to 26, suggesting slight complexity in maintaining form at higher speeds, which supports an Intermediate classification. However, it emphasizes fundamentals, aligning strongly with Beginner-level techniques. The overall confidence in this classification is high due to alignment with rowing-specific guidelines and the 'Beginner' user requirement.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "This workout is classified under the 'row' category, where technique difficulty is typically Beginner to Intermediate. The exercises involve rowing, a simple movement pattern that newcomers can readily grasp, thus justifying a strong Beginner alignment. The mention of 'fundamentals' further supports this classification, indicating a focus on basic rowing form. While the mention of interval climbing suggests a slight increase in movement coordination, it's not significant enough to elevate beyond Intermediate.",
   "effortDifficulty": [
     {
-      "level": "Light",
+      "level": "Moderate",
       "score": 0.7
     },
     {
-      "level": "Moderate",
-      "score": 0.5
+      "level": "Challenging",
+      "score": 0.3
     }
   ],
   "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout duration of about 21 minutes and low intensity level (1 out of 3) points to a Light effort difficulty classification. However, the climbing intervals (3', 2', 1' at increasing rhythm) introduce some variation, which makes it moderately demanding for complete beginners, supporting a Moderate classification as well. The inclusion of rhythm climbing adds an extra challenge, increasing the difficulty slightly beyond Light, contributing to a Moderate classification, yet mostly it remains in the Light category due to its short duration and low stated intensity.",
+  "effortDifficultyExplanation": "The workout involves intervals of varying intensity (3', 2', and 1' climbing from 22 to 26), leading to different effort levels. While the 21-minute duration and use of intervals introduce a moderate challenge, the overall intensity is rated as 1 out of 3, indicating a suitable level for less fit users. However, intervals and increased rhythm could present additional challenge, supporting moderate alignment and some elements of these classifications as moderately demanding for users with lower fitness.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout 'Effort Focused Row' is primarily an indoor rowing session as indicated by the workout name, description, and category tags. The description emphasizes maintaining a rowing rhythm with intervals, which is typical for rowing workouts. The inclusion of instructors guiding effort control further supports this as a rowing activity. With a category label of 'row' and references to split rowing and rhythm, the 'Indoor Rowing' category is assigned a high score of 0.9, indicating a central focus of the workout.\n\nThe workout type mentions 'breathe,' and the category labels also include 'breathe,' suggesting an element of breathing exercises which could be part of the effort control aspect. Although it's not the primary focus, 'Breathing exercises' is treated as a complementary aspect, hence a score of 0.6 is appropriated.\n\nOther categories such as 'Yoga,' 'Stretching,' and 'Meditation' are excluded due to the lack of related indicators such as postures, stretching techniques, or meditation cues, and the intensity level described as 1 out of 3 further indicates a focus more on rowing with controlled breathing rather than intense cardio or weight training."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

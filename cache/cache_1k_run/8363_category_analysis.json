@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Stretching",
-      "score": 0.4
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.8,
-  "categoriesExplanation": "The workout 'Glute + Hamstring Cool-Down' is clearly identified as a rowing session due to the mention of 'low rhythm strokes' and the categorization under 'row.' This suggests that it takes place on a rowing machine, which points to the 'Indoor rowing' category with high confidence and a score of 0.9. The focus on 'finding your sit bones' and 'activating through your glutes and hamstrings' aligns with technique improvement and muscle activation typically emphasized in rowing training. Additionally, the cool-down nature of this workout, coupled with the focus on muscle activation, lightly suggests elements of 'Stretching,' which typically involves muscle extension and joint mobility enhancement, meriting a lower score of 0.4. However, it is critical to distinguish between stretching and specific rowing technique drills aimed at muscle engagement while rowing slowly. Other categories like 'Yoga' or 'Meditation' were excluded due to the lack of related mindfulness or pose elements, and the clear context of the rowing format."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

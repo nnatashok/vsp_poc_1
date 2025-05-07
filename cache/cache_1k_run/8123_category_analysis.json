@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Pilates",
-      "score": 1.0
-    },
-    {
-      "name": "Mat",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The primary category chosen is 'Pilates' with a high score of 1.0, due to explicit mentions in the workout name ('Whole Body Pilates') and description ('foundational pilates structure'), which strongly indicates a focus on Pilates exercises. The description also reinforces the Pilates classification by mentioning a structured format typical of Pilates workouts. The secondary category of 'Mat' is included with a score of 0.7. The 'Category: On The Mat' tag suggests that the workout involves mat-based exercises, which aligns with typical Pilates routines that require a mat for floor exercises. While the term 'mat' is mentioned, the primary focus remains on Pilates, justifying the lower score for the 'Mat' category. The background music genre does not impact the classification of workout type."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

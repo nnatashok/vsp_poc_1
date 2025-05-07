@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is clearly identified as an Indoor rowing session based on the title \"All in One Row\" and the tags in the description mentioning 'row'. This suggests the use of a rowing machine, which aligns with the 'Indoor rowing' category. The structured interval format, evidenced by mention of '5 minutes warming up, 20 minutes at a Sweat intensity, and 5 minutes cooling down' and a 'Format: Intervals', supports the classification of HIIT, as it reflects periods of varying intensity. The presence of terms like 'Sweat intensity' and a 'Workout intensity level: 2 out of 3' indicate a focus on cardiovascular exertion, aligning with a HIIT structure. However, since the primary activity is rowing, Indoor rowing receives a higher score. The categories 'Stretching', 'Breathing exercises', and others were excluded as the content explicitly focuses on intense rowing and interval training without indications of flexibility or meditation components. The confidence in these selections is high due to explicit metadata cues."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

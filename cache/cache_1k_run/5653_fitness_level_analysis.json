@@ -13,16 +13,16 @@
   "techniqueDifficultyExplanation": "Since the workout is marked as suitable for all fitness levels (Beginner, Intermediate, Advanced), the technique difficulty is considered adaptable. Movements can be scaled in complexity, and users are expected to modify techniques based on their capability. Therefore, all difficulty levels from Beginner to Expert are assigned equal suitability with a score of 1.0.",
   "effortDifficulty": [
     {
-      "level": "Moderate",
-      "score": 0.75
+      "level": "Challenging",
+      "score": 0.8
     },
     {
-      "level": "Challenging",
-      "score": 0.4
+      "level": "Moderate",
+      "score": 0.2
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The 20-minute duration and the high-energy music choice like 'Dance mid' and 'Global Hits' indicate a heightened energy expenditure typical of HIIT workouts, leading to a Moderate (0.75) effort difficulty with a potential for being Challenging (0.4) for less fit users. The lack of long rest periods and continuous movement further supports this classification within the physical demands of HIIT.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The 'HIIT Strength' workout is described as raising your heart rate, which implies a significant level of physical exertion typical for HIIT routines. The duration of 20:38 suggests a sustained effort, especially with typical HIIT short rest periods and high intensity sets. Even for a user with lower fitness capabilities, the combination of strength focus and HIIT design positions this as particularly demanding, hence aligning strongly with a Challenging effort level (0.8). Moderate level (0.2) could apply for users already at the upper Beginner to Intermediate transition.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "HIIT",
-      "score": 0.9
-    },
-    {
       "name": "Indoor rowing",
-      "score": 0.8
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout title 'Miami Beach HIIT Row' and description emphasize a high-intensity format through \"60, 45, and 30-second intervals,\" indicating a clear HIIT workout, which is further supported by the \"Workout intensity level: 3 out of 3\" in the metadata, making HIIT the primary category with a high score of 0.9. The term 'Row' in the title and 'Category: standard,row' in the metadata strongly indicate that this is an Indoor Rowing workout, which is a central part of this activity, warranting an additional category with a strong score of 0.8. The music and duration support an energetic and intense training session, typical of HIIT with rowing elements, reducing ambiguity about the workout type. Other categories like Mat or Running are excluded due to lack of relevance to the equipment and workout style described."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

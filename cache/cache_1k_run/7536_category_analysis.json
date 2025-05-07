@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.6
-    },
-    {
-      "name": "Meditation",
-      "score": 0.8
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.65,
-  "categoriesExplanation": "The primary category inferred from the workout metadata is 'Meditation' due to the workout name 'Meditation Cool-Down' and the description that explicitly mentions a 'meditative cool-down' session. This suggests a focus on mental relaxation and mindfulness, characteristic of meditation practices. The 'Meditation' score is set at 0.8, indicating very high confidence, given the explicit language used.\n\nThe secondary category 'Indoor rowing' is derived from the category tags given in the metadata: 'cool down, standard, row.' The term 'row' suggests a link to rowing activities, even if the session takes the form of a cool-down. The format ('Steady') and mention of a 'max rhythm: 18' imply a low-intensity rowing workout possibly incorporated. The score of 0.6 reflects a moderate presence, owing to the implicit and slightly ambiguous indication of a rowing activity.\n\nOther categories such as 'Stretching' or 'Yoga' are less likely as there are no indications of these specific practices or terminologies in the metadata."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Breathing exercises",
-      "score": 0.6
-    },
-    {
-      "name": "Running",
-      "score": 0.4
+      "name": "Indoor rowing",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.65,
-  "categoriesExplanation": "The workout is designed to build an aerobic base, as indicated by the title 'Runner's Program #4 of 9' and the description 'Build your aerobic base with Laine during 3' intervals at low rhythms.' This suggests an exercise routine suited for running or running-related training, which typically involves aerobic conditioning. The mention of 'breathe' and 'aerobic base' supports the assignment to 'Breathing exercises', as breath control is integral to improving aerobic capacity, scoring 0.6 due to its strong presence in the description. However, the provided format as 'steady' and the interval duration also hint at a running-related workout, suggesting a connection to 'Running', which is scored 0.4 due to its moderate presence and relevance to the title 'Runner's Program'. The explicit references to playing tracks suitable for focused exercises with upbeat tempos align more closely with activities that could involve movement or rhythm, supporting both categories. Since there is no explicit mention or imagery to indicate rowing, rowing-related activities were not considered."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

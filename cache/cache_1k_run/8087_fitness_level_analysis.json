@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.6
+      "score": 0.8
     },
     {
       "level": "Intermediate",
-      "score": 0.8
+      "score": 0.6
     }
   ],
   "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout is centered around rowing (category: row), which involves basic to moderately complex movements. Although maintaining a rhythm at a max pace of 28 could require some coordination, the fundamental rowing technique aligns well with the Beginner to Intermediate range. Given the 'row' category and user fitness level requirement stated as 'Intermediate', the primary classification is Intermediate, supported by the interval format which incrementally increases the complexity slightly above a basic level.",
+  "techniqueDifficultyExplanation": "The workout is classified as a 'row', which generally falls into Beginner or Intermediate categories for technique difficulty. Elements such as the instructor's guidance and rowing classification suggest that it is accessible to less experienced users with practice, fitting a Beginner score of 0.8. The rhythm aspect implies some coordination, supporting an Intermediate score of 0.6.",
   "effortDifficulty": [
     {
       "level": "Moderate",
-      "score": 0.6
+      "score": 0.7
     },
     {
       "level": "Challenging",
-      "score": 0.4
+      "score": 0.5
     }
   ],
-  "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The workout lasts 21 minutes with an interval format, suggesting bouts of intense physical effort. The intensity level is marked as 2 out of 3, indicative of a moderate overall effort with moments approaching challenging. Music tempo (Indie Alternative, Global Hits) and ramping rhythm to 28 signify increased energy demands. Despite this, the overall duration and reflection on intensity suggest it remains between Moderate and Challenging for less fit users.",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout's duration of 21:22 implies moderate to challenging exertion, typical for 'sweat' workouts. The 'interval' format with a max rhythm of 28 suggests periods of intensified effort. The intensity level of 2 out of 3 denotes a Moderate effort overall, scoring 0.7. Given the interval nature which includes higher intensity periods, it justifies a Challenging score of 0.5.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.7
+      "score": 0.8
     },
     {
       "level": "Intermediate",
-      "score": 0.6
+      "score": 0.4
     }
   ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout falls under the 'row' category, which means the Technique Difficulty can be either Beginner or Intermediate. The description mentions establishing a sprint pace with varying rhythms, implying some coordination and proper rowing form is needed, supporting an Intermediate level. However, the absence of complex movements or specific technique challenges suggests a strong alignment with the Beginner level, due to the general simplicity of rowing. Hence, both Beginner and Intermediate are applicable, with a stronger inclination towards Beginner.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The exercise's description as a rowing workout inherently limits the technique difficulty to Beginner or Intermediate levels based on platform rules. The mention of 'sprint pace at varying rhythms' suggests a modest level of coordination and technique but does not exceed the Intermediate threshold. Given that rowing is a foundational exercise with generally manageable movement patterns, the workout is classified with a high confidence in Beginner technique difficulty, with a lower score for Intermediate due to varying rhythms requiring some coordination.",
   "effortDifficulty": [
     {
       "level": "Moderate",
-      "score": 0.75
+      "score": 0.7
     },
     {
       "level": "Challenging",
-      "score": 0.55
+      "score": 0.3
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout is 11 minutes long, focusing on power with a max rhythm of 28, indicative of moderate intensity due to the short duration yet power emphasis. The workout type 'sweat' and intensity level 2 out of 3, along with the mention of pace establishment, suggest it is physically demanding for novice rowers, aligning it with Moderate effort. However, the power element and potential fatigue from rowing at high rhythm introduce elements of challenge, aligning it partly with the Challenging level.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout duration of 11:18 minutes and the focus on 'sprint pace at varying rhythms' in a 'power-focused session' support a classification of Moderate effort. The session described as a 'sweat' type along with an intensity level 2 out of 3 indicates the workout is more than Light but not at a high intensity, justifying the higher weighting towards Moderate. There is some additional energy demand implied by the word 'power,' lending a lower weight for Challenging.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.7
-    },
-    {
-      "name": "Mat",
-      "score": 0.3
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.75,
-  "categoriesExplanation": "The workout video titled 'Reflective Rock Cool-Down' involves a reflective cool-down routine with a rock music playlist. The metadata indicates that this session is a cool-down with a focus on 'proper sequencing' and includes the terms 'Technique' and 'Format,' suggesting a structured form of exercise. Despite the relaxed nature of a cool-down, the mention of 'row' and 'standard' under the category indicates an 'Indoor rowing' session, albeit at a low intensity. Hence, 'Indoor rowing' is the primary category with a score of 0.7 because the metadata suggests it remains a central theme. 'Mat' is considered as a secondary category with a score of 0.3 due to the possibility of mat-related exercises being performed without the rowing machine during the cool-down, though the context suggests rowing dominates the session. The absence of specific equipment data limits category certainty, but the indication of rowing techniques supports the classification."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

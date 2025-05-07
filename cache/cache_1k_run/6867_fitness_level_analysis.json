@@ -1,24 +1,24 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Intermediate",
-      "score": 0.7
+      "level": "Advanced",
+      "score": 0.9
     }
   ],
-  "techniqueDifficultyConfidence": 0.85,
-  "techniqueDifficultyExplanation": "The workoutType 'drive' typically categorizes the workout at least as Intermediate due to its engagement of full-body coordination and technical precision required for rowing at a high resistance and tempo. The 'drive' rule is a specific designation from Hydrow indicating a higher level of technique compared to a Basic tutorial. The category is listed as 'row', which allows for a maximum technique difficulty of Intermediate. Overall, the frequent changes in tempo and the high intensity suggest a moderately demanding coordination and body awareness necessary to maintain proper rowing form throughout the intervals, leading to a strong alignment with Intermediate difficulty.",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout type 'drive' typically indicates a higher level of technique difficulty, as corroborated by the metadata specifying 'Drive' and 'standard'. Furthermore, the inclusion of sprint intervals at high intensity (e.g., 32 rhythm) suggests advanced rowing techniques, as these require precise execution for safety and effectiveness. This, combined with the classification of the user fitness level as 'Advanced', strongly supports an 'Advanced' technique difficulty rating.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.75
+      "score": 0.7
     },
     {
       "level": "Extreme",
-      "score": 0.25
+      "score": 0.6
     }
   ],
   "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout is labeled as HIIT with a rhythm max of 32, indicating a high tempo and increased cardiovascular load, making it Challenging. The short sprints and high-intensity changes suggest that it demands a significant level of cardiovascular effort and muscular endurance over a relatively short 16-minute duration. A 3 out of 3 workout intensity also signals that it is towards the upper end of effort, justifying a Challenging classification with some overlap into Extreme for less fit individuals due to the intense nature of HIIT formats.",
+  "effortDifficultyExplanation": "The HIIT format with very short, intense intervals such as 1', 40\", 20\", and 15\" indicates high physical demand, reflected in the maximum rhythm of 32. Additionally, the workout's classification with an 'intensity level 3 out of 3' further corroborates its strenuous nature. These factors contribute to a challenging to extreme effort difficulty assessment, considering the energy required for rapid pace changes and short recovery periods.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

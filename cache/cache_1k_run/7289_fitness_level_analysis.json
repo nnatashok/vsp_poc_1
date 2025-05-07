@@ -10,19 +10,19 @@
     }
   ],
   "techniqueDifficultyConfidence": 0.7,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which means the Technique Difficulty can only be rated as 'Beginner' or 'Intermediate'. With a max rhythm of 28 and a format specified as 'Climb', the coordination required does not exceed an intermediate level. However, since the user fitness level requirements specify 'Intermediate', it validates a technique difficulty slightly leaning towards both Beginner and Intermediate due to basic rowing principles involved.",
+  "techniqueDifficultyExplanation": "The workout is categorized as 'row' which typically indicates a range from Beginner to Intermediate in Technique Difficulty. The workout format involves a '4-minute on, 1-minute off' pattern, which suggests more about effort than technique. The presence of the term 'Sweat' aligns with workouts that are physically engaging but not highly technical, supporting a Beginner to Intermediate level classification.",
   "effortDifficulty": [
     {
       "level": "Moderate",
-      "score": 0.6
+      "score": 0.4
     },
     {
       "level": "Challenging",
-      "score": 0.4
+      "score": 0.6
     }
   ],
   "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout's duration is 16 minutes and 30 seconds, which combined with the intensity level 2 out of 3 and category 'sweat' indicates a higher energy expenditure typical of a moderate to challenging intensity for deconditioned individuals. The '4-minute on 1-minute off' structure is somewhat demanding for those in poor physical shape, thus a weak alignment with 'Challenging' and a stronger alignment with 'Moderate' is appropriate.",
+  "effortDifficultyExplanation": "The '4-minute on, 1-minute off' rowing pattern, combined with a workout duration of 16 minutes, indicates a considerable, yet accessible, physical challenge. The 'intensity level: 2 out of 3' suggests a higher effort expectation. The 'Climb' format, which usually involves increased intensity, supports a classification between Moderate and Challenging. Music designed to maintain high energy levels also indicates sustained effort throughout.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

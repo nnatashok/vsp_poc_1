@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Mat",
-      "score": 0.9
-    },
-    {
       "name": "Body weight",
-      "score": 0.8
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is primarily classified under 'Mat' with a score of 0.9. This is due to explicit mentions in both the workout name ('Whole Body Circuit') and the category ('On The Mat'), which indicate that the exercises are to be executed on a floor or exercise mat without additional equipment. The inclusion of exercises such as planks, ab roll-ups, squats, and prone push-ups further supports this classification. The 'Body weight' category is also applicable with a score of 0.8 because the description of exercises like push-ups and squats typically requires no equipment and relies on one's body weight for resistance. The high-intensity music genre and the workout's structured timing (45 seconds of exercise followed by 15 seconds of recovery) further highlight the dynamic and strength-based nature of the exercises, aligning well with body weight circuits done on a mat. The confidence level is high due to the specific language used in the description and the playlist, which corroborates the workout's intensity and style."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

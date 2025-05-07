@@ -1,18 +1,10 @@
 {
   "categories": [
     {
-      "name": "Breathing exercises",
-      "score": 0.7
-    },
-    {
       "name": "Yoga",
-      "score": 0.6
-    },
-    {
-      "name": "Meditation",
-      "score": 0.4
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.75,
-  "categoriesExplanation": "The selected categories are based on the explicit reference to breath focus and restoration in the metadata. The workout name 'Breath Focused Restore' and the description 'Let your breath guide your practice' strongly suggest a focus on breathing exercises, which justifies a score of 0.7 for the 'Breathing exercises' category. The associated tag 'restore', along with the playlist type 'On The Mat', implies a yoga-like practice, warranting a score of 0.6 for 'Yoga'. The 'Chill low' and 'Cool/Downtempo' music genres further support a calming, focused environment akin to yoga sessions. Lastly, the meditative aspect of controlling breath suggests a possible incorporation of meditation elements, meriting a 0.4 score for 'Meditation'. The session's short duration of 6 minutes, absence of equipment, and relaxing soundtrack align with these interpretations. Other potential categories such as 'Stretching' were excluded due to the absence of flexibility-focused keywords."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

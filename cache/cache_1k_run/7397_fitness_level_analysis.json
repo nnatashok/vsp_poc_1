@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.8
+      "score": 0.75
     },
     {
       "level": "Intermediate",
-      "score": 0.2
+      "score": 0.25
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'row', meaning it inherently includes simpler rowing movements. The 'Interval' format with rhythm up to 28 suggests maintaining consistent pace, requiring minimal advanced technique. Despite being tagged as 'Sweat', there's no indication of complex technical cues, supporting a Beginner classification with some Intermediate elements due to interval pacing.",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is a rowing ('row') workout type, which automatically restricts the technique difficulty classification to either Beginner or Intermediate. The description mentions focusing on new elements in each 2-minute interval, suggesting some level of coordination and focus is required, justifying a slight lean towards Intermediate (score 0.25) but predominantly Beginner (score 0.75) given the nature of rowing workouts.",
   "effortDifficulty": [
     {
-      "level": "Light",
-      "score": 0.4
+      "level": "Moderate",
+      "score": 0.7
     },
     {
-      "level": "Moderate",
-      "score": 0.6
+      "level": "Challenging",
+      "score": 0.3
     }
   ],
   "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "With an 11-minute session focusing on rowing intervals at a medium intensity level of 2 out of 3, the workout demands moderate physical exertion, suitable for users slightly above beginner level, thus aligning with a light to moderate classification. The relatively short duration and presence of intervals indicate some effort without excessive strain, fitting deconditioned users.",
+  "effortDifficultyExplanation": "The workout duration is relatively short at 11:19. The format is 'Interval' and the max rhythm is 28, indicating a steady moderate intensity level. The workout type is 'sweat' and intensity is marked as 2 out of 3, which implies above-light energy expenditure. While intervals are typically more demanding, they are short in duration. Thus, this workout aligns strongly with Moderate (score 0.7) but could be slightly challenging (score 0.3) for beginners due to steady effort required.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

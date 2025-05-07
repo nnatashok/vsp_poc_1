@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.75
+      "score": 0.3
     },
     {
       "level": "Intermediate",
-      "score": 0.65
+      "score": 0.7
     }
   ],
-  "techniqueDifficultyConfidence": 0.85,
-  "techniqueDifficultyExplanation": "The workout is classified under the 'row' category, which typically involves basic rowing movements. The keywords 'power and speed' suggest a focus on pacing and rhythm changes, which could elevate it to more than just beginner level. The presence of intervals implies some coordination and understanding of pacing, leaning towards Intermediate. However, due to the simplicity of rowing, Beginner classification aligns closely. Confidence is high given typical rowing simplicity and the mention of intermediate fitness level requirement.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The Sandwich Row workout fits into the 'row' category, which restricts technique difficulty to Beginner or Intermediate levels according to guidelines. The incorporation of intervals and rhythm shifts increases the complexity slightly, making it more suitable for an Intermediate technique classification, but it's not overly technical to move beyond that classification. Thus, the distribution is 0.3 for Beginner and a stronger score of 0.7 for Intermediate due to the format.",
   "effortDifficulty": [
     {
       "level": "Moderate",
-      "score": 0.7
+      "score": 0.4
     },
     {
       "level": "Challenging",
       "score": 0.6
     }
   ],
-  "effortDifficultyConfidence": 0.75,
-  "effortDifficultyExplanation": "The workout's duration of 21 minutes with 'interval' format and a focus on 'power and speed' suggests it goes beyond a Light effort. The 'sweat' and 'standard' categories, combined with an intensity of 2 out of 3, indicate a Moderate to Challenging effort. The interval nature increases overall exertion. Therefore, it fits a strong Moderate to low Challenging effort category for those in poor physical shape.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is 21:26 minutes long, which is substantial but not extensive. The format is 'interval' and 'sweat,' indicating moderate to high intensity. The maximum rhythm of 30 indicates some pace but not extremely rapid, while the instructor's presence suggests motivational guidance aiming to push limits slightly, aligning with a rating of 2 out of 3 on intensity. Therefore, the effort difficulty is primarily Challenging (0.6) with an element of Moderate (0.4), considering the general endurance requirement and energy expenditure involved.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

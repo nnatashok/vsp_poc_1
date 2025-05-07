@@ -2,19 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.8
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is classified under the 'row' category, which limits the technique difficulty to either 'Beginner' or 'Intermediate'. The metadata presents this workout as 'steady', suggesting a constant, potentially less challenging rhythm. The 'breathe' workout type implies a focus on breathing rhythm and endurance, both of which align with basic rowing technique, suitable for beginners. Additionally, the user fitness level requirement is 'Beginner', reinforcing this classification. The lack of complex technique cues further suggests a beginner-level difficulty with high confidence.",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'breathe', 'standard', and 'row', indicating low complexity movements inherent to rowing. The rhythm is set at a steady 22, suggesting an easy-to-follow technique suitable for beginners. The metadata describes the workout as building endurance rather than focusing on advanced techniques, reinforcing a beginner-friendly classification. Given the user's required fitness level is Beginner, the technique difficulty aligns with this.",
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.8
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.6
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout duration is relatively short at approximately 11 minutes, and the 'breathe' workout type suggests a lower intensity focus on breathing and steady pacing. The intensity indicator of '1 out of 3' further corroborates that this session requires minimal exertion, aligning with a 'Light' effort level. The steady state rowing at a gentle rhythm (22) is less physically demanding compared to high-intensity interval rowing styles, leading to a strong classification in the 'Light' category.",
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout's duration is 11:21, which is relatively short, and the max rhythm is a steady 22, indicating a low intensity level. The intensity is labeled as 1 out of 3, which suggests a lower energy expenditure. The use of keywords like 'breathe' and 'endurance' hints at a calm, sustained effort suitable for general cardiovascular improvement, leaning towards Light but also suitable for Moderate given the focus on endurance.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Pilates",
-      "score": 0.9
-    },
-    {
-      "name": "Mat",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is specifically labeled as 'Beginner Hip + Core Pilates' in both the title and description, making 'Pilates' the predominant category. The description emphasizes building hip and core stability, which is a core component of Pilates, justifying a score of 0.9 due to the strong alignment with Pilates principles.\n\nThe tags and descriptions such as 'On The Mat' and 'standard', along with the lack of specified equipment, suggest that the workout is performed on a mat. This supports the 'Mat' category with a score of 0.7 as it indicates the format of the workout, even though the specific Pilates focus takes precedence.\n\nThe absence of detailed intensity indicators rules out the need for a third category, and the consistency of metadata with Pilates specificity gives a high categories confidence score of 0.85."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

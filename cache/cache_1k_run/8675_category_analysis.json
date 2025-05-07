@@ -1,18 +1,10 @@
 {
   "categories": [
     {
-      "name": "Mat",
-      "score": 0.8
-    },
-    {
-      "name": "Weight workout",
-      "score": 0.7
-    },
-    {
-      "name": "Indoor rowing",
-      "score": 0.5
+      "name": "Calisthenics",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout prominently mentions 'Whole Body Circuit,' 'Total body off Hydrow with dumbbells followed by 2 minutes of rowing,' and 'Category: On The Mat,' which indicates a combination of exercises typically performed on a mat with the use of dumbbells. This suggests a strong presence of 'Mat' exercises (0.8) as the category 'On The Mat' is directly mentioned, and circuit workouts often involve exercises performed on a mat. \n\n'Weight workout' is also strongly indicated due to the explicit mention of using 'dumbbells' for part of the session, confirming exercises that incorporate resistance training (0.7). \n\n'Indoor rowing' is included with moderate confidence (0.5) because the workout includes '2 minutes of rowing,' even though it is a short segment, it specifically mentions a rowing activity which fits in the scope of indoor rowing workouts. \n\nThe workout format 'AMRAP' and the playlist featuring high-energy songs, align with a circuit training style, reinforcing the 'Mat' and 'Weight workout' categorizations. Other categories like 'HIIT,' 'Body weight,' or 'Calisthenics' were excluded as they are not explicitly mentioned or indicated by the metadata, and no clear evidence of their presence exists."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

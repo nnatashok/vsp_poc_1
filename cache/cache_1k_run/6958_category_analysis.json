@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "Stretching",
-      "score": 0.6
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.79,
-  "categoriesExplanation": "The workout is primarily classified under 'Indoor rowing' due to the metadata indicating a steady rowing session led by Sera Moon, with a specified rhythm of 22, which strongly suggests rowing exercises. The mention of 'Steadily row' in the title and description, coupled with the 'row' tag in the category field, supports the classification, thus earning a high score of 0.8.\n\n' Stretching' is also an appropriate classification due to the description 'break to stretch out your hamstrings and back,' which clearly indicates a portion of the workout is dedicated to stretching exercises. The 'cool down' type further supports a focus on flexibility and recovery, deserving a score of 0.6.\n\nOther potential categories like 'Mat' or 'Yoga' were excluded as the stretching described seems more specific to hamstrings and back, typical of non-mat focused stretching routines, which relates to post-exercise cool down rather than a full yoga session."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

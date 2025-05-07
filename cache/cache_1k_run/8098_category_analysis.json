@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout title \"Efficiency Row\" strongly indicates that this session is focused on rowing, and given the description highlights shifting rhythms and interval format, it aligns well with an 'Indoor Rowing' classification, scoring 0.9 for consistent evidence of rowing activity. The description also states the workout is interval-based (\"Shift in rhythm every 30-seconds\"), which is characteristic of 'HIIT' although the intensity level (2 out of 3) implies moderate intensity rather than extreme, so it receives a 0.6 score. The music and the 'sweat' tag support a high-energy, cardiovascular workout. The category 'Indoor Rowing' is central to the workout, while 'HIIT' although not explicitly stated as high-intensity throughout, fits due to the structure described as intervals and the overall context, aligning with the given intensity level and interval format. Other categories like Mat, Weight workout, or Pilates were excluded due to the lack of relevant indicators."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

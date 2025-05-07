@@ -14,11 +14,15 @@
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 1.0
+      "score": 0.9
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
     }
   ],
-  "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "The workout's short duration (just under 6 minutes) and its classification as a 'cool down' strongly suggest a Light effort difficulty. Cool downs are fundamentally designed to gradually lower heart rate and relax muscles, requiring minimal energy exertion. The rhythm gradually decreasing further underscores the low intensity and energy expenditure typical of a Light effort workout, aligning perfectly with the ease required for beginners or those in poor physical shape.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is a 5-minute cool-down rowing session, inherently designed to be less demanding, aligning with the 'cool down' focus. This suggests that the session is meant to decrease heart rate gradually after vigorous exercise, thus the primary effort is Light. However, it features a rhythm alteration from 22 to 18, which might prove slightly more demanding for some users, leading to consideration of a Moderate label as secondary. Therefore, the effort difficulty is primarily Light but with some aspects justifying a Moderate consideration.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

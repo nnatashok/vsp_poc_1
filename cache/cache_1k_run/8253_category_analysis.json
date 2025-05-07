@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.8
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The primary category for this workout is 'Indoor rowing' due to several explicit indicators: the workout name ('60-Second Intervals Row'), the category listing ('row'), and the use of interval training on a rowing machine. The intervals, coupled with a high rhythm and intensity level, further emphasize a structured rowing session. The presence of the term 'intervals' in both the title and description indicates a secondary category of 'HIIT' as this workout involves high-intensity interval training, evident from the description ('60-second intervals') and the high maximum rhythm (28 strokes per minute). These details, combined with a short duration typical for high-intensity intervals, strongly support the classification as a HIIT session. No other categories like 'Stretching', 'Yoga', or 'Mat' are applicable as the focus is on intensive rowing."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

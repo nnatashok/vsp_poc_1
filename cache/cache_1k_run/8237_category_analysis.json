@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Yoga",
-      "score": 0.9
-    },
-    {
-      "name": "Stretching",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout titled 'Hip-Opening Flow' and described as a gradual opening of the hips and lower back immediately suggests a Yoga session. The specific mention of 'flow' often relates to a sequence of yoga poses, indicating a dynamic form of Yoga practice, typically Vinyasa or Flow Yoga. The reference to using yoga blocks further strengthens the likelihood of this being a yoga session. Thus, Yoga is assigned a score of 0.9 due to these explicit indicators. Stretching is also relevant here, given the focus on opening the hips and lower back, which implies flexibility exercises. Since stretching is not the central theme but rather a component of the Yoga session, it receives a score of 0.7. The music genre and the playlist with titles like 'Hips Don't Lie' support a relaxed but engaging session, aligning with both Yoga and Stretching purposes. Other categories like Mat or Bodyweight are excluded due to the specificity of the Yoga cues."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

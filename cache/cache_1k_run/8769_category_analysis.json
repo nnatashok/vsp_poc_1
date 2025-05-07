@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The primary category of 'Indoor rowing' is chosen because the workout title 'Tampa Intervals Row' explicitly indicates a rowing session. The description also supports this by mentioning 'drive through your legs during intervals with James', which aligns with the mechanics of rowing exercises. The inclusion of expressions like 'Max rhythm: 30' also implies a focus on rowing cadence. The term 'intervals' suggests that the workout may incorporate elements of intensity variations, which fits the 'HIIT' category, hence it has been assigned as a secondary category with a lower score since the structure appears to be based on interval training mentioned in the description. The score for 'Indoor rowing' is set at 0.9 due to the strong and explicit indicators, while 'HIIT' receives a score of 0.7 due to the implicit association through the term 'intervals' and the description of workout type as 'sweat'. Other potential categories like 'Mat', 'Body weight', or 'Walking' are not applicable, as no indicators support them."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

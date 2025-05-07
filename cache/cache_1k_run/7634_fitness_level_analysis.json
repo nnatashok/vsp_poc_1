@@ -6,11 +6,11 @@
     },
     {
       "level": "Intermediate",
-      "score": 0.6
+      "score": 0.2
     }
   ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'row' and 'breathe', indicating a focus on rowing with controlled breathing. Rowing is generally considered a full-body workout that involves rhythmic and repetitive movements, contributing to a potential rating of Beginner. However, the pyramid format introduces variability in the intervals and rhythm (max rhythm 26), suggesting a slight increase in complexity, justifying the Intermediate level as well. Given the User Fitness Level Requirements are Beginner, the primary focus is on straightforward rowing movements.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is primarily classified under the 'row' category. According to the Hydrow-specific rule, rowing workouts have a default technique difficulty of either Beginner or Intermediate. Given that this workout is titled 'Step Pyramid Row' with focus on intervals rather than complex technique, and it aligns with a 'grade 1 intensity' out of 3, its movements are likely to be simpler favoring the Beginner level. However, the dynamic rhythm changes introduced may indicate some minor adjustments required, thus a slight consideration for Intermediate. Hence, an 80% alignment with Beginner with minor complexity noted for Intermediate at 20%.",
   "effortDifficulty": [
     {
       "level": "Light",
@@ -18,11 +18,11 @@
     },
     {
       "level": "Moderate",
-      "score": 0.5
+      "score": 0.3
     }
   ],
-  "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The workout's duration is 21 minutes, and while it is a cardio-based row, the description and intensity rating (level 1 out of 3) suggest that it's designed to be approachable for less fit users. The pyramid format with increasing rhythm adds a moderate degree of effort, but overall, the activity likely remains accessible for most beginners. The use of popular music with a 'breathe' workout type further implies a controlled, less intense session.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "This workout's duration is 21 minutes with a pyramid format, often involving intervals starting easy and building up. The workout's assigned intensity level is 1 out of 3, suggesting a lower end of intensity and energy expenditure, consistent with Light effort difficulty. However, the increase in rhythm to a max of 26 and the pyramid structure, which can be slightly demanding, align partially with a Moderate level, but with the strong Light positioning at 70%, especially for a deconditioned user.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

@@ -1,12 +1,16 @@
 {
   "techniqueDifficulty": [
     {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
       "level": "Intermediate",
-      "score": 0.8
+      "score": 0.5
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is categorized as 'row' which, according to the rules, can only have a technique difficulty of Beginner or Intermediate. Given the 'Drive' workout type is typically complex, but constrained by rowing limits, Intermediate is appropriate. This is reinforced by the variable intervals requiring coordination and timing adjustments, but not complex movements as in other fitness domains.",
+  "techniqueDifficultyExplanation": "The workout categorization as 'Drive' under Hydrow's platform rules suggests a higher level of technical complexity within the rowing focus, typically classified as Advanced. However, the metadata lacks specific indicators of complex maneuvers beyond interval rowing paced at high intensity. Hence, aligning both Beginner and Intermediate levels fits the rowing movement requirement since 'row' defaults to those levels.",
   "effortDifficulty": [
     {
       "level": "Challenging",
@@ -14,11 +18,11 @@
     },
     {
       "level": "Extreme",
-      "score": 0.4
+      "score": 0.3
     }
   ],
   "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The 21-minute duration with high-intensity intervals (45\", 30\", and 15\") and a max rhythm of 36 suggests considerable energy expenditure, consistent with Challenging. The workout's intensity being 3 out of 3 indicates a workout difficulty possibly tipping into Extreme, especially for less fit users.",
+  "effortDifficultyExplanation": "The workout duration is over 21 minutes with 15\" to 45\" intervals, and a maximal rhythm of 36 suggests high intensity. Intensity marked as 3 out of 3 and HIIT format indicate significant effort, aligning with Challenging. The structured intervals and high rhythm push towards Extreme for low fitness users, meriting lower alignment there.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

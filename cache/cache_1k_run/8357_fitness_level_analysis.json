@@ -14,11 +14,15 @@
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 1.0
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.2
     }
   ],
-  "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "The workout is a short, under 6-minute session classified as 'warm-up'. Describing it as 'instructional' with a focus on core engagement suggests a low-intensity activity suitable particularly for warming up rather than exerting a high effort level. Short duration and the purpose minimize the physical demand, aligning it very strongly with a Light effort difficulty.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is a brief 5-minute warm-up session, focusing on core engagement with rowing. As a warm-up, it's designed to lightly prepare the body with low intensity, evidenced by the short duration and categorization. Thus, it aligns strongly with a 'Light' effort difficulty, though moderate energy exertion is expected from core-specific focus, contributing to a minor moderate effort attribution.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

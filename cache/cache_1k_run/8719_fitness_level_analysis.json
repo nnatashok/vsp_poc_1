@@ -13,16 +13,16 @@
   "techniqueDifficultyExplanation": "Since the workout is marked as suitable for all fitness levels (Beginner, Intermediate, Advanced), the technique difficulty is considered adaptable. Movements can be scaled in complexity, and users are expected to modify techniques based on their capability. Therefore, all difficulty levels from Beginner to Expert are assigned equal suitability with a score of 1.0.",
   "effortDifficulty": [
     {
-      "level": "Light",
-      "score": 0.3
+      "level": "Moderate",
+      "score": 0.7
     },
     {
-      "level": "Moderate",
-      "score": 0.6
+      "level": "Challenging",
+      "score": 0.4
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "At 10 minutes and 43 seconds, this workout is relatively short in duration, contributing to a lower energy expenditure. While incorporating a rowing interval and circuit format suggests moderate exertion, the brevity of the session and equipment usage keep it aligned with Moderate effort difficulty. Thus, Moderate receives a stronger emphasis than Light due to the presence of both dumbbell exercises and rowing.",
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout features a 10-minute circuit session with dumbbells and an interval on Hydrow. This combination suggests moderate energy expenditure. The use of dumbbells and the 'circuit' format typically involves short rest periods and higher intensity, which can be moderately challenging but suitable for deconditioned users. Thus, this creates a balance between Moderate and Challenging levels, with a stronger alignment towards Moderate due to the manageable duration and mixed intensity.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

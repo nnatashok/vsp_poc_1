@@ -2,15 +2,15 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.9
+      "score": 0.7
     },
     {
       "level": "Intermediate",
-      "score": 0.1
+      "score": 0.4
     }
   ],
   "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "Given that the workout is categorized under 'row' within the Hydrow platform, the technique difficulty defaults predominantly to Beginner, as per the rule for rowing exercises. The description emphasizes generating power from the legs and holding a consistent pace, which adds a minimal level of complexity, justifying a slight score for Intermediate. However, the focus on rowing as a primary movement keeps the technique relatively simple, suitable for beginners.",
+  "techniqueDifficultyExplanation": "The workout is primarily categorized as 'row' which inherently limits the technique difficulty to Beginner or Intermediate. The description emphasizes maintaining a consistent pace and generating power from the legs, which suggests a focus on basic rowing form rather than technical complexity. The additional context of 'breathe' suggests a focus on rhythm and controlled movements, supporting a Beginner classification while hinting at some coordination elements justifying a slight overlap into Intermediate.",
   "effortDifficulty": [
     {
       "level": "Light",
@@ -18,11 +18,11 @@
     },
     {
       "level": "Moderate",
-      "score": 0.3
+      "score": 0.5
     }
   ],
-  "effortDifficultyConfidence": 0.75,
-  "effortDifficultyExplanation": "The duration of the workout is short (16 minutes and 15 seconds), and the description suggests a focus on consistent pacing rather than high intensity. With an intensity level of 1 out of 3, the workout is not overly physically demanding. While the interval format and use of terms like 'generating power' suggest some energy expenditure, the short duration and low-intensity cue align more strongly with a Light effort difficulty, but with a moderate aspect due to the rowing intervals.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout intensity level is described as 1 out of 3, supporting a Light to Moderate classification for effort difficulty. The duration of 16 minutes with an interval format implies some variability in exertion, but the focus on 'breathe' and the relatively low max rhythm of 26 indicates a manageable energy expenditure for beginners. Thus, while moderate effort may be required due to intervals, overall demand aligns better with Light or low end of Moderate effort difficulty.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

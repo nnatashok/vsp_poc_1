@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "Stretching",
-      "score": 0.2
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.7,
-  "categoriesExplanation": "The workout titled 'Reverse Climb Cool-Down' strongly indicates a rowing context due to the metadata keywords such as 'rhythm' and 'along the Charles River', which often correlates with rowing exercises on platforms emphasizing such workouts. The mention of 'max rhythm: 24', a term commonly associated with rowing strokes per minute, further supports the 'Indoor rowing' classification, which is assigned a score of 0.8. The 'cool down' context suggests a lower intensity and possibility of light stretching components to lower heart rate after a primary workout session. Therefore, 'Stretching' is assigned a score of 0.2 to accommodate this aspect. The confidence level is 0.7, indicating the analysis is based on strong implicit evidence from the metadata. Other categories like 'Mat' or 'Walking' were considered less applicable due to lack of relevant supporting details."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

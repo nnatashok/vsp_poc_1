@@ -2,15 +2,15 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.9
+      "score": 1.0
     },
     {
       "level": "Intermediate",
-      "score": 0.5
+      "score": 0.6
     }
   ],
-  "techniqueDifficultyConfidence": 0.85,
-  "techniqueDifficultyExplanation": "The workout is categorized as a 'Breathe' type with a focus on steady rowing. As per Hydrow-specific rules, rowing workouts generally align with Beginner or Intermediate levels of technique difficulty. Rhythm 22 to 24 suggests a consistent cadence without technical complexity, supporting a Beginner-level classification. However, potential need for focus on form and cadence can justify an Intermediate consideration.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', following Hydrow's rules where rowing technique difficulty is typically Beginner or Intermediate. The emphasis is on rhythm control at 22 and 24, which requires basic cadence maintenance without complex form adjustments. Beginner-level classification is strongly supported since effective rowing involves basic techniques manageable by novices. Thus, this aligns with the metadata's claim of Beginner fitness level, conferring a score of 1.0 for Beginner and 0.6 for Intermediate given the potential learning curve for absolute beginners.",
   "effortDifficulty": [
     {
       "level": "Light",
@@ -21,8 +21,8 @@
       "score": 0.5
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout is 16 minutes long, described as building cardio base with an intensity level of 1 out of 3, indicating it is not overly demanding. The moderate maximum rhythm of 24 further supports a Light to Moderate effort classification suitable for less fit users focusing on breath and endurance rather than high energy expenditure.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The 'Steady State Row' has a duration of 16:10, indicating a brief cardiovascular session. With an intensity level of 1 out of 3, it signifies a lower energy demand suitable for a light workout. However, maintaining a rhythm at 22-24 can still challenge individuals with low endurance, justifying a score of 0.5 for Moderate effort. The structure and duration lean towards being Light given the platform's breath and steady format, suggesting it as approachable for beginners who might still find elements moderately demanding. Hence, it is rated Light with a score of 0.8.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

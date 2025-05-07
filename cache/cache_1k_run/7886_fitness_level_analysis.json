@@ -1,20 +1,28 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Intermediate",
+      "level": "Beginner",
       "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout type is 'drive', which in Hydrow's classification system corresponds to a higher technique difficulty. This typically involves maintaining proper rowing form at higher intensity levels, necessitating good coordination and form. Since it is a rowing workout, the technique difficulty is capped at Intermediate as per Hydrow-specific rules.",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout type is categorized as 'Drive', which according to Hydrow-specific rules, typically indicates a higher technique complexity but remains capped at Intermediate due to the row category. The 'Rage Row' session involves 60-second intervals with a high rhythm (32+), suggesting moderate complexity in maintaining proper rowing form under high intensity, leading to an Intermediate classification. However, the 'row' category limits the classification to Beginner or Intermediate, hence a strong alignment with Beginner but also considerable alignment with Intermediate.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.9
+      "score": 0.8
+    },
+    {
+      "level": "Extreme",
+      "score": 0.6
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout includes high-intensity intervals with a maximum rhythm of 32+. The description notes a focus on intensity and effort ('let go of frustration'), indicating a significant physical demand. The intensity level is stated as 3 out of 3, with a duration of over 11 minutes focused on high-intensity rowing and minimal rest, aligning with a Challenging effort level for deconditioned users.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The session is described as high-intensity with 60-second intervals, maximum rhythm of 32+, and an intensity level marked as 3 out of 3, indicating a physically demanding workout. The duration (11:26) is relatively short but intense, typical of HIIT formats. This suggests a Challenging to Extreme effort level, as maintaining high intensity over the interval period would demand significant energy expenditure. The session's design focuses on pushing physical limits, hence the strong alignment with Challenging but considerable basis for Extreme classification as well.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

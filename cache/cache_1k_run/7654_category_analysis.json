@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Yoga",
-      "score": 1.0
-    },
-    {
-      "name": "Mat",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout is explicitly focused on core-focused poses and breath control, which aligns strongly with the characteristics of Yoga. The mention of 'Core Flow' in the title and 'flow' in the workout type suggests a sequence of movements typical in Yoga workouts, particularly those focused on fluid transitions and breath awareness, justifying a high score of 1.0 for Yoga. Additionally, the use of 'On The Mat' in the category and the suggestion of optional Yoga blocks further confirms this classification. \n\nThe secondary category, Mat, receives a moderate score of 0.6 as the workout is performed on the mat with core-focused movements, but the stronger Yoga elements are more defining. The absence of strong resistance or intense cardio elements ruled out the categories like Pilates or Body weight, despite core focus. Furthermore, the chill music selection complements a relaxed flow, consistent with Yoga and less so with more dynamic workout types."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

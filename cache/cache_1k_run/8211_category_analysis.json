@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "HIIT",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is classified under 'Indoor rowing' and 'HIIT' based on several strong indicators from the metadata. The title 'Climbing HIIT Row' and the use of terms like 'rhythm 24', 'max pace', and '1-minute sprints' clearly point to a rowing-based workout, justifying the 'Indoor rowing' category with a score of 0.8. The description explicitly states 'Format: HIIT', indicating a high-intensity interval training format characterized by intervals of intense effort (sprints) and rest or lower intensity, thus placing it in the 'HIIT' category with a score of 0.6. The workout description describes intervals with increasing rhythm intensity and a maximum rhythm of 28, consistent with HIIT practices. The lack of any equipment-specific mention other than the implied rowing machine supports 'Indoor rowing'. The workout's intensity ('3 out of 3') further aligns with the characteristics of HIIT sessions. Other categories such as 'Elliptical', 'Treadmill', or 'Running' were excluded due to the lack of relevant mentions or implications."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

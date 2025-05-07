@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is clearly indicated as an indoor rowing session with the title 'Rhythm 18 Row' and repeated references to 'row' and 'rhythm' throughout the description and tags, suggesting steady-state rowing practice. The music playlist, featuring Taylor Swift's calming tracks, aligns with the low to moderate intensity level ('1 out of 3') and supports the 'Breathing exercises' classification as 'breathe' is mentioned as a workout type. The steady rhythm at '18' and 'jogging pace' implies a controlled, endurance-focused rowing session, which enhances the indoor rowing classification. Despite the mention of 'Breathing exercises,' the workout's primary characteristic remains as an indoor rowing activity. The use of categories like 'Meditation' or 'Yoga' was excluded due to lack of content related to mindfulness or flexibility focus. 'Breathing exercises' gets a score of 0.7 due to the explicit mention of 'breathe' and low intensity, suggesting a focus on breathing control during the rowing workout."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.5
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout has been classified primarily as 'Indoor rowing' due to the references to 'row' in the category tags and the emphasis on being in rhythm in wild waters, which suggests rowing motion, although precise use of rowing machine isn't explicitly mentioned. The 'breathe' format indicated in the metadata and the workout type 'breathe' suggest a secondary emphasis on breathing, hence 'Breathing exercises' is included with a moderate score. However, the major part of the workout appears to involve maintaining rhythm, which corresponds to typical rowing workouts, supported by the rhythmic music playlist. The low intensity level (1 out of 3) and 'jog pace' suggest a more relaxed rowing session rather than stretching or meditation. 'Indoor rowing' is assigned a high score of 0.9 due to the strength of rowing-related indicators, while 'Breathing exercises' is acknowledged with a moderate score of 0.5 because of the exercise's secondary focus on breath."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

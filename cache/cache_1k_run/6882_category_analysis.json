@@ -1,18 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "Walking",
-      "score": 0.4
-    },
-    {
-      "name": "Mat",
-      "score": 0.4
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.8,
-  "categoriesExplanation": "The workout is titled 'Reverse Climb Cool-Down' and is located at the 'Port of Los Angeles,' which suggests a relaxation or cooldown phase, hence the mention of 'cool down' in the description.\n\nThe mention of 'Max rhythm: 26' and 'Format: Reverse Climb' is indicative of Indoor Rowing, as these terms are commonly used in rowing workouts to describe the stroke rate and workout format. The category 'standard,row' further confirms this, leading to a high confidence for Indoor Rowing (score: 0.8).\n\nThe phrase 'cool down' could imply a light, steady-paced activity that might also fit into Walking or Mat categories due to their slower, more relaxed characteristics. Thus, both Walking and Mat are assigned with moderate scores (0.4) due to the possibility of a light-paced workout using these options.\n\nOther categories such as HIIT, Yoga, or Stretching are unsuitable due to the emphasis on a cool-down phase rather than intense or flexibility-focused activity."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

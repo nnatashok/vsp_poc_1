@@ -2,19 +2,19 @@
   "techniqueDifficulty": [
     {
       "level": "Intermediate",
-      "score": 0.8
+      "score": 0.75
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The technique difficulty for this workout is classified as Intermediate due to the row-based format and the Drive workout type. Rowing as an exercise generally requires a certain level of coordination, especially when paired with a Drive format which is designed to push performance (as suggested by the name Drive), thus bumping it up to Intermediate. The race-like structure and rhythm variations further contribute to this classification. Rowing workouts cannot surpass Intermediate in the technique difficulty metric, ensuring compatibility with Hydrow's guidelines.",
+  "techniqueDifficultyConfidence": 1.0,
+  "techniqueDifficultyExplanation": "The workout type 'drive' falls under Hydrow's specific rules, which typically assigns an Intermediate technique difficulty for rowing workouts. The presence of intervals at a rhythm of 28-30 and the term 'race' indicates a higher complexity than basic rows. It aligns with Intermediate difficulty due to the need for rhythm maintenance and form consistency at higher intensities. Additionally, Drive explicitly categorizes it under Intermediate only and achieves high confidence from these cues.",
   "effortDifficulty": [
     {
       "level": "Challenging",
       "score": 0.8
     }
   ],
-  "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "This workout is marked with an intensity level of 3 out of 3 and involves repeating intervals at high rhythms of 28 and 30, indicating a high-intensity effort across its 16-minute duration. The short duration combined with high rhythm levels and the lack of prolonged rest suggests a high intensity that aligns with a Challenging level. The music genre and selection hint at maintaining a high tempo, reinforcing the challenging effort level intended for users who are fit, though still approachable for determined beginners with relevant motivation.",
+  "effortDifficultyConfidence": 1.0,
+  "effortDifficultyExplanation": "The workout's description and metadata highlight its demanding nature. With a 'Drive' workout type known for intense rowing and 'race' conditions, and intervals requiring high rhythm numbers (28 and 30), it suggests a high level of cardiovascular and muscular exertion. The 'Workout intensity level' is explicitly set at 3 out of 3, indicating peak effort needed, aligning this with a Challenging rating closely. The repetitive high-intensity intervals contribute to an elevated energy expenditure, thus it's categorized confidently as Challenging.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

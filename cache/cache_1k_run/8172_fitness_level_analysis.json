@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.9
+      "score": 0.8
     },
     {
       "level": "Intermediate",
-      "score": 0.1
+      "score": 0.4
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'breathe' and 'row', which implies low intensity and a focus on steady sustained movement. Rowing exercises are typically beginner to intermediate in complexity, given their repetitive nature and basic form requirements. With a max rhythm of 28 and a low intensity level, this suggests straightforward rowing technique that aligns with a beginner's ability. Therefore, Beginner level has a high alignment (0.9) with a slight possibility of Intermediate (0.1) if rhythm pacing requires enhanced coordination.",
+  "techniqueDifficultyExplanation": "The workout type is 'row', which limits the maximum possible Technique Difficulty level to Beginner or Intermediate according to Hydrow's rules. Given the description of the session being a casual cruise with a 'breathe' format, the exercise is likely to be straightforward with a focus on maintaining a relaxed pace. Therefore, it's primarily Beginner-level with some potential Intermediate movements if users choose to engage more deeply with the technique. The presence of an experienced instructor who emphasizes proper form also suggests a high degree of support for beginners, while allowing for some more coordinated rowing, hence the slight consideration for Intermediate.",
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.75
+      "score": 0.8
     },
     {
       "level": "Moderate",
-      "score": 0.25
+      "score": 0.3
     }
   ],
   "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The duration of 31 minutes and low (1 out of 3) intensity rating categorize the effort as Low to Moderate. 'Breathe' formats are typically less demanding, focusing on long, steady-state rowing. The workout is designed to maintain a gentle rhythm rather than high-intensity intervals, indicated by the music choices and the theme of 'cruise'. Thus, Light effort (0.75) and some overlap into Moderate effort (0.25) for maintaining duration without high bursts of energy.",
+  "effortDifficultyExplanation": "The workout is 31 minutes long, but it is categorized under 'breathe' and rated as a 1 out of 3 for intensity, which indicates a lower demand for effort. The 'breathe' category suggests a focus on calisthenics or less intense cardio, aligning with Light effort. However, given the session length, there may be moments requiring Moderate effort, hence a slight score for that category. The music and pace may add a small aspect of cardiovascular challenge, warranting a minor Moderate consideration.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

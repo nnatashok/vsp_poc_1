@@ -1,24 +1,24 @@
 {
   "techniqueDifficulty": [
     {
+      "level": "Beginner",
+      "score": 0.2
+    },
+    {
       "level": "Intermediate",
-      "score": 0.8
+      "score": 0.7
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is categorized as 'drive', which according to Hydrow's specific rules, dictates an 'Advanced' technique difficulty. However, given the rowing nature of the workout and the sprints, this activity aligns more closely with 'Intermediate' for typical rowing movements, especially considering the focus on driving through the legs and maintaining coordination at a high stroke rate. The high-intensity nature with a rhythm max over 30 strokes per minute further supports an 'Intermediate' categorization for most users, indicating a strong alignment.",
+  "techniqueDifficultyExplanation": "The workout type is 'row', and since it is a Drive session, it generally necessitates stronger coordination and form adherence to handle sprints effectively, thus leaning towards an Intermediate technique difficulty. Although a rowing workout could be beginner-friendly, the inclusion of sprints (90\", 60\", and 30\") increases the coordination and technique required, especially with Nick's focus on proper form, which aligns with an Intermediate level at 0.7.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.7
-    },
-    {
-      "level": "Extreme",
-      "score": 0.5
+      "score": 0.8
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout involves 90\", 60\", and 30\" high-intensity sprints, characterized by a rhythm of 30+ strokes per minute. With a duration of 31 minutes and a high intensity marked as 3 out of 3, energy expenditure would be significant, especially due to the nature of HIIT and minimal rest. While normally a rowing HIIT would clearly imply a 'Challenging' level, the description and duration imply aspects that could verge on 'Extreme', particularly for less conditioned individuals, thus sharing score attribution.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is a HIIT row format with a duration of over 30 minutes involving sprint intervals (90\", 60\", 30\") and a maximum rhythm of 30+. The workout is marked with an intensity level of 3 out of 3, suggesting it requires significant stamina and exertion, making it Challenging for most, particularly those less conditioned. This assessment aligns with a Challenging intensity due to the high-energy sprints and consistency needed throughout the 31-minute session.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

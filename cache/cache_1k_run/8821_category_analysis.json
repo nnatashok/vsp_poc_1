@@ -1,18 +1,10 @@
 {
   "categories": [
     {
-      "name": "Body weight",
-      "score": 0.7
-    },
-    {
-      "name": "Indoor rowing",
-      "score": 0.6
-    },
-    {
-      "name": "Weight workout",
-      "score": 0.6
+      "name": "Calisthenics",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is classified under `Body weight` (0.7) due to the description of a lower body and core circuit which suggests a focus on exercises that may include body weight movements. The category `Weight workout` (0.6) is also assigned because the use of dumbbells is explicitly mentioned, indicating resistance training. Additionally, `Indoor rowing` (0.6) is selected as the presence of 'Hydrow' implies the use of a rowing machine. The format described as 'EMOM' (Every Minute on the Minute) further supports the classification involving efficient, time-based strength and cardio exercises, often using equipment like dumbbells and a rowing machine, prevalent in cross-training routines. Hence, the presence of distinct elements from each category justifies their inclusion with high confidence, particularly given the emphasis on both rowing and dumbbell exercises."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

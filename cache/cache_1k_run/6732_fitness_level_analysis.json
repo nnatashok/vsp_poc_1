@@ -2,27 +2,19 @@
   "techniqueDifficulty": [
     {
       "level": "Advanced",
-      "score": 0.8
-    },
-    {
-      "level": "Expert",
-      "score": 0.2
+      "score": 0.9
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout type indicated is 'drive', which overrides the typical technique classification and suggests an advanced technique requirement. Despite being a rowing-based workout, the 'Drive' category implies challenging movements that demand proper technique and efficiency to handle HIIT-style intervals effectively. Therefore, this aligns strongly with Advanced technique difficulty (score: 0.8) and somewhat with Expert (score: 0.2) due to its complex nature, though rarely a rowing session is entirely Expert.",
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is labeled as 'Drive', which, according to Hydrow-specific rules, corresponds to an Advanced technique difficulty. The Drive format typically involves complex rowing techniques that require good coordination and skill to maintain proper form, especially at higher intensities found in HIIT workouts.",
   "effortDifficulty": [
     {
-      "level": "Challenging",
-      "score": 0.6
-    },
-    {
       "level": "Extreme",
-      "score": 0.4
+      "score": 0.85
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout lasts approximately 11 minutes and uses HIIT, which is inherently demanding due to the intense workload and minimal recovery during intervals. The maximum rhythm of 28 and intensity level 3 out of 3 indicates a very high physical demand suitable for conditioned individuals. This suggests Challenging (score: 0.6) and bordering on Extreme (score: 0.4) due to its short duration but high intensity and rhythm demands.",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout presents an Extreme effort difficulty due to the 'HIIT' format and the maximum rhythm of 28. Additionally, the workout's intensity level is rated 3 out of 3, indicating a very demanding cardiovascular session. The 90-second intervals also suggest a high-intensity, short-rest structure that significantly increases energy expenditure, especially for less fit users.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

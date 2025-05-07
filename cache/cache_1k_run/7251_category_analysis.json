@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Body weight",
-      "score": 0.9
-    },
-    {
-      "name": "Mat",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.8,
-  "categoriesExplanation": "The primary category assigned is 'Body weight' with a score of 0.9. This is due to the explicit mention of 'Bodyweight Strength' in the workout name and description, which indicates strength training exercises using only body weight as resistance. Additionally, the metadata specifies 'Workout Type: strength,' further supporting the classification as a bodyweight workout.\n\nThe secondary category assigned is 'Mat' with a score of 0.7. The mention of 'On the Mat' within the 'Category' field suggests that the exercises are performed on the floor, which typically involves a mat. However, since the focus is primarily on bodyweight strength exercises, the 'Mat' category is considered secondary.\n\nThe use of music genres like 'Dance mid' and 'Global Hits' and the playlist composed of energetic songs further imply an invigorating workout session that aligns with bodyweight exercises rather than a relaxed stretching or yoga routine. Thus, categories like 'Stretching' or 'Yoga' were excluded due to the absence of relevant indicators."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

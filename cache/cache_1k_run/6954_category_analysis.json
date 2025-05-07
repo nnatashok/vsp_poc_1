@@ -2,17 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Body weight",
-      "score": 0.4
-    },
-    {
-      "name": "HIIT",
-      "score": 0.3
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The primary category chosen is 'Indoor rowing' with a high score of 0.9. The workout is explicitly described as involving rowing with references to 'climb in rhythm' and 'row' in the tags. The format of 'climb' and rhythmic pacing suggests structured rowing intervals typically associated with indoor rowing machines. \n\nA secondary category 'Body weight' is given a moderate score of 0.4. This is due to the mention of combining cardio and strength training, which might include body weight exercises as strength training components.\n\nA tertiary category 'HIIT' is assigned a lower score of 0.3 based on the workout's description of alternating 1' and 2' pieces of exercise, a format similar to intervals. However, the intensity level of 2 out of 3 suggests it isn't fully high-intensity, supporting a lower HIIT score.\n\nOther potential categories like 'Mat', 'Weight workout', or 'Stretching' were excluded due to the lack of explicit or implied indicators in the metadata."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

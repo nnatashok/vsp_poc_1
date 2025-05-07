@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.6
-    },
-    {
-      "name": "Stretching",
-      "score": 0.4
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.75,
-  "categoriesExplanation": "The workout is centered around a 'cool-down' session 'along the Charles River,' as mentioned in the description, indicating a session typical after an exercise. Although the category 'cool down' is explicitly noted, it isn't a standalone classification per the existing schema. Since the metadata includes 'standard,row,' it suggests a connection to rowing, warranting categorization as 'Indoor rowing' with a score of 0.6, despite no explicit mention of equipment. The low rhythm of max 20 and 'Technique' as the format implies a focus on form, possibly involving light physical activity akin to stretching or mobility work, reflected in assigning a secondary score of 0.4 to 'Stretching.' No strong indicators of other workout types, such as high intensity or specific equipment, were found, which clarified category choices. The 'cool-down' nature and emphasis on proper technique downplays other high-intensity categories."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

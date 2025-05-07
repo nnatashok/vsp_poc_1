@@ -2,27 +2,23 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.75
+      "score": 0.6
     },
     {
       "level": "Intermediate",
-      "score": 0.25
+      "score": 0.4
     }
   ],
   "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout type 'sweat' under the Hydrow platform rules suggests rowing, which generally ranges from Beginner to Intermediate in technique difficulty, as rowing involves straightforward movements with minimal coordination required. The lack of any mention of advanced techniques or equipment keeps the technique complexity low. Therefore, the bulk of the classification leans towards Beginner, but the presence of a 'Climb' format and rhythm details allow for a slight elevation to Intermediate.",
+  "techniqueDifficultyExplanation": "The workout is classified under the 'row' category, which inherently limits the Technique Difficulty to either Beginner or Intermediate. The moderate rhythm (max rhythm of 26) suggests some coordination is needed but not extensively so, leading to a score slightly favoring Beginner. This aligns with the technique requirement of basic rowing, which is straightforward.",
   "effortDifficulty": [
     {
       "level": "Moderate",
       "score": 0.7
-    },
-    {
-      "level": "Challenging",
-      "score": 0.3
     }
   ],
-  "effortDifficultyConfidence": 0.75,
-  "effortDifficultyExplanation": "The workout's duration of 21 minutes and 22 seconds combined with a rhythm max of 26 indicates a moderate pace, typical for a 'sweat' workout with an intensity level of 2 out of 3. This points to a moderate energy expenditure suitable for low-to-medium levels. However, the climbing aspect and rock music playlist suggest a slight increase in intensity, thus cautiously grading part of it as Challenging.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The duration of the session is just over 21 minutes, which suggests a moderate-effort expenditure. The format 'Climb' and 'Sweat' category, alongside intensity level 2 out of 3, imply a challenging aspect but not extremely so. The rock playlist often associated with higher intensity further supports a Moderate difficulty, which is challenging enough for deconditioned users.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

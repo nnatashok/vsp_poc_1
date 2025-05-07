@@ -2,27 +2,23 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.9
-    },
-    {
-      "level": "Intermediate",
-      "score": 0.3
+      "score": 1.0
     }
   ],
-  "techniqueDifficultyConfidence": 0.85,
-  "techniqueDifficultyExplanation": "The workout is classified as 'row' under the 'breathe' and 'standard' categories, which implies straightforward rowing techniques. The metadata specifies this as beginner-friendly, typically aligning with simpler, more intuitive movements. The lack of complex cues and instructions confirms that the workout does not require coordination beyond a basic rowing technique.",
+  "techniqueDifficultyConfidence": 1.0,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which aligns with Hydrow-specific rules dictating that the technique difficulty can either be Beginner or Intermediate. The metadata explicitly describes the session as 'beginner-friendly', reinforcing a Beginner level. The session is broken into simple 5-minute segments, indicating straightforward rowing movements without complex coordination requirements.",
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.85
+      "score": 0.9
     },
     {
       "level": "Moderate",
-      "score": 0.3
+      "score": 0.4
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout is 16 minutes and 20 seconds long, broken into 5-minute segments, suggesting manageable effort intervals typical for beginners. With a max rhythm of 24 and a low intensity level of 1 out of 3, energy expenditure is low. 'Breathe' format implies a focus on steady, controlled exertion rather than high intensity.",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "At 16 minutes in total duration, the workout's 'breathe' type and intensity level 1 out of 3 suggest low energy expenditure. The segmentation into three 5-minute parts and the guiding rhythm with a max of 24 strokes per minute (a moderate pace) implies a light-to-moderate intensity. However, the description and 'beginner-friendly' label strongly support classifying it primarily as 'Light'.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

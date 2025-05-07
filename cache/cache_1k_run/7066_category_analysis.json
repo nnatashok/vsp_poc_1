@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Mat",
-      "score": 0.75
-    },
-    {
       "name": "Body weight",
-      "score": 0.65
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.7,
-  "categoriesExplanation": "The workout is named 'Whole Body Circuit' with a focus on 'lower body and core strength', indicating strength exercises that could fall under 'Body weight' given the lack of equipment specified. The categories listed include 'On The Mat', suggesting exercises performed on the ground, which fits into the 'Mat' category. The music playlist and description point towards a potentially energetic and motivating atmosphere, yet the lack of specific equipment further supports a classification as a 'Body weight' workout. While the 'Mat' category was given the highest score (0.75) owing to the activity's focus on on-mat exercises and absence of equipment, the 'Body weight' category also scores significantly strong (0.65) due to the emphasis on strength without equipment. The confidence level of 0.7 reflects a good balance of available metadata supporting these categories."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

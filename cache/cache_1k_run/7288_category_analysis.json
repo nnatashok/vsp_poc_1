@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.7
-    },
-    {
-      "name": "Stretching",
-      "score": 0.6
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.75,
-  "categoriesExplanation": "The workout is heavily associated with a rowing machine based on the description and category tags. The use of terms like 'post-row snacks' and the tag 'row' suggest that it is closely related to rowing activity, warranting the selection of the 'Indoor rowing' category with a high score of 0.7. The workout type is specified as 'cool down', and the purpose of the session is recovery, indicating activities aimed at reducing intensity and aiding muscle recovery, which aligns well with the 'Stretching' category. The score of 0.6 for 'Stretching' reflects its importance in recovery workouts. The steady rhythm and low intensity (max rhythm: 22) further support the classification, distinguishing it from high-intensity 'HIIT' or 'Body weight' workouts. There is no indication of systems specifically involving weights, machines, or Pilates, justifying the exclusion of those categories. The lack of an explicit yoga or meditative component lowers the relevance of 'Yoga' and 'Meditation', supporting the selected categories."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

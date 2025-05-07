@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The primary classification of the workout as 'Indoor rowing' is supported by the title 'Cardio Boost Row' and the metadata which includes terms like 'row' and 'interval'. These are strong indicators of a workout on a rowing machine. The score of 0.9 reflects the explicit mention of rowing and the structured interval format. Additionally, the workout references 'breathe' and 'standard' categories multiple times, along with an emphasis on 'rhythm with Dani', which suggests a breathing or rhythm-focused element to the workout, warranting a secondary classification under 'Breathing exercises'. However, the overall intensity level is 1 out of 3, indicating a gentle pace, which slightly tones down the strictly 'breathing' focus, hence the score of 0.6. Other categories such as 'Meditation' and 'Yoga' are excluded due to the specific 'row' mention and the rhythmic cardio component provided by the music playlist containing pop and global hits, enhancing the cardio aspect of the rowing workout."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

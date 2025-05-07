@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout title 'Endurance Pyramid Row' explicitly indicates that this is an indoor rowing workout, which is further supported by the 'row' category tag. The description mentions building endurance with a sustained effort and refers to the format as a 'Pyramid,' typical of structured rowing sessions. The 'max rhythm: 24' suggests pace, which aligns with rowing stroke rates. Additionally, the 'workout type: breathe' and categories 'breathe, standard, row' indicate a focus on controlled breathing, justifying the inclusion of 'Breathing exercises' as a secondary category. The intensity level of 1 out of 3 suggests a lower intensity, which might incorporate focused breathing or endurance building, supporting this inclusion. The combination of metadata elements strongly supports a primary classification as 'Indoor rowing,' with breathing exercises also being notably present."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

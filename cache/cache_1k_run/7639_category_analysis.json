@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Yoga",
-      "score": 0.9
-    },
-    {
-      "name": "Mat",
-      "score": 0.5
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout is clearly identified as a 'Beginner Yoga Flow' in both the title and description, which explicitly indicates it as a yoga workout. The use of phrases like 'beginner friendly flow' and 'Yoga blocks optional' underscores this, giving it a strong Yoga classification, with a score of 0.9 due to the explicit description.\n\nThe mention of 'flow' suggests a sequence of movements typically associated with yoga practices rather than static stretching or a focus on breathing exercises alone. The description also mentions 'On The Mat,' which indicates that the workout is performed on a mat, typical for yoga, giving it a secondary classification under 'Mat' with a score of 0.5, as it supports the yoga practice but isn't the primary focus.\n\nThe music playlist featuring chill and downtempo tracks further complements a yoga setting, enhancing the meditative, relaxed environment such workouts tend to foster.\n\nOverall, the metadata strongly supports a Yoga classification with moderate support for Mat as a secondary category."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

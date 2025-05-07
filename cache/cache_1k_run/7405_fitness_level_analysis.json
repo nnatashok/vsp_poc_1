@@ -9,8 +9,8 @@
       "score": 0.3
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "This is a rowing-based workout, which by Hydrow-specific rules limits technique difficulty to either Beginner or Intermediate. Given the 28 rhythm max and interval format, these don't necessarily increase complexity significantly beyond typical rowing movements, which occupants of both Beginner and Intermediate from a technique standpoint. Thus, it has a stronger alignment with Beginner (0.7) but acknowledges some Intermediate aspects (0.3) due to the intensity and structure perception.",
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is described under the 'row' category, which typically aligns with beginner or intermediate technique difficulty. The intervals and rhythm adjustments may require some coordination and rowing technique understanding, hence a minor consideration for intermediate. However, given that it's primarily rowing with the intent of building rhythm, the overall movements are likely beginner-friendly.",
   "effortDifficulty": [
     {
       "level": "Moderate",
@@ -22,7 +22,7 @@
     }
   ],
   "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout is 11 minutes and 29 seconds long with a format described as 'Sweat' and an intensity level of 2 out of 3. This suggests a moderate-to-challenging physical demand. The interval structure with a max rhythm of 28 implies moderate effort that could pose some challenges for deconditioned users. Given the short duration and intervals, it's more moderate than challenging, but more than light, aligning it with both Moderate (0.6) and Challenging (0.4) levels.",
+  "effortDifficultyExplanation": "The workout includes two 4-minute intervals with a max rhythm of 28, indicating a focus on sustained effort. The intensity level is marked as 2 out of 3, suggesting a medium-to-high level of exertion. Given the duration of 11:29, this aligns partially with moderate effort but the interval format and the intermediate rhythm indicate a possibility of higher intensity, thus challenging for less fit users.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

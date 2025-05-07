@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Pilates",
-      "score": 0.9
-    },
-    {
-      "name": "Stretching",
-      "score": 0.3
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The primary category assigned to this workout is Pilates, with a very high confidence level of 0.9. This classification is strongly supported by the explicit reference to 'Pilates' in both the workout name ('Post-Row Pilates') and description ('...post-row Pilates session'). The inclusion of 'On The Mat' and 'standard, on-the-mat' in the metadata further suggests mat-based exercises typically associated with Pilates. Additionally, the description mentions 'add a little stretch,' which adds a mild element of stretching to the session. As such, a secondary category of Stretching is assigned a low score of 0.3, since it seems to be a minor element within the Pilates workout, primarily focused on strength-building. Other categories were considered but not selected as there is no indication of traditional strength equipment use, intense exertion, or a focus on cardio, which would be necessary for other categories like Weight workout, HIIT, or Indoor rowing."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

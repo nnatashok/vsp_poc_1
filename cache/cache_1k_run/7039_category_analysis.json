@@ -1,18 +1,10 @@
 {
   "categories": [
     {
-      "name": "Breathing exercises",
-      "score": 0.8
-    },
-    {
       "name": "Indoor rowing",
-      "score": 0.7
-    },
-    {
-      "name": "Stretching",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.8,
-  "categoriesExplanation": "The workout titled 'Mobility + 10 Min Breathe Combo' clearly emphasizes breathing exercises, as indicated by the 'breathe' mention in both the title and workout type. This aligns with the 'Breathing exercises' category, justifying a high score of 0.8. Additionally, the description mentions moving to a Hydrow for 2-minute climbing intervals, indicating the use of a rowing machine, thus placing this workout in the 'Indoor rowing' category as well, with a score of 0.7. The initial part of the workout described as 'Open up and activate your body' suggests a focus on stretching and mobility, related to the 'Stretching' category, earning it a score of 0.6. The overall low intensity suggests that this workout is more focused on relaxation and mild body activation, which excludes more intensive categories such as HIIT or Weight workout."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

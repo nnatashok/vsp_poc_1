@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Mat",
-      "score": 0.2
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The primary category 'Indoor rowing' is chosen with high confidence due to frequent mentions of rowing-specific terminology such as 'Short Slide Row', 'leg and core connection', 'technique', and 'row'. The mention of 'Max rhythm: 30' and 'Format: Technique' further supports that this is a rowing workout focused on form and pace control. Additionally, the tags 'standard' and 'row', and the overall focus on technique solidify this classification. A high score of 0.9 is assigned to this category due to strong evidence.\n\nThe secondary category 'Mat' is considered with a low score of 0.2. Although the main focus is indoor rowing, some exercises performed on the mat might be included to enhance technique work, typically in warm-up or cool-down segments. The dance and global hits music playlist, although not directly indicative of mat exercises, suggests a dynamic session which could hypothetically include floor exercises. There is no strong evidence for stretching, meditation, or other categories, further supporting this secondary classification within this context."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

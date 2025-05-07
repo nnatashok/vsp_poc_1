@@ -1,28 +1,20 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Beginner",
-      "score": 0.6
-    },
-    {
       "level": "Intermediate",
-      "score": 1.0
+      "score": 0.8
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is categorized as a 'row' and 'drive' type, which inherently aligns with a technique difficulty level of Beginner to Intermediate. Given that this session is a 'Drive' workout on Hydrow, it is characterized by a more advanced level of rhythm and coordination, hence Intermediate technique difficulty is strongly indicated. Despite this, rowing fundamentally remains a movement accessible at the Beginner level, resulting in moderate alignment there as well.",
+  "techniqueDifficultyExplanation": "The workout type is categorized as 'Drive', which on Hydrow typically indicates a more complex execution within the rowing domain. However, being a rowing workout, the technique difficulty is inherently capped at Intermediate for non-distance categories. The presence of intervals and maximized rhythm further suggests a higher level of coordination and rhythm execution requirement, substantiating the Intermediate classification with strong confidence.",
   "effortDifficulty": [
     {
       "level": "Challenging",
       "score": 0.8
-    },
-    {
-      "level": "Extreme",
-      "score": 0.6
     }
   ],
   "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout involves 45-second high-intensity intervals with a maximum rhythm of 34, which indicates a high cardiovascular and muscular demand. The description specifies 'maximum effort,' and the intensity rating is 3 out of 3, suggesting a very demanding pace throughout the 21-minute duration. Although the duration is relatively short for Extreme classification, the high perceived exertion from the Drive format supports a Challenging to somewhat Extreme effort level.",
+  "effortDifficultyExplanation": "The workout is 21 minutes long and features a series of 45-second maximum effort intervals with a high rhythm rate of up to 34 SPM, indicating a significant energy expenditure. Labelled as 'Drive' with an intensity level of 3 out of 3, and led by a competitive Olympian coach, this suggests a demanding physical output, thus aligning strongly with a Challenging effort difficulty rating.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

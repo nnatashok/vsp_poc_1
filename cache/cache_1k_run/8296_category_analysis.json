@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Stretching",
-      "score": 1.0
-    },
-    {
-      "name": "Mat",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout is clearly classified as a 'Stretching' session based on the explicit mention of 'Hamstring Stretch' in the title and the 'stretching' tag in the workout type. The workout is focused on stretching, particularly targeting the hamstrings and lower body, which aligns directly with the 'Stretching' category, thus earning a score of 1.0 for its primary focus. Additionally, the mention of 'On The Mat' indicates that the exercises are performed on the floor, without significant equipment beyond optional supports like yoga blocks or a towel. This justifies the secondary inclusion of the 'Mat' category, with a score of 0.7, as the mat is a component, but not necessarily the central feature. High confidence in the categorization is supported by specific metadata descriptions and the absence of other fitness activities."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

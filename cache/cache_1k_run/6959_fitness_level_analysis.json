@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.9
-    },
-    {
-      "level": "Intermediate",
-      "score": 0.2
-    }
-  ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is categorized as 'row', which limits the Technique Difficulty levels to Beginner or Intermediate. The pyramid format provides a structured yet straightforward rowing experience that doesn't require advanced skills. The focus on interval training with a max rhythm of 28 suggests that some coordination is needed, but it remains accessible to beginners.",
-  "effortDifficulty": [
-    {
-      "level": "Moderate",
       "score": 0.7
     },
     {
-      "level": "Challenging",
-      "score": 0.3
+      "level": "Intermediate",
+      "score": 0.6
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout spans 21 minutes and 45 seconds and is classified under the 'sweat' category with an intensity level of 2 out of 3, indicating a more than moderate effort is required. The 5-minute pyramid intervals suggest steady intensity with periods of increased rhythm. This, combined with upbeat music, points to a Moderate to Challenging effort level.",
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout is categorized as 'row', which typically limits the Technique Difficulty to Beginner or Intermediate. Given the instructor\u2019s expertise in delivering in-depth technical details, and the structured format of a pyramid interval, some coordination and understanding of rowing form are required. However, the description does not indicate any complex movements that would exceed an Intermediate level, making both Beginner and Intermediate plausible classifications.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.65
+    },
+    {
+      "level": "Challenging",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout duration of 21:45 minutes and use of pyramid intervals at a high rhythm of 28 suggest a workout that is moderately challenging. The platform's intensity level of 2 out of 3 points toward a moderate level of sustained effort. The music choice, with high-energy dance tracks, supports a relatively energetic workout. However, given the audience's potential lower fitness levels, it may also be considered challenging for some users.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

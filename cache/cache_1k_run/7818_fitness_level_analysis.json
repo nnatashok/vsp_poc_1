@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.7
+      "score": 0.9
     },
     {
       "level": "Intermediate",
-      "score": 0.3
-    }
-  ],
-  "techniqueDifficultyConfidence": 0.75,
-  "techniqueDifficultyExplanation": "The workout is primarily classified under the 'row' category, which limits the technique difficulty to Beginner or Intermediate. Given the explicit User Fitness Level Requirement is 'Beginner,' and the workout focuses on basic rowing fundamentals with a steady rhythm of 22, the actions likely involve simple, repetitive rowing motions typically involving standard posture and movement patterns. This results in a higher score for the Beginner level, while still acknowledging some basic coordination needed for proper form, accounted with a minimal Intermediate score.",
-  "effortDifficulty": [
-    {
-      "level": "Light",
-      "score": 0.8
-    },
-    {
-      "level": "Moderate",
       "score": 0.2
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "With a workout time of 16 minutes and 24 seconds, and an intensity level of 1 out of 3, the energy demand is relatively low, suitable for beginners. Terms like 'steady' and a rhythm of 22 suggest a low-intensity session aimed at maintaining constant movement without pushing for high energy expenditure, indicative of a Light effort difficulty with a minor acknowledgement of possible Moderate effort due to the duration and full-body engagement typical of rowing.",
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is a steady row, categorized under 'breathe' with a focus on a rhythm of 22 strokes per minute. The description involves basic components of rowing, including arms, core, and legs. Given the structure of the segments, it aligns with beginner-level technique difficulty, as rowing movements are generally less complex. The inclusion of rowing fundamentals suggests simplicity. Therefore, technique difficulty strongly aligns with a Beginner level.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout duration is 16 minutes 24 seconds with an intensity level of 1 out of 3, indicating a moderate challenge. The format is steady, which typically involves maintaining a constant pace rather than high intensity. However, the inclusion of a focus on arms, core, and legs over a relatively short duration implies a moderate energy demand suitable for beginners, but might require significant effort for those with low fitness, justifying a moderate level. The challenging level is considered due to the sustained rowing activity.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

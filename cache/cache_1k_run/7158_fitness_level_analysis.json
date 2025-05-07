@@ -14,11 +14,15 @@
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 1.0
+      "score": 0.95
+    },
+    {
+      "level": "Moderate",
+      "score": 0.2
     }
   ],
-  "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "This workout is classified as a 'cool down' which inherently implies a very low level of energy expenditure and intensity. With a short duration of 5 minutes and 42 seconds, it is suitable for winding down after more intense exercises. The use of calm music genres and the focus on mindfulness suggest a serene activity level, leading to a confident classification of Light effort difficulty.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is a 5-minute cool-down, suggesting a very low energy expenditure and short duration, aligning with the 'Light' effort level. A 'Moderate' effort rating has weak alignment due to the short duration and cool-down nature, which typically involves minimal physical exertion. The activity is designed to be relaxing, not physically demanding.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

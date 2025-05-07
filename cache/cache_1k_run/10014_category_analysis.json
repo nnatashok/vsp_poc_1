@@ -1,18 +1,10 @@
 {
   "categories": [
     {
-      "name": "Weight workout",
-      "score": 0.8
-    },
-    {
-      "name": "Indoor rowing",
-      "score": 0.6
-    },
-    {
-      "name": "Mat",
-      "score": 0.4
+      "name": "Calisthenics",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout is categorized primarily as a 'Weight workout' due to the use of 'dumbbell exercises' explicitly mentioned in both the title and description. This category receives a score of 0.8 indicating a strong presence as it is a central feature of the workout. The 'Indoor rowing' category is relevant because the session involves intervals on Hydrow, a known rowing machine, which aligns with the platform's emphasis on rowing workouts, warranting a score of 0.6 for clear presence. Lastly, the workout is described as a 'circuit' and tagged under 'On The Mat', suggesting components of the workout may occur on a mat, assigning it a moderate score of 0.4. Although 'Mat' exercises suggest floor work, the primary focus seems to be on weights and rowing, thus its lower score. Other categories such as HIIT or Running are excluded as there's no high-intensity indicator or running elements mentioned."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

@@ -2,7 +2,7 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 1.0
+      "score": 0.8
     },
     {
       "level": "Intermediate",
@@ -10,19 +10,19 @@
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout type is 'row' and the format is classified as 'steady', with an intensity level of 1 out of 3, suggesting that the movements are straightforward and suitable for beginners. The absence of any technical or complex rowing technique terminology further supports a Beginner classification, though the inclusion of rowing always requires some coordination, hence an Intermediate classification also has some relevance but less strong.",
+  "techniqueDifficultyExplanation": "The workout is classified as a 'steady row', indicating a consistent, moderate pace. Hydrow's guidelines specify that rowing workouts can only be Beginner or Intermediate in Technique Difficulty. Given the emphasis on a steady rhythm and Mike's focus on community, it suggests a simple, beginner-friendly approach. Thus, Beginner scores highly, while there is mild relevance for Intermediate due to the paced structure.",
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.8
+      "score": 0.7
     },
     {
       "level": "Moderate",
-      "score": 0.3
+      "score": 0.5
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "With a workout duration of approximately 21 minutes and a maximum rhythm of 24, the effort level indicates a Light to Lower Moderate challenge. The metadata states a workout intensity of 1 out of 3, aligning with a Light effort especially suited for beginners. The 'steady' format further implies a consistent and moderate exertion without significant physical demands.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The duration of 21:22 and the 'breathe' workout type suggest a focus on sustaining a steady pace with low intensity, aligning with the instructor\u2019s focus on technique and unity. The intensity level is 1 out of 3, indicating it requires minimal physical exertion. This positions the Effort Difficulty between Light and Moderate, with a stronger alignment to Light.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

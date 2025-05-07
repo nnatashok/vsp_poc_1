@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout titled 'Origin Story: Curiosity Row' explicitly mentions rowing, indicating that it is an 'Indoor rowing' session. The description emphasizes rowing as the main activity, justifying a very high confidence (score: 0.9) for classifying it under 'Indoor rowing'. Additionally, the terms 'Max rhythm: 28' and 'Format: Intervals' indicate elements of 'HIIT', as these suggest a structured workout with varied intensity, common in interval training. The description of the intensity level as '3 out of 3' further supports this categorization, suggesting high-intensity intervals. Although the mention of 'curiosity' and the narrative component might imply a less intense or more exploratory workout, the primary activity is clearly rowing with intervals, thus 'Indoor rowing' and 'HIIT' are the most suitable categories. Other categories like 'Yoga', 'Meditation', or 'Stretching' are excluded due to the explicit focus on rowing."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

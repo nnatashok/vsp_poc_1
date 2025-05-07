@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Stretching",
-      "score": 0.5
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.8,
-  "categoriesExplanation": "The workout titled 'Connection Cool-Down' strongly indicates an Indoor Rowing session due to the explicit mention of 'connection with your Hydrow,' suggesting the use of a Hydrow rowing machine. The metadata's inclusion of terms like 'cool-down' and 'steady' also suggests a relaxed pace typical of rowing cool-downs, aligning with an Indoor Rowing classification. Therefore, Indoor Rowing receives a score of 0.9 due to its central role in the workout.\n\nThe 'cool-down' descriptor in both the title and description suggests a focus on relaxation and gradual recovery, which aligns with characteristics of Stretching. While Stretching is not explicitly mentioned, the nature of cool-downs often includes stretching elements. Thus, it is given a secondary, moderate score of 0.5.\n\nThe music is not a defining factor for either category, but it supports a relaxed vibe suitable for a cool-down. Other categories, such as Meditation or Yoga, are not applicable due to the lack of mind-body focus indicated in the description. The confidence level for these classifications is 0.8, based on explicit mentions and context clues present in the metadata."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

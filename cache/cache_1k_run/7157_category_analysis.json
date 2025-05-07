@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "Stretching",
-      "score": 0.6
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.7,
-  "categoriesExplanation": "The workout title 'Reverse Climb Cool-Down' and the description 'extended cool-down' suggest an emphasis on recovery and lowering heart rate. The mention of 'row' in the category tag implies this is related to a rowing machine, making 'Indoor rowing' a primary category with a score of 0.8, as it is central to the activity. 'Cool-down' activities typically involve elements of stretching or gentle movement, which justifies the inclusion of 'Stretching' with a score of 0.6. The workout is not high-intensity nor does it involve weight training, eliminating categories like HIIT, Weight workout, or Body weight. No indicators for Mat workouts or Pilates are present, as there is no focus on floor exercises or body alignment techniques. The confidence in categorization is high due to explicit mentioning of cool-down and rowing elements."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

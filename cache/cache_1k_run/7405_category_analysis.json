@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.8,
-  "categoriesExplanation": "The workout is clearly identified as involving rowing through explicit tags like 'Cardio Intervals Row' and 'row' in the metadata, indicating it heavily utilizes a rowing machine, leading to a high confidence score of 0.9 in the 'Indoor rowing' category. The mention of 'intervals' and 'Max rhythm: 28' suggests a structured session involving alternating periods of high and low intensity, characteristic of High-Intensity Interval Training (HIIT). The format described as 'Interval' further supports this classification. The playlist features upbeat tracks typical for motivating high-energy workouts, aligning with HIIT types, though less explicitly than rowing, thus a moderate score of 0.6 for HIIT. The use of 'sweat' and the intensity level rated 2 out of 3 points to moderate to high exertion levels but doesn't fit exclusively into any other category. This justifies excluding categories like 'Mat', 'Yoga', and others focused on flexibility or strength training without equipment."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

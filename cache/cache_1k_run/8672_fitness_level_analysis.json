@@ -1,28 +1,28 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Beginner",
-      "score": 0.2
+      "level": "Intermediate",
+      "score": 0.8
     },
     {
-      "level": "Intermediate",
-      "score": 1.0
+      "level": "Advanced",
+      "score": 0.3
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'drive', which is a Hydrow-specific classification indicating a technically demanding row, typically at least Intermediate. The use of 'drive' and a high rhythm of 32 strokes per minute further supports this categorization as requiring significant but manageable technical skill for rowers.",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "Given the workout type as 'Drive', which is classified under row workouts with standard and drive categories, the technique difficulty is either Beginner or Intermediate per Hydrow's specific rules. However, since the user fitness level requirement is 'Advanced', there is an indication of higher complexity involved that may be more aligned with the top end of Intermediate or the lower end of Advanced. Adding the high intensity and pace shown by a max rhythm of 32 ensures solid Intermediate to Advanced technique involvement.",
   "effortDifficulty": [
     {
-      "level": "Moderate",
-      "score": 0.3
+      "level": "Challenging",
+      "score": 0.8
     },
     {
-      "level": "Challenging",
-      "score": 0.7
+      "level": "Extreme",
+      "score": 0.4
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout is relatively short (11 minutes) but includes the 'drive' workout type, indicating high intensity. The intensity level of 3 out of 3 and focus on accumulating maximum meters implies a high cardiovascular and muscular output suitable for 'Challenging' effort difficulty, especially given its short duration limiting extreme classification.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is of high intensity (3 out of 3) with a demanding effort to maintain a max rhythm of 32 in a short duration of 0:11:28, suggesting consistent exertion. The focus is on accumulating maximum meters, demanding sustained power output over the duration. These factors contribute to a Challenging to Extreme effort level, especially for less fit users.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

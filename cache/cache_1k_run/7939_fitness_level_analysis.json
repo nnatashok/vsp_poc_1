@@ -2,15 +2,11 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.9
-    },
-    {
-      "level": "Intermediate",
-      "score": 0.2
+      "score": 0.8
     }
   ],
-  "techniqueDifficultyConfidence": 0.85,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which limits Technique Difficulty to Beginner or Intermediate. Given the 'breathe' workout type, it suggests a focus on rhythmic and calming movements, likely straightforward rowing strokes. The lack of specified complex movements or equipment further supports a Beginner level. There is a slight possibility for Intermediate due to the 'pyramid' format, but not enough evidence suggests significant complexity beyond basic rowing.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which according to Hydrow-specific rules, restricts Technique Difficulty to at most Intermediate. Given that the user fitness level requirement is marked as 'Beginner', this strongly indicates the exercises are designed to be accessible for users at this level. Additionally, the focus on rhythm and pyramid format is not inherently complex, supporting a Beginner classification.",
   "effortDifficulty": [
     {
       "level": "Light",
@@ -18,11 +14,11 @@
     },
     {
       "level": "Moderate",
-      "score": 0.3
+      "score": 0.4
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The 11-minute duration with a 'breathe' format and an intensity level of 1/3 points to a Light Effort Difficulty. The use of the term 'breathe' aligns with less physically demanding activity, and 'PYRAMID' refers to a gradual increase and decrease in effort, which might suggest slightly more exertion, aligning it partly with Moderate Effort. However, the short duration and low reported intensity favor a dominant Light effort classification.",
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout's intensity is rated at '1 out of 3,' suggesting it is designed to be less physically demanding. With a duration of 11:15, it is relatively short, further indicating a lower effort requirement. The pyramid format might add a slight increase in effort, but with a focus more on rhythm and fun ('two truths and a lie') rather than high intensity, the effort demand aligns more closely with Light, with moderate being a possibility for complete beginners as they progress.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

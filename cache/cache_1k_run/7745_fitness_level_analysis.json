@@ -2,11 +2,11 @@
   "techniqueDifficulty": [
     {
       "level": "Intermediate",
-      "score": 0.7
+      "score": 1.0
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout type 'drive' typically involves more advanced rowing techniques which require a good understanding of form to generate power effectively. The inclusion of 'explode with power' and 'all out effort' suggests slightly more complex movements than basic rowing, aligning with an Intermediate level, as the Hydrow-specific rule for 'drive' suggests it is Advanced by their standards, however, to account for less fit users, a high Intermediate classification is applied.",
+  "techniqueDifficultyConfidence": 1.0,
+  "techniqueDifficultyExplanation": "The workout type is classified as 'drive', which under Hydrow rules, strongly indicates a high level of technical proficiency in rowing. However, since it falls under the row category, it can only be classified up to 'Intermediate'. The title and description support this as the focus is on power and speed, typical of rowing which requires proper form but does not incorporate advanced technical complexity beyond intermediate rowing skills. Hence, 'Intermediate' is the highest applicable level here.",
   "effortDifficulty": [
     {
       "level": "Challenging",
@@ -14,11 +14,11 @@
     },
     {
       "level": "Extreme",
-      "score": 0.5
+      "score": 0.6
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout's structure involves intense 5-minute power-focused pieces with a final high-intensity 1-minute effort. The maximum rhythm of 30 and an intensity level of 3 out of 3, along with the format categorized as 'Power', indicate a high physical demand. This setup makes it Challenging, with sections potentially reaching Extreme due to sustained high exertion levels distinctive of the Drive category.",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout's intensity is marked as 3 out of 3, indicating a high-energy commitment. With a duration of over 21 minutes and a focus on powerful, explosive rowing at high rhythms, this is indicative of a high physical demand. The use of phrases like 'explode with power and speed' and 'all out for a final 1-minute effort' implies significant energy expenditure and short rest intervals, common in demanding rowing workouts. Thus, it strongly aligns with 'Challenging' but could be seen as edging into 'Extreme' based on intensity markers.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

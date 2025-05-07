@@ -1,24 +1,24 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Advanced",
-      "score": 0.8
+      "level": "Beginner",
+      "score": 0.3
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout type is classified under 'drive', which Hydrow typically designates as 'Advanced', based on the description involving explosive power, speed, and a final sprint, all requiring technical precision and coordination. Additionally, the workout intensity level is rated 3 out of 3, reflecting advanced technical demands inherent in maximizing rowing efficiency and output at high rhythm levels. The metadata description correlates with complex movement techniques associated with powerful and speedy rowing drives, solidifying the classification as Advanced with high confidence.",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is classified as a 'row,' and according to Hydrow's specific rules, the Technique Difficulty is restricted to 'Beginner' or 'Intermediate' levels. Given the 'Drive' category, which typically signifies a more powerful and technique-focused rowing, coupled with references to 'power and speed' and 'explosiveness,' I align the technique more with Intermediate due to the required coordination and body awareness. However, Beginner has minimal alignment mostly because rowing itself, as a fundamental movement, caters to broader user capabilities.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.7
-    },
-    {
-      "level": "Extreme",
-      "score": 0.6
+      "score": 0.9
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout is 21 minutes long with a focus on explosive power and speed, maximizing physical exertion. It includes high-intensity intervals with a final all-out effort, typical of workouts with a significant energy expenditure. The max rhythm of 30, coupled with a formal 'Power' format, indicates intense physical demand. The intensity level marked as 3 out of 3, further implies a high-energy, physically taxing workout. Therefore, the effort difficulty is assessed as both Challenging and Extreme with high confidence, given the combination of duration, intensity, and energy expenditure required.",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout is 21 minutes long and involves 'exploding with power and speed' during intervals, culminating with a final intense effort. The max rhythm of 30 strokes per minute and designated 'power' format suggests a significant energy expenditure. Furthermore, the intensity level is tagged as '3 out of 3,' indicating high effort, which corresponds to 'Challenging.' The music selection suggests a high-energy environment enhancing overall effort difficulty.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

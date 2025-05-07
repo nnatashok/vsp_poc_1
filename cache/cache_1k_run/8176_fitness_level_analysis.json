@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.8
+      "score": 0.85
     },
     {
       "level": "Intermediate",
-      "score": 0.5
+      "score": 0.15
     }
   ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'row' and 'breathe', suggesting a focus on rhythm and pacing over technical complexity. The sequence of rhythms (18, 22, 24) introduces some variation, but rowing generally remains a low-complexity activity.\nSince this is a row-focused workout and the drill includes maintaining specific rhythms, mastering this requires some coordination but not advanced knowledge, fitting well into Beginner and Intermediate levels. There are no complex rowing techniques indicated.\nThe title 'Low Rhythm Row' and a workout intensity of '1 out of 3' suggest the exercises are accessible to beginners, with minimal technique learning needed, aligning strongly with a Beginner rating, while still offering some intermediate challenge due to rhythm changes.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is a rowing-based session ('workoutType: breathe', 'category: row') which typically involves simple to moderately complex movement patterns. The rowing rhythm of 18-24 is manageable and doesn't demand high technical skills. Given the Beginner user requirement, it's clear the technique difficulty is primarily 'Beginner'. The 'Power' format might slightly increase coordination requirements, thus a minor alignment with 'Intermediate', but the main focus is on leg power with basic rhythms, reinforcing its beginner-friendly nature.",
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.6
+      "score": 0.75
     },
     {
       "level": "Moderate",
-      "score": 0.4
+      "score": 0.25
     }
   ],
-  "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The workout, lasting 21 minutes and 13 seconds, includes rowing at specified rhythms with a maximum rhythm of 24, suggesting a moderate pace. The term 'breathe' implies a focus on control and endurance rather than intensity, while the workout intensity level is rated '1 out of 3', reinforcing that it's not highly energy-demanding. The playlist with dance and global hits aligns with maintaining a steady, engaging pace without pushing too hard. This places the effort difficulty predominantly at the Light level but with elements of Moderate due to duration and rhythm variations.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "With an 'intensity level of 1 out of 3', this workout is classified as low intensity, aligning strongly with 'Light' effort difficulty. The duration exceeds 20 minutes, indicating prolonged activity, which slightly nudges it towards 'Moderate'. However, considering the overall low-intensity rating and lack of high-energy demands (like fast tempos or significant power requirements), it remains primarily a 'Light' effort exercise session.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

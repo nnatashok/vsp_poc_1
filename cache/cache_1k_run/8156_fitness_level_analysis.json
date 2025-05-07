@@ -1,20 +1,28 @@
 {
   "techniqueDifficulty": [
     {
+      "level": "Advanced",
+      "score": 0.7
+    },
+    {
       "level": "Intermediate",
-      "score": 0.8
+      "score": 0.5
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout falls under the 'row' category with a specific emphasis on the 'drive' type, according to Hydrow's classification, which constrains the technique difficulty to Beginner or Intermediate. However, the presence of the 'Drive' workout type, known for requiring strong, effective pulling of the handle to power the rower, entails more attention to technique than basic rowing. Given these factors, the technique difficulty is rated Intermediate with high confidence as it necessitates some coordination and understanding of rowing form.",
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'drive', which according to Hydrow's specifications, automatically requires advanced technique. The challenge involves sustaining a high rhythm (32+) with Power format, indicating a complex, structured effort that demands good coordination and body awareness. Despite being part of a rowing workout, which generally trends lower in technique difficulty, the 'drive' categorization and intensity adjustments place it between Intermediate and Advanced techniques.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.65
+      "score": 0.75
+    },
+    {
+      "level": "Extreme",
+      "score": 0.5
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "Despite the short duration of the workout (1 minute and 49 seconds), the format 'Power' and intensity level '3 out of 3' indicate a focus on maximum effort exertion. The workout involves a 'challenge for maximum meters,' which suggests a high energy output expected in a short span, characteristic of challenging workout types. Hence, the effort difficulty is classified as Challenging with high confidence, as it demands significant effort for completion.",
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout's format mentions 'Power' and involves an intense one-minute challenge at a high rhythm (32+), which significantly increases the energy expenditure. Coupled with the intensity level rated as 3 out of 3, this signifies a demanding physical challenge suitable primarily for more fit individuals. The short duration does not lower the effort difficulty due to sustained high intensity throughout, making it Challenging to Extreme.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

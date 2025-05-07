@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.8
+      "score": 0.7
     },
     {
       "level": "Intermediate",
-      "score": 0.4
+      "score": 0.3
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is based on rowing, which, according to the datasets, categorically fits within 'Beginner' or 'Intermediate' technique difficulty due to its straightforward movement pattern. The 'row' category inherently lowers complexity to either beginner or intermediate. The mention of 'negative splitting,' which involves pacing strategy, slightly increases complexity but remains intuitive enough to cap the technique at a strong beginner to moderate intermediate level.",
+  "techniqueDifficultyExplanation": "The workout type is 'row', which typically suggests simple movements restricted to the rowing machine. According to our guideline, rowing workouts can be classified as either Beginner or Intermediate in technique difficulty. The presence of phrases like \"in-depth technical detail\" might suggest Intermediate techniques, but \"feel-good\" and high-energy cues skew these towards Beginner. Therefore, there's a stronger alignment with Beginner (0.7) while acknowledging possible complexities (0.3).",
   "effortDifficulty": [
     {
       "level": "Moderate",
-      "score": 0.8
+      "score": 0.7
     },
     {
       "level": "Challenging",
-      "score": 0.4
+      "score": 0.3
     }
   ],
   "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout's effort difficulty is mainly determined by its 11-minute duration and the 'sweat' label, indicating moderate physical demand. With two 4-minute rowing intervals, it's designed to sustain effort, aligning with moderate demand. The maximum rhythm of 28 and an intensity level of 2 out of 3 suggest a slightly elevated physical demand, supporting a moderate to challenging effort classification, particularly suited to less fit users who might find prolonged effort demanding.",
+  "effortDifficultyExplanation": "The workout involves two 4-minute intervals with variations in pace, demanding a consistent effort over a short time (11:25 minutes total). The intensity level is marked as 2 out of 3, indicating moderately demanding exertion. Music selection is upbeat, aligning with a sustained moderate effort. Hence, the workout primarily aligns with a Moderate effort (0.7) due to the interval nature and duration, but can be challenging for less fit individuals (0.3).",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Stretching",
-      "score": 0.4
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The primary classification for this workout is 'Indoor rowing' due to the emphasis on the rowing technique. The description specifically mentions sequencing movements associated with rowing, such as using your feet, knees, hips, core, and shoulders, suggesting it is a technical session with low intensity intended for skill improvement. The 'cool down' label indicates a gentle pace, aligning with the relaxed rhythm of 22 as noted in the metadata. The rowing focus, coupled with the playlist choice\u2014a remix often associated with more energetic activities\u2014suggests a rhythmic but not intense activity. \n\nThe secondary classification of 'Stretching' is considered with lower confidence (score 0.4) because the workout involves technique improvement and cool-down elements, which might involve stretching movements to assist recovery, but there's limited direct evidence in the metadata. Other potential categories such as 'Meditation' or 'Yoga' were excluded due to lack of mindfulness or meditative elements in the description."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

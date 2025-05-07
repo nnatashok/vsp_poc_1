@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.6
+      "score": 0.7
     },
     {
       "level": "Intermediate",
-      "score": 0.8
+      "score": 0.6
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is labeled as 'row' which limits Technique Difficulty to either Beginner or Intermediate. The presence of intervals and climbing in rhythm indicates slightly complex movements that require coordination, aligning more with an Intermediate level. However, rowing inherently remains relatively simple, justifying Beginner consideration as well. Thus, a modest score for Beginner and a strong score for Intermediate are given based on this classification.",
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is categorized as 'row', which limits the technique difficulty to Beginner or Intermediate. The 'Climbing Intervals' format suggests some level of complexity in maintaining rhythm, which aligns well with Intermediate. The description does not mention any complex movement patterns beyond rowing, aligning with a Beginner to Intermediate range. Given the nature of rowing and the structured interval approach, the technique likely remains straightforward, but maintaining form at higher intensities during climbs could edge it towards Intermediate.",
   "effortDifficulty": [
     {
       "level": "Moderate",
-      "score": 0.75
+      "score": 0.8
     },
     {
       "level": "Challenging",
       "score": 0.5
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout is 21 minutes and includes three 4-minute intervals that climb in intensity, suggesting an increased energy expenditure. Classified under 'sweat', this implies a focus on exertion, and an intensity level of 2 out of 3 supports a higher effort demand. Hence, it is rated between Moderate and Challenging, with a stronger score for Moderate given that the intervals could be challenging for deconditioned users but are not excessively demanding by higher standards.",
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout features a 'sweat' type and involves three 4-minute rowing intervals with increasing rhythm and intensity. This suggests a Moderate effort level since the energy expenditure would be higher due to the intensity increases. The intensity level is 2 out of 3, indicating it can be moderately challenging, particularly for deconditioned users. The 21:32 duration also supports a moderate effort classification. The combination of intensity and duration suggests a Moderate with some Challenging aspects.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

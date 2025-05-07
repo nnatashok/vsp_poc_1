@@ -14,11 +14,15 @@
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.95
+      "score": 0.9
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
     }
   ],
   "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "The duration of the workout is a short 5 minutes and 39 seconds, typical for a cool-down session, indicating light physical demand. Cool-downs are generally low intensity, focusing more on reducing heart rate and stretching than on vigorous activity. The metadata supports a primary classification of 'Light' effort difficulty with a high score of 0.95, as it would not exert significant energy demands on the user.",
+  "effortDifficultyExplanation": "The workout is a 5:39 minute cool-down primarily focused on technique with no mention of high intensity or vigorous activity. This aligns strongly with the Light level in Effort Difficulty as cool downs are designed to be less demanding and suitable for active recovery. Some slight engagement from rowing strokes could justify a minimal Moderate score, but overall this is predominantly a Light effort workout.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

@@ -6,23 +6,23 @@
     },
     {
       "level": "Intermediate",
-      "score": 0.3
+      "score": 0.2
     }
   ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which typically indicates Beginner or Intermediate technique difficulty. The use of 'breathe, standard, row' suggests a focus on steady rhythm and basic rowing form, suitable for beginners. The 'maintain consistent split' instruction implies some attention to form but not beyond basic capabilities. Thus, strong alignment with Beginner (0.9) with moderate signals for Intermediate (0.3).",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is classified under the 'row' category, which means the exercise movements are primarily rowing-based. As per the Hydrow-specific rule, \ufffdrowing workouts are either Beginner or Intermediate in technique difficulty. The consistent split and rhythm provided (max of 26) suggest a focus on maintaining a steady technique but it's not particularly complex. The presence of an experienced instructor might elevate slight complexity, but overall, it's straightforward enough for a Beginner. Hence, the scores reflect a strong alignment with Beginner (0.9) and a weak alignment with Intermediate (0.2).",
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.8
+      "score": 0.7
     },
     {
       "level": "Moderate",
-      "score": 0.5
+      "score": 0.3
     }
   ],
-  "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The workout has an intensity level of 1 out of 3, which indicates low energy expenditure, aligning strongly with Light effort difficulty (0.8). The 21-minute interval format suggests some level of stamina is required, warranting moderate alignment (0.5) with the Moderate level due to consistent rowing sections.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout lasts 21 minutes and is aimed at maintaining a consistent split in rowing, marked with an intensity level of 1 out of 3, which indicates it's designed to be less physically demanding. The use of music suggests a gentle pacing. The duration and interval format may introduce mild challenges, but the overall low intensity rating suggests light primary activity with some elements of moderate exertion. Thus, Light has a score of 0.7 and Moderate a score of 0.3.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

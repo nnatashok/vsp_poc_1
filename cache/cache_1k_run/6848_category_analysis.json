@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Yoga",
-      "score": 0.9
-    },
-    {
-      "name": "Mat",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout name 'Welcome to LA Power Flow' and the description indicate a 'power flow', which is strongly associated with a dynamic style of Yoga involving energizing sequences. This is supported by the use of the word 'flow', which is commonly linked to yoga practices. Additionally, the category 'On The Mat' suggests that the workout involves mat-based exercises, further indicating a yoga or pilates context. The description mentions it is performed on the mat, reinforcing this categorization.\n\nThe music playlist consisting of chill and downtempo tracks complements the atmosphere typical of a yoga session, emphasizing a flowing and controlled environment. The lack of specific fitness equipment further supports the assumption of a yoga practice.\n\nThe assigned scores reflect high confidence in the Yoga classification (0.9) due to its central role in the description and moderate confidence in Mat (0.7) due to its relevance but secondary role compared to the highlighted yoga flow."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

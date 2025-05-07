@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 1.0
-    },
-    {
-      "level": "Intermediate",
-      "score": 1.0
-    }
-  ],
-  "techniqueDifficultyConfidence": 1.0,
-  "techniqueDifficultyExplanation": "Since the workout is marked as suitable for all fitness levels (Beginner, Intermediate, Advanced), the technique difficulty is considered adaptable. Movements can be scaled in complexity, and users are expected to modify techniques based on their capability. Therefore, all difficulty levels from Beginner to Expert are assigned equal suitability with a score of 1.0.",
-  "effortDifficulty": [
-    {
-      "level": "Light",
       "score": 0.8
     },
     {
-      "level": "Moderate",
+      "level": "Intermediate",
       "score": 0.2
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout duration is only 10 minutes and 44 seconds, which is relatively short, contributing to a light overall effort demand. As this is a core-focused Pilates session, the movements are likely low-impact with sustained engagement rather than high intensity or rapid cardio. The absence of equipment further suggests minimal energy expenditure. Consequently, the effort difficulty is predominantly light, suitable for beginners, but with minor inclusion of moderate effort due to core engagement that might be slightly challenging for very deconditioned individuals.",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is labeled as a 'Beginner Core Pilates' session, specifically designed for beginners. Pilates generally involves a series of controlled movements that can range from basic to advanced. Since this is a beginner session, it likely emphasizes fundamental pilates exercises that require minimal coordination, justifying a high score for 'Beginner' technique difficulty (0.8). 'Intermediate' is considered at a lower score (0.2) to account for any slightly more challenging elements, although the focus remains on beginners.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout is only 10 minutes and is part of the 'On the Mat' category, which typically involves low to moderate intensity. Pilates can be physically engaging, but in a beginner context, it leans more towards 'Light' with some impacts of 'Moderate' due to core engagement. Therefore, it receives a 'Light' effort difficulty score of 0.7 and 'Moderate' at 0.3 to represent minor variability in intensity.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",
@@ -31,12 +31,8 @@
     {
       "level": "Intermediate",
       "score": 1.0
-    },
-    {
-      "level": "Advanced",
-      "score": 1.0
     }
   ],
   "requiredFitnessLevelConfidence": 1.0,
-  "requiredFitnessLevelExplanation": "Workout type 'pilates' is not one of the specialized Hydrow categories (Breathe, Sweat, Drive, Distance). It is treated as suitable for all fitness levels."
+  "requiredFitnessLevelExplanation": "Workout type 'pilates' is not one of the specialized Hydrow categories (Breathe, Sweat, Drive, Distance). And workout description mentiones it is meant for beginners."
 }

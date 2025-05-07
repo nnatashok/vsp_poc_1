@@ -2,17 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.5
-    },
-    {
-      "name": "Other",
-      "score": 0.3
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is primarily focused on indoor rowing, as explicitly indicated by the workout name, 'The Jersey Triple 8 Row,' and the description referencing an '8-minute climb' which is typical of rowing workouts. The format mentioned, 'Climb,' further supports this and aligns with rowing where resistance or rhythm can vary, similar to climbing concepts in cycling or rowing. Therefore, indoor rowing is strongly present with a score of 0.9.\n\nThe mention of 'Workout Type: breathe' and the listed category 'Breathe' suggest an incorporation of breathing techniques throughout the workout. However, without specific details on breathing exercises, it's less central to the workout, assigning it a moderate presence score of 0.5.\n\nThe assignment of 'Other' is due to the potential unique theme ('New Jersey theme') which might include elements not typically classed explicitly within known workout categories, thus earning a lower score of 0.3 as a supplementary classification.\n\nOverall, the primary classification remains indoor rowing due to the dominant rowing indicators in the title and description."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

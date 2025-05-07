@@ -1,20 +1,28 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Advanced",
+      "level": "Beginner",
+      "score": 0.2
+    },
+    {
+      "level": "Intermediate",
       "score": 0.8
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workoutType 'drive' in the metadata indicates an advanced technique difficulty level according to Hydrow-specific rules. Furthermore, the use of high intensity intervals (HIIT) suggests movements that require good coordination and technique to execute with proper form. Thus, considering the specific mention of 'drive', the technique difficulty aligns strongly with an Advanced level.",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is categorized as 'Drive', which is traditionally Hydrow-specific and implies a higher technique requirement. However, since it is a rowing workout, technique complexity is generally not higher than 'Intermediate'. Although 'Drive' would typically suggest advanced elements, rowing is directly defined as a maximum of 'Intermediate' technique complexity. Additionally, being a HIIT format suggests some intensity in execution, which could subtly increase the technical demand.",
   "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.6
+    },
     {
       "level": "Extreme",
       "score": 0.8
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout description highlights 'high intensity intervals' which are inherently demanding, especially for deconditioned users. Additionally, the 'Workout intensity level: 3 out of 3' further underscores the substantial physical demand. The duration of over 21 minutes along with high tempo music from the Dance high and Global Hits genres suggests sustained, high energy expenditure. Consequently, the effort required would be classified as Extreme for most users.",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout is marked with maximum intensity ('3 out of 3') and utilizes a HIIT format, which involves high-intensity intervals known for extreme energy expenditure. The session lasts over 21 minutes, requiring sustained effort. The high-stroke rhythm and music playlist (dance and global hits) further imply a demanding pace, reinforcing an 'Extreme' difficulty level. However, considering users in poor physical shape, achieving the high demand may still classify at the 'Challenging' level for most.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

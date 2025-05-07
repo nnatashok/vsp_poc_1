@@ -1,18 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.75
-    },
-    {
-      "name": "Meditation",
-      "score": 0.4
-    },
-    {
-      "name": "Stretching",
-      "score": 0.4
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.7,
-  "categoriesExplanation": "The workout 'Sunset Reflection Cool-Down' is best classified under 'Indoor rowing', 'Meditation', and 'Stretching' based on the provided metadata. The title, 'Cool-Down', suggests a low-intensity session typical of a cool-down phase, often associated with rowing to lower heart rate after an intense activity. The mention of 'standard,row' in the category and 'Format: Steady' along with a maximum rhythm of 20 aligns with slow, steady rowing exercises, hence 'Indoor rowing' is selected with a score of 0.75, indicating a strong presence. The 'Reflect on overcoming difficulty' and 'make positive changes' language in the description suggests meditative elements, supporting 'Meditation' with a moderate score of 0.4. The cool-down nature also implies stretching activities, allowing for 'Stretching' with a moderate confidence, also scored 0.4. The playlist's soulful and reflective nature supports a calming session, but the absence of explicit stretching or meditation designation prevents higher confidence levels in those categories."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

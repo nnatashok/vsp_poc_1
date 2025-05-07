@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 1.0
-    },
-    {
-      "name": "HIIT",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout was classified as 'Indoor rowing' with a high confidence score of 1.0 based on the explicit wording in the workout name 'Race Intervals Row' and the category tags that include 'row.' This indicates a strong focus on rowing activities, typically done on a rowing machine. Additionally, the term 'Interval' in the format and the description highlights a structured interval training approach, often associated with HIIT-style workouts, justifying its inclusion with a moderate score of 0.6. The workout's intensity level is noted as 2 out of 3, supporting a higher intensity classification like HIIT. The absence of explicit references to other types of workouts in the metadata makes other categories less applicable."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

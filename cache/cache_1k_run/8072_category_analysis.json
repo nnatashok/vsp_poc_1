@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The primary category identified is 'Indoor rowing' with a score of 0.9. This is supported by the title \u001cTrying Something New Row\u001d and the description mentioning 'navigate along the shores of Bergen,' which implies rowing, likely using a rowing machine given the platform's focus. The mention of 'alternating efforts at jogging and running paces' in the description suggests a dynamic rowing workout with varying intensities, matching interval rowing formats.\n\nAnother category considered is 'Breathing exercises' with a score of 0.6. The workout type listed as 'breathe' and 'Category: Breathe,standard,row' indicates an emphasis on breathing techniques, possibly focusing on the breathing aspect during rowing, which is reinforced by a moderate intensity level (1 out of 3) and the music choices that suggest a calm experience.\n\nThe chosen categories are based on available metadata indicating it's a low to moderate intensity rowing session with a focus on breathing, hence the exclusion of categories like HIIT or Weight workout."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

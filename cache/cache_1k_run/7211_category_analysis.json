@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Yoga",
-      "score": 0.9
-    },
-    {
-      "name": "Stretching",
-      "score": 0.5
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The primary category selected is 'Yoga,' assigned a high score of 0.9, due to the specific mention of 'Restorative Yoga' in the workout name and description. This indicates a clear focus on yoga practices aimed at gentle stretching and relaxation. The mention of 'twists' and 'restorative practice' supports this classification as they are commonly associated with yoga sessions designed to promote recovery and flexibility.\n\n'Gently lengthen and twist' suggests a focus on flexibility, common in both yoga and stretching practices. The second category, 'Stretching,' is assigned a score of 0.5 to reflect its supportive presence, as gentle movements and twists are typical elements of a stretching routine aimed at improving range of motion. The use of terms like 'restorative' and the relaxing music genres 'Chill low, Cool/Downtempo' further confirms the gentle and restorative nature, reinforcing both categories. Other categories were excluded given the explicit focus on restorative yoga and lack of equipment or emphasis on strength or aerobic workouts."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

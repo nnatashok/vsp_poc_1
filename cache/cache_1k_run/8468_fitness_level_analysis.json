@@ -13,16 +13,12 @@
   "techniqueDifficultyExplanation": "Since the workout is marked as suitable for all fitness levels (Beginner, Intermediate, Advanced), the technique difficulty is considered adaptable. Movements can be scaled in complexity, and users are expected to modify techniques based on their capability. Therefore, all difficulty levels from Beginner to Expert are assigned equal suitability with a score of 1.0.",
   "effortDifficulty": [
     {
-      "level": "Moderate",
-      "score": 0.7
-    },
-    {
       "level": "Challenging",
-      "score": 0.5
+      "score": 0.8
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout has a 20-minute AMRAP format with a maximum rowing interval rhythm suggesting steady effort. Plyometric movements are generally high-intensity, adding to energy expenditure. The absence of additional rest periods implies a demanding session for users, aligning mostly with Moderate effort but exhibits sufficient characteristics warranting a Challenging-level for less fit users.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout duration of approximately 21 minutes with an 'AMRAP' (As Many Reps As Possible) format inherently demands high energy output and limited rest periods. The term 'plyometric' and the presence of high-energy music genres like Latin and Global Hits suggest a vigorous pace, all contributing to a challenging workout experience. This aligns well with the User Fitness Level Requirement for Intermediate fitness, confirming the workout's physically demanding nature.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

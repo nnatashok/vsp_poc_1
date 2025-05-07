@@ -2,17 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.7
-    },
-    {
-      "name": "HIIT",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is titled 'Cardio Intervals Row', which strongly suggests an indoor rowing session, as indicated by the terms 'Row', 'Intervals', and 'Cardio'. The description supports this, mentioning 'jog pace' and 'intervals climbing in rhythm', which are common in rowing workouts focused on cardiovascular endurance. The term 'Interval' also implies a structure consistent with High-Intensity Interval Training (HIIT), where sessions alternate between intense and rest phases, although the stated intensity level of 1 out of 3 suggests a lower overall intensity. The 'Workout Type' and 'Category' tags include 'breathe' and 'standard,row', hinting at a focus on rhythm and breathing control, which justifies the inclusion of 'Breathing exercises' as a secondary category. The overall descriptors, including the playlist with an energetic mood, align with a cardio-focused rowing workout, rather than stretching or meditation sessions. The inclusion of 'Breathe' and a moderate rating for HIIT reflect the controlled breathing aspects and interval training style."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "HIIT",
-      "score": 0.8
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout is classified under 'Indoor rowing' and 'HIIT' due to explicit references in the metadata. The title 'Advanced HIIT Row' and the description emphasize reaching high rhythms through maximum effort, which aligns with High-Intensity Interval Training. Furthermore, 'Max rhythm: 32' and 'Workout intensity level: 3 out of 3' denote a high-intensity effort typically associated with HIIT. Meanwhile, the reference to 'row' and rowing-specific terminology like 'format: HIIT' and 'max rhythm' further suggest use of a rowing machine. Despite lacking a direct mention of equipment, these indicators strongly imply the usage of a rowing ergometer. The playlist of upbeat pop songs supports a vigorous, fast-paced workout typical of HIIT. Other potential categories such as 'Mat', 'Yoga', or 'Pilates' are clearly not applicable due to the high-intensity and equipment focus. The confidence level is set to 0.9 because the metadata provides explicit indicators for these categories."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

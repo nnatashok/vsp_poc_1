@@ -1,28 +1,28 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Intermediate",
-      "score": 0.8
-    },
-    {
       "level": "Beginner",
-      "score": 0.4
-    }
-  ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout type is 'row', which typically limits Technique Difficulty to Beginner or Intermediate despite any specific movement complexity. With an indicated user fitness requirement of Intermediate, this aligns the Technique Difficulty as consistently Intermediate, also noting that interval format can add a layer of complexity for users unfamiliar with pacing and transitions. Based on this, the scores are Intermediate: 0.8 and Beginner: 0.4, due to the essential rowing form aligning mostly as Beginner to Intermediate, though the interval structure slightly elevates it.",
-  "effortDifficulty": [
-    {
-      "level": "Moderate",
-      "score": 0.75
+      "score": 0.9
     },
     {
-      "level": "Challenging",
+      "level": "Intermediate",
       "score": 0.6
     }
   ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized as a rowing session which is considered either Beginner or Intermediate in technique difficulty according to the preset rules for rowing-based workouts. Although rowing can incorporate rhythmic coordination and moderate technique, the interval nature and emphasis on basic endurance suggest that the movements are simple enough for a beginner with some level of exposure to the basics. Therefore, the technique aligns strongly with Beginner (score 0.9) and moderately with Intermediate (score 0.6) given it's a sweat-focused session.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.2
+    },
+    {
+      "level": "Moderate",
+      "score": 0.8
+    }
+  ],
   "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout description indicates endurance intervals, with a 15-minute duration and an intensity level 2 out of 3, suggesting substantial, though manageable, energy expenditure. The term 'endurance' and 'sweat' imply an elevated demand. The playlist further supports moderate-intensity efforts with motivating, mid-intensity rock tracks. Considering effort difficulty hierarchy and user demographics, the scores are Moderate: 0.75 and Challenging: 0.6, reflecting a moderate primary challenge with aspects of increased demand for less fit users.",
+  "effortDifficultyExplanation": "The workout duration is short at 15:59 minutes but involves endurance intervals in a 'sweat' category, which suggests a moderate physical demand but not overly intense. The intensity level is rated 2 out of 3, indicating more effort than light activities but not reaching the most challenging levels. The music selection supports a moderately intense pace, suitable for a workout that would challenge but not overwhelm a less conditioned individual, making it a very strong fit for Moderate (score 0.8), hence a moderate alignment with light (score 0.2).",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

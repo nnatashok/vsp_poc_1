@@ -1,28 +1,20 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Beginner",
-      "score": 0.3
-    },
-    {
       "level": "Intermediate",
       "score": 0.8
     }
   ],
-  "techniqueDifficultyConfidence": 0.75,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'row' with a format of 'Drive,' which generally suggests a higher technique requirement within rowing workouts. Therefore, it aligns with an Intermediate level due to the need for maintaining proper form at higher intensities and rhythm levels. The 'Drive' type implies a more demanding coordination than a basic rowing session, supporting the Intermediate alignment. However, the lack of specific technical or complex movement information keeps this from progressing to Advanced, as the primary action is rowing.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized as both a 'drive' and a 'row', which typically suggests a more advanced rowing session according to Hydrow's categorization. However, the workout type 'drive' strongly aligns with an intermediate technique difficulty, as specified by Hydrow's standards, which only classify these sessions as Beginner or Intermediate. Given the context, intermediate is strongly indicated due to the structured interval training that requires moderate technical skill and rhythm control.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.6
-    },
-    {
-      "level": "Extreme",
-      "score": 0.4
+      "score": 0.75
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout's interval format with max rhythm up to 32 and 21+ minute duration, alongside a maximum intensity level of 3 out of 3, suggests a high cardiovascular demand. The music playlist with high-energy tracks supports maintaining a vigorous pace. Although short in duration, the intensity and intervals indicate a Challenging to Extreme level effort, but favoring Challenging for deconditioned users due to potential breaks in effort.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "With a duration of 21:22 minutes and described interval formats at a high intensity level of 3 out of 3, this workout is physically demanding. The max rhythm of 32 shows a fast pace, complementary to the high energy of the dance and global hits playlist. These factors contribute to a 'Challenging' effort difficulty rating, as the intervals require sustained energy output, suited to those with more than basic fitness levels.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

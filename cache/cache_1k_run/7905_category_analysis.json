@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Body weight",
-      "score": 0.8
-    },
-    {
-      "name": "Mat",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is titled 'Bodyweight Strength,' indicating a focus on strength training using one's body weight, leading to a high score of 0.8 for 'Body weight.' The description mentions 'engage your core and build stability,' suggesting exercises that rely on core strength and body stabilization, consistent with bodyweight training. Additionally, the 'Category' specified is 'On The Mat, standard, on-the-mat,' which highlights that exercises are performed on a mat, justifying a 0.7 score for the 'Mat' category. The lush mountain setting in Norway is a noteworthy detail but does not impact the workout classification. The absence of equipment and the nature of the playlist, which includes energetic dance and global hits, imply an active workout pace fitting with both bodyweight exercises and mat work. Despite the mention of 'strength' in the workout type, the lack of equipment rules out a 'Weight workout.' Therefore, 'Body weight' and 'Mat' are the most suitable categories, reflecting the workout characteristics detailed in the metadata. The confidence level is marked as high due to strong alignment between the metadata and workout classification criteria."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

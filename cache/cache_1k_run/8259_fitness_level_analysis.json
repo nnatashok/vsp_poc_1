@@ -1,16 +1,12 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Intermediate",
-      "score": 0.7
-    },
-    {
       "level": "Advanced",
-      "score": 0.2
+      "score": 0.8
     }
   ],
-  "techniqueDifficultyConfidence": 0.75,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'Drive', which includes more technical rowing requiring higher skill, thus aligning closely with 'Intermediate' and 'Advanced' levels. The focus on exerting 'maximum effort' suggests at least Intermediate technique due to the rhythm coordination needed.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type is listed as 'drive', which according to Hydrow's classification, implies an Advanced technique difficulty. The metadata indicates high complexity and execution demand, aligning with a 'drive' category workout. The user fitness level requirement is marked as Advanced, supporting this classification. The 'drive' and 'power' format suggests complex movement and coordination, consistent with an advanced rowing challenge.",
   "effortDifficulty": [
     {
       "level": "Challenging",
@@ -18,11 +14,11 @@
     },
     {
       "level": "Extreme",
-      "score": 0.3
+      "score": 0.4
     }
   ],
-  "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The short duration (1:46) suggests a high-intensity, anaerobic focus considering the max rhythm of 32 and 'max effort' cue, consistent with challenging to extreme energy demands. An effort intensity level of 3 out of 3 supports a high exertion classification, appealing to those targeting anaerobic thresholds.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is characterized by 'maximum effort' and has an intensity level of 3 out of 3, indicating a highly demanding effort. The mention of 'bolt towards the Czech Bridge' suggests a focus on intense power surges, typical of a challenging or extreme effort row session. Although the duration is relatively short at 1:46, the drive format and maximum rhythm of 32 contribute to high energy expenditure, aligning with Challenging to Extreme effort.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

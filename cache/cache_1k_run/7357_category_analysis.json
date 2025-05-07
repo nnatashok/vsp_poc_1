@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Stretching",
-      "score": 0.2
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is categorized primarily as 'Indoor rowing' due to explicit references in the metadata, such as terms like 'row', 'cool-down with Mac', and the description being linked to a rowing session. The format 'Steady' and 'Max rhythm: 22' indicate a measured, controlled activity common in rowing, particularly in a cool-down phase after a rowing workout. Considering the low-intensity, cool-down nature of the workout, 'Stretching' is a secondary category but with a low score, as cool-down sessions generally incorporate elements like stretching to ease muscles after exercise. The presence of non-specific cool-down elements suggests a minimal indirect connection to stretching, justifying a supplemental but limited classification in that category."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

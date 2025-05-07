@@ -9,20 +9,20 @@
       "score": 0.2
     }
   ],
-  "techniqueDifficultyConfidence": 0.85,
-  "techniqueDifficultyExplanation": "The workout type is 'row' with a 'breathe' format, indicating a focus on steady rhythmic rowing which aligns with beginner technique. The workout description emphasizes a 'consistent jogging effort', suggesting no complex technical movements beyond basic rowing skills. Therefore, the primary technique difficulty is 'Beginner', with slight consideration for 'Intermediate' due to the structured intervals.",
+  "techniqueDifficultyConfidence": 0.95,
+  "techniqueDifficultyExplanation": "This workout is classified primarily for Beginner technique difficulty. The metadata indicates the workout category is 'row', which allows for Beginner or Intermediate classification, but the interval format and focus on a consistent jogging effort suggest slightly increased complexity, justifying a minor consideration for Intermediate. However, since there's no mention of complex movements or advanced coordination, the exercise aligns more closely with Beginner-level technique.",
   "effortDifficulty": [
     {
-      "level": "Light",
-      "score": 0.7
+      "level": "Moderate",
+      "score": 0.75
     },
     {
-      "level": "Moderate",
-      "score": 0.4
+      "level": "Light",
+      "score": 0.3
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout is described as a 'breathe' session with an intensity level of 1 out of 3, indicating a focus on endurance rather than high intensity. The duration of 21 minutes is moderate, suggesting more of a 'Light' effort difficulty. The use of intervals implies some level of increased exertion but remains in a range suitable for less fit users.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The effort difficulty is primarily Moderate. As the workout duration is relatively short at 21 minutes, with an interval format, it moderately challenges energy expenditure without reaching high intensity. The intensity level of 1 out of 3 supports this, aligning the workout as suitable for those progressing from low intensity but still within reach for beginners, pushing beyond a Light categorization but not reaching Challenging.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

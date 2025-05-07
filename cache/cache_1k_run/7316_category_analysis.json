@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout video 'Watts + Power Row' is primarily classified as 'Indoor rowing' because the title and description emphasize a focus on watts and rhythm, which are key indicators of rowing machine workouts. The description highlights 'establishing power at lower rhythms,' directly referencing rowing machine technique. Additionally, the tag 'row' and the structured format, including a max rhythm and interval structure, support this classification. This is given a high score of 0.9 due to strong explicit indicators in both the title and description. \n\nThe secondary category is 'HIIT' with a moderate score of 0.6. The term 'interval' in the format suggests a form of interval training, which is characteristic of high-intensity workouts. The intensity level (2 out of 3) and focus on power also align with HIIT principles, although the session isn't purely categorized as such due to its rowing basis. Alternate categories like 'Mat' or 'Running' were excluded due to lack of relevant indicators. Overall confidence in this classification is 0.85 due to clear and detailed metadata descriptions."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

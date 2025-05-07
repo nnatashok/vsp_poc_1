@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.4
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The dominant category for this workout is 'Indoor rowing' because the title 'Row' and the mention of rowing along with Nick and Laine strongly indicate a rowing workout is taking place. The description's reference to 'row along' explicitly confirms this is a rowing session. The format also specifies 'Interval,' which is common in rowing workouts to vary intensity over the session. The music choice, with popular songs from various genres, suggests an engaging session, characteristic of rowing workouts aimed at endurance and rhythm. The assignment of a level '1' out of '3' intensity indicates low intensity, aligning with a relaxed rowing pace.\n\n'Breathing exercises' is considered a secondary category due to the 'Workout Type: breathe' notation. This suggests some focus on breathing but it is not the core activity. Therefore, it is listed with a lower score of 0.4, indicating a mild presence in comparison to the rowing, which is central.\n\nOther categories like 'Stretching,' 'Yoga,' 'Pilates,' or 'Meditation' are not applicable due to the absence of keywords related to those activities, and the non-specific engagement theme is more aligned with a rowing exercise incorporating rhythm and pacing."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

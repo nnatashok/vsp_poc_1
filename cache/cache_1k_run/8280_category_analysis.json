@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "Stretching",
-      "score": 0.5
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout 'Technique Cool-Down' has been classified primarily as 'Indoor Rowing' due to specific references to 'rowing' and 'drills' that are typical for rowing technique enhancement sessions. The title itself mentions 'cool down,' which typically involves less intense rowing focused on technique and rhythm, further supported by the 'Max rhythm: 18' which indicates lower intensity. These factors justify the high score of 0.8 for 'Indoor rowing'. \n\n'Cool Down' in the context of workouts includes stretching and relaxation techniques, therefore 'Stretching' is assigned with a moderate score of 0.5. Although the metadata does not explicitly mention flexibility exercises, the cool-down phase commonly involves stretching.\n\nOther categories such as 'Yoga', 'Meditation', or 'Breathing exercises' were excluded as there's no indication of mind-body practices or meditation elements present in the workout description or title. Overall, the high confidence level of 0.85 is due to explicit indicators of rowing technique focus and cool-down nature in the metadata."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

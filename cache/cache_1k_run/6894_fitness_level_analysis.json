@@ -1,20 +1,24 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Advanced",
+      "level": "Intermediate",
       "score": 0.8
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "This workout falls under the 'Drive' category, which according to Hydrow-specific rules, defaults to an Advanced Technique Difficulty. While rowing generally involves simpler movements, the 'Drive' type indicates high coordination and skill, particularly during sprint intervals, which require precise technique to maintain efficiency at high speeds. Given the 'Interval' format, it implies varied pacing and technique, further supporting an Advanced classification.",
+  "techniqueDifficultyExplanation": "The workout type is listed as 'drive', which Hydrow's classification categorizes as Advanced for rowing workouts. However, the user's fitness level specified as Advanced suggests substantial coordination and skill. Sprint intervals demand good technique to maintain form, but given the limitation of the category 'row', Intermediate is the highest appropriate classification tied to rowing technique difficulty here. The confidence is high due to the specific workout type (drive).",
   "effortDifficulty": [
     {
+      "level": "Challenging",
+      "score": 0.8
+    },
+    {
       "level": "Extreme",
-      "score": 0.9
+      "score": 0.7
     }
   ],
-  "effortDifficultyConfidence": 0.95,
-  "effortDifficultyExplanation": "The workout is designed to build 'anaerobic capacity,' implying high-intensity energy expenditure. It is 21 minutes long, suggesting intervals of high exertion given the workoutType and the intensity level rated at 3 out of 3. The music pace and titles like 'Big Energy' and 'Take Control' indicate a fast tempo, supporting an Extreme Effort Difficulty due to likely short recovery periods and maximum intensity intervals. Hydrow's 'Drive' label also suggests an inherently demanding session.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout duration is over 21 minutes, with a high-intensity level of 3 out of 3. It includes sprint intervals, suggesting high energy expenditure and effort. The interval format typically allows less rest, maintaining a consistently elevated intensity level. Given these factors, it's strongly aligned with both Challenging and Extreme effort difficulty classifications, with a higher score for Challenging considering the user's likely reference frame of 'Advanced'.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

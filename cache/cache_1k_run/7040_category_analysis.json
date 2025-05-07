@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "HIIT",
-      "score": 0.9
-    },
-    {
       "name": "Indoor rowing",
-      "score": 0.85
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The metadata clearly indicates that this workout is a high-intensity interval training (HIIT) session, specifically focused on rowing. The title 'Power HIIT Row' and the description mention 'high intensity intervals' with sprinting components, matching the characteristics of HIIT exercises. The workout structure involves various interval durations, which is typical for HIIT formats. Additionally, the high maximum rhythm of 32 strokes per minute and the mention of 'sprints' reinforce the high-intensity nature of the workout, confirming the categorization under HIIT with a score of 0.9 due to its explicit inclusion in the description.\n\nThe strong association with rowing is found in the name 'Power HIIT Row' and the category tags 'row,' indicating that this workout is conducted on a rowing machine. This is further supported by the 'drive' reference in the workout type, usually related to rowing terminology. Therefore, 'Indoor rowing' is a highly suitable category with a score of 0.85, reflecting the workout's primary equipment and activity context.\n\nBoth categories are consistent with the workout's defined intensity (3 out of 3) and the playlist choice, which energizes the workout regimen. No other categories apply here as the emphasis remains strictly on high-intensity rowing."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

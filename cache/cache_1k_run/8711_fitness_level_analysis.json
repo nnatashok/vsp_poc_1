@@ -6,23 +6,23 @@
     },
     {
       "level": "Intermediate",
-      "score": 0.1
+      "score": 0.4
     }
   ],
-  "techniqueDifficultyConfidence": 0.85,
-  "techniqueDifficultyExplanation": "The workout type is categorized under 'row' with a 'breathe' style, which generally indicates a focus on consistent, steady rowing pace rather than complex movement patterns. The 'breathe' category suggests a less intense focus on technical coordination, aligning with Beginner and possibly low Intermediate skill levels due to the standard use of rowing equipment. Given the inclusion of 'breathe', a classification closer to the Beginner level is more fitting, especially given the steady rhythm and minimal complexity cues.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is classified within the 'Breathe' and 'row' categories, indicating a focus on steady, rhythmic exercise typical for rowing. The metadata specifies a max rhythm of 24 in a 'steady' format, which implies a straightforward pacing. Given this context and Hydrow's rule that rowing workouts are generally beginner to intermediate, there is a strong alignment with Beginner (0.9) due to simple and steady execution in a low intensity setting. Intermediate is less aligned but still possible due to the requirement to maintain rhythm and form (0.4).",
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.75
+      "score": 0.9
     },
     {
       "level": "Moderate",
-      "score": 0.25
+      "score": 0.4
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout is described as steady-paced with 'breathe' format indicating controlled intensity. The duration of approximately 21 minutes and a max rhythm of 24 support a Light effort level, indicative of low energy expenditure. The intensity level being 1 out of 3 further implies it's suitable for those needing a less physically demanding session. The workout remains relatively undemanding, aligning with a Light classification, with potential for low Moderate due to its slightly extended duration.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The duration of 21:19 minutes combined with an intensity level of 1 out of 3 indicates low physical demand, consistent with a Light effort difficulty (0.9). The 'Breathe' type further implies a focus on steady pacing rather than high energy exertion. Moderate (0.4) is considered due to the duration potentially challenging users unfamiliar with continuous rowing, but the overall setup leans heavily towards Light effort.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.6
-    },
-    {
-      "name": "Stretching",
-      "score": 0.5
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.75,
-  "categoriesExplanation": "The workout is termed 'Reverse Climb Cool-Down,' suggesting an activity with declining intensity. The format 'Reverse Climb' and terms like 'row' in the category point towards a rowing activity, suggesting 'Indoor rowing'. The specified 'cool down' type emphasizes a relaxing, low-intensity phase, aligning partially with 'Stretching' for recovery purposes, even if not purely flexibility training. Although indirect, these indicators and the imagery of gentle rhythmic motion due to slow rhythm imply a stretching or relaxing phase associated with rowing. The metadata emphasizes music and relaxation, not classical 'Stretching' solely for flexibility, hence the moderate score."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

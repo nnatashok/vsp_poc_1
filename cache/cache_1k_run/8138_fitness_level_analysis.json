@@ -2,27 +2,31 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.8
+      "score": 0.6
     },
     {
       "level": "Intermediate",
-      "score": 0.6
+      "score": 0.4
     }
   ],
-  "techniqueDifficultyConfidence": 0.75,
-  "techniqueDifficultyExplanation": "The workout is categorized as a 'row', which limits its technique difficulty to Beginner or Intermediate according to the platform rules. The interval format may require some coordination to maintain consistency during bursts, aligning moderately with Intermediate. However, rowing generally remains accessible to beginners, supporting a strong Beginner rating.",
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which typically aligns with Beginner to Intermediate technique difficulty as per guidelines. The interval format introduces a slight increase in complexity due to required coordination in varying stroke rates. However, rowing generally remains straightforward in form mechanics for less complex classifications, leading to a primary Beginner level with some Intermediate aspects due to intervals.",
   "effortDifficulty": [
     {
+      "level": "Light",
+      "score": 0.2
+    },
+    {
       "level": "Moderate",
-      "score": 0.4
+      "score": 0.6
     },
     {
       "level": "Challenging",
-      "score": 0.7
+      "score": 0.6
     }
   ],
-  "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The workout has a duration of 31 minutes and is set as 'sweat', with intervals suggesting varied intensity. A maximum rhythm of 28 indicates a potentially demanding pace, although the intensity is noted as 2 out of 3, suggesting this is not at the extreme end of difficulty. The interval format points to greater energy demands, aligning best with Challenging effort, but the duration and description nuance it with a Moderate classification.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout duration exceeds 30 minutes with an intensity level of 2 out of 3, suggesting a moderate to high energy expenditure, fitting 'Moderate' and 'Challenging' classifications. The use of intervals at a max rhythm of 28 further increases physical demands, especially since sessions require adjusting effort over time. Classification is balanced between Moderate and Challenging given the moderate intensity cue, designed for broader user engagement at different effort levels.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

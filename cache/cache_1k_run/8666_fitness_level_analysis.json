@@ -2,27 +2,31 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.2
+      "score": 0.85
     },
     {
       "level": "Intermediate",
-      "score": 0.8
+      "score": 0.75
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is classified under the 'row' and 'Drive' categories, which limits Technique Difficulty to beginner or intermediate. 'Drive' sessions typically require effective rowing form and rhythm to benefit, increasing the complexity to intermediate rather than beginner.",
+  "techniqueDifficultyExplanation": "The workout is categorized under 'Drive' which mandates an advanced classification. However, since it involves rowing-based HIIT with a focus on intervals, the exercises typically involve repetitive rowing motions rather than intricate movements, which correspond to Beginner to Intermediate technique levels. As per Hydrow's guidance, Technique Difficulty in rowing activities remains within these levels even if there's a high intensity.",
   "effortDifficulty": [
     {
+      "level": "Moderate",
+      "score": 0.3
+    },
+    {
       "level": "Challenging",
-      "score": 0.7
+      "score": 0.75
     },
     {
       "level": "Extreme",
-      "score": 0.5
+      "score": 0.7
     }
   ],
   "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout is structured as a HIIT session broken into three 10-minute high-intensity intervals with a max rhythm of 32. As a category 3 out of 3 intensity, this suggests a demanding session, but given its short duration, it remains more accessible to less fit users at a 'challenging' level but can verge on 'extreme' especially when considering users in poor fitness.",
+  "effortDifficultyExplanation": "The workout spans over 31 minutes with high-intensity intervals, indicated by the format (HIIT) and a high intensity level (3 out of 3). This combination suggests a workload that may prove challenging for most users. The short rest intervals and sustained energy demands of the HIIT-style session contribute to its Challenging to Extreme effort difficulty classification.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

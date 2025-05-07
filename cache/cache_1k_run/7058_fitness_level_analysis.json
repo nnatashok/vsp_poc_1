@@ -1,24 +1,20 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Advanced",
-      "score": 0.8
+      "level": "Intermediate",
+      "score": 1.0
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'Drive', which Hydrow specifies as having advanced technical difficulty. The metadata indicates a race-like format with instructions to achieve the lowest split, requiring proficiency in maintaining form at high intensity (rhythm 32), aligning strongly with advanced technique levels.",
+  "techniqueDifficultyExplanation": "The workout type 'drive' suggests a more technically challenging rowing workout compared to beginner sessions, often involving techniques like power strokes or specific pacing. However, since it is explicitly designed for rowing, the technique difficulty remains capped at Intermediate per Hydrow-specific rules. The combination of rhythmic control at high rates (32 SPM) and focus on lowest split times supports the Intermediate classification.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.6
-    },
-    {
-      "level": "Extreme",
-      "score": 0.65
+      "score": 0.7
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "Although short in duration (1 minute 43 seconds), the workout's 'Power' format and max rhythm of 32 indicate a high-intensity, all-out effort session. The intensity level marked as 3 out of 3 supports a classification of extreme effort difficulty, particularly given the expected physical demand and focus on lowest split times, making it highly demanding even in a brief time frame.",
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The intensity level is rated 3 out of 3, indicating a high energy demand. The short duration (1 min 43 secs) suggests it's a high-intensity burst, typical of a power-focused effort, making it rare for beginners. The rhythm of 32 SPM is also indicative of a workout that requires sustained effort beyond moderate levels for deconditioned users. Thus, a 'Challenging' effort difficulty is appropriate, although capped by the short duration.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

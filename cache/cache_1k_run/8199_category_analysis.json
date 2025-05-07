@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Mat",
-      "score": 0.2
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is best classified under 'Indoor rowing' which is evident from the workout name 'Around the World Row' and the description mentioning segments of rowing. The category tags such as 'row' and the format 'Climb' also indicate a rowing exercise. The use of max rhythm (30 strokes per minute) is typical for rowing workouts, supporting this classification. Indoor rowing is therefore given a strong score of 0.9.\n\nThe 'Mat' category receives a low score of 0.2 because the workout primarily involves rowing, and the 'mat' exercise classification is only slightly relevant due to the possible inclusion of body weight exercises that could happen between rowing segments, though this is not explicitly evidenced.\n\nThe high-intensity description and a mix of dance and global hits music suggest a dynamic workout likely centered on rowing, with minimal chance of being directly related to any other category like HIIT which would involve different formats and intensities not indicated here. Therefore, 'Indoor rowing' is the predominant and most suitable classification, with a very high confidence level."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

@@ -1,10 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.9
+      "name": "Warm-up",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout video is best classified under 'Indoor rowing' with a very high confidence level. This classification is mainly due to the metadata descriptions that explicitly refer to 'half-slide strokes,' which are a well-known rowing technique. Additionally, the use of terms like 'build speed and power' and the reference to 'Row' under the category further confirm the focus on rowing exercises even though the term 'warm-up' might suggest a general fitness prep routine. The format is specified as 'Technique', indicating a focus on rowing form and execution. The absence of an instructor implies a self-guided technique focus, which aligns with rowing workout videos. Other potential categories like 'Mat' or 'Body weight' are excluded due to the explicit rowing context and absence of any references to exercises performed on a mat or using bodyweight resistance. The lack of specific reference from 'Elliptical,' 'HIIT', or similar terminologies helps further solidify the classification towards 'Indoor rowing.'"
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

@@ -1,20 +1,20 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Advanced",
+      "level": "Intermediate",
       "score": 0.8
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is categorized as a 'drive', which, according to Hydrow-specific rules, means the technique difficulty is categorized as 'Advanced'. This is because 'drive' workouts typically involve complex rowing techniques that require good coordination and body awareness. Furthermore, the 'Racing Mindset Row' implies a focus on speed and competitive pacing, potentially increasing the complexity of the workout.",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "Given the workout is categorized under 'row' and the specific 'drive' type, technique difficulty can only be Beginner or Intermediate. The use of the format 'HIIT' and 'Drive' suggests a higher degree of technique complexity involved in maintaining proper form at a high intensity, aligning with an Intermediate level. This is supported by the presence of an advanced rhythm (max rhythm: 32) that likely requires coordination and body awareness to perform effectively.",
   "effortDifficulty": [
     {
-      "level": "Extreme",
-      "score": 0.8
+      "level": "Challenging",
+      "score": 0.75
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The effort difficulty is classified as 'Extreme' due to multiple factors. The workout is a HIIT format with a max rhythm of 32, suggesting high intensity and energy expenditure. The duration of over 21 minutes, coupled with the workout being marked as level 3 (maximum intensity), indicates that it is physically demanding. Moreover, the description 'Ignite your legs and lungs' signals significant physical exertion.",
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout has a 21-minute duration with a format of HIIT, categorized under 'drive' with a high intensity level of 3 out of 3. These factors indicate a substantial physical demand, suitable for 'challenging' effort difficulty. An intense rowing cadence with max rhythm of 32 also supports a high energy expenditure, aligning with the metadata's description of igniting your legs and lungs.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 1.0
-    },
-    {
-      "name": "HIIT",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The title 'Fitness Conditioning Row' and the description explicitly mention rowing, clearly indicating the primary category as 'Indoor rowing,' with a score of 1.0. The use of phrases like 'Build power at a run pace' and '2-minute intervals before reaching your max pace for 30\" blasters' suggests a workout structure consistent with interval training, which aligns with the 'HIIT' category, warranting a score of 0.7. The description also mentions 'max rhythm: 30' and a format of 'Interval,' further supporting both 'Indoor rowing' and 'HIIT' categories. The intensity level of 3 out of 3 indicates a high intensity, reinforcing these categories. The playlist of high-energy pop and global hits music complements an intense, cardio-based workout environment, which is typical for HIIT and rowing sessions. Other potential categories like 'Elliptical,' 'Mat,' or 'Treadmill' are excluded due to the explicit focus on rowing."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

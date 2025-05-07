@@ -2,27 +2,23 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.8
-    },
-    {
-      "level": "Intermediate",
-      "score": 0.2
+      "score": 0.9
     }
   ],
-  "techniqueDifficultyConfidence": 0.85,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'row,' which typically suggests beginner to intermediate technique difficulty. The steady pace and rhythm of 20 to 24 with a focus on breathing ('breathe' workout type) further suggests simplicity in execution. With an intensity level of 1 out of 3 and the user fitness requirement at the beginner level, the technique difficulty leans strongly towards 'Beginner,' with a minor possibility of some coordination complexity making it marginally intermediate.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is classified primarily under the 'row' category, which limits the technique difficulty to either Beginner or Intermediate. The description emphasizes a focus on maintaining a steady pace and proper form, facilitated by an instructor with an endurance background, suggesting that the movements are straightforward and not technically demanding. This aligns with a Beginner classification, as the emphasis is on a consistent 20-24 rhythm rather than complex or variable movements.",
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.75
+      "score": 0.85
     },
     {
       "level": "Moderate",
-      "score": 0.25
+      "score": 0.3
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout, 'Feel Good Row,' involves a 16-minute steady pace rowing at a light to moderate rhythm with an intensity level marked as 1 out of 3. These details suggest it is not highly physically demanding, making the effort difficulty predominantly 'Light.' However, due to the rhythmic component and continuous rowing, there is a slight possibility of it veering into 'Moderate' for very deconditioned users, contributing to the mixed score.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout description indicates a light, steady-paced session with an intensity level of 1 out of 3, suggesting it is not particularly demanding physically. The duration of 16:23 minutes is relatively short, and the focus on maintaining a steady rhythm aligns with a Light effort classification for beginners who are deconditioned. Although slightly engaging for new rowers, the overall low intensity and short duration also justify considering a slight overlap into the Moderate level.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

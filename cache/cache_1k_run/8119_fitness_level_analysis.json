@@ -14,15 +14,15 @@
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.9
+      "score": 1.0
     },
     {
       "level": "Moderate",
-      "score": 0.2
+      "score": 0.4
     }
   ],
-  "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "The workout is short, under 6 minutes, and is explicitly marked as a 'cool down', suggesting a low-intensity session designed for relaxation and recovery. The metadata specifies a 'steady' pace with a low maximum rhythm of 20 strokes per minute, emphasizing low exertion. This aligns most closely with a 'Light' effort difficulty due to minimal energy expenditure (Score: 0.9). There is minimal alignment with a 'Moderate' level due to the structured rowing pace (0.2).",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The effort difficulty is predominantly Light as indicated by the 'cool down' workout type and short duration of 5:49 minutes. The pace is steady, with a max rhythm of 20, signifying minimal energy demand. While primarily light, rowing involves full-body engagement which could pose a moderate challenge to some very deconditioned users, hence a Moderate score of 0.4.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

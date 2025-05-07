@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "HIIT",
-      "score": 0.9
-    },
-    {
       "name": "Indoor rowing",
-      "score": 0.9
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout is classified as both 'HIIT' and 'Indoor rowing' due to strong explicit indicators in the metadata. The workout name 'Express Bootcamp HIIT Row' directly mentions 'HIIT Row', suggesting high-intensity interval training performed on a rowing machine. The description supports this with specifics of rowing at different rhythmic intervals (50-second at rhythm 26 and 10-second at rhythm 32), aligning with HIIT's alternating periods of intense exercise. Additionally, the workout type and category tags include 'row' and 'drive', indicative of rowing workouts. Moreover, the music genre and playlist, featuring energetic pop songs, are consistent with maintaining motivation during high-intensity sessions. The duration, format, and intensity level of 3 out of 3 combined with the absence of an instructor imply a self-driven, vigorous workout session. These factors contribute to the high confidence levels in both the HIIT and Indoor rowing categories, with scores of 0.9 each, reflecting their central role in this workout session."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

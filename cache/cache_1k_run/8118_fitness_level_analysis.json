@@ -1,32 +1,28 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Beginner",
-      "score": 0.7
-    },
-    {
       "level": "Intermediate",
       "score": 0.8
+    },
+    {
+      "level": "Beginner",
+      "score": 0.2
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The 'Drive' category and 'row' workout type inherently suggest a rowing-based workout where movements are typically simple due to the structural motion of rowing, leading to a Beginner or Intermediate technique classification. The high-intensity burst format may require more finesse, supporting an Intermediate classification. Hence, the scores reflect strong alignment to both Beginner and Intermediate levels, aligning with the user's 'Advanced' requirement for fitness level, but technique remains intermediate at most due to rowing and Drive categorial constraints.",
+  "techniqueDifficultyExplanation": "The workout type 'Drive' suggests a high level of focus on proper rowing form and intensity, placing the technique difficulty in the Intermediate range. This classification is supported by the instructor's focus on proper form and the workout's classification under the 'Drive' and 'standard' categories. The emphasis on 'high rhythms' also implies a need for some coordination and body control, justifying a high confidence Intermediate score.",
   "effortDifficulty": [
     {
-      "level": "Moderate",
-      "score": 0.4
-    },
-    {
       "level": "Challenging",
-      "score": 0.7
+      "score": 0.8
     },
     {
-      "level": "Extreme",
-      "score": 0.6
+      "level": "Moderate",
+      "score": 0.2
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout is marked as HIIT with an intensity level 3 out of 3, indicating a very high intensity which aligns with Challenging or Extreme effort level. Despite the short duration of 11 minutes, the high rhythm above 32+ indicates significant cardiovascular demand which could be extreme for many users. The requirement to reach high rhythms in short bursts further indicates a challenging workout, resulting in higher alignment with Challenging and moderate alignment with Extreme levels.",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout is categorized as HIIT with a duration of 11:21 minutes, combined with a max rhythm of 32+, indicating significant energy expenditure in short bursts. The intensity level of 3 out of 3 suggests a challenging effort difficulty. The brisk nature of a HIIT format combined with a 'Drive' workout suggests this will be taxing for many users, justifying the challenging label with a high confidence score.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

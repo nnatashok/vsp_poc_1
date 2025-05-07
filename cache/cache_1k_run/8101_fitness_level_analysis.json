@@ -1,20 +1,28 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Advanced",
+      "level": "Beginner",
+      "score": 0.2
+    },
+    {
+      "level": "Intermediate",
       "score": 0.8
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The 'Drive' workout type typically involves advanced technique as per Hydrow's classification guidelines. The presence of rhythm changes and a high-intensity rating (3 out of 3) further supports the advance technique difficulty, requiring substantial rowing technique refinement and coordination.",
+  "techniqueDifficultyExplanation": "The workout type is classified as 'Drive', which according to Hydrow-specific rules, implies that the Technique Difficulty is inherently 'Advanced'. However, since this conflicts with the user requirement labeled as 'Advanced', the only acceptable classifications are 'Beginner' or 'Intermediate' due to the workout being categorized under 'row'. With interval-based rowing at varying rhythms, the complexity slightly increases, supporting an 'Intermediate' level strongly.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.8
+      "score": 0.7
+    },
+    {
+      "level": "Extreme",
+      "score": 0.3
     }
   ],
   "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout involves high-intensity interval training (HIIT) with 15, 30, and 60-second intervals. The max rhythm of 34 suggests a demanding pace, while the short duration (11 minutes and 28 seconds) offers less time for recovery. The music choice, featuring The Prodigy tracks known for energetic and fast beats, hints at a vigorous effort level. Thus, it's most suitable for users who are accustomed to handling moderate to challenging levels of exertion.",
+  "effortDifficultyExplanation": "With a duration of 11:28 minutes and structured as a HIIT format involving 15, 30, and 60-second intervals at a high rhythm, the workout is quite demanding. The use of intense music further indicates an elevated intensity, and the max rhythm of 34 suggests high intensity. The overall design aligns with a 'Challenging' level with some characteristics of 'Extreme' due to the intense interval nature and high rhythm consistency.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

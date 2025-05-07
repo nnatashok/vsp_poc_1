@@ -2,9 +2,9 @@
   "categories": [
     {
       "name": "Pilates",
-      "score": 1.0
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.95,
-  "categoriesExplanation": "The workout is explicitly labeled as a 'Pilates' workout, clearly indicated by the workout name 'Core Burn Express Pilates' and the description 'ignite all muscles in your core.' Moreover, the category section explicitly states 'On The Mat,' which aligns with Pilates practice as it often includes mat-based exercises focusing on core strength and alignment. The absence of equipment further supports this classification as Pilates can be mat-focused without additional tools. The high confidence level (0.95) is justified by these clear indicators in both the title and description, alongside the fact that both Pilates and mat categorization are directly mentioned. Other potential categories like 'Yoga' or 'Mat' are less directly supported and were excluded due to the specific Pilates mention."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

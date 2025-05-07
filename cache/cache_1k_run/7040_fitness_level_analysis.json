@@ -1,12 +1,8 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Beginner",
-      "score": 0.2
-    },
-    {
       "level": "Intermediate",
-      "score": 0.7
+      "score": 0.9
     },
     {
       "level": "Advanced",
@@ -14,19 +10,19 @@
     }
   ],
   "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout is classified under the Hydrow category 'Drive', which typically involves more technical and coordinated rowing techniques. While rowing generally limits technique difficulty to Beginner or Intermediate, the 'Drive' classification indicates more advanced rowing techniques. Given the interval and sprint nature of the workout, particularly at a 32 rhythm, this aligns with Intermediate up to Advanced level rowing execution. The technique requires maintaining proper form during high-intensity and sprint intervals, which increases technical complexity.",
+  "techniqueDifficultyExplanation": "The workout 'Power HIIT Row' is classified under the 'Drive' category, which includes technically demanding rowing exercises. However, since it is a rowing workout, Technique Difficulty can only reach as high as Intermediate. The high-intensity intervals and sprints suggest a technique complexity just at the border of Intermediate and Advanced. I'm assigning Intermediate with a score of 0.9 and Advanced at 0.6 based on these considerations.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.8
+      "score": 0.7
     },
     {
       "level": "Extreme",
-      "score": 0.6
+      "score": 0.9
     }
   ],
   "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "The workout involves a series of high-intensity intervals and sprints over a 21-minute period, categorized as HIIT with intensity level 3 out of 3. The max 32 rhythm and short recovery periods between intervals suggest a very demanding workout, implying Challenging to Extreme effort difficulty. Given the sustained high intensity throughout the workout, significant energy expenditure is required, aligning with a Challenging to Extreme effort classification, with a higher probability for Challenging due to its overall duration and setup.",
+  "effortDifficultyExplanation": "The duration of 21:40 minutes with high-intensity intervals and a max rhythm of 32 suggests a very demanding workout. The '3 out of 3' intensity level and final 15-second sprints are indicators of high energy expenditure, frequent bursts of effort, and minimal rest. This aligns more strongly with Extreme difficulty, deserving a score of 0.9, but Challenging is also applicable with a score of 0.7 given the intense nature may not reach maximal exertion for all users.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

@@ -2,27 +2,23 @@
   "techniqueDifficulty": [
     {
       "level": "Intermediate",
-      "score": 0.7
-    },
-    {
-      "level": "Advanced",
-      "score": 0.3
+      "score": 0.75
     }
   ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "This workout is a row with the specific format type 'Drive', which typically corresponds to a higher technique level according to Hydrow-specific rules. The metadata indicates a high rhythm and intense power focus, suggesting that correct form is crucial, thus potentially placing it above a Beginner level. The inclusion of 'Drive' often implies Intermediate complexity, but given the context and the advanced user requirement, it also leans towards Advanced.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type is marked as 'drive', which is set by Hydrow standards as an advanced workout type. However, since the category is 'row', the maximum technique difficulty is Intermediate. Rowing at max effort with a high rhythm (38+) requires moderate coordination but is not highly technical.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.6
+      "score": 0.85
     },
     {
       "level": "Extreme",
-      "score": 0.4
+      "score": 0.75
     }
   ],
-  "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The workout's intensity level is 3 out of 3, which indicates it is highly demanding. While the duration is short (1 minute, 45 seconds), the requirement of max effort rowing with a high rhythm substantially increases the effort needed. The power row and Drive format indicate significant energy expenditure in a short time span, classifying it between Challenging and Extreme effort.",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout has a duration of only 1:45 minutes but is designed to reach max effort, indicated by the 'Power' format and intensity level marked as 3 out of 3. This suggests a high intensity short-burst effort typical of challenging workouts. The drive format also leans towards high physical demand, pushing the effort difficulty towards extreme for less conditioned individuals.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

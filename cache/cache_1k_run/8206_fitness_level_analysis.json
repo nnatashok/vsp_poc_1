@@ -14,11 +14,15 @@
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 1.0
+      "score": 0.85
+    },
+    {
+      "level": "Moderate",
+      "score": 0.4
     }
   ],
-  "effortDifficultyConfidence": 1.0,
-  "effortDifficultyExplanation": "The effort difficulty is Light, as the workout is categorized under 'cool down' with a short duration of 5 minutes and 48 seconds. Cool downs are designed to lower the heart rate and involve minimal effort, reflecting the Light classification. The emphasis on technique rather than intensity further supports this assessment.",
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The 'cool down' nature of the workout indicates its primary function is recovery, which generally involves lower intensity and energy expenditure. At 5:48 in duration and with a focus on short strokes at a higher rhythm, it could slightly elevate the intensity, particularly for deconditioned users, making it predominantly Light with some overlap into Moderate effort.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

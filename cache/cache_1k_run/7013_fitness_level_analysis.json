@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.6
+      "score": 0.5
     },
     {
       "level": "Intermediate",
-      "score": 0.8
+      "score": 0.7
     }
   ],
-  "techniqueDifficultyConfidence": 0.79,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'row', indicating that the technique difficulty can only be 'Beginner' or 'Intermediate'. The use of the term \"intervals climbing in rhythm\" suggests a moderate complexity in timing and coordination, which supports a strong alignment with 'Intermediate'. However, rowing generally involves straightforward movements, which also weakly aligns with 'Beginner'. Overall, these factors suggest a primary classification of 'Intermediate'.",
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which typically aligns with Beginner or Intermediate technique difficulty based on platform guidelines. The presence of terms like 'climbing in rhythm' suggests some level of coordination is required, placing it towards Intermediate. However, given it's a rowing workout led by an Olympian who brings compassion, the movements are likely accessible for beginners as well. Hence, a higher score for Intermediate but also reflecting some Beginner level accessibility.",
   "effortDifficulty": [
     {
       "level": "Moderate",
-      "score": 0.7
+      "score": 0.6
     },
     {
       "level": "Challenging",
       "score": 0.5
     }
   ],
-  "effortDifficultyConfidence": 0.75,
-  "effortDifficultyExplanation": "The duration of the workout is 21 minutes and 30 seconds with an intensity level marked as 2 out of 3 and the format set to interval training. This suggests a moderate level of exertion, which aligns strongly with 'Moderate'. However, the climbing rhythm intervals can be demanding, especially given the intensity description, leading to a partial but significant alignment with 'Challenging'.",
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The 'Face Your Fears Row' session involves interval training with a max rhythm of 30, indicating a more intense pace than basic workouts. The intensity level is 2 out of 3, indicating it is more than light but not extremely demanding. Given the 21:30 duration, it leans towards a moderate to challenging effort level for users with lower fitness levels. Interval training's nature requires bursts of effort, justifying the scores for Moderate and Challenging.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

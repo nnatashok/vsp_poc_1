@@ -1,18 +1,10 @@
 {
   "categories": [
     {
-      "name": "Mat",
-      "score": 0.8
-    },
-    {
-      "name": "Indoor rowing",
-      "score": 0.6
-    },
-    {
-      "name": "HIIT",
-      "score": 0.6
+      "name": "Calisthenics",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.8,
-  "categoriesExplanation": "The workout title and description highlight a 'Lower Body Circuit,' which suggests a focus on leg exercises performed in a circuit fashion. The mention of 'mat' in the description aligns well with the 'Mat' category, indicating exercises likely performed on the floor without significant equipment, justifying a strong score of 0.8. \n\nThe workout also includes intervals on the 'Hydrow,' a brand of rowing machine, signaling a component of rowing, thus fitting the 'Indoor rowing' category. However, since it's combined with other exercises, it receives a moderate score of 0.6.\n\nFinally, the format 'AMRAP' (as many reps as possible) and mention of 'circuit' suggest a high-intensity or interval nature to the workout, corresponding with the 'HIIT' category, meriting a score of 0.6 as well. While the workout incorporates cardio, it doesn't fit indoor biking, elliptical, or treadmill because of the rowing and mat focus, excluding other similar aerobic categories."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

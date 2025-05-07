@@ -13,16 +13,16 @@
   "techniqueDifficultyExplanation": "Since the workout is marked as suitable for all fitness levels (Beginner, Intermediate, Advanced), the technique difficulty is considered adaptable. Movements can be scaled in complexity, and users are expected to modify techniques based on their capability. Therefore, all difficulty levels from Beginner to Expert are assigned equal suitability with a score of 1.0.",
   "effortDifficulty": [
     {
-      "level": "Light",
-      "score": 0.5
+      "level": "Moderate",
+      "score": 0.6
     },
     {
-      "level": "Moderate",
-      "score": 0.8
+      "level": "Challenging",
+      "score": 0.3
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The session duration is approximately 21 minutes, combining mobility and strength-building movements. This suggests a moderate level of effort since there is mention of strength exercises which, while not equivalent to a full resistance workout, still require some physical exertion beyond light activity. The effort level aligns with Moderate, accommodating beginners to intermediates.",
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The duration of 20:47 implies more than a light session but not excessively taxing. The inclusion of 'strength building exercises' suggests a moderate level of energy expenditure. The playlist with upbeat songs supports a higher energy vibe, indicating a strong Moderate level with potential for Challenging for less fit users.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

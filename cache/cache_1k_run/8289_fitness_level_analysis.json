@@ -9,20 +9,20 @@
       "score": 0.2
     }
   ],
-  "techniqueDifficultyConfidence": 0.7,
-  "techniqueDifficultyExplanation": "The workout is classified under 'row', which generally means the Technique Difficulty is either Beginner or Intermediate. Given that the video title is 'Starting Line Row' and is part of the 'Breathe' category with an intensity of 1 out of 3, it suggests a focus on form and technique suitable for a beginner. The mention of jogging and running paces may introduce slight complexity, warranting a minimal score for Intermediate.",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is categorized as 'row' which limits the technique difficulty to Beginner or Intermediate. The description mentions 'intervals at your jog and run pace,' suggesting a slight increase in complexity. However, the focus on the 'breathe' workout type and the user fitness requirement being 'Beginner' indicate that movements are likely to be straightforward and accessible for beginners. The possible need for pacing can hint at a minor level of coordination, thus allowing a marginal recognition of intermediate complexity.",
   "effortDifficulty": [
     {
-      "level": "Light",
-      "score": 0.7
+      "level": "Moderate",
+      "score": 0.6
     },
     {
-      "level": "Moderate",
-      "score": 0.3
+      "level": "Challenging",
+      "score": 0.2
     }
   ],
-  "effortDifficultyConfidence": 0.75,
-  "effortDifficultyExplanation": "The workout duration is 21 minutes and 22 seconds with an intensity level of 1 out of 3, indicating a low-intensity session. The interval format and jogging/running pace intervals slightly elevate the effort above pure Light classification, but the primary focus remains beginner-friendly, resting comfortably in the Light category with a slight contribution from Moderate due to its structured intervals.",
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "While the workout has a one out of three intensity level, suggesting it's not too demanding, the duration of 21 minutes and 'intervals at your jog and run pace' imply a moderate level of exertion. The interval format can make it somewhat challenging for less conditioned users, due to variations in pace. With a maximum rhythm of 26, the workout can push beyond a simple light effort, aligning more closely with moderate efforts and a slight nod towards challenging, especially considering the instructed pace shifts.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

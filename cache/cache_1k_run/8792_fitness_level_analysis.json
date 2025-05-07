@@ -1,20 +1,28 @@
 {
   "techniqueDifficulty": [
     {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
       "level": "Intermediate",
-      "score": 0.8
+      "score": 0.9
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout category is 'row', and the workout type is 'drive', which elevates the complexity to an Intermediate Technique Difficulty. Despite the absence of intricate movements typical in Advanced or Expert categories, the high-intensity intervals suggest the need for maintaining proper form at a faster pace, aligning with Intermediate level techniques.",
+  "techniqueDifficultyExplanation": "The workout is specified as a 'Drive' rowing session, which defaults to an Advanced classification by Hydrow's rules. However, considering the user's physical limitations, we adjust this to include Beginner (0.6) and predominantly Intermediate (0.9) scores due to the high-intensity format and demands of maintaining correct form during rapid transitions in interval training.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.8
+      "score": 0.7
+    },
+    {
+      "level": "Extreme",
+      "score": 0.9
     }
   ],
   "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "The 'drive' workout type, combined with HIIT format and high-intensity intervals of varying lengths up to 1 minute, reflects a Challenging Effort Difficulty. This is further supported by the maximum intensity level marked as 3 out of 3, suggesting significant energy expenditure and physical demand, aligning closely with the challenging intensity for deconditioned users.",
+  "effortDifficultyExplanation": "The workout involves high-intensity intervals with maximum rhythm set to 30, indicating very demanding effort that requires maintaining vigorous activity across varying durations (30-, 45-second, and 1-minute intervals). The workout duration is relatively short at 11:32 minutes but packs high intensity as guided by the advanced intensity level (3 out of 3). This indicates a predominantly Extreme (0.9) effort difficulty, with a Challenging aspect (0.7) due to possible fatigue for less conditioned users.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

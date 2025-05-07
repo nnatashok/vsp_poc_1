@@ -2,17 +2,9 @@
   "categories": [
     {
       "name": "Yoga",
-      "score": 0.9
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.6
-    },
-    {
-      "name": "Meditation",
-      "score": 0.4
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.95,
-  "categoriesExplanation": "The workout is categorized as 'De-Stress Restorative Yoga', indicating a primary focus on Yoga. The description emphasizes relaxation, calming the mind, and restoring, typical of Yoga practices. The tags 'restore' and 'on-the-mat' further suggest Yoga as a central theme, especially considering the term 'Restorative Yoga'. Additionally, the relaxing music genre aligns with Yoga's focus on mind-body integration. Yoga thus receives a very strong score of 0.9 due to these explicit details. \n\nThe mention of relaxation and calming the mind hints at the inclusion of breathing exercises, likely to enhance mindfulness and relaxation during the session, which is common in Restorative Yoga. Thus, Breathing exercises are also considered, with a moderate score of 0.6.\n\nMeditation is also a possible component, as calming the mind is a typical goal of both meditation and yoga sessions. However, given the stronger focus on physical postures and breathing within the provided data, meditation was assigned a lower score of 0.4.\n\nNo other categories, like 'Mat' or 'Stretching', were significantly indicated due to the direct focus on Yoga-related practices."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

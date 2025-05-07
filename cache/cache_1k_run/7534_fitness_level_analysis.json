@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.6
-    },
-    {
-      "level": "Intermediate",
-      "score": 0.4
-    }
-  ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout is categorized as 'row', which typically aligns with techniques ranging from Beginner to Intermediate. The exercise description mentions 'climbing efforts' which may require moderate synchronization and rhythm control, suggestive of Intermediate complexity. However, rowing generally involves basic to moderate complexity, thus a Beginner difficulty is strongly present. With intermediate elements in the climbing format, Intermediate also holds some alignment.",
-  "effortDifficulty": [
-    {
-      "level": "Moderate",
       "score": 0.7
     },
     {
-      "level": "Challenging",
-      "score": 0.3
+      "level": "Intermediate",
+      "score": 0.5
     }
   ],
-  "effortDifficultyConfidence": 0.6,
-  "effortDifficultyExplanation": "The pace is set by two 3-minute climbing efforts and a final 1-minute high-intensity burst, suggesting a sustained moderate effort with a brief challenging spike. The total duration is relatively short (11 minutes), pointing to Moderate effort difficulty according to Hydrow's scoring. The intensity level is marked as '2 out of 3', aligning with Moderate but allowing for some aspects of Challenging due to the final all-out effort.",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is categorized as a 'row', which generally suggests a beginner to intermediate technique complexity due to the fundamental and repetitive nature of the rowing stroke. The title 'Divide + Climb Row' indicates focus on rhythm and steady climbing efforts rather than highly intricate maneuvers, aligning with rowing's typical Beginner to Intermediate spectrum. The metadata provides no specific indicators of advanced technical maneuvers; thus, this gives a strong but not exclusive alignment with Beginner and Intermediate levels.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.75
+    },
+    {
+      "level": "Challenging",
+      "score": 0.55
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout's 'sweat' type and 'climb' format typically imply a moderate to challenging effort. The alternating periods of climbing efforts followed by a final burst (as described) suggest intervals that demand moderate intensity energy expenditure consistently. With a max rhythm of 28 and duration of over 11 minutes with elevated intensity, it aligns with a solid Moderate effort ranking while also bordering on Challenging based on required sustained effort over time.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

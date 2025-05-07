@@ -1,20 +1,28 @@
 {
   "techniqueDifficulty": [
     {
+      "level": "Intermediate",
+      "score": 0.75
+    },
+    {
       "level": "Advanced",
-      "score": 0.9
+      "score": 0.25
     }
   ],
-  "techniqueDifficultyConfidence": 0.85,
-  "techniqueDifficultyExplanation": "The workout is classified as a 'Drive' type, which Hydrow-specific rules denote as having 'Advanced' technique difficulty. The 'Drive' category typically involves complex coordination, intense focus, and technical rowing execution. The power format and high rhythm of 38+ strokes per minute further suggest a need for advanced rowing skill and body control to maintain form under intense conditions.",
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout type is 'drive' in the 'row' category, which typically indicates a higher level of technique difficulty due to the need for good form and coordination at high intensity. Rowing workouts on Hydrow are generally categorized as either Beginner or Intermediate, but the 'drive' type suggests a slightly elevated technical demand due to the pacing and intensity, aligning it with Intermediate (score: 0.75). Advanced (score: 0.25) is also possible given the 'drive' classification, indicating a nuanced technique requirement, but it is less emphasized due to the Hydrow category rule.",
   "effortDifficulty": [
     {
+      "level": "Challenging",
+      "score": 0.6
+    },
+    {
       "level": "Extreme",
-      "score": 0.85
+      "score": 0.4
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout is only 1 minute and 45 seconds long but is performed at maximum effort with an intensity level rated 3 out of 3. The drive category typically implies short burst, high-intensity exercise, indicating significant energy expenditure despite the short duration. The combination of maximum rowing effort and high rhythm classifies it as 'Extreme' effort for most users, requiring substantial cardiovascular fitness and muscular endurance.",
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout duration is brief at 1:45, but the instruction to row at max effort (intensity level 3 out of 3) dramatically increases energy expenditure. Given these factors, the effort difficulty is best classified as Challenging (score: 0.6), suitable for those ready for significant effort in a short burst. The Extreme (score: 0.4) designation is supported by the 'max effort' instruction and high rhythm (38+), indicating considerable intensity even though the duration is short. Hence, it leans towards challenging but touches on extreme for the unconditioned.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

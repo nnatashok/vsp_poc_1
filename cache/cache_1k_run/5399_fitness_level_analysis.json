@@ -1,28 +1,24 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Beginner",
-      "score": 0.4
-    },
-    {
       "level": "Intermediate",
-      "score": 0.8
+      "score": 0.9
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is classified under the 'Drive' category and 'row' exercise type, which inherently aligns with either Beginner or Intermediate technique difficulty according to Hydrow's specific rules. The 'Drive' designation suggests a stronger focus on technical execution but remains confined to intermediate complexity due to rowing's natural form demands and the advanced pacing indicated by interval rhythms.",
+  "techniqueDifficultyExplanation": "The classification of 'Intermediate' technique difficulty is primarily based on the workout being a 'Drive' type. In Hydrow-specific terms, a 'Drive' workout is associated with increased complexity in rowing techniques due to the focus on speed and rhythm control, which can require experience to maintain proper form, especially at high rhythms such as 32. The 'row' constraint means this can only be classified as Beginner or Intermediate, but given the specifics of a 'Drive' session and the rhythm complexity, Intermediate aligns well here.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.6
+      "score": 0.8
     },
     {
       "level": "Extreme",
-      "score": 0.8
+      "score": 0.6
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The effort difficulty is supported by the high intensity level marker of '3 out of 3'. The use of HIIT format with high rhythm intervals (26-32) in combination with it being a 'Drive' workout indicates a highly demanding energy expenditure. Although the duration is moderately short at 11 minutes 38 seconds, the continuous high-effort intervals contribute to an extreme level of intensity for less fit individuals.",
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The effort difficulty is high due to several factors: the workout duration of 11:38 minutes, which is relatively short but very intense owing to its HIIT nature; the maximum rhythm reaching up to 32; and the intervals of 45 and 50 seconds requiring high-speed rowing. The 'Drive' workout type suggests intense pushes, and the instructor's description indicates high effort. The intensity level is rated as 3 out of 3, confirming a closer alignment with 'Challenging' but with a nod towards 'Extreme' for those less accustomed to rigorous interval training.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

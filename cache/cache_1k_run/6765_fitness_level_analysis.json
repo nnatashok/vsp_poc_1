@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.2
+      "score": 0.1
     },
     {
       "level": "Intermediate",
-      "score": 0.8
+      "score": 0.9
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The technique difficulty is evaluated primarily based on the workout type 'row' and category 'Drive'. According to Hydrow-specific rules, this places the technique difficulty in the 'Intermediate' range, scoring 0.8 due to the Drive classification which usually implies a higher degree of rowing proficiency.",
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is classified under 'Drive' which implies an advanced technique due to its potential complexity. However, row workouts are typically capped at an 'Intermediate' level for Technique Difficulty, as rowing movements, while potentially demanding, are generally not considered expert-level in terms of form complexity. The categorization as a 'row' aligns with an Intermediate level with a high confidence score of 0.9 due to the structured format and controlled environment.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.65
+      "score": 0.7
     },
     {
       "level": "Extreme",
-      "score": 0.4
+      "score": 0.6
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The effort difficulty is heavily influenced by the 'HIIT' format and the workout intensity level rated 3 out of 3, which signifies a high-intensity session. The 21-minute duration with short intervals and rapid recovery suggests a Challenging effort level, scoring 0.65 due to significant energy expenditure even for deconditioned users. The rapid pace and high max rhythm of 30 could push it towards the Extreme for less fit users, scoring 0.4.",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout's short HIIT format with 'quick recovery' cycles and the maximum rhythm of 30 suggest a physically demanding session. The Duration is 21 minutes, which, combined with a HIIT structure, implies a high intensity. The workout intensity level is marked 3 out of 3, suggesting it is very demanding for users, pushing it near 'Extreme.' However, we score it 0.7 Challenging due to potential for rapid transitions and high energy exertion indicative of HIIT.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

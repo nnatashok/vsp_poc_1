@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Mat",
-      "score": 1
-    },
-    {
       "name": "Body weight",
-      "score": 0.8
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.95,
-  "categoriesExplanation": "The workout video is classified primarily as 'Mat' and 'Body weight' based on the metadata. The title 'Core Strength' and description 'strengthen your core with Pete during 5-minutes of bodyweight exercises' clearly indicate a focus on core exercises using bodyweight, which aligns with 'Body weight' training. The category 'On The Mat' from the metadata and the absence of equipment points strongly towards 'Mat' exercises. 'Mat' is scored at 1 because it is explicitly mentioned in the metadata and encompasses the style of exercise described. 'Body weight' is scored at 0.8 as there is a strong emphasis on using body weight for core exercises, but the category is not explicitly labeled as such in the metadata. The dance and global hits radio stations do not influence the categorization of this workout."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

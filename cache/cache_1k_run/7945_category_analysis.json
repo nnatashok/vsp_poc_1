@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "HIIT",
-      "score": 0.9
-    },
-    {
       "name": "Indoor rowing",
-      "score": 0.8
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The title and metadata explicitly indicate that the workout 'Speed HIIT Row' is a High-Intensity Interval Training (HIIT) session, as seen in the mention of 'HIIT' format and a high-intensity level of 3 out of 3. The description supports this by referring to 'high rhythms' and emphasizes matching each stroke, suggesting intervals of high-effort rowing.\n\nThe high rhythm mentioned with a max of 32, along with the playlist of high-energy songs like 'Moves Like Jagger' and 'Levels,' reinforces the HIIT nature. The use of the term 'row' in both the title and category also solidifies the classification as 'Indoor rowing.'\n\n'Indoor rowing' is clearly a key component, as seen in the suggested simultaneous rowing with Nick and Sera Moon, aligning with 'match up each stroke,' and supports its score of 0.8 since the equipment and activity are inherently rowing-based. Other categories like Mat, Yoga, or Stretching are not applicable as they do not reflect the intensity or format of this workout."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

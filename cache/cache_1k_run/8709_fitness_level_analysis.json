@@ -2,23 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 1.0
+      "score": 0.9
     },
     {
       "level": "Intermediate",
-      "score": 1.0
+      "score": 0.4
     }
   ],
-  "techniqueDifficultyConfidence": 1.0,
-  "techniqueDifficultyExplanation": "Since the workout is marked as suitable for all fitness levels (Beginner, Intermediate, Advanced), the technique difficulty is considered adaptable. Movements can be scaled in complexity, and users are expected to modify techniques based on their capability. Therefore, all difficulty levels from Beginner to Expert are assigned equal suitability with a score of 1.0.",
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout 'Beginner Flow' is specifically designed for individuals who are new to yoga, indicating beginner-level complexity. With 'flow' workouts, the emphasis on gentle, continuous movements suggests straightforward transitions requiring basic coordination, aligning with a Beginner technique difficulty at a score of 0.9. The presence of a slight Intermediate rating (0.4) accounts for the possibility of some slightly coordinated sequences typical in yoga flows, despite its clear beginner focus.",
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.9
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout duration of 16 minutes is relatively short, and the description labels it as a 'Beginner Flow,' implying low physical demand. Keywords like 'Chill mid' and 'Cool/Downtempo' for the music genre suggest a relaxed pace. There is no mention of high-intensity movements or short rest periods, supporting a Light effort difficulty classification, making it suitable even for very deconditioned users.",
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The 16-minute duration combined with the beginner-targeted description indicates a Light effort difficulty, appropriate for new or returning practitioners who may not have a high endurance. The light energy expenditure and emphasis on gentle flow suggest this workout is designed to be accessible, resulting in a Light difficulty score of 0.8. A small Moderate score (0.3) is noted to consider any potential increase in heart rate due to continuous movement.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",
@@ -27,12 +31,8 @@
     {
       "level": "Intermediate",
       "score": 1.0
-    },
-    {
-      "level": "Advanced",
-      "score": 1.0
     }
   ],
   "requiredFitnessLevelConfidence": 1.0,
-  "requiredFitnessLevelExplanation": "Workout type 'flow' is not one of the specialized Hydrow categories (Breathe, Sweat, Drive, Distance). It is treated as suitable for all fitness levels."
+  "requiredFitnessLevelExplanation": "Workout type 'flow' is not one of the specialized Hydrow categories (Breathe, Sweat, Drive, Distance). And workout description mentiones it is meant for beginners."
 }

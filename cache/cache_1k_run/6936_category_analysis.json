@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "HIIT",
-      "score": 0.5
+      "name": "Warm-up",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.8,
-  "categoriesExplanation": "The workout is titled 'All Around Warm-Up' and takes place in the Port of LA, which suggests a rowing theme, further supported by the 'row' keyword in the category metadata. The description mentions 'build in rhythm and intensity' and 'Format: Intervals,' which suggests a structured format with changes in intensity, characteristics of both indoor rowing and HIIT. Although labeled as a warm-up, the mention of increasing rhythm and using intervals indicates more than low-intensity movements typically associated with a warm-up alone. The score for Indoor Rowing is 0.8 due to strong evidence from the 'row' keyword and the setting. HIIT receives a score of 0.5 due to the explicit mention of 'intervals' and building in intensity, implying periods of higher exertion."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

@@ -2,7 +2,7 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 1.0
+      "score": 0.9
     },
     {
       "level": "Intermediate",
@@ -10,19 +10,19 @@
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'row', making it eligible for either Beginner or Intermediate technique difficulty. Given the basic and steady rhythm at 18 and the 'breathe' workout type, which suggests simplicity and ease, it strongly aligns with the Beginner level (score: 1.0). The faint alignment with Intermediate (score: 0.2) is due to potential minor complexities of maintaining a consistent pace, although these are minimal.",
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row' which according to Hydrow-specific rules can only be classified as either Beginner or Intermediate for technique difficulty. The description mentions a 'steady rhythm 18' and a 'jogging pace', indicating simple, consistent rowing without complex movements. This aligns more closely with a Beginner level due to the straightforward nature of the exercise.",
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.9
+      "score": 0.8
     },
     {
       "level": "Moderate",
       "score": 0.3
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout is 16 minutes and labeled with an intensity level of 1 out of 3, indicating low energy expenditure, specifically at a 'jogging pace'. The short duration and steady pace further emphasize low physical demand, aligning strongly with the Light effort level (score: 0.9). There is a minor alignment with Moderate level (score: 0.3) due to the pacing element but remains minimal.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout duration is 16:20 minutes, which is relatively short with an intensity level of 1 out of 3, indicating low to moderate energy requirement. Pacing at rhythm 18 suggests a steady, manageable effort that fits the 'Light' difficulty category. The 'jogging pace' reinforces the suitability for less fit users, but the guidance by a competitive athlete instructor tips towards low-to-moderate energy use.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

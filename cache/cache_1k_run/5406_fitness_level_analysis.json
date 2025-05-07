@@ -1,24 +1,28 @@
 {
   "techniqueDifficulty": [
     {
+      "level": "Intermediate",
+      "score": 0.75
+    },
+    {
       "level": "Advanced",
-      "score": 0.8
+      "score": 0.25
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'Drive', which per Hydrow-specific guidelines implies an 'Advanced' technique difficulty due to the inherently complex and coordinated nature of the drive workouts. The use of high-intensity intervals coupled with the core work on the mat suggests a need for good body control and awareness, justifying the advanced classification. The metadata clearly aligns with these elements, supporting an advanced categorization.",
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout includes a rowing drive segment, which is typically intermediate in technique difficulty due to rowing's requirement for coordination and rhythm. The addition of a '5 Min HIIT Combo' suggests components that may elevate the difficulty slightly, introducing variability and possibly complex movements associated with HIIT training. Dani's expert technical instruction implies a need for attentiveness to form. Overall, while predominantly intermediate, there is a minority advanced component due to complexity involved in typical HIIT movements.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.6
+      "score": 0.8
     },
     {
       "level": "Extreme",
-      "score": 0.7
+      "score": 0.2
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "Given the description of high-intensity intervals followed by core exercises, this workout requires significant energy expenditure over a 21-minute duration. The 'Drive' component, along with the maximum rhythm of 30, points to a high effort level. Combined with a maximum intensity level of 3 out of 3, this aligns the workout more with the extreme end of effort difficulty, although it can still be considered challenging for less fit users.",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout's 21:23 duration coupled with 'high intensity intervals' and an intensity rating of 3 out of 3 suggests a highly demanding workout. The inclusion of a 5-minute HIIT segment on top of the rowing drive intensifies the overall effort required. The high rhythm and use of energetic music imply sustained energy expenditure. While predominantly challenging due to the mix of cardio and core work, it borders on extreme for users with limited fitness given the high energy intervals.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

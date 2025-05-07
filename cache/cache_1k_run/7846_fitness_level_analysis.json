@@ -6,11 +6,11 @@
     },
     {
       "level": "Intermediate",
-      "score": 0.6
+      "score": 0.3
     }
   ],
-  "techniqueDifficultyConfidence": 0.85,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'row' which defaults technique difficulty to Beginner or Intermediate. Given the focus on maintaining rhythm during intervals, this could slightly push towards Intermediate due to the control and consistent pacing required. However, the low intensity level (1 out of 3) and clear indication that it's a beginner-friendly workout suggest that it aligns strongly with Beginner and moderately with Intermediate.",
+  "techniqueDifficultyConfidence": 0.95,
+  "techniqueDifficultyExplanation": "The workout category is 'row', which limits the technique difficulty to either Beginner or Intermediate. The description emphasizes maintaining rhythm during intervals, indicating a basic understanding of rowing technique is needed. Despite the presence of intervals, the emphasis on 'same split rowing' and an intensity level of 1 out of 3 suggest minimal complexity, aligning strongly with a Beginner level. There's less alignment with Intermediate due to the simplicity described.",
   "effortDifficulty": [
     {
       "level": "Light",
@@ -21,8 +21,8 @@
       "score": 0.5
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The duration of the workout is under 17 minutes, and the intensity level is marked as 1 out of 3, suggesting low intensity. Although there are intervals, the set maximum rhythm of 26 is not excessively demanding for most users, fitting a Low-to-Moderate energy expenditure. Therefore, the workout aligns strongly with Light effort difficulty and somewhat with Moderate, considering the intermittent nature of interval training.",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "With a workout duration of under 17 minutes and an intensity level of 1 out of 3, the physical demand is low. The need for controlled effort and brief intervals suggests some increase in demand from absolute rest, but overall, it aligns more with Light effort due to the low intensity. There is moderate alignment with Moderate effort given the intervals and focus on rhythm control, indicating a weak but present physical challenge.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

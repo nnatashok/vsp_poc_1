@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout title 'Norwegian Sports Row' and mention of 'rowing' in the category tags fully justify the assignment of the 'Indoor rowing' category with a high confidence score of 0.9, as it's the central defining characteristic of the session. The description refers to 'climbing intervals' and a 'workout type: sweat', indicating a structured interval workout, hence HIIT is selected due to elements of intensity and interval nature, scoring a 0.6. The intensity level of 2 out of 3 and the use of energetic music genres such as 'Dance mid' and 'Global Hits' support these classifications. Other categories like 'Mat', 'Treadmill', or 'Elliptical' were excluded due to clear absence of floor, running, or elliptical machine activities in the metadata."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

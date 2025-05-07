@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "HIIT",
-      "score": 0.85
-    },
-    {
       "name": "Indoor rowing",
-      "score": 0.9
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout 'Welcome to Chicago Row' is classified primarily as 'Indoor rowing' with a score of 0.9 and 'HIIT' with a score of 0.85. The description mentions rowing and exploration of a new destination, strongly indicating an indoor rowing session. Moreover, the mention of a 'row' in the category and the presence of a 'drive' format which is typical terminology for rowing workouts reinforce this classification. The explicit mention of 'Max rhythm: 32, Format: HIIT' in the metadata clearly indicates a high-intensity interval training nature as well, supporting the inclusion of the HIIT category. The intensity level of 3 out of 3 further aligns with an HIIT workout. The absence of an instructor and the playlist choice are consistent with energetic rowing sessions. There are no indicators present for other categories like 'Yoga,' 'Breathing exercises,' or 'Meditation,' ensuring high confidence in the classifications."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

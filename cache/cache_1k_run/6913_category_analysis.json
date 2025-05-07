@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.85
-    },
-    {
-      "name": "HIIT",
-      "score": 0.75
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout title 'Rock HIIT Row' along with the description 'Reach your limits with Dani during 2' and 1' intervals' directly points to a High-Intensity Interval Training (HIIT) workout with rowing. The mention of 'Max rhythm: 32', 'Format: HIIT', and 'Category: Drive,standard,row' explicitly indicates an indoor rowing session combined with high-intensity training intervals. The choice of music (Pop Punk, Global Hits) fits the energizing environment typical for HIIT sessions. Given the structured interval format and high maximum rhythm, 'Indoor rowing' is categorized with high confidence (0.85) as it is the central defining element. 'HIIT' also receives a strong confidence level (0.75) because of the explicit mention and interval structure, reinforcing the workout's intensity and format. Other categories were excluded as no significant indicators point to activities beyond rowing and HIIT in the metadata."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

@@ -1,24 +1,20 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Advanced",
-      "score": 0.85
+      "level": "Intermediate",
+      "score": 0.8
     }
   ],
-  "techniqueDifficultyConfidence": 0.95,
-  "techniqueDifficultyExplanation": "The workout type is classified as 'drive', which according to Hydrow's internal rules, aligns the Technique Difficulty with an 'Advanced' level. This is irrespective of the 'row' category typically suggesting beginner or intermediate difficulty only.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout's categorization as 'drive' in Hydrow's system suggests an advanced rowing workout under normal circumstances. The max rhythm of 32 and interval format require good coordination but still accommodate a range of abilities due to the 'row' category constraints, where difficulty is capped at Intermediate. Therefore, this workout holds an Intermediate technique difficulty with high confidence.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.75
-    },
-    {
-      "level": "Extreme",
-      "score": 0.6
+      "score": 0.8
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout has a duration of 21 minutes and utilizes high-intensity intervals with a max rhythm of 32, classified with a top intensity level of 3 out of 3. These factors suggest a physically demanding structure, particularly strenuous for users with low fitness levels, justifying scores in 'Challenging' and 'Extreme' categories.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout duration of 21 minutes with high-intensity intervals demands moderate to significant effort, evidenced by its maximum intensity rating of 3. The intervals indicate potentially high cardiovascular demands, suggesting a Challenging effort classification, particularly for users with low baseline fitness. The combination of interval training and Hydrow's hard intensity categorization supports this challenging level.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

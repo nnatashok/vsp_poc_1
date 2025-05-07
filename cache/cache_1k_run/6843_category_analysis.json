@@ -2,9 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is clearly categorized as 'Indoor rowing' based on multiple explicit references within the title and description. The title 'Endurance Intervals Row' directly indicates a rowing workout focused on endurance, and the description further reinforces this with details on alternating stroke rates (22, 26, and 28 strokes per minute), which are specific to rowing. Although the metadata mentions categories like 'sweat' and a format of 'intervals', these terms point to the workout's intensity and structure rather than suggesting another exercise type. The presence of music genres and song information is supplementary, possibly enhancing the workout experience but not affecting the classification. Given the strong indicators of a rowing focus, the confidence level is classified as very high at 0.85, and the score for 'Indoor rowing' is given a 0.9 due to clear and central relevance."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

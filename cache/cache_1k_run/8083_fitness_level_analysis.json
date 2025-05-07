@@ -14,11 +14,15 @@
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 1
+      "score": 0.85
+    },
+    {
+      "level": "Moderate",
+      "score": 0.15
     }
   ],
-  "effortDifficultyConfidence": 1,
-  "effortDifficultyExplanation": "The workout duration is 10 minutes and 47 seconds, which is relatively short, combined with stretching-focused movements that are low intensity, aligning with a Light effort difficulty. The music specified as 'Chill low' and 'Cool/Downtempo' supports a relaxed, low-exertion workout atmosphere.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The session is 10 minutes and combines gentle stretching with optional foam roller use, indicating low energy expenditure. The light intensity and chill music genre further suggest a Light effort difficulty, suitable for users starting their fitness journey. The slightly increased effort from the optional foam roller adds a degree of Moderate alignment, but overall the workout is clearly geared towards low energy output.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

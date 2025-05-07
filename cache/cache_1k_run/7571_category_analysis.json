@@ -1,18 +1,10 @@
 {
   "categories": [
     {
-      "name": "Mat",
-      "score": 0.9
-    },
-    {
       "name": "Stretching",
-      "score": 0.9
-    },
-    {
-      "name": "Yoga",
-      "score": 0.4
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is classified mainly under 'Mat' and 'Stretching' based on the description and context provided. The words 'mobility' and 'whole body mobility' imply a workout focusing on improving range of motion, which aligns closely with 'Stretching'. The reference to 'On The Mat' in the category and 'mobility' in the description suggests exercises typically done on a mat without specialized equipment, hence the strong classification as a 'Mat' workout with a score of 0.9, supported by its explicit mention in the metadata. The use of songs from Irish artists ties into the 'Welcome to Ireland' theme but does not affect the category classification. The lack of specified equipment further supports the 'Mat' and 'Stretching' classification. 'Yoga' is considered with a lower score of 0.4 due to the physical and possibly meditative element suggested by 'mobility', but there's no specific mention of yoga postures or practices in the metadata to firmly place it in this category."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

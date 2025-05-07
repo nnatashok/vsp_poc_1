@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout is primarily classified as 'Indoor rowing' because the title 'Finding Grace in Movement Row' and description mention rowing with specific rhythms, indicating it is a structured workout conducted on a rowing machine. The word 'row' is a clear indicator of rowing, and the mention of rhythms '20 and 22' aligns with typical indoor rowing training language. Thus, the category receives a high score of 0.9, reflecting its central presence.\nThe secondary category is 'Breathing exercises' due to the workout type listed as 'breathe' and the inclusion of 'Breathe' in the description and category field. This suggests a focus on breathing technique during the workout, justifying a moderate score of 0.6 for its noticeable element. \nOverall, the categories 'Stretching', 'Yoga', and 'Meditation' were excluded because the workout lacks specific indicators of flexibility training, yoga poses, or mindfulness practices. The intensity of '1 out of 3' supports the relaxed nature of the session without diminishing its classification as a rowing workout."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

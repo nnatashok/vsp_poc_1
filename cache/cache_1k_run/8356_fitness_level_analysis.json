@@ -14,11 +14,15 @@
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 1
+      "score": 0.9
+    },
+    {
+      "level": "Moderate",
+      "score": 0.2
     }
   ],
-  "effortDifficultyConfidence": 1.0,
-  "effortDifficultyExplanation": "The session is a 15-minute stretching workout, indicating minimal physical exertion and a focus on relaxing the muscles rather than cardiovascular or strength challenges. The use of a resistance band could add mild intensity to stretching but not enough to exceed a light effort classification. The relaxing nature of the described session is consistent with low energy expenditure overall, suitable for deconditioned users.",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "This workout is designed as a whole body stretch, which generally involves gentle movements for flexibility. With a short duration of 15 minutes and no intense exertion implied, it fits the 'Light' effort category with a score of 0.9, suitable for beginners or those moderately fit. While the session may involve some sustained stretches leading to a 'Moderate' score of 0.2, the absence of high-intensity activity or prolonged duration confirms its overall Light effort level.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

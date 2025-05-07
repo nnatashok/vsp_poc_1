@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 1.0
+      "score": 0.9
     },
     {
       "level": "Intermediate",
-      "score": 1.0
+      "score": 0.6
     }
   ],
-  "techniqueDifficultyConfidence": 1.0,
-  "techniqueDifficultyExplanation": "Since the workout is marked as suitable for all fitness levels (Beginner, Intermediate, Advanced), the technique difficulty is considered adaptable. Movements can be scaled in complexity, and users are expected to modify techniques based on their capability. Therefore, all difficulty levels from Beginner to Expert are assigned equal suitability with a score of 1.0.",
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The technique difficulty primarily aligns with Beginner due to the explicit 'beginner-friendly' description of the yoga flow, suggesting straightforward movements suitable for newcomers. The optional use of yoga blocks indicates basic modifications are available to accommodate different skill levels. While the workout is categorized under 'flow', generally requiring some coordination, the overall context and tone suggest a primary alignment with Beginner level, with some potential Intermediate elements due to standard yoga flow sequences.",
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.85
+      "score": 0.9
     },
     {
       "level": "Moderate",
-      "score": 0.4
+      "score": 0.3
     }
   ],
-  "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The workout duration is 16 minutes and 24 seconds, which is relatively short, coupled with the 'beginner friendly' description and lack of specified intense movements, supports a classification of Light effort. The use of chill music genres like 'Chill mid' and 'Cool/Downtempo' implies a relaxed atmosphere, further indicating low intensity. However, given the potential for a slightly elevated heart rate from minor flows, a minor score is given to the Moderate category.",
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout's duration of 16:24 minutes and its description as a 'beginner-friendly flow' suggest a Light effort difficulty. Yoga flows generally involve slow, controlled movements, which are less physically demanding, especially when characterized as 'beginner-friendly'. The chill and downtempo music choices further support a relaxing and low-intensity session. Some moderate effort may be inferred based on the continuity of the flow, which demands sustained but manageable energy expenditure over the session's duration.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",
@@ -31,12 +31,8 @@
     {
       "level": "Intermediate",
       "score": 1.0
-    },
-    {
-      "level": "Advanced",
-      "score": 1.0
     }
   ],
   "requiredFitnessLevelConfidence": 1.0,
-  "requiredFitnessLevelExplanation": "Workout type 'flow' is not one of the specialized Hydrow categories (Breathe, Sweat, Drive, Distance). It is treated as suitable for all fitness levels."
+  "requiredFitnessLevelExplanation": "Workout type 'flow' is not one of the specialized Hydrow categories (Breathe, Sweat, Drive, Distance). And workout description mentiones it is meant for beginners."
 }

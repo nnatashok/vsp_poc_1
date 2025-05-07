@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.4
+      "score": 0.8
     },
     {
       "level": "Intermediate",
       "score": 0.6
     }
   ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout is a 'row' type, specifically categorized as 'Drive', which suggests a more advanced rowing technique due to the need for skillful coordination of quick intervals. However, rowing in general is not overly complex compared to other fitness disciplines, aligning with Beginner to Intermediate levels. The Drive classification supports an Intermediate assessment due to its focus on technical execution and high rhythm demands.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is classified under 'row' and 'drive,' indicating a focus on rowing techniques. In the context of rowing, the technique difficulty can only be 'Beginner' or 'Intermediate.' Key phrases such as 'proper form' and 'high-intensity intervals' suggest more coordination is needed, hence Beginner is at 0.8 and Intermediate is considered but with a score of 0.6.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.6
+      "score": 0.8
     },
     {
       "level": "Extreme",
-      "score": 0.8
+      "score": 0.4
     }
   ],
-  "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "The workout is high-intensity interval training (HIIT) with a max rhythm of 32 and marked at the highest intensity level (3 out of 3). Despite the short duration of 11 minutes and 22 seconds, the quick-paced nature and 'Drive' format significantly increase energy expenditure and physical demand, consistent with Extreme difficulty. The short duration with intense effort aligns with a Challenging to Extreme classification, demanding significant cardiovascular output and muscular endurance.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout duration is 11:22 minutes, short but characterized by 'high-intensity intervals' indicating high energy expenditure, aligning more with 'Challenging.' The maximum rhythm is 32, which implies a vigorous effort level. Given the format 'HIIT,' Challenging is highly aligned, but due to the highest intensity rating (3 out of 3) and inclusion of 'drive,' part of Extreme is considered for highly intense bursts.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

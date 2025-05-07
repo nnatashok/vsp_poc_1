@@ -2,17 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.5
-    },
-    {
-      "name": "Mat",
-      "score": 0.2
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.75,
-  "categoriesExplanation": "The primary category assigned is 'Indoor rowing' with a score of 0.8. This is based on multiple indicators: the workout name 'Careers + Cardio Row', the phrase 'climb in rhythm for big meters', and the tags 'row' and 'standard', all of which strongly suggest a rowing workout. The 'Format: Climb' suggests that the workout involves rhythmic, steady rowing, probably focusing on maintaining a certain stroke rate. \n\nThe secondary category identified is 'Breathing exercises' with a score of 0.5. Although 'breathe' is listed under 'Workout Type', the lack of further explicit references to breath-focused exercises limits its strength, suggesting it's more of a secondary focus rather than the primary definition.\n\n'Indoor rowing' is given higher confidence due to explicit rowing references, whereas 'Breathing exercises' is less strongly indicated. 'Mat' is included with a low score (0.2) considering there might be some floor elements involved, possibly inferred from the general low-intensity nature and 'climb' remark, but there is minimal evidence for consistent mat workout exercises."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

@@ -1,12 +1,12 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Intermediate",
+      "level": "Advanced",
       "score": 0.7
     }
   ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout is listed under the 'Drive' category for rowing, which on Hydrow suggests an advanced technique by default. However, since the technique difficulty for rowing can only be at most 'Intermediate', we classify it as such, capturing the complexity of maintaining correct form at a high rhythm of 32, but align with the rowing constraint.",
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workoutType is marked as 'drive', a category known to reflect an 'Advanced' technique difficulty by Hydrow. Additionally, the max rhythm of 32 indicates a need for proficient coordination and execution skills, supplementing the advanced status obtained through the combination of the pace and format of the workout. The emphasis on maintaining a high rhythm throughout the session further necessitates advanced-level technical proficiency, especially under the guidance of a seasoned coach like Mike Dostal.",
   "effortDifficulty": [
     {
       "level": "Challenging",
@@ -17,8 +17,8 @@
       "score": 0.5
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout's max rhythm of 32 and description of racing for maximum meters suggest considerable effort, aligning with a 'Challenging' effort level at a minimum. The workout intensity is 3 out of 3, indicating higher difficulty, though the short duration of just over 11 minutes moderates the classification to a mix of 'Challenging' with potential 'Extreme' effort for less conditioned users as they may find maintaining high intensity difficult.",
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout is rated with the highest intensity level of 3 out of 3, suggesting that it is physically demanding. With a duration of 11 minutes focused on maintaining high rhythms, this session falls into Challenging due to the sustained effort required, potentially touching the borderline of Extreme, especially for users in poor physical shape due to the power format and no specified rest. Therefore, the session can be seen as medium to high energy expenditure, aligning well with this classification.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

@@ -2,23 +2,31 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.4
+      "score": 0.2
     },
     {
       "level": "Intermediate",
-      "score": 1.0
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.6
     }
   ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The Technique Difficulty for 'Prepare for Success Row' is significantly determined by its classification as a 'Drive' type rowing workout. Hydrow assigns 'Drive' workouts an Intermediate Technique Difficulty due to the relatively complex rhythm and intensity required to maintain proper form at max rhythm levels (up to 34). Despite the rowing format, which generally offers a Beginner or Intermediate classification, the Drive category aligns more with Intermediate due to the focus on maintaining precise rowing form within varied intervals.",
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout type is 'drive', which typically implies a focus on more advanced rowing technique with higher intensity, aligning strongly with Intermediate to Advanced technique requirements. Row workouts generally fall under Beginner to Intermediate technique level, but the 'Drive' tag indicates a more skillful and technically challenging session. The intervals featuring high rhythms demand moderate precision, coordination, and technique, fitting the Intermediate to Advanced category.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.7
+      "score": 0.4
+    },
+    {
+      "level": "Extreme",
+      "score": 0.85
     }
   ],
-  "effortDifficultyConfidence": 0.75,
-  "effortDifficultyExplanation": "The Effort Difficulty is classified as Challenging, supported by the intense interval format and high maximum rhythm (up to 34) over a substantial duration of 22 minutes 6 seconds. The high intensity rating (3 out of 3) suggests significant physical demand, especially as the user must adapt to varied interval lengths of 6 minutes, 1.5 minutes, 15 seconds, and 30 seconds. This demands cardiovascular endurance and sustained effort, particularly in the Drive category, known for higher intensity rowing exercises.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "Effort difficulty is high due to the workout's intensity level indicated as 3 out of 3, and the fact that this is an interval-based session which normally increases intensity. The session features short, high-rhythm bursts which are demanding, supported by motivational and fast-paced music, making it extremely demanding. For less fit users, this would require significant exertion, hence the score of 0.85 for Extreme effort.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

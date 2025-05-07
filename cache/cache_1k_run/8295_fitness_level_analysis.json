@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.6
+      "score": 0.8
     },
     {
       "level": "Intermediate",
-      "score": 0.7
-    }
-  ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout category is 'row', limiting the Technique Difficulty to Beginner or Intermediate levels. The description includes maintaining a 'consistent power level', suggesting some coordination is required but still aligns with Intermediate technique difficulty. Given the user fitness level requirement is 'Intermediate', we place strong scores in both Beginner and Intermediate due to the likely need for some technique awareness, especially at varying rhythms.",
-  "effortDifficulty": [
-    {
-      "level": "Moderate",
-      "score": 0.4
-    },
-    {
-      "level": "Challenging",
       "score": 0.6
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The duration of 16 minutes and 20 seconds indicates a moderate-length workout, with the workout type categorized under 'sweat', and an intensity level of 2 out of 3. This suggests a reasonably demanding session. The max rhythm of 28 during endurance rowing should be challenging for deconditioned users, hence more alignment with 'Challenging'. However, it's not long enough or intense enough to reach 'Extreme' levels, thus both Moderate and Challenging fit, with a stronger fit for Challenging.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is a rowing session, hence the technique difficulty primarily falls into Beginner or Intermediate. The description emphasizes skill with varying rhythms, which suggests a need for some coordination, thus aligning with an Intermediate level. However, it remains accessible at a Beginner level due to the primary rowing movement focus, which is generally non-technical.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.75
+    },
+    {
+      "level": "Extreme",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "With a duration of over 16 minutes and a focus on maintaining consistent power, this workout demands significant endurance from participants, particularly given the rhythm challenges. The intensity level of 2 out of 3 indicates it's designed to be quite demanding physically. This aligns strongly with a Challenging effort level and partially with Extreme for users who are not conditioned.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

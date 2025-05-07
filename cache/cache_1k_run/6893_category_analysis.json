@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "HIIT",
-      "score": 0.75
-    },
-    {
-      "name": "Indoor rowing",
-      "score": 0.4
+      "name": "Warm-up",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.7,
-  "categoriesExplanation": "The workout is primarily identified as a warm-up for a HIIT session due to the title 'Pre-HIIT Warm-Up' and the description mentioning 'climb in rhythm for 30-seconds at a time with Sera as you prepare for your upcoming workout.' These are common characteristics of preparing for high-intensity training. The term 'Intervals' in the format also indicates a high-intensity interval training approach, justifying a strong inclusion of the 'HIIT' category with a score of 0.75 for its emphasis on preparation for such a workout. The category 'Indoor rowing' is considered with moderate presence due to the mention of 'climb in rhythm', which might imply rowing motions, although this is not explicitly stated, hence a score of 0.4. Furthermore, the metadata lacks direct references to a rowing machine or similar equipment, limiting the confidence in this category. Other categories such as 'Mat', 'Body weight', or 'Weight workout' are excluded due to the lack of reference to relevant exercises or equipment typically associated with those classifications."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

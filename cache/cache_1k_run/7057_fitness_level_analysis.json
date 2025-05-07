@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.7
+      "score": 0.6
     },
     {
       "level": "Intermediate",
-      "score": 0.5
+      "score": 0.4
     }
   ],
   "techniqueDifficultyConfidence": 0.75,
-  "techniqueDifficultyExplanation": "The workout is categorized as 'row', which traditionally falls within Beginner to Intermediate levels regarding technique difficulty. Rowing inherently involves repetitive motions with a focus on coordination and rhythm, making it accessible for those at a beginner level. However, given the specified rhythm of 26 and interval format, there might be a need for some coordination skill, elevating the potential for intermediate-level difficulty. Consequently, both Beginner and Intermediate are relevant here, but with a slightly higher emphasis on Beginner due to the general accessibility of rowing.",
+  "techniqueDifficultyExplanation": "The workout is categorized as 'row', which typically means the technique difficulty should fall into Beginner or Intermediate levels according to Hydrow rules. The metadata indicates an 'Interval' format, which might involve changes in pace but does not inherently increase technique complexity. Given the 21:33 duration with a rhythm of 26 and the instructor's expertise, there is a likelihood for some technical coaching that elevates the complexity slightly. Therefore, a Beginner to Intermediate classification is appropriate, with more emphasis on Beginner due to the general nature of rowing for beginners.",
   "effortDifficulty": [
     {
       "level": "Moderate",
-      "score": 0.8
+      "score": 0.7
     },
     {
       "level": "Challenging",
-      "score": 0.6
+      "score": 0.3
     }
   ],
   "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout duration is 21 minutes and 33 seconds which along with the 'sweat' type and the interval format suggests a moderate level of effort required, as intervals usually involve fluctuations in effort. The intensity level of 2 out of 3 indicates a moderately demanding pace. Therefore, this workout can be seen as moderately challenging but could be perceived as more challenging for those less fit, hence the inclusion of the 'Challenging' level as well.",
+  "effortDifficultyExplanation": "The workout's intensity level is indicated as 2 out of 3, which suggests a moderate intensity. The 21:33 duration of interval rowing contributes to a substantial cardiovascular effort, classifying it under Moderate difficulty for effort. The rhythm of 26 is brisk and likely to be physically taxing, especially with intervals, so it's borderline Challenging. Therefore, it is appropriate to list both Moderate and Challenging with a stronger emphasis on Moderate considering the target user base typically has lower fitness levels.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Yoga",
-      "score": 0.9
-    },
-    {
-      "name": "Mat",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The metadata explicitly indicates that the workout is a 'Power Yoga Flow,' which falls directly under the Yoga category. The description mentions a 'power flow,' emphasizing the yoga aspect. The mention of yoga blocks also supports this classification, signifying a common accessory in yoga practices. The 'On The Mat' tag aligns with yoga since many yoga exercises are performed on a mat, reinforcing the Yoga categorization. A 0.9 score is assigned to Yoga due to these strong indicators, pointing specifically to a yoga routine.\n\nThe Mat category is also relevant, as the title and description suggest exercises taking place on a mat, albeit the Yoga focus. Thus, the Mat category receives a lower score of 0.6 as it supports but does not dominate the workout type.\n\nThe music playlist, described as chill and downtempo, supports a yoga atmosphere, enhancing the classification confidence for a Yoga category. No significant evidence suggests categories other than Yoga and Mat."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

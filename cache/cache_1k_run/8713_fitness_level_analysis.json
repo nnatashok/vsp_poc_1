@@ -6,11 +6,11 @@
     },
     {
       "level": "Intermediate",
-      "score": 0.6
+      "score": 0.7
     }
   ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which limits the technique difficulty to either Beginner or Intermediate. The workout type being 'sweat' and interval format with rhythm up to 28 suggest coordination might be required, leading to a moderate classification, thus aligning with Intermediate. However, as a rowing workout, it remains mostly in the Beginner to Intermediate range with little complex choreography needed.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "Given that the workout primarily involves rowing with an interval format and a max rhythm of 28, the technique difficulty can be classified as either Beginner or Intermediate. Rowing itself is not complex, aligning closely with Beginner level, scoring 0.8, as it involves repetitive and straightforward movements. The Intermediate score of 0.7 aligns due to the interval format which requires more coordination, increasing technical difficulty slightly. The technique confidence is high at 0.9 because the straightforward nature of rowing aligns with the metadata indicators.",
   "effortDifficulty": [
     {
       "level": "Moderate",
@@ -21,8 +21,8 @@
       "score": 0.6
     }
   ],
-  "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The workout is 31 minutes long with an 'interval' format, suggesting variations in intensity that can increase physical demand. The intermediate workout level requirement and intensity of 2 out of 3 suggest it is more than light effort, hence both Moderate and Challenging effort levels are applicable, particularly for less fit users navigating intervals within this duration.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout involves a 31-minute session with an interval format, described with a workout intensity level of 2 out of 3. This suggests significant energy expenditure and sustained effort, making the effort difficulty score a 0.7 for Moderate and a 0.6 for Challenging. The use of music genres hints at maintaining a steady pace, but the interval workout type usually requires bursts of higher effort, hence the Challenging score. The confidence is relatively high at 0.85 given the clarity on intensity and format markers.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

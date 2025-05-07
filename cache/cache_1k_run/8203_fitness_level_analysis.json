@@ -2,27 +2,19 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.9
-    },
-    {
-      "level": "Intermediate",
-      "score": 0.3
+      "score": 1
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout 'Feel Good Row' is classified under the 'breathe' category with a format tagged as 'Steady' and low rhythms maxing at 22. This indicates a consistent, simple rowing activity that involves basic mechanics more aligned with a Beginner level. For rowing, the exercises typically do not extend beyond Beginner or Intermediate unless specifically indicated as complex, which is not the case here. The absence of an instructor further suggests a simplification towards Beginner level movements.",
+  "techniqueDifficultyExplanation": "The workout type is 'row', which inherently places the technique difficulty at either Beginner or Intermediate level according to Hydrow-specific rules. The metadata description indicates a focus on 'low rhythms' and 'steady meters', which suggests straightforward rowing without complex movements. Additionally, the 'breathe' workout type aligns with a lower technique alluding to simplicity, targeting less complex maneuvers suitable for Beginners.",
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.75
-    },
-    {
-      "level": "Moderate",
-      "score": 0.35
+      "score": 0.9
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout duration is short at 16 minutes and 23 seconds, which combined with the workout intensity level rated as 1 out of 3, and the 'breathe' type, suggests a relatively minimal energy expenditure, positioning it within a Light effort difficulty category. The description highlights 'taking time for yourself' and 'accumulate steady meters,' both indicating a leisurely pace suitable for less fit individuals. However, maintaining a steady rhythm might lightly touch the Moderate effort boundary for a complete beginner.",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout is described as a 'steady row' with a 'low rhythm' capped at 22, indicative of a less intense, more manageable pace. The effort difficulty is further suggested to be light due to the description of the workout as 'celebrating taking time for yourself'. Additionally, with a 'workout intensity level' of 1 out of 3 and a duration of only 16 minutes, the energy expenditure remains low, fitting well within a 'Light' categorization.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

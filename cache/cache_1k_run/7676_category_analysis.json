@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.85
-    },
-    {
-      "name": "Stretching",
-      "score": 0.5
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.75,
-  "categoriesExplanation": "The primary category assigned is 'Indoor rowing' with a score of 0.85, due to explicit mentions in the description and tags indicating a focus on rowing rhythm and technique, as well as the phrase 'cool down' related specifically to rowing. The term 'Reverse Climb' suggests rowing activity, although it may be a rowing specific format, implying reduced intensity at the end of a rowing session.\n\nThe secondary category is 'Stretching' with a score of 0.5, as cool-downs typically involve stretching elements. However, the description focuses more on rhythm and technique rather than traditional stretching exercises. Thus, this category is moderately confident.\n\nOther categories such as 'Meditation', 'Yoga', or 'Elliptical' are excluded as the metadata does not include elements typically associated with them like mindfulness practices or the use of elliptical equipment."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

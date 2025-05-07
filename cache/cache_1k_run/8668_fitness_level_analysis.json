@@ -5,16 +5,20 @@
       "score": 0.7
     }
   ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout type specified as 'drive' along with the category 'row' indicates this is an advanced rowing format on the Hydrow platform. Despite rowing typically being Beginner or Intermediate, the 'drive' category suggests the technique is more complex, warranting an Intermediate classification. The metadata also highlights 'high-intensity intervals,' suggesting a need for good rowing form and coordination, further supporting the Intermediate level, but doesn't advance to Advanced or Expert.",
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout type is 'Drive', which is a Hydrow-specific category suggesting advanced rowing techniques are possibly in use. However, since the primary category here is rowing, which limits the technique difficulty to Intermediate at most, the score is set to Intermediate. Though the user fitness level requirement is 'Advanced', the intermediate difficulty aligns well with proper rowing form and coordination required in a high-energy interval setting.",
   "effortDifficulty": [
     {
+      "level": "Challenging",
+      "score": 0.85
+    },
+    {
       "level": "Extreme",
-      "score": 0.8
+      "score": 0.4
     }
   ],
   "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "The workout is classified as 'Drive' with a maximum rhythm of 34 and is described as 'high-intensity intervals,' suggesting very high energy expenditure. Though the workout duration is under 12 minutes, the format of high-intensity intervals and a 3 out of 3 intensity level indicate it demands a significant physical effort typically aligned with Extreme difficulty. This aligns with a high level of exertion recommended for users with superior cardiovascular and muscular endurance.",
+  "effortDifficultyExplanation": "With a duration of over 11 minutes and a high-intensity interval format ('Max rhythm: 34') and the workout intensity marked at 3 out of 3, significant energy expenditure is expected. The intensity and format strongly align with a 'Challenging' level, with partial indicators pointing towards 'Extreme' effort due to the focus on achieving low splits for intervals which would be very demanding.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

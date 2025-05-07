@@ -1,28 +1,28 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Intermediate",
-      "score": 1
+      "level": "Beginner",
+      "score": 0.6
     },
     {
-      "level": "Advanced",
-      "score": 0.2
+      "level": "Intermediate",
+      "score": 0.8
     }
   ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout is categorized under \"Drive\" and involves rowing intervals, which suggests a higher technique difficulty. While 'Drive' usually aligns with an Advanced classification due to the coordination required and potential challenges in maintaining proper form throughout high-intensity intervals, in the context of rowing, it caps at Intermediate based on Hydrow-specific rules. Since the user fitness level requirement is Advanced, a minimal alignment is provided to capture possible complexity beyond typical rowing movements, but Intermediate remains the primary classification.",
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout involves rowing, which is generally classified between Beginner and Intermediate for technique difficulty. The 'Drive' type suggests a more dynamic use of the rowing machine, slightly elevating the technical challenge. Given the format of intervals and the 'drive' emphasis, this could require some nuanced skill, which aligns with Intermediate techniques. However, it remains accessible to motivated beginners with basic rowing form knowledge, hence scores for both Beginner (0.6) and Intermediate (0.8) levels.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.8
+      "score": 0.7
     },
     {
       "level": "Extreme",
-      "score": 0.2
+      "score": 0.6
     }
   ],
-  "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "With 2-minute intervals followed by 60-second blasters, the session demands high energy, making it physically tough. The metadata indicates a '3 out of 3' intensity, signaling considerable effort for the duration of over 16 minutes. Thus, it fits well within the 'Challenging' category. The short rest durations and format also suggest potential for 'Extreme' effort, especially for less fit individuals. However, due to the importance of not overestimating effort difficulty for users with lower fitness, the primary classification is 'Challenging'.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout's intensity is marked 3 out of 3, indicating high energy demand. The duration of 16 minutes with intense interval formats (2-minute intervals followed by 60-second blasters) implies significant physical exertion, primarily for those less conditioned. Therefore, it aligns with Challenging and borders on Extreme effort, given the continuous high rhythm of up to 28 strokes per minute and minimal rest periods between blasters.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

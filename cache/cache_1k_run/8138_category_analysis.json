@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.95
-    },
-    {
-      "name": "HIIT",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The primary category assigned is \"Indoor rowing\" with a high score of 0.95 due to the specific mention of 'row' in both the title and description, and confirmation of 'rowing' in the tag 'Category: Sweat, standard, row'. The phrase 'Press through intervals with Mike' suggests structured rowing intervals typical of rowing workouts.\n\nThe secondary category considered is \"HIIT\" with a score of 0.6. The workout involves intervals ('Format: Intervals'), indicating a pattern of alternating effort, which is characteristic of High-Intensity Interval Training (HIIT). The intensity level of 2 out of 3 also supports the moderate-to-high intensity usually seen in such workouts. \n\nThere is a very high confidence (0.9) in these classifications, given the explicit details related to rowing and the interval-based structure which fits HIIT. Other potential categories such as \"Mat\", \"Yoga\", or \"Stretching\" were excluded as they do not align with the provided equipment use, workout title, or description context."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

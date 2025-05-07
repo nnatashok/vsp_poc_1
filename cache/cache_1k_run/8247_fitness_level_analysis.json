@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.7
+      "score": 0.8
     },
     {
       "level": "Intermediate",
-      "score": 0.3
+      "score": 0.6
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is categorized as 'row', which limits the Technique Difficulty to either Beginner or Intermediate as per Hydrow guidelines. The pyramid structure involves incrementally increasing rhythms, possibly requiring a moderate level of technique to maintain form. However, since the User Fitness Level Requirement is Beginner, and the description emphasizes focusing on technique without advanced complexity, a Beginner rating with a slight consideration for Intermediate is given.",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is categorized as a 'row' workout, which qualifies for Beginner or Intermediate technique difficulty according to platform specifications. The description emphasizes a focus on technique and split times, which suggests some level of precision is required, but it remains within the Beginner to Intermediate range. The rhythm maxes out at 26, which is moderate for more experienced rowers but manageable given proper pacing coaching, especially under the instruction of an experienced Olympian directing a pyramid format, which supports gradual engagement of technique without undue complexity.",
   "effortDifficulty": [
     {
-      "level": "Moderate",
-      "score": 0.7
+      "level": "Light",
+      "score": 0.9
     },
     {
-      "level": "Challenging",
-      "score": 0.3
+      "level": "Moderate",
+      "score": 0.6
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout lasts over 31 minutes with varied intervals, which suggests a moderate effort difficulty, especially given the 'breathe' type. The workout intensity is marked as 1 out of 3, indicating a lower energy requirement fitting a 'Moderate' classification. Nonetheless, the pyramid scheme of increasing rhythm implies some challenge for beginners, so a 'Challenging' level is also considered, though to a lesser extent.",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The pyramid format of intervals from 5 minutes to 1 minute, alongside a workout intensity level of 1 out of 3, suggests that this session is not particularly taxing in terms of effort, aligning closely with Light effort criteria. However, there is a cumulative duration of over 30 minutes, which could potentially present a moderate challenge to users with lower fitness levels. Thus the combination of extended duration but low formal intensity suits a Light to Moderate range assignment.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

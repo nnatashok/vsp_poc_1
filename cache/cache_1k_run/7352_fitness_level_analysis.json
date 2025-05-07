@@ -1,28 +1,28 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Intermediate",
-      "score": 0.7
+      "level": "Beginner",
+      "score": 0.2
     },
     {
-      "level": "Advanced",
-      "score": 0.3
+      "level": "Intermediate",
+      "score": 0.8
     }
   ],
-  "techniqueDifficultyConfidence": 0.85,
-  "techniqueDifficultyExplanation": "The workout is classified under 'row' and 'drive', where the 'drive' indicates more advanced technical execution. The description mentions transitioning from legs only to full strokes, which requires coordination beyond basic rowing. However, since the movements are still primarily rowing-based, the technique difficulty remains mainly 'Intermediate'. The drive category enhances it slightly towards Advanced, given the emphasis on powerful strokes and rhythm control.",
+  "techniqueDifficultyConfidence": 0.95,
+  "techniqueDifficultyExplanation": "The workout type 'Drive' within the category 'row' implies a focus on powerful, technical rowing which aligns with Intermediate-level technique difficulty. This is because rowing can become quite technical when incorporating elements like 'legs only into full strokes'. Although categorized under Hydrow's rules as 'Drive' requiring proficient pacing and rhythm, the inherent nature of rowing allows it to be rated no higher than Intermediate based on Hydrow's specific distinction. Nevertheless, the inclusion of specialized drills indicates a strong lean towards Intermediate technique difficulty (Score: 0.8).",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.8
+      "score": 0.6
     },
     {
       "level": "Extreme",
-      "score": 0.2
+      "score": 0.8
     }
   ],
   "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "The duration of 16 minutes aligns with a high-intensity effort, especially given the maximum rhythm of 34, indicating rapid, energy-expensive strokes. The workout intensity is rated 3 out of 3, which suggests significant effort. While the effort is primarily challenging for most users, elements like max rhythm push towards extreme given the platform's user base in poor physical shape.",
+  "effortDifficultyExplanation": "The workout is classified under 'Power' with a high max rhythm of 34 and is rated with an intensity of 3 out of 3. The 16:27-minute duration suggests sustained effort, typically associated with high-intensity workouts. Given the \"Drive\" nature and description of moving from 'legs only into full strokes' and 'accelerating to higher rhythms', energy expenditure is significant and rest periods likely minimal. Thus, the effort difficulty aligns primarily with Extreme (Score: 0.8), given the standard ratings. However, considering the potential accessibility for depreciation of fit beginners, a Challenging level is also reasonable (Score: 0.6).",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

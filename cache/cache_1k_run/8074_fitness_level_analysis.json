@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.75
+      "score": 0.8
     },
     {
       "level": "Intermediate",
-      "score": 0.6
+      "score": 0.4
     }
   ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout, classified under the 'row' category, follows a pyramid structure which involves increasing intensity and rhythm. While generally rowing is beginner-friendly, the pyramid format introduces a level of complexity as users must adjust to changing intensities, making it suitable for those at an intermediate skill level. The requirement for rhythm adds a coordination element but remains accessible to beginners due to the nature of rowing.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which generally aligns with Beginner to Intermediate technique difficulty. Given the emphasis on building endurance and the use of a 'pyramid' format in rhythm and intensity, there may be slight complexity beyond basic rowing, warranting a consideration of Intermediate level, though the overall technique remains closer to Beginner exercises. The metadata lacks specific challenging technical details, which supports a higher alignment with Beginner level (0.8).",
   "effortDifficulty": [
     {
       "level": "Moderate",
-      "score": 0.7
+      "score": 0.8
     },
     {
       "level": "Challenging",
       "score": 0.5
     }
   ],
-  "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The workout lasts over 30 minutes and is designed to 'Build your endurance', indicating a substantial physical demand. The workout type is classified as 'sweat' with an intensity level of 2 out of 3, pointing to moderate effort, especially for those not in peak physical condition. However, the increase in intensity with the pyramid format suggests that less conditioned users might find this challenging.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is described as building endurance and 'climbing in rhythm and intensity', indicating a moderate level of physical demand. The explicit intensity level is 2 out of 3, which suggests a workout that is physically engaging but not maximal exertion. The 31-minute duration also places it slightly above light effort, leaning towards Moderate difficulty. However, the 'sweat' workout type and pyramid structure suggests interval-based energy requirements, implying elements of Challenge, hence a consideration for both Moderate (0.8) and Challenging (0.5) levels.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

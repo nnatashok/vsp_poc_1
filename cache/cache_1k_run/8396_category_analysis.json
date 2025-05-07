@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is classified primarily as 'Indoor rowing' with a high score of 0.9, as the title explicitly mentions 'Pyramid Intervals Row' and the description further supports this with references to 'intervals' and 'climb up the pyramid,' indicating a structured session on a rowing machine. The categorization as 'HIIT' with a score of 0.7 is supported by the interval format described in the metadata, mentioning changes in duration and intensity. The intensity level of 3 out of 3 indicates a strenuous workout, aligning well with high-intensity interval training characteristics. Other categories such as 'Elliptical,' 'Treadmill,' or 'Body weight' were excluded due to clear rowing and interval training indicators and absence of any related terms or equipment."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

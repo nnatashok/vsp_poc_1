@@ -2,27 +2,19 @@
   "techniqueDifficulty": [
     {
       "level": "Intermediate",
-      "score": 0.7
-    },
-    {
-      "level": "Advanced",
-      "score": 0.4
-    }
-  ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout type is 'drive', which Hydrow typically classifies as advanced due to the technical skills required in controlled power rowing at high intensity. This indicates at least an intermediate to advanced level of technique difficulty. The high rhythm and the 'power' format further suggest these movements demand considerable technical skill and coordination, aligning with an advanced rating, though intermediary skills could be sufficient for some aspects, hence a higher score for Intermediate.",
-  "effortDifficulty": [
-    {
-      "level": "Challenging",
-      "score": 0.6
-    },
-    {
-      "level": "Extreme",
       "score": 0.8
     }
   ],
-  "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "The workout is described as intense, with the highest intensity level (3 out of 3), coupled with high rhythm (30+), indicating a demanding session. The workout's short duration suggests high intensity with minimal rest, aligning with an extreme effort difficulty. While it's primarily high-upper end effort, less conditioned users would find it challenging, hence the additional rating in the challenging range.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type 'drive' and 'row' category typically suggests a rowing session where the primary technique difficulty can range from Beginner to Intermediate. Given the 'Power' format and high rhythm (30+), the session likely involves maintaining a challenging pace, requiring some coordination and form integrity, which aligns well with 'Intermediate'. The metadata does not indicate any overly complex movements beyond rowing.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.7
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout's intensity level is marked as 3 out of 3, suggesting a high physical demand. The description highlights 'climbing intervals' aiming for 'personal bests', indicating significant energy expenditure typical of a 'Challenging' workout. Although the duration is relatively short at just over 11 minutes, the intense format focused on power and climbing intervals increases the overall effort level.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is classified primarily as 'Indoor rowing' with a score of 0.9 because the title explicitly mentions 'Row' and the description notes rowing through Downtown Chicago, suggesting the use of a rowing machine to simulate this experience. The reference to 'Climb' format and rhyming imply standard rowing session characteristics, maintaining consistency with a low-intensity rowing workout.\n\nAdditionally, 'Breathing exercises' is assigned a score of 0.6 because the workout type is indicated as 'breathe' and the category 'Breathe,standard,row' suggests an emphasis on breathing, likely to engage users in controlled rhythmic breathing alongside the low-intensity physical activity.\n\nThe high confidence level of 0.85 is due to the clear references to rowing both in the title and description. Other potential categories, such as 'Meditation' or 'Stretching', were excluded as the focus seems directed towards light rowing and breathing dictated by the given setup, further negated by the low-intensity level and workout theme of bridge exploration via rowing rather than relaxation. The explicit lack of any additional equipment besides the rowing machine also supports focusing categorization on rowing."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

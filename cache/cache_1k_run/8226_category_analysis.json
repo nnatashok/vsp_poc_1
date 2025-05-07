@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.7
-    },
-    {
-      "name": "Stretching",
-      "score": 0.6
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.7,
-  "categoriesExplanation": "This workout is classified into 'Indoor rowing' and 'Stretching' categories based on the provided metadata. The title 'Spooky Ghoul-Down' and description indicate a Halloween-themed session, focusing on muscle loosening, which typically suggests a lower intensity and stretching-oriented workout. Additionally, the terms 'cool down' and 'standard, row' in the workout type and category suggest the presence of rowing elements, likely at a steady, relaxed pace as indicated by the 'Max rhythm: 24, Format, Steady'. Although described as a cool down, the inclusion of 'row' implies an association with indoor rowing, albeit at a low intensity. Given these aspects, 'Indoor rowing' is assigned a moderate score (0.7) and 'Stretching' is given (0.6) due to the focus on muscle relaxation and flexibility. The absence of explicit rowing equipment suggests ambiguity, yet the metadata strongly hints at rowing, hence avoiding misclassification into categories like Yoga or Pilates."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

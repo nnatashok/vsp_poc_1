@@ -1,20 +1,28 @@
 {
   "techniqueDifficulty": [
     {
+      "level": "Beginner",
+      "score": 0.2
+    },
+    {
       "level": "Intermediate",
       "score": 0.8
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is classified primarily under the 'row' type and, more specifically, the 'Drive' category, which aligns with Hydrow's rule that categorizes 'drive' workouts as requiring intermediate levels of technique. Although rowing for fitness at max pace involves maintaining proper stroke form and coordination, it is less about complex movements and more about rhythm and consistency. Thus, an Intermediate level is most appropriate here, supported by its 'drive' designation and interval format requiring sustained technique.",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout type is 'drive' and category is 'row', which typically narrow the Technique Difficulty classification to either Beginner or Intermediate due to the nature of rowing. However, given the description focuses on high-intensity efforts and the max rhythm of 30 strokes per minute, it suggests a more nuanced understanding of rowing techniques, therefore it is classified at the Intermediate level rather than Beginner.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.9
+      "score": 0.7
+    },
+    {
+      "level": "Extreme",
+      "score": 0.3
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The 'Unleashed Row' involves three 5-minute intervals at maximum pace, with a max rhythm of 30 strokes per minute. This indicates a high level of exertion as maintaining such a rhythm during each interval is physically demanding. The workout's duration of 22 minutes at 'max pace' strengthens its categorization as Challenging, especially considering the intensity level is 3 out of 3, which indicates a high energy expenditure suitable for only those with a good fitness base.",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout includes three 5-minute max pace intervals in a 22-minute session, labeled with an intensity level of 3 out of 3. This indicates a high energy expenditure similar to high-intensity training. While the intervals make it slightly more manageable than constant extreme effort, the session's structure and intensity suggest a Challenging effort difficulty suitable for moderately fit individuals and an Extreme difficulty suggestion for casual users.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

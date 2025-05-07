@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Stretching",
-      "score": 0.9
-    },
-    {
-      "name": "Mat",
-      "score": 0.4
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.95,
-  "categoriesExplanation": "The workout is clearly categorized as 'Stretching' based on several pieces of evidence from the provided metadata. The workout name \"Whole Body Stretch\" and the description explicitly mention stretching and releasing tension, which strongly indicates a Stretching category. Additionally, the mention of a long resistance band underscores a focus on flexibility and stretching exercises. The duration of 15 minutes and 45 seconds supports the classification of a session that primarily targets stretching segments. The tags \"On The Mat\" suggest that this activity takes place on a mat, which is a common setting for stretching routines, supporting the secondary category of 'Mat'. The music choice and lack of an instructor are less relevant but do not contradict the primary classification. The confidence in the stretching classification is very high due to explicit references, while the Mat category is inferred based on the exercise context."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

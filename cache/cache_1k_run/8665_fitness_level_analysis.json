@@ -2,15 +2,15 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.7
+      "score": 0.8
     },
     {
       "level": "Intermediate",
       "score": 0.4
     }
   ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout is classified under the 'row' category, which typically aligns with either Beginner or Intermediate technique difficulty. The use of 90-second intervals in a rowing session suggests some level of structure but not complexity beyond typical rowing workouts. The absence of any technical markers ('Drive') suggests simplicity suitable for Beginner levels, complemented by some Beginner-to-Intermediate complexity due to rhythm changes.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout, categorized under 'row', adheres to Hydrow's classification of only Beginner or Intermediate technique difficulty levels. Given it's conducted by an expert instructor, yet involves rhythmic and climbing intervals that are typical of rowing, the technique remains straightforward. The metadata points to this being accessible even for beginners due to the low complexity of rowing-based movements, thus a high Beginner score.",
   "effortDifficulty": [
     {
       "level": "Moderate",
@@ -18,11 +18,11 @@
     },
     {
       "level": "Challenging",
-      "score": 0.3
+      "score": 0.4
     }
   ],
-  "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The duration of 16 minutes for a 'sweat' workout with a max rhythm of 30 indicates a Moderate effort difficulty. The workout's description of 'climb in rhythm and intensity' implies intervals that would challenge deconditioned users, suggesting the inclusion of Challenging effort difficulty to a lesser degree. Intensity level 2 out of 3 corroborates moderate energy expenditure with challenging elements when coupled with intermediate-level ascent in intensity.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The duration of 16:25 with 90-second interval climbs suggests moderate energy expenditure suited for an introductory-to-intermediate sweat session. An intensity level of 2 out of 3 suggests a decent exertion level for average users, though not enough to reach extreme levels, making it moderately challenging yet manageable for less fit individuals.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.8
-    },
-    {
-      "level": "Intermediate",
-      "score": 0.6
-    }
-  ],
-  "techniqueDifficultyConfidence": 0.7,
-  "techniqueDifficultyExplanation": "The workout is categorized as a row, which generally sets the technique difficulty between Beginner or Intermediate. The presence of \"various rhythms\" suggests some coordination is required, which accounts for the Intermediate score. However, considering it is a sweat workout meant to gauge power in intervals, many exercises will likely be straightforward rowing actions, aligning it with Beginner to Intermediate complexity. No specific complex or technical movements are described.",
-  "effortDifficulty": [
-    {
-      "level": "Moderate",
       "score": 0.7
     },
     {
-      "level": "Challenging",
-      "score": 0.5
+      "level": "Intermediate",
+      "score": 0.4
     }
   ],
-  "effortDifficultyConfidence": 0.75,
-  "effortDifficultyExplanation": "The workout's duration is approximately 16.5 minutes, which is relatively short but utilizes an interval format. This, combined with a medium intensity level (2 out of 3) and the categorization under 'sweat', suggests a workout that requires moderate to challenging physical effort. The music playlist supports sustained energy, likely leading to a higher exertion level for those less fit.",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The primary activity is rowing, which is identified as \"sweat\" within the category, thus aligning with Hydrow's guideline that technique difficulty is either Beginner or Intermediate. The description emphasizes rhythm and technique, which suggests a possible intermediate level complexity, but not beyond. The description highlights a focus on technique development with an accessible rhythmic pace at max 26, which suggests the movements are straightforward.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.6
+    },
+    {
+      "level": "Challenging",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout is a 16.5-minute interval session with a max rhythm of 26, categorized as a \u2018sweat\u2019 workout. This indicates a higher intensity effort, typical of interval rowing sessions. The intensity level is marked as 2 out of 3, which usually suggests a demanding workout for deconditioned users. Combined with upbeat, dance-driven music, this implies a level of physical demand that could be classified as Moderate to Challenging, appealing to different fitness levels.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.7
-    },
-    {
-      "level": "Intermediate",
-      "score": 0.6
-    }
-  ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which inherently restricts its Technique Difficulty to 'Beginner' or 'Intermediate'. The movement involved in rowing focuses mostly on a repeating, controlled stroke which is not complex. However, as the user fitness level requirement is 'Intermediate', we can infer that proper technique involves a moderate understanding of the form, aligning it more with Intermediate.",
-  "effortDifficulty": [
-    {
-      "level": "Moderate",
       "score": 0.8
     },
     {
-      "level": "Challenging",
-      "score": 0.5
+      "level": "Intermediate",
+      "score": 0.2
     }
   ],
-  "effortDifficultyConfidence": 0.75,
-  "effortDifficultyExplanation": "The workout is 16 minutes long, indicating a moderate duration within the rowing category. The intensity level is marked 2 out of 3, suggesting it is somewhat demanding, but not extremely so. The rhythm maxing out at 28 also adds a moderate challenge due to its higher pace. Music choice ('Pop mid, Global Hits') likely offers an energetic atmosphere enhancing perceived effort. These factors contribute to a Moderate to potentially Challenging effort for a less-fit user.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', suggesting the technique difficulty is limited to Beginner or Intermediate. The max rhythm of 28 and engagement with a 'Sweat' format indicates some coordination and pacing skills, favoring a Beginner to Intermediate classification. The Intermediate alignment is weaker due to lack of complex movements specific to rowing.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is a 16-minute rowing session with an intensity level of 2 out of 3, suggesting a moderate to challenging energy expenditure for users with lower fitness levels. The format 'climb' hints at variable intensity, increasing physical demand. Thus, the effort difficulty aligns moderately with Moderate and partially with Challenging, considering the workout's pacing and instructor motivation, enhancing perceived intensity.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

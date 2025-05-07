@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.8,
-  "categoriesExplanation": "The primary category 'Indoor rowing' was chosen based on the workout name 'Confident Training Row' and explicit mention of 'stay at rhythms 22 and 24,' which indicates a rowing rhythm, supporting a strong presence for indoor rowing with a score of 0.8. The format of 'steady' also aligns with typical steady-state rowing sessions.\n\n'Breathing exercises' was also selected with a score of 0.6. This is supported by the 'Workout Type: breathe' and the listed category as 'Breathe', indicating an emphasis on breathing technique, though this aspect is slightly less central compared to the rowing component.\n\nThe music genre and playlist, consisting of pop and motivational tracks, imply a focus on sustaining energy and rhythm which aligns more with indoor rowing than any other workout category. Although the intensity level is low, the structured training plan and mindset emphasized in the description suggest more than a purely relaxation-oriented session, excluding categories like Meditation or Yoga."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

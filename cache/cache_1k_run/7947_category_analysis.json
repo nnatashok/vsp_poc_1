@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.85
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.15
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout 'Shortened Slide Row' is strongly aligned with the 'Indoor rowing' category given the specific terminology used in the workout name and description, such as 'row,' 'slide lengths,' and 'rhythm: 26.' These elements clearly indicate that the workout involves a rowing machine. The description focuses on 'prioritize your form' and 'develop quickness,' which are rowing technique cues, establishing 'Indoor rowing' as the central category with a high score of 0.85. Additionally, the workout type is marked as 'breathe,' suggesting a mild presence of 'Breathing exercises,' as it may incorporate breathing techniques, indicated by a low intensity level (1 out of 3) and the category tags listed as 'breathe, standard, row.' Although the mention of 'breathe' is prominent, its inclusion as a primary element is less clear, giving it a lower score of 0.15. Other categories like 'Yoga' or 'Stretching' are excluded due to the lack of related terminology and the explicit rowing focus."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

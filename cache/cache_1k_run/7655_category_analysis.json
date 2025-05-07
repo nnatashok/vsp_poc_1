@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Stretching",
-      "score": 0.6
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.8,
-  "categoriesExplanation": "The primary category chosen is 'Indoor rowing' with a high confidence score of 0.9. This is due to the inclusion of the terms 'even press,' 'power strokes,' and 'row' directly in the metadata, indicating the workout involves rowing. The workout type 'cool down' suggests a lighter intensity, but the structure of '2 power strokes on and 2 strokes off' corresponds to rowing interval training. \n\nThe 'Stretching' category is selected with a moderate confidence score of 0.6 since the workout concludes with a 'light stretch.' While it is not the main focus of the video, the stretching component is directly mentioned and thereby relevant.\n\nOther categories like 'Mat,' 'HIIT,' or 'Yoga' were excluded because they do not align with the explicit rowing focus or the light stretching mentioned, nor is there evidence of yoga or meditation practices. The 'Body weight' and 'Weight workout' categories were also eliminated due to the absence of strength or resistance training elements in the description."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

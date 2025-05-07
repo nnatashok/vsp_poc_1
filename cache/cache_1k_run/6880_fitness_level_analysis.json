@@ -1,24 +1,28 @@
 {
   "techniqueDifficulty": [
     {
+      "level": "Beginner",
+      "score": 0.2
+    },
+    {
       "level": "Intermediate",
       "score": 0.8
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is classified under the 'Drive' workout type, which is a specific categories within Hydrow's schema. Though rowing generally does not exceed Intermediate technique difficulty, the 'Drive' category inherently includes more complex or intense rowing sequences. Given this classification, and considering the high cadence indicated by 'Max rhythm: 30+', an Intermediate level is appropriate. Additionally, this aligns with the user requirement marked as 'Advanced', suggesting a nuanced difficulty in rowing techniques employed here.",
+  "techniqueDifficultyExplanation": "The workout is categorized under 'Drive', which is a subcategory of 'row'. According to Hydrow's specific guidelines, this categorization indicates a higher technique difficulty within rowing workouts. Although 'row' typically aligns with beginner and intermediate levels, the mention of 'Power' and the format being 'drive', combined with an Advanced user fitness level requirement, suggests a strong alignment with Intermediate level due to the advanced technical execution likely required.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.7
+      "score": 0.6
     },
     {
       "level": "Extreme",
-      "score": 0.6
+      "score": 0.8
     }
   ],
   "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "With the workout duration of 11 minutes and 27 seconds and a max rhythm over 30, this session suggests high intensity rowing. The 'Power' format also indicates heightened effort, further supported by a 3 out of 3 intensity level. These elements indicate significant energy expenditure, suggesting a Challenging effort difficulty. The use of high-energy playlists further supports a robust physical demand, aligning with Challenging and perhaps bordering on Extreme, considering the intent to achieve climbing intervals and personal best performances.",
+  "effortDifficultyExplanation": "The workout intensity is rated 3 out of 3, indicating maximum effort which aligns with high intensity. Keywords such as 'turn up the heat' and 'climbing interval' imply significant physical demand and high-energy output. The 11:27 duration focuses on intensity over duration, supported by a 'Power' format, suggesting this workout is extremely effort-demanding. These support a strong alignment with the Extreme level, but given the instructor's background and motivational style, a Challenging level is also plausible for non-elite users.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

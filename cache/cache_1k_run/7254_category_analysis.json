@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Meditation",
-      "score": 0.4
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.75,
-  "categoriesExplanation": "The workout 'Contemplative Cool-Down' strongly suggests it involves 'Indoor rowing' due to the mention of 'rhythm' and 'row' in both the title and description. The 'Reverse Climb' format is typical in rowing, where participants often work through stroke rates or 'rhythms'. This results in a high score of 0.9 for Indoor rowing. Additionally, the 'mentally scanning your body' and 'contemplative' cues align well with 'Meditation,' suggesting a mind-body connection focus, but this aspect is less pronounced compared to rowing, leading to a moderate score of 0.4 for Meditation. Other categories like Yoga or Stretching are less relevant due to the lack of explicit mention of flexibility or specific exercise postures, and thus were not considered."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

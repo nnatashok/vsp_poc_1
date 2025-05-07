@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Mat",
-      "score": 0.9
-    },
-    {
       "name": "Stretching",
-      "score": 0.8
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout titled 'Hip-Opening Mobility' emphasizes mobility exercises aimed at gently opening up the hips. This aligns closely with the 'Mat' category, as the workout involves floor exercises that are not high-intensity and are typically done on a mat. Specific mention of 'Yoga blocks optional' suggests an exercise style that includes support props, which are commonly used in mat-based mobility or yoga exercises, strengthening the classification as 'Mat' with a score of 0.9.\n\nAdditionally, the content described as 'Hip-Opening' and 'a variety of mobilization positions' is characteristic of 'Stretching', dedicated to flexibility and range of motion improvement. The gentle, mobilization-focused nature of the workout justifies this with a score of 0.8.\n\nWhile 'Yoga' might superficially seem relevant, the explicit focus on mobility rather than traditional yoga postures or sequences places more emphasis on general stretching and mat work.\n\nOverall, the metadata strongly supports classification under 'Mat' and 'Stretching', indicating a dual focus on gentle movement and flexibility improvement."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

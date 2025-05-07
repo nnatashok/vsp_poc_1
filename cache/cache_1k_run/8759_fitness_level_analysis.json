@@ -2,15 +2,15 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.8
+      "score": 0.75
     },
     {
       "level": "Intermediate",
-      "score": 0.2
+      "score": 0.45
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is classified under 'row', which allows for a technique difficulty of either Beginner or Intermediate. As the workout involves straightforward row intervals of 2 and 3 minutes, it aligns more closely with Beginner due to the simplicity and repeatability of the rowing motion. Since the user fitness level requirement is Intermediate, it suggests some technical competence is beneficial, warranting a slight score for Intermediate.",
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The technique difficulty for this rowing workout is primarily 'Beginner' with a moderate alignment to 'Intermediate'. This is because rowing typically involves straightforward and repetitive motions. Although interval rowing may require some coordination to maintain proper form during effort changes, this aligns more with basic rowing skills. The mention of focus on 'proper form' by an experienced instructor slightly increases technique demand, suggesting some elements of intermediate difficulty.",
   "effortDifficulty": [
     {
       "level": "Moderate",
@@ -18,11 +18,11 @@
     },
     {
       "level": "Challenging",
-      "score": 0.3
+      "score": 0.4
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout's effort difficulty is a bit more challenging due to the 21-minute duration and interval format which elevates exertion levels slightly compared to steady rowing. The intensity is marked 2 out of 3, indicating a mid-to-high intensity that demands moderate effort, suitable for a less conditioned audience. However, the absence of an instructor and structured pacing alongside music indicates that the effort might not reach extreme levels.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout's effort is classified as 'Moderate' due to the 21-minute duration with 2' and 3' intervals at a max rhythm of 26, which suggests a need for consistent exertion but not at extreme levels. The intensity level being 2 out of 3 indicates a higher challenge for less fit individuals, thus partially aligning with 'Challenging'. The light-hearted, less intense musical cues also support the moderate requirement rather than extreme exertion.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

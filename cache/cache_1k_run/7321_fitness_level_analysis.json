@@ -6,23 +6,23 @@
     },
     {
       "level": "Intermediate",
-      "score": 0.2
+      "score": 0.4
     }
   ],
-  "techniqueDifficultyConfidence": 0.7,
-  "techniqueDifficultyExplanation": "Given the metadata, the workout type is 'row' which limits the technique difficulty to either Beginner or Intermediate. The instruction to 'focus on efficiency' and the use of rhythm 18 suggest slightly more coordination than the simplest rowing workouts, but the overall context points towards maintaining simplicity. Hence, it mostly aligns with Beginner due to its basic rhythm and lack of complex coordination requirements, but with a small possibility of Intermediate coordination due to the efficiency focus.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "Given that the workout type is 'row' and the user fitness level requirement is 'Beginner', the Technique Difficulty aligns closely with the Beginner level, scoring 0.8. The format 'Interval' and focus on 'efficiency' might require some coordination, justifying a lower Intermediate score of 0.4. However, the metadata's receiver-friendly approach and beginner-level indication support a Beginner classification with high confidence.",
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.7
+      "score": 0.8
     },
     {
       "level": "Moderate",
-      "score": 0.3
+      "score": 0.4
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The duration is relatively short at just over 11 minutes, and the intensity level is marked as 1 out of 3, indicating low physical demand. While 'interval' format can mean variable effort, the overall energy demand remains low. Thus, it classifies mainly as Light effort difficulty, with Moderate being partially considered due to the interval component.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout's intensity level is labeled 1 out of 3, suggesting it is not particularly demanding. With a short duration of 11:25 and the instructor's relaxed coaching style, the effort demands align best with Light, scoring 0.8. However, the interval nature might exert slightly more energy than a purely gentle session, supporting a Moderate score of 0.4.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Mat",
-      "score": 0.4
+      "name": "Warm-up",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout is primarily classified as 'Indoor rowing' with a score of 0.9 due to explicit references to rowing drills and power strokes in the title and description. The use of terminology such as 'row' and 'power strokes' strongly suggests this workout is performed on a rowing machine, which is a defining characteristic of indoor rowing sessions. The presence of a structured format with intervals further supports this categorization. Additionally, 'Mat' is considered at a score of 0.4 because the term 'warm-up' and the mention of drills could suggest some off-machine preparatory activities usually done on a mat, though this is less certain. The overall confidence in categorization is high at 0.9 due to definitive rowing terminology, although the lack of detailed equipment and instructor information adds slight ambiguity. Other categories, such as HIIT or Body weight, were excluded as there is no indication of high intensity or exclusive body weight exercises."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

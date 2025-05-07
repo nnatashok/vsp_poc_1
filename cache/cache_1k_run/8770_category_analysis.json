@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "Stretching",
-      "score": 0.6
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout is classified primarily as 'Indoor rowing' with a score of 0.8. This conclusion is drawn from phrases in the metadata such as 'Reinforce technique' and 'keeping your feet planted on the foot stretchers,' which suggest that the workout involves a rowing machine, focusing on technique. Moreover, the category listed in the metadata includes 'row,' further reinforcing this classification.\n\nThe secondary category is 'Stretching' with a score of 0.6. The metadata describes the workout as a 'steady cool down,' which aligns with the characteristics of stretching exercises that typically focus on relaxation and flexibility. The use of 'Technique' and 'cool down' suggests elements of movement control and elongation, both common in stretching routines.\n\nAlthough described as a 'cool down,' it does not fit the standalone definition of any other categories like 'Meditation' or 'Yoga,' which warrants excluding those options."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.8,
-  "categoriesExplanation": "The title 'Cardio Control Row' and the description mentioning 'controlling your split with Laine at rhythms 22 and 24 in this cardio-focused session' clearly indicate that this workout involves indoor rowing. The use of the term 'split', common in rowing, confirms this further. The metadata identifies it as a 'row' workout as well, supporting the classification of 'Indoor rowing' with a high confidence level of 0.9.\n\nThe mention of 'breathe' in the workout type suggests an element of 'Breathing exercises'. However, there is less explicit detail on how breathing is integrated into the workout compared to the rowing focus, thus it scores a moderate 0.6.\n\nThe duration of 11 minutes and the low-intensity level suggest a light and possibly rhythm-focused session, but the rowing context holds stronger than any meditative aspects that would typically score higher for 'Breathing exercises'. Other potential categories such as 'Mat' or 'Yoga' do not fit considering the rowing specific terms and context."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

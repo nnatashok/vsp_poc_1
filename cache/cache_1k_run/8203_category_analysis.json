@@ -3,12 +3,8 @@
     {
       "name": "Indoor rowing",
       "score": 1
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.6
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The primary category assigned is 'Indoor rowing' with a score of 1, as evidenced by the workout name 'Feel Good Row' and the description specifically mentioning following 'Buffy at low rhythms and accumulate steady meters along the Charles River'. This indicates a rowing workout on a rowing machine, which aligns exactly with the 'Indoor rowing' category. \n\nThe secondary category 'Breathing exercises' is assigned a score of 0.6. This is suggested by the 'Workout Type: breathe' and the low-intensity level of 1 out of 3, which aligns with a focus on breath. Moreover, the inclusion of calming songs like 'Breathe (Taylor\u2019s Version)' supports the idea of breath-focused exercises. \n\nOther potential categories like 'Stretching' or 'Yoga' were excluded as there is no mention of flexibility or mind-body postures, and the rowing aspect is very explicit. The confidence level is high (0.9) due to strong indicators for indoor rowing and a reasonable inference for breathing exercises."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

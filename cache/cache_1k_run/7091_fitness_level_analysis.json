@@ -14,15 +14,11 @@
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.9
-    },
-    {
-      "level": "Moderate",
-      "score": 0.3
+      "score": 1.0
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The effort difficulty is predominantly Light due to the short duration of 1 minute and 44 seconds of the workout. While pilates can be physically demanding depending on the exercise intensity, the brief duration and the typical energy profile of pilates, which emphasizes control and form, suggest a low energy expenditure suitable for deconditioned users. The absence of specified high-intensity cues reaffirms the correlation to the Light effort difficulty, with a minor increase towards Moderate due to the implicit demand of sustaining the bridge position.",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout lasts 1:44 minutes, focusing on a single exercise: shoulder bridges. The short duration and low intensity of a static exercise like shoulder bridges, with no indication of increased pace or resistance, suggest a light effort classification, fully aligning with beginner and some intermediate levels. Therefore, a score of 1.0 is appropriate for light effort.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

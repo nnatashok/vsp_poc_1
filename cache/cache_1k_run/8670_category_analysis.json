@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.8,
-  "categoriesExplanation": "The workout is best classified as 'Indoor Rowing' due to explicit references in the metadata such as 'race to accumulate maximum meters' and the category tags stating 'drive, standard, row'. The workout format also includes a rhythm, which aligns with rowing workout metrics. The intensity level is 3 out of 3, indicating this is a high-intensity session, which supports classifying it as 'HIIT', especially given the 'max rhythm' of 32 and power format, suggesting intervals of high effort are involved. The workout duration of 11 minutes and 28 seconds further supports an HIIT classification due to its short, intense nature. Music genres like Pop Punk and songs with intense energy also support these categories. The absence of additional equipment or context for other categories excludes them from consideration."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

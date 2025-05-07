@@ -2,17 +2,9 @@
   "categories": [
     {
       "name": "Yoga",
-      "score": 0.8
-    },
-    {
-      "name": "Stretching",
-      "score": 0.6
-    },
-    {
-      "name": "Meditation",
-      "score": 0.4
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The primary category assigned is 'Yoga' with a score of 0.8. This decision is based on the workout name 'Hip-Opening Flow,' which suggests a flow typically associated with yoga practices. The description 'Move with your breath as you follow Owen and Aisyah through this flow' further supports the yoga classification, emphasizing a flow and breath connection, key elements of yoga. Additionally, the use of the term 'flow' aligns with vinyasa or flow-style yoga sessions.\n\nThe 'Stretching' category is considered with a score of 0.6 due to the focus on 'Hip-Opening,' which often includes stretching exercises targeting flexibility and muscle relaxation, common in yoga but distinct in stretching-focused sessions.\n\nFinally, 'Meditation' is given a lower score of 0.4 due to the potential for a meditative aspect, as suggested by the environment (overlooking the mountains in Norway) and the chill, downtempo music genre, which sets a calming ambiance. However, the primary focus is more physical than mental, which is why this category is scored lower. \n\nThe 'Mat' category could have been a possibility, but the metadata strongly points towards a yoga and stretching focus rather than general floor exercises."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

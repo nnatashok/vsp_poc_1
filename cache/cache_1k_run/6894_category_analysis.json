@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.95
-    },
-    {
-      "name": "HIIT",
-      "score": 0.75
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.95,
-  "categoriesExplanation": "The workout is classified under 'Indoor rowing' and 'HIIT' based on specific elements in the metadata. The title 'Sprint Intervals Row' and description indicating 'sprinting intervals' strongly suggest an indoor rowing activity, scoring it 0.95 due to clear mention of rowing and interval training, which aligns with typical characteristics of indoor rowing workouts. The metadata also states the workout type involves 'interval', which fits precisely with High-Intensity Interval Training (HIIT), lending a score of 0.75 for this category. The mention of 'anaerobic capacity' and intensity level 3 out of 3 further supports the classification as a high-intensity interval training session. Other categories do not fit as well due to lack of evidence towards those activities, such as 'Mat', 'Stretching', or 'Yoga', which are not interval focused or use a rowing machine, thus excluded."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

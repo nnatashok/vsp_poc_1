@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The primary category for this workout is 'Indoor rowing' with a high confidence score of 0.9. This is due to the repeated references to rowing, both in the workout name 'Mind + Body Row' and the description mentioning 'aerobic intervals' which suggests a rowing machine workout. The presence of 'Max rhythm: 24' correlates with rowing strokes per minute, reinforcing this categorization. \n\nAdditionally, 'Breathing exercises' is included with a score of 0.6. The workout type and category mention 'breathe', the focus on feeling better post-workout, and the low intensity level imply a significant emphasis on rhythmic breathing during the intervals, which is common in rowing workouts but explicitly highlighted here. The description conveys a mind-body connection often associated with breathing exercises.\n\nThe other categories like 'Mat', 'Yoga', or 'Meditation' were excluded due to lack of supporting evidence, as the workout clearly involves the use of a rowing machine and is centered around aerobic exercise rather than these activities."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.75,
-  "categoriesExplanation": "The primary category for this workout is 'Indoor rowing' due to several explicit indicators. The workout name 'Travel Questions Row' directly mentions 'Row,' which suggests it's a rowing workout. Additionally, the tags such as 'row' and 'climb' format imply an indoor rowing activity, where users adjust rhythm and intensity. The 'breathe' tags and description suggest a focus on maintaining a breathing rhythm as exercises continue. Thus, given that 'breathe' is mentioned as a category and considering the lower intensity level (1 out of 3) indicating a relaxed pace, 'Breathing exercises' fits as a secondary focus. The rhythmic nature of the session further supports a combination of rowing and breathing control exercises. Despite the mention of breathing, this does not align with traditional stretching, meditation, or yoga categories."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

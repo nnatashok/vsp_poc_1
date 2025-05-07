@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Mat",
-      "score": 0.9
-    },
-    {
       "name": "Stretching",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is titled 'Hip Mobility,' indicating a focus on improving mobility in the hip area. The description mentions exercises to improve hip mobility and specifies that no additional equipment is required, aligning well with bodyweight exercises typically performed on a mat, which justifies the 'Mat' category with a high score of 0.9. The duration (10 minutes and 40 seconds) suggests a concise session dedicated to flexibility or mobility, which supports the inclusion of 'Stretching' with a score of 0.7, as improving mobility often involves stretching exercises. The metadata emphasizes a focus on mobility, a common characteristic of Mat or Stretching workouts, further supporting this classification. 'Yoga', 'Pilates', and other categories are excluded due to the lack of mention of typical characteristics or principles associated with them, like mindfulness, pilates methods, or more intense equipment use indicative of Pilates."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

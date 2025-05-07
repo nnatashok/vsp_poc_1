@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "Stretching",
-      "score": 0.4
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.75,
-  "categoriesExplanation": "The workout is classified primarily as 'Indoor rowing' with a score of 0.8 due to the explicit mention of '10 stroke accelerations' in the description, which clearly indicates rowing activity. The term 'stay loose' suggests a light intensity typical of a cool down phase after rowing. The usage of 'technique' format can also be typical for improving or focusing on rowing form, further supporting this classification. While 'Indoor rowing' is a definite category, there's some indication of stretching (0.4 score), due to the cool down focus which often involves light stretching or relaxation exercises. The music genre focusing on Indie Alternative and Global Hits doesn't provide specific cues for classification, making it irrelevant. Overall, the workout is best classified as 'Indoor rowing' with consideration for a stretching component, despite low-intensity indicators which do not warrant reclassification as yoga or similar exercises."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

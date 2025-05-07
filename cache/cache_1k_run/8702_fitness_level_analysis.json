@@ -14,15 +14,11 @@
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.8
-    },
-    {
-      "level": "Moderate",
-      "score": 0.2
+      "score": 1.0
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "Given the short duration of 10 minutes and 40 seconds and its classification as a 'mobility' workout, the energy expenditure is expected to be low. Mobility sessions generally involve gentle stretches and low-intensity movements, resulting in light effort difficulty. There is a small indication of moderate effort due to the potential intensity of specific stretches or exercises, but overall this would suit someone looking for a low-impact session.",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The duration of the workout is relatively short at 10:40, and it's a mobility session, which typically involves stretching and controlled movements aimed at improving flexibility. The lack of additional equipment and the focus on hip mobility imply low energy expenditure and gentle activity, framing this as a light effort workout suitable for beginners. Thus, the classification receives a Light difficulty score of 1.0 due to the minimal energy demands and fit with the described session type.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

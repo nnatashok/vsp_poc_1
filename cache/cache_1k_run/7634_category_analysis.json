@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.4
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The primary category for this workout is 'Indoor rowing,' with a very high confidence score of 0.9. This is based on the workout's title 'Step Pyramid Row' and the mention of 'pyramid-style workout' indicating a structured rowing session with varying intervals, which aligns with rowing machine workouts. The metadata explicitly mentions 'row' and references a 'pyramid' format commonly used in rowing workouts. The description notes a change in rhythm reaching a max of 26 strokes, typical of rowing training sessions. The intensity level is listed as 1 out of 3, suggesting a lower intensity that could be suitable for incorporating breathing exercises. Consequently, 'Breathing exercises' is included as a secondary category with a score of 0.4 due to the mention of 'Workout Type: breathe' and the focus on rhythm changes, which might involve strategic breathing techniques to match rowing stroke rates. Other categories such as 'Mat' or 'HIIT' were excluded as there is no indication of floor exercises or high-intensity training. The playlist suggests a motivating atmosphere aligning with the rowing activity."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

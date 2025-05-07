@@ -2,27 +2,23 @@
   "techniqueDifficulty": [
     {
       "level": "Intermediate",
-      "score": 0.7
-    },
-    {
-      "level": "Advanced",
-      "score": 0.4
+      "score": 0.8
     }
   ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout is classified under 'drive' as part of its type, which suggests a higher technical demand typical of rowing workouts that require good form and coordination. However, since it's a rowing exercise ('row' category), the maximum possible classification under Hydrow's guidelines is Intermediate. The mentions of 'Max Interval' and 'Sprint' indicate advanced techniques, but within the realm of rowing, this complexity aligns more strongly with 'Intermediate'.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is classified as a 'drive' row, which, according to Hydrow's specific rules, positions its Technique Difficulty as 'Intermediate'. The intervals of sprinting and max pacing require additional rowing skills and rhythm management (max rhythm: 28), which aligns with an intermediate level of coordination and technical execution. Although the workout is intense, the fundamental rowing movements remain consistent with an intermediate technique level.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.75
+      "score": 0.8
     },
     {
       "level": "Extreme",
-      "score": 0.5
+      "score": 0.6
     }
   ],
-  "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "The workout duration is brief at just over 11 minutes, but its HIIT format with intervals of max intensity rowing and a stated intensity level of 3 out of 3 imply significant physical demand. Interval training inherently requires bursts of near maximal effort which supports the 'Challenging' classification. The use of terms like 'max pace' and the specific focus on high intensity intervals further indicates that the energy expenditure is quite high, bordering on 'Extreme', but short duration slightly moderates this.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is highly demanding with a max intensity level of 3 out of 3, focused on sprint and max pace intervals over an 11-minute duration. This indicates high physical exertion, supported by the sprinting nature of a HIIT format that has both intense effort periods and very physical recovery. The session is likely 'Challenging' to 'Extreme' for a less fit individual due to high energy output and short rests in a HIIT setting, especially for users with low fitness endurance.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

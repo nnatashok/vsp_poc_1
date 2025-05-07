@@ -2,31 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.2
-    },
-    {
-      "level": "Intermediate",
-      "score": 0.8
-    }
-  ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout is categorized as 'Drive' and 'Row', and per Hydrow-specific rules, this typically falls into the Intermediate category. The description mentions 'higher rhythms' and 'pushing out of comfort zone', which suggests movement complexity suitable to an Intermediate level. However, 'Drive' workouts could involve more challenge, justifying a stronger score for Intermediate.",
-  "effortDifficulty": [
-    {
-      "level": "Moderate",
       "score": 0.1
     },
     {
+      "level": "Intermediate",
+      "score": 0.9
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout type is classified as 'drive,' which Hydrow designates as inherently Advanced due to increased technical engagement and complexity compared to standard rows. This type encourages maintaining higher speeds and demands coordinated movements, justifying an Intermediate classification. The Beginner level has minimal alignment as 'drive' is more technical than simple rowing tasks but lacks Olympic level or complex technique requirements.",
+  "effortDifficulty": [
+    {
       "level": "Challenging",
-      "score": 0.8
+      "score": 0.25
     },
     {
       "level": "Extreme",
-      "score": 0.7
+      "score": 0.75
     }
   ],
   "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "The 'Drive' workout type points to a high intensity which aligns with Hydrow's default settings, and the intensity level is 3 out of 3, reflecting a highly demanding session. The short duration suggests sustained high effort without long rest, fitting both 'Challenging' and 'Extreme' effort levels. The description also supports this with phrases like 'push yourself out of your comfort zone'.",
+  "effortDifficultyExplanation": "This workout is marked as a 3 out of 3 intensity level, indicating a high-energy, physically demanding session. The description encourages pushing oneself with a higher rhythm of 32 strokes per minute, suggestive of a vigorous cardiovascular challenge. The short duration, typical for high-intensity workouts, aligns with elite effort levels for users with lower fitness. Thus, while there is alignment with Challenging due to this high intensity setup, the score leans towards Extreme given the maximum intensity rating and competitive drive emphasis.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

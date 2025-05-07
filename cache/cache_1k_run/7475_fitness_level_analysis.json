@@ -9,20 +9,20 @@
       "score": 0.7
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is classified as a rowing-based routine (category: row). According to Hydrow's workout type rule, rowing can be rated at either Beginner or Intermediate. Given that this specific workout is labeled as a 'Drive' session, which typically implies a heightened level of technique due to more complex rowing sequences, an Intermediate technique difficulty classification is justified with strong confidence. The metadata does not highlight any expert-level rowing techniques; this supports Intermediate over Beginner.",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is categorized as \"row\" under \"Drive\" which typically maintains a 'Beginner' or 'Intermediate' technique difficulty. High-intensity interval rowing requires coordination during power and recovery phases, suggesting an intermediate level. However, it remains simpler than complex technical skills, justifying the strong alignment with 'Intermediate'.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.5
+      "score": 0.4
     },
     {
       "level": "Extreme",
-      "score": 0.8
+      "score": 0.9
     }
   ],
   "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "The metadata emphasizes high intensity intervals and specifies a maximum rhythm of 30, indicating a high-energy HIIT workout. The duration of about 16 minutes aligns with typical HIIT protocols that focus on high workload in short timeframes. The workout intensity is rated 3 out of 3, suggesting extreme physical demand. Therefore, Extreme is a strong classification fit with high confidence due to the intense nature and rhythm pace. However, recognizing varied individual capacities, a Challenging classification was also considered.",
+  "effortDifficultyExplanation": "The workout description emphasizes \"high intensity intervals\" and a rhythm maxing at 30, in combination with a 16-minute duration, which typically indicates an extreme level of effort difficulty. The exercise is categorized under \"Drive,\" a typically advanced workout type that involves vigorous exertion, likely demanding a high energy expenditure and quick recovery with limited rest. This aligns strongly with 'Extreme'.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

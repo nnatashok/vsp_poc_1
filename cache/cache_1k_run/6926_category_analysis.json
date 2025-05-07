@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.95
-    },
-    {
-      "name": "HIIT",
-      "score": 0.65
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The primary category for this workout is 'Indoor rowing' with a high confidence level (0.95) because the title mentions 'Climbing Intervals Row' and the description includes specific rowing terms like 'row' and 'rhythm'. Additionally, the 'equipment' section references 'row'. The duration of the workout (11 minutes 31 seconds) and the workout intensity ('2 out of 3') also support this as an intense, interval-based rowing session.\n\nThe secondary category is 'HIIT' with a moderate confidence level (0.65) because this workout involves '2-minute intervals' which aligns with the structure of High-Intensity Interval Training (HIIT). The mention of 'sprint paces' during intervals further implies intense periods of activity followed by rests, a key characteristic of HIIT workouts.\n\nOther categories like 'Stretching', 'Yoga', and 'Meditation' were excluded due to the high-intensity and interval nature of the workout, which is inconsistent with the usual format of these categories."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

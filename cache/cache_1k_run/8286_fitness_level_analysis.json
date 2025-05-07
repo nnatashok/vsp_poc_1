@@ -1,36 +1,28 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Beginner",
-      "score": 0.0
+      "level": "Advanced",
+      "score": 0.9
     },
     {
       "level": "Intermediate",
-      "score": 1.0
+      "score": 0.5
     }
   ],
-  "techniqueDifficultyConfidence": 1.0,
-  "techniqueDifficultyExplanation": "The workout type is 'drive', which, according to Hydrow-specific rules, categorizes the technique difficulty as Intermediate regardless of other factors. The metadata specifies the workout involves maintaining rhythms up to 32 in a rowing activity, which requires some level of rhythm and coordination, aligning with an Intermediate technique level. As a 'row' category workout, it cannot exceed Intermediate technique difficulty.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The technique difficulty is primarily classified as Advanced due to the workout type 'Drive', which on Hydrow is associated with complex, technical rowing movements. The reference to 'in-depth technical detail' and the high rhythm pace indicates a significant level of coordination and skill required to maintain proper form, aligning strongly with Advanced level. However, there is a moderate alignment with Intermediate, considering rowing workouts can somewhat align with less complex movement if not for the 'Drive' specification.",
   "effortDifficulty": [
     {
-      "level": "Light",
-      "score": 0.0
-    },
-    {
-      "level": "Moderate",
-      "score": 0.0
-    },
-    {
       "level": "Challenging",
-      "score": 0.2
+      "score": 0.75
     },
     {
       "level": "Extreme",
-      "score": 1.0
+      "score": 0.65
     }
   ],
-  "effortDifficultyConfidence": 0.95,
-  "effortDifficultyExplanation": "The workout is classified as Drive with a duration of over 21 minutes and an intensity level of 3 out of 3, suggesting a high-intensity rowing session. The tempo between rhythm 28 and 32 is challenging and requires significant energy output, aligning with the 'Extreme' category for effort. The metadata's emphasis on phrases like 'maximum pace' further supports this classification. For someone in poor shape, this effort level would likely be perceived as extremely demanding.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The effort difficulty is rated as Challenging due to the high workout intensity level (3 out of 3) and the extended duration (21:32), both indicative of demanding physical exertion. The description of 'maximum pace' and 'high-energy' workouts further supports this classification. There is also a significant alignment with Extreme level given the potential difficulty for less fit users to sustain a rhythm of 32 and the intensity level described, though not enough to surpass the Challenging classification entirely.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

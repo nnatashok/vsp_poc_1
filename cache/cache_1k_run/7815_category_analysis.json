@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Mat",
-      "score": 0.8
-    },
-    {
       "name": "Body weight",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The primary category of 'Mat' was chosen due to explicit references in the metadata: 'Workout Name: Core Strength,' 'Workout Description: ...efficient core strengthening workout,' and 'Category: On The Mat,' all indicate a focus on core exercises typically performed on a mat without much equipment. The title and description mention core strengthening, which often involves exercises like planks or sit-ups done on an exercise mat, justifying the high score for 'Mat.'\n\n'Body weight' was included as a secondary category with moderate confidence given the mention of 'strengthening workout' without specific equipment, suggesting reliance on body weight exercises to engage the core muscles.\n\nThere is no indication of 'Pilates,' 'Yoga,' or other categories pertaining to meditation or flexibility since the emphasis is on core strength rather than mind-body elements or flexibility enhancement. The equipment being optional yoga blocks does not imply a specific category directly and supports this conclusion."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

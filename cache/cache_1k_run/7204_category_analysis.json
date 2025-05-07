@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "HIIT",
-      "score": 0.9
-    },
-    {
       "name": "Indoor rowing",
-      "score": 0.8
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout is classified under 'HIIT' and 'Indoor rowing' with a very high confidence level due to several indicators present in the metadata. The title 'HIIT Pyramid Row' explicitly mentions 'HIIT,' which is a form of High-Intensity Interval Training, further corroborated by the 'pyramid-style intervals' described in the workout metadata. The mention of intervals lasting 30\", 45\", and 60\" and the intensity level of 3 out of 3 indicates a high-intensity workout commonly seen in HIIT sessions.\n\nAdditionally, the term 'row' in the title, combined with the category tags that include 'row' and the format labeled as 'pyramid,' strongly point towards the use of a rowing machine, thus justifying the 'Indoor rowing' classification. The playlist featuring upbeat and energetic tracks from Kygo aligns with the likely energetic and motivating atmosphere of a HIIT class. The absence of any direct mention of weights or other forms of non-rowing exercises clarifies the exclusion of other categories."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

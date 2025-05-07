@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "Mat",
-      "score": 0.5
+      "name": "Warm-up",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.75,
-  "categoriesExplanation": "The workout is identified as an 'Indoor rowing' session based on the description's mention of 'climb from a rhythm 22 to 26,' which suggests the use of a rowing machine, a common phrasing in rowing workouts (score: 0.8). The emphasis on rhythms and climbing also aligns with rowing training. Additionally, with the metadata including tags like 'warm-up' and 'row,' it reinforces the connection to rowing, despite the warm-up label which might imply a lower intensity. 'Mat' was considered due to the 'warm-up' tag, typically associated with floor exercises (score: 0.5). However, the primary focus appears to be rowing styled as a warm-up, instead of traditional mat exercises. Other categories like 'Elliptical' or 'Indoor biking' are excluded as the metadata does not indicate elliptical or cycling activities, and the descriptors do not fit yoga, stretching, or other significantly different workouts."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

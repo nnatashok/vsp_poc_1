@@ -1,28 +1,24 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Beginner",
-      "score": 1
-    },
-    {
       "level": "Intermediate",
       "score": 0.8
     }
   ],
-  "techniqueDifficultyConfidence": 0.95,
-  "techniqueDifficultyExplanation": "The workout is classified as 'Drive' and 'Standard' under the 'row' category, which usually signifies either Beginner or Intermediate technique difficulty due to the straightforward rowing movements involved. The inclusion of 1-minute intervals indicates slight complexity due to timing and rhythm coordination, aligning more with Intermediate technique difficulty. No special equipment or complex instructions involved strengthens the Beginner classification, but the Drive classification supports elevating the technique to Intermediate with high confidence.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized as 'row', which typically limits the Technique Difficulty to Beginner or Intermediate. However, since this is a 'Drive' workout, which by Hydrow-specific rules suggests Advanced technique, we align this with Intermediate due to the imposed constraints. The intervals and rhythm data indicate a focus on coordination and control but are not complex enough to denote an Advanced level for rowing specifically.",
   "effortDifficulty": [
     {
-      "level": "Moderate",
-      "score": 0.8
+      "level": "Challenging",
+      "score": 0.7
     },
     {
-      "level": "Challenging",
-      "score": 0.6
+      "level": "Extreme",
+      "score": 0.5
     }
   ],
   "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "With a workout intensity level of 3 out of 3 and the interval format, this session is designed to be quite demanding, pushing it towards the upper levels of exertion. The duration of 11 minutes with a rhythm high of 30 implies high-intensity bursts that would challenge stamina and endurance, especially for deconditioned users. While challenging, it's not highly extensive in duration, resulting in a solid alignment with a moderate to challenging effort level based on these metadata cues.",
+  "effortDifficultyExplanation": "The workout duration of 11:20 minutes with 1-minute intervals suggests a high-intensity session, especially with the 'Drive' categorization and a max rhythm of 30. The intensity level 3 out of 3 further confirms that the workout is very demanding. Because of the interval structure and high-intensity cues, the effort is classified between Challenging and Extreme; however, given the platform's audience, we provide stronger alignment with Challenging.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

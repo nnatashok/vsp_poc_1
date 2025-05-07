@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.9
+      "score": 0.8
     },
     {
       "level": "Intermediate",
       "score": 0.4
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The technique difficulty for this workout is primarily Beginner. The metadata specifies the workout type as 'row', with a category of 'Breathe', which adheres to the rule that rowing workouts are mostly classified between Beginner and Intermediate in technique. The 'Breathe' category combined with a low-intensity level of 1 suggests that the movements are simple and geared towards relaxation with minimal coordination required. Hence, the Beginner level is strongly aligned.",
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row' which means the technique difficulty is restricted to at most 'Intermediate'. The description suggests a focus on proper form without mentioning complex or advanced movements, which aligns well with a 'Beginner' level technique. The interval format might introduce an element of challenge, hence there is a partial fit for 'Intermediate'.",
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.75
+      "score": 0.7
     },
     {
       "level": "Moderate",
-      "score": 0.3
+      "score": 0.4
     }
   ],
   "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The effort difficulty is Light. The workout is 16 minutes and 22 seconds long and is categorized under 'Breathe', suggesting a low-energy expenditure, suitable for complete beginners. The intensity level is marked as 1 out of 3, suggesting the physical demand is not intense. While it might slightly edge into Moderate due to being an interval format, the combination of low duration, low intensity, and the 'Breathe' focus supports a primarily Light classification.",
+  "effortDifficultyExplanation": "The duration of 16 minutes and the assigned intensity level of 1 out of 3 suggest the effort level is primarily 'Light'. A 'breathe' workout type typically signals a lower intensity suitable for recovery or endurance building. The inclusion of intervals introduces some variation in effort, suggesting some alignment with 'Moderate' effort difficulty.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

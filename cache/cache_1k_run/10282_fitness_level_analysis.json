@@ -2,23 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 1.0
+      "score": 0.8
     },
     {
       "level": "Intermediate",
-      "score": 1.0
+      "score": 0.4
     }
   ],
-  "techniqueDifficultyConfidence": 1.0,
-  "techniqueDifficultyExplanation": "Since the workout is marked as suitable for all fitness levels (Beginner, Intermediate, Advanced), the technique difficulty is considered adaptable. Movements can be scaled in complexity, and users are expected to modify techniques based on their capability. Therefore, all difficulty levels from Beginner to Expert are assigned equal suitability with a score of 1.0.",
+  "techniqueDifficultyConfidence": 0.65,
+  "techniqueDifficultyExplanation": "The workout features basic bodyweight exercises like squats, planks, and toe touches, which are considered simple movements requiring minimal coordination. The inclusion of dynamic elements like speed skaters and burpee variations without jumps or push-ups adds some complexity, potentially leaning towards an Intermediate designation. Thus, the technique difficulty aligns best with Beginner with some elements of Intermediate.",
   "effortDifficulty": [
     {
+      "level": "Light",
+      "score": 0.5
+    },
+    {
       "level": "Moderate",
-      "score": 0.8
+      "score": 0.7
     }
   ],
   "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout is a 10-minute circuit designed to elevate heart rate through continuous activity with exercises such as double pulsing squats and mountain climbers. The inclusion of a rowing pace at 22-24 s/m also adds a mild cardiovascular element. The quick transitions and varied exercises indicate a low-to-moderate energy expenditure level, which, though challenging, remain within moderate difficulty due to the short duration and beginner-friendly intensity. It requires some effort from less fit individuals but is not overwhelmingly demanding.",
+  "effortDifficultyExplanation": "The workout is a 10-minute circuit involving exercises like squats and mountain climbers, which require some effort particularly with increased pace at 22-24 s/m rhythm. While it is beginner-friendly, the fast pace and combination of exercises might pose a slight challenge, leading to a Moderate rating, especially with the conditioning intent indicated by the instructor. Thus, it aligns with both Light and Moderate levels.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",
@@ -27,12 +31,8 @@
     {
       "level": "Intermediate",
       "score": 1.0
-    },
-    {
-      "level": "Advanced",
-      "score": 1.0
     }
   ],
   "requiredFitnessLevelConfidence": 1.0,
-  "requiredFitnessLevelExplanation": "Workout type 'circuit' is not one of the specialized Hydrow categories (Breathe, Sweat, Drive, Distance). It is treated as suitable for all fitness levels."
+  "requiredFitnessLevelExplanation": "Workout type 'circuit' is not one of the specialized Hydrow categories (Breathe, Sweat, Drive, Distance). And workout description mentiones it is meant for beginners."
 }

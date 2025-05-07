@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "HIIT",
-      "score": 0.9
-    },
-    {
       "name": "Indoor rowing",
-      "score": 0.8
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout is classified as 'HIIT' with a score of 0.9 due to explicit mentions of High-Intensity Interval Training in the title and description ('Vancouver HIIT Row', 'intervals', 'drive', 'intensity level: 3 out of 3'). It indicates a high-intensity workout format that matches the characteristics of HIIT. Additionally, the workout is done with 'Indoor rowing', given the context and usage of 'row'. \nThe 'Indoor rowing' category is scored at 0.8 due to the use of the term 'row', suggesting that the workout is performed on a rowing machine. The length of the session (21 minutes and 21 seconds) and specific music choices (high energy, dance tracks) also support a classification of a vigorous activity involving an ergometer.\nOther categories were considered less relevant as the terms like 'Elliptical', 'Treadmill', 'Mat', etc., weren't directly indicated or implied through any section of the provided metadata."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.5
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.75,
-  "categoriesExplanation": "The title 'Daily Cardio Row' and the mention of 'row' in the metadata clearly indicate that this is an indoor rowing workout, which is one of the primary activities performed in this session. This is supported by the categorization tags such as 'row' and 'Format: Cardio'. Therefore, 'Indoor rowing' is assigned with a score of 0.8 for its central defining characteristic in the workout.\n\nThe inclusion of 'breathe' in the Workout Type and Category fields suggests a focus on controlled breathing or possibly incorporating breathing exercises. Although the primary activity is rowing, breathing seems to be an important element of this workout, likely tied into the rhythm and pacing of the rowing exercise, thereby warranting its recognition with a score of 0.5.\n\nThe workout's intensity is marked as beginner-friendly and low, which may sometimes overlap conceptually with more meditative or breathing-focused sessions, but its clear structuring as a cardio rowing session places primary emphasis on the Indoor rowing category."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

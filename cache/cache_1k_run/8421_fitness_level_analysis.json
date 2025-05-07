@@ -13,16 +13,16 @@
   "techniqueDifficultyExplanation": "Since the workout is marked as suitable for all fitness levels (Beginner, Intermediate, Advanced), the technique difficulty is considered adaptable. Movements can be scaled in complexity, and users are expected to modify techniques based on their capability. Therefore, all difficulty levels from Beginner to Expert are assigned equal suitability with a score of 1.0.",
   "effortDifficulty": [
     {
-      "level": "Light",
-      "score": 0.6
+      "level": "Moderate",
+      "score": 0.7
     },
     {
-      "level": "Moderate",
+      "level": "Challenging",
       "score": 0.4
     }
   ],
   "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The workout is 21 minutes in length and the description 'heat-building flow' implies a mild increase in energy expenditure. Given the 'flow' type and on-the-mat category, the effort difficulty is primarily Light as it focuses on sustaining effort through steady movements rather than high-intensity bursts. The playlist suggests a calm, steady tempo. Therefore, Light is scored at 0.6 with a Moderate element at 0.4 for increased core engagement.",
+  "effortDifficultyExplanation": "The duration of 20:53 minutes and the core-focused flow indicate a moderate physical demand. The tempo of the music, being chill and downtempo, suggests a pace that's not too fast, aligning with Moderate effort difficulty. The 'heat-building flow' description, however, implies a more challenging intensity, situatively warranting a Challenging categorization.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

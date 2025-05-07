@@ -2,17 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.5
-    },
-    {
-      "name": "Mat",
-      "score": 0.2
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is classified primarily as 'Indoor rowing' because it is clearly indicated by the title 'Technique Focused Row' and the inclusion of 'row' and 'lake' in the description, suggesting a rowing focus despite the lack of specific rowing equipment mentioned. The use of interval format and technical focus highlights a structured rowing workout, giving this category a high score of 0.9. \n\n'Breathing exercises' is chosen as a secondary category with a score of 0.5 due to the mention of 'breathe' in both the workout type and category, indicating some component of controlled breathing within the session. However, the lower score reflects the primary emphasis on rowing techniques rather than purely on breathing exercises. \n\n'Mat' is considered with a score of 0.2 as the workout could potentially involve floor-based techniques or stretches due to the interval approach and low-intensity level, though there's no strong evidence suggesting it is central to the session."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

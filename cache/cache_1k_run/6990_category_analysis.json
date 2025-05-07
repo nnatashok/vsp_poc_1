@@ -3,12 +3,8 @@
     {
       "name": "Indoor rowing",
       "score": 1
-    },
-    {
-      "name": "HIIT",
-      "score": 0.7
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout is classified as 'Indoor rowing' with a high confidence score of 1.0 due to explicit references to rowing ('Prepare for Success Row') and the format of the workout ('interval with Dani', 'hit higher rhythms'). The presence of intervals and high rhythm targets (max rhythm of 34) strongly suggest a rowing-focused activity. Additionally, the description indicates an intense level with a structured interval format, justifying the inclusion of 'HIIT' with a score of 0.7. The 'Drive' category, although mentioned, is likely a proprietary term related to the rowing machine settings rather than an alternative category."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

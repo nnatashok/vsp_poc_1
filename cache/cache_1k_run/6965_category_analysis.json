@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Mat",
-      "score": 0.7
-    },
-    {
       "name": "Body weight",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.75,
-  "categoriesExplanation": "The workout video is titled \"St. Patrick's Day Strength,\" and is noted to focus on 'strengthening your abductors and adductors,' which typically involves exercises targeting the legs and hip area. The category given is 'On The Mat,' which aligns with exercises performed on the floor and often includes body weight exercises.\n\n1. **Mat**: This category is supported by the metadata explicitly stating 'On The Mat,' and indicates exercises performed on the ground, likely involving movements such as side leg lifts, which are common for abductor and adductor strengthening. The score of 0.7 reflects strong support from the metadata.\n\n2. **Body weight**: Given the focus on strength and the lack of specified equipment, it's reasonable to infer that the exercises use body weight for resistance. This is reinforced by the strength training focus on specific muscle groups. The score of 0.6 suggests this inference is likely but not definitively confirmed without visual evidence.\n\nOther potential categories such as 'Weight workout' were excluded due to the absence of any specified equipment, reducing the likelihood that weights are involved."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

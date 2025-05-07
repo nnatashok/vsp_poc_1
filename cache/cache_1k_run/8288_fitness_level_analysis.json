@@ -1,24 +1,32 @@
 {
   "techniqueDifficulty": [
     {
+      "level": "Beginner",
+      "score": 0.3
+    },
+    {
       "level": "Intermediate",
-      "score": 1.0
+      "score": 0.7
     }
   ],
-  "techniqueDifficultyConfidence": 1.0,
-  "techniqueDifficultyExplanation": "The workout is classified with a high confidence as Intermediate for technique difficulty, based on the metadata indicating it's a rowing-based HIIT session. Row-based workouts inherently fit Beginner or Intermediate levels. The drive format used suggests elevated complexity, however, within the rowing spectrum under the 'Hydrow' guideline this maxes out at Intermediate.",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is classified as 'row', which according to platform rules can only be Beginner or Intermediate in technique difficulty. The 'Drive' workout type automatically applies, indicating a default of Advanced, but since the User Fitness Level Requirement is Advanced, the technique must align with Intermediate or lower based on Hydrow\u2019s rowing rules. Therefore, due to motor skill simplicity in rowing and description of high-intensity intervals, the Intermediate level fits best for technique.",
   "effortDifficulty": [
     {
+      "level": "Moderate",
+      "score": 0.2
+    },
+    {
       "level": "Challenging",
-      "score": 0.8
+      "score": 0.3
     },
     {
       "level": "Extreme",
-      "score": 0.6
+      "score": 0.7
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout is rated Challenging to Extreme for effort difficulty based on the metadata: a 21-minute high-intensity interval training (HIIT) format with a max rhythm of 30. The effort intensity is further confirmed by the platform's highest intensity rating of 3/3 and the vigorous nature of HIIT workouts, implying significant exertion and energy expenditure consistent with high-effort levels.",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout description highlights 'high-intensity intervals' and songs with powerful beats typically associated with intense effort. With a duration of 21 minutes and a workout intensity level marked 3 out of 3, this suggests substantial energy expenditure and very short rest periods typical of HIIT. These factors contribute to an Extreme effort level classification due to sustained challenging tempo and intensity, especially for less fit individuals.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

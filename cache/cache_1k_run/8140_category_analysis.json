@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Stretching",
-      "score": 0.9
-    },
-    {
       "name": "Yoga",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout video titled 'Shoulder + Upper Back Release' suggests a focus on flexibility and mobility in the shoulder and upper back regions. The description encourages using a \"yoga strap or towel,\" which is typical equipment for a stretching or yoga routine, aimed at gently opening up the targeted areas. The term 'restore' in the Workout Type and the relaxed music genres indicate a restorative and low-intensity session. The mention of the category 'On The Mat' further supports a classification of mat-based activities.\n\nGiven the emphasis on gently opening up the body and the use of a yoga strap, the primary category assigned is 'Stretching' with a high score of 0.9, as stretching is central to flexibility and releasing tension in specific body parts. 'Yoga' is also assigned with a score of 0.6, since the practice includes similar activities and the equipment is commonly associated with yoga practices. While 'Mat' could also be considered, the specificity of stretching and yoga techniques makes these categories more appropriate."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

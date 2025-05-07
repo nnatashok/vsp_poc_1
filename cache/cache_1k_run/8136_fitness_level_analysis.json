@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.9
+      "score": 0.6
     },
     {
       "level": "Intermediate",
-      "score": 0.1
+      "score": 0.8
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout 'Walk the Plank Row' is categorized under 'row,' which aligns with Hydrow's rowing workout rule. This limits the Technique Difficulty to Beginner or Intermediate. The emphasis on 'Drive harrrrrd' suggests a focus on rhythm and leg drive, skills that beginners can grasp with some practice. Since no complex movements are indicated, the classification predominantly aligns with Beginner (90% confidence), with a slight consideration for Intermediate due to the interval format.",
+  "techniqueDifficultyExplanation": "The workout is a rowing session described with terms like 'high-energy' and 'technical detail,' suggesting the moves have a complexity that caters well to users with a basic to moderate rowing technique knowledge. Since it's a 'row' workout type, the technique difficulty is classified between Beginner and Intermediate, with a stronger alignment to Intermediate due to the called attention to technical skills required.",
   "effortDifficulty": [
     {
       "level": "Moderate",
-      "score": 0.75
+      "score": 0.7
     },
     {
       "level": "Challenging",
-      "score": 0.25
+      "score": 0.5
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout duration of 21 minutes and 38 seconds and the interval format suggest a higher effort expenditure compared to continuous rowing. The workout intensity level of 2 out of 3 indicates it's suited for participants with some fitness background but not excessive exertion. The use of terms like 'Drive harrrrrd' and a max rhythm of 30 supports a moderate difficulty classification (75% confidence). Given the interval format, there's also a slight alignment with Challenging (25% score), indicating periods requiring more effort.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The 'sweat' category and descriptor 'interval' suggest a moderate level of physical effort due to alternating intensities. Duration of 21 minutes with an intensity level of 2 out of 3 indicates energy expenditure could be between moderate to challenging for deconditioned users, aligning more with moderate difficulty. However, it could still prove challenging for beginners.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

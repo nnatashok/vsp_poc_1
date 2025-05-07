@@ -13,16 +13,16 @@
   "techniqueDifficultyExplanation": "Since the workout is marked as suitable for all fitness levels (Beginner, Intermediate, Advanced), the technique difficulty is considered adaptable. Movements can be scaled in complexity, and users are expected to modify techniques based on their capability. Therefore, all difficulty levels from Beginner to Expert are assigned equal suitability with a score of 1.0.",
   "effortDifficulty": [
     {
-      "level": "Light",
-      "score": 0.5
+      "level": "Moderate",
+      "score": 0.7
     },
     {
-      "level": "Moderate",
-      "score": 0.6
+      "level": "Challenging",
+      "score": 0.3
     }
   ],
-  "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The session is 10 minutes long and includes core-focused exercises, which while potentially challenging for the core muscles, do not indicate a high overall energy expenditure. The short duration suggests a moderate effort level, suitable for those who are somewhat deconditioned but still looking to engage their core muscles, striking a balance between light and moderate.",
+  "effortDifficultyConfidence": 0.6,
+  "effortDifficultyExplanation": "The workout focuses on core strength over a short duration of just over 10 minutes. The description does not highlight an intense pace, implying moderate intensity. The exercises like planks and Russian twists involve isometric and dynamic core movements, generally producing moderate energy expenditure. Given the short duration, it's unlikely to be excessively strenuous, though maintaining certain core positions might require effort akin to low-end 'Challenging'.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

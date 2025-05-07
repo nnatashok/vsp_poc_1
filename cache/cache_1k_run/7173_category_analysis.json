@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.95,
-  "categoriesExplanation": "The workout \"Climbing Cardio Row\" indicates it is a rowing workout due to the mention of \"row\" in the title and the context of climbing intervals, which suggest effort levels typical in rowing exercises. Furthermore, the workout is described to focus on rhythm with a climbing max rhythm of 26, a terminology often used in rowing to describe strokes per minute, reinforcing the classification as Indoor Rowing with a high confidence of 0.9.\n\nThe mention of \"Workout Type: breathe\" and \"Category: Breathe\" suggests a focus on breathing exercises. The integration of breathing into the workout, potentially to maintain rhythm and focus, warrants the categorization as Breathing Exercises with a score of 0.7, as explicit breathing exercises are emphasized. However, given the primary nature of rowing, this category is secondary in presence. The confidence level in the classifications is very high due to explicit and clear indicators in the metadata provided."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

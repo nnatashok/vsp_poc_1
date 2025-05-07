@@ -9,8 +9,8 @@
       "score": 0.6
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The technique difficulty is gauged by the 'row' category and intensity level. Rowing is typically considered at most an Intermediate activity in terms of technique. The description doesn't indicate advanced or expert-level complexity in movements. Therefore, Beginner and Intermediate align well with the evidence provided.",
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is categorized as 'row', which traditionally means technique difficulty should range from Beginner to Intermediate. The use of rowing in a pyramid format indicates some degree of pacing and rhythm change, suitable for those with basic rowing proficiency, likely raising it from Beginner to Intermediate for some aspects. However, given the absence of complex movements detailed in the metadata, it aligns slightly more with Beginner than Intermediate, supporting the User Fitness Level Requirements of 'Intermediate'.",
   "effortDifficulty": [
     {
       "level": "Moderate",
@@ -21,8 +21,8 @@
       "score": 0.5
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The effort difficulty takes into account the workout duration of approximately 21 minutes, and the 'pyramid' format alongside a max rhythm of 28, indicating varying intensity. The intensity level is marked 2 out of 3 and the 'sweat' type suggests more effort than a light workout. Therefore, Moderate and Challenging levels are appropriate, reflecting the combined duration, slightly increased intensity, and rhythm aspects.",
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout is 21:17 minutes long, with a 'sweat' workout type indicating moderate energy expenditure. The rhythm maxing at 28 strokes per minute, alongside a pyramid format, suggests a workout that becomes incrementally challenging, supporting Moderate to Challenging effort levels. The workout has an intensity level of 2 out of 3, which suggests moderate challenge particularly because of sustained rowing at a consistently high pace.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

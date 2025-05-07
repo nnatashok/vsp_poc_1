@@ -2,29 +2,25 @@
   "techniqueDifficulty": [
     {
       "level": "Intermediate",
-      "score": 0.8
+      "score": 0.7
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "This is a rowing workout categorized as 'Drive', which is typical for intermediate technique difficulty. Despite the high rhythm (max 34), which suggests a more intense rowing pace, rowing inherently has less complex movements, confirming an intermediate classification.",
+  "techniqueDifficultyExplanation": "The technique difficulty for this workout is categorized as Intermediate due to the 'Drive' category, which usually requires advanced rowing skills. However, given the metadata's focus on rhythm and power, the movements could be simplified yet challenging, aligning with the Intermediate level.",
+  "techniqueDifficultyConfidence": 0.85,
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.7
-    },
-    {
-      "level": "Extreme",
-      "score": 0.4
+      "score": 0.8
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout is short in duration (11 minutes, 18 seconds) but is performed at high intensity, indicated by the Intensity Level being 3 out of 3 and described as 'race off at high rhythms'. This suggests significant energy expenditure and cardiovascular demand, fitting a 'Challenging' level, with elements of 'Extreme' due to its intensity.",
+  "effortDifficultyExplanation": "The effort difficulty is classified as Challenging based on the high rhythm (max rhythm: 34) and the 'Power' format, which indicates intense energy expenditure. The short duration (11:18) at maximum intensity level highlights a demand for significant physical effort, particularly for users in poor physical shape.",
+  "effortDifficultyConfidence": 0.9,
   "requiredFitnessLevel": [
     {
       "level": "Advanced",
       "score": 1.0
     }
   ],
-  "requiredFitnessLevelConfidence": 1.0,
-  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed.",
+  "requiredFitnessLevelConfidence": 1.0
 }

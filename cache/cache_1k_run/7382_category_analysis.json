@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout 'Steady Climb Row' is primarily classified under 'Indoor rowing' with a high confidence score of 0.9. This is supported by the title 'Row' and frequent references to 'rowing' in the description as well as the 'row' tag in the category field. The focus on intervals and rhythm (20 and 24) further supports this as a structured rowing workout. The secondary category assigned is 'Breathing exercises' with a score of 0.7. This reflects the metadata's emphasis on 'breathing' and 'staying relaxed' during the workout, which suggests a significant focus on breathing control, a characteristic of breathing exercises. The low-intensity level (1 out of 3) and emphasis on maintaining relaxation align with breathing-focused workouts. Other potential categories like 'HIIT' or 'Mat' were considered but excluded due to the explicit rowing focus and lack of high intensity or mat-specific elements."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

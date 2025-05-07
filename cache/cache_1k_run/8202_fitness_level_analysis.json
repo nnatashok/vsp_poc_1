@@ -2,11 +2,11 @@
   "techniqueDifficulty": [
     {
       "level": "Intermediate",
-      "score": 0.8
+      "score": 1
     }
   ],
-  "techniqueDifficultyConfidence": 0.85,
-  "techniqueDifficultyExplanation": "The workout is categorized as a 'Drive' type, which Hydrow specifies as having an advanced technique difficulty. However, because the category also includes 'standard' and 'row', and the primary movement is rowing, the technique difficulty remains capped at 'Intermediate' per Hydrow's guidelines. The intervals format, while requiring some coordination, generally aligns with intermediate rowing ability.",
+  "techniqueDifficultyConfidence": 1,
+  "techniqueDifficultyExplanation": "The 'Unleashed Row' workout is primarily categorized under 'row' with a type 'Drive,' which typically indicates a more technically demanding rowing workout. However, due to the Hydrow-specific rule, the maximum Technique Difficulty for rowing workouts can only be Intermediate. Although the workshop is guided by a Paralympian known for expert technical instruction, the constraints on rowing categories prevent it from reaching Advanced or Expert levels.",
   "effortDifficulty": [
     {
       "level": "Challenging",
@@ -17,8 +17,8 @@
       "score": 0.6
     }
   ],
-  "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "The workout has a high intensity level of 3 out of 3, coupled with a relatively prolonged duration of over 31 minutes. The use of intervals with max rhythm 30 suggests a high frequency of intense effort. This aligns well with both 'Challenging' and 'Extreme' effort difficulty levels for users with lower fitness, indicating significant energy expenditure and physical demand.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout involves four 5-minute intervals within a 31-minute duration, focusing on a max rhythm of 30 and intense effort, as reflected by the 3 out of 3 intensity rating. The energetic nature of the music playlist and the description of the instructor's high-energy delivery support a classification between Challenging to Extreme. However, a lower confidence in it being Extreme is due to the interval format, which implies rests in between high effort bouts, fitting more snugly into 'Challenging.'",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

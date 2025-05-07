@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout titled 'All in One Row' is explicitly centered around rowing, as indicated by the repeated use of 'row' in both the title and description. The workout consists of a 30-minute 'Club 26' style row, which is a clear reference to a specific rowing format. Additionally, the workout is described as 'interval' and 'sweat,' suggesting a high-intensity or structured exercise similar to High-Intensity Interval Training (HIIT). The duration is 46 minutes with a 10-minute warm-up, 30-minute main workout, and a cool-down period, indicating a substantial focus on rowing. Given these factors, the primary category selected is 'Indoor rowing' with a high score due to its centrality, and 'HIIT' is also relevant due to the interval format and intensity level specified as 2 out of 3. Other potential categories, such as 'Mat' or 'Body weight', are excluded due to the absence of evidence for non-rowing activities."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

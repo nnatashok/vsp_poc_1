@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout 'Sibling Power Row' is classified primarily as 'Indoor rowing' due to the explicit mention of 'row' in the workout name and the category tags (drive, standard, row). The description indicates it involves intervals, specifically 30-second, 60-second, and 2-minute periods, which aligns with a typical rowing workout structure. This is further supported by a workout intensity level described as 3 out of 3.\n\nThe 'HIIT' category is also relevant because the workout involves interval training with varying rhythms and time intervals. The format of alternating between periods of different lengths as mentioned suggests a high-intensity interval training component, albeit this is less explicit than the rowing aspect, justifying a lower confidence score.\n\nOther categories such as 'Mat', 'Elliptical', and 'Weight workout' are excluded due to lack of evidence or mention in the metadata. The absence of specific references to equipment or exercises typical of these excluded categories further supports focusing on 'Indoor rowing' and 'HIIT'."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

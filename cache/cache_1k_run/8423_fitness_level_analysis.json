@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.7
+      "score": 0.6
     },
     {
       "level": "Intermediate",
-      "score": 0.6
+      "score": 0.8
     }
   ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The Technique Difficulty is classified based on the metadata indicating a 'row' session, which prioritizes beginner to intermediate levels as specified by the Hydrow guidelines. The workout involves a 20-minute main session at 'sweat intensity,' but does not seem to involve highly complex movements, aligning it with coordinated, yet accessible, rowing techniques suitable for beginner to intermediate users.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized primarily as rowing (category: row), and therefore would inherently have a Technique Difficulty of either Beginner or Intermediate according to Hydrow-specific rules. The description notes the inclusion of a warm-up, high-intensity intervals ('Sweat intensity'), and a cooldown phase, supporting an Intermediate classification due to the coordination and understanding of pacing required for higher-intensity intervals.",
   "effortDifficulty": [
     {
       "level": "Moderate",
-      "score": 0.75
+      "score": 0.6
     },
     {
       "level": "Challenging",
-      "score": 0.4
+      "score": 0.7
     }
   ],
-  "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The Effort Difficulty is inferred primarily from the 31-minute duration with a central 'sweat' session lasting 20 minutes marked 'intensity level 2 out of 3.' This suggests moderately high energy expenditure for the duration, classifying it between Moderate and Challenging. The interval format can increase overall intensity slightly, but is still quite manageable.",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The 31-minute workout includes a 20-minute interval at 'Sweat' intensity, which is the platform's designated level 2 out of 3, indicating a significant level of exertion suited to a 'Challenging' effort difficulty. However, the presence of a warm-up and cooldown potentially moderates its overall impact, suggesting Moderate to Challenging effort for those with low fitness levels.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

@@ -6,23 +6,23 @@
     },
     {
       "level": "Intermediate",
-      "score": 0.4
+      "score": 0.2
     }
   ],
-  "techniqueDifficultyConfidence": 0.7,
-  "techniqueDifficultyExplanation": "The technique difficulty primarily aligns with Beginner level due to the nature of rowing workouts, which inherently fit within Beginner or Intermediate categories for technique. The workout emphasizes fundamental rowing skills, such as leg power and hand speed during intervals, which typically do not involve complex coordination beyond basic rowing form. Therefore, it fits well within a Beginner level at 0.8 score. There is some alignment with an Intermediate level due to the focus on power and speed elements, but since it's designed for Beginners, it doesn't reach the complexity required for a strong Intermediate classification.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type is 'row', and per specific Hydrow guidelines, technique difficulty for rowing can be classified as either Beginner or Intermediate. Given that the workout emphasizes basic rowing strokes without advanced maneuvers and is categorized as 'Breathe', the complexity is low. Additionally, the metadata does not mention any complex or technical rowing techniques, aligning more with a Beginner level. The confidence is very high due to these strong indicators.",
   "effortDifficulty": [
     {
-      "level": "Moderate",
-      "score": 0.7
+      "level": "Light",
+      "score": 0.9
     },
     {
-      "level": "Light",
-      "score": 0.5
+      "level": "Moderate",
+      "score": 0.1
     }
   ],
-  "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "Despite being a short workout with an intensity level of 1 out of 3, the interval format with a focus on power suggests a Moderate effort difficulty. The rhythm max at 26 and the power-focused intervals increase energy expenditure beyond a Light classification. However, given the short duration and overall description, it moderately aligns with Moderate difficulty at a score of 0.7. The Light difficulty score of 0.5 reflects the lower intensity rating and short duration.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout duration is relatively short at 11 minutes and 30 seconds, and is indicated to have an intensity level of 1 out of 3, which suggests lower energy expenditure and intensity. The short interval format combined with the focus on 'breathe' implies a workout that is not highly physically demanding, aligning strongly with a 'Light' effort difficulty. While there are brief mentions of power and speed, they are not emphasized as intensely demanding, supporting a primarily Light classification but with a minor component of Moderate due to brief higher cadence efforts.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

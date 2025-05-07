@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Pilates",
-      "score": 0.9
-    },
-    {
-      "name": "Mat",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is clearly named 'Classical Pilates' and is referenced as such in the description, which explicitly mentions following the classical Pilates exercise order, justifying the high score of 0.9 for the 'Pilates' category. Additionally, the workout is performed 'atop the Ben of Howth hills in Dublin,' indicating a floor-based activity without specific equipment other than perhaps a mat, which aligns with the 'Mat' category. This is supported by the metadata tags 'On The Mat' and 'standard, on-the-mat.' The presence of music genres like 'Chill mid' and 'Cool/Downtempo' also suggests a calm, methodical pace typical of Pilates sessions. The overall confidence in the category selection is high due to these explicit indicators, although there is some inclusion of 'Mat' due to the descriptions and tags provided."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

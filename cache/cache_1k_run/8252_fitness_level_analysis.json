@@ -6,23 +6,23 @@
     },
     {
       "level": "Intermediate",
-      "score": 0.2
+      "score": 0.6
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout type is 'row', which by platform rules constrains Technique Difficulty to Beginner or Intermediate. The description emphasizes mental reflection with low-intensity rowing, indicating simple rowing technique. Since it falls under the 'breathe' category with an intensity level of 1 out of 3, the Beginner level is more strongly aligned.",
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row' and the description highlights emotional reflection during intervals, suggesting a focus on rhythm rather than technical form complexity. The use of pyramid format with varying rhythms up to a max of 26 indicates some coordination, which could align with Intermediate difficulty. However, given the Consider for 'Beginner' requirement and simplicity of rowing as a foundational movement, the Beginner level is highly applicable.",
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.7
+      "score": 1.0
     },
     {
       "level": "Moderate",
-      "score": 0.3
+      "score": 0.4
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "With a duration of 21 minutes and an intensity level of 1 out of 3, the workout is likely to be light, more so because of its 'breathe' category which suggests a relaxing pace. The short bursts in a 3', 2', 1' pyramid format might add slight effort, suggesting some moderate aspects for users with very low stamina, but overall these are consistent with a Light level effort.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout's intensity level is specified as 1 out of 3, pointing to a Light effort difficulty. The 21-minute duration with segmented intervals suggests a focus on controlled exertion and steady pacing, which can occasionally tip into Moderate for less fit users due to the emotional reflection aspect that could increase perceived exertion.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

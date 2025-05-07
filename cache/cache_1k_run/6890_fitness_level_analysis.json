@@ -2,15 +2,15 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.6
+      "score": 0.7
     },
     {
       "level": "Intermediate",
-      "score": 0.4
+      "score": 0.6
     }
   ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout is classified as 'sweat', 'row', and involves standard rowing movements, which aligns with basic rowing techniques. Given the category 'row', the technique difficulty is typically either Beginner or Intermediate. The interval format with rhythm 26 adds a slight complexity, but it primarily remains accessible for those at a Beginner level, with some intermediate engagement due to rhythm pacing.",
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout is categorized as a rowing exercise, which, according to platform-specific rules, can only be Beginner or Intermediate in technique difficulty. The presence of intervals and a rhythm of 26 suggests a level of coordination beyond basic rowing. Thus, it aligns strongly with a Beginner level and moderately with Intermediate.",
   "effortDifficulty": [
     {
       "level": "Moderate",
@@ -18,11 +18,11 @@
     },
     {
       "level": "Challenging",
-      "score": 0.3
+      "score": 0.5
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout is 16 minutes 47 seconds long with 3-minute intervals at a rhythm of 26. The intensity level is rated 2 out of 3, which suggests moderate energy expenditure. While interval training inherently increases physical demand, the relatively short duration and medium rhythm pacing keep it largely within the 'Moderate' category, though there is a challenging aspect due to the interval nature that slightly overlaps into 'Challenging'.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout lasts 16:47 minutes and includes 3-minute intervals pacing at rhythm 26, suggesting elevated physical demands typical of Moderate effort difficulty. Given the workout type 'sweat', it implies a focus on endurance and greater energy expenditure, edging towards Challenging for those less conditioned.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

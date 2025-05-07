@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
+      "name": "Warm-up",
       "score": 1
-    },
-    {
-      "name": "HIIT",
-      "score": 0.6
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout title 'Spicy Warm-Up' and description indicate a 'five stroke sprint', which suggests short bursts of intense rowing activity. This aligns with an Indoor Rowing workout, particularly due to the mention of 'rowing' as the workout involves rhythmic rowing, likely on a machine. The term 'Interval' in the description further supports this classification, indicating a stop-start format typically associated with interval training. The 'max rhythm: 28+' suggests a high tempo, indicative of a High-Intensity Interval Training (HIIT) element, noted for its bursts of effort and then rest. No explicit mention of equipment besides the implication of a rowing machine, as typically required for such sprints. The presence of the terms 'warm-up' and 'standard' in tags could suggest preparatory or beginner-level, but given the structure with sprints, Indoor Rowing and HIIT are dominant. The music genre, while upbeat ('Pop mid, Global Hits'), confirms high energy, reinforcing the interval training classification. Given these, the confidence for Indoor Rowing is very high (1.0), with a moderate to high confidence level for HIIT (0.6)."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

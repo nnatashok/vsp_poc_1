@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.75
-    },
-    {
-      "name": "Mat",
-      "score": 0.25
+      "name": "Warm-up",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.75,
-  "categoriesExplanation": "The workout titled 'Instructional: Ladder Drill' along with a description indicating a focus on rhythm control and power strongly suggests 'Indoor rowing' as a primary category. The term 'ladder drill' is typically employed in sports and physical training involving track or handling rhythm, and given the tag 'row' in the category, it indicates this drill is likely focused on rowing movements, possibly on a rowing machine. The absence of detailed information about equipment does not provide conclusive proof of rowing machines. However, given the high likelihood, 'Indoor rowing' is assigned a score of 0.75.\n\nThe 'warm-up' context suggests the exercise might also include general movement without heavy equipment, fitting the 'Mat' exercises with a supportive score of 0.25 as a secondary classification. The playlist and description do not offer any explicit evidence impacting the category classification more conclusively or introducing another category like 'Stretching', 'Yoga', or 'Pilates', and hence they are excluded from consideration."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

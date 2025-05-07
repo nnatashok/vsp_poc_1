@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The primary category assigned is 'Indoor rowing' with a score of 0.9. The workout name 'Philly Climb Row' and the description emphasize 'climbing in rhythm,' which is consistent with rowing intervals. The mention of 'row' in both the Workout Name and the explicit mention of it in the categories field further solidifies the presence of rowing, making this the central defining characteristic. \nThe second category is 'HIIT' with a score of 0.6. Though not explicitly called a HIIT workout, the format 'Climb' combined with a relatively short duration (11 minutes) suggests a high-intensity interval nature. The intensity level 2 out of 3 indicates a significant exertion level, often associated with HIIT.\nOther potential categories such as 'Mat' or 'Body weight' were considered but excluded due to lack of mention of floor exercises or body weight movements in the metadata. The absence of explicit keywords for any equipment further focuses the classification on rowing activities."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

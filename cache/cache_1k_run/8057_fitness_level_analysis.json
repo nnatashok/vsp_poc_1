@@ -2,19 +2,19 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.8
+      "score": 0.7
     },
     {
       "level": "Intermediate",
       "score": 0.6
     }
   ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout is a rowing-based routine, which places it in the 'Beginner' or 'Intermediate' category based on Hydrow's specific rules. The workout name and description suggest that it's part of a 'sweat' category with an interval format, indicating some level of coordination in rhythm, but not complex beyond basic rowing. Therefore, both Beginner (0.8) and Intermediate (0.6) apply, with a slant towards Beginner.",
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout is categorized under \"row,\" which typically limits the technique difficulty to Beginner or Intermediate. The description suggests a focus on rowing with high-energy intervals, which requires some coordination but does not involve complex movements often seen in weights or non-row workouts. Thus, aligning with an overall Beginner to Intermediate level.",
   "effortDifficulty": [
     {
       "level": "Moderate",
-      "score": 0.7
+      "score": 0.75
     },
     {
       "level": "Challenging",
@@ -22,7 +22,7 @@
     }
   ],
   "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The workout is 11 minutes and 22 seconds, using a max rhythm of 26 with a format of interval, which suggests short bursts of increased effort. The intensity level is 2 out of 3, indicating moderate to somewhat challenging physical demand. Therefore, 'Moderate' (0.7) captures the primary effort requirement, while 'Challenging' (0.5) is also relevant due to the interval structure and pacing.",
+  "effortDifficultyExplanation": "The workout consists of two 4-minute rowing intervals within an 11-minute session, suggesting a focus on higher intensity with short rest periods. The max rhythm of 26 and 'sweat' workout type indicate moderate to challenging effort for less fit users. The time and intensity align more with a Moderate to Challenging level, due to the short bursts of high energy.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

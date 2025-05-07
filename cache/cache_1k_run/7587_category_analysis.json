@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "HIIT",
-      "score": 1.0
-    },
-    {
       "name": "Indoor rowing",
-      "score": 0.75
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.95,
-  "categoriesExplanation": "The workout is classified primarily as HIIT (High-Intensity Interval Training) based on the title 'Mindset HIIT Row' and the description which emphasizes a \"challenging, high-intensity workout.\" The workout's format is explicitly defined as HIIT, reinforcing its classification in this category with a score of 1.0 for extremely strong presence.\n\nAdditionally, the workout's title indicates rowing ('Mindset HIIT Row'), and the categories provided include 'row,' suggesting the exercise involves significant use of a rowing machine. Consequently, it is classified in the 'Indoor rowing' category with a score of 0.75 for strong presence. However, due to the primary focus on HIIT elements, the presence of indoor rowing is noted but secondary to the overall intensity structure.\n\nThe intensity level (3 out of 3) and the pop/high-energy musical playlist (featuring artists like Ed Sheeran and Lady Gaga) further support this classification, emphasizing a vigorous workout atmosphere suitable for HIIT."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

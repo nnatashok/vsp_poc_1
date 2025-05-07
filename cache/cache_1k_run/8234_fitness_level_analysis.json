@@ -2,27 +2,23 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.6
+      "score": 0.7
     },
     {
       "level": "Intermediate",
-      "score": 0.7
+      "score": 0.9
     }
   ],
-  "techniqueDifficultyConfidence": 1.0,
-  "techniqueDifficultyExplanation": "The workout is categorized as 'Drive' and 'row', which simplifies technique complexity criteria to Beginner or Intermediate levels, per Hydrow rules. The workout title 'Find Your Legs Row' suggests focus on leg power, but as a rowing session, techniques are primarily the basic rowing movement which is considered Intermediate due to coordination and rhythm requirements at a max rhythm of 32. Therefore, Technique Difficulty aligns more with Intermediate.",
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is classified as a 'row' type, which Hydrow-specific rules dictate can fall under Beginner or Intermediate technique difficulty levels. Given the 'Drive' category and the expert instruction provided by a world-class athlete like Dani, the exercises likely involve intermediate-level rowing techniques, requiring some coordination and technical awareness, especially at a max rhythm of 32.",
   "effortDifficulty": [
     {
-      "level": "Moderate",
-      "score": 0.6
-    },
-    {
       "level": "Challenging",
-      "score": 0.7
+      "score": 0.85
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout is identified as a 'Drive' type with a duration of about 21 minutes and an intensity rating of 3 out of 3, suggesting significant physical demand. The 'intervals' format typically increases the session's effort difficulty due to lower rest times and higher bursts of activity. A max rhythm of 32 reinforces a challenging cardiovascular component, placing the effort between Moderate and Challenging, with a stronger alignment to Challenging.",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout has a duration of over 21 minutes and involves intervals, suggesting variations in intensity that contribute to cardiovascular demands. With an intensity level of 3 out of 3 and motivational, high-energy music, the workout will require significant physical effort, making it challenging, particularly for individuals with lower fitness levels.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

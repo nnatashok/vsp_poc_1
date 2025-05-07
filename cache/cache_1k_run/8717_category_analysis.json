@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout is best classified under 'Indoor rowing' due to multiple references in the metadata to rowing-specific terms, such as 'Hop in the boat,' 'power intervals,' and the inclusion of 'row' in the category. The workout uses a rowing machine, which is characteristic of indoor rowing workouts. The duration (21 minutes, 29 seconds) and high-intensity interval format further support this classification. The score of 0.9 reflects strong confidence in this category due to these explicit indicators. The secondary category, 'HIIT,' is appropriate because the description mentions 'high-intensity intervals.' These are a defining feature of HIIT workouts, and the maximum rhythm of 34 strokes per minute indicates a high-intensity level. The score of 0.7 for HIIT reflects high confidence, acknowledging that while it is a key component, the primary activity remains rowing. Other categories, such as 'Mat' or 'Calisthenics,' were excluded due to a lack of related exercises or bodyweight-specific indicators. The playlist consists of upbeat, motivating tracks commonly associated with high-energy workouts, supporting the overall classification as a vigorous, music-driven rowing session."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

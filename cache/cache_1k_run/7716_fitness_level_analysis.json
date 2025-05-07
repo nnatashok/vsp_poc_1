@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.6
+      "score": 0.7
     },
     {
       "level": "Intermediate",
-      "score": 0.8
+      "score": 0.3
     }
   ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout is categorized under 'row' and 'drive,' where rowing movements typically align with Beginner to Intermediate technical difficulty. However, the 'drive' tag often indicates a higher complexity, justified by the fact that it requires the user to exert 'max pressure' during intervals. Hence, a higher score towards Intermediate is given, but partial overlap with Beginner remains due to the rowing category's fundamental movement structure.",
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The technique difficulty for the workout 'Rhythm 30 HIIT Row' can be classified predominantly as Beginner due to the nature of rowing-based workouts, which are typically straightforward in terms of movement pattern. The workout involves interval rowing, where maintaining rhythm is essential but not overly complex, leading to partial alignment with Intermediate due to tempo demands. The 'Drive' workout type mandates a primary classification as Beginner or Intermediate.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.8
+      "score": 0.75
     },
     {
       "level": "Extreme",
-      "score": 0.6
+      "score": 0.25
     }
   ],
-  "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "The HIIT nature and 'drive' classification of the workout, combined with an 'intensity level: 3 out of 3,' suggests significant physical demands, aligning with a Challenging to Extreme effort level. The presence of 1-minute high exertion intervals, juxtaposed with short recovery, drives the effort difficulty towards Extreme, but the manageable duration (11 minutes) tempers it slightly, creating a strong Challenging score with partial overlap into Extreme.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The effort difficulty is classified as Challenging, with elements of Extreme, given the HIIT format which includes maximum effort intervals for 1-minute followed by 1-minute recovery. The intensity level is marked as 3 out of 3, indicating a high energy expenditure consistent with Challenging, bordering on Extreme for less fit users. The 11-minute duration with high-intensity intervals significantly ups the effort level beyond typical Moderate classifications.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

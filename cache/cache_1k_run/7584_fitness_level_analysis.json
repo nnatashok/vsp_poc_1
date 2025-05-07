@@ -6,23 +6,23 @@
     },
     {
       "level": "Intermediate",
-      "score": 0.3
-    }
-  ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout category 'row' dictates that the technique difficulty can only be Beginner or Intermediate. Given the workout type 'breathe' and a rhythm of 18 to 26 in a progressive climb format, this suggests a basic rowing session with an increasing pace. The lack of complex maneuvers and the 'versatility' description suggest simplicity in technique, reinforcing a Beginner level classification. Intermediate score is lower due to potential need for coordination in rhythm change.",
-  "effortDifficulty": [
-    {
-      "level": "Light",
-      "score": 0.6
-    },
-    {
-      "level": "Moderate",
       "score": 0.4
     }
   ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The technique difficulty is classified as Beginner due to the rowing category, which generally involves simple, repetitive movements. The mention of 'climb up in rhythm' suggests maintaining a consistent technique in increasing stroke rates, which may introduce some complexity, thus earning a slight Intermediate score.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
   "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout duration is 16 minutes and 24 seconds, with a max rhythm that increases from 18 to 26. The classification can be Light to Moderate, as the intensity level is noted as 1 out of 3, indicating it is intended to be relaxed and accessible even for beginners. The progression in rhythm introduces a moderate challenge, but overall the effort remains low to moderate.",
+  "effortDifficultyExplanation": "With a duration of approximately 16 minutes and an intensity level of 1 out of 3, the effort difficulty aligns strongly with the Light category, suitable for beginners. The increasing rhythm requires some sustained effort, suggesting a weak alignment with Moderate difficulty.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

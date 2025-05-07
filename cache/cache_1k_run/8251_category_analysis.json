@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The primary indicator for the classification of 'Indoor rowing' is the workout name 'Prague Intervals Row' and the description detailing a rowing experience along the Vltava River. The use of the word 'Row' clearly places this in the indoor rowing category, with a high confidence score of 0.9 due to the explicit mention of rowing. The workout involves intervals as mentioned in the format 'Interval,' which aligns with HIIT principles involving bursts of activity followed by rest periods. This supports a secondary classification of 'HIIT' with a score of 0.7 due to the presence of intervals and a medium intensity level marked as 2 out of 3. Although the workout type is labeled as 'sweat,' this is not a standardized category in the schema but suggests a higher intensity workout consistent with interval training. Equipment is listed as empty, further reinforcing the indoor rowing concept without additional apparatus. The description, duration, and playlist choice of energetic classical arrangements also align with a workout designed to maintain a rhythmic pace, emphasizing the rowing and interval formats selected."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

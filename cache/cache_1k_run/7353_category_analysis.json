@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout titled 'Pitter Patter Row' indicates rowing is a primary component. The specific mention of 'row in Newport, CA' and the format 'Interval' strongly supports that this is an indoor rowing workout. The music playlist, rhythm synchronicity, and the mention of 'breathe' suggest a relaxed, controlled breathing approach during the session. Hence, the categories 'Indoor rowing' and 'Breathing exercises' are selected. 'Indoor rowing' receives a high score of 0.9 due to explicit indicators in the title and description. 'Breathing exercises' is scored at 0.6, acknowledging the described focus on rhythmic breathing. Other potential categories such as HIIT or Mat are excluded due to lack of corresponding intensity or activity detail. The confidence level is 0.85, based on explicit metadata markers for rowing and rhythm/control emphasis."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

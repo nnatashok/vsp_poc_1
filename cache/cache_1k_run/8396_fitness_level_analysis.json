@@ -1,24 +1,28 @@
 {
   "techniqueDifficulty": [
     {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
       "level": "Intermediate",
-      "score": 0.8
+      "score": 0.7
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is a Drive row, which by Hydrow's definition typically involves moderate complexity in rowing technique. The metadata emphasizes increasing intensity and rhythm, indicative of a need for some skill and coordination, aligning with an Intermediate level. As a rowing workout, it can at most be classified as Intermediate according to platform-specific rules.",
+  "techniqueDifficultyExplanation": "The workout is classified under 'row' and 'drive,' with pyramid intervals likely involving changes in tempo and coordination. While typically rowing emphasizes beginner-intermediate level movements, 'Drive' indicates a higher technique requirement. A score of 0.7 for Intermediate is due to the pyramid format requiring consistent form through tempo changes, aligning with an emphasis on rhythm and intensity increases, which surpass basic rowing skills but don't require advanced techniques.",
   "effortDifficulty": [
     {
       "level": "Challenging",
-      "score": 0.75
+      "score": 0.8
     },
     {
       "level": "Extreme",
-      "score": 0.4
+      "score": 0.6
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The workout spans over 21 minutes and employs a pyramid interval format with a constant increase in intensity, indicating high energy expenditure. It has a max rhythm of 30 and is rated 3 out of 3 for intensity. These factors suggest a requirement for sustained effort, leading to a Challenging classification with some alignment with Extreme due to the high-intensity intervals.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The rowing workout features a 21-minute duration with 'Drive' and maximum intensity cues. The Pyramid format with high max rhythm demands significant energy, with a 3/3 intensity level indicating high physical demand. The rhythmic climb and descent signify sustained exertion, justifying a 'Challenging' score of 0.8. While not consistently 'Extreme,' the Intensity 3 of 3 and structured intervals can be extremely tough, hence a 0.6 extreme score.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

@@ -13,16 +13,16 @@
   "techniqueDifficultyExplanation": "Since the workout is marked as suitable for all fitness levels (Beginner, Intermediate, Advanced), the technique difficulty is considered adaptable. Movements can be scaled in complexity, and users are expected to modify techniques based on their capability. Therefore, all difficulty levels from Beginner to Expert are assigned equal suitability with a score of 1.0.",
   "effortDifficulty": [
     {
-      "level": "Light",
-      "score": 0.5
+      "level": "Moderate",
+      "score": 0.6
     },
     {
-      "level": "Moderate",
-      "score": 0.5
+      "level": "Challenging",
+      "score": 0.4
     }
   ],
-  "effortDifficultyConfidence": 0.8,
-  "effortDifficultyExplanation": "The duration of 20 minutes and 45 seconds and the steady row format point to a workout more demanding than very light exercises but not reaching high intensity. The use of a 'journey' workout type with a focus on endurance suggests effort beyond a simple Light level, but the description does not indicate high-intensity intervals or particularly strenuous activity. The metadata indicates a mix of Light and Moderate effort suitable for improving aerobic capacity without overwhelming less fit users. Hence, scores of 0.5 for both Light and Moderate effort levels are appropriate.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout's duration of 20:45 suggests a moderate level of endurance training, aimed at increasing aerobic capacity. The steady format implies a consistent effort level without intense intervals. The description highlights 'building endurance,' which suggests a sustained effort, suitable for moderate difficulty, but can be challenging for less conditioned individuals due to prolonged physical activity.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

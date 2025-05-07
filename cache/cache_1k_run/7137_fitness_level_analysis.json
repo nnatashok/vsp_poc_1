@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.7
-    },
-    {
-      "level": "Intermediate",
-      "score": 0.4
-    }
-  ],
-  "techniqueDifficultyConfidence": 0.75,
-  "techniqueDifficultyExplanation": "The workout category 'row', suggests a generally lower technique difficulty, limited to Beginner or Intermediate. With the title 'Learn and Burn Row' and no complex movements indicated within the metadata or description, there is a strong alignment with Beginner (score 0.7) and moderate with Intermediate (score 0.4). This fits the description of simple rowing movements and a formula-focused narrative, indicating minimal coordination challenges.",
-  "effortDifficulty": [
-    {
-      "level": "Moderate",
       "score": 0.8
     },
     {
-      "level": "Challenging",
-      "score": 0.6
+      "level": "Intermediate",
+      "score": 0.5
     }
   ],
-  "effortDifficultyConfidence": 0.9,
-  "effortDifficultyExplanation": "The workout duration of 21 minutes aligns with Moderate to Challenging effort difficulty. The workout type 'sweat' with a format of 'Interval' and max rhythm of 30 suggest intervals that elevate energy expenditure. The intensity level is noted as 2 out of 3, which signifies a higher degree of effort than basic workouts. Hence, while it appears more fitting for those able to manage moderate efforts, the Challenging score reflects the potential intensity posed by the intervals involved.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "Given the category 'row', the Technique Difficulty aligns with the Beginner or Intermediate level due to rowing being less technically complex compared to other advanced exercises. The workout description emphasizes learning and cruising, indicating a focus on proper basic rowing form provided by the instructor, who brings a fun personality, reducing complexity perception for beginners. Thus, Beginner receives a strong score, but Intermediate is included for alignment with the 'sweat' workout type suggesting more focus on refining technique.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout 'Learn and Burn Row' lasts over 21 minutes with an interval format and an intensity level marked as 2 out of 3. This suggests a moderate effort for users in poor physical shape with some variation in energy expenditure due to intervals. Although not overly demanding, the duration and sustained effort required could make this moderately challenging for less conditioned users. Thus, it aligns moderately with Moderate, and lightly with Challenging due to intervals.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

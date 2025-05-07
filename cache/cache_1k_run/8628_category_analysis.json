@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "Meditation",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The category 'Indoor rowing' was chosen with a high confidence level of 0.8 because the workout name 'Growth Mindset Row' and the description indicating 'shift around low rhythms' clearly suggest a rowing machine workout. The mention of 'Max rhythm: 26' aligns with rowing metrics. The presence of rhythmic intervals supports this classification, reinforcing the central role of rowing. \n\n'Meditation' was assigned a score of 0.6 due to the workout type being listed as 'breathe' and the focus on a 'growth mindset', which often involves a mental or reflective component. The interval format might also include meditative breaks or breathing exercises. The overall low intensity level of 1 out of 3 could suggest a relaxed pacing that accommodates meditative practices. \n\nOther categories, such as 'Breathing exercises' or 'Stretching', were not selected due to lack of specific emphasis on flexibility improvement or detailed breathing tasks beyond general mindfulness themes. The musical content supports a motivational setting rather than a calming one, which aligns more closely with rowing intervals and a mental challenge than with relaxation-focused exercises."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

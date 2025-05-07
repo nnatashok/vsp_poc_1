@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.9
+      "score": 0.7
     },
     {
       "level": "Intermediate",
-      "score": 0.6
+      "score": 0.4
     }
   ],
-  "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout involves rowing, a straightforward exercise typically fitting a Beginner to Intermediate level in technique difficulty. The description and format 'Climb' imply some variability but still suggest simple rowing motions. No specific advanced rowing techniques or coordination-heavy movements are mentioned, suggesting strong alignment with Beginner (score: 0.9) and some with Intermediate (score: 0.6) due to the rhythm variation.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "Given the workout type 'row' and Hydrow-specific rules, the Technique Difficulty is inherently capped at Intermediate level. The description indicates rhythm increases during the climb format, which could involve slight complexity for coordination, but overall, rowing as an exercise falls within Beginner to Intermediate difficulty. The presence of an Olympian coach may suggest higher expectations, but as the rowing itself remains technically simple, Beginner is the primary fit, with some possibility for Intermediate due to rhythm complexity.",
   "effortDifficulty": [
     {
-      "level": "Moderate",
-      "score": 0.75
+      "level": "Light",
+      "score": 0.6
     },
     {
-      "level": "Challenging",
-      "score": 0.45
+      "level": "Moderate",
+      "score": 0.7
     }
   ],
-  "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The workout duration is 31 minutes with a climbing format indicating sustained effort over time. Although the intensity is rated 1 out of 3, the 'rhythm increase' and '8-minute climbs' suggest consistent moderate effort, suitable for deconditioned users. This aligns with Moderate effort (score: 0.75), though the total duration and rhythm shifts could challenge less fit users, slightly aligning with Challenging effort (score: 0.45).",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout has a duration of over 30 minutes and includes '8-minute climbs', suggesting moderate physical exertion, primarily due to sustained periods of rowing which can be challenging for beginners. Despite being classified with an intensity of '1 out of 3', the longer duration and climbing format imply that users must maintain effort over time, fitting a Moderate classification. Light effort is also possible for complete beginners, hence both are valid.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

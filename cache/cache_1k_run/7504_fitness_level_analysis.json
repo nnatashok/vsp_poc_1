@@ -2,27 +2,31 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.8
+      "score": 1.0
     },
     {
       "level": "Intermediate",
-      "score": 0.2
+      "score": 0
     }
   ],
-  "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout 'Stay Steady Together Row' involves maintaining a steady rhythm of 22 to 24 strokes per minute. Rowing, especially at a steady and moderate pace, is generally considered beginner-friendly as indicated by the 'breathe' format and beginner-level requirement. Rowing primarily involves basic movements that require less technical complexity. Therefore, the technique difficulty aligns more with a Beginner level (0.8) but can have a slight Intermediate consideration (0.2) due to rhythm variations.",
+  "techniqueDifficultyConfidence": 1.0,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which according to Hydrow-specific rules can have a Technique Difficulty of either Beginner or Intermediate. The description emphasizes a steady rhythm and mentions 'holding a steady 22 and 24 rhythm', which requires some focus on rhythm but does not introduce complex movement patterns. Additionally, the instructor emphasizes proper form and recognizes the simple yet effective nature of a rowing workout, thus aligning with the Beginner level.",
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.7
+      "score": 0.75
     },
     {
       "level": "Moderate",
-      "score": 0.3
+      "score": 0.25
+    },
+    {
+      "level": "Challenging",
+      "score": 0
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "This rowing workout has a duration of approximately 21 minutes at low intensity (1 out of 3). The 'breathe' workout type, alongside the steady rowing rhythm, indicates a Light effort level (0.7), suitable for beginners since rowing at consistent, moderate paces does not severely tax physical exertion. However, the rhythmic consistency over the 21-minute duration can present a Moderate challenge (0.3) due to sustained activity.",
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout lasts 21 minutes and involves maintaining steady rhythms at a moderate intensity (22 to 24 strokes per minute). The intensity level is marked as 1 out of 3, indicating a low effort level. The 'breathe' category and references to steady rhythm and moderate rowing pace suggest this is closer to a Light exercise session, but due to the sustained activity over 21 minutes, a slight overlap into Moderate effort is considered for unfit users.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

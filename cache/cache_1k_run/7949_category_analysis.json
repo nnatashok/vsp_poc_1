@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is classified primarily as 'Indoor rowing' based on the phrase \"Climb Row\" in the title, indicating a rowing exercise with increasing intensity. This is further supported by the tag 'row' in the category section. A score of 0.9 is given due to these strong indicators of a rowing workout. \n\nSecondly, the workout has a possible 'HIIT' component, as the description mentions '4-minute intervals' which often suggest elements of interval training, a characteristic of HIIT. However, given the lack of explicit high-intensity markers, a score of 0.6 reflects moderate confidence. \n\nThe 'Punk Rock Climb' title and use of a pop punk music playlist suggest an intense and rhythmic session, but without clear evidence pointing to other specific activities (e.g. no explicit mention of full-body exercises or specific non-rowing components), these categories were not as strongly considered. The intensity level '2 out of 3' reinforces the active nature but aligns with both rowing and interval concept."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

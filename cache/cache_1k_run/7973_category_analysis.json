@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Yoga",
-      "score": 0.9
-    },
-    {
-      "name": "Mat",
-      "score": 0.4
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The primary category assigned is 'Yoga,' with a score of 0.9, due to several strong indicators in the metadata. The workout name 'Beginner Flow,' coupled with the description emphasizing synchronizing 'movement with your breath,' aligns closely with common descriptions of yoga practices. Additionally, the recommendation of 'Yoga blocks' further confirms this categorization. The phrase 'flow' often refers to a sequence of yoga poses linked by breath.\n\nThe 'Mat' category is assigned a secondary role with a score of 0.4. This is supported by the use of the 'On The Mat' tag, suggesting floor-based exercises. However, since the flow's primary nature aligns more with yoga, the score for 'Mat' is moderate.\n\nThe playlist and musical genre ('Chill mid, Cool/Downtempo') support relaxation and mindful movement typically associated with yoga sessions, contributing to the overall high confidence of 0.85 for these classifications. Other potential categories like 'Breathing exercises' or 'Meditation' were not selected as the primary focus is on physical movement and flow."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

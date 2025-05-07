@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.65
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is clearly classified as 'Indoor rowing' due to the metadata indicating terms like 'race,' 'drive,' and 'accumulate maximum meters,' which are directly associated with rowing workouts. The indicator 'Max rhythm: 34' signifies strokes per minute, common in rowing. Thus, a high confidence score of 0.9 is assigned to Indoor rowing. Additionally, the workout intensity level of '3 out of 3' combined with phrases like 'race off at high rhythms' suggests a high-intensity component, which aligns with the principles of High-Intensity Interval Training (HIIT). This justifies assigning a moderate score of 0.65 to the HIIT category. Other categories like 'Mat' or 'Treadmill' are excluded due to the lack of related metadata. The absence of specifics about the elliptical, bike, or yoga rules out those possibilities as well. Overall, the evidence strongly supports Indoor rowing, with a potential overlap into HIIT."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

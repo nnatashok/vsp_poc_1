@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Mat",
-      "score": 0.7
-    },
-    {
       "name": "Stretching",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.75,
-  "categoriesExplanation": "Based on the metadata provided, I assigned the primary category as 'Mat' with a score of 0.7. The workout's description specifies 'mobility' which suggests exercises performed on a mat. The mention of 'foam roller' and 'lengthen your spine and open your hips' typically indicates floor exercises facilitated by the roller, aligning this workout with activities usually done on a mat.\n\nThe secondary category assigned is 'Stretching' with a score of 0.6. The description indicates a focus on lengthening and opening, which are key components of stretching routines. Although the category 'On The Mat' is indicated, these activities are better matched with general mat work and stretching routines rather than strength or intense cardio.\n\nThe confidence level is set to 0.75 due to the clarity provided by key terms in the description such as 'mobility' and 'foam roller,' which reinforce a lower intensity mat and stretching environment rather than an intensive exercise session."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

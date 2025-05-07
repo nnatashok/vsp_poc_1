@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Body weight",
-      "score": 0.9
-    },
-    {
-      "name": "Mat",
-      "score": 0.8
+      "name": "Calisthenics",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is clearly a Body weight circuit, as evidenced by the name 'Beginner Bodyweight Circuit' and the description focusing on exercises like squat to overhead reach, speed skaters, and mountain climbers\u2014all of which utilize body movement and gravity for resistance. The description and metadata indicate this is a strength and stamina building session without any explicit use of weights or machines, supporting a strong classification in the 'Body weight' category with a score of 0.9. Additionally, it's categorized under 'On The Mat' in the metadata, which along with floor exercises mentioned such as seated alternating toe touches and step back into plank, justifies an 0.8 score for 'Mat' as a supporting category. The reference to pacing on the Hydrow suggests some rowing element, but since it's a minor part, it's not classified as Indoor rowing."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

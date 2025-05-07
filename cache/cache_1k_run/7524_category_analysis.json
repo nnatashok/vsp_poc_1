@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.6
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The primary category 'Indoor rowing' is strongly indicated by the workout title 'Climbing Cardio Row' and the description mentioning the type of exercise (rowing) with specific stroke rates ('20 to 24 strokes per minute'). The context of using a climbing cardio format suggests an indoor rowing machine workout. The endurance-building aspect further supports this being a rowing-focused session, thus a score of 0.8 is assigned.\n\nThe secondary activity 'Breathing exercises' is inferred from the metadata tags 'breathe', as well as the focus on endurance, which often involves breath control practices; however, direct indicators of specific breathing exercises are limited, leading to a conservative score of 0.6. The description and the workout type suggest an underlying theme of breathing and rhythm, which substantiates this categorization.\n\nOther potential categories such as 'HIIT' or 'Mat' were excluded because the session lacks explicit high-intensity intervals and is not described as a mat-based workout. Overall, the confidence rating of 0.9 reflects the strong explicit and implicit cues directing towards these categories."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

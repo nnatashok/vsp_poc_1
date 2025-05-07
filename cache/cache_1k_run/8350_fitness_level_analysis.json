@@ -2,7 +2,7 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 1.0
+      "score": 0.8
     },
     {
       "level": "Intermediate",
@@ -10,19 +10,19 @@
     }
   ],
   "techniqueDifficultyConfidence": 0.8,
-  "techniqueDifficultyExplanation": "The workout is categorized as a rowing session, which by platform rules means technique difficulty can be rated as either Beginner or Intermediate. The format 'Steady' and intensity 'Sweat' suggests a consistent yet manageable pace. While rhythm '26' could imply some coordination, such movements remain relatively straightforward. Thus, Beginner is strongly aligned, but Intermediate has moderate alignment due to rhythm coordination.",
+  "techniqueDifficultyExplanation": "The technique difficulty for this rowing workout is primarily Beginner to Intermediate. Rowing, as noted in the guidelines, is generally classified as Beginner or Intermediate in terms of technique. Given the workout category is 'row', it fits these levels well. The steady rhythm and emphasis on synchronization ('rhythm 26') suggest moderate technical involvement but not reaching into Advanced territory.",
   "effortDifficulty": [
     {
       "level": "Moderate",
-      "score": 0.7
+      "score": 0.8
     },
     {
       "level": "Challenging",
-      "score": 0.5
+      "score": 0.6
     }
   ],
   "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The workout is 31 minutes long, with 20 minutes specified at a Sweat intensity, suggesting increased physical demands. The intensity level given is 2 out of 3, aligning more with Moderate difficulty due to its sustained intensity with variable effort across warm-up and cool-down phases. Challenging also fits moderately, given users with low fitness would find 20 solid minutes of rowing demanding.",
+  "effortDifficultyExplanation": "The effort difficulty of this workout is categorized as Moderate to Challenging. The workout involves a 20-minute period at a 'sweat' intensity level, surrounded by 5-minute warm-up and cool-down phases. The overall duration of about 31 minutes, combined with the instructor's professional background, indicates a moderately demanding session, leaning towards challenging for less fit users.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

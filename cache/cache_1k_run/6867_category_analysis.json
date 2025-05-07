@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "HIIT",
-      "score": 1
-    },
-    {
       "name": "Indoor rowing",
-      "score": 0.9
+      "score": 1
     }
   ],
   "categoriesConfidence": 1,
-  "categoriesExplanation": "The workout is primarily classified as 'HIIT' due to several explicit indicators in the metadata, such as the title 'Quick HIIT Row' and the description detailing 'sprints of 1', 40\", 20\", and 15\"', which are characteristic of High-Intensity Interval Training. The workout intensity level is described as '3 out of 3', indicating a high intensity level typical of HIIT.\n\nThe 'Indoor rowing' category also clearly applies, as the workout involves a rowing machine, as implied by the title with the term 'Row' and the tag 'row' under the workout type, although this term is less explicit in the description.\n\nThe confidence level is very high (1.0) because of the direct reference to HIIT in both the title and description. 'Indoor rowing' also has a very high confidence (0.9) due to the context around the workout equipment and format, even though not explicitly detailed in the description."
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Pilates",
-      "score": 0.9
-    },
-    {
-      "name": "Mat",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The chosen categories for this workout are 'Pilates' and 'Mat'. The workout name 'Core Pilates' and the workout type explicitly being labeled as 'pilates' strongly indicate the primary focus on Pilates, warranting a high score of 0.9. Additionally, the description mentioning 'core specific pilates mat workout' provides further evidence, suggesting that the exercises are performed on a mat, leading to the inclusion of the 'Mat' category with a score of 0.7. The absence of specified equipment corroborates the mat-based nature of the exercises. The music playlist, while not a determinant for the category, provides a lively backdrop supporting a Pilates routine. Other potential categories like 'Body weight' or 'Stretching' were not included given the clear emphasis on Pilates, which inherently involves bodyweight exercises with a focus on controlled movements and alignment."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

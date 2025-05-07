@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout titled 'Finding Balance Row' and categorized under 'breathe, standard, row' clearly indicates that it involves rowing, likely on an indoor rowing machine. The use of terms like 'steady 6-minute pieces' and 'max rhythm: 22' supports this, reflecting a focus on rhythm and stamina typical of rowing exercises. With 'Workout intensity level: 1 out of 3', it suggests a low-intensity session, common for steady-state rowing. Thus, 'Indoor rowing' is the primary category with a score of 0.8.\n\nAdditionally, the workout description highlights 'balancing life on and off the water' and is tagged as 'breathe', suggesting a strong element of breath control and mindfulness. This is further endorsed by the workout type labeled as 'breathe', justifying a secondary classification under 'Breathing exercises' with a score of 0.7. The absence of explicit meditation or yoga elements, as well as the lack of physical stretching or primarily bodyweight actions, excludes other potential categories like 'Yoga' or 'Stretching'. This analysis is consistent with the low-intensity, mindfulness-focused nature of the session."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

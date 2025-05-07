@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.7
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.85,
-  "categoriesExplanation": "The workout is classified primarily as 'Indoor rowing' with high confidence (0.9) due to the use of terms like 'row', 'sets of 4-minute climbing intervals', and 'row'. These directly indicate a rowing workout, specifically on an indoor rowing machine. The mention of interval format in the description suggests elements typical of 'HIIT', which involves alternating between periods of effort and rest, securing it a score of 0.7. The term 'sweat' in the workout type and category further supports the inclusion of HIIT due to its cardio-intense nature. Other categories such as 'Mat', 'Yoga', or 'Stretching' were excluded as there were no elements associated with floor exercises, flexibility, or controlled breathing techniques."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

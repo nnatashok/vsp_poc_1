@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "Mat",
-      "score": 0.3
+      "name": "Warm-up",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The primary category assigned is 'Indoor rowing' with a high confidence score of 0.9 because the workout name 'Instructional: Core Engagement' and description mention 'feel it with every stroke with Dani,' which strongly implies the use of a rowing machine. The metadata's category section also lists 'row,' indicating rowing activity. Furthermore, the music and short, sub-six-minute duration suggest an instructional warm-up session.\n\nAdditionally, a secondary category of 'Mat' is considered with a lower score of 0.3, reflecting moderate relevance. This categorization considers 'Core Engagement,' which can include mat exercises for beginner-level instruction. However, due to the emphasis on rowing, this category remains supplementary.\n\nThe exclusion of other potential categories such as 'HIIT' or 'Yoga' is justified by the lack of indicators of intensity, mindfulness practices, or diverse movement activities beyond rowing."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

@@ -2,7 +2,7 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 1.0
+      "score": 0.8
     },
     {
       "level": "Intermediate",
@@ -10,19 +10,19 @@
     }
   ],
   "techniqueDifficultyConfidence": 0.9,
-  "techniqueDifficultyExplanation": "The workout is a 'row' category, which typically dictates Beginner or Intermediate technique levels. The description advises maintaining a 'steady rhythm,' suggesting fundamental rowing techniques. The max rhythm of 24 and a workout type focusing on 'breathe' imply simplicity in execution with minimal coordination demands, strongly aligning it with Beginner technique difficulty.",
+  "techniqueDifficultyExplanation": "The workout is classified under 'row', making the Technique Difficulty either Beginner or Intermediate according to the guidelines. Given the steady state nature of the workout and the focus on maintaining a steady rhythm, the movements involved are likely simple and repeatable, suggesting a strong alignment with Beginner. There's a minor possibility of some complexity due to rhythm maintenance, which slightly hints at Intermediate.",
   "effortDifficulty": [
     {
-      "level": "Light",
+      "level": "Moderate",
       "score": 0.8
     },
     {
-      "level": "Moderate",
-      "score": 0.3
+      "level": "Light",
+      "score": 0.2
     }
   ],
   "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The workout is 16 minutes long with a 'steady state' focus, indicative of sustained low-intensity activity. With an intensity level of 1 out of 3 and steady, controlled pacing, it suggests low energy expenditure, aligning with a Light effort difficulty. The duration and intensity make a Moderate level plausible but less dominant.",
+  "effortDifficultyExplanation": "The workout duration is relatively short at 16 minutes, combined with a 'breathe' workout type and a medium intensity level ('1 out of 3'). This suggests a Moderate effort difficulty, suitable for endurance building but not overly strenuous. The steady rhythm at a low max rhythm rate (24) points towards a sustained moderate effort, making it more accessible than a challenging or extreme effort classification.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

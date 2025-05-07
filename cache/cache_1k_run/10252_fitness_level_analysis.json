@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which typically suggests either Beginner or Intermediate technique levels. Given the moderate rhythm (max of 24 stroke rate) and the interval nature, the technique does not appear overly complex. The inclusion of a warm-up and rest intervals further simplify the execution, making it more beginner-friendly, hence a high Beginner alignment score. The competitiveness and varied rhythm introduce a moderate level of complexity, aligning somewhat with Intermediate, but not strongly enough to overshadow its Beginner tendency.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.75
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout duration is 11:20 with a structure that includes a 1-minute warm-up and 4-minute intervals with rests, indicating a low-intensity setup. The intensity rating (1 out of 3) further indicates a light effort requirement. Keywords such as 'fun vibes' and 'feel-good' reflect this light intensity. However, the medium duration and interval format offer some moderate challenge, leading to a minor score in the Moderate range.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

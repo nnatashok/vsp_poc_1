@@ -2,23 +2,23 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 1
+      "score": 0.85
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.15
     }
   ],
-  "techniqueDifficultyConfidence": 1,
-  "techniqueDifficultyExplanation": "The technique difficulty for this workout is classified as Beginner. The workout description, 'Finding Balance Row,' indicates a focus on balance and steady rowing, which implies basic coordination without technical complexity. The workout category 'row' aligns with Beginner or Intermediate levels, but the user fitness level requirement explicitly stated as 'Beginner' overrides this to confirm a Beginner designation.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout 'Finding Balance Row' falls under the rowing category, which according to rules generally aligns with a Beginner or Intermediate Technique Difficulty level. The session involves two steady 6-minute pieces with a maximum rhythm of 22, suggesting very basic rowing techniques. The emphasis on steady rhythm and instructional guidance from a professional like Dani, who offers technical detail, supports a Beginner classification. Some small shift toward Intermediate is noted due to the instructional quality and balance concept, but overall remains Beginner-focused due to simplicity.",
   "effortDifficulty": [
     {
       "level": "Light",
-      "score": 0.8
-    },
-    {
-      "level": "Moderate",
-      "score": 0.6
+      "score": 1.0
     }
   ],
-  "effortDifficultyConfidence": 0.75,
-  "effortDifficultyExplanation": "The workout has an intensity level of 1 out of 3, suggesting low energy expenditure, making it a Light effort difficulty. However, the duration is just under 17 minutes, incorporating two steady 6-minute rowing pieces, which may be moderately challenging for very deconditioned individuals, granting a Moderate score with lower confidence for less fit users. The music and max rhythm of 22 suggest a relaxed pace, supporting a primarily Light classification.",
+  "effortDifficultyConfidence": 0.95,
+  "effortDifficultyExplanation": "The workout is 16:53 minutes long with a designated intensity level of 1 out of 3, indicating a low-effort workout. The steady format, combined with 'breathe' categorization, is designed to be calming and reflects light energy expenditure. The focus on balance and controlled rowing at a max rhythm of 22 further supports a Light Effort Difficulty classification. These features ensure that the workout is accessible to beginners and those with low physical capability.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

@@ -14,11 +14,15 @@
   "effortDifficulty": [
     {
       "level": "Moderate",
-      "score": 0.8
+      "score": 0.75
+    },
+    {
+      "level": "Challenging",
+      "score": 0.4
     }
   ],
-  "effortDifficultyConfidence": 0.85,
-  "effortDifficultyExplanation": "The duration of 21 minutes and the label 'power flow' indicate medium intensity, suitable for moderate effort. The workout aims to energize, potentially incorporating dynamic movements that raise heart rates to a manageable degree. The playlist with 'Chill mid' and 'Cool/Downtempo' music further supports a sustained yet moderate effort level, so Moderate effort difficulty is rated at 0.8 due to the dynamic nature implied by 'power flow.'",
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The duration of the workout is 21 minutes, which is moderate. The description suggests physical engagement ('power flow'), indicating moderate effort. The chill music suggests a focus that is not overly intense, reducing chances of extreme effort demand, positioning it between Moderate and Challenging for those less conditioned.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

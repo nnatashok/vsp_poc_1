@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "Stretching",
-      "score": 0.4
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.7,
-  "categoriesExplanation": "The metadata indicates that the video is a 'cool-down' with a 'technique focus' led by an instructor named Nick, suggesting a deliberate session aimed at improving form. The keywords 'Technique focused cool down' and mention of a 'Max rhythm: 22' imply a relationship with rowing, especially as the 'Category' tag emphasizes 'row.' This provides strong evidence to classify it under 'Indoor rowing,' assigning an 0.8 score due to the specific mention of rowing-associated terms and rhythm indications. \n\nHowever, the term 'Cool down' often associates with stretching or gentle exercises aimed at relaxation and muscle recovery, warranting a secondary category of 'Stretching' with a score of 0.4 to reflect its mild relevance. The confusion between a low-intensity rowing technique session and traditional stretches might lower the confidence slightly, but the classification remains focused on the clearly indicated rowing aspect. Other categories do not apply as the focus is not on cardio-intensive or strength-based exercises."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

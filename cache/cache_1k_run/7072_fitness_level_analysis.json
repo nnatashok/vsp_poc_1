@@ -2,15 +2,15 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 0.6
+      "score": 0.75
     },
     {
       "level": "Intermediate",
-      "score": 0.4
+      "score": 0.25
     }
   ],
-  "techniqueDifficultyConfidence": 0.75,
-  "techniqueDifficultyExplanation": "This rowing workout is classified as 'row' and includes interval training with varying rhythms, which requires coordination but is not overly complex. As such, it fits well within the Beginner category due to the straightforward rowing technique. However, the rhythm changes suggest a slight increase in technique demand, supporting a minor presence of the Intermediate level.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized as a 'row,' which restricts technique difficulty to Beginner or Intermediate. The rowing movement at a rhythm of 22 with intervals at 26 suggests a simple rowing technique that doesn't demand high coordination, aligning mostly with the Beginner level. However, the presence of rhythm changes introduces a slight layer of complexity, justifying a small Intermediate score.",
   "effortDifficulty": [
     {
       "level": "Light",
@@ -21,8 +21,8 @@
       "score": 0.2
     }
   ],
-  "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The workout is 21 minutes long with a rhythm range of 22 to 26, which suggests a light to moderate effort requirement. The intensity level is defined as 1 out of 3, pointing towards a generally light effort suitable for users in poor physical shape, although the interval nature adds a small moderate element.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout intensity is marked as 1 out of 3, indicating a relatively low intensity, underscoring its suitability for those at a Beginner level. The 21-minute duration with intervals at moderate rhythm increases the energy expenditure slightly above sedentary levels, primarily placing it in the Light category with a minimal addition to Moderate effort for less fit users.",
   "requiredFitnessLevel": [
     {
       "level": "Beginner",

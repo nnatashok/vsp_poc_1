@@ -2,13 +2,9 @@
   "categories": [
     {
       "name": "Indoor rowing",
-      "score": 0.9
-    },
-    {
-      "name": "HIIT",
-      "score": 0.65
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.95,
-  "categoriesExplanation": "The workout video 'Power Intervals Row' is predominantly classified as 'Indoor rowing' with a very high confidence level of 0.9, as indicated by explicit references to 'row', 'interval', and 'shift in effort and rhythm', which are key features of rowing workouts typically performed on an ergometer or rowing machine. Furthermore, the presence of rowing-related terms such as 'Max rhythm: 32' reinforces this classification. \n\nThe secondary category is 'HIIT' with a high confidence level of 0.65. The description mentions 'intervals', a core component of HIIT workouts, where there is alternating intensity, here shown by the 60-second interval challenges. Despite lacking explicit mention of high-intensity elements, the maximum rhythm and intensity level (3 out of 3), along with drive-type workout classification, imply a vigorous rowing session typical of HIIT style.\n\nOther categories were considered but excluded. For instance, 'Mat', 'Body weight', and 'Weight workout' were not applicable due to the lack of floor exercises or weight-based movements. Similarly, 'Treadmill', 'Running', 'Walking', and 'Cycling' were irrelevant as the activity focuses on rowing. The explicit absence of any equipment-related data also solidifies that this is not a weighted workout."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

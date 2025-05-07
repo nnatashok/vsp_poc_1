@@ -3,12 +3,8 @@
     {
       "name": "Indoor rowing",
       "score": 1
-    },
-    {
-      "name": "Breathing exercises",
-      "score": 0.6
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout is classified primarily as 'Indoor rowing' because the name \"Progression Training Row\" and the tags 'row' indicate it involves a rowing machine, which is central to the workout type. The mention of progression training and \"5 and 10-minute intervals\" align with structured rowing sessions. The intensity level is 1 out of 3, fitting a low to moderate intensity rowing session. The 'Climb' format indicates a gradually increasing difficulty, often seen in rowing workouts.\n\nThe secondary category 'Breathing exercises' is assigned due to the workout type being listed as 'breathe' and the category tag 'Breathe,' suggesting an element of focused breathing as part of the workout. However, since the workout predominantly centers around rowing, the score for 'Breathing exercises' is lower at 0.6. The upbeat music playlist and genre do not suggest a meditation or low-impact focus needed for a primary classification under breathing alone.\n\nConfidence is high at 0.9 because the explicit references to rowing are strong, making it a definite primary category."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

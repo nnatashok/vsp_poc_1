@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "HIIT",
-      "score": 0.9
-    },
-    {
       "name": "Indoor rowing",
-      "score": 0.85
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.9,
-  "categoriesExplanation": "The workout is classified with high confidence as 'HIIT' and 'Indoor rowing'. The title 'Motivational HIIT Row' explicitly mentions 'HIIT', indicating high-intensity interval training, which is further supported by the description that specifies 'high-intensity intervals'. The maximum rhythm of 32 and a high-intensity level rating of 3 out of 3 reinforce the intense nature of the workout. The use of 'row' in the title and description along with the category tags 'row', and 'drive' suggest that this is an indoor rowing workout. The equipment field is empty yet, combined with all other indicators, it's reasonable to infer an ergometer is used, typical for indoor rowing workouts. The playlist with energetic pop songs complements the high-intensity workout atmosphere, aligning with typical music genres used for such sessions."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }

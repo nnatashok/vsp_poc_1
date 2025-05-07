@@ -2,27 +2,27 @@
   "techniqueDifficulty": [
     {
       "level": "Beginner",
-      "score": 1.0
+      "score": 0.7
     },
     {
       "level": "Intermediate",
-      "score": 0.6
+      "score": 0.3
     }
   ],
-  "techniqueDifficultyConfidence": 0.85,
-  "techniqueDifficultyExplanation": "The workout category is 'row', which inherently limits the technique difficulty level to either Beginner or Intermediate according to the Hydrow-specific rules. Rowing, even at a higher rhythm, typically involves straightforward movements that most users can execute with basic guidance. Therefore, the Beginner rating is very strongly aligned, while Intermediate fits moderately due to the interval format which may require some coordination.",
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which typically involves basic to moderate rowing movements that do not require an advanced level of technique complexity. Although the session includes 2' and 1' interval rowing, the challenge is more related to maintaining pace rather than executing complex movements. As such, this aligns with Beginner to Intermediate Technique Difficulty due to the interval nature, allowing for some modest technical engagement in maintaining rhythm and form.",
   "effortDifficulty": [
     {
       "level": "Moderate",
-      "score": 0.8
+      "score": 0.65
     },
     {
       "level": "Challenging",
-      "score": 0.6
+      "score": 0.35
     }
   ],
-  "effortDifficultyConfidence": 0.75,
-  "effortDifficultyExplanation": "The 'Double the Fun Row' involves a 31-minute workout with interval training, which suggests a moderate to challenging effort level for deconditioned users. This type involves moderate energy expenditure with intermediate rest periods, aligning well with Moderate effort, though the intensity of 2 out of 3 and the duration can push the boundary into Challenging for less fit users.",
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The Effort Difficulty is inferred from the 31:26 duration paired with interval training (2' and 1') and a maximum rhythm of 32, which suggests a more intense rowing session. The categorization as 'sweat' and an intensity level of 2 out of 3 indicates a significant physical demand, particularly in maintaining consistent effort during shorter interval bursts. Consequently, Moderate is the primary effort level, with an extension to Challenging due to potentially demanding intervals for less conditioned users.",
   "requiredFitnessLevel": [
     {
       "level": "Intermediate",

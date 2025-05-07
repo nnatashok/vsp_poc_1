@@ -1,24 +1,28 @@
 {
   "techniqueDifficulty": [
     {
-      "level": "Intermediate",
+      "level": "Advanced",
       "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
     }
   ],
   "techniqueDifficultyConfidence": 0.85,
-  "techniqueDifficultyExplanation": "The workout type is classified as a 'drive' in Hydrow's specific categorization, which defaults to an Intermediate technique difficulty. While the rowing activity typically does not exceed an Intermediate level in complexity, the 'drive' indicates that the level of coordination and body awareness required is higher due to potentially varied rhythms and rhythms that require quick response to changes.",
+  "techniqueDifficultyExplanation": "The workout is a 'drive' type, which according to Hydrow rules is categorized as Advanced due to its technical demands. Although rowing workouts are usually lower in technique difficulty, the 'drive' categorization elevates this to Advanced indicating a need for solid rowing technique and experience with complex, high-intensity intervals. However, there is a moderate alignment with Intermediate due to the inherent nature of rowing not being overly complex for those familiar with basic techniques.",
   "effortDifficulty": [
     {
-      "level": "Challenging",
-      "score": 0.7
+      "level": "Extreme",
+      "score": 0.85
     },
     {
-      "level": "Extreme",
-      "score": 0.3
+      "level": "Challenging",
+      "score": 0.6
     }
   ],
-  "effortDifficultyConfidence": 0.7,
-  "effortDifficultyExplanation": "The workout is a HIIT format with a 'drive' category setting, indicated with the highest intensity level of 3 out of 3. The short duration (11 min 25 sec) combined with high-intensity intervals, and a max rhythm of 34 suggest that the effort required is on the higher end of 'Challenging.' The inclusion of high-energy music further implies a fast-paced, vigorous effort, making the workout demand significant for less fit users, bordering on 'Extreme' for those in poor physical shape.",
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The session is a HIIT format with a high maximum rhythm of 34 strokes per minute, sustaining a high-intensity effort, with an intensity level rated as 3 out of 3. The short duration of 11:25 minutes suggests high effort is condensed into a brief period, typical of Extreme effort difficulty. Strong indicators suggest significant energy expenditure and cardiovascular demand, with some overlap to Challenging due to workout length.",
   "requiredFitnessLevel": [
     {
       "level": "Advanced",

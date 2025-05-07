@@ -1,14 +1,10 @@
 {
   "categories": [
     {
-      "name": "Indoor rowing",
-      "score": 0.8
-    },
-    {
-      "name": "Stretching",
-      "score": 0.7
+      "name": "Cool-down",
+      "score": 1
     }
   ],
-  "categoriesConfidence": 0.8,
-  "categoriesExplanation": "The workout titled \"Feeling Rhythm 22 Cool-Down\" and classified under 'Cool Down,standard,row' strongly suggests it is an Indoor Rowing workout. The term 'row' aligns with the platform's emphasis on rowing, and the structure and rhythmic elements indicate usage of a rowing machine, aligning with a steady rowing session, warranting a high score of 0.8 for Indoor Rowing. \n\nThe description of 'cool down' combined with the activity of 'feeling the rhythm with your eyes closed' suggests a more relaxed state aimed at reducing heart rate and tension post-exercise. This aligns with the Stretching category, as it often involves gradual relaxation and rhythm, hence a score of 0.7, focusing on cooldown. \n\nThe lack of any explicit yoga or meditation cues, intensity description of HIIT, or any equipment beyond the rowing machine helps exclude other workout types like HIIT, Yoga, or Mat sessions."
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The Category is assigned by predefined mapping."
 }
