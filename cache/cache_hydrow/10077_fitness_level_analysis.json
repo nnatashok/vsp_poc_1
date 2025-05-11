@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is a 'drive' type row, which typically demands higher technique proficiency due to its focus on power and rhythm, particularly with a max rhythm of 34. However, the technique difficulty is predominantly Intermediate, aligning with the category of 'row' which generally limits technique complexity to Intermediate even when demanding. Some Advanced techniques might be applicable given the 'Power' format and emphasis on technique with Mike's coaching, reflected in the user's fitness requirement.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    },
+    {
+      "level": "Extreme",
+      "score": 0.2
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout's intensity level is 3 out of 3, indicating it is at the upper threshold of physical demand. The 'drive' workout type suggests a high-energy session focused on 'Power', and the specific emphasis on building race effort further implies significant energy expenditure. The relatively short 11:34 duration means it's highly intense in a condensed format, thus primarily Challenging but with elements of Extreme.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

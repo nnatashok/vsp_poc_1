@@ -1,0 +1,26 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'Drive,' which Hydrow classifies as Advanced. However, because the workout type is 'row', the Technique Difficulty is limited to a maximum of 'Intermediate.' The mention of \"high-intensity intervals\" suggests a level of complexity above basic, yet still within the bounds of rower techniques deemed suitable for Intermediate users.",
+  "effortDifficulty": [
+    {
+      "level": "Extreme",
+      "score": 0.9
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout is described as 'high-intensity intervals' with a workout intensity level of 3 out of 3, indicating a vigorous physical demand. The workout's format (HIIT) and the involvement of a max rhythm of 32 strokes per minute further support its classification as Extremely demanding, requiring high effort from participants.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

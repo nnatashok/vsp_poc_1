@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Mat",
-      "confidence": 0.95
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout is a Pilates routine named 'Whole Body Pilates,' which suggests it takes place on a mat as Pilates commonly does. The metadata explicitly includes a category labeled 'On The Mat,' confirming that a mat is essential for this workout. Additionally, the image shows the instructors standing on mats, reinforcing the equipment requirement. There are no other specific mentions of additional equipment needed, so the confidence for requiring a mat is very high at 0.95."
-}

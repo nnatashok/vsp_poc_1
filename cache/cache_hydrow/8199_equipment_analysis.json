@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.95
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is titled \"Around the World Row,\" and falls under the category of \"row,\" indicating a focus on rowing. The use of 'row' multiple times in the metadata strongly suggests the need for rowing equipment, specifically a rowing machine, if performed indoors. The image also depicts a rowing activity. Consequently, a high confidence score of 0.95 is assigned to the requirement of a rowing machine."
+}

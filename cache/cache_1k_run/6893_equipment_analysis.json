@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 0.9
-    }
-  ],
-  "requiredEquipmentExplanation": "The metadata indicates that the workout falls under the category 'row', which strongly implies the use of a rowing machine. Additionally, the description mentions 'climb in rhythm', a phrase commonly associated with rowing workouts. The image also supports this by showing a rowing activity, though it appears outdoors. However, for the purpose of an indoor training session, a rowing machine would be essential, thus the high confidence score of 0.9."
-}

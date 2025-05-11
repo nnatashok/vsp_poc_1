@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 1.0
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout video is titled \"Weekly Conditioning Row,\" and is categorized explicitly under \"row,\" indicating a strong focus on rowing exercises. Additionally, the format is described as \"Interval,\" which is typical for workouts involving rowing machines to manage tempo and exertion. The mention of 3-minute intervals at a rhythm of 26 further emphasizes rowing relevance, as rowing rhythms are usually measured by strokes per minute. The description and metadata consistently emphasize rowing, leading to very high confidence in classifying the required equipment as a \"Rowing machine\" with a confidence score of 1.0. There is no mention of other equipment in the metadata."
-}

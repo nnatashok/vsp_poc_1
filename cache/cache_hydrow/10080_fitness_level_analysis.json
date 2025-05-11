@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "Given the workout category 'row', the technique difficulty is inherently capped at Beginner or Intermediate. The description 'One Stroke at a Time Row' suggests a focus on simplicity and mindfulness, aligning closely with Beginner. The presence of rhythm and a medium-level instructor might introduce slight complexity, suggesting a modest fit for Intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The 21-minute duration combined with a low intensity level of 1 out of 3 indicates a workout that is primarily Light. The 'breathe' format implies a calming, low-energy expenditure routine. However, rowing can generally require moderate effort for beginners, thus the weaker Moderate rating.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

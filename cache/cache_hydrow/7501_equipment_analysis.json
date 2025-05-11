@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.95
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is labeled under the category 'row,' which strongly indicates the use of a rowing machine. The description mentions 'intervals' which are commonly associated with rowing workouts. Additionally, the image shows an individual rowing, emphasizing the need for a rowing machine. Given these details, the confidence level is very high, at 0.95, that a rowing machine is required."
+}

@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Other",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout title, 'Need for Speed Row,' and the description focusing on improving stroke technique with varying rhythms strongly suggest the centrality of a rowing machine. This is further supported by the category 'row,' which mandates high confidence in including the 'Rowing machine' with a confidence score of 0.9. \n\nAdditionally, the image provided shows rowing on water, which indicates outdoor rowing equipment; hence, under 'Other,' this equipment is included with a high confidence score of 0.9. The interval format and intensity level do not imply the use of additional equipment besides the rowing machine."
+}

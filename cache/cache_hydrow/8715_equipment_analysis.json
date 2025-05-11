@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is categorized under 'row,' which implies the use of a rowing machine. The descriptor 'three-stroke accelerations' further indicates rowing exercises are central, supporting the need for a rowing machine with high confidence. The image also shows individuals rowing on water, reinforcing the rowing theme. Therefore, the likelihood that a rowing machine is required is very high, leading to a confidence score of 0.9."
+}

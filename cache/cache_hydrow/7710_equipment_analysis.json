@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is identified as 'Core Pilates' with a category of 'On The Mat,' which directly suggests that a mat is essential for performing the exercises comfortably and effectively. The metadata lacks any reference to other equipment, further reinforced by the image showing a participant using a mat in an outdoor setting. Therefore, the confidence is very high (1.0) that a mat is the only equipment required for this session."
+}

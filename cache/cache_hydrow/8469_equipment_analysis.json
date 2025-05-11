@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Dumbbells",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is described as a 'Whole Body Circuit' which includes 'total body work off Hydrow and 60-second intervals on Hydrow.' The mention of Hydrow in two contexts strongly suggests the use of a rowing machine since Hydrow is a well-known brand of rowing machines. Therefore, the Rowing machine is included with very high confidence (0.9).\n\nDumbbells are explicitly mentioned in the equipment list and are visible in the provided image, indicating their use during the workout. They are central to the workout routine, contributing to a very high confidence score (0.9) for this equipment.\n\nGiven the category 'On The Mat,' it might imply floor exercises, but there is no explicit mention or strong evidence of a mat in the metadata, only the presence of dumbbells and rowing equipment."
+}

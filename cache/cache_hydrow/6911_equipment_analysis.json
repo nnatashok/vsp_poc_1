@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.8
+    },
+    {
+      "equipment": "Mat",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is titled 'Post-Row Pilates' suggesting it is intended to follow a rowing session. This necessitates the inclusion of a 'Rowing machine' involved beforehand, giving it a high confidence score of 0.8 because it's part of the expected sequence, even if not used directly in this segment. The description mentions 'On The Mat', and the workout type is 'pilates', which commonly involves a mat for floor exercises. This is confirmed by the image showing participants on mats, leading to a very high confidence score of 1.0 for 'Mat'. The absence of any other equipment mentions or implications in the metadata keeps the required list short."
+}

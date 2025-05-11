@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.2
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'drive' and includes rhythm climbing to 32 strokes per minute, which implies a need for coordination and control. Given that Hydrow-specific rules apply with this being a 'Drive' workout, it defaults to an advanced level of technique. However, considering the rowing constraints, the technique complexity is capped at Intermediate, aligning with the categorized Drive workout class's requirements.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.1
+    },
+    {
+      "level": "Extreme",
+      "score": 0.9
+    }
+  ],
+  "effortDifficultyConfidence": 0.95,
+  "effortDifficultyExplanation": "The metadata highlights a workout intensity level of 3 out of 3 with 'maximizing every second' and 'best efforts,' suggesting high physical demand. These descriptors indicate a high energy expenditure and sustained effort across 16 minutes, justifying the Extreme level alignment for effort difficulty.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

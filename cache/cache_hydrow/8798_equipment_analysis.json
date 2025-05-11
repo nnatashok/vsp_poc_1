@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The title and metadata clearly indicate that this is a rowing workout ('row' is specified in the category metadata, and the workout description mentions racing down a river, which strongly implies rowing activity). The reference to \"Hydrow,\" a well-known rowing brand, further confirms the need for a rowing machine. Given that the workout is categorized as 'row' and describes activities typically performed on a rowing machine, we can assign a very high confidence score of 1.0 to the rowing machine. No other equipment is mentioned or implied to be necessary in the metadata provided."
+}

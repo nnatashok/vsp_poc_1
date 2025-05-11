@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.95
+    }
+  ],
+  "requiredEquipmentExplanation": "The metadata specifies that this is a 'cool down' type workout in the 'row' category. The description explicitly mentions rowing with Laine, which indicates the use of a rowing machine. Additionally, the presence of terms such as 'steady row' in a workout classified as 'row' suggests that a rowing machine is central to the workout. Thus, the confidence score for the rowing machine is very high at 0.95."
+}

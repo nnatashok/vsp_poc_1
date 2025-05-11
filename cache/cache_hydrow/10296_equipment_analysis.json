@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout \"Discover Your Why Row\" explicitly indicates it is a rowing session with the use of the phrase \"as you glide across the water\" and \"Let's row together and find the purpose that powers your strokes.\" Additionally, the category is marked as 'row', which mandates the inclusion of a 'Rowing machine' with a very high confidence score of 1.0 since it is central to performing the activities described. The lack of mention of any other equipment in both the description and the listed equipment category further cements this classification."
+}

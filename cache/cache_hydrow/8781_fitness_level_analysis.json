@@ -1,0 +1,26 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Advanced",
+      "score": 0.75
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is classified as 'Drive', which according to Hydrow-specific rules, should be considered Advanced in technique difficulty. The workout emphasizes high-intensity intervals and focuses on achieving proper form with splits, implying a need for good rowing technique. While rowing itself may often be Beginner to Intermediate, the 'Drive' categorization and focus on specific performance metrics (split) elevate the technique difficulty to Advanced.",
+  "effortDifficulty": [
+    {
+      "level": "Extremely",
+      "score": 0.75
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is described with a maximum rhythm of 32 and is conducted in a HIIT format, indicating a high level of intensity. The 'intensity level: 3 out of 3' suggests extreme effort is required. The workout's short duration of 11:19 with high-intensity intervals further supports the high-effort classification, as it suggests little rest and high energy expenditure throughout the session.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

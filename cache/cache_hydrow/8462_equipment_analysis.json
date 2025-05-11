@@ -1,0 +1,17 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Mat",
+      "confidence": 0.7
+    },
+    {
+      "equipment": "Dumbbells",
+      "confidence": 0.8
+    }
+  ],
+  "requiredEquipmentExplanation": "This workout requires a Rowing machine with very high confidence (0.9) because the description mentions '90-second intervals on Hydrow' and the image shows a person clearly using a rowing machine. A Mat is needed with a high confidence level (0.7) as the category 'On The Mat' suggests floor-based exercises typical for a mat. Dumbbells are required with high confidence (0.8) as they are explicitly listed in the equipment metadata. The workout type 'circuit' also implies the potential use of various equipment for different exercises, further supporting these selections."
+}

@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "techniqueDifficultyConfidence": 1.0,
+  "techniqueDifficultyExplanation": "Since the workout is marked as suitable for all fitness levels (Beginner, Intermediate, Advanced), the technique difficulty is considered adaptable. Movements can be scaled in complexity, and users are expected to modify techniques based on their capability. Therefore, all difficulty levels from Beginner to Expert are assigned equal suitability with a score of 1.0.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.95
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.87,
+  "effortDifficultyExplanation": "The 'Peppy Warm-Up' has a short duration of 5:38 and is designated specifically as a warm-up, which are typically low-intensity exercises aimed at preparing the body without causing significant fatigue. Therefore, it strongly aligns with Light Effort Difficulty. However, the interval format does add a slight intensity boost (reflected as Moderate), but due to the session's purpose as a warm-up, this is not dominant. Thus, Light receives the highest score, with confidence in this classification being very high due to clear metadata cues.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    },
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "Workout type 'warm-up' is not one of the specialized Hydrow categories (Breathe, Sweat, Drive, Distance). It is treated as suitable for all fitness levels."
+}

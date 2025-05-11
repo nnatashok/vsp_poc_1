@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout category involves rowing, which typically requires maintaining proper form throughout the exercise. Given the 'interval' format, the technique is likely more intricate than basic steady-state rowing. However, as per Hydrow's rowing workout classification, technique difficulty is best classified as Beginner to Intermediate. The strong focus on 'in-depth technical detail' suggests a slightly higher complexity, aligning more with Intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The configuration of a 21-minute interval sweat workout with a peak rhythm of 30 implies a moderate level of cardiovascular demand. Participant status shows '2 out of 3' on workout intensity, indicating a workout that is designed to be significantly taxing without reaching maximum exertion. This aligns with a Moderate to Challenging effort difficulty for an audience that may be generally unfit, with Moderate being the most fitting category.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

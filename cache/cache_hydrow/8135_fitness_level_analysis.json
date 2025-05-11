@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Advanced",
+      "score": 0.75
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.25
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout type 'drive' typically indicates advanced rowing technique demands, given Mike's profuse mention of competitive rowing and championship experience. The focus on 'Drive intensity' suggests a high level of technical execution is required to perform correctly and efficiently. However, the workout format being 'standard row' keeps the Intermediate level plausible due to inherent simpler rowing mechanics.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.75
+    },
+    {
+      "level": "Extreme",
+      "score": 0.25
+    }
+  ],
+  "effortDifficultyConfidence": 0.87,
+  "effortDifficultyExplanation": "The 31-minute workout includes a 'Drive intensity' segment for 20 minutes, which is classified as 3 out of 3 for workout intensity level, indicating high physical demands. The involvement of intervals and a max rhythm of 30 suggests increased cardiovascular and muscular exertion, characteristic of Challenging to Extreme effort, but primarily Challenging given the structure and inclusion of rest periods with warmup and cooldown.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

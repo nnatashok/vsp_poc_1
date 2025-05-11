@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.95
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout metadata specifies a 'rate capped race' and is categorized as both 'row' and 'standard', indicating a rowing-focused workout. The description states 'Exert power through your legs to accumulate maximum meter,' which aligns with the mechanics of rowing. Additionally, the workout type 'drive' further suggests the use of a rowing machine, as driving through with the legs is a fundamental part of rowing technique. The confidence score is very high due to these explicit indicators in the metadata."
+}

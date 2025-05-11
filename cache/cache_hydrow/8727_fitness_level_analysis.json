@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "techniqueDifficultyConfidence": 1.0,
+  "techniqueDifficultyExplanation": "Since the workout is marked as suitable for all fitness levels (Beginner, Intermediate, Advanced), the technique difficulty is considered adaptable. Movements can be scaled in complexity, and users are expected to modify techniques based on their capability. Therefore, all difficulty levels from Beginner to Expert are assigned equal suitability with a score of 1.0.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.6
+    },
+    {
+      "level": "Moderate",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The 11-minute duration and the yoga-based theme imply a session that is not overly exertive. The balance practice can be seen as gentle, focusing more on control than cardio intensity. Given the music genre is chill/cool, it also suggests a less intense workout environment. Consequently, the workout aligns more with the Light intensity but can still moderately challenge inactive users, hence the scoring.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    },
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "Workout type 'align' is not one of the specialized Hydrow categories (Breathe, Sweat, Drive, Distance). It is treated as suitable for all fitness levels."
+}

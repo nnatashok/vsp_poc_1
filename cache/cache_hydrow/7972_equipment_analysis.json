@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout titled \"Sibling Power Row\" is categorized under 'row', which explicitly indicates the use of a rowing machine. The description mentions 'intervals at varying rhythms', a format typical for rowing workouts. Additionally, the image associated with the metadata shows a rowing scull, reinforcing the focus on rowing activity. Therefore, the confidence level for requiring a rowing machine is very high at 0.9."
+}

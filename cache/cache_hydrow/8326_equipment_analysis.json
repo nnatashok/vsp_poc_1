@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.8
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout, 'Post-Row Pilates,' strongly suggests the use of a mat due to the 'On The Mat' category and Pilates focus, which typically involve exercises performed on the floor. The image also depicts an individual sitting on a mat, reinforcing this requirement. A mat is therefore included with a high confidence score of 0.9.\n\nAdditionally, the title 'Post-Row Pilates' hints at an activity following rowing exercise, indicating the potential use of a rowing machine beforehand or as part of the workout routine. As the context and category are fitting, the inclusion of a rowing machine is justified with a confidence score of 0.8, despite it not being explicitly shown in the metadata or image."
+}

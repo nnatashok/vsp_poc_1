@@ -1,0 +1,26 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type being 'Drive', as classified by Hydrow-specific rules, inherently denotes a higher skill requirement but can only reach up to Intermediate for a rowing category. The use of terms like 'in-depth technical detail' and 'climb in rhythm' suggests a need for control and coordination, characteristic of at least an Intermediate Technique Difficulty classification.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.75
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The duration of the workout is 21:45 minutes combined with a high rhythm of 30 and intensity level of 3 out of 3 suggests a high level of physical demand. High-energy sprints and the high-intensity description imply a significant energy expenditure, aligning this workout with a Challenging Effort Difficulty level. The playlist featuring energetic dance hits further supports this intensity.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

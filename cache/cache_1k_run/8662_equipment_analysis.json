@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 1.0
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout is titled 'Low Rhythm Row,' and the category includes 'row,' indicating that it is a rowing-focused exercise. The description mentions 'row along the Hillsborough River,' emphasizing that rowing is the central activity in this workout. As per the analysis guidelines, if the category type is 'row,' the output must include 'Rowing machine' with a high confidence score of 1.0, reflecting the essential nature of the equipment for this workout."
-}

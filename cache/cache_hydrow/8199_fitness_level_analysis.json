@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is a rowing session marked under categories 'Sweat' and 'row'. Rowing generally falls under Beginner or Intermediate levels according to the platform's guidelines. With the Format being labeled 'Climb', the technique might involve some variation but remains within manageable mechanics typical of rowing. Therefore, the technique difficulty aligns mostly with Beginner. However, the mention of rhythm at a max of 30 and format complexity suggests a partial hold on Intermediate complexity.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The effort difficulty is determined by the 'sweat' workout type, the 'Climb' format, and a 16:29 duration. Additionally, the presence of a notable instructor who is known for pushing boundaries can imply increased effort expenditure. The workout intensity is marked 2 out of 3, indicating a moderately demanding activity rather than an extremely challenging one. Combined with segments of 5 minutes at a high rhythm, it signifies the moderate category, with some elements veering into Challenging levels for deconditioned users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

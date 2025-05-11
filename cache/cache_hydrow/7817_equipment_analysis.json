@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout metadata indicates the title as '80's Fun Summer Row' and categorizes it under 'row,' which strongly implies the use of a rowing machine (1.0 confidence). The description mentions intervals, a common rowing workout format. The image provided also depicts rowing, reinforcing the need for a rowing machine. Therefore, the necessary equipment is a rowing machine, as it is central to executing this workout."
+}

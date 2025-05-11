@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type is 'row', which typically suggests simple movements restricted to the rowing machine. According to our guideline, rowing workouts can be classified as either Beginner or Intermediate in technique difficulty. The presence of phrases like \"in-depth technical detail\" might suggest Intermediate techniques, but \"feel-good\" and high-energy cues skew these towards Beginner. Therefore, there's a stronger alignment with Beginner (0.7) while acknowledging possible complexities (0.3).",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout involves two 4-minute intervals with variations in pace, demanding a consistent effort over a short time (11:25 minutes total). The intensity level is marked as 2 out of 3, indicating moderately demanding exertion. Music selection is upbeat, aligning with a sustained moderate effort. Hence, the workout primarily aligns with a Moderate effort (0.7) due to the interval nature and duration, but can be challenging for less fit individuals (0.3).",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

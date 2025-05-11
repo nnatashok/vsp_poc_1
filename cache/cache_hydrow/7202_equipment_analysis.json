@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.95
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is categorized under 'row' and 'Drive,standard,row', strongly indicating the primary equipment needed is a rowing machine. The title 'Commit to Your Split Row' and the description emphasizing '10-stroke builders' further imply the focus on rowing. Although the image depicts outdoor rowing, the metadata and the structured category indicate an indoor rowing machine is required. Therefore, the confidence level for needing a rowing machine is very high, at 0.95."
+}

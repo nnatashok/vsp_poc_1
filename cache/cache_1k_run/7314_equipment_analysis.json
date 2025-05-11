@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 0.9
-    }
-  ],
-  "requiredEquipmentExplanation": "The metadata specifies the workout category as 'row', which strongly implies the need for rowing equipment. The title 'Progression Training Row' and the format 'Climb' suggest a focus on rowing intervals. Additionally, the use of 5 and 10-minute intervals is characteristic of rowing workouts. Given these factors, a rowing machine is necessary for replicating the workout indoors with high confidence (0.9). The image also features individuals engaged in rowing, reinforcing that this workout is centered around rowing activity."
-}

@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 1.0
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout metadata explicitly categorizes this session under 'row,' indicating that it is based on rowing. Additionally, the image shows a person rowing on water, aligning with this category. Therefore, the use of a rowing machine is essential for replicating this activity in a standard setting. The confidence in this requirement is very high due to the direct association with rowing in both the metadata and visual content."
-}

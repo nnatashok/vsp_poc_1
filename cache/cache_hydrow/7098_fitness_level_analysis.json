@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The primary activity is rowing, which is identified as \"sweat\" within the category, thus aligning with Hydrow's guideline that technique difficulty is either Beginner or Intermediate. The description emphasizes rhythm and technique, which suggests a possible intermediate level complexity, but not beyond. The description highlights a focus on technique development with an accessible rhythmic pace at max 26, which suggests the movements are straightforward.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.6
+    },
+    {
+      "level": "Challenging",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout is a 16.5-minute interval session with a max rhythm of 26, categorized as a \u2018sweat\u2019 workout. This indicates a higher intensity effort, typical of interval rowing sessions. The intensity level is marked as 2 out of 3, which usually suggests a demanding workout for deconditioned users. Combined with upbeat, dance-driven music, this implies a level of physical demand that could be classified as Moderate to Challenging, appealing to different fitness levels.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

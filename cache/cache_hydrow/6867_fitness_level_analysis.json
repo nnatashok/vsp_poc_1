@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Advanced",
+      "score": 0.9
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout type 'drive' typically indicates a higher level of technique difficulty, as corroborated by the metadata specifying 'Drive' and 'standard'. Furthermore, the inclusion of sprint intervals at high intensity (e.g., 32 rhythm) suggests advanced rowing techniques, as these require precise execution for safety and effectiveness. This, combined with the classification of the user fitness level as 'Advanced', strongly supports an 'Advanced' technique difficulty rating.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.7
+    },
+    {
+      "level": "Extreme",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The HIIT format with very short, intense intervals such as 1', 40\", 20\", and 15\" indicates high physical demand, reflected in the maximum rhythm of 32. Additionally, the workout's classification with an 'intensity level 3 out of 3' further corroborates its strenuous nature. These factors contribute to a challenging to extreme effort difficulty assessment, considering the energy required for rapid pace changes and short recovery periods.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

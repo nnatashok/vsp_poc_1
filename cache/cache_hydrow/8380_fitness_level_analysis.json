@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 1
+    }
+  ],
+  "techniqueDifficultyConfidence": 1,
+  "techniqueDifficultyExplanation": "The workout type is 'row', and according to Hydrow-specific rules, rowing workouts can be classified as either 'Beginner' or 'Intermediate'. Given that the user's fitness level requirement is explicitly stated as 'Beginner', the technique difficulty aligns with this level. The movements involved in rowing are straightforward with minimal coordination required, especially in a 'Breathe' format focused on rhythm and grace rather than technical proficiency.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout is described as a 'breathe' session with a focus on balance, grace, and strength, operating at rhythms of 20 and 22. With a duration of over 21 minutes, it implies sustained physical activity, but the intensity is stated as 1 out of 3. This suggests a primarily Light effort appropriate for beginners, and possibly Moderate due to the continuous nature of rowing. The effort level is heightened marginally by the rhythmic focus, but overall it remains suitable for those new to fitness.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

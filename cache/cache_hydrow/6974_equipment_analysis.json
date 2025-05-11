@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    },
+    {
+      "equipment": "Mat",
+      "confidence": 0.8
+    }
+  ],
+  "requiredEquipmentExplanation": "The metadata explicitly mentions that the workout involves 'working up a sweat on your Hydrow for some climbing intervals,' indicating a very high confidence (1.0) that a 'Rowing machine' is required, as Hydrow is a known brand of rowing machines. Furthermore, the image shows mats on the ground, suggesting their use for prep work or mobility exercises, aligning with the description \"Quickly prep your rowing muscle groups.\" This implies a high confidence (0.8) that a 'Mat' is needed. No other equipment is suggested by the metadata."
+}

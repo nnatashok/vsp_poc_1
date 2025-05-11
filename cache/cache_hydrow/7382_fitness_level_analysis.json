@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is categorized as 'row', which defaults Technique Difficulty to Beginner or Intermediate under the given rules. The exercise involves alternating rowing rhythms, which may introduce some complexity, but remains fundamentally a rowing activity. As a 'Breathe' type workout focusing on staying relaxed, it does not require high technical precision, reinforcing the Beginner level categorization. Intermediate level is partially considered due to the rhythm alternation but scored lower as it aligns less with the core workout intent and description.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "With a duration of 31 minutes at a low workout intensity level (1 out of 3), the Effort Difficulty leans towards the Light category. The interval format with rhythm changes could require moderate effort for some, but the primary focus on breathing and relaxation supports a Light classification. The Moderate score is provided as there could be episodes of increased exertion during rhythm changes, but these are relatively mild due to the calming influence of the 'breathe' category.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is explicitly categorized as 'row' within the metadata, indicating a focus on rowing activities. The title 'Build Confidence Row' further supports the need for rowing equipment, specifically a rowing machine. The description mentions 'climbing intervals,' which is a common term in rowing workouts to describe varying resistance or intensity, further implying the use of a rowing machine. Given this information, the confidence score for requiring a rowing machine is very high at 1.0."
+}

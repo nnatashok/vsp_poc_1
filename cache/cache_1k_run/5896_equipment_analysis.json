@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 0.9
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout is titled \"Climb Row\" and the metadata specifies the category as \"row,\" indicating that rowing is a central component. The presence of \"climb\" suggests a progressive intensity which is a common feature in rowing workouts. Although equipment is not explicitly listed, the term 'row' and the type \"breathe,standard,row\" strongly imply the necessity of a rowing machine. The image depicts rowing activity, further confirming this requirement. Therefore, I assign a very high confidence score of 0.9 to the need for a rowing machine."
-}

@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 1.0
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout title \"Be Present Row\" and the category \"Breathe,standard,row\" explicitly indicate that this is a rowing workout. The metadata strongly emphasizes the rowing aspect, making it clear that a rowing machine is central to the workout. Given that the equipment list is empty and the focus is on rowing, the confidence score for needing a rowing machine is very high at 1.0. The image associated with the video also highlights rowing activity, further confirming the need for a rowing machine."
-}

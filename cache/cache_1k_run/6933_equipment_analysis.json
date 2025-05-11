@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Mat",
-      "confidence": 0.9
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout description lists exercises like planks, ab roll-ups, squats, and prone push-ups, which are commonly performed on a mat. The category 'On The Mat' strongly implies a mat is integral to the workout. This results in a very high confidence score of 0.9 for the Mat being required equipment, as it is explicitly mentioned in the metadata."
-}

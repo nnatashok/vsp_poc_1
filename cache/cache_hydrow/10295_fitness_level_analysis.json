@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', and uses the 'breathe' format, which suggests a focus on moderate pacing and breathing rather than complex techniques. This aligns with Beginner or Intermediate Technique Difficulty by default. The use of 'ladder structure' and 'bursts of intensity' could add a moderate complexity, but overall, row workouts tend to be accessible for beginners with pre-existing fitness considerations. Therefore, the Beginner level is most supported, but a slight consideration for Intermediate exists due to the rhythm and ladder elements.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The 10-minute duration and 'Breathe' category indicate a low physical demand, aligning with a 'Light' Effort Difficulty level. The description highlights a 'ladder structure' and 'bursts of intensity', suggesting slightly elevated energy expenditure, warranting a partial consideration for 'Moderate'. However, the workout's short duration and intensity rating of '1 out of 3' predominantly support a 'Light' classification.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

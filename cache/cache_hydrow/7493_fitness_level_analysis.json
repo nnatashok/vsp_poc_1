@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.1
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.9
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.95,
+  "techniqueDifficultyExplanation": "The workout is categorized as a 'Drive' session in the rowing context, which Hydrow designates as demanding precision and synchronization with technique guidance expected to elevate the participant's experience. This allocation defaults to Intermediate for rowing as per platform rules. The description mentioning 'advanced' and 'endurance' suggests technical nuance beyond basic rowing techniques, though it cannot exceed Intermediate for a rowing-specific workout based on provided schema.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.25
+    },
+    {
+      "level": "Extreme",
+      "score": 0.75
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout name 'Unleashed Row' and 'advanced, endurance row' from the description clearly imply a demanding session. The intensity rating is 3 out of 3, indicating top-tier challenge level, further asserting its 'Drive' designation, hinting at an intensity-based power row. The duration of 22 minutes of high-intensity power rowing, combined with advanced pacing (rhythm max of 28), aligns with solidifying the 'Extreme' category closely tied to endurance power output.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

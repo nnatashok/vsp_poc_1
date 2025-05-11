@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.8
+    },
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is categorized as \"On The Mat,\" indicating a high likelihood of floor exercises, thus justifying a high confidence score of 0.8 for the requirement of a mat. This is reinforced by the title, which mentions a 'Plyometric Bodyweight Circuit,' often implying exercises performed on a mat for cushioning and support. Additionally, the description mentions 'Total body work off Hydrow with one 2-minute interval on Hydrow.' The direct reference to 'Hydrow' and the inclusion of rowing activity in the images indicate a requirement for a rowing machine, giving it a high confidence score of 0.9. The image further corroborates this, showing an individual using a rowing machine. Therefore, the workout requires both a mat for floor exercises and a rowing machine for intervals."
+}

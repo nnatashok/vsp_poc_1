@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 0.9
-    }
-  ],
-  "requiredEquipmentExplanation": "Based on the workout metadata, the title 'Quick Bursts Row' and category 'row' strongly indicate the use of a rowing machine, particularly since 'row' is explicitly mentioned as part of the workout type. The description further implies this by mentioning high rhythms, which aligns with rowing exercises. The image also suggests rowing involvement, reinforcing the necessity of a rowing machine. Given all these factors, the confidence level for needing a rowing machine is very high at 0.9."
-}

@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is identified as 'Efficiency Row' with the category explicitly stated as 'row' which strongly indicates the use of indoor rowing equipment. The format mentioned is 'Interval,' often used in rowing machine workouts to shift rhythm as described. Although no specific equipment is listed in the metadata, the term 'row' and the details provided strongly suggest that a rowing machine is necessary to replicate the described activities. Hence, a high confidence score of 0.9 is assigned to the necessity of the rowing machine."
+}

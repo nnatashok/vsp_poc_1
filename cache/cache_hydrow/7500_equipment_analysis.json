@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is classified under the category \"row,\" which strongly indicates the use of a rowing machine. Additionally, the workout type is \"drive,\" and it includes interval training, often associated with rowing exercises similar to 400m repeats. The metadata does not list any other specific equipment, and the image supports the inference of rowing activity, reinforcing the very high confidence that a rowing machine is required for this workout."
+}

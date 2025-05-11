@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.95
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is categorized under 'row' and the name 'Power Climb Row' indicates it is a rowing workout, necessitating a rowing machine. The description references 'climb in rhythm' and 'James' start to rowing,' further suggesting that this workout involves rowing techniques typically executed on a rowing machine. Despite the image showing outdoor rowing, the metadata's reference to a structured workout implies the use of an indoor rowing machine. This justifies a very high confidence score of 0.95 for the rowing machine."
+}

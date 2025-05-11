@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Advanced",
+      "score": 0.75
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type is specified as 'Drive', which according to Hydrow-specific rules, mandates an 'Advanced' classification for technique difficulty. The indication of intervals at a rhythm of 28 and 30 also suggests a level of technical proficiency and coordination is required, confirming the advanced technique classification.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.7
+    },
+    {
+      "level": "Extreme",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout involves intervals at high rhythms of 28 and 30, which indicates a significant demand on cardiovascular and muscular endurance, thus moderately aligning with 'Challenging'. The duration is comparatively short; however, the intensity level is marked as 3 out of 3, suggesting an overall higher exertion. Thus, there is also a weaker alignment with 'Extreme'.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

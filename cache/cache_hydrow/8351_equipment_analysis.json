@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is titled 'High Rhythm HIIT Row,' and the description mentions hitting high rhythms during intervals, which suggests rowing activity. The category 'row' explicitly indicates that this is a rowing workout. The type 'drive' and a maximum rhythm metric further imply that the focal point and necessary equipment is a rowing machine. Therefore, with the inclusion of all these factors, the confidence that a rowing machine is required is very high (1.0). The image associated with the metadata also shows individuals rowing, reinforcing the need for a rowing machine."
+}

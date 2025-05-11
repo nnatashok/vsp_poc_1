@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The technique difficulty for this workout is set at Intermediate (0.8) primarily due to the workoutType being 'Drive', which targets more experienced rowers. The metadata indicates the workout is part of the 'Drive' category known for its focus on skill. Although rowing generally aligns with Beginner to Intermediate due to its straightforward movements, the advanced skill and precision suggested by 'Drive' align with an Intermediate classification. The combination of high-intensity intervals and expert instruction further supports this classification, despite having components that fit a Beginner level.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.65
+    },
+    {
+      "level": "Extreme",
+      "score": 0.85
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The effort difficulty is classified as Extreme (0.85) based on several key factors: a short duration of 16 minutes, high-intensity intervals, and a maximum rhythm of 32, all contribute to a high-energy expenditure within a condensed timeframe. The workout's '3 out of 3' intensity level and HIIT format imply it is designed to push physical limits, particularly for less fit users. The background of the instructor, emphasizing a high level of expertise and intensity, supports this classification.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

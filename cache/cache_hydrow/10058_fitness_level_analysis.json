@@ -1,0 +1,26 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout type 'Drive' in the rowing category generally involves more technical rowing stroke sequences and intensifies to leverage performance, hence placing it in the Intermediate category. The metadata includes a high-intensity setting (3 out of 3) and mentions the Olympian instructor, which suggests the complexity of maintaining form during high-paced intervals. However, as a 'row' workout, the technique difficulty cannot exceed 'Intermediate'. The emphasis on rhythm and interval format requires some coordination, reinforcing the intermediate classification across the category limitations.",
+  "effortDifficulty": [
+    {
+      "level": "Extreme",
+      "score": 0.9
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The effort difficulty is rated as 'Extreme' primarily due to multiple strong indicators in the metadata: the workout intensity level is marked at 3 out of 3, which signifies a maximal exertion expectation. The presence of an Olympian instructor known for pushing the crew and the high rhythm maxing at 28 suggests the need for maintaining a fast, sustained pace. Additionally, the format involves intervals, which inherently amplify effort difficulty through alternating periods of high-intensity work.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

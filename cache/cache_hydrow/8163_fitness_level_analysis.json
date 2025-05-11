@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.2
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'Drive' within the Hydrow platform, which typically indicates an advanced level. However, being a rowing workout, the technique difficulty can realistically only be Beginner or Intermediate per the platform\u2019s rules. The language describing the workout includes challenging intervals, which supports a more Intermediate level for technique due to the coordination required at higher intensities and the varying pacing in intervals.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.65
+    },
+    {
+      "level": "Extreme",
+      "score": 0.35
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is 46 minutes long, with a focus on 3, 2, and 1-minute intervals, indicating a high level of effort especially given the emphasis on driving the legs and lungs. The workout is noted to have an intensity level of 3 out of 3, supported by keywords such as 'challenging' and 'dynamic,' suggesting energy-demanding activities and thus aligning with a high 'Challenging' score.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

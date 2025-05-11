@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which limits the technique difficulty to either Beginner or Intermediate. The video description mentions 'intervals at your jog and run pace,' suggesting a focus on simple rowing intervals. Based on the user fitness level requirement of Beginner, and considering the straightforward nature of rowing, the technique difficulty is determined to be primarily Beginner with a minor consideration for Intermediate due to interval timing.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout has a relatively short duration of 11 minutes and is classified with an intensity level of 1 out of 3, indicating low overall effort. The primary focus on 'breathe' aligns with aerobic conditioning rather than high-intensity exertion, supporting a Light effort difficulty classification. Moderate efforts involve consideration due to interval pacing ('jog and run'), which increases exertion for deconditioned users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Advanced",
+      "score": 0.9
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'Drive', which per Hydrow rules, places the technique difficulty at an Advanced level automatically, regardless of the usual rowing classification. The emphasis on high rhythms and long duration suggests complex coordination and stamina are necessary, as further aligned with the 'Drive' category.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    },
+    {
+      "level": "Extreme",
+      "score": 0.7
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout description highlights intense elements such as sustained 10-minute races at maximum rhythm (32 strokes per minute), which indicates high energy expenditure. The format (Power) coupled with a top intensity level (3 out of 3) further suggests that high physical effort is required, aligning with Challenging to Extreme effort difficulty levels.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

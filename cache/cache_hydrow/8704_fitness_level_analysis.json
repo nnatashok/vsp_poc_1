@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Advanced",
+      "score": 0.9
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is classified under 'drive', which according to Hydrow-specific rules, assigns an Advanced level for Technique Difficulty. The term 'drive' indicates a focus on high-intensity rowing and advanced interval training. The workout involves intervals and is categorized under 'Drive,standard,row', enforcing advanced technique requirements to maintain form and intensity, especially at a max rhythm of 30.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.7
+    },
+    {
+      "level": "Extreme",
+      "score": 0.85
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout's 31-minute duration paired with 'high-intensity intervals' supports a high Effort Difficulty rating. The intensity level noted as '3 out of 3' indicates a physically demanding session, likely to include bursts of maximal effort and minimal rest, characteristic of an Extreme level. The music geared towards upbeat, driving Pop and Global Hits further suggests a continued effort level, but, given the standard row category, I assign scores for both Challenging and Extreme.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

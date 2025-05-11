@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.95
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout's name, 'Focused Cardio Row,' and the category tags, including 'row,' indicate a rowing-specific workout. Despite the image showing an outdoor rowing scene, the metadata context suggests an indoor setting utilizing a rowing machine. The description mentions focusing on the movement 'in your body each stroke,' a term commonly associated with rowing exercises. Thus, assigning a very high confidence score for the necessity of a Rowing machine."
+}

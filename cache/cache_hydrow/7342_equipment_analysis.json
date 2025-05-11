@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Foam roller",
+      "confidence": 0.7
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is categorized under 'On The Mat,' strongly suggesting the use of a mat for floor exercises, which is visible in the image where participants are seated on mats. Therefore, the confidence level for 'Mat' is very high at 0.9. \n\nThe description mentions a 'foam roller is suggested but not required.' While it's an optional tool for enhancing mobility, its specific mention elevates its relevance, so a high confidence score of 0.7 is assigned. This aligns with the 'Post-Row Mobility' theme, which often involves such equipment for muscle relaxation and release. The presence of a foam roller is also evident in the image. \n\nNo other equipment is indicated by the metadata or image evidence."
+}

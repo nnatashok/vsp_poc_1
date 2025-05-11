@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.95
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is titled \"International Women's Day Row\" and falls under the category type 'row', which explicitly implies rowing is the main activity. The presence of a rowing machine in the image further supports this inference. Since it's a HIIT format with a focus on rowing, the 'Rowing machine' is identified as essential with very high confidence. Other equipment is not indicated in the metadata, suggesting that a rowing machine is central to this workout, aligning with the titled theme and activity type."
+}

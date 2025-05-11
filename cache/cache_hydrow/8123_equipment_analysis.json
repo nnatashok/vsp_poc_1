@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.95
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is described as 'Whole Body Pilates,' which usually involves floor exercises and poses that require a soft surface to perform comfortably. The category 'On The Mat' strongly suggests the use of a mat, which is typical for pilates sessions to provide support and cushioning. Additionally, the metadata doesn't list any other equipment, reinforcing that the mat is likely the primary equipment needed. Therefore, a high confidence score of 0.95 is assigned to the mat's requirement."
+}

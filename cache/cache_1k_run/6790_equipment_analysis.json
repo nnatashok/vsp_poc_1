@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 0.95
-    }
-  ],
-  "requiredEquipmentExplanation": "The metadata explicitly categorizes the workout as a 'row' and includes 'row' in the category tags, which strongly indicates the use of a rowing machine. Additionally, the workout name 'All In One Row' and the description specifying 45 minutes at a 'Sweat intensity' of intervals imply a rowing-focused session. Based on the workout type and category, a rowing machine is essential, leading to a high confidence score of 0.95 for its necessity."
-}

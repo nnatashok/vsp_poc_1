@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout falls under Hydrow's 'drive' workoutType, which is categorized as Advanced, but considering the rowing-focused description, it's also eligible for a Beginner or Intermediate rating. Since rowing is inherently a low-complexity movement in terms of technique, but with 'drive' indicating a potentially more focused exercise on form and power, the technique difficulty aligns moderately with Beginner (0.8) and strongly with Intermediate (0.6).",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    },
+    {
+      "level": "Extreme",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout's duration of 21 minutes and a format focused on 'power' with a max rhythm of 18 indicate a physically demanding exercise. Described as a 'rate capped race' with an intensity level 3 out of 3, this workout is challenging for deconditioned users, aligning with the Challenging level (0.8). The emphasis on 'exert power' also pushes it partially into the Extreme category (0.6) due to the high exertion required.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

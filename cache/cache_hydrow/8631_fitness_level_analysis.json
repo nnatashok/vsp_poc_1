@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is classified as 'row' with a 'breathe' type, which suggests a primary focus on rhythm and endurance rather than technique complexity. Thus, the movements are likely to be simple rowing strokes which align with a Beginner level, scoring it 0.9 for clear simplicity. However, the pyramid format could introduce slight complexity in pacing, giving a small score for Intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.75
+    },
+    {
+      "level": "Moderate",
+      "score": 0.35
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout's intensity is rated 1 out of 3, indicating light exertion. The 21-minute duration with breathing focus supports a Light effort level, scoring 0.75. The pyramid format might require some pacing adjustments, hence a slight bump in effort rating placing Moderate at 0.35.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

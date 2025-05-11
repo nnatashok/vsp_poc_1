@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Blocks",
+      "confidence": 0.3
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout title 'Flow + Restore' and the category 'On The Mat' strongly imply that a yoga mat is essential for the practice, leading to a high confidence score of 0.9 for the mat. The description also explicitly mentions yoga blocks as optional equipment, which justifies a moderate confidence score of 0.3 for blocks. The presence of the mat and blocks in the image further supports this classification. No other equipment is mentioned or suggested in the metadata."
+}

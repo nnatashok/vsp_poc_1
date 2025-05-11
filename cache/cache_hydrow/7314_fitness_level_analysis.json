@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.85
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row,' which limits technique difficulty to Beginner or Intermediate levels. The format 'Climb' suggests a progression in effort rather than complexity, aligning with general rowing form which remains simple. Thus, 'Beginner' technique with a score of 0.85 is dominant due to the straightforward nature of rowing. There's a moderate case for 'Intermediate' due to interval structure, but core movements remain simple.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.82,
+  "effortDifficultyExplanation": "The duration is 21:26 minutes with an intensity level of 1 out of 3, indicating that the workout is manageable. The 'Breathe' type suggests aerobic activity with pacing, aligning it closer to 'Light'. However, energy expenditure over a 21-minute period with intervals (5 and 10-minutes) introduces some moderate challenges.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

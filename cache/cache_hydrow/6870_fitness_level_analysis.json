@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.1
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is categorized primarily under the rowing category, which typically suggests Beginner to Intermediate technique difficulty due to straightforward, repetitive motion once basic form is understood. The presence of 'intervals climbing in rhythm' may introduce slight complexity, suggesting a very low score for Intermediate; however, 'Beginner' receives a 0.9 score as rowing itself is simple in nature, especially given the instructor's supportive and team-oriented focus.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.85
+    },
+    {
+      "level": "Moderate",
+      "score": 0.15
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout duration is over 20 minutes and uses an interval format, yet it is rated 1 out of 3 for intensity with instructions to maintain a jog pace. The 'Breathe' category generally indicates a lower effort workout, aligning with 'Light' effort difficulty at 0.85. However, the use of 'intervals' can slightly increase the exertion level to 'Moderate' at 0.15, suggesting some periods of increased energetic demand, hence the overall high confidence in 'Light'.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

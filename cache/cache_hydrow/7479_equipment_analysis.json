@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Blocks",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Mat",
+      "confidence": 0.8
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is titled \"Hip-Opening Flow,\" which suggests a yoga or flow-style routine. The description explicitly mentions that yoga blocks are recommended, indicating their use to assist with hip-opening exercises. Therefore, Blocks are included with a very high confidence score of 0.9. \n\nAdditionally, the category \"On The Mat\" strongly implies that the exercises are performed on a mat, as is typical in yoga workouts. The presence of a yoga mat in the image corroborates this, justifying a high confidence score of 0.8 for the Mat. \n\nOverall, the data indicates that Blocks and a Mat are necessary for this workout. No other equipment is suggested in the metadata or visible in the image."
+}

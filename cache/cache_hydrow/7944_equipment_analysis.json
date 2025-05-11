@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Foam roller",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is titled 'Travel Mobility' and focuses on mobilizing the body, which typically involves exercises done on the floor or mat. The category 'On The Mat' suggests that a mat is necessary, leading to a very high confidence score of 0.9 for requiring a mat. Additionally, the image shows a foam roller, which is commonly used in mobility workouts for myofascial release, further supported by its presence in the image. This justifies a confidence score of 0.9 for the foam roller as well. There are no other indications of different equipment in the metadata."
+}

@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 1
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout is clearly a rowing exercise as indicated by the category 'row' and the description 'one minute of rowing at your max effort.' The metadata suggests that this is a high-intensity, short-duration workout focusing on power. \"Rowing machine\" is explicitly required for this workout. The image provided, while showing an outdoor rowing setting, reinforces the rowing theme but the classification still centers on indoor rowing. Given these details, the confidence level for requiring a rowing machine is very high at 1.0."
-}

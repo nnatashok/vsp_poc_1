@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.75
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout type is categorized as 'sweat' and 'row', which typically suggests a focus on cardiovascular endurance rather than complex movements. Rowing itself, within Hydrow's guidelines, is often rated as Beginner to Intermediate in technique depending on the pace and rhythm required. The workout's maximum rhythm is 29, which is moderate and indicates some level of technique is necessary, elevating the difficulty slightly, but it does not require advanced coordination or complex movement patterns. The provision of an intermediate fitness level requirement suggests the presence of minor complexities, hence the strong alignment with both Beginner and Intermediate levels.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.65
+    },
+    {
+      "level": "Moderate",
+      "score": 0.55
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout duration is 21:13 with an interval format and a max rhythm of 29, indicating significant cardiovascular demand. Interval formats often involve variations in intensity that can elevate effort levels. Moreover, given the intensity rating of 2 out of 3, it aligns with being challenging for a less fit user without being extreme. The Choice of music indicates a moderate to challenging tempo conducive to maintaining a higher intensity workout. Thus, the workout demands significant effort, particularly for users with lower fitness levels, but it does not reach the threshold for 'Extreme'.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

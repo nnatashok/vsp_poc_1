@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.8
+    },
+    {
+      "equipment": "Blocks",
+      "confidence": 0.4
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout 'Power Flow' is categorized as 'On The Mat,' suggesting a yoga or mat-based flow workout. This indicates a very high likelihood of requiring a 'Mat', as it's central to providing cushioning and support for floor exercises, hence the confidence score of 0.8.\n\nThe description mentions that 'Yoga blocks' are optional, indicating they can be used for additional support or modifications during the yoga session, which justifies a moderate confidence score of 0.4 for 'Blocks'. \n\nNo other equipment is mentioned or implied as necessary for this workout, focusing primarily on body movements facilitated by a mat and optionally enhanced with blocks."
+}

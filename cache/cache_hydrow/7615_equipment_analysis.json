@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The metadata provided indicates that this is a 'cool down' workout with a 'row' category. The term 'stay connected through your body each stroke' and the low rhythm mentioned ('Max rhythm: 20') are typical of rowing workouts, especially on a rowing machine. The inclusion of the 'row' category implies the primary equipment needed is a rowing machine, with a very high confidence score of 0.9. Although the image shows outdoor rowing, the context suggests an indoor rowing machine is standard for such workouts."
+}

@@ -1,0 +1,26 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 1
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is classified as a rowing exercise and falls under the 'row' category. According to the Hydrow-specific rules, technique difficulty for rowing workouts can only be either Beginner or Intermediate levels. Given the beginner-friendly User Fitness Level Requirement and the focus on building endurance with standard rowing intervals, the movements are straightforward with minimal complexity. Hence, a 'Beginner' classification with very high confidence is appropriate.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout's intensity level is rated 1 out of 3, indicating a relatively low-intensity session. However, the 31-minute duration with 4-minute and 30-second intervals suggests consistent effort over a significant period, elevating the effort level beyond 'Light'. Thus, it aligns well with a 'Moderate' effort difficulty classification, suitable for individuals building stamina and cardio, which is slightly challenging for deconditioned users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

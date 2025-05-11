@@ -1,0 +1,21 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Dumbbells",
+      "confidence": 0.8
+    },
+    {
+      "equipment": "Mat",
+      "confidence": 0.6
+    },
+    {
+      "equipment": "Resistance bands",
+      "confidence": 0.8
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is labeled as a high-intensity circuit incorporating rowing intervals and dumbbell exercises, suggesting the use of a rowing machine. The description explicitly mentions \"2.5-minute rowing intervals,\" and the image confirms the presence of a rowing machine, resulting in a high confidence score of 0.9.\n\nDumbbells are directly mentioned in both the metadata and the visible image's left panel, indicating their critical role, leading to a confidence score of 0.8.\n\nThe category \"On The Mat\" suggests exercises performed on a mat, and the image shows an individual on a mat, yielding a moderate confidence level of 0.6.\n\nA \"mini band\" (a type of resistance band) is explicitly stated as required in the description. Thus, resistance bands receive a high confidence score of 0.8 for this workout. Overall, the equipment required is well supported by the provided metadata and visual cues."
+}

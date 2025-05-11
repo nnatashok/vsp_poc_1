@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "Based on the workout metadata, the equipment identified is a rowing machine. The workout name 'Core Engagement + Stretch Cool-Down' and description mention to 'steadily row with Nick and Dani,' indicating rowing is a central aspect. Additionally, the category includes 'row,' suggesting the use of a rowing machine is crucial. While the cool-down and core engagement might not specifically need additional equipment, the rowing aspect necessitates the rowing machine with very high confidence (1.0). No other equipment is indicated or implied by the metadata."
+}

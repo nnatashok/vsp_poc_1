@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.1
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "This is a rowing-based workout indicated by the category 'standard,row', which aligns with Hydrow's rule that Technique Difficulty can be Beginner or Intermediate. Given the focus on 'breathe' and technical instruction by an expert instructor, the movements are likely straightforward while being well-instructed, which suits a Beginner rating strongly (score = 0.9) with some room for slight intermediate complexity (score = 0.1).",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is categorized under 'breathe' with an intensity of '1 out of 3', suggesting low energy expenditure. The duration of 16 minutes and format 'Climb' implies a steady but low-impact effort, aligning closely with 'Light' effort (score = 0.7) and a slight overlap with 'Moderate' effort from the rhythmic climbing structure (score = 0.3).",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

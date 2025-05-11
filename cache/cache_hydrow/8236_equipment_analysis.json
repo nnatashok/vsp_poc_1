@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is categorized as \"row,\" indicating a rowing-based workout. The title \"The Kids' Table Row\" and the image depict rowing activity, specifically on a watercraft. However, for at-home or gym workouts, a rowing machine is typically used to simulate rowing. The metadata does not specify any other equipment needed, and the context strongly indicates the rowing machine is central to the workout. Therefore, I assign a very high confidence score of 1.0 to the rowing machine being required equipment for this workout."
+}

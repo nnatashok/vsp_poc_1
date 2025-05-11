@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout primarily involves rowing, which generally has a low technique difficulty, fitting into the Beginner category. The term 'climb in rhythm' may imply some coordination in maintaining rhythm throughout the rowing session, which slightly suggests an Intermediate level. However, the overall simple, repetitive motion of rowing aligns more strongly with a Beginner level, especially given the 'breathe' classification and Beginner requirement.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The effort difficulty is largely determined by a 31-minute rowing session at a max rhythm of 24, indicative of a relatively low-intensity workout as suggested by the 'breathe' category. This aligns with Hydrow\u2019s workout intensity level of 1 out of 3, suggesting a primary classification of Light effort, suitable for deconditioned users and complete beginners. Some moderate exertion may be involved, indicated by 'climb in rhythm' and duration, placing a small score for Moderate effort.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

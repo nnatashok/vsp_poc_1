@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is explicitly categorized as a 'row' type with 'Rhythm 30 HIIT Row' as the workout name. The description mentions 'high intensity intervals at a rhythm 30,' strongly suggesting the use of a rowing machine. The category list includes 'row,' confirming the central role of a rowing machine. Additionally, the image showcases rowing activity on water, further supporting the need for rowing equipment. The confidence score of 1.0 is assigned due to the explicit mentions and visual elements indicating rowing as the primary activity. No other equipment is referenced or implied in the metadata."
+}

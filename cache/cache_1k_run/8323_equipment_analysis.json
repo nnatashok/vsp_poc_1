@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 0.95
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout is categorized under 'row' and 'Cool Down', indicating that it involves rowing, which suggests a rowing machine is needed. The image also shows a person rowing, reinforcing the association with rowing equipment. While the workout is described as a cool down, the presence of a 'row' category requires assuming a rowing machine's involvement. Additionally, the absence of other equipment in the metadata reinforces the focus on rowing, leading to a high confidence score for the rowing machine."
-}

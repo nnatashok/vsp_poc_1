@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.7
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is categorized as 'On The Mat', suggesting that a mat is used during the exercises. The context of 'Shoulder Mobility' and 'On The Mat' implies that exercises are likely performed on the floor, where a mat provides comfort and support. This leads to a high confidence score of 0.7 for the use of a mat. No other equipment is mentioned or implied, indicating that the focus is primarily on bodyweight movements aimed at increasing shoulder mobility."
+}

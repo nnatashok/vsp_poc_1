@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 1.0
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout metadata strongly indicates the requirement for a rowing machine. The title \"Motivate Your Workout Row\" and the category stating \"row\" suggest that rowing is central to this session. Additionally, the description mentions intervals, a common format for rowing workouts. Despite the outdoor image of actual rowing on water, the category 'row' in an indoor workout context usually implies the need for an indoor rowing machine. Hence, the confidence level for the rowing machine is very high at 1.0."
-}

@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Dumbbells",
+      "confidence": 1.0
+    },
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout description explicitly mentions a 'full body focus off Hydrow with dumbbells,' indicating that dumbbells are required, which aligns with the equipment tag of 'dumbbells.' This results in a high confidence score of 1.0 for dumbbells. Additionally, the workout involves a '2-minute row on Hydrow,' which strongly indicates the need for a rowing machine, especially given the visual confirmation in the image provided. The focus on rowing is further emphasized by the repetition and importance of the rowing segment, resulting in a high confidence score of 1.0 for the rowing machine."
+}

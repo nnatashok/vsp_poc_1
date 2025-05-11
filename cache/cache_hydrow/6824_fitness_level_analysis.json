@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Beginner",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.88,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row' and 'drive,' which typically involves some technical skill in maintaining correct rowing form and technique. The description mentions sprint intervals of 1-minute on and 1-minute off, which suggests a level of coordination and body awareness, aligning it more with Intermediate technique difficulty. However, because it is primarily rowing, it can still be accessible to Beginners with some instruction, justifying a 0.3 score for Beginner as well. The confidence is high due to the workout being classified as 'drive,' suggesting a more advanced rowing technique without going beyond intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    },
+    {
+      "level": "Extreme",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.92,
+  "effortDifficultyExplanation": "The workout is formatted as high-intensity interval training (HIIT) with a maximum rhythm of 32+ and a duration of over 21 minutes, featuring 1-minute sprints which require significant exertion, indicating a Challenging level of effort difficulty. The workout intensity is described as 3 out of 3, and the involvement of sprinting aligns with high energy expenditure. This justifies an additional classification of Extreme effort difficulty, due to the high intensity, though less so than Challenging, thus given a moderate score for Extreme. The confidence is very high due to clear metadata indicators of high effort difficulty.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

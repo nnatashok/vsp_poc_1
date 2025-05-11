@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which limits the technique difficulty to either Beginner or Intermediate. The metadata description uses the term 'cruise down the Charles River' suggesting a straightforward rowing experience. Additionally, with a workout intensity of 1 out of 3 and a relational focus on 'breathe', the complexity appears minimal, aligning best with Beginner-level difficulty.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.75
+    },
+    {
+      "level": "Moderate",
+      "score": 0.25
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The duration of 21 minutes and an intensity level of 1 out of 3 suggest a workout that is easier on physical demands. The 'breathe' and 'cruise' terms in the description point to a lighter, steady-state rhythm rather than an intensely challenging session. Although it is a bit over the typical timeframe for purely light exertion, it's closer to that category, given the overall context and rhythm details.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

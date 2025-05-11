@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The metadata explicitly categorizes the workout as 'Drive,standard,row', strongly implying that a rowing machine is needed. Furthermore, the category type 'row' indicates a focus on rowing exercises, making a rowing machine central to the workout. The high intensity level and the emphasis on 'climbing intervals' support this classification, as these are typically performed using a rowing machine."
+}

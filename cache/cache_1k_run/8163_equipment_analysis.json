@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 1.0
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout is categorized under 'row', and the title explicitly mentions 'Intervals Row', indicating the core activity involves rowing. This strongly suggests the need for a rowing machine. The interval format and references to 'driving' the workout align with exercises typically performed on a rowing machine. Thus, a high confidence score is assigned to the 'Rowing machine' based on the metadata evidence."
-}

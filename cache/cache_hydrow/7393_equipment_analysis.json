@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The metadata indicates that the workout is part of the 'row' category, which strongly suggests the use of a rowing machine. Additionally, the term 'Pick Drill' is a technique often associated with rowing, further reinforcing the need for a rowing machine. The image provided shows a person rowing, which supports the inference that rowing equipment is needed. Given these points, the confidence score for requiring a rowing machine is very high at 0.9."
+}

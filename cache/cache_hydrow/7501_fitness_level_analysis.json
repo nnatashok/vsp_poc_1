@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.3
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type is 'drive', categorized under rowing. By default, the technique difficulty for rowing can either be Beginner or Intermediate. Given this is a drive workout, which typically involves more intense strokes and closer attention to rowing form, it aligns more with Intermediate technique difficulty. The advanced user fitness level requirement further supports this classification, as proper form and cadence adjustment may require more coordinated movements than basic beginner rowing.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.65
+    },
+    {
+      "level": "Extreme",
+      "score": 0.35
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout involves eight 1-minute high-intensity intervals, with a maximum rhythm of 32 strokes per minute, classifying the format as Interval. The workout duration is 21:35, with a high intensity level of 3 out of 3 indicated. These factors suggest substantial energy expenditure and short recovery times, which makes it Challenging for most users. The intensity and structured intervals push this workout towards the higher end of Challenging, nearly veering into Extreme, especially for less fit users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

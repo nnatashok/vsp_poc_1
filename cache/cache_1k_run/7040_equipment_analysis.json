@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 1.0
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout metadata indicates it is a \"Power HIIT Row,\" and the category includes \"row.\" This explicitly suggests that a rowing machine is required for this workout. The description mentions \"90\" and 60\" high intensity intervals,\" which are typical of rowing workout programs and support the need for a rowing machine. Given the category type as 'row,' the inclusion of a rowing machine is mandatory with a very high confidence level of 1.0. The image also depicts rowing activity, reinforcing the use of a rowing machine. No other equipment is mentioned or implied, making the rowing machine the central piece of equipment needed."
-}

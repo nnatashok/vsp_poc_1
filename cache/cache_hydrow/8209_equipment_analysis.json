@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The metadata specifies the workout as a Pilates routine categorized under 'On The Mat.' This strongly implies that a mat is required for comfort and stability during the exercises. The image also depicts a person performing a Pilates exercise on a mat. Therefore, the confidence level for the mat being necessary is very high (0.9). The description and category both reinforce that this workout is designed to be performed on a mat, which is essential for floor-based Pilates moves."
+}

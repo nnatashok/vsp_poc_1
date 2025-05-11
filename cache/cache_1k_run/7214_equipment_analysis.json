@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 1.0
-    }
-  ],
-  "requiredEquipmentExplanation": "The metadata indicates that this workout is categorized under 'row,' which strongly implies the use of a rowing machine. The workout name 'Endurance + Speed Row' and the interval format further support the requirement of a rowing machine for performing the workout effectively. Given these explicit mentions and the category type specified as 'row,' the confidence level for needing a rowing machine is very high at 1.0."
-}

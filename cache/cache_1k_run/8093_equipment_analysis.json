@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 0.9
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout title 'Climbing Efforts Row' and category 'row' strongly indicate that a rowing machine is required. Additionally, the description 'climb your way up in rhythm and effort' suggests a structured rowing exercise, which typically requires the use of a rowing machine. Despite the outdoor rowing image, the metadata implies an indoor rowing setup. Hence, a 'Rowing machine' is identified with very high confidence (0.9). No other equipment is explicitly mentioned or implied, confirming that the focus is on rowing."
-}

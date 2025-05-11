@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 1.0
-    }
-  ],
-  "requiredEquipmentExplanation": "The metadata indicates that the workout is within the 'row' category, which strongly implies the need for a rowing machine. The title 'Beginner Bursts Row' and the description mentioning 'keep it steady with 2-minute intervals with 30-second bursts of speed' suggest a rowing activity focused on intervals. The presence of the 'row' category explicitly requires the use of a rowing machine, and no other equipment is suggested or listed in the metadata. Therefore, the confidence score for requiring a rowing machine is very high at 1.0."
-}

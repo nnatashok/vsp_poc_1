@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is classified under the 'row' category, which commonly has technique difficulties ranging between Beginner to Intermediate. Considering this, along with the description of building power at low rhythms and its focus on endurance intervals, the technique involved is likely straightforward rowing at a moderate pace, aligning with a Beginner level. However, given the interval format and some level of coordination required, there is a slight alignment with Intermediate too.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is 21 minutes long with a max rhythm of 24, reflecting a low-intensity setting. The description mentions 'endurance intervals', which is slightly more physically demanding but remains accessible due to the low intensity rating of 1 out of 3. Thus, this workout fits strongly into the Light category with a moderate alignment to Moderate, acknowledging the slight increased complexity of intervals.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

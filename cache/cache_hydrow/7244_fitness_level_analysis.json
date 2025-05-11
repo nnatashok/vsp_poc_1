@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type is 'row', which inherently categorizes the technique difficulty as either Beginner or Intermediate. Given the 'breathe' workout type and an intensity level of 1 out of 3, this indicates a steady pace without complex movements, aligning more with Beginner. The structured nature of rowing and rhythm control at 24 max rhythm also aligns with Beginner or early Intermediate, but lacks signals of complex coordination needed for Intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.2
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is divided into three 15-minute segments, each designated as low-intensity with a total duration of 1 hour and 22 minutes. The intensity level is marked as 1 out of 3, indicating very mild effort. Although lengthy, the low intensity and slower, steady rhythm suggest Light effort, possibly stretching into Moderate due to total workout time, but the cuffing descriptors lean heavily into the Light category.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

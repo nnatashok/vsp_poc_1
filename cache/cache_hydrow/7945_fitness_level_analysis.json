@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row' with 'Drive' type, suggesting a higher level of complexity compared to standard rowing sessions. As per Hydrow's rules, the Technique Difficulty can only range from Beginner to Intermediate. The focus on 'proper form' and 'results' and alignment with a national-level athlete imply a higher technique execution than a simple row. However, due to category constraints, the strongest alignment within permissible levels is Intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.75
+    },
+    {
+      "level": "Extreme",
+      "score": 0.65
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The HIIT format, with a high rhythm of 32, indicates a high-intensity level increasing energy expenditure and physical demand significantly. The workout is short but intense, lasting 11:17 minutes with maximum intensity level (3 out of 3), suggesting it requires a consistent effort that matches the level of 'Challenging' and approaches 'Extreme' due to intensity cues, rhythm, and HIIT format. The playlist comprises high-energy pop hits supporting a fast-paced environment.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

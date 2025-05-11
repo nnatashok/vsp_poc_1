@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is classified as a 'row' type with a 'breathe' format, generally focusing on maintaining a rhythmic pace rather than intensive or complex rowing techniques. Given the 'Beginner' user fitness level requirement and the emphasis on building rhythm at a jog pace, the movements are likely straightforward, aligning strongly with Beginner (score: 0.9). The possibility of some coordination involved in maintaining a rhythm gives it a moderate Intermediate score (score: 0.6), but the primary technique needs remain basic.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The video is of short duration (11:17 minutes), focusing on a rhythm-building approach rather than high-intensity exercise, and is noted to be a 1 out of 3 on the intensity scale. These factors suggest a low energy expenditure suitable for complete beginners, aligning well with Light (0.7). A moderate level is possible due to continuous rowing movement, but the intended intensity and the 'breathe' category predominantly indicate a gentle difficulty level.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

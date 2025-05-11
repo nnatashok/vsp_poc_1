@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1
+    },
+    {
+      "equipment": "Mat",
+      "confidence": 0.6
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is categorized under 'row,' which strongly indicates the use of a 'Rowing machine.' The image of the individual rowing further supports this, so the confidence level is very high at 1.0. Additionally, the workout description mentions 'stretching,' which often requires a 'Mat' for comfort and support while performing hamstring and back stretches. Although not explicitly stated, this type of equipment is strongly implied in the context of floor-based stretching exercises, giving it a high confidence score of 0.6."
+}

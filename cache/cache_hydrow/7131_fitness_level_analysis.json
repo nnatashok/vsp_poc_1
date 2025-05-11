@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.2
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    },
+    {
+      "level": "Advanced",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type is 'Drive', which according to Hydrow-specific rules, is typically classified as 'Advanced' due to the technical focus on rowing. Despite the 'row' category, the specific 'Drive' type overrides the typical classification and suggests advanced technical instruction, as supported by Dani's emphasis on 'in-depth technical detail'. However, considering the general rowing simplicity, there's still partial fit for 'Intermediate'.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.6
+    },
+    {
+      "level": "Challenging",
+      "score": 0.8
+    },
+    {
+      "level": "Extreme",
+      "score": 0.8
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The effort difficulty is high due to the 'Workout intensity level: 3 out of 3' and 'fast sprint for two 4-minute intervals', indicating a very demanding workout. The interval format with high rhythm (max 30) contributes to extreme energy expenditure, suggesting the 'Extreme' level. However, the relatively short duration (around 12 minutes) makes a strong argument for the 'Challenging' level as well, aligning with high training intensity but not prolonged duration typical of the most intense workouts.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

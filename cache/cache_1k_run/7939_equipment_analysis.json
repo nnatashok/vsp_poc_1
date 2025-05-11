@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 1.0
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout metadata specifies that the category type includes 'row,' which strongly indicates the use of rowing equipment. Additionally, the workout name 'Pyramid Quiz Row' and format 'Pyramid' suggest it involves rowing exercises. The image shows an individual engaging in rowing on water, which further implies the use of a rowing machine in the indoor workout version. Therefore, the confidence score for requiring a rowing machine is very high at 1.0 because it is central to the workout."
-}

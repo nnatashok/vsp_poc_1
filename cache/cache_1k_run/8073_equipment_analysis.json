@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 0.9
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout metadata specifies the category 'row,' which strongly implies the use of rowing equipment, particularly a rowing machine. The description focuses on rhythm and power, typical of rowing exercises. Additionally, the image shows rowing activity, further confirming the requirement. Therefore, a very high confidence score of 0.9 is assigned to the need for a rowing machine."
-}

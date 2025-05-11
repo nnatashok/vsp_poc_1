@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is categorized as 'row,' which explicitly indicates the use of a rowing machine in the schema. Additionally, the description mentions pushing yourself with higher rhythms and the 'Climb' format, both of which are consistent with rowing machine workouts. The accompanying image of a person in a rowing boat further reinforces this. Thus, the confidence score for the rowing machine is set at 1.0, reflecting very high confidence."
+}

@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 0.95
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout \"Unleashed Row\" is categorized under 'row', indicating a rowing-focused session. The description mentions tackling intervals, which is typically done on a rowing machine in indoor settings. Although the image appears to show outdoor rowing, the metadata strongly implies this is an indoor rowing workout, likely using a rowing machine, given the music and duration format which align with indoor workouts. Therefore, the confidence for a rowing machine is set at 0.95."
-}

@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout metadata categorizes this session under 'row', which implies the use of a rowing machine, giving it a very high confidence score of 0.9. The image also depicts the instructor on a rowing boat, further suggesting the relevance of rowing-related equipment. While the description doesn't explicitly mention equipment, the category strongly indicates a rowing machine is required, especially for a session labeled as a 'cool down' following a rowing activity."
+}

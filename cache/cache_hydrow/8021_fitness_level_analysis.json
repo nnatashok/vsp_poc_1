@@ -1,0 +1,26 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.75
+    }
+  ],
+  "techniqueDifficultyConfidence": 1.0,
+  "techniqueDifficultyExplanation": "The workout type 'drive' falls under Hydrow's specific rules, which typically assigns an Intermediate technique difficulty for rowing workouts. The presence of intervals at a rhythm of 28-30 and the term 'race' indicates a higher complexity than basic rows. It aligns with Intermediate difficulty due to the need for rhythm maintenance and form consistency at higher intensities. Additionally, Drive explicitly categorizes it under Intermediate only and achieves high confidence from these cues.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    }
+  ],
+  "effortDifficultyConfidence": 1.0,
+  "effortDifficultyExplanation": "The workout's description and metadata highlight its demanding nature. With a 'Drive' workout type known for intense rowing and 'race' conditions, and intervals requiring high rhythm numbers (28 and 30), it suggests a high level of cardiovascular and muscular exertion. The 'Workout intensity level' is explicitly set at 3 out of 3, indicating peak effort needed, aligning this with a Challenging rating closely. The repetitive high-intensity intervals contribute to an elevated energy expenditure, thus it's categorized confidently as Challenging.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

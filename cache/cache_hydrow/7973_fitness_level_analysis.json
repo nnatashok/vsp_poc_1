@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is labeled as a 'Beginner Flow' and is described as 'beginner-friendly', signaling very simple and straightforward movements. The use of yoga blocks indicates some minimal complexity that could transition slightly into 'Intermediate', but overall it strongly aligns with 'Beginner'.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.85
+    },
+    {
+      "level": "Moderate",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The effort difficulty is primarily 'Light' given the 16-minute duration and the chill/downtempo music indicating a slower pace and lower intensity yoga flow. However, the presence of flow elements suggests a persistent, albeit low-level effort that slightly aligns with 'Moderate'.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "Workout type 'flow' is not one of the specialized Hydrow categories (Breathe, Sweat, Drive, Distance). And workout description mentiones it is meant for beginners."
+}

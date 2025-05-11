@@ -52,7 +52,7 @@ def analyze_workout(args):
     Returns:
         dict or None: Structured result dictionary or None if analysis failed
     """
-    raw_json, openai_api_key, enabled_features, process_id = args
+    raw_json, openai_api_key, enabled_features, process_id, cache_dir_path = args
 
     try:
         schema = json.loads(raw_json)
@@ -69,10 +69,11 @@ def analyze_workout(args):
     if idx == 7573 or idx==8310 or idx==9800 or idx==8723:
         pass
     flat_schema = flatten_json(schema)
-    if not any(k.endswith("musicGenre") for k in flat_schema):
+    if not any(k.endswith("musicGenre") for k in flat_schema) and not "Journey" in flat_schema['category.name']:
         print(f"Process {process_id}: Skipping workout #{idx} — no musicGenre")
         return return_error_analysis("No musicGenre", schema)
-        
+    if "Journey" in flat_schema['category.name']:
+        pass
 
     video_id = idx
     
@@ -81,6 +82,7 @@ def analyze_workout(args):
         result = analyse_hydrow_workout(
             schema,
             openai_api_key=openai_api_key,
+            cache_dir=cache_dir_path,
             force_refresh=False,
             enable_category=enabled_features['category'],
             enable_fitness_level=enabled_features['fitness_level'],
@@ -93,7 +95,7 @@ def analyze_workout(args):
 
         if "error" in result:
             print(f"Process {process_id}: Error during analysis: {result['error']}")
-            return return_error_analysis(None, "Error during analysis.")
+            return return_error_analysis("Error during analysis.", schema)
 
         db_structure = transform_to_db_structure(result)
 
@@ -137,7 +139,7 @@ def analyze_workout(args):
 
     except Exception as e:
         print(f"Process {process_id}: Unexpected error for workout #{idx}: {str(e)}")
-        return return_error_analysis(schema, "Unexpected error for workout.")
+        return return_error_analysis("Unexpected error for workout.", schema)
 
 
 def write_results_to_csv(results, output_csv_path):
@@ -183,7 +185,7 @@ def write_results_to_csv(results, output_csv_path):
     return unique_results
 
 
-def process_workouts_csv_mp(input_csv_path, output_csv_path, max_workouts=None,
+def process_workouts_csv_mp(input_csv_path, output_csv_path, cache_dir_path, max_workouts=None,
                              num_processes=8, enable_category=True, enable_fitness_level=True,
                              enable_vibe=True, enable_spirit=True, enable_equipment=True,
                              include_image=False):
@@ -246,10 +248,10 @@ def process_workouts_csv_mp(input_csv_path, output_csv_path, max_workouts=None,
     
     # Deduplicate URLs based on video_id
     unique_jsons = {}
-    for js, json in enumerate(all_jsons):
-        video_id = extract_video_id(json, js)
+    for js, json_str in enumerate(all_jsons):
+        video_id = extract_video_id(json_str, js)
         if video_id and video_id not in unique_jsons:
-            unique_jsons[video_id] = json
+            unique_jsons[video_id] = json_str
     
     deduplicated_jsons = list(unique_jsons.values())
     
@@ -297,7 +299,7 @@ def process_workouts_csv_mp(input_csv_path, output_csv_path, max_workouts=None,
     for i, batch in enumerate(json_batches):
         # Flatten the batch into individual tasks with process ID
         for el in batch:
-            process_args.append((el, openai_api_key, enabled_features, i))
+            process_args.append((el, openai_api_key, enabled_features, i, cache_dir_path))
 
     # Process URLs in parallel using a pool with progress bar
     print(f"Starting parallel processing with {actual_processes} processes")
@@ -341,12 +343,21 @@ def process_workouts_csv_mp(input_csv_path, output_csv_path, max_workouts=None,
     return results  # Return results for potential further use
 
 if __name__ == "__main__":
+    # Set up relative locations
+    current_dir = os.path.dirname(__file__)
+    parent_dir = os.path.dirname(current_dir)
+    input_file = os.path.join(parent_dir,"Workout.csv")
+    output_file = os.path.join(parent_dir,"hydrow_workouts_analyzed.csv")
+    cache_dir = os.path.join(parent_dir, "cache", "cache_hydrow")
+    
     # Set up command line argument parsing
     parser = argparse.ArgumentParser(description='Process Hydrow workout videos from a CSV file')
-    parser.add_argument('--input', type=str, default="placehoder",#!
+    parser.add_argument('--input', type=str, default=input_file,#!
                         help='Path to input CSV file containing Hydrow metadata in JSONs')
-    parser.add_argument('--output', type=str, default="workouts_analyzed.csv", #! 
+    parser.add_argument('--output', type=str, default=output_file, #! 
                         help='Path to output CSV file for analysis results')
+    parser.add_argument('--cache', type=str, default=cache_dir, #! 
+                        help='Path to save cache, and read from cache')
     parser.add_argument('--max', type=int, default=None,#!
                         help='Maximum number of workouts to process')
     parser.add_argument('--no-category', action='store_false', dest='category',
@@ -372,6 +383,7 @@ if __name__ == "__main__":
     results = process_workouts_csv_mp(
         input_csv_path=args.input,
         output_csv_path=args.output,
+        cache_dir_path=args.cache,
         max_workouts=args.max,
         enable_category=args.category,
         enable_fitness_level=args.fitness_level,
@@ -379,7 +391,7 @@ if __name__ == "__main__":
         enable_spirit=args.spirit,
         enable_equipment=args.equipment,
         include_image=args.image ,
-        num_processes=8 #!
+        num_processes=1 #!
     )
 
     # Cannot use results directly here as they are deduplicated in write_results_to_csv function

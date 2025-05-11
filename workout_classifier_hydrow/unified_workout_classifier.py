@@ -149,7 +149,8 @@ def analyse_hydrow_workout(workout_json, openai_api_key,
                     print(f"Loaded {name} analysis from cache: {cache_path}")
                 except Exception as e:
                     print(f"Error loading cached {name} analysis: {str(e)}. Running fresh analysis.")
-                    if not (classifier['name']=='fitness_level' or classifier['name']=='category'):
+                    if not (classifier['name']=='fitness_level' or classifier['name']=='category') and \
+                       not (classifier['name']=='vibe' and "Journey" in workout_json.get('category',{}).get('name',None)):
                         analysis = run_classifier(
                             oai_client,
                             meta,
@@ -157,6 +158,9 @@ def analyse_hydrow_workout(workout_json, openai_api_key,
                             classifier["user_prompt"],
                             classifier["response_format"]
                         )
+                        cache_data(analysis, cache_path)
+                    elif classifier['name']=='vibe' and "Journey" in workout_json.get('category',{}).get('name',None):
+                        analysis = hardcoded_journey_vibe()
                         cache_data(analysis, cache_path)
                     elif classifier['name']=='category':
                         # ! we indroduce hardcoded mapping
@@ -189,7 +193,8 @@ def analyse_hydrow_workout(workout_json, openai_api_key,
                                                                                     "techniqueDifficultyExplanation"]) 
                         cache_data(analysis, cache_path)
             else:
-                if not (classifier['name']=='fitness_level' or classifier['name']=='category'):
+                if not (classifier['name']=='fitness_level' or classifier['name']=='category') and \
+                   not (classifier['name']=='vibe' and "Journey" in workout_json.get('category',{}).get('name',None)):
                     analysis = run_classifier(
                         oai_client,
                         meta,
@@ -198,6 +203,9 @@ def analyse_hydrow_workout(workout_json, openai_api_key,
                         classifier["response_format"]
                     )
                     cache_data(analysis, cache_path)
+                elif classifier['name']=='vibe' and "Journey" in workout_json.get('category',{}).get('name',None):
+                        analysis = hardcoded_journey_vibe()
+                        cache_data(analysis, cache_path) 
                 elif classifier['name']=='category':
                     # ! we indroduce hardcoded mapping
                     workout_type = workout_json.get('workoutTypes')[0].lower().strip()
@@ -299,7 +307,6 @@ def prefill_fitness_schema(workout_type: str, full_meta:str) -> dict:
             f"The workoutType is '{workout_type.capitalize()}', which is explicitly defined as a {level} workout "
             f"based on platform rules. No further inference needed."
         )
-    
     elif "beginner" in full_meta['text'].lower().strip():
         schema["requiredFitnessLevel"] = [
             {"level": "Beginner", "score": 1.0},
@@ -589,6 +596,20 @@ def hardcoded_category_clf(workout_type):
             "categoriesExplanation": "The Category is assigned by predefined mapping."
             }
     return out
+
+def hardcoded_journey_vibe():    
+    out = {
+        "vibes": [
+            {"name": "The Nature Flow",
+            "score": 1},
+            {"name": "The Mindful Walk",
+            "score": 1}
+        ],
+        "vibesConfidence": 1,
+        "vibesExplanation": "Hardcoded vibes."
+        }
+    return out
+
 
 def return_error_analysis(error_message, workout_json=None):
     return {

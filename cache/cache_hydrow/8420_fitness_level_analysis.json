@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which limits the technique difficulty to Beginner or Intermediate. The description 'Time Under Tension Row' suggests a focus on maintaining a particular intensity or effort level during rowing intervals. The 'interval' format indicates some degree of complexity but not beyond intermediate. However, given that rowing itself is straightforward when not involving technical elements, the dominant technique difficulty leans towards Beginner with moderate alignment to Intermediate due to the interval aspect.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.8
+    },
+    {
+      "level": "Challenging",
+      "score": 0.2
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout duration is 11 minutes and tagged with a max rhythm of 28, suggesting a moderate pace. The workout intensity level is noted as 2 out of 3, indicating moderate effort demand. While interval training typically heightens effort, the short duration ensures it remains primarily moderate with some challenges. Thus, Moderate effort difficulty is predominant, with slight alignment towards Challenging.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout name 'Steady State Row' and category 'row' strongly indicate the use of a rowing machine. Additionally, the description mentions 'Row at rhythms 22 and 24,' which specifically pertains to rowing exercises typically performed on a rowing machine. Given that rowing is the central activity in this workout, the confidence level is very high (0.9) that a rowing machine is required. The image also supports this, although it shows an outdoor rowing setting rather than an indoor machine; it aligns with the exercise type."
+}

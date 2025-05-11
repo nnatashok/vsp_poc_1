@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 0.9
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout category includes 'row,' which typically involves the use of a rowing machine for the exercises. The image also shows individuals rowing, further supporting the assumption that a rowing machine is required. Despite the workout being a 'cool down,' which might suggest a lesser intensity, its classification under 'standard, row' indicates the equipment is still necessary. Thus, the confidence score for the rowing machine is set at 0.9 due to its strong relevance and mention in the metadata."
-}

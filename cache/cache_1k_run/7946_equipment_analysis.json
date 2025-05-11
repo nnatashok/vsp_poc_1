@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 0.95
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout is titled 'Efficient Speed Row,' and it is categorized under 'row' which strongly implies the use of a rowing machine. The description mentions building speed on the front end of each stroke, indicating a rowing-specific focus. Despite the image showing rowing on water, in the context of indoor workouts, a rowing machine is essential for replicating these movements. Therefore, a rowing machine is required with very high confidence (0.95). No other equipment is mentioned or implied in the metadata."
-}

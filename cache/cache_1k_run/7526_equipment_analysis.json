@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 1.0
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout is explicitly categorized under 'row' and involves a series of rowing intervals. The metadata mentions this as a 'Father's Day Row' and the use of the term 'row' in both the title and category strongly indicates that a rowing machine is essential. Therefore, the confidence score for requiring a 'Rowing machine' is very high (1.0). As no other equipment is mentioned or implied in the metadata, only a rowing machine is identified as necessary for this workout."
-}

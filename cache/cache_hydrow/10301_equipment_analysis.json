@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is titled 'Baseball Row' and belongs to the 'row' category. The title, description, and category explicitly involve rowing, indicating that a rowing machine is fundamental to executing the workout. The description mentions specific strokes per minute, which directly correlates with rowing machine usage. Additionally, the instructor's background as a professional rower further suggests that the workout centers around rowing activities. Therefore, the confidence level for requiring a rowing machine is very high at 0.9. No other equipment is mentioned or implied in the metadata, so the analysis is confined to this essential rowing device."
+}

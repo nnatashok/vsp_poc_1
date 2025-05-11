@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The metadata indicates that this workout is a 'Runner's Program' but falls under the 'row' category, suggesting that it's primarily focused on rowing. The presence of 'HIIT' and 'high intensity intervals' with terms like 'max rhythm' align with rowing machine workouts. Additionally, the image depicts rowing equipment being used. Therefore, a 'Rowing machine' is likely required for this workout, and I assign a high confidence score of 0.9."
+}

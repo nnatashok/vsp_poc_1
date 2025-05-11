@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout is identified as a rowing category with intervals, utilizing 'sweat' as the intensity type. In Hydrow's schema, rowing workouts typically don't exceed Intermediate difficulty regarding technique. The mention of intervals shifting in rhythm may suggest some coordination is required, but overall, these factors keep the technical difficulty mainly in the Beginner to Intermediate range.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.6
+    },
+    {
+      "level": "Challenging",
+      "score": 0.7
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The intensity is marked at 2 out of 3, indicating a moderately high effort level. The workout focuses on cardio intervals and lasts for over 11 minutes, which would elevate heart rate and increase energy expenditure over simple, steady-state activities. The use of tempo cues ('max rhythm: 28') signifies a challenging pace for the typical deconditioned user.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

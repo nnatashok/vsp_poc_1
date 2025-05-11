@@ -1,0 +1,21 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Resistance bands",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Foam roller",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.7
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout description explicitly mentions the use of a mini-band and foam roller, indicating high confidence (0.9) for needing \"Resistance bands\" and \"Foam roller.\" The category \"On The Mat\" strongly suggests the use of a mat, contributing to a high confidence score (0.9) for \"Mat.\" Additionally, the image provided shows a rowing machine being used, supporting a moderate confidence score (0.7) for including \"Rowing machine.\" This is not explicitly mentioned in the text but evident from the visual cues. The circuit format implies equipment variety, reinforcing these selections. No other equipment types are suggested by the available metadata."
+}

@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Mat",
-      "confidence": 0.9
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout is described as 'On The Mat' in both the category metadata and visual analysis. This strongly indicates that a mat is required for the exercises, as implied by their presence in the image where participants are standing on mats. The workout is a dynamic warm-up, which typically involves stretches and movements that would benefit from a non-slip surface like a mat, to provide safety and comfort. Given this, the confidence level for a mat being required is very high at 0.9. No other equipment is implied or necessary based on the description and image."
-}

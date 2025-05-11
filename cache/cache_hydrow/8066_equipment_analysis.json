@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout name 'Power Climb Row' and the category 'row' explicitly indicate the use of a rowing machine. The description mentions 'climbing in rhythm,' which is a typical activity associated with rowing workouts, involving varied pressure levels and endurance. Since the equipment is not specified in the metadata but the workout type and category strongly suggest it involves rowing, the confidence level is set very high at 0.9 for a rowing machine being required."
+}

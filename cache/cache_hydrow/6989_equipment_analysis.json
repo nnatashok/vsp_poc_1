@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout falls under the category 'row,' which strongly implies the use of a rowing machine. Additionally, the image associated with the workout features a person using a rowing machine. Therefore, the confidence that a rowing machine is required for this workout is very high (1.0). There is no mention of other equipment in the metadata, supporting the conclusion that the rowing machine is central and most likely the sole equipment needed."
+}

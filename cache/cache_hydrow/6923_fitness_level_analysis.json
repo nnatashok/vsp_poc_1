@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout falls under the 'row' category, which typically includes either Beginner or Intermediate technique difficulty. The intervals involve adjusting rhythms up to 24, which is within a manageable range for beginners as long as instructional cues are provided. The workout is part of the 'breathe' category, suggesting a focus on maintaining a steady breathing pattern, often indicative of lower complexity. This supports a technique difficulty score primarily in the Beginner range, with a minor consideration for Intermediate due to the interval nature.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.2
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The effort difficulty is informed by the workout type 'breathe' and the intensity level marked as 1 out of 3. The session lasts 21 minutes, incorporating intervals with manageable rhythms such as 20, 22, and 24. This setup suggests a Light effort difficulty, reflecting a session that requires less physical exertion overall. However, the interval format could pose some challenge to complete beginners, warranting a slight moderation inclusion.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

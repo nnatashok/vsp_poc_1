@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is classified as 'row' which default Technique Difficulty is either Beginner or Intermediate. Given the climbing interval format, it may introduce a level of complexity slightly beyond basic rowing, but not excessively so. The mention of 'dynamic workouts' in the description suggests an emphasis on movement, which supports an Intermediate level.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The duration of 11:36 is relatively short, suggesting moderate energy expenditure. However, the format 'climb' with intervals can increase the intensity, moving it toward Challenging. The music and intensity level 2 out of 3 hint at a more vigorous effort than a typical light session, suitable for users who can handle medium effort.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

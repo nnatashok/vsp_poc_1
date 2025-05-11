@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is classified under the category 'row', which aligns with Hydrow-specific rules restricting Technique Difficulty to either Beginner or Intermediate. Given the 'Club 26' style rowing and the focus on rhythm, there may be some elements requiring coordination, justifying a score for Intermediate. However, the basics of rowing are generally simple, hence a strong Beginner attribution is also warranted.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout involves a 30-minute 'Club 26' style rowing session, structured as high-intensity intervals, as suggested by the 'Interval' tag and 'sweat' type. This, combined with the described music style, indicates a rhythmic and potentially intense session, contributing to a Moderate to Challenging effort classification. A 46-minute duration with structured warm-up and cool-down adds a moderate demand overall.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

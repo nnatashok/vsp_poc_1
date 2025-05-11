@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 1.0
+    },
+    {
+      "equipment": "Blocks",
+      "confidence": 0.8
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout 'Post-Row Align Yoga' explicitly mentions the need for a mat, which is common for yoga, as supported by the category 'On The Mat.' This is reflected in the image where participants are seated on mats. Hence, the confidence for 'Mat' is very high at 1.0. Additionally, yoga blocks are visible in the image, indicating their use in the workout, which lends an 0.8 confidence score to 'Blocks.' No other equipment is mentioned or visible, aligning with typical yoga practices."
+}

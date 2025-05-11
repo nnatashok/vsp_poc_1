@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 0.9
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout metadata clearly categorizes this activity as a 'row' workout under the category field and includes 'row' specifically in the workout name 'Cardio Intervals Row'. The description mentions maintaining a 'jog pace with Mac during intervals climbing in rhythm' which aligns with rowing exercise intervals. While there is no specific mention of a rowing machine in the metadata, the combined references to 'row', 'intervals', and 'rhythm' strongly support the use of a rowing machine as central to the workout. Therefore, a high confidence score of 0.9 is assigned to the 'Rowing machine' as required equipment."
-}

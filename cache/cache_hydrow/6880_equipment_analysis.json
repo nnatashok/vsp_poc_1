@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout metadata explicitly categorizes this session under 'row', which indicates that rowing is the central activity. Additionally, the descriptors such as 'drive' and 'power' are typically associated with rowing workouts. The imagery shows a person rowing, affirming the type of activity involved. As such, a rowing machine is required with very high confidence (1.0) as it is essential for executing the workout."
+}

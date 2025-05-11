@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 1
-    }
-  ],
-  "requiredEquipmentExplanation": "The metadata specifies the workout category as 'row,' which strongly implies the use of a rowing machine. The description mentions a steady climb in rhythm, which is typical of rowing workouts designed to simulate rowing on water, further suggesting the need for indoor rowing equipment. Additionally, the visual image provided shows rowing activity, reinforcing the requirement. Based on this information, the confidence level for requiring a rowing machine is very high, at 1.0."
-}

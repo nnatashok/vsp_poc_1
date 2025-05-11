@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 1.0
+    },
+    {
+      "equipment": "Blocks",
+      "confidence": 0.3
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is titled \"Core Flow\" and categorized as \"On The Mat,\" which strongly suggests the use of a mat, leading to a high confidence score of 1.0 for the mat. The description mentions the use of core-focused poses and optional yoga blocks; however, since blocks are optional, the confidence score for blocks is moderate at 0.3. The absence of any other equipment suggestions in the metadata confirms that the primary equipment required is a mat."
+}
