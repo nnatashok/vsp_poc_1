@@ -118,7 +118,9 @@ def analyze_workout(args):
             'secondary_effort_difficulty': db_structure.get('secondary_effort_difficulty', ''),
             'tertiary_effort_difficulty': db_structure.get('tertiary_effort_difficulty', ''),
             'full_analysis_json': json.dumps(result, ensure_ascii=False, indent=2, sort_keys=True),
-            'poster_uri':db_structure.get('poster_uri', '')
+            'poster_uri':db_structure.get('poster_uri', ''),
+            "video_metadata": db_structure.get("video_metadata", ""),
+            'video_metadata_cleaned':db_structure.get("video_metadata_cleaned", "")
         }
         print(f"Process {process_id}: Successfully analyzed workout: {video_id}")
         return output_data
@@ -159,7 +161,7 @@ def write_results_to_csv(results, output_csv_path):
             'reviewable', 'review_comment',
             'primary_technique_difficulty', 'secondary_technique_difficulty', 'tertiary_technique_difficulty',
             'primary_effort_difficulty', 'secondary_effort_difficulty', 'tertiary_effort_difficulty',
-            'full_analysis_json', 'poster_uri'
+            'full_analysis_json', 'poster_uri', 'video_metadata', 'video_metadata_cleaned'
     ]
     with open(output_csv_path, 'w', newline='', encoding='utf-8') as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore')
@@ -340,7 +342,7 @@ if __name__ == "__main__":
                         help='Path to output CSV file for analysis results')
     parser.add_argument('--cache', type=str, default=cache_dir, #! 
                         help='Path to save cache, and read from cache')
-    parser.add_argument('--max', type=int, default=15,#!
+    parser.add_argument('--max', type=int, default=None,#!
                         help='Maximum number of workouts to process')
     parser.add_argument('--no-vibe', action='store_false', dest='vibe',
                         help='Disable workout vibe analysis')

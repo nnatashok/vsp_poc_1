@@ -24,7 +24,10 @@ def transform_to_db_structure(analysis):
         "duration": formatted_duration,
         "duration_minutes": minutes,
         "duration_seconds": analysis.get("duration", ""),
-        "poster_uri": analysis.get("poster_uri", "")
+        "poster_uri": analysis.get("poster_uri", ""),
+        "full_analysis_json": analysis,
+        "video_metadata": analysis.get("video_metadata", ""),
+        'video_metadata_cleaned':analysis.get("video_metadata_cleaned", "")
     }
 
     # Process category data
@@ -61,15 +64,15 @@ def transform_to_db_structure(analysis):
             })
     else:
         db_structure.update({
-            "fitness_level": None,
-            "secondary_fitness_level": None,
-            "tertiary_fitness_level": None,
-            "primary_technique_difficulty": None,
-            "secondary_technique_difficulty": None,
-            "tertiary_technique_difficulty": None,
-            "primary_effort_difficulty": None,
-            "secondary_effort_difficulty": None,
-            "tertiary_effort_difficulty": None
+            "fitness_level": 'Beginner',
+            "secondary_fitness_level": 'Intermediate',
+            "tertiary_fitness_level": 'Advanced',
+            "primary_technique_difficulty": 'Beginner',
+            "secondary_technique_difficulty": 'Intermediate',
+            "tertiary_technique_difficulty": 'Advanced',
+            "primary_effort_difficulty": 'Light',
+            "secondary_effort_difficulty": 'Moderate',
+            "tertiary_effort_difficulty": 'Challenging'
         })
 
     # Process equipment data
@@ -176,7 +179,7 @@ def check_reviewable(data):
     # Check if category is "Other" - make not reviewable
     if data.get("category") == "Other":
         return {
-            "reviewable": False,
+            "reviewable": True, #! all spotify tracks are reviewable bacause they are not exactly as workouts
             "review_comment": json.dumps(["other_category"])
         }
 
@@ -229,11 +232,10 @@ def extract_category_info(categories):
 
     # Map subcategories to categories
     category_mapping = {
-        "Cool-down": ["Cool-down"],
-        "Strength": ["Body weight", "Calisthenics"],
-        "Flexibility": ["Stretching", "Yoga", "Pilates"],
-        "Warm-up": ["Warm-up"],
-        "Cardio": ["Indoor rowing"]
+        "Cardio": ["Elliptical", "HIIT", "Indoor biking", "Indoor rowing", "Mat", "Running", "Treadmill", "Walking"],
+        "Flexibility": ["Pilates", "Stretching", "Yoga"],
+        "Rest": ["Breathing exercises", "Meditation"],
+        "Strength": ["Body weight", "Calisthenics", "Weight workout"]
     }
 
     # Map primary category

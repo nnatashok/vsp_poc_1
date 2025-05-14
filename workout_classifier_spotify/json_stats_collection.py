@@ -6,7 +6,7 @@ import pandas as pd
 from tqdm import tqdm
 
 # --- Config ---
-WORKOUT_CSV = Path('/home/karalandes/Documents/Juliy/VideoClfv1/vsp_poc_1/workout_classifier_spotify/Workout.csv')  # Replace with your actual file path
+WORKOUT_CSV = Path('/home/karalandes/Documents/Juliy/VideoClfv1/vsp_poc_1/Workout.csv')  # Replace with your actual file path
 FREQ_TABLE_OUT = Path('/home/karalandes/Documents/Juliy/VideoClfv1/vsp_poc_1/cache/spotify_json_field_frequency_table.csv')  # Replace with your output file path
 
 # --- Utils ---

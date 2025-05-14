@@ -610,7 +610,6 @@ def hardcoded_journey_vibe():
         }
     return out
 
-
 def return_error_analysis(error_message, workout_json=None):
     return {
             "error": error_message,

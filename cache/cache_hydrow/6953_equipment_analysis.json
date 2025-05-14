@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout video is titled 'Indian Creek Stern View' and the description mentions a rowing experience, \"rowing down Indian Creek.\" Furthermore, the category explicitly includes the term 'row'. These elements strongly indicate that a rowing machine is required for this workout. Given the classification guidelines, if the category type includes 'row', the output must include 'Rowing machine' with high confidence. Therefore, we assign a confidence score of 1.0, as the rowing machine is central to replicating the experience described in the workout."
+}

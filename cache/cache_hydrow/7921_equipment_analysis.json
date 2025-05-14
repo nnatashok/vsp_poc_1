@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout category includes 'row', which implies the use of a rowing machine. The description does not mention any other equipment explicitly, and the 'row' category typically requires a rowing machine to perform the workout. Given that this is a 'journey' type workout, it is likely intended to be performed on a rowing machine, creating a virtual experience reminiscent of rowing on flat water in Norway. The mention of 'flat water' further suggests this setting, as this term is commonly associated with rowing. Therefore, the rowing machine is included with very high confidence, as it is central to this type of workout."
+}

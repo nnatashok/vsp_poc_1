@@ -26,7 +26,9 @@ def transform_to_db_structure(analysis):
         "hydrow_category_name": analysis.get("hydrow_category_name", ""),
         "instructor_name": analysis.get("instructor_name", ""),
         "duration_seconds": analysis.get("duration_seconds", ""),
-        "poster_uri": analysis.get("poster_uri", "")
+        "poster_uri": analysis.get("poster_uri", ""),
+        'video_metadata': analysis.get("video_metadata", ""), 
+        'video_metadata_cleaned': analysis.get("video_metadata_cleaned", "")
     }
 
     # Process category data

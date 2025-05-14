@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.95
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is categorized under 'row', which indicates the central equipment required is a rowing machine. The very high confidence score of 0.95 is due to the explicit mention of the category 'row' under the workout metadata, which strongly implies that a rowing machine is essential for the workout. The description 'Explore the shores of Newport Beach, California from the water' further suggests a rowing activity, correlating with the need for a rowing machine. Thus, a rowing machine is the primary and likely sole piece of equipment needed."
+}

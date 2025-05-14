@@ -27,6 +27,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.service import Service
 
 # Import classifier modules
+from category_classifier import CATEGORY_PROMPT, CATEGORY_USER_PROMPT, CATEGORY_RESPONSE_FORMAT
 from track_query import TRACK_PROMPT, TRACK_USER_PROMPT, TRACK_RESPONSE_FORMAT
 from vibe_classifier import VIBE_PROMPT, VIBE_USER_PROMPT, VIBE_RESPONSE_FORMAT
 from spirit_classifier import SPIRIT_PROMPT, SPIRIT_USER_PROMPT, SPIRIT_RESPONSE_FORMAT
@@ -87,7 +88,7 @@ def analyse_spotify_workout(workout_json, openai_api_key,
         "duration": calculate_total_duration_of_tracks(workout_json),
         'video_metadata':workout_json,
         'video_metadata_cleaned': meta,
-        "channel_title": playlist.get('owner', {}.get('display_name',None)),
+        "channel_title": playlist.get('owner', {}).get('display_name',None),
         "poster_uri": meta['image']
         }
 
@@ -97,6 +98,14 @@ def analyse_spotify_workout(workout_json, openai_api_key,
 
     # Define classifier configurations
     classifiers = [
+        {
+            "name": "category",
+            "enabled": True,
+            "cache_key": f"{video_id}_category_analysis.json",
+            "system_prompt": CATEGORY_PROMPT,
+            "user_prompt": CATEGORY_USER_PROMPT,
+            "response_format": CATEGORY_RESPONSE_FORMAT
+        },
         {
             "name": "spirit",
             "enabled": enable_spirit,
@@ -209,20 +218,23 @@ def extract_track_details(item: Dict[str, Any]) -> tuple[str, str, str, str]:
             return default
 
     track = item.get("track", {})
-    artist = safe_get(track, "artists.0.name", "N/A")
-    track_name = track.get("name", "N/A")
-    release_date = safe_get(track, "album.release_date", "N/A")
-    release_year = release_date.split("-")[0] if release_date else "N/A"
+    try:
+        artist = safe_get(track, "artists.0.name", "N/A")
+        track_name = track.get("name", "N/A")
+        release_date = safe_get(track, "album.release_date", "N/A")
+        release_year = release_date.split("-")[0] if release_date else "N/A"
 
-    duration_ms = track.get("duration_ms", 0)
-    minutes = duration_ms // 60000
-    seconds = (duration_ms % 60000) // 1000
-    duration_str = f"{minutes}:{seconds:02d}"
+        duration_ms = track.get("duration_ms", 0)
+        minutes = duration_ms // 60000
+        seconds = (duration_ms % 60000) // 1000
+        duration_str = f"{minutes}:{seconds:02d}"
 
-    summary = f"- '{track_name}' by {artist}, from album '{safe_get(track, 'album.name', 'N/A')}' ({release_year})\n" \
-              f"  Duration: {duration_str}, Explicit: {track.get('explicit', False)}, Popularity: {track.get('popularity', 'N/A')}"
+        summary = f"- '{track_name}' by {artist}, from album '{safe_get(track, 'album.name', 'N/A')}' ({release_year})\n" \
+                f"  Duration: {duration_str}, Explicit: {track.get('explicit', False)}, Popularity: {track.get('popularity', 'N/A')}"
 
-    return artist, track_name, release_year, summary
+        return artist, track_name, release_year, summary
+    except:
+        return "", "", "", ""
 
 def safe_get(dct, path, default=None):
         try:
@@ -267,10 +279,34 @@ def extract_spotify_playlist_summary(data: Dict[str, Any]) -> Dict[str, Any]:
         summary_lines.append(f"{idx+1}. {track_summary}")
 
     image_url = safe_get(playlist, "images.0.url", None)
+    try: del data['tracklist']
+    except: pass
+    try:
+        data = delete_keys_with_market_inplace(data)
+    except:pass
+
     return {
         "text": "\n".join(summary_lines),
         "image": image_url
     }
+
+def delete_keys_with_market_inplace(obj):
+    """
+    Recursively deletes all keys containing 'market' from the object in-place.
+
+    Args:
+        obj (dict or list): The JSON object to modify.
+    """
+    if isinstance(obj, dict):
+        keys_to_delete = [key for key in obj if 'market' in key.lower()]
+        for key in keys_to_delete:
+            del obj[key]
+        for key in obj:
+            delete_keys_with_market_inplace(obj[key])
+    elif isinstance(obj, list):
+        for item in obj:
+            delete_keys_with_market_inplace(item)
+
 
 def run_classifier(oai_client, meta, system_prompt, user_prompt, response_format):
     """
@@ -472,25 +508,35 @@ def tracks_descriptions(workout_json: Dict[str, Any],
     cache_path = os.path.join(cache_dir, classifier["cache_key"])
     if not force_refresh and os.path.exists(cache_path):
         with open(cache_path, "r", encoding="utf-8") as f:
+            print(f"Loaded tracks enriched meta from {cache_path}")
             return json.load(f)
 
     items = workout_json.get("playlist", {}).get("tracks", {}).get("items", [])
     basic_meta = [extract_track_details(item)[:3] for item in items]
 
     if enable_web_search:
-        queries = [
-            f"{track_name} by {artist} {year} lyrics meaning genre bpm mood"
-            for artist, track_name, year in basic_meta
-        ]
-        queries = random.sample(queries, k=min(5, len(queries)))
-        snippets = collect_snippets_batch(queries, delay=.5)
+        try:
+            queries = [
+                f"{track_name} by {artist} {year} lyrics meaning genre bpm mood"
+                for artist, track_name, year in basic_meta
+            ]
+            queries = queries[:5]
+            snippets = collect_snippets_batch(queries, delay=.5)
 
-        enriched_meta = []
-        for (artist, track_name, year), snippet in zip(basic_meta, snippets):
-            enriched_meta.append({
+            enriched_meta = []
+            for (artist, track_name, year), snippet in zip(basic_meta, snippets):
+                enriched_meta.append({
+                    "key": f"{artist}_{track_name}",
+                    "text": f"Track: '{track_name}' by {artist} ({year})\nSnippet: {snippet}"
+                })
+        except:
+            enriched_meta = [
+            {
                 "key": f"{artist}_{track_name}",
-                "text": f"Track: '{track_name}' by {artist} ({year})\nSnippet: {snippet}"
-            })
+                "text": f"Track: '{track_name}' by {artist} ({year})"
+            }
+            for artist, track_name, year in basic_meta
+        ][:5]
     else:
         enriched_meta = [
             {
@@ -498,7 +544,7 @@ def tracks_descriptions(workout_json: Dict[str, Any],
                 "text": f"Track: '{track_name}' by {artist} ({year})"
             }
             for artist, track_name, year in basic_meta
-        ]
+        ][:5]
 
     # One call per track
     analysis = {}

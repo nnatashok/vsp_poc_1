@@ -1,0 +1,50 @@
+{
+  "type": "object",
+  "properties": {
+    "spirits": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "enum": [
+              "High-Energy & Intense",
+              "Flow & Rhythm",
+              "Structured & Disciplined",
+              "Soothing & Restorative",
+              "Sport & Agility",
+              "Outdoor & Adventure"
+            ]
+          },
+          "score": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "spiritsConfidence": {
+      "type": "number"
+    },
+    "spiritsExplanation": {
+      "type": "string",
+      "description": "Detailed explanation of why specific spirits were assigned, with evidence from metadata."
+    }
+  },
+  "spirits": [
+    {
+      "name": "High-Energy & Intense",
+      "score": 0.9
+    },
+    {
+      "name": "Flow & Rhythm",
+      "score": 0.7
+    },
+    {
+      "name": "Outdoor & Adventure",
+      "score": 0.4
+    }
+  ],
+  "spiritsConfidence": 0.85,
+  "spiritsExplanation": "The playlist 'Girly Pop Running Music \ud83d\udc95\ud83c\udf80\u2728' strongly embodies the 'High-Energy & Intense' spirit, evident from its fast-paced tracks by artists like Lady Gaga, Britney Spears, and Rihanna, with high popularity and energy levels indicated by high bpm tracks like 'Applause' (124 bpm) and 'Womanizer' (140 bpm). The dominance of upbeat dance-pop and electropop tracks enhances its suitability for high-intensity runs or sprinting, scoring it a 0.9 for this spirit. The presence of tracks with consistent beats aimed at maintaining a steady flow supports a 0.7 score for the 'Flow & Rhythm' spirit. This is amplified by the playlist's intention as a running companion, aligning with meditative, rhythmic running. The 'Outdoor & Adventure' spirit is moderately matched (0.4) due to the diversity and open-air feel of the tracks, although this spirit is less central. Other spirits like 'Soothing & Restorative' are excluded due to the playlist's lack of gentleness or restfulness, given its high energy and intensity focus."
+}
