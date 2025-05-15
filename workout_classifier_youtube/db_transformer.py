@@ -193,6 +193,11 @@ def check_reviewable(data):
             "reviewable": False,
             "review_comment": json.dumps(["other_category"])
         }
+    if data.get("primary_equipment") == "Other":
+        return {
+            "reviewable": False,
+            "review_comment": json.dumps(["other_hardware"])
+        }
 
     # Check required fields
     if not data.get("category"):
@@ -345,6 +350,11 @@ def extract_equipment_info(equipment_list):
     # Filter equipment by confidence threshold (>0.5)
     filtered_equipment = [eq for eq in equipment_list if eq.get("confidence", 0) > 0.5]
 
+    #Filter equipment by forbidden categories
+    forbidden = ["Mat", "Blocks", "Medicine balls", "Jump ropes", "Stability/Swiss balls",
+                 "Ankle/wrist weights", "Foam roller", "Other"]
+    filtered_equipment = [eq for eq in equipment_list if not eq.get("equipment", "") in forbidden]
+
     if not filtered_equipment:
         return {
             "primary_equipment": None,
@@ -357,11 +367,17 @@ def extract_equipment_info(equipment_list):
 
     # Map to simplified equipment categories
     equipment_mapping = {
-        "Weights": ["Dumbbells", "Kettlebells", "Medicine balls", "Barbell", "Weight bench"],
+        "Weights": ["Dumbbells", "Kettlebells", "Barbell", "Weight bench"],
         "Rower": ["Rowing machine"],
         "Treadmill": ["Treadmill"],
         "Exercise Bike": ["Exercise bike"]
     }
+    # ["Mat", "Dumbbells", "Chair", "Blocks", "Exercise bike", 
+    # "Rowing machine", "Treadmill", "Elliptical", "Resistance bands", 
+    # "Kettlebells", "Medicine balls", "Jump ropes", "Pull-up bars", 
+    # "Stability/Swiss balls", "TRX/Suspension trainers", "Weight bench", 
+    # "Barbell", "Battle ropes", "Ankle/wrist weights", "Foam roller", 
+    # "Other"]
 
     # Initialize with 'Other' as default
     primary_equipment = "Other"
