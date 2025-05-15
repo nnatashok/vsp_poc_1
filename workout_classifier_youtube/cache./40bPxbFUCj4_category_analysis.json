@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Yoga",
+      "score": 0.9
+    },
+    {
+      "name": "Stretching",
+      "score": 0.6
+    },
+    {
+      "name": "Meditation",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "This video is classified as primarily 'Yoga' due to explicit references to 'Yoga' in the title and description, such as 'Restorative Yoga For Stress Relief.' The channel is focused on yoga content, confirmed by the channel name 'Jess Yoga' and description stating the creator is a certified yoga instructor. The score for Yoga is 0.9 given this is the core purpose of the video. \n\n'Yoga' in this context also implies 'Stretching' due to the description and user comments highlighting 'gentle and simple full body stretches.' Thus, 'Stretching' is a relevant, but secondary component with a score of 0.6 since it's clearly part of the yoga routine but not the primary focus.\n\n'Meditation' was considered because the video focuses on mental relaxation, supportive comments about stress relief, and relaxation elements associated with meditative practices (e.g., holding poses to reduce cortisol levels). The meditation aspect is less emphasized, leading to a lower score of 0.5.\n\nAlternative categories such as 'Breathing exercises' were excluded due to lack of explicit evidence in metadata pointing to focused breathing techniques specifically."
+}

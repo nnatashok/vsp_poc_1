@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is primarily focused on using exercise machines such as treadmills, exercise bikes, or cross trainers, which involve very straightforward, low-complexity movements. The video serves as a visual accompaniment, providing virtual scenery to enhance the workout experience. The user comments suggest activities like running, cycling, and walking, all of which fall under basic, beginner-level techniques due to their simple, repetitive nature and minimal coordination requirement. The absence of instructions or references to complex movements in the metadata supports a classification of 'Beginner' for technique difficulty.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The effort difficulty is assessed as 'Moderate' due to the 30-minute duration of the workout, which is a reasonable challenge for deconditioned users. Although the video itself provides virtual scenery for machine exercises, the use case (e.g., treadmill or stationary bike) involves continuous low-to-moderate intensity exertion. User comments indicate this video is used for jogging, power walking, and cycling workouts, which supports a moderate level of energy expenditure. Additionally, the description mentions varied video speeds to maintain interest, indirectly encouraging users to adjust their physical effort, further suggesting moderate effort difficulty.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The required fitness level leans towards 'Beginner,' with a substantial score because the technique difficulty is low and the effort, while moderate, is achievable for those who are new or have minimal prior exercise experience. The workout is largely guided by self-pacing and can be adjusted based on individual capability. However, the 30-minute length and potential for moderate exertion during high-speed sections leave room for some 'Intermediate' users, particularly those slightly more accustomed to regular exercise or those who wish to increase pace during these intervals. User comments about using variable speeds for interval training support this classification."
+}

@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Weight workout",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    },
+    {
+      "name": "Body weight",
+      "score": 0.2
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The video was classified primarily under the 'Weight workout' category with a score of 0.9 due to the explicit mention of using dumbbells, as stated in both the title ('Dumbbell Workout') and description ('EQUIPMENT NEEDED - DUMBBELLS'). This indicates a strong presence of weight training as the central focus, aiming to build strength and boost metabolism. The high score reflects the explicit emphasis on using weights.\n\nAdditionally, the workout is classified under 'HIIT' with a score of 0.7. The description highlights a structure involving 'intense pushes and short rest sets,' as well as circuit training ('WORK: 45 SECONDS REST: 10 SECONDS'), which align closely with High-Intensity Interval Training formats. This classification is supported by the emphasis on metabolic conditioning\u2014often a hallmark of HIIT workouts.\n\nThere is a minimal score of 0.2 for 'Body weight' exercises, as the workout is a full body session and may involve body weight movements as part of the circuits, though the primary emphasis is on weight lifting. The structure of 'full body focused circuits' suggests some non-weight exercises might be included, hence a minor inclusion.\n\nOther categories like 'Mat', 'Yoga', or 'Pilates' were excluded due to the lack of any mention of floor exercises or postural techniques. Similarly, categories like 'Stretching' or 'Meditation' are not relevant in this context."
+}

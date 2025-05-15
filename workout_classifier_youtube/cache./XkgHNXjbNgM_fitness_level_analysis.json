@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout contains simple bodyweight exercises as mentioned in the description, such as lunges, high knee twists, and tricep dips, which fall into the 'Beginner' category due to their straightforward nature and minimal coordination requirements. Some exercises like lunges might require a bit more coordination, nudging the score slightly into 'Intermediate'.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The video's short duration of 11 minutes and its purpose as a post-meal workout suggest a low intensity, designed to avoid discomfort from a full stomach, aligning with 'Light' effort. However, the presence of lunges and tricep dips can increase energy expenditure, slightly supporting a 'Moderate' effort classification.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.75
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.75,
+  "requiredFitnessLevelExplanation": "The combination of simple exercises and the video's positioning as a gentle, post-meal workout make it suitable for 'Beginner', with a moderate inclusion for 'Intermediate' due to exercises like lunges that might demand a bit more effort or technique for very deconditioned users. The classification is skewed towards 'Beginner' due to the workout's accessible nature."
+}

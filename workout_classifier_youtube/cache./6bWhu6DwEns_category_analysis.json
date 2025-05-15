@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Pilates",
+      "score": 1.0
+    },
+    {
+      "name": "Mat",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The primary category assigned to this workout is 'Pilates' with a high confidence score of 1.0. This classification stems from several clear indicators throughout the metadata: the title explicitly mentions 'FULL BODY PILATES WORKOUT FOR BEGINNERS' and the tags are heavily focused on Pilates-related terms such as 'beginners pilates', 'at-home pilates workout', and 'full body pilates workout'. Additionally, the description of the video confirms it is 'a 20 min full body pilates workout for beginners'. The comments reflect viewer experiences typical for Pilates, mentioning phrases like 'the right level', 'raise my mood', and 'build a healthy spine'. \n\nThe secondary category 'Mat' is considered with a moderate score of 0.5. This is based on the description stating 'no equipment workout', suggesting a mat-based exercise routine typically associated with Pilates. However, since the video clearly categorizes itself as Pilates, 'Mat' is a secondary consideration rather than a primary classification."
+}

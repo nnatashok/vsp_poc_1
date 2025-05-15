@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The technique for using an elliptical machine is typically simple, requiring basic rhythmic movement of the arms and legs with the added stability of holding onto the machine handles. The description emphasizes intervals rather than complex movements. As a result, the technique difficulty aligns strongly with 'Beginner' due to its simplicity, but also has some 'Intermediate' alignment due to increased coordination necessary at higher resistance levels.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.8
+    },
+    {
+      "level": "Challenging",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is described as 'high intensity' and includes controlled intervals with resistance levels between 6-8, which is moderate for intermediate users but can be challenging for beginners. The short duration of the workout at 15 minutes (which includes warm-up and cooldown) keeps the overall effort from reaching 'Extreme'. The context suggests a moderation in energy expenditure for those less fit, partly due to customizable resistance.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The metadata indicates that the workout is intended for an intermediate level, but the use of an elliptical allows for modifications in resistance, making this accessible to both beginners and advanced users. Beginners may require lower resistance and more rest, while advanced users can push resistance high. Feedback from a 65-year-old recovering from serious injury and regularly participating underscores broad suitability. Thus, it is rated primarily 'Intermediate', but includes 'Beginner' and 'Advanced' due to the potential range of intensity adjustments."
+}

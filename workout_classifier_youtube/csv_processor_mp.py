@@ -39,7 +39,7 @@ def analyze_workout(args):
     Returns:
         dict or None: Analysis results or None if failed
     """
-    url, youtube_api_key, openai_api_key, enabled_features, process_id = args
+    url, youtube_api_key, openai_api_key, cache_dir, enabled_features, process_id = args
 
     if not is_youtube_url(url):
         print(f"Process {process_id}: Skipping invalid URL: {url}")
@@ -67,6 +67,7 @@ def analyze_workout(args):
         print(f"Process {process_id}: Analyzing workout: {url}")
         result = analyze_youtube_workout(
             url,
+            cache_dir=cache_dir,
             youtube_api_key=youtube_api_key,
             openai_api_key=openai_api_key,
             force_refresh=False,
@@ -174,7 +175,8 @@ def write_results_to_csv(results, output_csv_path):
     return unique_results
 
 
-def process_workouts_csv_mp(input_csv_path, output_csv_path, max_workouts=None, num_processes=10,
+def process_workouts_csv_mp(input_csv_path, output_csv_path, cache_dir,
+                            max_workouts=None, num_processes=10,
                             enable_category=True, enable_fitness_level=True,
                             enable_vibe=True, enable_spirit=True, enable_equipment=True):
     """
@@ -290,7 +292,7 @@ def process_workouts_csv_mp(input_csv_path, output_csv_path, max_workouts=None, 
     for i, batch in enumerate(url_batches):
         # Flatten the batch into individual tasks with process ID
         for url in batch:
-            process_args.append((url, youtube_api_key, openai_api_key, enabled_features, i))
+            process_args.append((url, youtube_api_key, openai_api_key, cache_dir, enabled_features, i))
 
     # Process URLs in parallel using a pool with progress bar
     print(f"Starting parallel processing with {actual_processes} processes")
@@ -335,15 +337,24 @@ def process_workouts_csv_mp(input_csv_path, output_csv_path, max_workouts=None, 
 
 
 if __name__ == "__main__":
+    # Set up relative locations
+    current_dir = os.path.dirname(__file__)
+    parent_dir = os.path.dirname(current_dir)
+    ouput_file = os.path.join(current_dir,"workouts_analyzed.csv")
+    input_file = os.path.join(current_dir,"all_workouts_1.csv")
+    cache_dir = os.path.join(current_dir, "cache.")
+
     # Set up command line argument parsing
     parser = argparse.ArgumentParser(description='Process YouTube workout videos from a CSV file using multiprocessing')
-    parser.add_argument('--input', type=str, default="all_workouts_1.csv",
+    parser.add_argument('--input', type=str, default=input_file,
                         help='Path to input CSV file containing YouTube URLs')
-    parser.add_argument('--output', type=str, default="workouts_analyzed.csv",
+    parser.add_argument('--output', type=str, default=ouput_file,
                         help='Path to output CSV file for analysis results')
-    parser.add_argument('--max', type=int, default=None,
+    parser.add_argument('--cachedir', type=str, default=cache_dir,
+                        help='Path to cache')
+    parser.add_argument('--max', type=int, default=1000,
                         help='Maximum number of workouts to process')
-    parser.add_argument('--processes', type=int, default=10,
+    parser.add_argument('--processes', type=int, default=None,
                         help='Number of parallel processes to use')
     parser.add_argument('--no-category', action='store_false', dest='category',
                         help='Disable workout category analysis')
@@ -366,13 +377,14 @@ if __name__ == "__main__":
     results = process_workouts_csv_mp(
         input_csv_path=args.input,
         output_csv_path=args.output,
+        cache_dir=args.cachedir,
         max_workouts=args.max,
         num_processes=args.processes,
         enable_category=args.category,
         enable_fitness_level=args.fitness_level,
         enable_vibe=args.vibe,
         enable_spirit=args.spirit,
-        enable_equipment=args.equipment
+        enable_equipment=args.equipment,
     )
 
     # Cannot use results directly here as they are deduplicated in write_results_to_csv function

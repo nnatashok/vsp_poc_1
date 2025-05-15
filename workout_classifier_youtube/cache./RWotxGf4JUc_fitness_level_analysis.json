@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The video is titled '15 Min Yoga for Men: Full Body Morning Stretch - Morning Yoga Flow,' suggesting a mix of movements typically found in beginner yoga sessions. The tags include 'yoga for beginners,' 'yoga for complete beginners,' and 'basic beginner yoga,' indicating the workout is likely accessible to beginners. However, user comments describe the session as one of the 'most difficult yoga' experiences and inquire about specific form checks, suggesting some intermediate complexity, particularly in poses like lunges and pigeon stretches. This supports a classification crossing both Beginner and Intermediate technique levels.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout is a 15-minute session described as 'dynamic yoga flow' designed to 'boost your energy, strength & flexibility.' While 'dynamic' and 'flow' suggest some ongoing movement, the duration is short, typically classifying it as light effort. User comments about the session's difficulty suggest that it might be more exerting than a static or restorative routine, offering some moderate effort indications, such as increased cardiovascular demand during flow sequences, pushing the classification slightly into the moderate range.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    },
+    {
+      "level": "Advanced",
+      "score": 0.2
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "Given the yoga session caters to 'yoga for complete beginners' and is only 15 minutes long, it primarily fits the Beginner fitness level. Intermediate fitness levels are justified by explicit user feedback on the workout's complexity and difficulty, and the dynamic nature may challenge those new to fitness. The inclusion of 'Intermediate' is supported by mentions of muscle engagement in comments and descriptions, as some users found it very challenging. Although some elements may touch on advanced concepts due to complex poses like pigeon stretch, these are too few to strongly cater to advanced users overall. Therefore, a small score for Advanced is included to account for these elements."
+}

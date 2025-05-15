@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout includes a range of calisthenics exercises such as pull-ups, dips, and push-ups, which require moderate body coordination and technique mastery. Things like negative pull-ups and L-sits suggest a need for more strength and control, which aligns with intermediate difficulty. Exercises like muscle-ups, although not explicitly listed, are common in calisthenics and would push the technique difficulty toward advanced.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.65
+    },
+    {
+      "level": "Challenging",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The video duration is just over 14 minutes, pointing to a moderate level of effort. Given the exercises mentioned (pull-ups, L-sits, dips), the energy expenditure is likely moderate to challenging, with short rest periods inferred from a fast-paced workout style typical of calisthenics routines. Comments about sticking through imply significant, though not extreme, effort.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The workout involves a mix of exercises that require some basic form and strength (e.g., pull-ups, dips), nudging it beyond complete beginner level, but still accessible with modifications (such as knee push-ups or assisted pull-ups). Multiple levels were included given potential modifications users can make and the varying complexity within calisthenics. Metadata highlighting exercise progressions (e.g., negative pull-ups) further support inclusion of intermediate and advanced levels."
+}

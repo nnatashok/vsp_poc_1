@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Calisthenics",
+      "score": 1.0
+    },
+    {
+      "name": "Mat",
+      "score": 0.5
+    },
+    {
+      "name": "Body weight",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The primary category assigned is 'Calisthenics' with a score of 1.0. This is due to the explicit mention in the video title 'Follow Along 20 Minute Beginner Calisthenics Home Workout', detailed tags such as 'beginner calisthenics workout', and the description discussing a focus on calisthenics routines at home. \n\nThe secondary category is 'Body weight' with a score of 0.6. Although not explicitly mentioned, body weight exercises are implicit in calisthenics routines, as indicated by phrases like 'calisthenics workout at home no equipment' in the tags and description, suggesting exercises are performed using body weight resistance.\n\n' Mat' is included with a score of 0.5 since the description suggests using a mat for the workout, indicating it occurs on the ground. However, it's secondary to the calisthenics element, which is the primary focus.\n\nThe high confidence rating of 0.95 arises from strong corroborative evidence across all metadata sources explicitly stating calisthenics involvement, including the highly relevant channel's emphasis on strength and calisthenics training."
+}

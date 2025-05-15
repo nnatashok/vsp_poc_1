@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The technique difficulty is rated primarily as Beginner due to the straightforward nature of a 'gentle flow' yoga routine aimed at beginners. The use of yoga blocks suggests an easing into poses, making them accessible to newcomers. While some yoga poses may require minor coordination, the emphasis on support through blocks ensures simplicity and reduces complexity, which aligns with Beginner-level techniques. There's a minor overlap into Intermediate due to the potential variability in how individuals perceive yoga poses and flow continuity.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.85
+    },
+    {
+      "level": "Moderate",
+      "score": 0.35
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The effort difficulty is primarily Light as the yoga routine is described as gentle, designed for beginners, and involves holding poses for 3-5 breaths to focus on relaxation and flexibility rather than intensity. The use of blocks further reduces physical demand, allowing adjustments for comfort and ease, aligning with a Light effort level. It marginally touches on Moderate, considering that any physical activity might slightly elevate effort levels for very deconditioned individuals.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.95
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.25
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The workout is strongly aligned with the Beginner fitness level, as explicitly stated in the title and description, and through tags like 'yoga for beginners' and 'gentle yoga flow'. This classification is supported by the gentle nature and the use of props, which make the practice accessible. The Intermediate level is included but at a lower score to account for slightly more capable beginners or those refining basic yoga techniques, driven by the adaptable nature of yoga practices and the potential for different engagement intensities."
+}

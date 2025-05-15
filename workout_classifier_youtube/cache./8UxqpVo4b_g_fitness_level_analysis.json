@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.85
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.55
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The video is explicitly targeted as a 'Beginner full body calisthenics' workout, suggesting very simple movements. The description mentions covering 'all the fundamental compound movements' which implies movements are basic and suitable for beginners, but can also offer a challenge for slightly more experienced users aiming for proficiency, hence a secondary score for intermediate. The tagged term 'beginner routine' supports this classification. There is no explicit mention of complex movements requiring advanced coordination or balance.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.9
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout is designed to be beginner-friendly and is only 9:31 minutes long, indicating a light effort level as there is limited duration for high energy expenditure. However, the routine involves circuit training which can introduce a moderate level of effort due to continuous exercise flow without extended rest. The description points to the efficiency of the workout, aligning with moderate effort classification for beginners.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.95
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "The technique difficulty and effort difficulty strongly point to a beginner-friendly workout, as it introduces fundamental movements designed to prepare for future strength training without complex exercises. The metadata consistently labels this as a beginner routine, but considering it involves basic compound movements, which could engage users with minimal experience more effectively, a secondary level of intermediate is justified. This workout can cater to those transitioning from complete physical inactivity to engaging in structured exercise."
+}

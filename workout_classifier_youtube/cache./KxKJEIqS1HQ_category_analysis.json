@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Running",
+      "score": 1
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    },
+    {
+      "name": "Treadmill",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary category identified for this workout is 'Running,' with a score of 1.0, due to explicit references in the title, tags, and description. The video is a '20-Minute Interval Run Workout,' and the channel, 'The Run Experience,' focuses on running training. Tags like 'running workout,' 'interval run workout,' and numerous mentions of 'running' in the tags and comments confirm running is the central activity.\n\nA secondary category is 'HIIT,' with a score of 0.6. The workout is structured as interval training, which is a hallmark of HIIT, incorporating varying speeds and rest periods ('pyramid style') as described.\n\n'Treadmill' is considered with a score of 0.4 because the tags include 'treadmill workout' and 'indoor running workouts,' suggesting users might engage in this workout on a treadmill. However, there's less direct evidence in the metadata compared to 'Running' and 'HIIT,' leading to a lower confidence score for 'Treadmill.'\n\nOverall confidence is high due to explicit categorization cues and consistent user feedback reinforcing the identification of the workout as running-focused."
+}

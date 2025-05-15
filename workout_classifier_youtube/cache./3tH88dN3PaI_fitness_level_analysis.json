@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The technique difficulty is assessed as a mix of Beginner and Intermediate levels. Pilates exercises, designed for abs and core work, generally involve controlled movements that require some awareness and body control, suggesting Intermediate complexity. However, given the lack of equipment and focus on pilates, the actual movement complexity might still align well with Beginner techniques. Descriptive phrases like 'sculpt and tone,' and user comments such as 'burns like crazy but manageable' suggest varying levels of perceived difficulty but ultimately indicate moderate coordination demands.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "Effort difficulty is classified predominantly as Moderate due to the short duration of 6 minutes, focusing on ab exercises which can be intense but are limited in time, reducing overall energy expenditure. The workout is described as intense and intended to 'burn belly fat,' which aligns more with the Challenging spectrum for less fit individuals. Comments suggesting the workout 'burns' but is 'manageable,' along with hints of needing breaks, support the Moderate to Challenging classification.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    },
+    {
+      "level": "Advanced",
+      "score": 0.2
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.75,
+  "requiredFitnessLevelExplanation": "The required fitness level leans towards Intermediate, with some Advanced considerations due to user comments about the intensity and needing breaks, which may present challenges for absolute beginners. The mention of the workout being intense and burning suggest the need for some baseline fitness, pushing towards Intermediate. Multiple levels have been included as users can modify intensity and pace, allowing completion with varying levels of conditioning. The simplistic nature of Pilates and the brief workout duration also permit Beginner levels to attempt the exercises with adjustments."
+}

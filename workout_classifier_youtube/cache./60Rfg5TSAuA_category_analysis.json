@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.95
+    },
+    {
+      "name": "Body weight",
+      "score": 0.75
+    },
+    {
+      "name": "Mat",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary category chosen is 'HIIT' with a score of 0.95, as the title, description, and tags explicitly state 'HIIT.' The video mentions high-intensity interval training principles with exercises like 'Gorilla Burpees,' 'Mountain Climbers,' and 'Plank Jack to Jumping Jack,' which are typical HIIT components involving bursts of intense activity. Comments also confirm the intense nature of the workout.\n\n'Body weight' is the second category with a score of 0.75. The description clearly states 'no equipment needed,' and the exercises listed are calisthenic in nature (e.g., 'Push Ups,' 'Squats'), relying on body weight resistance.\n\nThe 'Mat' category is included with a score of 0.6 because the exercises primarily involve ground work, such as 'Floor Push Ups' and 'Lying Leg Raises,' indicating a workout likely performed on an exercise mat. However, the focus on intensity and interval training makes HIIT more central.\n\nOther categories like 'Weight workout' and 'Elliptical' were excluded due to the explicit no equipment requirement and the focus on aerobic and calisthenic exercises."
+}

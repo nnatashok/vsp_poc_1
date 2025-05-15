@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Pull-up bars",
+      "confidence": 0.8
+    },
+    {
+      "equipment": "Other",
+      "confidence": 0.6
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout in question is primarily a calisthenics routine, which suggests minimal reliance on traditional gym equipment. The presence of exercises such as 'Chin Ups,' 'Commando One Arm Negatives,' and 'Head Bangers' in the top comments implies the use of Pull-up bars, as these exercises typically require something to hang from for effective performance. The confidence level for Pull-up bars is very high at 0.8 because these are standard exercises in a calisthenics regimen and strongly associated with bar-based workouts.\n\nAdditionally, the DESCRIPTION and TAGS mention a 'Weight Vest,' which implies another piece of equipment not listed in the standard options. The weight vest appears to be an optional addition to increase workout intensity, which justifies its inclusion under 'Other' with a moderate confidence score of 0.6, given its specific mention in both the video description and user comments."
+}

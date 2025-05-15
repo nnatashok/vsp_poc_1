@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Body weight",
+      "score": 0.8
+    },
+    {
+      "name": "Mat",
+      "score": 0.6
+    },
+    {
+      "name": "Stretching",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary classification of the workout video is 'Body weight', scored at 0.8. This is derived from the explicit mention in the title and description of a 'No Equipment Full Body Exercise', indicating exercises performed using body weight as resistance. The description further lists exercises targeting various body parts (arms, legs, chest, belly, core, butt), supporting this category. \n\nThe 'Mat' category is relevant, scored at 0.6, given the context of a 'home workout'. It's reasonable to infer that such exercises are often executed on an exercise mat, especially since specific exercises such as 'arms exercises', 'legs exercises', and 'core exercises' are involved, which typically require floor engagement.\n\nFinally, a score of 0.4 is assigned to 'Stretching'. The description mentions 'pre and post-workout stretching', indicating that stretching is part of the routine, but not the primary focus.\n\nThe video is not categorized under 'HIIT' or 'Weight workout' as there's no mention of high-intensity intervals or use of weights."
+}

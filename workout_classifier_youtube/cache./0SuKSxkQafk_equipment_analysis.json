@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Treadmill",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The metadata strongly indicates that a treadmill is required for the workout. The title explicitly mentions '60 Min Treadmill Run,' and the description confirms it is a 'guided treadmill run.' Tags such as 'treadmill run,' 'treadmill workout,' and 'indoor running' reinforce the central role of a treadmill in this workout. The confidence score for requiring a treadmill is very high (1.0) since it is clearly essential to the workout. There is no mention of other equipment in the metadata, suggesting the treadmill is the sole equipment needed."
+}

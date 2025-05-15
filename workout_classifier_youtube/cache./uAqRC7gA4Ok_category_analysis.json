@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Body weight",
+      "score": 0.9
+    },
+    {
+      "name": "Mat",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is classified primarily as a 'Body weight' session because the title and tags emphasize bodyweight exercises ('10 Minute Bodyweight Workout for Starters', 'bodyweight', 'Bodyweight Exercise'). The explicit mention of exercises such as push-ups, squats, and crunches in the tags further supports this classification. The use of 'Bodyweight resistance' and 'no gym required' indicates a focus on using one's own weight for resistance training.\n\nA secondary classification as a 'Mat' workout is considered because floor exercises like push-ups and crunches are typically performed on a mat ('crunches', 'abs exercises'). Although less central than the body weight classification, it complements the workout's format of floor-based exercises.\n\nGiven these points, the high confidence level is due to strong alignment with the bodyweight category, supported by explicit metadata references. The mat category is included with moderate confidence due to the nature of the exercises mentioned."
+}

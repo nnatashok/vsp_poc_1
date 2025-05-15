@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout consists of running on a treadmill, which is generally a straightforward activity. The technique involved is not complex, involving basic running mechanics. However, since it is a structured HIIT workout with varied speeds and durations, it requires the user to manage these changes, suggesting an Intermediate level. The tags also indicate it's suitable for beginners and intermediates, suggesting multiple fitness level applicability.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is a 20-minute HIIT session with varying paces, including base and pushing speeds, which increases the overall intensity. The presence of a 'hard push' indicates significant energy expenditure. User comments and the description suggest high intensity, supporting a Moderate to Challenging classification in effort difficulty, especially given the continuous effort with minimal recovery. The duration, just over 20 minutes, also influences this assessment.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "The workout is structured to include base pace running with progressive intensity increases, implying that beginners can participate at their own pace ('All speeds are suggestions'). This supports a Beginner level assignment. However, the structured HIIT nature and need for interval pacing closely align it more with Intermediate fitness levels. The inclusion of a 'hard push' section and longer intervals can be quite taxing for absolute beginners but suitable with adjustments, extending the classification to Advanced for those who wish to push harder with quicker speeds."
+}

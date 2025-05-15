@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Calisthenics",
+      "score": 0.95
+    },
+    {
+      "name": "Body weight",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The workout is categorized primarily as Calisthenics with a score of 0.95, based on explicit mentions in the title, tags, and description. The title '30 Min CALISTHENICS WORKOUT' and the tags such as 'calisthenics training', 'calisthenics exercises', and 'calisthenics workout' strongly indicate this is a calisthenics workout. The description further supports this with 'Calisthenics series' and phrases like 'build muscle, increase strength', emphasizing the calisthenics style of exercise.\n\nAdditionally, 'Body weight' is assigned a score of 0.7 because calisthenics inherently involves the use of body weight for exercises. Tags such as 'bodyweight calisthenics', 'bodyweight workout', and 'no equipment' further support the use of body weight as a central aspect of the workout. Although not explicitly mentioned, the absence of equipment and focus on exercise types typical in body weight training lead to this classification.\n\nNo other categories were applicable as there was no indication of equipment or focus areas related to other workout types, maintaining a high confidence level of 0.95 for the chosen categories."
+}

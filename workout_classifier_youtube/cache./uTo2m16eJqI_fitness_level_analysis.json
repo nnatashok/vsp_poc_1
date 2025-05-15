@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout is composed of basic cardio exercises like jumping jacks, which are typically characterized as 'beginner' due to their straightforward nature and low complexity. However, the inclusion of a variety of exercises in a rapid sequence without repeats, like in HIIT, necessitates some coordination and awareness, suggesting an 'intermediate' level also fits.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is labeled as 'intense' and includes 50-second work intervals with only 10-second breaks, which significantly increases effort. User comments noting high sweat levels and substantial weight-loss indicate a challenging physical demand for deconditioned individuals, despite the short duration.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.6
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.75,
+  "requiredFitnessLevelExplanation": "While technical difficulty leans heavily towards 'beginner', the intense nature of the HIIT workout implies it might still be difficult for completely unfit users, thus fitting 'intermediate'. The workout's intense pace and short rest periods, combined with user experiences reporting significant progress over time, justify including 'advanced', as these individuals are more likely to complete the session successfully without additional breaks."
+}

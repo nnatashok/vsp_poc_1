@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Body weight",
+      "score": 0.8
+    },
+    {
+      "name": "Mat",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The video is aptly classified under 'Body weight' due to its focus on exercises such as jumping jacks, bodyweight squats, push-ups, plank variations, and bicycle crunches, which all utilize body weight for resistance. The presence of phrases like 'no equipment or weights' in the title and description strongly supports this choice, earning it a high score of 0.8. \n\nThe 'Mat' category is also relevant, given the mat-adjacent nature of the exercises listed (like planks, superman, and pushups). However, the absence of explicit mention of using a mat and the focus on bodyweight control slightly lower the confidence level to 0.6.\n\nAlternative categories like 'HIIT' or 'Calisthenics' were considered but excluded due to the emphasis on general bodyweight work without the specific high intensity of HIIT, and the broader calisthenics category doesn't encapsulate the simplicity expressed in the metadata."
+}

@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.45
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout primarily involves dumbbell exercises such as presses, squats, and rows. These are basic dumbbell movements but require some coordination to maintain proper form, especially as highlighted by the mention of special cues for correct execution, which suggests a more mindful approach. Therefore, it fits both the Beginner and Intermediate categories, with a stronger alignment to Intermediate due to the importance of maintaining proper form.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.75
+    },
+    {
+      "level": "Challenging",
+      "score": 0.55
+    }
+  ],
+  "effortDifficultyConfidence": 0.6,
+  "effortDifficultyExplanation": "The workout is only 8 minutes long, which generally suggests lower physical demand. However, the exercises involve compound movements like squats and rows which are efficient for muscle building, thus slightly elevating the effort level from 'Light'. The community feedback of people experiencing noticeable results and increased weights suggests that the effort required is beyond minimal, thus fitting well into the 'Moderate' category and somewhat into 'Challenging'.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.6,
+  "requiredFitnessLevelExplanation": "Considering the 8-minute duration, basic dumbbell exercises, and moderate technique requirement, the workout is accessible to 'Beginner' and 'Intermediate' users. However, the emphasis on proper form to avoid injury and the feedback of older adults successfully increasing weights suggest it caters strongly to those with some initial fitness capability ('Intermediate'). Advanced users may find it useful as part of a broader regime."
+}

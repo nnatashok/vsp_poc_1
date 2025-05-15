@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Body weight",
+      "score": 0.5
+    },
+    {
+      "name": "Mat",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is strongly classified as HIIT due to explicit mentions in the title, tags, and description, indicating it is a 'Full Body CARDIO HIIT Workout.' The channel Juice & Toya is known for such types of high-intensity workouts. HIIT is further confirmed by the mention of 'high intensity, strength, cardio, and plyometric movements' in the description. Given the phrase 'no equipment' and 'strength,' body weight exercises are likely used extensively, justifying the Body weight category, with a score of 0.5. The inclusion of 'low impact version' suggests some exercises are modified to be done on the floor or with a mat, which supports a mild presence of Mat exercises, hence a score of 0.3. The video does not clearly indicate the use of weights, machines, or heavy equipment, reducing the likelihood of weight workouts or use of gym machines."
+}

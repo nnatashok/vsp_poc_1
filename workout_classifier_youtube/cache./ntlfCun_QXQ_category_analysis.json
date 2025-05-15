@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Pilates",
+      "score": 0.9
+    },
+    {
+      "name": "Mat",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is classified primarily under 'Pilates' with a high score of 0.9 based on the explicit mention of 'Pilates' in the video title (\"6 Min Daily Pilates Abs Workout\"), tags (e.g., 'pilates abs workout', 'pilates for abs'), and description. The channel, Jenna Collins Fitness, also consistently mentions Pilates as a featured workout style. The instructions and structure typical to Pilates are reinforced by comments indicating users felt their abs working intensely, a common goal in Pilates-focused routines. \n\nThe 'Mat' category is assigned with a moderate score of 0.6 because the workout is described as requiring 'No Equipment,' implying exercises performed on the floor, which often correlates with mat workouts. \n\nOther categories were considered but excluded. For example, 'Body weight' could apply but was not chosen because the focus is explicitly Pilates, a distinct exercise method. 'Weight workout' and 'HIIT' are irrelevant due to the lack of equipment and the absence of interval intensity cues respectively."
+}

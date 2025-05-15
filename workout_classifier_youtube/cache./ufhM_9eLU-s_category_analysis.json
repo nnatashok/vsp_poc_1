@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Treadmill",
+      "score": 0.9
+    },
+    {
+      "name": "Running",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The analysis of the video metadata indicates a strong classification as a 'Treadmill' workout due to the repeated and explicit mention of 'treadmill' in the title, tags, and description. The description details a 20-minute interval workout conducted on a treadmill, involving walking, jogging, and running intervals, confirming a 0.9 score for the Treadmill category due to the centrality of this equipment.\n\nAdditionally, there is significant evidence supporting the 'Running' category. The workout's focus on transitioning from walking and jogging to running intervals suggests running as a core component of the activity. The inclusion of 'Beginner running on treadmill' in the tags and comments from users highlighting their engagement in running reinforces this classification. However, since running is performed on a treadmill rather than outdoors, the score is slightly lower, at 0.7.\n\nOther potential categories such as 'Walking' were considered but excluded due to the emphasis on variety in pace and the transition to jogging and running, rather than a sustained walking workout."
+}

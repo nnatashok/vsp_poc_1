@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout involves dumbbell exercises, which typically require a moderate level of coordination and stability. The use of 15-45 lb dumbbells and the description suggests moderately heavy lifting, indicating a technique level that fits broadly within intermediate difficulty. Some users might find heavier weights and complex movements aligning with advanced difficulty as well. Therefore, the technique difficulty is mainly classified as Intermediate, with some scope for Advanced.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    },
+    {
+      "level": "Extreme",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The 30-minute duration, the use of heavy weights, and the metabolic conditioning nature of the workout imply it is highly effortful. Short rest periods (10 seconds) and longer sets (45 seconds) contribute to a high-intensity session, fitting the 'Challenging' category strongly. 'Extreme' difficulty is also considered due to the mention of toughness and intense pushes in the description, although it is less emphasized. Thus, it is predominantly Challenging but somewhat touching the Extreme level for less conditioned individuals.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.3
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.8
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.78,
+  "requiredFitnessLevelExplanation": "Given the technique and effort difficulties, the workout is most suitable for Intermediate and Advanced levels. However, because users can select their weights and potentially modify based on their pace (an adjustable element present in the workout), a Beginner level is still feasible but less recommended, reflected in a lower score. The 30-minute duration and heavy weight call for Intermediate to Advanced levels, but considering possible modifications, the Beginner level is also marginally applicable for those willing to lower weights and intensity."
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.95
+    },
+    {
+      "name": "Indoor biking",
+      "score": 0.95
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The video is classified as both HIIT and Indoor biking based on strong evidence from the metadata. The title directly mentions 'HIIT Cardio Indoor Cycling Workout', and the description provides a detailed session breakdown featuring intense periods (rated by exertion scale, such as 8/10 and 10/10) and shorter easy spins, characteristic of High-Intensity Interval Training. Tags like 'HIIT,' 'high intensity,' 'interval,' 'sprint,' and 'intervals' further confirm the HIIT classification with a score of 0.95 due to its explicit and central focus. \n\nRegarding Indoor biking, the title and channel name ('GCN Training') strongly suggest cycling, corroborated by phrases in the description like 'cycling workout', '2 Min over threshold,' and use of cycling equipment ('turbo trainer'), evidenced by tags such as 'spinning,' 'cycling,' 'indoor cycling,' and 'spin class.' This dual focus on cycling is scored at 0.95, indicating a very high confidence in its categorization. The channel's emphasis on free bike workout classes reinforces these classifications."
+}

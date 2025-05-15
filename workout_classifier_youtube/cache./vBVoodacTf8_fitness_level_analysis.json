@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The technique difficulty is rated as Intermediate due to the nature of treadmill sprints which require coordination and some balance, but are generally straightforward. The control settings like speed and incline adjustments add a layer of complexity compared to simpler exercises like walking or stationary cycling, thereby positioning the workout as intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The effort difficulty is rated as Challenging due to the high-intensity interval training structure, involving 8 rounds of 30-second all-out sprints with 90-second low-intensity recovery periods. This setup demands significant energy expenditure with minimal rest, leading to a challenging cardio workout, especially for deconditioned users. The description mentions 20 minutes of intense training, further supported by user testimonials highlighting weight and fitness improvements over time.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.6
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The required fitness level is assessed to include Beginner, Intermediate, and Advanced due to the modifiable nature of treadmill workouts where users can adjust speeds to match their fitness capabilities. The 20-minute duration skews the classification towards Intermediate, while user comments indicate a wide range of participation levels. Beginners may attempt this with cautious speed adjustments, while intermediate and advanced users would engage fully, supported by the metadata and comments describing significant fitness progress using this video."
+}

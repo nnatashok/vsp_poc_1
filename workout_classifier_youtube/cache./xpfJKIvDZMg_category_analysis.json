@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Elliptical",
+      "score": 1.0
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary category for this workout is 'Elliptical' since the video is explicitly described as a 'Beginner Elliptical Workout' in both the title and description. Tags such as 'elliptical workout,' 'elliptical machine,' and 'elliptical trainer' with over 403 tag matches reinforce the focus on elliptical training, confirming a score of 1.0 for this category. \n\nA secondary category is 'HIIT' due to the description of alternating intervals of speed and resistance, typical characteristics of HIIT workouts. The use of speed and resistance intervals, along with recovery periods, aligns well with HIIT's core principles, albeit at a beginner level. Hence, this was assigned a score of 0.6 reflecting its presence but not as the central element. The regular recovery intervals described echo the concept of intense bursts typical in HIIT. Despite this, the workout's label as 'beginner' and the relatively moderate descriptions suggest a somewhat lower intensity compared to typical HIIT sessions. \n\nOther categories such as 'Mat,' 'Indoor biking,' or 'Weight workout' were excluded due to lack of direct relevance in the metadata."
+}

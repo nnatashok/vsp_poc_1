@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The video is an \"Introduction to Pilates,\" specifically indicated as suitable for beginners. Pilates typically involves controlled movements requiring some degree of coordination and technique, which increases the technique difficulty slightly beyond absolute beginner levels. However, due to its emphasis as a gentle, slow-paced introduction, the primary technique difficulty aligns with beginner levels, with a minor overlap into intermediate because of basic Pilates technique requirements.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.85
+    },
+    {
+      "level": "Moderate",
+      "score": 0.15
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is described as very gentle, slow-paced, and low-impact, suggesting a low energy expenditure, aligning with the 'Light' effort difficulty. This is further supported by terms like 'suitable for people with low fitness levels' and 'low-risk of injury.' The session duration of 31 minutes slightly raises the effort potential to 'Moderate,' but the initial description clearly emphasizes low intensity, making 'Light' the predominant level with a touch of moderation due to duration.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.9,
+  "requiredFitnessLevelExplanation": "Given the clearly stated target audience of complete beginners and those with low fitness levels, the required fitness level is primarily 'Beginner.' However, because Pilates requires some technique and awareness, there is a minor degree of skill ('Intermediate') needed for maintaining proper form and balance throughout a 31-minute session. Despite this, the accessibility and encouragement noted in user comments and description strongly favor a beginner-level suitability with slight potential crossover for slightly more experienced users."
+}

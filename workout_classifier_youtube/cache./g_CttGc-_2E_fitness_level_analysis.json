@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout consists of basic movements such as squats and push-ups, which are identified as beginner-friendly due to their straightforward execution. However, inclusion of movements like mountain climbers and lunges adds slight complexity, which can challenge coordination and body awareness, thus supporting an intermediate classification as well.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "With a duration of over 30 minutes and exercises designed to target multiple muscle groups, the workout is moderately demanding, especially due to the cumulative fatigue from circuit training. The effort level can further be deemed challenging for deconditioned individuals as indicated by user comments highlighting difficulty. A 40-second work to 20-second rest ratio also aligns with this dual scoring.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "Despite being labeled as an 'Absolute Beginner' workout, the difficulty derived from the duration and circuit structure suggests intermediate fitness might handle it better. Feedback denotes this perception, with some users struggling initially but adjusting with time, confirming that intermediate-level users will find it accessible, allowing both beginner and intermediate classifications."
+}

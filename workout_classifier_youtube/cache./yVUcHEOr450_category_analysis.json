@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Mat",
+      "score": 0.5
+    },
+    {
+      "name": "Body weight",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category assigned is 'HIIT' with a high score of 0.9. This is strongly supported by the metadata, including the title ('45 MIN CARDIO HIIT Workout'), tags ('HIIT,' 'High intensity, interval training'), and description ('45 minute Intense Cardio HIIT Workout', 'Intervals: 45s On / 15s Rest'). These details highlight the interval and high-intensity nature characteristic of HIIT workouts. 'Body weight' is another relevant category with a score of 0.6, as the workout is specified as 'No Equipment,' indicating reliance on body weight exercises. Lastly, 'Mat' is considered with a score of 0.5 due to the at-home setting and absence of equipment, suggesting exercises likely performed on a mat, though specific exercises are not detailed, leading to moderate confidence in this category. Other categories, such as 'Weight workout' or 'Treadmill,' are excluded due to the lack of equipment and specific mentions of such activities."
+}

@@ -350,6 +350,8 @@ if __name__ == "__main__":
                         help='To include poster image as model input')
     parser.add_argument('--include-websearch', action='store_true', dest='websearch',
                         help='To include selenium websearch for tracks in playlist')
+    parser.add_argument('--processes', type=int, default=None,
+                        help='Number of parallel processes to use')
     
     # Set default values for boolean arguments
     parser.set_defaults(vibe=True, spirit=True, image=False, websearch=False)
@@ -366,8 +368,8 @@ if __name__ == "__main__":
         enable_web_search=args.websearch,
         enable_vibe=args.vibe,
         enable_spirit=args.spirit,
-        include_image=args.image ,
-        num_processes=4 #!
+        include_image=args.image,
+        num_processes=args.processes
     )
 
     # Cannot use results directly here as they are deduplicated in write_results_to_csv function

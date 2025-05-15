@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The technique difficulty of the workout is rated primarily as 'Beginner' with a score of 0.7 due to the focus on passive stretching exercises such as Wall Doll, Cliffhanger, Blaster, Block Noodle, and Lightning Bolt poses. These are described as simple and pragmatic, which aligns with beginner-level technique. However, the detailed focus on breathing and posture as essential components raises the complexity slightly, warranting an 'Intermediate' score of 0.5, since maintaining proper form in stretches can be more demanding.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.65
+    },
+    {
+      "level": "Challenging",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "Considering the workout's design as a supplementary, post-exercise routine meant to stretch deeply and affect the soft tissues, the primary effort difficulty is 'Moderate' with a score of 0.65. Although the workout targets flexibility rather than intense physical demand, the description mentions it is 'NOT easy' and specifically uses 'intense stretching,' which can be physically demanding compared to light stretching, justifying a secondary classification as 'Challenging' with a score of 0.4.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The required fitness level logically derives from the technique and effort difficulty ratings. The straightforward and instructionally supported nature of the poses suggests that beginners can benefit, reflected by a strong alignment score of 0.8 for 'Beginner'. Furthermore, due to the emphasis on breathing and posture details, along with the moderate effort due to deeper stretching, an 'Intermediate' level is applicable with a score of 0.6, accommodating slightly more experienced users seeking to enhance flexibility."
+}

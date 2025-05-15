@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Pilates",
+      "score": 0.9
+    },
+    {
+      "name": "Mat",
+      "score": 0.75
+    },
+    {
+      "name": "Stretching",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout video is classified into three categories: 'Pilates,' 'Mat,' and 'Stretching.' The title and tags explicitly mention 'Pilates,' 'cardio,' and 'abs,' indicating a strong presence of Pilates exercises with a focus on cardiovascular and abdominal workouts. The description and channel information reinforce this, highlighting the instructor's certification and background in Pilates. Therefore, 'Pilates' is assigned a high score of 0.9 due to its central role in both content and instructor expertise. The use of a mat, as indicated by the description mentioning 'Mat from Liforme,' suggests that exercises are performed on a mat, justifying a score of 0.75 for the 'Mat' category. Although 'Stretching' is noted briefly in the title ('Stretch Included'), it is a less prominent aspect of the workout, thus receiving only a 0.4 score. Comments further support the instructor's specialization in Pilates, though no other categories such as 'HIIT' or 'Weight workout' match well with the content described."
+}

@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is focused on Pilates, as indicated by both the video title ('TONE WITH PILATES'), multiple mentions within the description, tags like 'mat pilates', and comments. Pilates workouts typically require a mat for comfort and support as exercises often involve floor-based movements. The description mentions 'complete mat pilates exercise', strongly implying the use of a mat. No other equipment is explicitly mentioned or implied in the metadata, which suggests that the workout is primarily bodyweight but requires a mat to perform the exercises effectively and comfortably. Therefore, I have assigned a very high confidence score of 0.9 to the requirement of a mat."
+}

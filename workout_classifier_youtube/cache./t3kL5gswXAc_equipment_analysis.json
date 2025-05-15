@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Dumbbells",
+      "confidence": 1.0
+    },
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout video is titled '30 min Full Body Resistance Training with Dumbbells,' and the description explicitly lists dumbbells as necessary equipment, specifying a range from 10lbs to 45lbs, which confirms their essential role in the workout. This provides a very high confidence level of 1.0 for dumbbells being indispensable for the workout.\n\nAdditionally, the description mentions an 'exercise mat' under 'EQUIPMENT NEEDED,' which indicates that a mat is recommended for the workout, likely for comfort during floor exercises like pushups, dead bugs, and reverse crunches. This results in a high confidence score of 0.9 for the mat since it is explicitly mentioned, albeit not as prominently as the dumbbells.\n\nNo other equipment is mentioned in the description or evident in the structure, exercise list, or comments, suggesting that no further equipment is necessary beyond the dumbbells and mat for the workout."
+}

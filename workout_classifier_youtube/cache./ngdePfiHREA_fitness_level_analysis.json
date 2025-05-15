@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The video is primarily focused on stretching exercises, which are generally straightforward and accessible to beginners. The title and description explicitly mention that it is suitable for beginners and intermediate users, with the content likely including simple stretching movements. The tags and comments also support this with mentions of flexibility and stretching for seniors. There is no indication of advanced techniques or complexity beyond intermediate level.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.9
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is a 20-minute stretching routine, typically implying a low physical intensity compared to more dynamic or strength-based workouts. While stretching requires some effort, it is predominantly at a light level, particularly when targeted at beginners and intermediates. However, a moderate effort score is considered due to its length (20 minutes) and potential for some challenging flexibility demands for less fit users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.75
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "Given that the workout is a 20-minute stretching routine aimed at both beginners and intermediates, the required fitness level includes both groups with a high confidence score. The length of the video suggests some endurance capability might be needed, hence the inclusion of intermediate level. Advanced level is also considered, albeit with a lower score, to account for users seeking improved flexibility or deeper stretching challenges, as indicated by intermediates being a target audience in the metadata."
+}

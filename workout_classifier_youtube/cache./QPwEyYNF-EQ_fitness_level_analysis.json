@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The technique difficulty is categorized as Beginner to Intermediate based on the description and tags indicating 'beginner calisthenics' and 'intermediate exercise difficulty.' The video's primary focus is on bodyweight exercises, which generally are simple in terms of technique, but there are indications of \"calisthenics skills\" which could suggest more complex moves, but they are likely optional or variations. Comments also mention modifications, implying options for simplicity. Thus, the technique complexity is rated between Beginner and Intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.75
+    },
+    {
+      "level": "Challenging",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout duration of nearly 30 minutes implies it requires moderate to significant physical effort, suitable for Moderate to Challenging classification. As a bodyweight calisthenics workout designed to build muscle and strength, it is expected to be more demanding than a Light workout. The tags and comments mention 'feeling good afterwards' and modifications, suggesting the original workout is somewhat demanding but can be adjusted based on intensity. Therefore, it has been rated between Moderate and Challenging.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.75,
+  "requiredFitnessLevelExplanation": "The required fitness level is rated from Beginner to Advanced. The video provides both beginner and intermediate variations, accommodating different fitness levels. The 30-minute duration, though, makes it more fitting for those with some basic level of fitness, thus including Intermediate. For less fit users, the option for modifications supports the inclusion of Beginner. The combination of the technique and effort difficulty indicates that while higher fitness levels (Intermediate to Advanced) can benefit fully, beginners can attempt with adjustments, leading to a broad spectrum covering Beginner, Intermediate, and Advanced."
+}

@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The video focuses on full-body mobility stretches designed to relieve muscle tension and improve joint mobility, indicating low technique complexity. The sequences involve basic stretching movements without any indication of complex positions or advanced coordination. Therefore, the technique difficulty is rated primarily as 'Beginner.' There is a minor consideration for 'Intermediate' due to potential involvement of multiple body areas which might slightly increase coordination demands for less flexible individuals, but overall, the exercises appear simple to execute.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.95
+    },
+    {
+      "level": "Moderate",
+      "score": 0.25
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout's primary focus is on mobility and stretching, suggesting very low physical effort with minimal energy expenditure typical of 'Light' difficulty. The short 13-minute duration supports this classification, as it is unlikely to exert significant physical demands. A minor 'Moderate' score is included to account for individuals with severe mobility limitations who might find some effort aspects challenging, but this is minor.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.95
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.88,
+  "requiredFitnessLevelExplanation": "Given the low technique complexity and light effort difficulty, the session is well-suited for beginners, but also appropriate for individuals at an intermediate level who wish to improve mobility and flexibility. The short duration and simplicity of exercises make it highly accessible, while also potentially offering value to moderately fit individuals looking to enhance joint mobility. Hence, both 'Beginner' and 'Intermediate' fitness levels are included in the classification."
+}

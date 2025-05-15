@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Dumbbells",
+      "confidence": 1.0
+    },
+    {
+      "equipment": "Kettlebells",
+      "confidence": 0.6
+    }
+  ],
+  "requiredEquipmentExplanation": "The metadata indicates that dumbbells are explicitly required for this workout. The description mentions 'EQUIPMENT NEEDED - DUMBBELLS', and specifies a range of weights to be used (15lbs to 45lbs or 7 to 20.4kg), suggesting a very high confidence level (1.0) that dumbbells are central to the workout. \n\nKettlebells are also mentioned as an alternative for one of the exercises, indicated as 'KETTLEBELL OR DUMBBELL SWING'. This implies that kettlebells could be used for this specific exercise, thus having a moderate confidence level (0.6) that kettlebells might be beneficial for some participants depending on the equipment they have available. There is no indication that other equipment is necessary, and the lack of further mentions or tags suggests that it is primarily a dumbbell-based workout."
+}

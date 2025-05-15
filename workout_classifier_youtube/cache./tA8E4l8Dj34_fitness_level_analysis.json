@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.95,
+  "techniqueDifficultyExplanation": "The video prominently features 'beginner yoga,' indicating the routines involve foundational poses and gentle stretches appropriate for those new to the practice. The description and tags emphasize simplicity and ease, such as 'simple yoga,' 'easy yoga,' and 'beginner yoga,' suggesting minimal coordination and balance challenges. However, since yoga requires some degree of body awareness, a minimal score is given to the 'Intermediate' level.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.85
+    },
+    {
+      "level": "Moderate",
+      "score": 0.25
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout is a short, 10-minute routine described as 'gentle' and 'simple,' designed for beginners, which typically indicates a low-energy expenditure suitable for light effort. Although it's brief, it may still offer a bit of challenge for the deconditioned, recorded by a small score at the 'Moderate' level.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.85
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.35
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.9,
+  "requiredFitnessLevelExplanation": "Given the beginner-friendly yoga context and the workout's emphasis on simplicity and accessibility, it's strongly suitable for beginners, indicated by tags like 'beginner yoga.' The mentions of basic poses with minimal equipment and a duration of 10 minutes affirm this. The presence of coordination and balance in yoga justifies including a minor score for 'Intermediate,' reflecting the possibility of mild challenges for even those with minimal experience."
+}

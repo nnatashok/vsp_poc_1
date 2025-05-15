@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Body weight",
+      "score": 1
+    },
+    {
+      "name": "Mat",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The primary category assigned is 'Body weight' with a score of 1, as the metadata consistently describes the workout as a 'no equipment' full body session, explicitly stating 'body weight only' exercises in the description. This indicates a strong focus on using one's own body for resistance, characteristic of body weight workouts. \n\nThe secondary category is 'Mat,' with a score of 0.6. This is suggested by the comment detailing a warm-up consisting of body movements and stretches, often performed on an exercise mat. While the workout could be done just standing, the use of a mat-like space is often implied in full-body routines without equipment. \n\nCategories like 'Weight workout' or 'Calisthenics' are excluded due to the specific emphasis on 'no equipment,' and there's no mention or implication of gymnastic elements typical of calisthenics. The confidence level of 0.95 reflects the clear wording in the title, tags, and description confirming the workout's focus and equipment use."
+}

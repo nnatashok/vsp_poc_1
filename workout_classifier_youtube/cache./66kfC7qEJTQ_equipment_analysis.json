@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Dumbbells",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Chair",
+      "confidence": 0.85
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is a strength training routine, which typically involves lifting weights. The description explicitly mentions 'lifting weights', implying that dumbbells are needed since they are the most common form of weights used for home strength training (confidence: 0.9). Additionally, the tags include 'chair exercises for seniors,' and the description notes that exercises can be done seated, suggesting the use of a chair as a key component of the routine (confidence: 0.85). Comments also reference the effectiveness of chair workouts, further reinforcing its probable use. The focus on beginners and seniors also aligns with the use of a chair to accommodate different fitness levels and mobility needs. No other equipment is mentioned or implied, making dumbbells and a chair the most likely requirements."
+}

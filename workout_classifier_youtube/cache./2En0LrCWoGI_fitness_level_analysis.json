@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The video is labeled as a 'beginner' Pilates workout and mentioned to be 'for absolute beginners'. The description and comments indicate that it is suitable for newcomers to Pilates, emphasizing simplicity and mindfulness rather than complex movement. Pilates generally involves core engagement and controlled movements, which may require some learning curve for those unfamiliar, but the emphasis on beginner suitability supports a primary classification of Beginner. Hence, a score of 0.8 for Beginner and a small score of 0.2 for Intermediate, considering minimal coordination and introduction to Pilates techniques.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is a 35-minute full body Pilates session described as gentle and beginner-friendly, suggesting low to moderate physical demand. The metadata indicates a focus on mindfulness and basic techniques, which likely result in low intensity movements. However, the duration slightly over 20 minutes suggests more sustained effort for absolute beginners, hence a Light effort level (0.7) with an additional Moderate effort consideration (0.3) due to the program length.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.9,
+  "requiredFitnessLevelExplanation": "The workout's Beginner classification is strongly supported by the title and description, aiming at individuals new to Pilates. However, given Pilates requires core strength and controlled movements, the Intermediate level is also possible for those less familiar with sustained exercise or Pilates. Duration alone escalates the required effort slightly, but the main classification remains Beginner (0.7), supplemented by the Intermediate fitness level (0.3) for absolute novices making the transition into consistent exercise routines."
+}

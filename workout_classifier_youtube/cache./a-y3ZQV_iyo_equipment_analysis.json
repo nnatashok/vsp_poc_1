@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Dumbbells",
+      "confidence": 1.0
+    },
+    {
+      "equipment": "Chair",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The video title, description, and tags explicitly mention the use of 'Dumbbells' in the 'Seated Cardio and Strength Workout With Dumbbells,' indicating these are central to the workout. Furthermore, a top comment highlights the use of dumbbells and advises caution with their placement, reinforcing their necessity. Therefore, the confidence level for dumbbells is very high at 1.0.\n\nAdditionally, the workout is described as a 'Seated' workout, and the description mentions 'chair cardio workout,' which strongly implies the use of a 'Chair.' Several comments also reference using the chair due to injuries or limited mobility, confirming its essential role in the workout. As such, the confidence score for the chair is set at 1.0.\n\nNo other equipment is mentioned or implied, and the workout seems designed to be accessible for individuals with specific mobility needs, further supporting the focus on these two equipment items."
+}

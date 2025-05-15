@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout includes standing Pilates and simple dance-inspired movements, which are described as low impact with a focus on coordination and concentration. These exercises typically require basic balance and body awareness, suggesting a Beginner to Intermediate technique difficulty. The presence of terms like 'simple dance' and 'low impact' indicate manageable complexity for beginners, while elements like balance challenges pointed out in comments suggest some coordination, supporting an Intermediate level.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout is described as a cardio-focused session meant to boost heart rate without high impact, providing 'high intensity movements' that 'may leave you a little sweaty.' This suggests a Moderate to Challenging effort difficulty. The duration is just over 20 minutes, indicating higher physical demands than very short sessions, in line with the Moderate to Challenging levels.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "Given the Beginner to Intermediate technique difficulty and the Moderate to Challenging effort difficulty, the workout is suitable for a range of fitness levels. The simplicity of movements supports Beginner level engagement, while the coordination and intensity suggest it is well-suited for Intermediate users. Comments from older participants indicate accessibility yet also support an Advanced classification for users looking to engage more deeply or at a higher level of challenge."
+}

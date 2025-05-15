@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Weight workout",
+      "score": 0.9
+    },
+    {
+      "name": "Body weight",
+      "score": 0.2
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The primary category for this workout is 'Weight workout,' with a high score of 0.9, due to the clear emphasis on using dumbbells for strength training, as indicated in both the title ('Full Body Dumbbell Workout') and the description ('20 Minute dumbbell strength workout'). Additionally, the tags reinforce this focus with phrases like 'dumbbell strength workout' and 'strength training workout.' \n\nWhile the main component is the use of dumbbells, there is a slight consideration for 'Body weight' due to potential body-weight related isometric holds mentioned in the description ('basic strength training exercise and an isometric hold simultaneously'). However, the primary nature of the workout being dumbbell-based does not strongly support Body weight classification, hence a lower score of 0.2 for that category.\n\nOther categories such as HIIT, Mat, or Calisthenics were excluded due to lack of supporting evidence indicating high-intensity intervals or mat-based bodyweight movements."
+}

@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout is tagged with 'HIIT', 'crossfit', and 'military workout', which indicates exercises that likely involve complex, high-intensity movements. The term 'Medium to Advanced' in the description suggests exercises require a decent level of coordination but not overly difficult to execute correctly. User comments reflecting on thigh burns and difficulty suggest a need for some competency in movement coordination and technique adherence.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The duration of 45 minutes combined with 'Killer HIIT workout' and user comments on difficulty indicate a high-energy expenditure. The structure of 50 seconds work and 10 seconds rest maximizes effort, aligning with a 'Challenging' effort level especially given the focus on endurance and strength building. No equipment but intense pacing raises the energy requirement to challenging, especially for lower fitness levels.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 0.85
+    },
+    {
+      "level": "Advanced",
+      "score": 0.75
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "With a technique difficulty of 'Intermediate to Advanced' and an effort requirement rated as 'Challenging', the workout aligns well with Intermediate to Advanced fitness levels. The description specifies 'Medium to Advanced' and suggests users take breaks as needed, providing a pathway for higher capacity users. While the effort and complexity might deter a pure beginner, those with some prior exercise experience or who modify the intensity could engage at an Intermediate level."
+}

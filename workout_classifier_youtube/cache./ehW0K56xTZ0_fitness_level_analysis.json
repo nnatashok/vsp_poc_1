@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout mainly involves low-impact exercises such as fast walking or jogging, which require minimal technical skill. The pace can be adjusted to fit individual capabilities, making it beginner-friendly. However, the incremental difficulty in maintaining a steady fast walk for intervals slightly raises the complexity to Intermediate. Comments from users in different age groups further suggest accessibility to a wide range of fitness levels, indicating the basic complexity.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.4
+    },
+    {
+      "level": "Moderate",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "This 35-minute HIIT session involves fast walking or jogging with 2-minute intervals, suggesting moderate energy expenditure, especially for less fit users. The workout allows for pace adjustment, meaning users can choose a light or moderately challenging intensity. Caloric data shared by users indicates a comfortable energy expenditure for deconditioned individuals, supporting a Moderate classification.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "The workout's 35-minute duration and interval design imply a manageable challenge for Beginners who can modify intensity. The option for pacing accommodates various fitness levels, making it accessible even to those just starting out, yet these intervals also sufficiently challenge Intermediate users. The presence of comments from older and overweight participants shows inclusivity, but maintaining the intervals with reduced rest can create crossover benefits for Advanced users aiming for a lighter session. The need for personalized pace adjustments aligns with a range of fitness levels."
+}

@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is an elliptical machine session, which generally involves low complexity movements since the machine guides motion. The key action is maintaining a steady pace, making it beginner-friendly. However, adjusting resistance and incline for intervals requires some user engagement, justifying a minor intermediate score for those less familiar with elliptical settings.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is marketed as a low-impact interval session, typically involving moderate bursts of effort interspersed with active recovery. This can be moderately challenging, especially for beginners. Duration is 30 minutes, which can be demanding if resistance and incline are increased, justifying a minor challenging score.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "Technique difficulty leans towards beginner due to the guided nature of elliptical workouts, though some familiarity with settings may be beneficial (scoring a minor intermediate). Effort difficulty is moderate with potential for increased challenge, suggesting fit beginners and early intermediates can benefit. The 30-minute duration places some demands, pushing the requirement slightly beyond complete novices."
+}

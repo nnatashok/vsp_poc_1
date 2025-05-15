@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Body weight",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The workout is classified with high confidence as 'HIIT' based on several strong indicators: the title includes 'HIIT Cardio Workout' and the description further emphasizes 'high intensity cardio' and 'bodyweight workout.' Tags such as 'hiit,' 'hiit workout,' 'hiit at home,' and 'high intensity interval training' reinforce this classification. This indicates a central focus on HIIT, with a score of 0.9 due to strong explicit mentions.\n\nThe 'Body weight' category is also selected, scoring 0.7 as the workout requires 'no equipment,' focusing on exercises such as 'high-knees, fast feet, and star jumps' as mentioned in the description, and repeated in tags like 'bodyweight exercises.' This suggests a significant presence of body weight exercises.\n\nOverall, there is strong confidence in these classifications due to clear metadata indicators explicitly linking to high-intensity interval training and exercises performed without equipment."
+}

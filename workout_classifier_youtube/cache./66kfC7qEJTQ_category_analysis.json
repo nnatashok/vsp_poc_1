@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Weight workout",
+      "score": 0.8
+    },
+    {
+      "name": "Body weight",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The video is titled '30 minute Full Body Strength Workout | Strength Training for Seniors and Beginners,' which strongly suggests its primary focus is on strength training using weights, thus supporting the classification as a 'Weight workout' with a score of 0.8. The tags and description further emphasize strength training, with phrases like 'build strength,' 'strength training for beginners,' and 'strength for seniors.' The description explicitly mentions lifting weights and recommends increasing weights over time, reinforcing the 'Weight workout' category.\n\nAdditionally, the video is designed for 'seniors and beginners,' and mentions 'seated or standing exercises,' suggesting that it may include some body weight exercises appropriate for those audiences. This justifies a secondary classification under 'Body weight' with a lower score of 0.4. However, due to the emphasis on lifting weights, the presence of body weight exercises appears less pronounced."
+}

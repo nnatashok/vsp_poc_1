@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 1
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.95,
+  "techniqueDifficultyExplanation": "The workout described in the metadata focuses on a stationary bike, which requires basic cycling technique that is generally considered straightforward and requires minimal coordinated movement. Based on the metadata details, including user comments, this workout employs a simple pattern: warm-up, intervals of high intensity (HI), followed by low intensity (LI). This indicates a lack of technical complexity, aligning well with a 'Beginner' classification for technique difficulty.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.75
+    },
+    {
+      "level": "Challenging",
+      "score": 0.45
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is a 15-minute high-intensity interval training (HIIT) session on a stationary bike, involving 30-second high-intensity bursts with 90-second recovery periods, as noted in the top comment. This is characterized as 'Best Cardio Humanly Possible in 15 Minutes' in the description. The moderate duration and intensity of the intervals indicate the effort level could be quite demanding (challenging for less conditioned individuals), though the overall short duration (15 minutes) mitigates maximal exertion factors. Thus, the workout aligns with both 'Moderate' and to a lower extent 'Challenging' effort difficulties.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.25
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "The combination of a low technique difficulty and moderate to challenging effort difficulty suggests this workout is suitable for beginners who may start with lower energy bursts and incremental intensity increases. Given its interval nature, intermediate users seeking a compact cardio workout would also find this suitable, as they can easily adjust the difficulty through exertion level. Advanced users could engage more intensely within the same structure, as indicated by the inclusive description and the scalable nature of stationary cycling. Thus, 'Beginner', 'Intermediate', and to a lesser extent 'Advanced' levels are appropriate classifications of required fitness levels."
+}

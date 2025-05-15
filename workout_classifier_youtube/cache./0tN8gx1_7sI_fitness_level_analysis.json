@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout primarily includes bodyweight exercises like Bulgarian lunges, curtsey lunges, and elevated lunges which are mildly complex and require balance and coordination, placing them at an intermediate level. However, because these movements can be regressed and performed with simpler modifications, a beginner level score is also included at a moderate level.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.6
+    },
+    {
+      "level": "Challenging",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout is moderately physically demanding. The use of giant sets, with continuous movement for 2 minutes followed by short 20-second rest periods, elevates the intensity but remains manageable with bodyweight. The 25-minute duration adds to fatigue, particularly the 'burnout' segment, suggesting a moderate to challenging effort level.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.3
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.75,
+  "requiredFitnessLevelExplanation": "Considering the intermediate technique difficulty and moderate to challenging effort level, the workout is primarily suitable for those with some fitness foundation (intermediate). However, beginners could adapt by reducing intensity or resting more, hence a lower score inclusion. Advanced users might also find challenge in the full intensity and minimal rest, so their inclusion is supported to a lesser degree."
+}

@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Treadmill",
+      "score": 0.95
+    },
+    {
+      "name": "Walking",
+      "score": 0.7
+    },
+    {
+      "name": "Running",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is mainly classified as a 'Treadmill' workout with very high confidence (score: 0.95) because the title, description, and tags all explicitly mention 'treadmill workout', 'walk & light jog treadmill workout', and other related phrases. The focus on treadmill exercises is further supported by the workout structure that includes specific speed and incline suggestions for treadmill use.\n\n'Walking' is assigned a moderate score of 0.7 as it is a significant component of the workout, evident in the title ('WALK'), description, tags, and comments emphasizing walking intervals.\n\n'Running' is given a score of 0.6 due to the inclusion of jogging segments ('light jog'), also mentioned in comments about users increasing their running speed. Though the jogging intensity is lower, it contributes to the overall workout type focused on running.\n\nWhile 'Elliptical' or 'Indoor biking' are potential cardio workouts, no metadata suggests these activities. Similarly, 'Body weight', 'Weight workout', or 'HIIT' categories don't apply as there is no mention of high-intensity intervals, weight use, or body exercises outside of treadmill-specific activities."
+}

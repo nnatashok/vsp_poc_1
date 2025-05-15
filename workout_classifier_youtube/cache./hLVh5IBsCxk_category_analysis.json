@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 1.0
+    },
+    {
+      "name": "Body weight",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The title, description, and tags explicitly indicate that this workout is a 'HIIT' or High-Intensity Interval Training session. The video title \"20 MIN KILLER HIIT Full Body Workout - No Equipment - No Repeat Cardio HIIT Home Workout\" directly identifies this as a HIIT workout. Additionally, the description emphasizes the format of the exercises with '30 sec on, 10 sec off,' a common structure in HIIT routines. The description lists exercises such as 'Jumping Jacks', 'Burpees', and 'High Knees,' which are indicative of high-intensity interval training.\n\nThe tags also support this classification with terms like 'killer hiit', 'hiit workout for fat loss', 'hiit cardio', and 'tabata workout.' Given these explicit indicators, a score of 1.0 has been assigned to the HIIT category with very high confidence.\n\nThe 'Body weight' category is relevant because the workout involves exercises that use the body's own weight for resistance. No equipment is used, and terms like 'bodyweight workout' in the tags confirm this. However, the primary focus of the video is on the HIIT aspect, so the 'Body weight' category is rated at 0.6."
+}

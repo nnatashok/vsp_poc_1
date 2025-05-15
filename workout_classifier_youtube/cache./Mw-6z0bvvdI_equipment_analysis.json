@@ -1,0 +1,17 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Dumbbells",
+      "confidence": 1.0
+    },
+    {
+      "equipment": "Mat",
+      "confidence": 0.8
+    },
+    {
+      "equipment": "Chair",
+      "confidence": 0.6
+    }
+  ],
+  "requiredEquipmentExplanation": "The video description explicitly mentions \"Light-to-Medium Dumbbells (2-15 lbs)\" with the instructor specifying that they are using 10 lbs weights, giving a very high confidence (1.0) for the requirement of dumbbells. Additionally, the description also says \"My oversized yoga mat is from Gorilla Mats,\" and the tags frequently refer to \"pilates,\" which often involves mat exercises, so there is high confidence (0.8) in needing a mat. A \"Chair + Arabesque\" sequence is listed in the workout outline at 14:40, suggesting that a chair is needed for support or as a prop during those exercises, leading to a high confidence (0.6) score for this equipment as well. Together, these elements make a strong case for the requirement of these pieces of equipment in the workout."
+}

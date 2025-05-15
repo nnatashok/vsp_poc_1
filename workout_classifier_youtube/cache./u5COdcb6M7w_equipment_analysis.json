@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Exercise bike",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is explicitly described as a spin bike workout in both the title ('HIIT Workout - Insane 15 Minute Spin Bike Workout') and the description ('15 Minute Spin Bike HIIT workouts'). The tags further reinforce this with multiple references to 'spin bike workouts' and 'bike workouts'. User comments also discuss the use of a bike, confirming that it is indeed central to this workout. Thus, I have assigned a very high confidence score of 0.9 for the requirement of an exercise bike."
+}

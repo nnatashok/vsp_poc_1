@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Barbell",
+      "confidence": 1.0
+    },
+    {
+      "equipment": "Dumbbells",
+      "confidence": 0.8
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is a barbell complex workout, as clearly stated in the title '10 MIN BARBELL COMPLEX WORKOUT' and reiterated in the video tags such as 'barbell complex', 'barbell workout', and 'compound exercises'. This establishes very high confidence (1.0) that a barbell is required. The description further supports this by specifying the use of a barbell, mentioning a 25kg barbell used for various compound exercises, therefore confirming the centrality of this equipment to the workout. \n\nAdditionally, the description notes an alternative with dumbbells: 'This full body workout can be performed with dumbbells or barbell!', presenting dumbbells as a substitute option for those without a barbell. Thus, there is high confidence (0.8) that dumbbells are also viable equipment for performing the workout, although they are less central than the barbell itself."
+}

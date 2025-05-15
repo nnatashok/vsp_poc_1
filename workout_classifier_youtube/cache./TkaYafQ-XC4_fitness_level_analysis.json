@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout includes exercises such as '6 High Knees then 4 Lunge Jumps' and '6 Mountain Climbers with lateral move', which require coordination and balance, indicative of an intermediate level. However, exercises like crab toe touches and kick throughs introduce more complexity and coordination challenges, nudging the difficulty towards advanced.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.75
+    },
+    {
+      "level": "Extreme",
+      "score": 0.25
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "This HIIT workout is of 15-minute duration, with short, intense intervals (35 seconds work, 25 seconds rest). The inclusion of exercises like lunge jumps and mountain climbers, which are high-intensity and aerobic in nature, contributes to a challenging effort difficulty. Although 15 minutes might seem short, the intensity levels suggest it could verge on extreme for some users, explaining the secondary classification.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.2
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.65,
+  "requiredFitnessLevelExplanation": "Given the intermediate technique difficulty and challenging effort level, the workout is primarily suitable for intermediate users. However, beginners might find it accessible with modifications or lower intensity efforts, supporting the inclusion of the 'Beginner' level, albeit with caution. Advanced users looking for a quick, intense session could also find this workout appropriate."
+}

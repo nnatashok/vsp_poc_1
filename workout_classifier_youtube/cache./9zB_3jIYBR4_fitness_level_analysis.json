@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The video is explicitly labeled as an \"Intermediate\" Pilates workout, indicating movements require some coordination and balance typical of mat-based Pilates exercises. Pilates can often involve complex movement patterns and stability requirements, which is why an advanced level is also moderately indicated. The mention of breathing as a critical element suggests more advanced breath control techniques, but overall it aligns more with an intermediate level due to the nature of most Pilates routines.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.6
+    },
+    {
+      "level": "Challenging",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout is 31 minutes long, which exceeds the 20-minute threshold for likely beginner difficulty, suggesting moderate to challenging effort. Pilates typically involves sustained muscle engagement and can be moderately challenging, especially for deconditioned users. The emphasis on continuous breathing cues and feedback in the comments about its intensity suggests a certain level of ongoing effort, but not necessarily high-intensity cardio or weightlifting effort.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.5
+    },
+    {
+      "level": "Beginner",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The intermediate label in the title, combined with the pilates nature and 31-minute duration, most strongly aligns with an intermediate fitness level. Pilates can be adapted with easier modifications, allowing some potential accessibility for beginners despite the explicit intermediate tagging, hence a lower beginner score is included. The slightly complex movements and duration also suggest some potential benefits and challenges for advanced users, contributing to a moderate advanced score. The absence of high-intensity indicators keeps extreme and elite levels out of consideration."
+}

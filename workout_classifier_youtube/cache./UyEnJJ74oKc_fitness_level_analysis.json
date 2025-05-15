@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The technique difficulty is mostly 'Beginner' as the workout is a guided virtual cycling or treadmill exercise. It involves stationary exercise with minimal coordination, mainly adjusting pace, incline, or resistance to simulate different effort levels as seen in the description. The inclusion of guided prompts for effort levels ensures that users can easily follow along without the need for complex movements, typical of a 'Beginner' level. Some users might engage with indoor trainers or adjust equipment resistance, slightly increasing complexity to 'Intermediate.'",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.6
+    },
+    {
+      "level": "Challenging",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.65,
+  "effortDifficultyExplanation": "Effort difficulty is categorized primarily as 'Moderate' due to the virtual nature of the workout, where users can adjust intensity through pace and resistance, covering a 51-minute duration. The description indicates varied effort levels (1 to 5), suggesting transitions from light warm-ups to potentially 'Challenging' efforts. For our target audience, sustaining a moderate pace with varying intensities over a longer duration may fit into a 'Moderate' difficulty range, with some aspects reaching 'Challenging' due to prolonged engagement.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.7,
+  "requiredFitnessLevelExplanation": "Given the technique and effort analysis, the required fitness levels range from 'Beginner' to 'Intermediate,' with a note of 'Advanced' for those maintaining higher effort for the full duration. The 'Beginner' classification is justified by the workout's virtual guidance and allowance for self-paced or minimal resistance exercise. The 51-minute duration makes 'Intermediate' suitable for users with some consistent exercise experience, especially as the workout ramps up difficulty with effort levels 3 to 5. 'Advanced' is noted given the longer duration for those pushing harder throughout, aligning with higher effort exertion. Overall, users of varying fitness levels can engage with modifications to intensity and duration."
+}

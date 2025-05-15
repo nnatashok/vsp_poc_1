@@ -1,0 +1,17 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Chair",
+      "confidence": 0.8
+    },
+    {
+      "equipment": "Blocks",
+      "confidence": 0.8
+    },
+    {
+      "equipment": "Mat",
+      "confidence": 0.8
+    }
+  ],
+  "requiredEquipmentExplanation": "The metadata indicates that this workout is a bodyweight leg workout, suggesting minimal equipment is required. However, the description explicitly mentions the use of a chair for Bulgarian lunges and a yoga block, which fits under 'Blocks,' and a 'Mat' for floor exercises. These elements are central to performing the exercises as described in the video. The confidence for each is very high (0.8) due to the direct mention in the description and their specific use in the outlined exercises. The tags 'bodyweight only' and 'no equipment workout' primarily emphasize the absence of heavy equipment but still acknowledge the optional use of these aids for certain exercises."
+}

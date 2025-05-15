@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout involves treadmill running with virtual scenery, which generally requires minimal technique or coordination. The focus is on maintaining a steady pace on the treadmill, which is a straightforward and non-technical exercise comparable to walking or simple jogging. There is no indication of complex movements or techniques in the metadata.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout duration is 35:34, which provides a sustained aerobic challenge, especially for individuals with lower fitness levels. The effort difficulty is classified as moderate to challenging as running 5km is somewhat energy-intensive. The comments suggest that users engage at various intensities, and since it's self-paced, users can walk or jog, which influences the classification.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "Since the technique is beginner-friendly and the effort is adjustable based on the user's pace, both beginners and intermediates can benefit from this workout. However, the 5k distance could be challenging for raw beginners, suggesting a stronger fit for intermediates. Advanced users might benefit if they increase pace or incline, justifying a lower score for that level. There is adequate variability in effort, allowing majority of users to engage safely."
+}

@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The video describes weight training incorporating the peripheral heart action method, which involves cycling between upper and lower body exercises like bench presses, barbell squats, and bent over rows. While these exercises require some coordination and understanding of basic lifting form, they are still approachable for users with a basic background in weightlifting. The mention of exercises like cleans, which are more technical, suggests a possibility for more advanced technique engagement, justifying some advanced-level classification.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.7
+    },
+    {
+      "level": "Extreme",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout is centered around a circuit-style routine which maintains heart rate elevation, leading to high energy expenditure due to the continuous switch between upper and lower body exercises. The emphasis on building muscle and burning more calories compared to traditional weight training suggests a challenging effort level. The comments indicate substantial weight loss and physical transformations, supporting that the workout could reach extreme effort levels for some users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.6
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "Given the nature of the exercises (bench press, squats, etc.) and the method employed, the video can cater to beginners through proper exercise modification and pacing. However, the workout is most suited for intermediates due to the more complex format and the potential inclusion of advanced movements like cleans. The significant effort difficulty and complexity of some movements elevate the required experience, supporting inclusion of advanced level."
+}

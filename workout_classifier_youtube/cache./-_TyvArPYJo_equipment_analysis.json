@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Dumbbells",
+      "confidence": 1.0
+    },
+    {
+      "equipment": "Chair",
+      "confidence": 0.6
+    }
+  ],
+  "requiredEquipmentExplanation": "The primary equipment needed for this workout is dumbbells. This is clearly indicated in the title \"30 minute strength workout with dumbbells,\" and the description further reinforces this by listing dumbbells with specific weight ranges (10lbs to 20lbs / 4.5 - 9kg) as required for the exercises. Thus, the confidence level for Dumbbells is 1.0, indicating very high confidence.\n\nA chair is listed as optional equipment in the description, specifically mentioned for modifications, such as tricep dips. As the description highlights that an exercise box, bench, or sturdy chair can be used, the presence of a chair as optional equipment is strong but not crucial to follow most of the workout effectively. Therefore, the Chair has a confidence level of 0.6, indicating high confidence that it's useful for some exercises but not mandatory for the entire workout."
+}

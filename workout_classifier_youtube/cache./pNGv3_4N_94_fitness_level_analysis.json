@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.75
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.25
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is described as 'beginner-friendly' in the title, indicating simple and straightforward movements suitable for users with minimal experience. The use of dumbbells suggests a slight increase in complexity for those unfamiliar with weight handling, justifying inclusion of the intermediate level at a lower score. Comments reflect ease of use by pregnant individuals with varying fitness backgrounds, indicating basic movement patterns.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.6
+    },
+    {
+      "level": "Moderate",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "Indications of light to moderate effort include the workout's duration (20 minutes) and the phrase 'beginner-friendly'. The comments reflect the workout as challenging but manageable, with users employing light weights (5-13 lbs). Therefore, the workout leans towards light effort due to its prenatal focus and relaxation, but moderate is also included because of the potential adjustable weight use.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.75
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.25
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "Derived from the technique and effort difficulty which are primarily beginner-focused, with some intermediate challenge due to the use of dumbbells. The video's prenatal context, accessible length (20 minutes), and user comments supporting varied dumbbell weights indicate suitability for beginners while allowing more experienced users to adjust the challenge via weight selection."
+}

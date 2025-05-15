@@ -1,0 +1,17 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Dumbbells",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Mat",
+      "confidence": 0.8
+    },
+    {
+      "equipment": "Resistance bands",
+      "confidence": 0.3
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout description explicitly states that dumbbells are required, with a recommendation to use a range between 10lbs and 45lbs, giving this a very high confidence score of 0.9. An exercise mat is also mentioned as needed, which is common for floor exercises and contributes to a high confidence level of 0.8. Resistance bands are mentioned in the description as optional under the term \"booty band or mini resistance band.\" Although they are not required, their presence in the metadata as an option suggests a low confidence score of 0.3 that they might be used for additional exercises or modifications. The focus of the workout on strength training with rounds for upper body, lower body, and abs supports the use of dumbbells and a mat as primary equipment."
+}

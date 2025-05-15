@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.95
+    },
+    {
+      "name": "Body weight",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout video is best classified under the 'HIIT' and 'Body weight' categories. The title and description explicitly state 'HIIT workout' and 'full body' which is indicative of high-intensity interval training, characterized by alternating exercises and rest periods. The description elaborates on the structure of the workout\u201430 seconds of exercise followed by 30 seconds of rest\u2014which is a classic HIIT format. The exercises listed (squat to knee drive, reverse plank marches, etc.) utilize body weight, as stated in the phrase 'no equipment,' further supporting the classification into the 'Body weight' category. \n\nGiven the focus on high intensity, full body involvement without equipment, 'HIIT' is given a score of 0.95 due to clear, direct evidence. 'Body weight' is assigned a score of 0.7 since all exercises mentioned are bodyweight exercises, reinforcing its presence but serving as a secondary classification. Other potential categories, such as 'Calisthenics,' were excluded as the workout is focused more on high-intensity cardio and less on gymnastic-style exercises or advanced calisthenics movements."
+}

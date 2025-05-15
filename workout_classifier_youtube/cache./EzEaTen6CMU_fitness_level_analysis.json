@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is described as a warm-up cycling session tied to being beginner-friendly. The movement on a stationary or spin bike primarily involves pedaling, with an optional increase in resistance for more challenge, which keeps it simple for most. The metadata supports a 'Beginner' level, especially with no complex coordination or advanced bike techniques required, although modifying positions may introduce very mild intermediate elements. Overall, it's highly beginner-friendly with minimal complexity.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "As a 10-minute cycling warm-up aiming to prepare users for longer workouts, the effort level is 'Light' due to its short duration and intended preparation purpose. The option to increase resistance slightly introduces a 'Moderate' element, but the primary positioning of the session as a warmup keeps overall effort low. Comments mentioned using it for an additional warm-up, underscoring its light nature.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "The metadata strongly emphasizes a 'Beginner' fitness level, appropriate for individuals new to cycling or exercise in general. The tag 'beginners workout' and description affirm its accessibility. While minor modifications like increased speed/resistance could challenge slightly more fit individuals, the warm-up nature strongly supports the beginner classification. Combining technique and effort scores, beginners can easily engage, with intermediates finding slight optional challenge."
+}

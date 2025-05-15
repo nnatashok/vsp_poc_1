@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The technique difficulty is rated between Beginner and Intermediate. The workout focuses on standing pilates cardio, which generally involves straightforward movements but may require some balance and coordination given the pilates elements. The emphasis on 'no jumping' and being 'safe for the joints' suggests techniques accessible to beginners. However, pilates can incorporate movements that challenge coordination more than basic exercises, justifying the intermediate score.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.8
+    },
+    {
+      "level": "Challenging",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "Effort difficulty is moderately challenging, as indicated by metadata highlighting a 'full body workout' and 'boost your metabolism'. The duration of 30 minutes makes it more demanding than very light workouts. The absence of high-impact movements (e.g., jumping) keeps it at a moderate intensity, though it is described as 'a challenge' and 'get a little sweaty', suggesting it could be challenging for some, particularly those unaccustomed to sustained activity.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.75
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.87,
+  "requiredFitnessLevelExplanation": "The required fitness level spans Beginner to Advanced. The workout is beginner-friendly due to the no-jumping, low-impact nature and because standing cardio is typically accessible. Intermediate is a strong fit as the effort level and some coordination demands in pilates will challenge those beyond complete beginners. Some references to being 'a challenge' and comments about feeling accomplished suggest those with more experience will also benefit, supporting moderate inclusion of Advanced."
+}

@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Dumbbells",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Mat",
+      "confidence": 0.6
+    }
+  ],
+  "requiredEquipmentExplanation": "The metadata for the video, including the title, description, and tags, explicitly mentions the use of dumbbells. The title 'Full Body HIIT Workout' and specific tags such as 'dumbbell workout', 'full body dumbbell workout', and 'full body workout with dumbbells' indicate that dumbbells are central to the workout, justifying a very high confidence level (0.9). The description further reinforces this by stating, 'you only need a couple sets of dumbbells'. This clear instruction solidifies the requirement for dumbbells.\n\nThe exercise list mentioned in the video includes several movements that typically occur on the floor, such as 'Jackknives', 'Mountain Climbers', 'Plank Hold', and 'Core flutter and toe touch'. This suggests the possible use of a mat for comfort and support, especially during high-intensity intervals. While not explicitly mentioned, the nature of the exercises justifies a moderate confidence level (0.6) for the potential use of a mat."
+}

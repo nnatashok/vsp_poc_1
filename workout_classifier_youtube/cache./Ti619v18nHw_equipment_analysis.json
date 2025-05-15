@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Blocks",
+      "confidence": 0.5
+    }
+  ],
+  "requiredEquipmentExplanation": "The video is a 20-minute total body stretch routine, as noted in the title and description, focusing on muscle recovery, flexibility, and relaxation. The description explicitly instructs viewers to 'grab your mat,' confirming the necessity of a mat for the workout. This makes the confidence level for a mat very high at 0.9. Additionally, tags like 'yoga', 'yoga blocks', and the mention of familiar yoga postures suggest that blocks could be used to assist with certain positions, though they are not explicitly stated as necessary in the description. This gives blocks a moderate confidence level of 0.5. The main equipment needed for this workout appears to be a mat, with blocks implied as optional or for modification."
+}

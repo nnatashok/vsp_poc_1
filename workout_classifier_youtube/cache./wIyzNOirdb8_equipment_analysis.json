@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Dumbbells",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Chair",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The title, description, and several sections of the video explicitly mention that this is a 'seated dumbbell strength workout' for seniors. The use of dumbbells is directly stated as they are 'used to add light resistance,' which aligns with exercises like 'Weighted Calf Raises,' 'Bicep Curls', and 'Tricep Extensions'. Thus, the confidence that dumbbells are required is very high (0.9).\n\nFurthermore, the workout is designed to be 'seated,' implying that a chair is a central piece of equipment used throughout the workout routine. This is further supported by the description stating that the routine can be followed 'from the comfort of your chair at home.' Thus, the confidence level for requiring a chair is also very high (0.9)."
+}

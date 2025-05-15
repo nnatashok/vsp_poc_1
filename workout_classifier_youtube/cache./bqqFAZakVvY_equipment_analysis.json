@@ -1,0 +1,21 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Treadmill",
+      "confidence": 1
+    },
+    {
+      "equipment": "Dumbbells",
+      "confidence": 0.8
+    },
+    {
+      "equipment": "Resistance bands",
+      "confidence": 0.8
+    },
+    {
+      "equipment": "Foam roller",
+      "confidence": 0.8
+    }
+  ],
+  "requiredEquipmentExplanation": "The title and description of the video clearly indicate that a treadmill is required for the workout, mentioning a '15 Minute Interval Training Treadmill Workout,' which directly involves the use of a treadmill, leading to a very high confidence score of 1.0 for the treadmill.\n\nDumbbells are mentioned in the description where it lists 'Rubber Hex Dumbbells,' and the workout is described as combining strength with cardio, indicating that these are likely used for strength components of the routine, resulting in a high confidence score of 0.8.\n\nAdditionally, the description includes a 'Set of Mini Bands,' which refers to resistance bands typically used for various strength and stabilization elements within workouts. This is supported by the instruction to modify the workout, which often involves adding or using resistance bands. Thus, they are assigned a high confidence score of 0.8.\n\nA 'Physio Foam Roller' is also mentioned in the description as part of the cool down, suggesting its use for muscle recovery or stretching after the workout. This results in a high confidence score of 0.8, as it is explicitly mentioned for the cool down segment of the routine."
+}

@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is explicitly described as a 'Mat Pilates' session in both the title and description, indicating a very high likelihood that a mat is required. Additionally, the tags include 'mat pilates', further confirming that a mat is central to performing this workout. The video description also directly references 'Mat from Liforme', suggesting a specific recommendation to use a mat from this brand. Given this consistent emphasis on mat usage, the confidence score for requiring a mat is set at 1.0, indicating very high confidence. There is no mention of other equipment, and the title explicitly states 'No Equipment', reinforcing that no other equipment is needed."
+}

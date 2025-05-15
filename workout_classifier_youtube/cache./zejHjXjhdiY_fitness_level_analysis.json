@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The metadata suggests the workout uses standard bodyweight exercises, which typically include basic movements like squats and lunges. The description and tags do not indicate highly technical moves, and the presence of a person demonstrating modified versions supports accessibility for beginners. Therefore, the technique difficulty is rated as Beginner with some Intermediate due to possible inclusion of coordinated movements or body control elements, as implied by the cardio and strength mix comment.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is 34:57 in duration, exceeding 30 minutes, which typically increases effort for beginners. Comments and description mention \"dripping sweat\" and a mix of cardio and strength, implying moderate intensity. The use of terms like \"HIIT breaks for recovery\" indicates the workout might raise heart rate, justifying a Moderate effort rating with some overlap into Challenging due to the duration and cardiovascular component.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.78,
+  "requiredFitnessLevelExplanation": "Considering the technique is mainly suitable for beginners, and effort is moderate with some challenging elements due to duration, the fitness level is primarily Beginner. Intermediate is included due to the workout's cardiovascular and duration demands, aligning with individuals who can handle sustained moderate intensity. User comments highlight its accessibility and motivational aspects for generally less active individuals, supporting this classification."
+}

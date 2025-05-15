@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout incorporates Pilates and dumbbell exercises, implying some technical challenge. Tags like 'pilates with weights' suggest exercises requiring coordination and body awareness, fitting an Intermediate level. Comments mention slight difficulty with positions, indicating some may require balance and form awareness, implying a mix of Intermediate and Advanced movements. The instructor's professional credentials support this classification due to potential emphasis on technique.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout is 39:21 long, involves interval training with minimal rest (15-second intervals), and claims focus on muscle building and fat burning. These components suggest a 'Challenging' effort due to the sustained activity level. Use of weights and 'burn fat' description suggest significant energy expenditure, situating it between Moderate and Challenging for less fit individuals.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.6
+    },
+    {
+      "level": "Beginner",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.75,
+  "requiredFitnessLevelExplanation": "Given the Intermediate/Advanced technique and Challenging effort, the workout primarily suits Intermediate individuals. However, adjustable equipment (dumbbells) and potential for modification means motivated beginners may partake, thus inclusion of Beginner. The duration and technical elements make it less ideal but not impossible for beginners, with a stronger suggestion towards Intermediate and Advanced users. Community comments noting challenge and prior experience lend additional support to this level distribution."
+}

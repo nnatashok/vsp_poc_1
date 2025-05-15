@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.95
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.98,
+  "techniqueDifficultyExplanation": "The video is aimed at beginners, as evident from the tags such as 'beginning meditation', 'simple meditation', and 'meditation for beginners'. The content involves guided imagery and visualization, which are simple techniques requiring minimal physical coordination or complexity, aligning with the description and typical meditation practices.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 1.0
+    }
+  ],
+  "effortDifficultyConfidence": 0.98,
+  "effortDifficultyExplanation": "The workout is a meditation session, which focuses on relaxation and stress reduction without any physical exertion, aligning with tags like 'stress relief meditation' and 'relaxation meditation'. It involves listening and following guided instructions to enhance mental calmness, suitable for a light effort classification.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.99,
+  "requiredFitnessLevelExplanation": "The required fitness level is predominantly beginner, supported by metadata targeting 'meditation for beginners'. However, due to the 30-minute duration of the meditation, which might demand sustained focus, it can be suitable for intermediate users who are slightly more used to mindfulness practices. The gentle nature of meditation ensures accessibility across multiple fitness levels while requiring no physical stamina or fitness."
+}

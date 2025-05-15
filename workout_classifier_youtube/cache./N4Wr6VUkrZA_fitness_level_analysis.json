@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is described as targeting beginners and aims to provide an introductory calisthenics session. Exercises like Diamond Push Ups and Chin Ups, mentioned in the comments, suggest some basic strength elements. However, they are relatively simple bodyweight exercises compared to more advanced calisthenics moves, which generally supports a Beginner classification. Given the progressive nature of calisthenics, and the emphasis on core strength and balance, a secondary classification of Intermediate is reasonable for users with slightly more experience with movement coordination and core engagement.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.9
+    },
+    {
+      "level": "Moderate",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout is under 10 minutes, indicating a lower energy expenditure, aligning with a Light effort classification for beginners. The session is designed for new calisthenics athletes to engage all muscle groups, but without extended duration or intensity, justifying the primary Light classification. The mention of developing strength across all muscle groups and some key exercises like push ups and planks imply a Moderate effort level for totally untrained individuals, which supports a secondary classification of Moderate effort for slightly more challenge than the most basic introductory workouts.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "Given the focus on beginners and simple bodyweight exercises, the workout is accessible to those new to fitness, resulting in a strong Beginner classification. However, with exercises like chin-ups requiring a baseline level of strength and coordination not normally present in complete novices, the video also suits those at the Intermediate level. This dual classification reflects the likely experience of those with minimal exercise history who could handle this workout with some initial difficulty and adaptation."
+}

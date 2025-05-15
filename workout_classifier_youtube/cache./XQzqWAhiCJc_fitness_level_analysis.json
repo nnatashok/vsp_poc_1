@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The description and tags suggest this is a straightforward full-body stretching routine. Stretching, by nature, generally involves simple movements with minimal complexity or coordination required, placing it strongly in the Beginner category. However, certain stretches might require a moderate amount of flexibility or awareness (e.g., those targeting specific muscles like the glutes), which can slightly increase the complexity and thus warrant an Intermediate score. Comments imply satisfaction with the ease of following along, reinforcing a higher Beginner level confidence.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.95
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout's duration of 7 minutes, along with its primary focus on stretching for mobility and stress relief, suggests a very low physical demand, thus classifying it as Light effort. Stretching exercises typically involve low energy expenditure and the metadata confirms this intent by mentioning 'mobility' and 'active recovery,' both of which indicate mild physiological demands. User comments describe the workout as 'quick' and 'amazing,' implying it is not taxing, fostering confidence in this classification.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.85
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "Given the low technique and effort difficulties, this workout is predominantly suitable for Beginners, hence receiving a strong Beginner score. However, the Intermediate level is also suggested due to certain stretches that may require a moderate range of motion or flexibility. The short duration (7 minutes) further supports broad accessibility. The routine's design, aimed at enhancing mobility and serving as a daily practice, supports inclusivity for those slightly more conditioned, justifying a minor score for Intermediate fitness levels."
+}

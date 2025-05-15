@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.95
+    },
+    {
+      "name": "Indoor biking",
+      "score": 0.9
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The video is categorized as both 'HIIT' and 'Indoor biking' based on strong evidence from the metadata. The title mentions 'HIIT - 35 Minute Cycle Training Workout - Hill Training,' directly indicating the workout involves high-intensity interval training (HIIT). The description supports this as it describes the session as a '35 minute HIIT (high intensity interval session).' Additionally, the tags 'HIIT', 'High intensity interval training', and 'high intensity training' further emphasize this category. Given the focus on a 'turbo trainer or static bike', and the repeated mentions of 'Cycling', 'Pro cycling', 'Indoor cycle training', and 'turbo-training' in both the description and tags, the workout is clearly intended for an indoor cycling setting.\n\nThe score of 0.95 for HIIT reflects the intensity and interval nature emphasized in the description, while the 0.9 for Indoor biking acknowledges its use of stationary bikes for a cycling workout. Other potential categories, such as 'Running', 'Treadmill', or 'Body weight', do not apply due to the absence of relevant elements in the metadata."
+}

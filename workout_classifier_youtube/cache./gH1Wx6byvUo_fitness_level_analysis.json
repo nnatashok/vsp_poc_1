@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.95,
+  "techniqueDifficultyExplanation": "The video is described as suitable for all experience levels, explicitly mentioning beginners. The exercises are simple stretches targeting the neck, shoulders, spine, and hips that can be performed in bed, indicating minimal coordination or balance requirements. The title and description emphasize ease ('morning yoga stretches in bed' and 'easy morning yoga'), supporting a Beginner classification with high confidence, but it slightly extends to Intermediate due to the inclusion of whole-body stretches that require minor flexibility.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.95
+    },
+    {
+      "level": "Moderate",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout is brief, lasting 6:48 minutes, and is designed to be performed in bed. It focuses on gentle stretches, which aligns with a Light effort difficulty and matches keywords like 'morning stretches' and 'easy morning yoga'. The effort is primarily to stretch and wake up the body gently, suggesting a strong fit for Light difficulty with some potential for Moderate due to the total body stretching involved.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "The workout is explicitly labeled as suitable for all experience levels, particularly beginners, but also accessible for intermediate users seeking gentle yoga. The technique and effort difficulties are predominantly suitable for complete beginners, given the simplicity and low exertion of the exercises. However, the explicit targeting of various stretches implies mild applicability for Intermediate users who may be integrating flexibility into their routine. This results in a high confidence level for a Beginner requirement while accommodating Intermediate participants."
+}

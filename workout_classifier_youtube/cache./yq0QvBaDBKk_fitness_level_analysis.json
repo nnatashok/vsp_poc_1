@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.75
+    },
+    {
+      "level": "Advanced",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The video focuses on intermediate-level calisthenics exercises, as explicitly stated in the title and tags. Exercises like explosive pull-ups and clapping push-ups suggest a level of technique beyond beginner. The emphasis on modifications and progressions in the description indicates that while the base exercises might be intermediate, they can be scaled to more complex versions, hence justifying the 'Advanced' score. Thus, techniques range from intermediate coordination exercises to more advanced variations requiring higher technique and skill.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout consists of multiple calisthenics exercises with a duration of 8 minutes. While short, the exercises, such as explosive pull-ups and clapping push-ups, can demand considerable physical effort. Tags and comments suggest significant strength and endurance requirements, aligning with a 'Moderate' to 'Challenging' effort level. Moreover, the structure implies possible high-intensity time under tension, contributing to the Challenging score, though still within the brief duration, preventing an 'Extreme' effort classification.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.6
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "Given the intermediate and advanced techniques used, the workout is primarily suitable for individuals with some base fitness, represented by a strong 'Intermediate' score. However, the provision of modifications and progressions allows a broader range of fitness levels, including 'Beginner', especially since beginners can modify to easier variations. Thus, it aligns well with intermediate users looking to progress, and also accommodates advanced practitioners due to the inclusion of complex exercises. The short duration further dilutes advanced fatigue, broadening accessibility."
+}

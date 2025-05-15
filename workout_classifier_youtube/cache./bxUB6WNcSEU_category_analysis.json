@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Body weight",
+      "score": 0.9
+    },
+    {
+      "name": "Mat",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The video is classified primarily as a 'Body weight' workout because it focuses on exercises using body resistance, as indicated by phrases like 'standing workout' and 'No Equipment!' in the title. Exercises listed in the description such as 'Side Crunch,' 'Squat Side Bend,' and 'Curtsy Lunge To Crunch' emphasize core and bodyweight strength exercises. This suggests a strong body weight focus, supporting a high confidence score of 0.9.\n\nThe secondary category is 'Mat,' with a score of 0.7, since the workout is performed standing up without any additional equipment, typical of body movement exercises akin to mat routines. However, no explicit mention of a mat is made, hence the score here is slightly lower. The high view and like count, along with testimonials in the comments, suggest it is particularly effective, aligning with standing and mat exercises that are accessible and convenient.\n\nOther potential categories like 'HIIT' or 'Cardio' are excluded as there is no mention of intervals or specific high-intensity focus in the provided metadata. Similarly, categories involving equipment, like 'Treadmill' or 'Weight workout,' do not apply."
+}

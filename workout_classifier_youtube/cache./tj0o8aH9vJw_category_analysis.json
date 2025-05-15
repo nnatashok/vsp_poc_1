@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Weight workout",
+      "score": 0.9
+    },
+    {
+      "name": "Body weight",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The primary category for this workout is 'Weight workout,' scoring 0.9 in presence. This classification is supported by numerous mentions of the use of dumbbells, which are explicitly highlighted in the description as necessary equipment. The workout structure mentions exercises such as Arnold Press, Sum Squat, and Skull Crushers, which are typical resistance exercises involving weights. Additionally, the description emphasizes the use of moderate to heavy dumbbells, indicating strength training focus and targeting different muscle groups, which is central to weight training.\n\nA secondary category identified is 'Body weight,' with a minor score of 0.3. While weights are the primary focus, exercises like Donkey Kick Pulses and Long Lever Glute Bridge can also be performed using body weight, suggesting a minor presence of body weight exercises.\n\nNo other categories fit as the content strongly centers around using weights for full body strengthening."
+}

@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout is based on calisthenics, which typically includes basic bodyweight exercises. The description mentions 'beginner Calisthenics exercises,' indicating simple movements. However, it also notes 'more advanced variations,' suggesting some exercises may require additional coordination or technique, thus slightly increasing complexity. The inclusion of both beginner and slightly more advanced elements justifies scoring across Beginner and Intermediate levels.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout lasts for 29 minutes, which is moderately long, contributing to a moderate-to-challenging effort level. User comments expressing the physical demands (e.g., sweating) and the inclusion of a warm-up indicate a structured, sustained effort. The workout is described as suitable for building muscle and increasing strength, implying more energy expenditure than a light workout would. These factors suggest a primary Moderate level with some Challenging elements for less conditioned users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    },
+    {
+      "level": "Advanced",
+      "score": 0.1
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.65,
+  "requiredFitnessLevelExplanation": "The workout is positioned as Day 1 of a series with 'beginner Calisthenics exercises.' This aligns it with Beginner fitness level. The presence of 'more advanced variations' and a 29-minute duration, however, make it accessible to Intermediate users who may find a sufficient level of challenge. Some comments from users with different fitness levels, including those who have been inactive, imply accessibility to beginners but also consider it sufficiently challenging for Intermediate users. Advanced level is possible but given lower alignment due to lack of high technical or effort demand."
+}

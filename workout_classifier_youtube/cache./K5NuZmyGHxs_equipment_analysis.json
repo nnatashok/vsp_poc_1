@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.8
+    },
+    {
+      "equipment": "Dumbbells",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout clearly requires dumbbells, as evidenced by the title mentioning 'Dumbbell HIIT Workout' and repeated references to exercises involving dumbbells in the description. The description explicitly states that 'one or two dumbbells' are needed for the workout, giving this equipment a very high confidence score of 1.0. Additionally, a workout mat is needed, as indicated in the workout details where it states 'Equipment: One or two dumbbells and a workout mat'. Although the mat isn't highlighted in any comments or tags, its mention in the description and standard use for floor exercises justifies a high confidence level of 0.8. The workout involves various exercises like goblet squats and dumbbell swings, which are typically performed on a mat to provide support and comfort."
+}

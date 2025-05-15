@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The use of a Pilates reformer indicates a higher technique difficulty due to the coordination and balance required to use the machine properly. The title and description suggest an upper body emphasis, which might involve complex movements typical for reformer exercises. The channel's focus on providing cues and modifications supports an intermediate classification, but user comments highlight the challenge and leaning towards advanced technique for some exercises.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.9
+    },
+    {
+      "level": "Challenging",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is described as a 'quick but intense' 30-minute session, suggesting a moderate to challenging effort level. User comments also indicate that the workout is demanding enough to feel a burn ('full body burn'). The mention of getting 'sweaty' implies significant physical effort, aligning with a moderate to challenging classification. Despite this, the duration (29:19) makes it less intense than longer workouts.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.75
+    },
+    {
+      "level": "Advanced",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.75,
+  "requiredFitnessLevelExplanation": "While the reformer necessitates some baseline proficiency, the instructor's emphasis on modifications, safety, and accessibility (as seen in the channel description) suggests it could be adapted for a wide range of users. Comments from users new to reformer workouts indicate some accessibility for beginners but more alignment with intermediate users. The intensity described in metadata supports including advanced levels for those seeking more challenge, given its description as 'quick but intense'. Therefore, a broad inclusion of fitness levels is appropriate."
+}

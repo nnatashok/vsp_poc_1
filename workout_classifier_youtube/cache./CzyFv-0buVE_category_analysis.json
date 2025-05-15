@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Body weight",
+      "score": 0.9
+    },
+    {
+      "name": "Mat",
+      "score": 0.7
+    },
+    {
+      "name": "Calisthenics",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout video is categorized primarily under 'Body weight' with a high confidence score of 0.9. This is supported by the title and description emphasizing exercises like arms, chest, shoulders, and back that typically use body weight, especially since it is stated in the description that no equipment is required. The exercises listed such as 'Arm Circles', 'Pike Push Ups', 'Plank Slaps', and 'Tricep Dips' further substantiate this. \n\nThe second category is 'Mat' with a score of 0.7, which is supported by the format of the exercises (requiring space and movement typically performed on the floor), as indicated by exercises like 'Super Mans' and 'Plank Slaps'. Users often perform these motions on a mat for comfort and stability.\n\n'Calisthenics' is considered with a moderate score of 0.5 owing to the nature of the exercises which involve gymnastic-like bodyweight movements aimed at building strength and flexibility. This is less emphasized than 'Body weight' and 'Mat', hence the moderate confidence.\n\nOther categories such as 'Weight workout' are excluded due to the explicit mentioning of 'no equipment' and the lack of any reference to weights or resistance equipment in both the content and the comments sections."
+}

@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Yoga",
+      "score": 0.7
+    },
+    {
+      "name": "Mat",
+      "score": 0.5
+    },
+    {
+      "name": "Body weight",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.75,
+  "categoriesExplanation": "The video is classified primarily as Yoga (0.7) due to the explicit references to yoga in both the tags and description, as well as its prevalence in related content and the channel's broader focus. Terms like 'yoga for PCOS' and 'yoga for hormonal imbalance' indicate a strong presence of yoga exercises.\n\nThe Mat category is relevant (0.5) as it signifies exercises performed on a mat without equipment, supported by references to a 'low impact, full body workout' and the focus on performing exercises at home. The description also mentions cardio and strength aspects, but without specific equipment, aligning well with mat-based body movements.\n\nFinally, Body weight (0.4) is included due to the nature of the exercises being low-impact and suitable for beginners with references to maintaining energy and stamina without exhaustion, suggesting exercises relying on body weight rather than additional weights.\n\nHIIT or Weight workout were excluded because the metadata emphasizes low impact and full body workouts aligning more with yoga and mat exercises, rather than high intensity or equipment-based training."
+}

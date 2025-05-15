@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Body weight",
+      "score": 0.85
+    },
+    {
+      "name": "Mat",
+      "score": 0.75
+    },
+    {
+      "name": "Calisthenics",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category 'Body weight' was selected with a high confidence score of 0.85, given the explicit reference in the title and description to a 'no equipment upper body workout,' as well as repeated mentions of using 'bodyweight as resistance.' The workout focuses on upper body exercises like push-ups and tricep dips, which align with bodyweight training.\n\nThe 'Mat' category was chosen with a score of 0.75, as the description notes that a mat is used during the session. The workout involves exercises such as planks and side plank holds, typically performed on a mat. \n\n'Calisthenics' was assigned a moderate score of 0.5, as the workout features exercises that involve movements improving body strength and coordination, mainly using own bodyweight, which is characteristic of calisthenics.\n\nCategories such as 'Weight workout' were excluded because the workout explicitly states there is no equipment, such as weights, used. HIIT was also excluded as the workout doesn't follow an interval training structure; instead, it has a consistent pace with short rest periods."
+}

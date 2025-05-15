@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout is primarily a cycling session on an indoor trainer, which involves straightforward movements. The main complexity arises from managing resistance levels and maintaining posture over a sustained period, which is typically beginner-friendly but can require some coordination and awareness, hence also rated as intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "This 30-minute high intensity interval training session simulates a hill climb, demanding significant effort. The intensity ramps up substantially towards the end, and feedback from the description indicates high resistance, supporting a challenging classification. The duration and resistance adjustments contribute to a challenging effort level.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    },
+    {
+      "level": "Beginner",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "With an effort difficulty rated as challenging and a technique difficulty spanning beginner to intermediate, the workout best fits intermediate levels, as it demands maintaining high resistance for significant durations. However, beginner cyclists familiar with basic indoor cycling setups might attempt it, hence a modest score for beginners. Advanced participants can benefit from the intensity and resistance variation, justifying inclusion due to potential for scaled challenge."
+}

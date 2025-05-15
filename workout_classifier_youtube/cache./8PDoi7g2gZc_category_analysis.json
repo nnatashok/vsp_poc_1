@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Weight workout",
+      "score": 0.9
+    },
+    {
+      "name": "Body weight",
+      "score": 0.2
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The workout video is primarily classified as a 'Weight workout' because the title, description, and tags repeatedly emphasize the use of dumbbells (\"standing dumbbell workout,\" \"medium dumbbells,\" \"8lb dumbbells,\" \"dumbbell strength workout\"). The focus on a \"full body workout with dumbbells\" and the equipment mentioned (dumbbells) clearly indicates the centrality of weight training. Additionally, the description outlines intervals of '45 seconds on and 15 seconds rest', which suggests a structured and strength-focused workout using weights, hence a very high confidence score of 0.9 for 'Weight workout'.\n\nThe 'Body weight' category is also slightly relevant due to the standing nature of the exercises, suggesting minimal equipment beyond the dumbbells and potentially some movements not reliant on weights (scored 0.2). However, body weight exercises are not prominent and are secondary to the use of dumbbells.\n\nOther categories like 'HIIT' or 'Mat' are excluded since the description specifies no planks or burpees, and there's no indication of high-intensity intervals. The absence of exercises such as pushups further excludes these categories, supporting the conclusion of a primary weight-focused workout with minimal inclusion of purely body weight elements."
+}

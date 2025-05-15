@@ -1,0 +1,46 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout involves a full-body cardio HIIT routine that is 'no equipment' and 'no repeats', suggesting relatively straightforward movements. The simplicity is beneficial for beginners since movements do not require complex coordination with equipment. However, the workout's high intensity and requirement for proper form during cardio moves suggest it aligns more closely with an intermediate technique level.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.3
+    },
+    {
+      "level": "Challenging",
+      "score": 0.5
+    },
+    {
+      "level": "Extreme",
+      "score": 0.2
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is designed to burn 500 calories in 20 minutes with high intensity, using 30-second work intervals and 15-second rests. This configuration would create significant effort for deconditioned users, placing it primarily in the challenging category. The community feedback suggests it's strenuous enough to result in lower calorie burns if individuals aren't adapting well, indicating that it might even be perceived as extremely demanding for some users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.2
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.6
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "The required fitness level needs to match the effort and technique difficulties. While the technique is potentially accessible to some beginners, the demanding nature and duration (over 20 minutes in total) suggest it's more suited to intermediate individuals. The challenging effort level, coupled with frequent feedback mentions of difficulty, reinforces the appropriateness for intermediate and advanced levels, especially as individuals can modify intensity based on personal capacity."
+}

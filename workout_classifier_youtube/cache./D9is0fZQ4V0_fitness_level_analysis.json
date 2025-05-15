@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The indoor cycling nature of the workout suggests that technique difficulty is relatively low. Basic pedaling and adjustments to resistance on a stationary bike don't require intricate skills (Beginner), though maintaining proper form at sustained effort could pose a challenge for inexperienced users (Intermediate). The comments highlight clear instruction on form, supporting the dual Beginner and Intermediate classification.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.7
+    },
+    {
+      "level": "Extreme",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The metadata indicates a 50-minute duration targeting fat burn, which typically involves significant sustained effort, earning a Challenging rating. User comments describe the class as 'killer', indicating high difficulty, and the description mentions it as one of the toughest sessions, suggesting near Extreme effort for most users, especially if intensity levels are high throughout.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.6
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The combination of a moderate technique difficulty and challenging effort level suggests that this workout is not suitable for complete beginners. Intermediate users can adjust intensity while still being effective. The length and user feedback about intensity (e.g., \"killer\") also support a higher fitness level expectation, pushing the need for at least an Intermediate to Advanced level. While beginners might attempt with modifications, the session's demanding nature fits this higher requirement."
+}

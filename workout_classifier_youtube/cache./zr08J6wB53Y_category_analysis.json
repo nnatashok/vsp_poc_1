@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.95
+    },
+    {
+      "name": "Body weight",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The workout is primarily classified as HIIT with a very high confidence level of 0.95. This is explicitly mentioned in both the title ('10 MIN HIGH INTENSITY WORKOUT - HIIT') and the description, which refers to a 'KILLER routine' and a mix of 'QUICK MOVEMENTS' and 'ACTIVE BREAKS', typical of HIIT formats. The tags also reinforce this classification ('hiit', 'high intensity', 'burn calories'). The 10-minute duration and focus on burning calories align with HIIT characteristics.\n\nThe secondary classification of Body weight with moderate confidence level of 0.6 is due to the mention of 'no equipment' in both the title and description. This implies the use of body weight for exercises, a common aspect of this training type. While not explicitly detailed as body weight exercises, the context suggests this category due to the lack of equipment.\n\nOther categories were excluded as there was no indication of indoor equipment, flooring exercises being the focus, or specific movement patterns related to categories like Pilates or Yoga."
+}

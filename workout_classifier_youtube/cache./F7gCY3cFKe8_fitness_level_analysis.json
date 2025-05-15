@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.95,
+  "techniqueDifficultyExplanation": "The video's focus is on guided breathing and relaxation techniques aimed at helping with insomnia. Keywords like 'mindfulness practice,' 'guided breathing,' and 'relaxation' suggest very simple exercises that involve minimal coordination or physical complexity. The description emphasizes a calming, straightforward approach suitable for individuals without prior training, supporting a 'Beginner' classification.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.85
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "This video centers on relaxation and breathing, entailing very low physical exertion. The description suggests it can be played while going to bed, clearly indicating a restful and non-demanding activity. The focus on achieving sleep and relaxation emphasizes minimal energy expenditure, hence a 'Light' effort difficulty is assigned.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.9,
+  "requiredFitnessLevelExplanation": "Given the 'Beginner' technique difficulty and 'Light' effort required, the workout is primarily tailored for individuals with no prior experience, making it ideal for beginners. However, some intermediate users might still find value in the relaxation benefits offered, which accounts for a lower 'Intermediate' score. The comments corroborate the low threshold needed, with users of varying backgrounds finding it beneficial."
+}

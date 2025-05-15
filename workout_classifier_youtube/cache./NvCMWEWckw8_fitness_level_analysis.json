@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.75
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.25
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is labeled explicitly as a 'beginner' workout in both the title and description, indicating simpler exercise techniques. The main activity, cycling, is generally straightforward and requires basic coordination, contributing to the 'Beginner' categorization. However, the specific exercises within the cycling class, such as 'jumps' and changes in speed and resistance, suggest a degree of coordination beyond absolute beginner level, hence the partial score for 'Intermediate'. The description provides options for different resistance levels, accommodating varying capabilities, but the foundation remains beginner-friendly.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.9
+    },
+    {
+      "level": "Challenging",
+      "score": 0.1
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout duration is 21 minutes, which is slightly longer than very short starter classes, indicating moderate effort. As a cycling workout titled 'beginner', the intensity includes components such as 'jumps' and 'sprints', enhancing effort difficulty slightly above 'Light'. Tags and comments emphasize motivation but mention manageable levels, with options to increase resistance or speed, supporting primarily a 'Moderate' level, with a hint of 'Challenging' effort for some deconditioned users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.75,
+  "requiredFitnessLevelExplanation": "The 'Beginner' designation in the workout title, combined with the moderate technique and effort difficulties, makes it accessible to newcomers with some room for challenge, earning a strong 'Beginner' score. The workout's various intensities hint at the potential for 'Intermediate' challenge, as evidenced by the comments of users who initially struggled. Therefore, it may appeal to users slightly beyond the deconditioned beginner phase, justifying the inclusion of 'Intermediate'."
+}

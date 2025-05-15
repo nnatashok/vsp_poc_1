@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Dumbbells",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Mat",
+      "confidence": 0.5
+    }
+  ],
+  "requiredEquipmentExplanation": "The primary equipment needed for this workout is dumbbells, as indicated by the title \"10 Best Dumbbell Exercises for Building Muscle At Home\", repeated mentions in the description such as \"Dumbbell only workout, dumbbell workout at home\", and the extensive list of dumbbell exercises in the video. There is very high confidence (0.9) in this classification.\n\nAdditionally, a mat may be needed for exercises performed on the floor, such as the \"Dumbbell Floor Fly\" and \"Dumbbell Lying Floor Skullcrusher\". This is inferred from the nature of floor exercises, although a mat is not explicitly mentioned, leading to a moderate confidence score (0.5). The repeated emphasis on home workouts supports the likelihood of a mat being used to ensure comfort during these exercises."
+}

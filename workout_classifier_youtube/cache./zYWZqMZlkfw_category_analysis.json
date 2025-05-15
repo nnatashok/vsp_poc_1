@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.95
+    },
+    {
+      "name": "Body weight",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The metadata indicates a high-confidence classification for the 'HIIT' workout category. The title explicitly states '60 Min Extreme HIIT Workout For Fat Burn & Cardio,' and multiple tags such as 'hiit workout,' 'hiit workout at home,' 'cardio hiit workout,' and 'hiit workout for fat loss' support this. The description mentions 'Intense cardio routine,' which aligns well with the high-intensity nature of HIIT. The video duration (60 min) and the detailed description of interval training (45 sec on/15 sec rest) indicate a structured HIIT session, thereby warranting a score of 0.95 for HIIT due to its central presence.\n\nThe 'Body weight' category is also relevant, supported by phrases like 'No Equipment' in both the title and description, and tags such as 'no equipment workout' and 'full body workout at home.' This indicates the use of body weight as the primary resistance method, earning a score of 0.6 due to its secondary supportive role. Other categories, such as 'Weight workout' or 'Yoga,' were excluded due to lack of relevant indications in the metadata."
+}

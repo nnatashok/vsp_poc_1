@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is explicitly designed for beginners, as confirmed by the title and multiple mentions in the tags and description. The exercises are likely to be simple movements focused on basic core engagement, which are generally straightforward and require minimal coordination. Comments from users validate the accessibility for beginners. Intermediate score is given due to potential variations users might attempt, but primarily it's a beginner-friendly workout.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.75
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout duration is only 12 minutes, suggesting a lower effort requirement. User comments appreciate its suitability for beginners, indicating a light effort level. Some may find basic ab exercises engaging and slightly challenging, meriting a moderate score. The lack of equipment further supports a lower intensity classification.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.95
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.9,
+  "requiredFitnessLevelExplanation": "Given the beginner focus in the title, description, and user feedback, this workout is clearly aimed at beginners, as evidenced by testimonials praising its accessibility. Due to the potential for some challenge based on personal strength and endurance, an intermediate level score is also included, though primarily the workout is highly beginner-appropriate."
+}

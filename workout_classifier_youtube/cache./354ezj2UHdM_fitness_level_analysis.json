@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The technique difficulty is rated as Beginner to Intermediate. The workout is identified as a pilates session, which involves controlled and precise movements. Although traditionally pilates can require technique for proper execution, the video is marked as a day of a challenge suitable for beginners or those new to pilates (e.g., first-time pilates comment), suggesting simplicity in movements to accommodate new users. The absence of equipment further simplifies the complexity.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.65
+    },
+    {
+      "level": "Challenging",
+      "score": 0.45
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The effort difficulty is rated as Moderate to Challenging. Comments suggest that the workout provides a noticeable burn typical of moderate intensity exercises. This aligns with the Moderate rating. However, the note of having a \"burn\" and users who felt changes in their bodies indicate it challenges users beyond the most basic level, supporting the higher end of moderate or low end of challenging.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.65
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.55
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "Given the technique and effort difficulties, the workout is likely suitable for both Beginners and Intermediates. The description and feedback from users indicate that it's friendly for users newer to fitness yet provides a level of challenge that can be rewarding, thus aligning more with Beginner and lower range of Intermediate. The duration just over 20 minutes leans toward requiring some fitness foundation, yet the controlled nature of Pilates should be accommodating."
+}

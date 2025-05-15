@@ -1,0 +1,46 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout consists of compound movements with a focus on full-body engagement, using dumbbells. This suggests some coordination and proper form is needed, which raises the technique difficulty slightly above 'Beginner' but is not overly complex. The description and tags suggest a mix of exercises targeting multiple muscle groups (legs, glutes, chest, arms, back, and core), which could involve movements like squats, lunges, and presses that require moderate coordination. Therefore, it primarily fits as 'Intermediate'. However, for less deconditioned individuals, the use of dumbbells even with basic movements presents a mild challenge, warranting a partial 'Advanced' score due to potentially more complex compound movements.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.75
+    },
+    {
+      "level": "Challenging",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The 20-minute workout blends strength and calorie burning, indicative of moderate energy expenditure, which can be demanding for individuals not accustomed to structured exercise. Comments and description mention appropriate rest times and manageable effort levels, suggesting a 'Moderate' effort difficulty for most users. However, user comments suggest it is somewhat challenging ('kicked my butt'), indicating that it could be on the upper end of Moderate, touching on Challenging for those more deconditioned.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "Based on the mix of technique and effort difficulty, the workout is broadly accessible but slightly leans toward Intermediate due to use of dumbbells and compound movements. The 'all levels' notice supports this approach. For beginners, it offers lighter weights or bodyweight options, thus a 'Beginner' level is possible for those familiar with modifications. Intermediate users will find fitting challenge, while advanced might enjoy the focus on strength but need heavier weights to find the workout adequately challenging. The duration rules apply here mitigating 'Beginner' score slightly due to its length, making Intermediate a stronger fit."
+}

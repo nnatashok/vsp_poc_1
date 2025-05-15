@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is tagged as 'beginner workout' and 'low impact workout', suggesting simple movements. The lack of high-impact exercises like jumping indicates that the exercises are straightforward, suitable for beginners. Some comments mention balance difficulties, indicating a light complexity that could align with Intermediate level, accounting for some coordination demands.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 1.0
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is described as a 'low impact workout' and 'quiet workout', targeting menstrual cramp relief, suggesting low energy expenditure suitable for those in a deconditioned state. It aims to ease discomfort during menstruation, implying a lighter intensity. However, the duration exceeds 20 minutes, slightly nudging effort towards moderate for some deconditioned users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "Derived from the low technique and effort difficulty, the workout is primarily suitable for beginners, especially since it's designed for period discomfort. However, due to its 22-minute duration, it slightly dips into the Intermediate range for those needing some baseline endurance."
+}

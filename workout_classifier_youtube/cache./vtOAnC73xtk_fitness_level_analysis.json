@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The technique difficulty is rated as Beginner with a strong alignment, as meditation involves simple sitting or lying down with a focus on breathing and visualization, as seen in the description: 'positive energy visualization, energy healing heart chakra tapping, and positive affirmations.' However, individuals who are new to meditation may find maintaining focus and posture slightly challenging, which warrants an inclusion of Intermediate level with moderate alignment.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 1.0
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The effort difficulty is classified as Light since the workout consists of a guided meditation of 11 minutes, which is short and involves minimal physical activity. Meditation typically requires low energy expenditure and involves resting in a comfortable position, which is supported by the content tags such as 'guided meditation' and 'meditation for beginners.'",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The required fitness level is primarily Beginner due to the low physical and technique demands of meditation. The metadata includes phrases like 'Great for beginners and all levels.' However, there is a potential intermediate score because maintaining focus, as implied through emotional processing described in comments, can be mentally demanding. Thus, users with some meditation experience or those who can maintain focus align with the Intermediate level."
+}

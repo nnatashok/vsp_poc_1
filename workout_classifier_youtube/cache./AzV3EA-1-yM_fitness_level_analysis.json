@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is designed for beginners, featuring simple exercises tailored for those new to fitness. The inclusion of beginner moves and alternatives like using filled water bottles instead of dumbbells supports this level. Exercises focus on basic strength training and toning with simple form requirements, indicating beginner-level technique difficulty. Some use of equipment offers slight progression potential, hence the intermediate score.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.8
+    },
+    {
+      "level": "Challenging",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout is 20 minutes long and structured into circuits with 20-30 seconds of active exercises and 10 seconds of rest. This format implies moderate effort due to consistent movement and short rest intervals. It focuses on major muscle groups and includes elements of strength and endurance, introducing a mild challenging level for deconditioned users who might find continuous circuit format physically demanding.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The workout's explicit targeting of beginners and simple workout format justifies a primary classification at the beginner fitness level. The adaptable nature (weight selection, use of water bottles) introduces enough flexibility for intermediate users as well, hence the intermediate score is warranted. The combination of accessible technique and moderate effort underpins this dual-level classification, making it suitable for individuals with minimal fitness experience."
+}

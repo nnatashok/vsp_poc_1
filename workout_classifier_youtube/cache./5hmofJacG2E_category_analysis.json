@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Elliptical",
+      "score": 0.95
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is primarily an 'Elliptical' session, as evidenced by the title ('Elliptical Machine Beginner Workout'), tags ('Elliptical Machine', 'elliptical trainer', 'Ultimate Elliptical Workout'), and detailed description emphasizing the use of the elliptical machine. The channel, Fitscope, frequently focuses on equipment-based workouts such as elliptical sessions, further supporting this classification. This is assigned a score of 0.95 due to very high confidence supported by multiple explicit indicators.\n\nThe mention of 'Low Impact Interval Training' and tags like 'HIIT Workout' imply elements of high-intensity interval training, even though the workout is described as 'low impact.' The description elaborates on the use of inclines and resistance, which aligns with interval training components. However, given the emphasis on low impact, indicative of lower intensity typical for HIIT, this is scored at 0.6, reflecting a less central but still present component of the workout."
+}

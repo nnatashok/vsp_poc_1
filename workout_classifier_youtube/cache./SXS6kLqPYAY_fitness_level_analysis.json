@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The technique difficulty is classified as Beginner to Intermediate. Indoor cycling typically involves straightforward pedaling and basic resistance adjustments, which are accessible to beginners. However, the mention of '2nd and 3rd standing positions' and modifications for these suggest the need for some coordination and balance, elevating technique to the intermediate range for those not familiar with these positions.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout is 50 minutes long, indicating a sustained moderate to challenging effort level. This duration demands endurance, which is moderate for intermediate users but challenging for beginners. The description implies a 'sweat session' and mentions intense periods that can be manually adjusted (e.g., RPM and resistance), which supports levels of moderate to challenging effort based on user self-adjustments.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.6
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "Considering the technique and effort difficulties, this workout is most suitable for Intermediate and Advanced fitness levels. The 50-minute duration exceeds the 40-minute guideline for advanced users, reducing beginner suitability. However, because impromptu intensity adjustments are possible, intermediates could comfortably participate with some effort."
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Yoga",
+      "score": 1
+    },
+    {
+      "name": "Weight workout",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The primary category assigned is 'Yoga' with a score of 1.0, motivated by explicit mentions across the metadata. The video is titled 'Yoga For Weight Loss' and hosted by a channel predominantly focused on yoga ('Yoga With Adriene'). Tags such as 'yoga for weight loss', 'yoga workout', and 'yoga practice' reinforce this classification. The description further emphasizes yoga-related themes and practices. The secondary category of 'Weight workout' is scored at 0.3 due to its focus on weight loss and muscle toning ('Trim, tone and build lean muscle mass'), as suggested by phrases like 'burn fat' and 'build lean muscle mass'. However, the overall context remains centered on yoga, hence the lower score for 'Weight workout'. Other categories were excluded due to the lack of relevant indicators in the metadata pointing towards those exercise types."
+}

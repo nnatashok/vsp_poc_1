@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The video is described as accessible to all levels and designed to help participants feel good, indicating that the yoga poses are not complex. The tags also mention 'yoga for beginners', suggesting simple movements that do not require advanced skills, consistent with beginner technique. However, some general yoga movements may require a basic awareness of body alignment and coordination, slightly overlapping with intermediate technique for users totally new to yoga.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.9
+    },
+    {
+      "level": "Moderate",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.78,
+  "effortDifficultyExplanation": "The session is 22 minutes long, which is manageable for most beginners, aligning it with light effort difficulty. The focus on stretching, breathing, and feeling good implies low-energy expenditure activities. The description and user feedback highlight emotional and physical wellness rather than intense physical challenges, reaffirming a light effort level primarily. However, sustained yoga poses could also present a moderate effort for some deconditioned users, justifying a moderate-level classification at a lower score.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.82,
+  "requiredFitnessLevelExplanation": "The metadata indicates that this video is very accessible, welcoming to all levels, underscoring the beginner fitness level. The practice duration and light effort required mean even deconditioned users can participate, with a focus on personal exploration rather than intensity. The intermediate score reflects that some familiarity with yoga or exercise would enhance the experience, while advanced users may appreciate the self-awareness aspects but find it less physically challenging, thus a lower advanced score."
+}

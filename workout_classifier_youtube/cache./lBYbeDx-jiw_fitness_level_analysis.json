@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The video includes simple yoga poses such as side bends, ragdoll, temple pose, wide-legged forward fold, and downward facing dog. These poses are generally considered beginner-friendly as they require minimal coordination and can be easily executed with basic instruction, as indicated by the metadata and the channel's description of classes for all levels. The presence of these basic moves and the label 'suitable for all levels' heavily supports a Beginner level classification. Some poses like the downward facing dog may require slightly more coordination, lending a small consideration for Intermediate techniques.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 1.0
+    },
+    {
+      "level": "Moderate",
+      "score": 0.2
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is only 5 minutes long and is primarily composed of simple stretches and yoga poses, suggesting low energy expenditure. Keywords such as 'quick' and 'energize your body' support its light nature. While yoga can be moderately challenging, the focus here on basic poses in a short duration implies very low physical demand, aligning with a 'Light' classification. There is a small possibility of some deconditioned individuals finding it slightly more taxing, warranting a minimal score for 'Moderate.'",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    },
+    {
+      "level": "Advanced",
+      "score": 0.1
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.9,
+  "requiredFitnessLevelExplanation": "The simplicity and short duration of this workout predominantly support a 'Beginner' level classification, aimed at those new to exercise or returning exercisers, as indicated by the description 'suitable for all levels.' The inclusion of basic yoga poses and lack of props further affirm its accessibility. However, even seasoned practitioners may find this useful as a light recovery or morning routine, slightly justifying an 'Intermediate' level. Due to its simplicity and short duration, very minimal consideration is given to 'Advanced' users looking for a gentle session. This analysis is heavily supported by user comments appreciating the video as a quick and effective stretch suitable between tasks."
+}

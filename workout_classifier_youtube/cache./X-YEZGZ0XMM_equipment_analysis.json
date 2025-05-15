@@ -1,0 +1,17 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Chair",
+      "confidence": 0.85
+    },
+    {
+      "equipment": "Blocks",
+      "confidence": 0.6
+    }
+  ],
+  "requiredEquipmentExplanation": "The video explicitly mentions that the workout is a 'bodyweight only' routine, consistent with the calisthenics focus seen in the title and tags, such as 'calisthenics workout' and 'bodyweight upper body workout'. However, the description states, 'All you will need for this upper body workout is your mat, a yoga block/thick book and a chair for decline push ups and dips,' which strongly suggests the use of these items as necessary.\n\n1. **Mat (Confidence: 0.9):** A mat is explicitly mentioned as necessary for this workout, likely to provide cushioning and support for the bodyweight exercises performed on the ground, such as the diverse plank exercises.\n\n2. **Chair (Confidence: 0.85):** A chair is specified as required for executing decline push ups and dips, which are key exercises in the routine. This direct mention provides high confidence in its necessity.\n\n3. **Blocks (Confidence: 0.6):** A yoga block or a thick book is mentioned as an alternative in the description. This suggests that some exercises may involve stability or height modification, granting moderate confidence.\n\nOverall, these equipment items are necessary to follow the workout as outlined, complementing the bodyweight movements central to the routine."
+}

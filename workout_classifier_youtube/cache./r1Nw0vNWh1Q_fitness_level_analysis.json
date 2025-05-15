@@ -1,0 +1,46 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout involves cycling, which typically has a lower technique difficulty due to its repetitive motion and stationary nature. However, as it includes various resistance levels and positions (e.g., 2nd and 3rd positions), it requires some familiarity with cycling techniques for optimal performance. Modifications are available, suggesting beginner accessibility, but maintaining proper form during resistance changes may present challenges to those unfamiliar with cycling. Therefore, it fits well into both beginner (score 0.6) and intermediate (score 0.7) skill levels, with slight considerations for advanced movements.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.4
+    },
+    {
+      "level": "Challenging",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The effort difficulty is primarily determined by the claimed intensity of the workout, described as 'quick & INTENSE', as well as comments indicating high energy expenditure ('I've NEVER pushed harder'). Despite being only 10 minutes long, varying resistances and the potential for high-speed sprints elevate the effort requirement to a 'Challenging' level for users who are deconditioned, while offering options to adjust effort allows it to also comfortably fit within 'Moderate' for those pacing themselves.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "Given the technique and effort difficulties, this workout is suitable for beginners (score 0.5), especially with modifications and less intense pace, and is strongly aligned with intermediate participants (score 0.8) who can challenge themselves with the full resistance ranges and speed. Advanced users (score 0.3) might still find value from the intensity derived from resistance adjustments and speed, despite the workout's short duration. The suggested modifications and the ability to self-regulate intensity make this accessible to a wide range of fitness levels."
+}

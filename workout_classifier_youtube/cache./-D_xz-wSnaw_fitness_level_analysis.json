@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout consists of low-impact exercises with options for lighter weights or no weights. This suggests simplicity suitable for beginners. However, the workout includes both cardio and strength components with interval timing, indicating some level of coordination and form awareness, pushing it into the intermediate range.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.6
+    },
+    {
+      "level": "Challenging",
+      "score": 0.8
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "At 60 minutes, with alternating high-intensity and rest periods, the workout demands increased cardiovascular and muscular effort, especially given the continuous movement over such a duration. Descriptions emphasize fatigue and 'afterburn,' aligning with moderate to challenging effort levels, especially for deconditioned individuals or those over 50.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.6
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.95,
+  "requiredFitnessLevelExplanation": "Despite the challenging length, beginners can modify the workout intensity by using lighter weights or no weights, which the instructor accommodates by providing options, maintaining inclusivity. A duration of 60 minutes makes it suitable for intermediates who can handle the complete workout with moderate load. Advanced users can intensify with heavier weights and engage fully during high-intensity intervals."
+}

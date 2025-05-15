@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout involves using an elliptical machine, which is straightforward to operate with low coordination and balance demands, aligning with a Beginner level (0.9). However, the inclusion of resistance and fast-paced intervals requires some coordination and control, meriting an Intermediate score (0.6). The description and video tags also target beginners, but acknowledge some level of adjustment with resistance, justifying the inclusion of an Intermediate level.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.8
+    },
+    {
+      "level": "Challenging",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is primarily cardio-focused with interval training over 28 minutes, suggesting a moderate level of effort (0.8). The description mentions 'calorie burning' and 'mixing up your routine,' indicating increased effort. Interval resistance settings further suggest a Challenging level (0.5) as options for more intense sessions are implied, aligning with user feedback on resistance use. The workout is designed to be adjustable, allowing for varied intensity suitable for different effort levels.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.82,
+  "requiredFitnessLevelExplanation": "The technique required is generally low, but with adjustable resistance and fast-paced intervals, it requires a baseline fitness level more than raw beginners might have, giving a stronger Intermediate score (0.8). However, the duration and nature of interval workouts allow those with a Beginner fitness level (0.7) to modify the resistance and pace to their capacity. Advanced users (0.5) can increase resistance for more challenge, reinforced by comments about the potential for increased resistance and intensity adjustments."
+}

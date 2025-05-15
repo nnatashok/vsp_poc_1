@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout primarily involves cycling, which is considered a low-complexity activity. The description and comments emphasize its suitability for beginners, with keywords like 'for beginners' and 'all levels.' The rotation of legs at moderate speeds, with basic variations in speed and resistance, does not require intricate techniques, thus aligning it with 'Beginner' technique difficulty. However, the inclusion of varied cycling techniques like sprints and jumps introduces a moderate level of coordination, hence a lower 'Intermediate' score is included to accommodate these variations.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.8
+    },
+    {
+      "level": "Challenging",
+      "score": 0.2
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout is 32 minutes long, which may be tiring for less fit users, thus it exceeds the beginner-friendly duration. Spin classes can be demanding due to continuous cardiovascular engagement with variations in intensity (hills, sprints). The repeated emphasis on calorie burning and fat-torching indicates a significant energy requirement, earning a strong 'Moderate' rating. Some users may find it more 'Challenging' due to the intensity of sprints and effort to maintain pace, indicated by user comments about feeling tired.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.3
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.2
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The workout combines beginner-friendly technique with a moderate-to-challenging effort level. It is explicitly marketed for all levels, but with an emphasis on beginners and 'beginner spin class' tags. The 32-minute duration necessitates decent cardiovascular endurance, thus strongly fitting 'Intermediate,' but its inclusivity warrants a 'Beginner' level as well for those moderately active. Considering the intensity and duration, some aspects justify an 'Advanced' rating due to the conditioning required to handle sprints and lack of frequent rests."
+}

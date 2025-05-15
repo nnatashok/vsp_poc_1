@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "Based on the metadata, the workout is on an indoor cycling training setup, likely utilizing stationary bikes, which primarily requires basic cycling technique. This is categorized as beginner to intermediate since cycling is generally straightforward but requires the user to have some balance and endurance. The mention of 'intervals' indicates some need for adjusting tempo or resistance, which aligns with an intermediate difficulty level, but the basic cycling motion itself keeps the base level lower.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.3
+    },
+    {
+      "level": "Challenging",
+      "score": 0.7
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout's duration is 53:17, which itself suggests a significant demand beyond a light effort level. The use of terms like 'race winning intervals' and comments about it being a 'brutal session' point towards a challenging effort level. The term 'intervals' implies high-intensity bursts with recovery periods, contributing to a challenging workout scenario for the average user. User comments also describe this as making them 'drenched with sweat,' indicating a high-calorie burning session more aligned with challenging effort.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    },
+    {
+      "level": "Advanced",
+      "score": 0.7
+    },
+    {
+      "level": "Elite",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.9,
+  "requiredFitnessLevelExplanation": "Given the intermediate technique required for cycling and challenging effort of interval training for over 50 minutes, the workout is suited for intermediate to advanced participants. The mention of it being a 'tough workout' and user feedback describing intense experiences contribute to this classification. Although regular intervals typically require some foundational fitness, the potential modification of intensity through resistance setting allows for inclusion of multiple fitness levels, including elite for those looking to push their limits regularly."
+}

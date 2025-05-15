@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Dumbbells",
+      "confidence": 1.0
+    },
+    {
+      "equipment": "Mat",
+      "confidence": 0.6
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout video explicitly mentions the use of dumbbells in the title, description, and tags, indicating a very high confidence level (1.0) that dumbbells are required for this workout. Phrases such as 'full body dumbbell workout' and 'full body workout with weights' specifically point to their necessity. Additionally, the description includes a link recommending the use of a mat for exercising, which suggests that while a mat might not be mandatory, it is highly recommended for comfort or support, particularly for floor exercises, leading to a moderate confidence level (0.6) that a mat is beneficial for the workout."
+}

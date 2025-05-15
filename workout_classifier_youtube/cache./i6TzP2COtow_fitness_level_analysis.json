@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.95,
+  "techniqueDifficultyExplanation": "The workout is designed as a full body stretch routine that is explicitly indicated as suitable for 'All Levels' and does not mention any complex movements. It primarily focuses on improving mobility and flexibility, which suggests simple and straightforward movements requiring minimal coordination. While the stretch routine is mostly beginner-friendly, some movements might require a moderate amount of coordination or balance akin to basic yoga poses, hence an intermediate level assignment is also appropriate.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The effort difficulty is predominantly light, as the video is a 15-minute stretch routine with intervals of 50 seconds of exercise followed by 10 seconds of rest. This suggests a low-energy expenditure suitable for a rest day or recovery session. It is characterized by low intensity, making it appropriate for light effort categorization. However, some users might feel a slight increase in effort as they stretch, which aligns with a moderate score but at a much lower alignment given the routine's nature.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.95
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    },
+    {
+      "level": "Advanced",
+      "score": 0.2
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.97,
+  "requiredFitnessLevelExplanation": "The required fitness level is predominantly beginner, as indicated by the \u2018All Levels\u2019 note and the simple nature of the stretching exercises, making it very accessible even for deconditioned users. Intermediate users may also benefit from it due to its potential to improve flexibility and mobility, which are supportive of more intense workouts. There is a slight inclusion for advanced level as well, despite lower alignment, considering how some stretches might require better flexibility, which advanced practitioners might possess to fully engage in all movements efficiently."
+}

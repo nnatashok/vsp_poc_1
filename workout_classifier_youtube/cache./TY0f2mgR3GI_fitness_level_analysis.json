@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout involves cycling on a stationary bike, which generally requires basic technique and coordination. Beginners may face some challenges with maintaining balance and cadence but can easily adjust resistance as needed. The presence of a warm-up and structured high-speed sections (\"high resistance, all out cadence\") adds a moderate level of complexity, leading to a slight increase in the beginner level score and an inclusion of the intermediate level.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout, being a HIIT session with 30-second intensive intervals followed by short rest periods, increases energy expenditure. Although the duration is only 10 minutes, the high-intensity nature (\"high resistance, all out cadence\") demands significant effort. User comments reflect a challenging but achievable workout for beginners, which suggests a moderate to challenging effort rating. The effort involves increased exertion due to the limited rest periods combined with high resistance cycling.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The HIIT cycling workout incorporates elements that both beginners and intermediates can handle by adjusting resistance levels. The combination of technique difficulty\u2014basic cycling\u2014and the moderate to challenging effort aligns with beginner to intermediate fitness levels due to the high resistance and intensity. The comments suggest the workout is very accessible to beginners, with plenty finding it manageable, but still pushing their limits. Advanced users will similarly benefit due to the intensity if they use higher resistance settings, justifying inclusion in the advanced score."
+}

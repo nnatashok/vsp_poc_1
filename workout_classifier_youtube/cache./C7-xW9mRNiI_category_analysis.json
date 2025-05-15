@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Body weight",
+      "score": 0.95
+    },
+    {
+      "name": "Mat",
+      "score": 0.65
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category, 'Body weight', was chosen due to strong evidence from the video metadata, particularly the title '20-Minute Bodyweight Workout for Beginners (No Repeats)' and description mentioning 'bodyweight workout has 16 of the best beginner strength exercises'. Additionally, the tags consistently reference 'bodyweight workout', 'beginner bodyweight workout', and 'bodyweight strength training', which indicate the absence of equipment and reliance on body weight as resistance. The score of 0.95 reflects its clear central focus in the video.\n\nThe secondary category, 'Mat', is applicable due to the nature of exercises listed in the workout outline, such as 'Bodyweight Squat', 'Glute Bridge', 'Dead Bug', and 'Bicycle Crunch', which commonly occur on a mat. The video also mentions 'No Equipment' and implies exercises that can be performed in a confined space. The score of 0.65 represents a strong presence of exercises typical to mat workouts, even if not explicitly stated.\n\nOther categories, such as 'HIIT' or 'Weight workout', were excluded as the workout primarily focuses on steady-state bodyweight exercises instead of high intensity intervals or use of weights."
+}

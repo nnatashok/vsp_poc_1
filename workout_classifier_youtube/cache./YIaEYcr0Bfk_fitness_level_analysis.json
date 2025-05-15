@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The exercises mentioned in the routine primarily involve basic floor exercises like V sit variations, pushups, and side planks. These movements do not require high technical skill and can be categorized as Beginner due to their straightforward nature, requiring minimal coordination. However, some exercises like the side plank might need moderate balance and body awareness, meriting a slight Intermediate classification, particularly for deconditioned users.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout lasts over 22 minutes, suggesting a Moderate effort for beginners. Terms like \"total body tone\" and comments like \"challenging workout\" indicate moderate cardiovascular and muscular demands. It is described as 'fast, effective', implying moderate intensity. However, due to the workout's total body focus and lack of equipment, some users may find it Challenging, especially if maintaining good form throughout the duration.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.75,
+  "requiredFitnessLevelExplanation": "Derived from the mixed technique and effort difficulties, this workout can suit Beginners with basic bodyweight maneuvers, Intermediate users due to the duration and total body engagement, and Advanced users who might use it as active recovery or when adapting the intensity. Comments indicate some users find it challenging, thus including a higher fitness level. Multiple fitness levels are assigned to align with the audience's varying capabilities and the adaptability of bodyweight exercises."
+}

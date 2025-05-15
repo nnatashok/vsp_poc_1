@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.9
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The technique difficulty is classified as intermediate, with scores also for beginner and advanced levels. This workout primarily involves cycling, a beginner-friendly activity in terms of basic movement, hence the scoring for 'Beginner'. It can become more technically demanding due to interval variations in intensity and cadence, justifying a stronger 'Intermediate' classification. Advanced technique score accounts for potential variations with resistance and cadence changes requiring good body awareness.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.9
+    },
+    {
+      "level": "Extreme",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "This 45-minute HIIT cycling session involves periods of intense exertion, especially during high RPM and perceived exertion levels of 9/10 to 10/10. These variables suggest high energy expenditure and endurance demands, indicating a 'Challenging' to 'Extreme' category, particularly for less conditioned individuals. The continuous nature of cycling at varying intensities over 45 minutes supports this classification, given the workout's designed difficulty and duration.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.6
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "Considering both the technique and effort difficulty, this workout is best suited for intermediate to advanced fitness levels. The intermediate score reflects the general accessibility of cycling as an exercise, while the advanced score accounts for the endurance and intensity involved over a 45-minute session. This temporal pattern and high-intensity segmentation cater more to those with some base fitness or cycling experience, supported by user testimonials highlighting the challenging nature of the session."
+}

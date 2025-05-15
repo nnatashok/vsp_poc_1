@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Body weight",
+      "score": 0.95
+    },
+    {
+      "name": "HIIT",
+      "score": 0.65
+    },
+    {
+      "name": "Mat",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary category 'Body weight' (0.95 score) is strongly indicated by the phrases 'No Equipment' and 'BODY WEIGHT EXERCISES' in the tags and description, emphasizing exercises using body weight for resistance. The mention of targeting various muscle groups further supports this classification. 'HIIT' (0.65 score) is supported by tags such as 'HIGH INTENSITY' and description phrases like 'high-intensity moves' and 'pure sweat,' implying a HIIT structure with alternating workouts and rests. Although there is a strong HIIT element, it is secondary to the bodyweight focus. Lastly, 'Mat' (0.40 score) is considered due to the absence of equipment and typical floor exercises in such routines. The order of sections, particularly focusing on warm-up and different body parts like a mat workout, further supports this. However, 'Mat' is less emphasized due to the dynamic and intense nature of the workout, with more focus on bodyweight and HIIT aspects. High confidence (0.9) is due to explicit mentions across metadata aligning with category criteria."
+}

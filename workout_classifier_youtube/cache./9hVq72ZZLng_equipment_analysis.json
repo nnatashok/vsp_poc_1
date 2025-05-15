@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.8
+    },
+    {
+      "equipment": "Chair",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout video is explicitly titled as a 'No Equipment Upper Body Workout,' which might initially imply that no equipment is needed. However, the description clarifies that although it's a bodyweight workout, a mat and a chair are required. The use of the mat is suggested for comfort during floor exercises as is customary, while the chair is specified for exercises such as tricep dips, evidenced by the presence of this exercise in both the description and the top comments. Therefore, the confidence score for the chair is very high at 1.0 since it is essential for certain exercises. The mat is given a high confidence score of 0.8 because, though not explicitly emphasized, it is clearly listed in the necessary equipment for the workout."
+}

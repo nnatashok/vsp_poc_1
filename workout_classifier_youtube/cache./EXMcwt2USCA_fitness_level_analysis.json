@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout primarily involves the use of an elliptical trainer, which typically requires minimal technical skill to operate, thus classifying it as Beginner. However, the incorporation of HIIT elements -- varying intensities on the elliptical -- necessitates a bit more coordination and awareness, justifying some consideration for Intermediate level.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.65
+    },
+    {
+      "level": "Challenging",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout demands high-intensity effort during the 8 rounds of 30-second intervals with 90-second rests, constituting a significant cardiovascular challenge, especially for deconditioned individuals. With a total of 23 minutes including warm-up and cool-down, the overall effort classifies primarily as Moderate, but the intense bursts warrant some consideration for Challenging difficulty.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "Despite being a HIIT workout, the elliptical's lower technique demand allows for Beginner classification with modifications. However, the intensity of the HIIT format, especially the 30-second maximal effort bursts, makes it more appropriate for Intermediate users, while the continuous effort in a 20+ minute workout stretches into Advanced territory for those unaccustomed to such a workout. Comments from users note significant weight loss and challenge, reinforcing the Intermediate and Advanced ratings."
+}

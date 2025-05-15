@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout is a Pilates class, which typically includes movements that require a moderate level of body awareness and coordination. The metadata suggests an 'At-Home Pilates' style, which is likely to involve exercises that demand core engagement and balance - indicative of intermediate difficulty. The channel owner is a certified instructor with a background in dance, suggesting a focus on movement precision. The workout being labeled as 'full body' implies a range of exercises targeting different muscle groups, potentially including some challenging sequences characteristic of Pilates.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.65
+    },
+    {
+      "level": "Challenging",
+      "score": 0.45
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The 40-minute duration is a significant factor leading to a moderate to challenging classification. While 'Pilates' often centers more on controlled movements rather than cardio workouts, the length of the routine and the 'full body' aspect suggest a sustained level of effort. User comments reference the intensity and burning sensation of some exercises, indicating that although the workout might not be high-intensity cardio, it demands sustained effort over time.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.2
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.75,
+  "requiredFitnessLevelExplanation": "Combining technique and effort analyses, this workout best suits individuals at an intermediate fitness level, as Pilates requires some understanding of body mechanics for effective performance. The 40-minute duration justifies an intermediate and lower-end advanced classification, although deconditioned beginners might also attempt it with caution and modifications. User comments reflect participation from individuals with varying physical conditions, reinforcing inclusivity across fitness levels."
+}

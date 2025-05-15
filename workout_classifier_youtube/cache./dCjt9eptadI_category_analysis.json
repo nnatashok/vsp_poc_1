@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Treadmill",
+      "score": 0.85
+    },
+    {
+      "name": "Indoor biking",
+      "score": 0.6
+    },
+    {
+      "name": "Other",
+      "score": 0.15
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The video primarily features a virtual scenery workout intended for use with a treadmill as indicated by the title ('Treadmill / Exercise Machine') and multiple tags ('treadmill', 'running', 'treadmill virtual scenery'). The description further suggests it's designed to make treadmill workouts more interesting, which matches a high-confidence classification for the Treadmill category (score: 0.85). \n\nIndoor biking is also relevant as the description lists 'exercise bike' and mentions users enjoying the video while using such equipment. This indicates that the video can be used for this purpose (score: 0.6).\n\nThough the video mentions other exercise machines like 'cross trainer' and 'rowing machine', these seem more like casual mentions to indicate versatility rather than the primary intent. Therefore, 'Other' is included with a low score (0.15), as the video lacks specific instructional content or focus on these workouts."
+}

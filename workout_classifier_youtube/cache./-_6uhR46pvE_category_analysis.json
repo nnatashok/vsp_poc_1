@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Pilates",
+      "score": 1
+    },
+    {
+      "name": "Mat",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary category assigned is 'Pilates' with a score of 1.0, which reflects extremely strong evidence from the title, tags, and description indicating this is a Pilates workout. The phrases 'Power Pilates For Energy,' 'pilates workout,' and 'mat pilates' in the tags clearly define the workout style. The description emphasizes it's a Pilates class, indicating a higher confidence of 0.9 for the categorization. Additionally, 'Mat' is included as a secondary category with a score of 0.5, due to mentions of 'mat pilates' and 'full body' exercises typical for mat workouts, though the presence isn't as central as Pilates itself. Exclusion of other categories is due to lack of supporting evidence; the workout's focus is clearly on Pilates, with no indication of equipment other than possibly a mat, and no explicit callouts for strength training, cardio, or flexibility-focused work outside the Pilates domain."
+}

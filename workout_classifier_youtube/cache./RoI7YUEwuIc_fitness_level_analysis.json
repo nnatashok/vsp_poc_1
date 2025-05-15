@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is clearly targeted at beginners, as evidenced by the title 'TRUE Beginner Calisthenics Workout No Equipment' and frequent emphasis on 'beginner' in the tags and description. The exercises described as superman lifts and other basic movements imply simple movements that require minimal coordination. Additionally, user comments mention accessibility and their ability to perform nearly all sets despite limitations, reinforcing the beginner-friendly nature of the exercises.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout is 15 minutes long, which leans towards light effort difficulty, especially given it's aimed at beginners. Comments suggest some users found it slightly challenging due to personal fitness levels, indicating it may be moderately challenging for completely deconditioned users. However, keywords such as 'beginner', 'calisthenics', and lack of equipment suggest a primary light effort level, with moderate being applicable for those very new to exercise.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "The workout's technique difficulty is firmly beginner based on simple movements and consistent user feedback. Effort difficulty straddles light to moderate. Given the conservative adjustment needed for deconditioned users, the main target is beginners, with intermediate and advanced being plausible as subset options for users who might find light/moderate efforts applicable due to variance in personal starting levels or ability to manage slightly more intense repetitions or reduced rest, as user flexibility allows."
+}

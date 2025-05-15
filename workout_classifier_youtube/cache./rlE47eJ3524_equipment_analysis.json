@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Blocks",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout video is titled '20-Minute Beginner Yoga Routine | Gentle Flow With Blocks,' clearly suggesting that yoga blocks are essential for this routine. This is confirmed by the description, which states, 'We'll be using two yoga blocks throughout the class.' The tags also mention 'yoga with blocks,' reinforcing their importance in the session. Therefore, the confidence score for blocks is very high, at 1.0.\n\nAdditionally, the description advises participants to 'grab your mat,' indicating that a mat is necessary for this yoga practice. The routine involves settling into poses and feeling stretches, typical activities for a yoga session done on a mat. The confidence score for the mat is 0.9, as it is crucial for comfortable floor exercises typically involved in yoga. No other equipment is suggested in the metadata, indicating that these are the primary requirements for this workout."
+}

@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout features simple dumbbell exercises like bicep curls, tricep kickbacks, and rows. These are straightforward in execution but require basic knowledge of form, hence also warrant an intermediate level classification. The presence of exercises like 'Upper Cut to Shoulder Raise' and 'Lunge to Curtsy Lunge' does increase the complexity slightly, justifying a dual classification of Beginner and Intermediate technique difficulty.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.65
+    },
+    {
+      "level": "Challenging",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout is 30 minutes long which is moderately demanding, especially for beginners. Although advertised as a low-impact workout, it includes compound movements which can be physically engaging. Users are managing weight with dumbbells, exerting moderate to challenging energy expenditure, especially since users can choose their own weight.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.6
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The video is advertised as suitable for beginners but its duration and complexity suggest it's quite challenging for complete novices. User comments mention modifications and the need to adjust weights, suggesting it's accessible to intermediate users and potentially those at an advanced beginner level ('untrained intermediate'). The workout's length and intensity also make it appropriate for more experienced individuals who desire a lower-impact workout, hence including an advanced score due to its strength training focus."
+}

@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout primarily involves walking or running on a treadmill at an incline, which is a basic form of exercise. This aligns well with the 'Beginner' level as it involves very simple, straightforward movements. However, because the workout involves an incline, we also include 'Intermediate' for those who may require slightly more coordination and balance when walking or running uphill.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.6
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The effort difficulty is largely dependent on user pace and incline settings on the treadmill. The workout duration is 15 minutes which is relatively short, suggesting a 'Light' to 'Moderate' effort level. The description mentions the ability to adjust the workout's intensity, which supports both levels. The fact that it can be done from a chair also suggests flexibility in effort level.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.75,
+  "requiredFitnessLevelExplanation": "Given the technique and effort difficulty, this workout is accessible to beginners, especially since the intensity can be adjusted. However, walking or running at an incline introduces a slight challenge which suitable for the 'Intermediate' level. The intensity can be increased further by adjusting the treadmill settings or pace, adding a minor 'Advanced' level for more experienced users."
+}

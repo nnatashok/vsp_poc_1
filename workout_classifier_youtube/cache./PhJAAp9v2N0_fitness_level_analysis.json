@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The video features a full body stretch routine aimed at improving flexibility and mobility, which suggests that the movements are relatively simple. The tags and description emphasize ease and the ability to integrate the routine into daily activities. Comments indicate that it is accessible even for users without a background in fitness, further supporting a 'Beginner' classification. However, some stretches may pose a slight challenge for complete beginners, warranting a moderate score for 'Intermediate'.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.85
+    },
+    {
+      "level": "Moderate",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout's duration is under 20 minutes, and it is described as a 'quick, full body stretch' with the purpose of increasing flexibility. This implies low physical exertion, aligning it primarily with a 'Light' effort difficulty. The 'Moderate' score accounts for those completely unconditioned who might find sustained stretching routines slightly more demanding.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.95
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.9,
+  "requiredFitnessLevelExplanation": "Given the simple technique and low effort requirements, this routine is highly suitable for 'Beginner' fitness levels. The stretch routine is designed to integrate easily into daily life, making it accessible for most users regardless of current physical condition. A 'Intermediate' level is included due to potential challenges in specific stretches for those with no prior exercise experience or very low flexibility, supported by user comments from individuals with low fitness finding the routine beneficial."
+}

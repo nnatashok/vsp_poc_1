@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.1
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is labeled as a '12 MIN DAILY STRETCH' for tight muscles, mobility, and flexibility. The inclusion of terms such as 'full body stretch,' 'no equipment,' and 'quick stretch' indicates that the movements are simple and require minimal coordination. Additionally, the comments do not mention any complex techniques and the metadata describes this as suitable for beginning the day or after a workout. This all implies beginner-level technique difficulty, with a slight possibility for intermediate only due to the mention of 'mobility' which may involve some degree of coordination.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 1.0
+    }
+  ],
+  "effortDifficultyConfidence": 0.95,
+  "effortDifficultyExplanation": "The video is explicitly focused on stretching, flexibility, and mobility, with a very short duration of 14 minutes and described as suitable for daily activities such as 'first thing in the morning' or 'before bed.' This aligns with low energy expenditure and is consistent with a Light effort difficulty. The comments and metadata suggest that it is relaxing and easy to incorporate into daily routines. There is no indication of it being physically challenging, so Light is the most appropriate classification.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.05
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "Given the Beginner technique and Light effort difficulties, the Required Fitness Level is strongly aligned with beginner users. The workout's focus on gentle stretching and flexibility is explicitly beginner-friendly, and the comments indicate it is used as part of easy, daily routines. The Intermediate score is included, though very low, to account for a small number of slightly more challenging mobility elements as suggested by the tags. The overall design and intention of the workout aim at inclusivity for all fitness levels, but mainly for those starting or maintaining light activity routines."
+}

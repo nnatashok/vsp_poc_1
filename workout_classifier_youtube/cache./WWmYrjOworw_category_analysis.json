@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor biking",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category for the video is 'Indoor biking,' which is clearly indicated by the title '45 Minute Indoor Cycling Ramp Workout' and reinforced by the channel's focus and tags such as 'indoor cycling,' 'spin class,' and 'spinning class.' The presence of phrases like 'spin workout' and 'turbo trainer' in the tags, along with the description detailing a structured cycling workout with intervals, confirms this categorization, justifying a high confidence and score of 0.9.\n\nAdditionally, there is a strong element of 'HIIT' as inferred from the structured intervals and intensity progression described in the video (\u201890s Hard,\u2019 \u20188 Mins Moderate,\u2019 etc.) and the use of tags like 'interval,' 'interval training,' and 'HIIT.' These references to interval workouts characterize it as a high-intensity interval training session on a bike, leading to a secondary category with a score of 0.7. The presence of a warm-up and cool-down also supports the HIIT classification.\n\nOther categories were excluded as the explicit focus on cycling negates categories unrelated to cycling or resistance, such as weight lifting or mat exercises."
+}

@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.75
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.45
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The video is explicitly labeled as a 'beginner' Pilates workout, suggesting simple movements typical of beginner levels. Pilates often involves controlled movements, which could present mild complexity, hence a slight score for Intermediate. However, the use of 'No Equipment' indicates simpler workouts, reinforcing the Beginner classification. The comment about needing to repeat the workout suggests some initial coordination challenges, indicating the need for practice, which supports a small score for Intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.35
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout is described as full body and 26 minutes long, which can be moderately demanding for beginners. The comment about 'finding a burn' and 'deadly' moves suggests moderate effort, with some exercises being challenging. Also, the comment that it didn't feel like 26 minutes indicates a balanced level of effort, typical of a challenging but not overwhelmingly intense workout. Thus, it scores mainly as Moderate with some consideration of Challenging due to individual perceptions of difficulty.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    },
+    {
+      "level": "Advanced",
+      "score": 0.2
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "The workout is labelled as suitable for beginners but includes aspects like the 26-minute duration and comments indicating a challenging experience, which may be slightly demanding for complete beginners. Therefore, it is scored strongly at Beginner level and moderately at Intermediate level for those slightly more experienced or returning to fitness. An Advanced score is included because individual fitness varies, and some movements might challenge this group due to technique or endurance, as indicated by user comments. Multiple fitness levels are considered to account for varying individual capabilities and perceptions of Pilates."
+}

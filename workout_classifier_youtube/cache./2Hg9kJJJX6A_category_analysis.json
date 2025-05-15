@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Treadmill",
+      "score": 0.95
+    },
+    {
+      "name": "Walking",
+      "score": 0.8
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary category for this workout is 'Treadmill' with a score of 0.95 due to the explicit mention of a 'treadmill walking workout' in both the title and description. The use of phrases like 'power walk' and 'treadmill' repeated in tags and description strongly supports this classification, making it a central element of the workout. Additionally, 'Walking' is chosen with a score of 0.8 because the workout emphasizes a 'walking workout', especially suitable for beginners and those needing low-impact options, as hinted by comments mentioning 'power walking'. 'HIIT' is included with a lower confidence score of 0.6 due to the description referring to the workout as 'low impact HIIT cardio'. However, since the primary focus is on walking with relatively gentle pace shifts rather than typical high-intensity exercises, HIIT is a secondary aspect. Other categories like 'Mat', 'Indoor biking', or 'Yoga' were discarded, as the video focuses specifically on treadmill walking."
+}

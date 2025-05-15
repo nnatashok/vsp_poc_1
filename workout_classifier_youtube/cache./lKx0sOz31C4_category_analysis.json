@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Mat",
+      "score": 0.8
+    },
+    {
+      "name": "Stretching",
+      "score": 0.6
+    },
+    {
+      "name": "Yoga",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.8,
+  "categoriesExplanation": "The title and description emphasize exercises suitable for pregnant women, focusing on a mix of activities for \"easy delivery\" with phrases like \"warm up,\" \"get the heart pumping,\" and \"hip openers.\" These are indicative of general mat-based workouts. The description mentioning \"asymmetrical poses, pelvic floor and core work\" points to stretching and controlled movement exercises. Hence, 'Mat' is assigned a score of 0.8, reflecting its central role in the workout. 'Stretching' is included with a score of 0.6 due to hip openers and pelvic exercises which imply flexibility training. 'Yoga' is assigned a lower score of 0.4 due to the mention of poses and pelvic floor/core work, elements commonly associated with yoga, even though yoga is not explicit in the title or tags. The overall confidence is high (0.8), as these categories are strongly indicated by the provided metadata."
+}

@@ -1,0 +1,17 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Dumbbells",
+      "confidence": 1.0
+    },
+    {
+      "equipment": "Chair",
+      "confidence": 0.6
+    },
+    {
+      "equipment": "Mat",
+      "confidence": 0.8
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is explicitly described as a \"Full Body Dumbbell Strength Workout\" in the title and description, with the recommendation to \"grab your dumbbells (or water bottles)\" and specific mention of using \"2 x 5kg dumbbells\". This provides very high confidence (1.0) that dumbbells are required. The workout includes exercises like \"Elevated Split Squat\" and \"Elevated Goblet Squat,\" implying the potential use of a chair or similar prop for elevation, justifying the inclusion of a chair with high confidence (0.6). Additionally, phrases such as \"Superman Push Ups\" and \"Side Plank + Weight\" suggest floor exercises that typically require a mat for comfort and safety, leading to high confidence (0.8) that a mat is needed. Overall, the metadata suggests a workout heavily centered on dumbbell-based strength exercises, with floor exercises and elevated movements indicating the additional equipment."
+}

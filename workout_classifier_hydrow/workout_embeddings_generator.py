@@ -201,6 +201,8 @@ def main():
         # Add embedding column if it doesn't exist
         if 'embedding' not in fieldnames:
             fieldnames.append('embedding')
+        if 'embedding_source' not in fieldnames:
+            fieldnames.append('embedding_source') 
         workouts = list(reader)
 
     print(f"Found {len(workouts)} workouts in CSV file.")
@@ -218,6 +220,9 @@ def main():
         # Check if cache file exists
         cache_file = cache_dir / f"{video_id}.json"
         cache_data = None
+        # Create description with vibes info
+        description = create_workout_description(workout, vibes_info)
+
 
         # Load cache if it exists
         if cache_file.exists() and not args.force_refresh:
@@ -236,9 +241,6 @@ def main():
         else:
             # Generate new embedding
             print(f"Processing workout {i + 1}/{len(workouts)}: {video_id} (generating new embedding)")
-
-            # Create description with vibes info
-            description = create_workout_description(workout, vibes_info)
 
             # Generate embedding
             embedding = generate_embedding(client, description)
@@ -263,6 +265,7 @@ def main():
 
         # Add embedding to workout data
         workout['embedding'] = json.dumps(embedding)
+        workout['embedding_source'] = description
 
     # Create output directory if it doesn't exist
     output_path = Path(args.output)

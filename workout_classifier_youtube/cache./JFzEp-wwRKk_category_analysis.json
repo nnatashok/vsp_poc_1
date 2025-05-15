@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 1
+    },
+    {
+      "name": "Mat",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The video is clearly a HIIT (High-Intensity Interval Training) workout, as explicitly stated in the title, tags (e.g., \"hiit workout\", \"high-intensity interval training\"), and throughout the description multiple times (e.g., \"high-intensity interval training\", \"full body HIIT workout\"). The workout is characterized by intense intervals targeting full body, including abs, legs, and arms, which is typical for HIIT formats that combine cardio and strength movements. This justifies a very high confidence score of 1 for the HIIT category.\n\nThe presence of the phrase \"grab your YOGA MATS here\" in the description suggests exercises performed on a mat, even though these may be high-intensity steps rather than calm stretches or yoga. This indicates a connection to exercises on the floor, which aligns with the Mat category. Given the context of bodyweight and HIIT routines typically conducted on mats at home, a score of 0.6 is assigned to the Mat category due to its significant, but not central, presence. Alternative categories such as Body weight and Cardio (specifically) were considered but HIIT and Mat cover the workout style and equipment use more accurately."
+}

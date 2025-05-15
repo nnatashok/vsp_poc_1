@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Yoga",
+      "score": 0.9
+    },
+    {
+      "name": "Stretching",
+      "score": 0.75
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category is 'Yoga', scoring 0.9, due to numerous explicit mentions in the title, tags, and description such as 'yoga for lower back pain', 'gentle yoga', and 'beginner friendly yoga'. These elements strongly align with the characteristics of a yoga workout focusing on back pain relief, specifically using yoga techniques. The secondary category 'Stretching' is relevant due to the focus on easing tension and improving flexibility, which are core components of stretching workouts. Terms like 'stretch', 'tightness', and 'lengthen our spine & hips' indicate a stretching component, justifying a score of 0.75. Other categories like Pilates or Weight Workout were excluded as there was no evidence in the tags or description supporting any resistance training or Pilates exercises."
+}

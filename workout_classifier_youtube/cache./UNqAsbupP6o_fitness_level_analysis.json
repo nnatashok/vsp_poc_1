@@ -1,0 +1,46 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.6,
+  "techniqueDifficultyExplanation": "The technique difficulty is primarily characterized by the components of the workout, including Tabata drills and power surges. The general technique for a spin class tends to be straightforward, as it involves cycling motions primarily requiring coordination and endurance rather than complex movements. The use of terms like 'power surges' and 'Tabata drills,' which usually involve intensity variations, suggests a need for some cycling proficiency and cadence control, justifying intermediate and some advanced considerations.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.4
+    },
+    {
+      "level": "Challenging",
+      "score": 0.7
+    },
+    {
+      "level": "Extreme",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The effort difficulty is significantly defined by the workout's duration of approximately 46 minutes and the incorporation of Tabata drills. These factors suggest a higher intensity level, as Tabata is known for short bursts of high-intensity work with minimal rest. Although 'burn up to 600 calories' is often relative to different fitness levels, the prolonged high intensity aligns with 'challenging,' with some degree verging towards 'extreme.'",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    },
+    {
+      "level": "Advanced",
+      "score": 0.8
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.7,
+  "requiredFitnessLevelExplanation": "Considering both technique and effort difficulties, the required fitness level is skewed towards Intermediate and Advanced users. The technique is accessible with modification but challenging due to the exertion level and need for sustained cycling and interval endurance. The Tabata and overall duration over 40 minutes primarily support the classification as requiring Advanced level fitness. However, intermediate users might attempt this with careful pacing, justifying the inclusion of that level as well."
+}

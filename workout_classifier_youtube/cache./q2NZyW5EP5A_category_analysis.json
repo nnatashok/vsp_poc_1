@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Mat",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The workout video is primarily classified as 'HIIT' because of multiple explicit indicators: \n- The title mentions '40 second, 20 second Intervals', a common HIIT structure. \n- The tags include 'hiit' and 'high intensity interval training', emphasizing its classification as a HIIT workout.\n- The description explicitly states 'High Intensity Interval Training (HIIT) workout for beginners.' Therefore, it strongly aligns with the HIIT category, warranting a high score of 0.9.\n\nAdditionally, it could be classified under the 'Mat' category with a moderate score of 0.7. This is because the exercises mentioned (Jog in Place, Walking High Knees, Vertical Jump, Invisible Jump Rope, and Jumping Jack) are typically performed without equipment on an exercise mat, indicating a focus on bodyweight moves suitable for a general floor exercise classification. This is supported by the description of the workout being 'no equipment' and the channel\u2019s general emphasis on bodyweight exercises.\n\nOther potential categories, like 'Body weight', were considered but omitted to focus on the primary HIIT involvement and broader mat exercise scope."
+}

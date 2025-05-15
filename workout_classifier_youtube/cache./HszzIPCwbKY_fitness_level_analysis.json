@@ -1,0 +1,46 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout includes guided instruction, making it accessible for beginners and intermediate users. The description mentions form tips and modifications, which suggests that while some exercises may have complexity, they are broken down for ease of execution. Beginner movements are supported by guidance and cues, while intermediate users can follow along with greater intensity or complexity. Advanced elements may be present in challenging variations or intensified execution, hence a smaller score for this level.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The video lasts 30 minutes, indicating moderate to challenging effort depending on individual pace and intensity. Phrases like 'intense enough to spark change' suggest a workout that will push users physically, but modifications and the low-impact tag indicate it avoids extreme exertion. The intermediate to challenging score is supported by the need for a 'de-load week,' indicating substantial physical demand over time. Comments about motivation and pace imply a steady but demanding effort.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "Given technique and effort levels, the workout is suitable for beginners (with modifications), intermediate, and advanced users. Although there's a direct focus on form and modifications for all fitness levels, the 30-minute duration and intensity described make it more fitting for those with at least some basic fitness. Advanced users will find value in increased intensity and possibly less rest. Despite modifications, beginners might find it somewhat demanding but still manageable with guidance."
+}

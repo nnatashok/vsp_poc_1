@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Weight workout",
+      "score": 0.9
+    },
+    {
+      "name": "Body weight",
+      "score": 0.3
+    },
+    {
+      "name": "Mat",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary category \"Weight workout\" is chosen based on the video title, tags, and description which emphasize the use of dumbbells for a full body workout. Phrases such as \"FULL BODY DUMBBELL WORKOUT,\" \"dumbbell strength,\" and \"dumbbell sculpt\" indicate a strong focus on using weights, earning a high score of 0.9. The category \"Mat\" is considered due to the mention of a mat in the equipment section, and user comments suggesting a mix of mat and standing workouts, giving it a score of 0.4 as it is a moderate element in the workout. \"Body weight\" is also lightly considered due to the full body focus and low impact nature of the routine, but since weights are the primary focus, it only gets a score of 0.3. Other categories like \"HIIT\" or \"Pilates\" were excluded because the workout explicitly focuses on dumbbells and strength without typical elements like high intensity intervals or Pilates movements."
+}

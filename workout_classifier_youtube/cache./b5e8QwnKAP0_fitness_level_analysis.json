@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout focuses on 100 push-ups, which includes standard and wide variations, typically classified as Intermediate due to the coordination and strength balance needed. Additionally, comments mention clapping push-ups, an Advanced variation due to the explosive strength and control required. The description also suggests alternative exercises, indicating modifications are available to adjust the difficulty level.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.65
+    },
+    {
+      "level": "Challenging",
+      "score": 0.35
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "With a workout duration of around 9 minutes focusing on 100 push-ups, it is physically demanding. The commentary indicates users find it challenging, especially with modifications like clapping push-ups, which significantly increase effort level. However, the short duration limits overall exertion, hence it's classified between Moderate and Challenging.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.2
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    },
+    {
+      "level": "Advanced",
+      "score": 0.2
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The inclusion of alternative exercises suggests that beginners can attempt modified versions, albeit with lower scores due to the technical and effort demands. Intermediate users likely handle the full routine without modifications, while Advanced users may find the options like clapping push-ups more suitable. The high degree of customizable intensity by altering push-up variations supports multiple levels, yet limits full beginner categorization given the basic-intermediate range of movements and effort."
+}

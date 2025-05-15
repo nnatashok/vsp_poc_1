@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout includes basic exercises like squat holds and dumbbell flys, which are generally straightforward but may require some coordination to perform correctly. The techniques are simple enough for beginners, but since resistance cables are mentioned, coordination could be slightly more challenging, thus also qualifying for the Intermediate category.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout is over 32 minutes long and includes multiple sets (3x10, 3x12) of different exercises, which suggests a moderate to challenging energy expenditure for someone with a low fitness baseline. The duration and structure increase the demand slightly above a light session.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.72,
+  "requiredFitnessLevelExplanation": "The technique and effort difficulties suggest that the workout is accessible to beginners, especially since it targets a specific condition (PCOS) and encourages those with limited fitness experience. The inclusion of resistance cables and the workout's length may pose additional challenges, indicating it may also fit early intermediates."
+}

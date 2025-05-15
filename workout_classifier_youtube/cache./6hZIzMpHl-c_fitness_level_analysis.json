@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The title explicitly labels the workout as 'Beginner Yoga,' and the description supports this with mentions of building foundational strength, balance, and flexibility, while emphasizing the suitability for beginners. The inclusion of tags like 'flexibility yoga for beginners,' 'easy yoga,' and 'yoga for beginners' further points to a beginner-friendly level. However, yoga requires some coordination and balance, which suggests a moderate alignment with the intermediate level as well.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The effort is marked as light due to the focus on yoga, which generally involves gentle stretching and breathing exercises - consistent with 'easy yoga' and 'stress relief' tags. However, the class is 30 minutes long, which could pose a medium level of challenge for deconditioned beginners, hence a moderate alignment with the 'Moderate' effort level, as it might require sustained effort for the duration.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The video is designed as a 'Beginner Yoga' class without props, emphasizing foundational strength and flexibility, making it suitable for beginners. However, considering the 30-minute duration, which exceeds the 20-minute guideline, intermediate users may also find benefit, especially those who are easing back into fitness or looking for a moderate challenge. This is supported by the comments where even non-beginners find the class effective."
+}

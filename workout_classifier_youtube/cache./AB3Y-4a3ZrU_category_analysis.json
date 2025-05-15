@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Yoga",
+      "score": 1
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The video is primarily classified as 'Yoga' with a score of 1 due to explicit mentions in the title, description, and tags, such as 'yoga for beginners,' 'yoga with Adriene,' and 'home yoga.' These elements strongly indicate a yoga session. Moreover, the description emphasizes yoga elements like 'breath work' and 'poses for the spine, shoulders, and core,' which further reinforce this category.\n\nThe secondary category is 'Breathing exercises' with a score of 0.6. The description specifically mentions 'we will work with breath and other foundational elements,' indicating a significant focus on breath work as part of the practice. This warrants the inclusion of 'Breathing exercises' as a supporting category, given its presence and importance in the session.\n\nOther potential categories like 'Mat' or 'Stretching' were excluded as they are not explicitly mentioned or implied in the metadata, and the primary focus remains on yoga and breathwork. Therefore, the classification is made with high confidence based on clear and consistent indicators in the metadata."
+}

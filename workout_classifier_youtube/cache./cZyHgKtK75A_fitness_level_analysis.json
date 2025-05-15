@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout's technique difficulty is classified as mainly 'Beginner' because it is described as simple aerobic exercise that can be done at home with no equipment. Aerobic exercises are generally straightforward and are typically accessible to novices. The comments and channel description suggest it's designed to be accessible to a wide audience, supporting the beginner classification. Some aspects may slightly align with 'Intermediate' due to the coordination required in sustained aerobic routines, but this alignment is only moderate.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.8
+    },
+    {
+      "level": "Challenging",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The 31-minute duration of the workout and its focus on aerobic exercise suggests a 'Moderate' effort difficulty, as it involves sustained energy expenditure over a considerable duration. User comments indicate that beginners find even 5-10 minutes challenging, hinting at its potential difficulty for less fit individuals. The recommendation to do this workout multiple days for effective weight loss points to a 'Challenging' score for very deconditioned users or those not accustomed to continuous activity, though 'Moderate' remains the dominant perception of effort.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The workout is primarily suitable for 'Beginner' and 'Intermediate' levels as it features simple aerobic movements with a focus on fat burn and heart health that are typically emphasized for beginners. However, the 30-minute length reduces its pure beginner suitability slightly and increases its alignment with 'Intermediate.' The frequent recommendation to perform the workout multiple times a week indicates it's designed for consistent practice, supporting the intermediate categorization. A lower 'Advanced' score is included due to the workout's substantial duration, which could be challenging for less experienced users."
+}

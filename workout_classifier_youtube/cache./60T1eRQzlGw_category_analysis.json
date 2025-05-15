@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Pilates",
+      "score": 0.95
+    },
+    {
+      "name": "Mat",
+      "score": 0.8
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The workout video is clearly classified as 'Pilates' with very high confidence (0.95) due to explicit mentions throughout the metadata. The title '25 MIN FULL BODY WORKOUT || Energising Mat Pilates' directly refers to a Pilates workout. The tags are saturated with references to Pilates, such as 'pilates workout full body,' 'mat pilates,' and 'at-home pilates.' Additionally, the channel, 'Move With Nicole,' is run by a certified Pilates instructor, which further solidifies this categorization. The description also emphasizes the Pilates nature with the phrase 'Full Body Pilates Workout' and notes that it is intended to make the participant feel 'strong and energised,' aligning with the Pilates focus on strength and control.\n\nThe second category, 'Mat,' is included with a score of 0.8, reflecting the use of a mat for performing exercises. The title and tags explicitly mention 'Mat Pilates,' indicating that the workout is likely performed on a mat, a characteristic of general mat exercises. However, 'Pilates' remains the dominant theme since it describes the style of exercises more than just the surface they are performed on."
+}

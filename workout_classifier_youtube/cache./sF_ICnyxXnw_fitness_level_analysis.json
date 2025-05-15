@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout is described as intermediate with exercises aimed at building strength, skill, and mobility, suggesting moderate complexity in movements typical for intermediate fitness levels. The tags and description emphasize intermediate calisthenics, implying that the exercises require coordination without being overly complex. However, user comments describe the workout as challenging and detailed, hinting at some advanced aspects, which warrants a minor score for advanced technique difficulty.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.6
+    },
+    {
+      "level": "Challenging",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The 20-minute duration fits into a demanding cardio and strength workout session. User comments reflect significant exertion ('brutal', 'hell'), suggesting a high level of intensity. The effort required at intermediate calisthenics level, along with the descriptions of it as a 'brutal' workout, supports a higher effort challenge than light or moderate but not extending to extreme, hence a primary 'Moderate' score with a significant 'Challenging' component.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 0.75
+    },
+    {
+      "level": "Advanced",
+      "score": 0.25
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The technique difficulty indicates primarily intermediate exercises, in line with the video's targeting. User comments also mention it as a progression step from beginner routines. The effort difficulty shows it may not suit complete beginners without adequate preparation, reaffirming the intermediate classification. Given the advanced undertones for some exercises and comments referencing difficulty even for regular gym-goers, a smaller score for advanced users is included to reflect these nuanced needs."
+}

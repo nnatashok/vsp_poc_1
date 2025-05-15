@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Mat",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.8,
+  "categoriesExplanation": "The workout is explicitly described as a 'Gentle BEGINNERS HIIT workout' in both the title and tags, providing very high confidence for the HIIT category. The description mentions '15 moves | 30 seconds work | 30 seconds rest,' which is a classic HIIT structure, further reinforcing this categorization. The term 'gentle' suggests it might be less intense than typical HIIT, but the presence of interval timing suggests it fits this category strongly with a score of 0.9.\n\nAdditionally, some moves like 'March on the spot', 'Jog on the spot', and 'High plank' suggest the use of an exercise mat, making 'Mat' exercises a secondary relevant category. Although not all exercises are necessarily performed on a mat, the likelihood of an indoor setting with general movements like lunges and squats allows for a 0.5 score for the Mat category due to the possible need for a mat or soft surface.\n\nOther categories such as Yoga, Weight workout, or Indoor biking were not selected as there are no indicators in the metadata supporting these types of workouts."
+}

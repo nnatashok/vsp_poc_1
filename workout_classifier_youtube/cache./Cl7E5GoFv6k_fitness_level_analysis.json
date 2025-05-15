@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The exercises listed in the workout (e.g., mini squat, reverse steps, farmers carry) are basic movements that are straightforward to perform and generally require minimal coordination, making them suitable for beginners. However, the inclusion of dumbbells and the potential for users to self-select weight adds a slight complexity, potentially engaging intermediate levels if heavier weights or more coordination are involved, thus a lower intermediate score is assigned.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout, targeting seniors and beginners, encourages the use of light weights (2-10 pounds) and even suggests alternatives like water bottles. This indicates a low energy expenditure typical of a light effort. However, it runs for 28 minutes and involves two sets of exercises, which can be moderately challenging for very deconditioned individuals or beginners, hence a moderate effort score is also included.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.9,
+  "requiredFitnessLevelExplanation": "The workout is tailored to be accessible for beginners, highlighted by its simple exercises and encouragement of weight adjustments. While it is primarily beginner-friendly, the video runtime of 28 minutes and the use of weights could slightly challenge intermediate users. Its technique and effort levels align to provide fitness opportunities for beginners and transition phase individuals, thus including an intermediate level at a lower score."
+}

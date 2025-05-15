@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Weight workout",
+      "score": 0.9
+    },
+    {
+      "name": "Body weight",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The video title and tags such as 'total body strength', 'dumbbell workout', and 'lifting workout' strongly suggest that the primary focus of this workout is on strength training using weights, warranting a high confidence score (0.9) for the 'Weight workout' category. The mention of 'core burnout' may indicate some body weight exercises are integrated, hence a lower confidence score (0.4) for the 'Body weight' category. The core emphasis on strength with dumbbell involvement excludes categories like 'HIIT', 'Pilates', and 'Yoga', as there are no explicit indicators for these types of exercise in the metadata. The overall confidence level is high (0.9) due to the clear and consistent use of strength training terminology throughout the metadata."
+}

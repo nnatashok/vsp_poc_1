@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout involves indoor cycling, which is generally accessible and does not require complex movements or high coordination. The main technical aspect is maintaining proper cycling form, manageable for beginners. However, the intensity cycling segments (30 seconds max efforts) may require better body awareness and proper bike setup, thus also being suitable for intermediate users.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.5
+    },
+    {
+      "level": "Challenging",
+      "score": 0.7
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is a 30-minute HIIT session with alternating 30-second max effort sprints and recovery periods. The intensity of the 'max' efforts contributes to a challenging workout, even though it includes substantial rest periods. This setup is moderately demanding, aligning with the \"Challenging\" level, especially for those unaccustomed to high-intensity intervals. For beginners, the interval nature and recovery periods suggest a manageable challenge, placing it in the Moderate to Challenging range.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.75,
+  "requiredFitnessLevelExplanation": "Considering the cycling nature, technique remains relatively simple, allowing beginners to engage with manageable intensity. However, the sustained high-intensity intervals without extended recovery periods necessitate a reasonable ability to exert and recover, marking it more suitable for intermediate users. The description mentions a 'tough but short session,' aligning with this assessment. Advanced users will likely find the session less demanding technically, but still beneficial for cardiovascular training."
+}

@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.75
+    },
+    {
+      "name": "Mat",
+      "score": 0.6
+    },
+    {
+      "name": "Body weight",
+      "score": 0.45
+    }
+  ],
+  "categoriesConfidence": 0.8,
+  "categoriesExplanation": "The workout is categorized primarily as 'HIIT', with a score of 0.75. This classification is supported by tags like 'walkinghiit', 'cardiohiit', and 'fullbodyhiit', indicating a high-intensity interval training (HIIT) format. The description further mentions 'Time: 40 sec on/ 10 sec rest', typical of HIIT routines. \n\nA secondary classification of 'Mat' at 0.6 was chosen due to the 'standing' nature of the exercises, implying exercises that don't rely on any machines or weights and are done on the ground or floor. Standalone cardio moves, body movements, and lower-impact exercises often fall under this broad category.\n\n'Body weight' is rated at 0.45 since the workout involves no equipment, as indicated by the 'noequipment' tag, and focuses on exercises like abs training, which rely on body weight. However, this is less emphasized than the HIIT aspect.\n\nUser comments confirm the low-impact, standing, and abs-focused nature without equipment, aligning with these categories and suggesting the exercise intensity level. Given the title and description emphasizing cardio and standing abs without jumps or squats, these are the most fitting categories."
+}

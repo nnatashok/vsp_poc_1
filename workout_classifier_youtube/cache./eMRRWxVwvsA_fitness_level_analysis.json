@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout primarily involves treadmill running with speed intervals, which requires basic running technique but minimal coordination or complex movements, thus primarily aligning with Beginner-level technique. However, the use of varying paces, including high-speed intervals up to 9 mph, introduces some elements of pacing and adjustment, suitable for Intermediate users.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.8
+    },
+    {
+      "level": "Challenging",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The 27-minute duration with structured run and recovery intervals, includes push and sprint intervals, indicating moderate effort. High-speed 'ALL OUT' segments suggest increased exertion, pushing the effort closer to Challenging, especially given speeds which can reach 9 mph. The allowance for personal speed adjustment keeps it manageable for less fit users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.9,
+  "requiredFitnessLevelExplanation": "The Beginner alignment is due to straightforward treadmill running which doesn't demand advanced technique, and adjustable speeds allow new exercisers to participate. Intermediate is most strongly supported due to the interval structure, requiring some fitness and cardiovascular capacity. Advanced is also suitable as higher speeds and interval intensity provide significant challenge for those more conditioned. Given duration over 20 minutes, Intermediate classification is strengthened, though flexibility in speed adjusts fitness level requirements."
+}

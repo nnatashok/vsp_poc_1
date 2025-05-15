@@ -1,0 +1,46 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout primarily involves using an elliptical machine for a HIIT session, which requires minimal technical skills compared to free weights or complex movements. The use of an elliptical is quite straightforward, focusing mainly on maintaining appropriate form such as posture and foot placement, which aligns with a 'Beginner' technique difficulty. Although the addition of resistance and incline adjustments introduces some complexity, these are still relatively simple to manage, warranting a slight inclusion of 'Intermediate' as well.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.2
+    },
+    {
+      "level": "Moderate",
+      "score": 0.8
+    },
+    {
+      "level": "Challenging",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout is a relatively short HIIT session (19:52) involving elliptical intervals with resistance and incline changes. Given its brief nature and the mention of being 'low impact,' it likely has moderate energy demands suitable for most deconditioned users. However, the mention of 'intense' intervals and user feedback about increased heart rates suggest a 'Challenging' effort for some. Thus, it most strongly aligns with 'Moderate'.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.75,
+  "requiredFitnessLevelExplanation": "Given the beginner-friendly nature of elliptical machines and the relatively low technique demands, the workout is accessible to beginners, particularly those who can adjust resistance to match their capability. The short duration and low impact also support this. However, the effort could become challenging for less fit individuals, justifying 'Intermediate' level inclusion. Based on comments, those who find typical workouts on this equipment difficult could still complete this, suggesting a broad inclusion of fitness levels, even 'Advanced' for those interested in lower-intensity but effective sessions."
+}

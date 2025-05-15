@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Mat",
+      "score": 0.8
+    },
+    {
+      "name": "Body weight",
+      "score": 0.7
+    },
+    {
+      "name": "Other",
+      "score": 0.2
+    }
+  ],
+  "categoriesConfidence": 0.82,
+  "categoriesExplanation": "The video is best classified under 'Mat' and 'Body weight' categories based on multiple strong indicators in the metadata. Firstly, the title '10 MIN CARDIO WORKOUT AT HOME (No Jumping/Apartment Friendly, No Equipment)' along with tags like 'cardio workout,' 'no equipment,' and 'apartment friendly' suggest floor exercises typically done on a mat. The description confirms this by emphasizing 'no equipment' and 'apartment friendly,' implying exercises that are confined, quiet, and low impact on the floor, which supports the 'Mat' category with a score of 0.8.\n\nAdditionally, tags such as 'cardio no equipment' and 'intense cardio home workout' indicate the use of bodyweight exercises, fitting the 'Body weight' category with a score of 0.7.\n\nComments like 'love that it's easy, requires no equipment, and is apartment friendly' further support these categories.\n\n'Other' is assigned a minor score of 0.2 due to the specific niche of 'apartment friendly' workout style, which doesn't clearly align with any primary category but is not significant enough to warrant a higher score. This ambiguity slightly lowers confidence but the overall classification is confident enough given the explicit metadata cues."
+}

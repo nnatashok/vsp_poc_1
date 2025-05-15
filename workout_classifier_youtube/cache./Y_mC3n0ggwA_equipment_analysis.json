@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Dumbbells",
+      "confidence": 1.0
+    },
+    {
+      "equipment": "Mat",
+      "confidence": 0.6
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout video is titled \"35-Minute FULL BODY HIIT Workout with Dumbbells,\" which explicitly indicates the use of dumbbells. The description further confirms this by stating the workout requires a \"Medium-to-heavy set of dumbbells,\" with specified usage of 15-20 lb weights, assigning a very high confidence score of 1.0 to dumbbells as required equipment. Also, the description mentions an oversized yoga mat from Gorilla Mats, suggesting that a mat is used for floor exercises like push-ups and plank-related movements. However, since the mat is not mentioned as strictly necessary but recommended, it receives a high confidence score of 0.6. There is no explicit mention or strong implication of other equipment, suggesting the workout mainly relies on body weight and dumbbells for resistance."
+}

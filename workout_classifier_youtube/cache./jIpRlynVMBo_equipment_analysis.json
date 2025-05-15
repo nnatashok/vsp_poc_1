@@ -1,0 +1,17 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Dumbbells",
+      "confidence": 1.0
+    },
+    {
+      "equipment": "Mat",
+      "confidence": 1.0
+    },
+    {
+      "equipment": "Weight bench",
+      "confidence": 0.3
+    }
+  ],
+  "requiredEquipmentExplanation": "The video metadata makes it clear that dumbbells and a mat are explicitly required for this workout. The title, description, and workout details repeatedly mention the use of dumbbells, with phrases such as \"Full Body Dumbbell Workout\" and remarks in the workout details that you need a \"light or moderate weight pair of dumbbells.\" This assigns a very high confidence level of 1.0 for dumbbells. Additionally, a mat is stated as necessary in the workout description and the workout details, providing a very high confidence level of 1.0 for its requirement. \n\nThe mention of a weight bench in parentheses as 'optional' in the workout details implies that while it is not strictly necessary for completing the workout, it may be used for exercises like the chest press or other optional modifications. This inclusion results in a low confidence score of 0.3 for the weight bench, recognizing that it is not essential but could enhance certain exercises."
+}

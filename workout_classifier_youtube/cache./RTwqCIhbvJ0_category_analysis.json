@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Body weight",
+      "score": 0.9
+    },
+    {
+      "name": "Mat",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category assigned is 'Body weight' with a high confidence score of 0.9. The video description explicitly mentions 'body-weight exercises', which are central to the workout. Moreover, tags like 'full body workout' and 'weight loss workout no jumping' suggest exercises using body weight rather than equipment. The exercises listed in the comments (e.g., knee raises, arm circles, leg kicks) further support the classification as body weight exercises since they don't require additional equipment.\n\nThe secondary category is 'Mat' with a score of 0.6. Although the video focuses on standing exercises, the nature of a home workout with body-weight, low-impact moves typically performed without equipment can imply these might be done on a mat to ensure comfort and safety. The tag 'low impact exercises' suggests that these are gentle on the body, consistent with exercises done on a soft surface like a mat.\n\nOther categories, such as 'HIIT', 'Elliptical', or 'Yoga', were excluded due to the lack of high-intensity interval training cues, elliptical equipment, or yoga poses in the metadata."
+}

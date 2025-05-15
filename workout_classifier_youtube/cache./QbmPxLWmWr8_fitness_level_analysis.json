@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is described as 'apartment friendly' and 'no jumping', indicating simple, low-impact movements that typically fall within the Beginner range. The lack of equipment and the short duration suggest straightforward exercises that require minimal coordination. However, given the sweating and cardiovascular focus, this could slightly edge into Intermediate territory for those unaccustomed to maintaining consistent pace, hence a minor score at Intermediate level.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.9
+    },
+    {
+      "level": "Challenging",
+      "score": 0.1
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout's description states it is 'super sweaty', which suggests a Moderate effort level, especially given the 10-minute duration and 'intense cardio' tags in the metadata. Although the workout is brief, the lack of rest and the focus on maintaining a consistent effort could push it slightly into the Challenging range for very deconditioned users. However, the primary classification is Moderate due to the balance of a short, intense burst with no complex movements.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "This workout is largely appropriate for Beginners due to its short duration, lack of equipment, and focus on basic, no-jump movements. The comments suggest accessibility to older users or those new to regular activity, aligning with Beginner classification. However, the intensity and potential fatigue (as noted in the comments) support inclusion of Intermediate for those with slightly higher fitness levels or those unaccustomed to continuous activity, thereby broadening its suitability."
+}

@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The video is explicitly tagged and described as a guide for beginners, focusing on basic calisthenics exercises such as pull-ups, push-ups, and dips. These movements can be considered beginner-level calisthenics but do require some level of body control and coordination, especially if modifications are not used, thus also supporting a lower score for intermediate. The presence of progressions and techniques aimed at newcomers is evident, suggesting that the overall complexity remains low to moderate.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "With a duration under 20 minutes and focusing on bodyweight exercises for beginners, the workout is designed to be accessible, likely involving moderate reps and accessible variations like inverted rows and assisted push-ups. The tags and description suggest it caters to users new to exercise, likely with longer rest periods and lower intensity, but it may still present a moderate challenge to very deconditioned users, accounting for a moderate score.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "Given the instruction is explicitly for those who can't do pull-ups or push-ups, the program caters primarily to beginners, reflected by a high beginner score. However, even beginners might find it somewhat challenging due to the nature of calisthenics, so an intermediate level is also relevant, as more coordination and some base level of fitness is needed to fully engage with the exercises, especially as users progress in the program."
+}

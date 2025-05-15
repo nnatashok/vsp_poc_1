@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Weight workout",
+      "score": 0.9
+    },
+    {
+      "name": "Body weight",
+      "score": 0.5
+    },
+    {
+      "name": "Other",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout video is classified primarily under 'Weight workout' with a score of 0.9, due to explicit mentions of 'dumbbells', 'strength training', and 'full body workout with weights' in the title, tags, and description. The systematic use of dumbbells for various exercises solidifies this classification. The 'Body weight' category is given a score of 0.5, as the description also refers to bodyweight exercises incorporated in the trisets (e.g., 'HIGH SQUATS x2/x1/BW'), highlighting a significant presence of bodyweight elements alongside dumbbells. Lastly, 'Other', with a score of 0.3, accounts for the workout's unique design focusing on 'trisets' (a less common structure) and differing levels of intensity, which might not fit distinctly into other standardized categories. The high confidence level of 0.85 reflects clear cues from the metadata towards weight and bodyweight exercises, with less ambiguity due to the detailed description."
+}

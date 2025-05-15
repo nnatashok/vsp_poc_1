@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The technique difficulty is primarily at the Beginner level since indoor cycling involves straightforward pedaling with minimal coordination required. This is supported by tags such as 'stationary bike workout' and user comments indicating it was manageable for someone returning after surgery. However, terms like 'scenic and challenging routes' suggest a slight elevation to Intermediate, indicating the possibility of some variability in cadence or resistance that could add slightly more complexity.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.5
+    },
+    {
+      "level": "Challenging",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The effort difficulty is evenly split between Moderate and Challenging. A 45-minute duration suggests a sustained physical demand, pushing more towards Challenging for less fit users. The description notes 'Virtual Fat burning Cycling Workout', indicating a level of intensity aimed at increasing heart rate and energy expenditure. Despite the lack of explicit high-intensity intervals described, the length and purpose of the workout align with the tags 'Fat Burning', contributing to a more substantial effort requirement than a basic session.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.3
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "The required fitness level includes Beginner, Intermediate, and Advanced. The Beginner score is reduced due to the 45-minute duration, which typically challenges deconditioned users. Intermediate is most appropriate for this type of workout, given its moderate technical demands and varying effort levels. Advanced users are also considered due to the workout duration and potential intensity adjustments available (e.g., cycling speed, resistance levels). User comments and metadata indicate broad accessibility ('appeal to a broad spectrum of riders'), allowing for a generous evaluation across fitness levels."
+}

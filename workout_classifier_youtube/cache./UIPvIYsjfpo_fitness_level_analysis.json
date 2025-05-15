@@ -1,0 +1,50 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout is tagged as a 'No Equipment' routine, focusing on bodyweight exercises, which typically lend themselves to beginner and intermediate techniques. Most exercises are likely straightforward but may require maintaining proper form across different body parts, suggesting an intermediate level for some users. No indication of highly technical movements like Olympic lifts, which would indicate Advanced complexity for some exercises. Comments and description highlight simple dynamic movements, supporting a Beginner-Intermediate level.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.4
+    },
+    {
+      "level": "Challenging",
+      "score": 0.7
+    },
+    {
+      "level": "Extreme",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is described as 'full body,' involving 'high-intensity' sections. It lasts over 30 minutes with 40 seconds of work and 20 seconds of rest, which suggests a moderately high level of endurance required. Based on the tags and description, the 'high intensity' and 'sweat sesh' indicate a Challenging level of effort for most users. However, the inclusion of an 'intense' finish supports some users perceiving it as Extreme. Viewer comments about it being difficult and exhaustion reinforce the high effort level.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.3
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "Considering the technique is primarily Beginner to Intermediate and effort is Challenging, we assign Beginner through Advanced fitness levels. Beginners may face difficulty due to the workout's length, which is over 30 minutes, but the lack of equipment allows some accessibility at the simplest level. Intermediate and Advanced users will likely find it appropriately challenging due to its intensity and duration, as noted in comments about exhaustion and perceived difficulty."
+}

@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.95
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The technique difficulty is rated as \"Beginner\" because guided meditation primarily involves listening and mental visualization, which require minimal physical coordination or complex movements. Meditation sessions typically involve sitting or lying down comfortably, focusing on breathing, and listening to guided instructions, which aligns with beginner-level activities due to their simple and straightforward nature.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.95
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The effort difficulty is classified as \"Light\" because meditation involves very low physical exertion. The focus is on mental relaxation, rather than physical exercises, which corresponds with low energy expenditure suitable for individuals in poor physical shape.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "The required fitness level includes \"Beginner\", \"Intermediate\", and \"Advanced\", with the strongest emphasis on \"Beginner\". Meditation can be challenging for beginners due to the mental focus required, hence includes \"Intermediate\" and \"Advanced\" levels as well. Although technically simple and physically undemanding, meditation can require practice to master mental relaxation, so it can span multiple levels of 'fitness' in terms of mental discipline."
+}

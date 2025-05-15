@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor biking",
+      "score": 0.95
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary category for this workout is 'Indoor biking' with a very high confidence level (score: 0.95). This is explicitly indicated by the video title '60 Minute Indoor Cycling Workout | Endurance Ride' and repeated in the tags and description, confirming that it is a stationary cycling session. Additionally, the description mentions 'indoor cycling', and comments from viewers refer to it as a 'ride', further affirming this categorization. \n\nThe second category, with a high confidence level (score: 0.7), is 'HIIT'. The description alludes to 'two focussed blocks of intensity', suggesting an interval training structure, a hallmark of HIIT workouts. Tags such as 'high intensity', 'extreme ride', and 'advanced indoor cycling' also imply varying intensity levels associated with HIIT workouts. While the intensity focus isn't as clear-cut for a traditional HIIT designation, the context supports the secondary classification as a high-intensity workout.\n\nOther categories were excluded due to lack of explicit references to equipment or workout types beyond cycling, such as weight training or bodyweight exercises, in the metadata."
+}

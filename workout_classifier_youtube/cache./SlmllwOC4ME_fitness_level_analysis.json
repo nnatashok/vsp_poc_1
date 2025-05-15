@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.75
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is described as 'beginner friendly' and includes simple Pilates movements. The use of verbal cues, as highlighted in the comments, aids in focusing on breathing and proper form, typical in beginner-level Pilates. However, the mention of 'proper form' and 'feeling the burn' suggests that some movements may require coordination, allowing a secondary score for Intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.85
+    },
+    {
+      "level": "Moderate",
+      "score": 0.45
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout is described as suitable for beginners and lasts 12 minutes, indicating a relatively low intensity. However, the comment about underestimating the intensity and 'feeling the burn' suggests there is some physical demand, making it moderately challenging for very deconditioned users. Additionally, ankle weights can increase difficulty, slightly raising the moderate score.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.95
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.55
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "The combination of beginner technique difficulty and light effort difficulty strongly aligns with a beginner fitness level. The option to add ankle weights and the realization of 'feeling the burn' implies it can be challenging for beginners and suitable for intermediates, especially those newer to exercise, justifying an Intermediate score as well."
+}

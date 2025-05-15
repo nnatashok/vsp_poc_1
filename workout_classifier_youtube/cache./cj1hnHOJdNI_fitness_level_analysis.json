@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.2
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout focuses on glutes and hamstrings using bodyweight exercises, which generally do not require equipment. Movements include unilateral work, hip thrusts, and sumos, which involve some coordination and body awareness. Although there are complex elements like combining various positions and movements that demand attention to form, they aren't overly technical. Thus, the technique difficulty fits strongly with intermediate, mildly with beginner for less complex exercises, and moderately with advanced due to the need for proper form and coordination.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.4
+    },
+    {
+      "level": "Challenging",
+      "score": 0.8
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The effort difficulty is high due to the workout's structure: 47 minutes with 45-second sets, minimal rest, and intense unilateral exercises. The absence of rest between sets increases cardiovascular demands and effort difficulty, aligning best with challenging. However, since it allows modifications like adding ankle weights, moderate effort can be recognized for those reducing intensity or opting for lighter variations.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.7
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "Derived from combining high technique and effort difficulty, this workout is well-suited for intermediate users who have basic experience (1-3 months) due to the coordination and sustained effort required. It's also applicable to advanced users (3+ months) given the challenging nature of maintaining form over a long session with minimal breaks. Beginners are not included because of the complexity and intensity of the exercises and the session's length."
+}

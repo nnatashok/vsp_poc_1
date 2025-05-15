@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Mat",
+      "score": 0.9
+    },
+    {
+      "name": "Body weight",
+      "score": 0.75
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category assigned to this workout is 'Mat' with a high score of 0.9. This is based on the metadata indicating the workout involves bodyweight exercises ('bodyweight/no equipment'), and the absence of any equipment suggests that it likely takes place on a mat or similar space. Specific exercises mentioned, such as arm swings, high marches, and pivot punches, are typically done standing or on the floor without additional equipment.\n\nThe second category is 'Body weight' with a score of 0.75, as the workout involves multiple exercises utilizing body weight to build cardio endurance and strength (e.g., \"bodyweight workout,\" \"no equipment workout\"). The description and titles repeatedly emphasize no need for additional equipment, and the exercises listed are typical of bodyweight workouts.\n\nThe confidence in these classifications is high due to the explicit use of terms like 'bodyweight' and 'no equipment' in both the title and tags, as well as a detailed description of body movements characteristic of mat and bodyweight workouts."
+}

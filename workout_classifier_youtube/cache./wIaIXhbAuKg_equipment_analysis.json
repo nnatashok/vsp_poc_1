@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.8
+    },
+    {
+      "equipment": "Dumbbells",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The metadata indicates that this workout requires dumbbells and a mat. The video title mentions \"Intense Workout with Weights,\" and the description further specifies the workout involves dumbbells, stating, \"grab your dumbbells (I'm using 30 lbs) and get ready.\" The tags list \"dumbbell workout\" and \"dumbbell hiit workout,\" emphasizing the importance of dumbbells for the exercises. Confidence is very high (1.0) for dumbbells as they are central to the workout's strength training component, noted in the segment \"STRENGTH TRAINING HIIT WITH DUMBBELLS.\"\n\nA mat is also mentioned in the workout details section: \"Equipment: Two sets of dumbbells and a workout mat,\" which suggests that it is used for the bodyweight HIIT section. This explicit mention raises the confidence level to 0.8 for the mat. The use of a mat implies floor-based exercises are part of the routine, necessary for comfort and grip. Since the workout is conducted at-home, a mat is typical to protect the floor and provide a stable surface."
+}

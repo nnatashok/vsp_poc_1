@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.95
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.35
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The video features a guided meditation, which primarily involves sitting still and focusing on inner silence, a technique that is universally accessible. This suggests a 'Beginner' level (score 0.95) because it only involves sitting and listening, without requiring physical coordination or complex movements. 'Intermediate' is included (score 0.35) because maintaining focus in meditation can be challenging for some, requiring a moderate mental discipline that may develop over time.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.98
+    }
+  ],
+  "effortDifficultyConfidence": 1.0,
+  "effortDifficultyExplanation": "The effort involved in this guided meditation is minimal, as it lasts just over 20 minutes and involves sitting and mental focus rather than physical exertion. This logically aligns with a 'Light' level (score 0.98) of effort difficulty. There is no physical intensity involved, no cardiovascular strain, or muscular demands, fitting the profile of 'Light' effort with a high confidence level.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The meditation is accessible to 'Beginner' fitness levels (score 0.9) given its simplicity and lack of physical demands. However, the requirement for consistent focus over a 20-minute period can be more challenging for individuals not used to meditation, slightly justifying an 'Intermediate' level (score 0.3) as well. Reflecting the technique and effort classifications, multiple fitness levels are included as the primary challenge is mental rather than physical."
+}

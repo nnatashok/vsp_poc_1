@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.75
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout focuses on upper body exercises using dumbbells, which Elevates the technique difficulty to Intermediate due to the coordination required to maintain proper form, especially in a timed setting like Tabata. The metadata mentions the use of PowerBlock adjustable dumbbells, allowing individuals to select a weight suited to their capability, but also requiring familiarity with safe handling techniques. This aligns with an Intermediate level as muscle coordination and basic dumbbell use is expected.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The effort difficulty is classified as Challenging due to the 58-minute duration and Tabata format, which involves high-intensity intervals with brief rest periods. The phrases \"Intense 60 Minute\" and \"Tabata\" indicate high cardiovascular and muscular demand, consistent with a challenging workout level. User comments about the workout being very effective and their muscles being completely 'toast' support this assessment. Thus, it would be quite demanding for most users, especially those not consistently training.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.6
+    },
+    {
+      "level": "Elite",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "The derived fitness level starts at Intermediate due to the intermediate technique complexity and challenging effort difficulty, especially given the 58-minute duration, which further pushes the requirement higher. While users can vary weights, making it accessible to varying fitness levels, the consistent high effort of a Tabata workout suits those with some baseline fitness. Advanced and even Elite levels are considered since the workout's sustained intensity aspects require substantial pre-existing fitness and endurance for maximum benefit. Overall, multiple fitness levels can attempt this, but full utility aligns more with those mid-to-high scale in fitness experience."
+}

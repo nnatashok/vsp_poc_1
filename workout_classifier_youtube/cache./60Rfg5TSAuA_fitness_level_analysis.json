@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "This HIIT workout features exercises like 'Gorilla Burpees', 'Floor Push Ups to Shoulder Taps', and 'Plank Jack to Jumping Jack' which require a high degree of coordination and body awareness, characteristic of Intermediate technique difficulty. Some movements, such as the complex burpees and the coordinated push-ups, can also push towards Advanced levels, especially for deconditioned users, but they are not truly Expert level due to their common presence in many intermediate workouts.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.85
+    },
+    {
+      "level": "Extreme",
+      "score": 0.15
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout's high-intensity interval training (HIIT) format with exercises performed at full intensity for 30 seconds followed by short 10-second breaks presents a significant cardiovascular and muscular challenge, aligning with a Challenging effort difficulty. The compact, intense 5-minute session pushes it slightly towards Extreme due to the high pace and energy demand, making it tough for beginners.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.25
+    },
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    },
+    {
+      "level": "Advanced",
+      "score": 0.6
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "The combination of Intermediate to Advanced technique difficulty and Challenging effort difficulty requires at least an Intermediate fitness level; however, due to the workout's reliance on bodyweight exercises and common presence of modifications in HIIT workouts, a determined Beginner could potentially attempt it. Intensive energy demands and coordination needs push it towards Intermediate and Advanced, particularly with the anaerobic demands of HIIT, and user comments confirm that it is tiring even after multiple days."
+}

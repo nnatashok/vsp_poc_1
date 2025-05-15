@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout is described as 'Moderate to Intermediate Pilates', indicating exercises that may require coordination but not heavily complex movements. Pilates often involves some body awareness, but given the lack of equipment and focus on the full body, it remains accessible. User comments note the challenging finale, but overall feedback suggests movements accessible to many participants. The use of Pilates also suggests a basic understanding of form, particularly for users with no prior experience.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.6
+    },
+    {
+      "level": "Challenging",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The duration is just over 25 minutes, placing it between light and challenging effort levels, but the description as 'Moderate to Intermediate' implies some energy expenditure that aligns with moderate to challenging effort. User comments reflect both exertion and relaxation, fitting a moderate level, but mentions of an 'impossible push' and the demand for a 'well deserved Childs pose' raise the possibility of significant demand, aligning with a challenging score.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "Combining technique and effort, the video's 'Moderate to Intermediate' claim suggests it's not exclusively for intermediate users, hence also accessible at the higher end of beginner fitness levels, especially given no equipment is involved. Beginner level is partly justified by mentions of energizing and feel-good descriptions, while intermediate is clear due to complexity and effort. The advanced score stems from the effort required for the challenging parts noted by users. The tagging for moderate and intermediate supports these classifications."
+}

@@ -1,0 +1,17 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Dumbbells",
+      "confidence": 1.0
+    },
+    {
+      "equipment": "Mat",
+      "confidence": 0.8
+    },
+    {
+      "equipment": "Kettlebells",
+      "confidence": 0.4
+    }
+  ],
+  "requiredEquipmentExplanation": "The video title, description, and detailed exercise list explicitly indicate the use of dumbbells for the workout, assigning a very high confidence level of 1.0. The description specifically mentions \"You will only need dumbbells and an exercise mat for this workout!\", reinforcing the necessity of these items. Furthermore, the description also specifies the weight range for dumbbells (10lbs to 30lbs) to be used, further solidifying their requirement. Additionally, an exercise mat is listed in the description as necessary, earning it a high confidence score of 0.8. There is also a mention of 'KETTLEBELL SWINGS' in the exercise list, suggesting the optional use of a kettlebell, which gives it a moderate confidence score of 0.4, as this specific exercise could potentially be done with a dumbbell if a kettlebell is unavailable. There is no explicit mention of any other equipment, and the workout appears primarily focused on these items."
+}

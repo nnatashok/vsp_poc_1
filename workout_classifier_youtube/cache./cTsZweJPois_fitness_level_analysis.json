@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.95
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The video is explicitly titled for beginners and no equipment is used, indicating a focus on fundamental pilates movements. Comments frequently note it's approachable and mention reminders and cues for form, reinforcing the beginner classification. The instructor has a background in teaching various movement styles including dancing and pilates, suggesting effective communication of simple techniques. Although primarily aimed at beginners, pilates poses may have a slight complexity, justifying a minor intermediate classification.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.9
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout duration of approximately 32 minutes suggests a potential for moderate energy expenditure, but it's described as beginner-friendly and highly relaxing, indicating a low-intensity workout. User comments reinforce this perception by emphasizing relaxation and the suitability for low motivation days, leading to a primary light effort classification. A moderate score is plausible due to duration and continuous movement, but remains secondary due to the pilates' typically gentle nature.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.9,
+  "requiredFitnessLevelExplanation": "The low technique and effort difficulty strongly align the workout with beginner-level users, as explicitly targeted by the title and description. The long duration nudges some consideration towards intermediate users, particularly those returning to exercise or needing low-motivation options. Metadata and user comments assure it's fitting for those new to pilates, yielding a definitive beginner rating with a minor intermediate inclusion due to potential length-induced fatigue for some."
+}

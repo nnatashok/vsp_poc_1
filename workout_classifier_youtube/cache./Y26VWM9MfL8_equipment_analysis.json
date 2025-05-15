@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Dumbbells",
+      "confidence": 1.0
+    },
+    {
+      "equipment": "Mat",
+      "confidence": 0.8
+    }
+  ],
+  "requiredEquipmentExplanation": "The title and description clearly indicate that this workout requires dumbbells, specifically noting 'FULL BODY DUMBBELL WORKOUT' and 'using two 10LB dumbbells'. This provides very high confidence (1.0) that dumbbells are essential for the exercises in this routine. Additionally, the description mentions the use of a 'Mat', which suggests it's used for floor exercises as part of the workout, thus assigning a high confidence score of 0.8. The tags support this by including terms like 'full body dumbbell' and 'dumbbell strength workout', reinforcing the primary focus on dumbbell exercises. Comments mention the combination of 'mat and standing workouts', adding further support to the mat's inclusion. No other equipment is mentioned or implied in the available metadata."
+}

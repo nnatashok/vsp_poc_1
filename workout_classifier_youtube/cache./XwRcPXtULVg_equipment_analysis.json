@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Dumbbells",
+      "confidence": 1.0
+    },
+    {
+      "equipment": "Mat",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout video explicitly states in the description and the structure section that dumbbells and a mat are required. The phrase \"EQUIPMENT NEEDED - DUMBBELLS- I used a range from 10lbs to 30lbs\" confirms the necessity of dumbbells. Additionally, the mat is mentioned explicitly alongside dumbbells in the description, indicating its importance for floor exercises such as glute bridges, push-ups, and abdominal exercises like crunches and reverse crunches. Therefore, both dumbbells and a mat have been assigned the highest confidence score of 1.0, meaning they are essential and central to the workout. No other equipment is implied or mentioned in the metadata."
+}

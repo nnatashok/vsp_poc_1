@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout is described as a high-intensity interval training (HIIT) session, specifically a LES MILLS GRIT Cardio workout. HIIT often involves moderately complex movements that require coordination and body awareness, which aligns with Intermediate to Advanced levels. Comments mentioning participants feeling challenged also suggest these levels, rather than simple movements that would be classified as Beginner.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    },
+    {
+      "level": "Extreme",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is a 30-minute HIIT session, which inherently comes with significant physical demands. The description highlights cardiovascular improvement and calorie burn, indicating high energy expenditure. The absence of rest periods in the comments and reports of exhaustion imply a Challenging to Extreme effort level. The duration is 30:29, which also supports these levels.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.7
+    },
+    {
+      "level": "Elite",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The combination of Intermediate to Advanced technique difficulty and Challenging to Extreme effort difficulty suggests the workout is suitable for Intermediate to Advanced fitness levels. The comments indicate that it\u2019s a challenging workout but completed by a range of individuals, thus supporting the inclusion of Intermediate. However, the intensity and demand implied justify including Advanced and, to a lesser extent, Elite, as those with higher fitness levels would also be engaged."
+}

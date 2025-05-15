@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout consists of Yoga Nidra, a form of guided meditation focusing on deep rest and relaxation, not physical movement. The technique involves lying down and following a guided meditation with a body scan designed to induce a deep relaxation state. Since it requires no complex physical movements or coordination, it is classified as 'Beginner'. The metadata, including tags like 'guided relaxation' and 'non-sleep deep rest', clearly indicates the simplicity of the exercise in terms of physical technique.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 1.0
+    }
+  ],
+  "effortDifficultyConfidence": 1.0,
+  "effortDifficultyExplanation": "The Yoga Nidra session is designed to induce relaxation and deep rest, thus it has very low energy demands. The 31-minute duration focuses on meditation, nervous system calming, and relaxation, contrasting with physical exertion. The descriptions, such as 'relax and rest,' 'calm the nervous system,' and 'soothe stress and anxiety,' corroborate that the session is more about mental rather than physical effort. Therefore, the effort difficulty is rated as 'Light'.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "Considering the technique and effort difficulty as 'Beginner' and 'Light' respectively, the workout is primarily suitable for a 'Beginner' fitness level. The practice, which focuses on meditation and relaxation rather than physical exertion, is accessible to all fitness levels, including those in poor physical shape. However, due to the 31-minute duration, which could impact restless individuals or those with limited focus, a secondary score for 'Intermediate' is given. The audience comments indicate it's beneficial for people with varying levels of experience, supporting the inclusive rating."
+}

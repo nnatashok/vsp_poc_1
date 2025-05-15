@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is based on cycling, which primarily involves repetitive leg movements on a stationary bike. This aligns with beginner technique difficulty as it requires minimal coordination and is straightforward to execute. The inclusion of guidance on setting up a bike and adjusting for comfort suggests some elements of technique, hence a moderate score for intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout duration of 25 minutes and the mention of it being a '20 minute HIIT session' suggests a moderate to challenging intensity, particularly for deconditioned users. HIIT implies intervals of higher intensity, though cycling generally remains in the moderate effort range due to the ability to adjust resistance and pace. User comments about transformations also indicate a higher exertion level for regular participants.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.75,
+  "requiredFitnessLevelExplanation": "Given the basic nature of cycling and the ability to modulate intensity, the workout is accessible to beginners, but the HIIT component suggests a need for at least some baseline fitness, therefore strong inclusion of intermediate. Positive user testimonials about considerable weight loss and the duration being over 20 minutes shift scores toward intermediate and advanced fitness levels, accommodating those who push their limits or perform the workout repeatedly as seen in comments."
+}

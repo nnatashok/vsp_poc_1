@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Treadmill",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    },
+    {
+      "name": "Weight workout",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category 'Treadmill' is selected with a high score of 0.9 due to explicit mentions in the title, description, and comments indicating that the workout involves a treadmill. The workout is described as a '15 Minute Interval Training Treadmill Workout' and is further confirmed by user comments that explicitly praise the treadmill-based nature of the workout. Additionally, the title and description explicitly categorize the workout as 'HIIT' (High-Intensity Interval Training), warranting a secondary category of 'HIIT' with a score of 0.7 indicating strong presence. The inclusion of dumbbells and mini bands, as noted in the description, suggests elements of 'Weight workout', justifying its classification with a score of 0.6 since there is a noticeable but less dominant strength component. The combination of these elements suggests a hybrid workout incorporating treadmill and interval training with strength elements, but treadmill usage is clearly the central focus. The channel's emphasis on fitness equipment and user comments reinforce this classification."
+}

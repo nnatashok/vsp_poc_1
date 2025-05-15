@@ -1,0 +1,46 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout includes a combination of basic treadmill walking, jogging, and sprinting. The movements themselves are relatively simple and don't require complex coordination, making it accessible for beginners. However, maintaining proper sprinting form while managing treadmill speed may require some experience, justifying the inclusion of the intermediate level. The advanced level is relevant due to the need for proper technique at maximal effort speeds to prevent injury.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.8
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "This workout combines 8 high-intensity intervals with short, walking or jogging recovery periods. The high effort sprints and the overall workout duration of 23:21 make it quite challenging, especially for beginners. The inclusion of maximal effort intervals likely pushes the effort required into the 'challenging' category, but can be moderated by adjusting the treadmill speed, justifying a 'moderate' classification for those who opt for lighter effort levels.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.7
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "Considering both technique and effort difficulties, this HIIT workout is appropriate for a wide range of fitness levels. Beginners can participate by moderating their speed and taking extra rest if needed. The workout design, which allows users to adjust treadmill speed and intensity, makes it adaptable; therefore, it suits beginners who are willing to take rest and adjust, justifying a 'beginner' score. However, the intensity of the sprints could be quite demanding, suggesting a stronger alignment with the 'intermediate' and 'advanced' levels as well, particularly for maintaining form and intensity to get the full benefit."
+}

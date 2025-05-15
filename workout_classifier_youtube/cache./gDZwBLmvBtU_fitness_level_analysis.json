@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is centered around the elliptical machine, which generally involves straightforward, repetitive movements that require minimal coordination. The tags and description suggest that this is suitable for beginners and routine elliptical users. There is a small amount of technique complexity in terms of maintaining form to maximize efficiency, which gives a slight score for 'Intermediate.'",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.5
+    },
+    {
+      "level": "Moderate",
+      "score": 0.8
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The elliptical workout is 10 minutes long, which indicates lower energy expenditure compared to longer sessions. However, the workout description mentions it will 'get your heart rate up,' suggesting a moderate effort level for beginners. The mention of 'HIIT' in the tags implies possible intensity variations, supporting the 'Moderate' classification. The shorter duration aligns it less with 'Light' effort but still warrants a score there.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "Given its short duration of 10 minutes and basic use of the elliptical, this workout is well-suited for beginners, especially considering the emphasis on being an entry-level cardio routine. The references to interval training may challenge a complete beginner, indicating mild 'Intermediate' suitability, thus earning it a moderate score in that category. The metadata and comments reflect accessibility and motivation for those new to fitness."
+}

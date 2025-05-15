@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.75
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout primarily involves standing cardio with no jumping, which suggests simple movements suitable for beginners. The inclusion of Pilates indicates some coordination is required, aligning with intermediate technique. User comments suggest overall accessibility, though the mention of a more complex 'one-knee-on-the-floor-and-rotate' movement potentially raises the technique slightly for some parts, hence a Beginner to Intermediate classification.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.8
+    },
+    {
+      "level": "Challenging",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is 30 minutes long and is described as low impact but high intensity, implying moderate to challenging effort levels. The fact that it's characterized as 'cardio' with a duration over 20 minutes suggests a moderate to challenging effort for deconditioned users. The metadata and comments imply a relatively accessible yet sufficiently engaging intensity, supporting the score for both moderate and, less so, challenging effort levels.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "Given the moderate technique difficulty and effort levels, the workout is largely appropriate for beginners, especially since it's designed to be low impact. The 30-minute duration and 'high intensity' description skew it toward intermediate fitness levels for deconditioned users. With elements requiring some Pilates coordination and minor complex movements, advanced users might also find it beneficial, but its overall design supports a range that includes Beginner to Advanced."
+}

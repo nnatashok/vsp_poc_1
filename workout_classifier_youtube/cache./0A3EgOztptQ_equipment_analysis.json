@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Dumbbells",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Mat",
+      "confidence": 0.4
+    }
+  ],
+  "requiredEquipmentExplanation": "The video title \"The ONLY Dumbbell Workout That You NEED (FULL BODY)\" and the description explicitly mention that the workout revolves around dumbbells for various exercises such as lunges, rows, chest press, shoulder press, bicep curls, and tricep extensions. Therefore, the inclusion of dumbbells as required equipment is with very high confidence (0.9).\n\nAdditionally, the description suggests an optional abs exercise involving planks, which could benefit from a mat for comfort and ease during execution, though this is not explicitly mandated. Thus, a mat is included with moderate confidence (0.4) as an optional piece of equipment to enhance comfort during certain exercises."
+}

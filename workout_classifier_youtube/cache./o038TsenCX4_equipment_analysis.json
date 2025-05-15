@@ -1,0 +1,17 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.8
+    },
+    {
+      "equipment": "Dumbbells",
+      "confidence": 1.0
+    },
+    {
+      "equipment": "Chair",
+      "confidence": 0.8
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout video is titled \"20 Minute Dumbbell Full Body Workout | Strength + Cardio,\" strongly indicating the use of dumbbells. The description explicitly states that a \"pair of dumbbells\" is required, setting the confidence level at 1.0 for dumbbells. Additionally, the video features exercises that typically require dumbbells such as renegade rows and shoulder presses.\n\nA mat is also mentioned in the description: \"you will need...your mat.\" This suggests that exercises are performed on the floor, which commonly necessitate a mat for comfort and stability, justifying a high confidence score of 0.8.\n\nA chair is explicitly mentioned as necessary equipment in the workout's description: \"you will need a pair of dumbbells, a chair and your mat.\" This, combined with exercises like Bulgarian lunges, which often use a chair, supports a very high confidence score of 0.8 for the chair. The presence of specific exercises such as Bulgarian lunges further confirms the necessity of these items."
+}

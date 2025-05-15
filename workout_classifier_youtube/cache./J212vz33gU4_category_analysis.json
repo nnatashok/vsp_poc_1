@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.95
+    },
+    {
+      "name": "Body weight",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The video is primarily classified as 'HIIT' due to multiple strong indicators: the title explicitly states '15 Min Intense HIIT Workout', while the description and tags consistently reference high-intensity interval training, including 'intervals: 40 sec on/ 15s Rest' which is a classic HIIT structure. The phrase 'no equipment' suggests the workout relies on bodyweight exercises, supported by tags like 'bodyweight workout' and comments indicating it can be done at home. Therefore, 'Body weight' is included with a moderate score as the exercises involve no external weights, but the dominant focus is on the HIIT format of short, intense activity bursts followed by rest. The confidence level is high at 0.9 due to the explicitness of the metadata alignment with HIIT principles, combined with the theme of functional bodyweight exercises."
+}

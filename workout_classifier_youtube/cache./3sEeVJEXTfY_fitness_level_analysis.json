@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.1
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout includes exercises like jumping jacks, body weight squats, push-ups, and planks, which are fundamental bodyweight movements requiring minimal coordination. The inclusion of slightly more complex movements like pike push-ups and side planks introduces minor complexity, justifying a slight score for 'Intermediate.' The overall technique difficulty remains in the 'Beginner' range due to the simplicity and accessibility of the majority of exercises.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.6
+    },
+    {
+      "level": "Moderate",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "'Light' effort is supported by the 10-minute duration and the inclusion of rest breaks. The workout targets a full body but does not appear highly intense based on user feedback and exercise selection. 'Moderate' effort is considered because exercises like push-ups and planks involve engaging large muscle groups, possibly causing mild exertion, especially for unfit users. The use of terms like 'warming up' and 'getting loose' in the description suggests a relatively low intensity, but the potential for slight challenge elevates the score to 'Moderate.'",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The workout's simple exercises and short duration are accessible to 'Beginner' levels. User comments also indicate effectiveness and adaptability for those with lower fitness capabilities. However, due to exercises like planks and push-ups, and the impact on users who are already active (as seen in comments about improvements in push-up capabilities), the 'Intermediate' level receives a smaller score."
+}

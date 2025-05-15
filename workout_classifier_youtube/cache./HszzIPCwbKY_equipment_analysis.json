@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.3
+    },
+    {
+      "equipment": "Dumbbells",
+      "confidence": 0.5
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is described as a full-body workout that is guided and aimed at increasing strength and sculpting the body. The tags mention specific exercises like \"glute bridges,\" which are often done on a mat, suggesting its use despite not being explicitly mentioned. Therefore, a mat has a low confidence score of 0.3 due to its potential use for comfort in floor-based exercises. The presence of terms such as \"muscle,\" \"strength,\" and \"weight suggestions\" implies the potential use of weights. Furthermore, comments mention queries about performing exercises without weights, implying dumbbells are used, justifying a moderate confidence score of 0.5. The lack of direct mention of any specific equipment or footage in the metadata leaves room for uncertainty regarding equipment requirements."
+}

@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Blocks",
+      "confidence": 0.5
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout video titled '15 Min Yoga FULL BODY STRETCH & Deep Relaxation' suggests that it is a yoga session focusing on stretching and relaxation. The mention of 'yoga' in the title and tags implies that a mat is necessary for the workout, as yoga practices typically require a mat for floor exercises to ensure comfort and stability. This is further supported by a comment mentioning tears dropping onto the mat during a pose, indicating participants are using mats. Therefore, the confidence that a mat is required is very high at 0.9.\n\nYoga blocks are not explicitly mentioned, but they are often used in yoga to support deeper stretches and modifications, which could be inferred from the yoga style mentioned (yin) and the description's emphasis on deep stretching and flexibility. Thus, there is a moderate confidence (0.5) that blocks may be beneficial, though they might not be essential for all participants."
+}

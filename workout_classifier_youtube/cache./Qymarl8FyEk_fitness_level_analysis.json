@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout is a full-body routine described as beginner-friendly but also suitable for intermediate users. The lack of equipment suggests movements are predominantly basic bodyweight exercises, which generally fall under beginner level in terms of technique. The inclusion of various body parts implies a mixture of simple exercises like squats, lunges, and push-ups. User comments indicate it can be engaging even if challenging, implying accessible movements with possible intermediate applications.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout is designed to burn 375 calories, indicating moderate intensity suitable for a home routine without equipment. The 31-minute duration, lack of rest intervals mentioned, and user comments about sweating and incomplete sessions suggest a reasonably challenging physical output. The variety in exercises and the targeting of multiple muscle groups can increase perceived exertion, especially for less conditioned users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.7,
+  "requiredFitnessLevelExplanation": "Given the declared suitability for beginners and intermediates, along with a modest effort difficulty, the workout accommodates a broad range of users. The duration surpasses 20 minutes, slightly increasing intermediate-level appropriateness. Comments about perceived difficulty suggest it may push beginners towards intermediate challenges. Furthermore, user adaptations to exercise stress contribute to advanced-level consideration."
+}

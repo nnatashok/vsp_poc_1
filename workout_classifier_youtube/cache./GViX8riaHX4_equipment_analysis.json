@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Dumbbells",
+      "confidence": 1.0
+    },
+    {
+      "equipment": "Mat",
+      "confidence": 0.6
+    }
+  ],
+  "requiredEquipmentExplanation": "The title, description, and tags consistently emphasize the use of dumbbells, assigning them a central role in the workout. The description specifies the exercises that use dumbbells, such as high squats, sumo deadlift squat, static lunge, Romanian deadlift, shoulder press, bent over row, chest press, and pullover. Additionally, the description mentions that the instructor uses 15kg dumbbells and suggests going as heavy as possible, which suggests a very high confidence level (1.0) for dumbbells being essential equipment.\n\nA mat receives a high confidence score (0.6) because while it is not explicitly mentioned, it is highly likely given the type of exercises such as planks and chest presses, which are typically performed on a mat for comfort and grip. The presence of a plank challenge at the end of the workout further supports the need for a mat, as it provides a stable and comfortable surface for such exercises."
+}

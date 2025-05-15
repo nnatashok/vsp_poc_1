@@ -1,0 +1,50 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.65
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.35
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout is described as suitable for all levels, indicating a range of movement complexities. Pilates often includes exercises requiring some coordination and body awareness, which typically falls within the Intermediate range. The mention of variations for different skill levels allows for inclusion of Beginner movements. However, Pilates may also involve more complex techniques that could touch on Advanced levels, though this is less emphasized in the metadata.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.5
+    },
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The 23-minute duration and focus on core and abs might require a moderate effort, especially if continuous activation is required without much rest, typical of Pilates workouts. The description mentions it's slower-paced, suggesting it's not overly intense, hence Light to Moderate effort. Some comments reflect on maintaining form, implying consistent moderate effort, with Challenging aspects for less fit users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.75
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "Given the technique and effort difficulties, this workout is most suitable for Beginners and Intermediates based on the variety of modifications and instructions provided. The workout length and Pilates nature also cater to Advanced users who might find benefit in finer technique refinement. Description emphasis on all levels further supports inclusion of multiple fitness levels, aligning with the principle of including modifications for accessibility."
+}

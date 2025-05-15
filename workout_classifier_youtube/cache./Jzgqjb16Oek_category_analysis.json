@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.95
+    },
+    {
+      "name": "Body weight",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary category chosen is 'HIIT' with a very high confidence (0.95) due to explicit mentions in the title, description, and tags, such as 'HIIT cardio workout,' 'HIIT workout for fat loss,' and 'high intensity interval training.' The description provides a detailed explanation of what constitutes a true HIIT workout, emphasizing intervals, heart rate, and intensity, which aligns perfectly with the HIIT category.\n\n'Body weight' is also selected with a moderate score (0.4) because the video describes how to perform the workout with no equipment using exercises such as burpees, squat jumps, jump lunges, etc. It indicates that the workout can be done at home without equipment, using just bodyweight exercises.\n\nOther potential categories, such as 'Indoor biking,' 'Running,' or 'Treadmill,' are mentioned in terms of potential equipment usage, but they are not central to the video's theme. Therefore, they were not selected as primary categories."
+}

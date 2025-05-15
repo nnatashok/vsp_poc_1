@@ -1,0 +1,46 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The exercises listed, such as squats, lunges, and basic dumbbell movements like curls and presses, generally fall within the beginner to intermediate range in terms of technique. The provision of modifications suggests an intent to make these movements accessible to a wider range of abilities. However, there are elements like the Arnold press and deadlift that require slightly more advanced technique, warranting the inclusion of an advanced score.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.5
+    },
+    {
+      "level": "Challenging",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is 32 minutes long and includes 26 exercises with substantial workload segmented into upper body, lower body, and abs. With 45 seconds of work and 20 seconds of rest per set, the structure is moderately to highly taxing. Using moderate to heavy weights with the aim of working at full capacity during each interval supports a 'Challenging' classification, especially for beginners and intermediate users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.2
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The presence of modifications enables beginners to engage, but the suggested use of heavy weights and the breadth of exercises across the body increases the alignment with intermediate users. Advanced individuals also fit, given the heavy dumbbells and the intensity of effort, although they might not find it as challenging if they're seasoned athletes. However, the structure allows for scalability, hence multiple fitness levels inclusive of beginner, despite the need for endurance and strength alignment."
+}

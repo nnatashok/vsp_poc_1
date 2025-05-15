@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout predominantly includes basic dumbbell movements indicated by phrases like 'full body dumbbell workout' and 'follow along.' This suggests a straightforward structure, likely featuring elementary lifts. The mention of modifications for difficult moves means the workout can accommodate less experienced users trying mildly complex movements, thus support for assigning both Beginner and Intermediate ratings.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.8
+    },
+    {
+      "level": "Challenging",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "With a duration of 23 minutes, targeted at full-body strength and conditioning, the workout likely involves a substantial energy demand. Phrases like 'build strength,' 'lose body fat,' and 'improve cardio' imply vigorous activity. However, user-reported manageability, modifications, and the general structure tone down extreme exertion fears, leading to a Moderate classification with potential for a Challenging rating given the conditioning focus.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.9
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "The necessary fitness level heavily skews towards Intermediate due to the compound effort requirement over 23 minutes. Notably, user comments highlight diverse age ranges (39-62), suggesting the suitability for Beginners seeking fitness entry. The description's provision for modifications and channel's approachable style support a broad accessibility, enabling Beginner access while comfortably including Intermediate users who can maximize workout benefits. Advanced users might engage in further fitness development, albeit with less targeted challenge."
+}

@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.5
+    },
+    {
+      "equipment": "Other",
+      "confidence": 0.3
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout described is primarily a bodyweight mobility routine with stretches targeting various parts of the body, such as the spine, hips, and ankles. \n\n1. **Mat (Confidence: 0.5)**: Although the video does not explicitly mention a mat, the exercises described involve getting onto the floor in positions like all fours and plank. A mat is commonly used in such routines for comfort and to prevent slipping, so it is moderately likely a participant would use one.\n\n2. **Other - Rolled Up Towel (Confidence: 0.3)**: The description mentions using a \"rolled up towel\" to perform the modified Asian squat. While a towel is not standard fitness equipment, it acts as a prop to assist this exercise, hence classified under 'Other.'\n\nThe exercises focus on flexibility and mobility, typically not requiring substantial equipment beyond comfort and support items for better practice."
+}

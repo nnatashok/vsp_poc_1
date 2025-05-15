@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The exercises included in the workout (Jog in Place, Walking High Knees, Vertical Jump, Invisible Jump Rope, Jumping Jack) are basic movements that require minimal coordination, making them suitable for beginners. The video is explicitly labeled as a 'beginner workout' in both the title and description, and the exercises themselves are straightforward without complex form requirements, supporting a Beginner classification with high confidence.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.75
+    },
+    {
+      "level": "Moderate",
+      "score": 0.25
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is 5 minutes long with 40-second active, 20-second rest intervals, which aligns with a Light effort difficulty for most users. However, as indicated by the top comments section, less fit individuals find it challenging initially, suggesting a mild overlap into the Moderate range for those particularly deconditioned. Given these factors, Light is the primary classification, with a minority scoring for Moderate.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.9,
+  "requiredFitnessLevelExplanation": "The technique difficulty aligns primarily with Beginner, as does the effort difficulty, but community feedback suggests even beginners find it challenging, indicating a need for some persistence to perform without strain. Users with very low starting fitness levels might initially perform at a Beginner level with gradual modification, but those closer to an Intermediate level could achieve better initial outcomes, hence the overlap with Intermediate."
+}

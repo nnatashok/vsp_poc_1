@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Weight workout",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    },
+    {
+      "name": "Body weight",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary category of 'Weight workout' is assigned with high confidence due to explicit emphasis in the description on 'lifting weights with good form and control.' The exercises listed include thrusters, bicep curls, front raises, goblet squats, and tricep extensions, all indicative of a strength training routine with weights. This aligns with the metadata description and channel's focus on home workouts and strength building. A score of 0.9 reflects the strong presence of weight training elements.\n\nThe secondary category of 'HIIT' is justified given the exercise structure described: '40 seconds work | 20 seconds rest', which is characteristic of High-Intensity Interval Training. This format shows a structured alternation between high-intensity exercise bursts and rest periods, warranting a score of 0.7 for its clear presence.\n\n'Body weight' exercises are also featured, such as elbow planks and push-ups, justifying a moderate score of 0.5. These are included as part of the workout routine and align with the tag 'home workout.'\n\nOther potential categories like 'Pilates' or 'Yoga' are excluded due to lack of relevant exercises or focus in the metadata."
+}

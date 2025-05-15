@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Mat",
+      "score": 1.0
+    },
+    {
+      "name": "Cardio",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout is classified primarily under 'Mat' with a score of 1.0 due to the description's emphasis on a mat being the only equipment needed and mention of exercises typically performed on a mat, such as Plank Pose and Sit Up Crunches. These exercises indicate a significant component of floor-based movements.\n\nA secondary classification is implicit as 'Cardio' with a score of 0.7 due to the title emphasizing 'Fat Burning Cardio' and the description highlighting that this is a non-stop cardio session aimed at keeping the heart rate up. The presence of aerobic exercises like low-impact skaters and lateral squats also supports the cardio classification.\n\nWhile 'Pilates' and 'Yoga' appear in tags like 'yoga' and 'pilates', these are not central to the workout given the lack of specific focus or practice associated strictly with these forms; thus, they were not included in the final classification."
+}

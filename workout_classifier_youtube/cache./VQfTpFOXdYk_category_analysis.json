@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Body weight",
+      "score": 0.7
+    },
+    {
+      "name": "Cardio",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The video is classified primarily under 'HIIT' due to the explicit mention of 'HIIT' in the title ('5 Minute HIIT at Home - No Equipment Cardio HIIT Workouts'), tags (e.g., 'hiit at home', '5 min hiit'), and description. The repeated emphasis on HIIT across multiple metadata elements indicates a strong presence, justifying a high score of 0.9 for this category. The 'Body weight' category is also relevant given the descriptions like 'No Equipment' and 'Full Body Workout without Equipment', suggesting exercises that rely on one's own body weight, warranting a score of 0.7. Additionally, 'Cardio' is a key element, as identified in the tags ('cardio hiit workouts', 'no equipment cardio'), reflecting its secondary but significant presence, which supports a score of 0.6. Other categories such as 'Mat', 'Stretching', or 'Pilates' are excluded due to the lack of related mentions in the provided metadata."
+}

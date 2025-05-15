@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.75
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The video is labeled as an 'Intermediate' Pilates workout, indicating movements that require some coordination and awareness, typical of Pilates exercises. The use of light weights (1kg-2kg) suggests manageable complexity, though coordination with weights involves some skill. Comments reflect satisfaction and challenge, suggesting movements that are achievable but still require technique.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.7
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout is intermediate level and 35 minutes long, which implies a moderate to high level of physical effort. Pilates core workouts can be deceptively intense, especially with weights involved, as mentioned in descriptions and comments. User feedback indicates a mix of ease and difficulty, consistent with 'Challenging' effort for those less conditioned.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.79,
+  "requiredFitnessLevelExplanation": "Factoring in 35-minute duration and use of weights, along with 'intermediate' labeling, suggests this workout suits Intermediate and potentially Advanced users, but could be adapted for Beginners due to modifiable intensity with weights. Comments indicating ease and the instructor's encouragement of modifying weights support multi-level classification. Despite 'Intermediate' label, the adjustments for weights and comments about accessibility suggest many users could engage safely, particularly if they choose lighter weight or no weight options."
+}

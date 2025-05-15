@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Stretching",
+      "score": 1.0
+    },
+    {
+      "name": "Yoga",
+      "score": 0.3
+    },
+    {
+      "name": "Mat",
+      "score": 0.2
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary category for this workout video is 'Stretching,' which is strongly supported by the title, description, and tags, all emphasizing a 'daily stretch,' 'full body routine,' and 'cool down.' The consistent use of the term 'stretch' across all metadata elements indicates a straightforward stretching routine, earning it a score of 1.0 with very high confidence.\n\nThe secondary consideration for 'Yoga' arises from the tags mentioning 'madfit yoga' and '5 min daily yoga,' suggesting some yoga-like stretching components could be involved, though it's not explicitly framed as a yoga session in the video itself, resulting in a lower score of 0.3.\n\nAdditionally, the 'Mat' category is somewhat relevant since the description and channel frequently emphasize workouts performed on a mat, indicated by the mention of 'THE MAT I USE.' This suggests that the routine might be performed on a mat, justifying a score of 0.2. However, without explicit emphasis on mat exercises distinct from stretching, this is given a lower score."
+}

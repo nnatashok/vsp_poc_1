@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 1.0
+    },
+    {
+      "name": "Body weight",
+      "score": 0.9
+    }
+  ],
+  "categoriesConfidence": 1.0,
+  "categoriesExplanation": "The video is classified primarily as a HIIT workout, which is explicitly identified through the title \"EPIC HIGH INTENSITY - 30 Min Total Body HIIT, No Equipment\" and tags like \"hiit workout\", \"high intensity interval training\", and \"30 minute hiit\". The description further confirms this by detailing a HIIT format with intervals of 30 seconds of work followed by 15 seconds of rest, and the use of full-body exercises.\n\nThe workout also fits strongly into the Body weight category, as indicated by the emphasis on \"no equipment\" in both the title and description, and phrases like \"bodyweight only\" and \"bodyweight hiit\" in the tags. The exercises described\u2014such as burpees, squat jumps, and lunges\u2014are typical body weight exercises, which further justifies this categorization.\n\nThe confidence level for both categories is very high due to clear and explicit indicators provided in the metadata. Mat workouts were considered due to the phrase \"you will simply need your mat,\" but were excluded from primary categories as the focus is on high-intensity bodyweight exercises rather than general mat exercises."
+}

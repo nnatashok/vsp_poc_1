@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout is conducted on an elliptical machine which typically involves low skill requirements. The technique of simply moving forward and backward on the elliptical makes the technique difficulty accessible. Tags like 'low impact workout' and 'elliptical workout for beginners' suggest basic technique requirements. However, the variation in movement direction offers slightly more complexity, warranting a consideration for intermediate level users as well.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.6
+    },
+    {
+      "level": "Challenging",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout is 30 minutes long with progressive resistance, and while it is described as low impact, the comments indicate it is quite challenging ('this kicked my behind', 'appreciated the burn'). The workout uses intervals, which typically boost cardiovascular intensity. The combination of 3-minute intervals and resistance adjustments likely places this in the moderate to challenging range, especially for less fit individuals.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.75,
+  "requiredFitnessLevelExplanation": "Given that the workout features low impact movements on an elliptical, it's suitable for those at the beginner fitness level. However, the duration (over 30 minutes) and challenging user feedback suggest that a beginner might find it towards the upper limit of their capability. Intermediates will likely find it appropriately challenging, while advanced users may engage with the workout due to the intensity described in comments. Thus, the required fitness levels span beginner to advanced."
+}

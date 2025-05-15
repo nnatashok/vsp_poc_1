@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Weight workout",
+      "score": 0.8
+    },
+    {
+      "name": "Body weight",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout video is primarily classified under 'HIIT' with high confidence (0.9) because the title, tags, and description emphasize 'HIIT' and 'high intensity', which indicates a High-Intensity Interval Training format. The structured intervals mentioned in the workout details (e.g., '40 sec work, 20 sec rest') further confirm this categorization. \n\nThe 'Weight workout' category also receives a significant score (0.8) because the video prominently features exercises using dumbbells, as evidenced by phrases like 'workout with weights', 'dumbbell workout', and specific equipment like '20 & 30 lb dumbbells'. This indicates a focus on training with additional weight resistance.\n\nThe 'Body weight' category is also applicable (0.7) as some exercises are listed as 'BODYWEIGHT HIIT' and the video emphasizes bodyweight moves along with weights. This is evident from exercises like 'Bear Plank Dead Bugs' and 'Lateral Push Ups' which are listed in the workout details.\n\nOther potential categories like 'Mat' or 'Calisthenics' are less appropriate as the primary focus is on HIIT with weights and bodyweight rather than general floor exercises or gymnastic body moves. The video evidently combines both bodyweight and weights into a high-intensity format."
+}

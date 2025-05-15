@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Elliptical",
+      "score": 0.8
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The video is classified primarily as 'Elliptical' with a score of 0.8 because the title, description, and tags consistently mention 'elliptical', 'elliptical trainer', and 'elliptical machine', indicating a workout using this type of equipment. The specificity of the equipment makes this the primary category. The secondary classification is 'HIIT' with a score of 0.7, as indicated by phrases like 'HIIT Elliptical Workout', 'low impact HIIT workout', and 'intervals', which suggest alternating periods of intense exercise\u2014hallmarks of a HIIT workout. The tags and the structure description in the video metadata also strongly support both elliptical and HIIT elements. The channel is focused on equipment-based workouts, further reinforcing these categorizations. There were no significant indicators for other categories such as 'Mat', 'Running', or 'Weight workout', thus were excluded from consideration."
+}

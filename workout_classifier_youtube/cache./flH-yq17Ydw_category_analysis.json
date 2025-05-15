@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Body weight",
+      "score": 0.9
+    },
+    {
+      "name": "Mat",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The workout is classified primarily as 'Body weight' due to the explicit mention in the description that these routines are body-weight exercises and the emphasis on not needing equipment. The presence of exercises like Arm Crossovers, Squat, Lunges, Knee Push Ups, and Bicycle Crunches aligns well with body weight categories. The score of 0.9 indicates a very strong central focus on body-weight exercises, supported by the explicit description and routine details.\n\nThe 'Mat' category receives a significant but lesser score of 0.7, as many exercises listed, such as Super Mans, Snow Angels, and Bicycle Crunches, are typically performed on a mat. The routine involves various body movements performed on the floor, consistent with mat exercises. However, the widespread presence of body-weight conditioning elements means 'Body weight' is more prominent.\n\nOther categories such as HIIT or Weight workout were excluded due to lack of high-intensity intervals or use of weights, and Pilates or Yoga were not selected as the workout does not focus on controlled movements or flexibility central to those disciplines."
+}

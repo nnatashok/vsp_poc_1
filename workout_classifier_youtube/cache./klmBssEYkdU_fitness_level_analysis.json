@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The video is a 10-minute morning yoga routine on the Yoga With Adriene channel, known for catering to all levels and encouraging accessibility. Keywords like 'home yoga,' 'yoga at home,' and the channel's emphasis on all levels suggest the movements are simple, indicative of a Beginner technique difficulty. However, some basic yoga poses may require slight coordination, placing it also into the Intermediate category, though with a milder alignment.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.9
+    },
+    {
+      "level": "Moderate",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout's short duration (11 minutes) and the focus on morning stretching and energizing suggest a primarily Light effort difficulty. The video aims to enhance mental, emotional, and physical health without intense exertion. The comments mention comfort and the routine's ease, indicating low energy expenditure. A small score for Moderate effort is included due to yoga's potential for some physical engagement if more challenging poses are attempted.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "The Required Fitness Level combines the Beginner and Intermediate levels due to the evaluation of technique and effort difficulties. As the channel and video description explicitly welcome all levels, and the feedback from users indicates it was approachable even for a first-time user, it supports a strong Beginner classification. The Intermediate level is also included because some users with minimal experience may find certain yoga positions or flexibility aspects moderately challenging, reinforcing a conservative inclusion of multiple fitness levels."
+}

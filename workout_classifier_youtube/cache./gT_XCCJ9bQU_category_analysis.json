@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Mat",
+      "score": 0.7
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.75,
+  "categoriesExplanation": "The workout is classified under 'Mat' with a score of 0.7, as the video emphasizes 'standing workout' and 'no yoga mat needed', implying exercises performed on the floor without additional equipment except a mat. This inference is supported by tags such as \"standing exercises\" and \"apartment friendly workout\", consistent with mat exercises. 'HIIT' is assigned a score of 0.6 because the tags include \"full body hiit\", and the workout is aimed at fat loss, suggesting a structure of intervals of cardio intensity, even if performed quietly without jumping. The repetition noted in comments implies high intensity and intervals, typical for HIIT. Other categories, such as 'Elliptical' or 'Treadmill', do not apply as there is no indication of equipment use. Confidence in these classifications is moderate, bolstered by both explicit metadata and supportive user feedback commentary."
+}

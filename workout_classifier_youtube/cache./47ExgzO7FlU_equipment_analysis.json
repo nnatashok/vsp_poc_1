@@ -1,0 +1,17 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Dumbbells",
+      "confidence": 1.0
+    },
+    {
+      "equipment": "Mat",
+      "confidence": 0.8
+    },
+    {
+      "equipment": "Chair",
+      "confidence": 0.4
+    }
+  ],
+  "requiredEquipmentExplanation": "The video title and description explicitly mention that this workout uses dumbbells, notably referring to 'Upper Body (Chest & Back) Strength Workout with Dumbbells'. The description further clarifies this by stating the use of 8 pound dumbbells for the exercises. This gives a very high confidence score (1.0) for dumbbells being required equipment.\n\nA mat is implied in the description as it mentions performing the workout 'entirely on the floor/mat', which is indicative of exercises that require a mat for comfort and support, especially given the target audience of seniors and beginners. This results in a high confidence score (0.8) for the mat.\n\nA chair is mentioned as an alternative option for certain exercises if participants are not comfortable on their hands and knees. Therefore, it is given a moderate confidence score (0.4) as it is not central to the workout but suggested as a viable alternative for some exercises."
+}

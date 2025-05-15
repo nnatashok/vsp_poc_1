@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.75
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout primarily involves indoor cycling on a stationary bike, which is straightforward and does not require complex coordination, making it accessible for beginners. However, maintaining proper cycling form and adjusting resistance could elevate it to an intermediate technique level for complete beginners.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    },
+    {
+      "level": "Extreme",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout features high-power efforts designed to push the VO2 threshold with minimal rest, suggesting a challenging to extreme level of physical demand. The descriptors 'high-power' and 'VO2 threshold' indicate a significant cardiovascular and physical effort. User comments about 'brutal' workout phases further imply high energy expenditure.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.6
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "While the technique is accessible to beginners, the high effort level due to VO2 max efforts suggests that beginners may find it quite challenging without modifications. Intermediate fitness levels are appropriate as users can modulate resistance and exertion. Given the intense intervals, an advanced fitness level is also appropriate for those aiming to maximize VO2 max. Adjustments to intensity allow these levels to be accommodated."
+}

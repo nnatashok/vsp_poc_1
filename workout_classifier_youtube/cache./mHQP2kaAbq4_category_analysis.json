@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Elliptical",
+      "score": 1
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    },
+    {
+      "name": "Body weight",
+      "score": 0.2
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary category of 'Elliptical' is evident from the video title, description, and tags which consistently mention 'Elliptical Workout', 'HIIT Elliptical', and relate to specific techniques like 'backward/forward intervals'. Keywords such as 'HIIT Elliptical Workout' and 'intervals' strongly support the inclusion of 'HIIT' as a secondary category, reflected in a 0.7 score since these elements are deeply embedded in the activity conducted on the elliptical. Lastly, a minimal inclusion of 'Body weight' is considered (score: 0.2) due to the mention of 'standing calf raises', which imply elements of body weight exercises, though this is not the focus. Overall confidence in these classifications is very high given the explicit and frequent references to elliptical workout styles and HIIT methodologies designed for strong leg and core conditioning."
+}

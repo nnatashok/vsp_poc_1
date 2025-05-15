@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The technique required for an elliptical workout is generally simple, involving basic jogging and sprinting motions. The varying resistance levels add a slight increase in complexity, but overall, the movements are straightforward and do not require advanced skills. The use of an elliptical machine inherently involves repetitive, low-complexity actions suitable for beginners, but adjusting resistance requires some familiarity (intermediate).",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.6
+    },
+    {
+      "level": "Challenging",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "This 34-minute workout involves interval training on an elliptical with varying resistance and includes sprints, jogs, and climbing phases, indicating moderate to challenging effort levels. The duration and integration of intense phases like sprints during the Tabata finisher suggest a more demanding workout for the target audience. The structured resistance increase and recovery phases align with moderate to challenging effort, reflecting energy expenditure demands.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    },
+    {
+      "level": "Advanced",
+      "score": 0.2
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.9,
+  "requiredFitnessLevelExplanation": "The workout targets an \"Intermediate\" level as per the description, but its adjustable intensity on an elliptical allows it to be accessible to beginners who can manage the lower resistance levels. The effort peaks during the Tabata finisher may be challenging for beginners, necessitating an intermediate classification. With proper modification, those with higher capacity can also find it suitable, qualifying it for an advanced level to cover a wide range of users given the progressive resistance and variability."
+}

@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The video is a full-body calisthenics workout intended for home performance without equipment, which generally suggests simpler movements. The metadata explicitly mentions 'beginner and more advanced exercise variations,' indicating that the exercises span from simple to moderately complex. This, combined with calisthenics typically incorporating exercises like push-ups and squats, suggests most movements fall between beginner to intermediate technique levels. Given the content's design for mixed abilities and lack of complex equipment use, the highest score falls on the Intermediate level.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout duration is approximately 31 minutes, which means it requires a sustained effort. The description emphasizes 'strength and mobility,' and some user comments reference significant physical progress (e.g., increase in push-up reps), indicating a workload that can be physically demanding for less fit individuals. The tags include 'strength' and 'mobility,' hinting at steady physical exertion rather than explosive or extreme intensity. Therefore, the effort difficulty is classified between Moderate and Challenging due to the workout's duration and strength focus.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The workout is inclusive of both beginner and advanced exercise variations, catering to a broad audience. The workout's length (over 20 minutes) and calisthenics nature suggest that the effort and endurance level might pose a challenge for complete beginners, yet users can still follow along if they're willing to modify or take breaks, which is corroborated by comments reflecting beginner gains. The mention of 'beginner and more advanced exercise variations' implies modification options are present, suitable for beginner to intermediate levels, with advanced level engagement possible for those adhering to the more challenging variations. Thus, multiple levels are included in a generous interpretation for varying fitness capabilities."
+}

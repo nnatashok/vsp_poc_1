@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is a cycling session, which inherently requires some basic coordination. The session is structured with increasingly challenging intervals but does not involve complicated techniques or advanced cycling skills. Adjusting resistance and cadence slightly increases complexity for users unfamiliar with cycling, but the simplicity of the movements overall keeps it well within the Beginner range, with mild applicability to Intermediate due to coordination and balance needed in cycling.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.7
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout is 15 minutes long, featuring a gentle warm-up, main sets with moderate bursts of effort (5/10 intensity), and some sprinting (9/10 intensity) but with ample recovery periods. The brief duration, combined with varied intensity, makes it primarily a Light-to-Moderate effort session suitable for beginners. Effort difficulty is balanced by the fact that the hardest components are brief and followed by substantial recovery, aligning more with beginner-friendly energy expenditure.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.9,
+  "requiredFitnessLevelExplanation": "The workout is explicitly labeled as beginner-friendly, aiming to accommodate those starting or returning to exercise. User comments reflect participation from individuals with minimal fitness backgrounds, reinforcing the beginner classification. Some Intermediate level inclusion is justified by the slight challenge presented by variable intensities and short sprints. The lightweight cycling session is achievable for beginners, with more options for adjusting difficulty, explaining its strong beginner alignment and moderate Intermediate applicability."
+}

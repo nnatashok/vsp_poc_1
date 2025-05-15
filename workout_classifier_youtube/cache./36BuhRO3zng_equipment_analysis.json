@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Dumbbells",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The metadata explicitly states that the workout requires both a mat and a set of dumbbells. The description mentions 'Today I'll be using two 10 LB weights and a mat,' indicating that both a mat and medium-sized dumbbells (10 lb each) are central to the exercises in the routine. This is further reinforced by the tags such as 'dumbbell workout' and 'workout with dumbbells,' which emphasize the use of dumbbells throughout the session. The mat is implicitly necessary for floor exercises, warm-ups, and cool-downs, justifying its inclusion with high confidence. The title also mentions 'With Dumbbells (And Without),' suggesting that there's flexibility in performing exercises without dumbbells for modifications, but considering the focus, dumbbells play a primary role."
+}

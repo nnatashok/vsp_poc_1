@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is a yoga full body stretch aimed at deep relaxation, which generally involves basic stretching and yin yoga poses. The metadata indicates this session is intended for tension release and flexibility improvement ('yin inspired yoga class', 'deeply stretch'). Yoga With Bird focuses on making yoga accessible to everyone, implying simple movements. However, some poses like pigeon might require slight coordination and awareness, thus meriting a small intermediate score.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.9
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The session is a 15-minute yoga stretch focused on relaxation and flexibility. 'Deep relaxation' and 'stretch the entire body' infer a calming, low-energy demand. User comments mention it being peaceful and comfortable, which supports the session having light effort difficulty. While predominantly light, the potential increase in flexibility for some might involve some moderate effort difficulty.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.95
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.9,
+  "requiredFitnessLevelExplanation": "Given the technique and effort difficulty, this workout is highly accessible to beginners with its calming and gentle nature. The instructor's emphasis on listening to one's body and modifying poses confirms this is beginner-suitable. However, the inclusion of slightly more complex poses like pigeon, as reflected in comments, and possible modification needs, justify an intermediate score for those who may wish to engage more fully or have baseline yoga experience."
+}

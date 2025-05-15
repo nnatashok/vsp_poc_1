@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Weight workout",
+      "score": 0.9
+    },
+    {
+      "name": "Body weight",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category for this video is 'Weight workout,' as evidenced by the strong emphasis on a full-body workout using dumbbells, which is clearly stated in the title, tags, and description. This aligns with the metadata indicating a focus on strength training ('dumbbell workout,' 'strength workout,' 'strength training'). The video description explicitly mentions it is a strength training session requiring dumbbells, reinforcing this categorization with a high confidence score of 0.9.\n\nThe 'Body weight' category is included with a mild score of 0.4 because although the focus is on weights, the video might include exercises that use body weight for additional strength training, which is common for full-body workouts. However, this is more ancillary, given the primary emphasis on dumbbells.\n\nOther categories such as 'HIIT', 'Calisthenics', or 'Mat' are excluded because the workout does not emphasize high-intensity intervals, gymnastics-style exercises, or require just a mat-based routine without equipment."
+}

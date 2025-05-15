@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Pilates",
+      "score": 0.8
+    },
+    {
+      "name": "Mat",
+      "score": 0.7
+    },
+    {
+      "name": "Yoga",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout video is primarily classified under the 'Pilates' category with a high confidence score (0.8) due to explicit mentions of 'Standing Pilates' in both the title and tags, and the description highlighting a series of standing Pilates movements. The channel 'The Girl With The Pilates Mat' is focused on Pilates, further reinforcing this classification.\n\nThe 'Mat' category is assigned with a score of 0.7 because the exercises are described as dance-inspired and low impact, often implying a mat-based or floor exercise routine without equipment, as indicated in the description with terms like 'no equipment' and 'simple dance inspired exercises'. \n\nA minor consideration for 'Yoga' (0.4) is included because the description and user comments suggest a mind-body workout experience, common in yoga practice, but the specific yoga connection is weaker compared to Pilates and Mat categories.\n\nThe description also rules out high impact workouts, and user comments about low impact and balance challenges corroborate this distinction. Thus, 'HIIT' and similarly intensive categories are not applicable. \"Weight workout\" and \"Calisthenics\" are excluded due to the lack of equipment and bodyweight-specific exercises mentioned."
+}

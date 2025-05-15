@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Treadmill",
+      "score": 1
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    },
+    {
+      "name": "Running",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is clearly categorized as a 'Treadmill' session, as indicated by the video's title and repeated emphasis in the tags and description. The phrases 'Beginner Interval Treadmill Follow Along' and 'beginner treadmill workout' point decisively to this category, warranting a score of 1 for its centrality to the workout. In addition, the presence of 'interval' training suggests a 'HIIT' component, albeit for beginners, as corroborated by the tag 'hiit treadmill workout for weight loss'. This justifies a strong presence of HIIT features, suitable for a 0.7 score. Lastly, the channel focus, comments about running achievements, and encouragement of beginner running practices ('beginner running on a treadmill', 'indoor running cardio workout') support a moderate presence of general 'Running', justifying a score of 0.5 in acknowledgement of the broader running context, as the workout involves both running and recovery phases common in running drills. Overall, the classification is confidently mapped due to explicit markers within metadata."
+}

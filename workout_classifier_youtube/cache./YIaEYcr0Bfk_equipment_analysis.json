@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 1
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout described in the metadata clearly identifies that the exercises are floor-based and non-weight bearing. Specific phrases from the description such as \"Bodyweight floor exercises\" and \"floor exercises you'll move through in this non-weight bearing routine\" imply that minimal equipment is needed, focusing on the use of a mat for comfort and safety during exercises. Furthermore, a comment mentioned \"roll out my mat,\" which aligns with the typical requirement for mat-based exercises to provide cushioning on the floor. Therefore, the confidence for requiring a 'Mat' is very high (1.0) due to these explicit mentions and the nature of the exercises described."
+}

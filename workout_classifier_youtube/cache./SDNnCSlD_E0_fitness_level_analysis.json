@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The exercise is focused on babywearing, which involves basic movements that are straightforward, likely including exercises like squats or lunges done with a carrier. This suggests Beginner level technique difficulty, as the coordination required is minimal and there are no indications of complex movements. The use of a baby carrier may introduce slight complexity, allowing for a small percentage at the Intermediate level.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.2
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout is 20 minutes and is postnatal, often involving gentle movements suitable for mothers recovering from childbirth. Tags such as 'postpartum workout' and 'exercise with baby' suggest lower intensity. User comments support this, mentioning baby falling asleep, indicating a gentle intensity suitable for Light difficulty. Nonetheless, carrying a baby could increase effort slightly, justifying a small percentage at the Moderate level.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "Based on the low technique and effort difficulties, the workout is predominantly suitable for Begginers, especially as it is targeted at postpartum mothers. However, given the 20-minute duration and requirement to carry a baby, which might be physically demanding for some, there's a moderate alignment with the Intermediate level for slightly more active postpartum individuals."
+}

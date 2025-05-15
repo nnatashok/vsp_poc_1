@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'Beginners' and includes instructional pointers on how to use the elliptical, which indicates a focus on simple, beginner-friendly techniques. This aligns with beginner classification. The inclusion of advice on posture and core engagement introduces a minor element of complexity, possibly aligning slightly with an intermediate level, though overwhelmingly this is beginner-focused.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.75
+    },
+    {
+      "level": "Challenging",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout alternates between jogging and sprinting intervals on an elliptical with varying resistances up to level 6, which introduces a moderately challenging cardiovascular exercise primarily targeted at beginners. The duration is only 15 minutes, typical of a moderate level effort. However, comments indicate some personal challenge, warranting a slight inclusion of 'Challenging' for less fit individuals.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.78,
+  "requiredFitnessLevelExplanation": "Given the primarily beginner focus and fundamental technique required, the required fitness level is reasonably suitable for beginners. However, feedback from users and the use of increasing resistance levels suggest that some aspects could be challenging for less fit beginners, leading to the inclusion of intermediate level to capture a wider audience who might require minimal fitness experience to comfortably follow the session. The effort and pacing contribute to an intermediate understanding."
+}

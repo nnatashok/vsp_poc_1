@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The video is labelled as 'Yoga for Bedtime', 'Gentle Yoga', and 'Beginner Yoga', suggesting simple and straightforward yoga poses. The description mentions that it requires no props and is a relaxation-focused routine aimed at calming the mind before sleep. The emphasis on being a gentle practice is consistent with a low technique difficulty. Some slight coordination may be involved, thus a small score for 'Intermediate'.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.9
+    },
+    {
+      "level": "Moderate",
+      "score": 0.2
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is 14 minutes long and described as 'gentle', suited for calming down and promoting sleep, indicating low energy expenditure. This aligns with a 'Light' effort difficulty. The lower duration and lack of intensity or cardiovascular demands suggest 'Light', but a small 'Moderate' score acknowledges potential minor challenges for complete beginners unfamiliar with even gentle yoga.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.9,
+  "requiredFitnessLevelExplanation": "Given the low technique and effort difficulty established by the 'gentle' and 'beginner' labels, the workout is well-suited for beginners. The calming and stretching-oriented nature supports accessibility to deconditioned individuals. Including 'Intermediate' recognizes slightly increased demands on flexibility and mental relaxation, ensuring wider inclusivity across lower fitness levels."
+}

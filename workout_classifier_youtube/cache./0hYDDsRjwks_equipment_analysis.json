@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Dumbbells",
+      "confidence": 1.0
+    },
+    {
+      "equipment": "Mat",
+      "confidence": 0.8
+    }
+  ],
+  "requiredEquipmentExplanation": "The main piece of equipment required for this workout is dumbbells, as explicitly stated in both the title and the description: \"Grab some heavy dumbbells and let's get STRONG!\" Additionally, the description provides a weight range (10lbs to 45lbs), and all exercises listed involve dumbbell movements, providing very high confidence (1.0) that dumbbells are essential.\n\nAn exercise mat is also mentioned in the description under \"EQUIPMENT NEEDED,\" indicating a floor component to the workout which often involves exercises performed in a prone or supine position that require cushioning or support. Given that the description includes exercises like \"GLUTE BRIDGE WALKOUTS\" and \"REVERSE CRUNCH,\" which typically require a mat, the confidence for an exercise mat is high (0.8). There are no other specific mentions or indications of additional equipment needed, thus no other equipment is considered essential for this workout."
+}

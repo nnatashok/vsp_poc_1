@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The technique difficulty is predominantly 'Beginner'. The workout is explicitly labeled as a 'beginner calisthenics workout' and is designed for simple, bodyweight movements that can be performed without equipment. The description and tags emphasize beginner-level exercises, such as 'beginner calisthenics exercises', 'no equipment', and 'at home', indicating a focus on basic movements. User comments also support the beginner nature, mentioning the workout as 'easy to understand' and 'simple instructions'. There is a slight nod to 'Intermediate' complexity as some calisthenics exercises, depending on variations, may require moderate coordination, but this is minimal in this context.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.75
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The effort difficulty is rated between 'Light' and 'Moderate'. With a 20-minute duration, this workout sits at a threshold where effort can vary based on user intensity. It is highlighted as a 'full body beginner Calisthenics workout' suggesting a primarily light effort. However, balancing bodyweight strength and mobility could elevate the challenge slightly, accounting for the 'Moderate' score. User comments reflect a manageable effort, noting it as their entry into calisthenics and describing it as 'simple'.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.95
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.9,
+  "requiredFitnessLevelExplanation": "The required fitness level is primarily 'Beginner', strongly evidenced by metadata labeling, e.g., 'beginner calisthenics workout','calisthenics exercises for beginners', and user comments affirming applicability for complete novices. The 'Intermediate' level is included with a lower score due to the 20-minute duration hinting at the potential for a moderate challenge that could suit beginners transitioning to intermediate fitness. User feedback mentions individuals with certain physical backgrounds finding the workout manageable yet slightly challenging, adding to this level's inclusion."
+}

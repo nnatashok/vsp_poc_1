@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.95
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.88,
+  "techniqueDifficultyExplanation": "The workout consists of simple, straightforward exercises such as marching on the spot, side stars, and straight punches, which do not require complex coordination or advanced motor skills. These are characteristic of beginner-level techniques. However, there are slightly more complex movements like knee smashes and side lunges, which might require a little more coordination, hence a moderate score for intermediate technique difficulty.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.9
+    },
+    {
+      "level": "Moderate",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout's duration is 16 minutes with 30 seconds of work and 30 seconds of rest, which keeps the energy expenditure and cardiovascular demand on the lighter side. It is designed to be beginner-friendly, but with continuous movement and a moderate pace, it could be mildly challenging for completely deconditioned users, leading to a moderate score in effort difficulty.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.95
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.9,
+  "requiredFitnessLevelExplanation": "Given its technique and effort difficulty, this workout is suited for beginners looking to start a fitness routine. The exercises are simple with a manageable effort parameter, making them accessible to those new to exercise. However, slightly more coordinated moves like 'side lunges' might pose a mild challenge, hence the inclusion of the intermediate fitness level, which accounts for users who might find the effort or technique moderately challenging."
+}

@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The cycling workout is primarily reliant on basic cycling techniques accessible to all fitness levels. The sequences involve simple pedaling which aligns with beginner and intermediate techniques. While technique isn't complex, maintaining the correct cycling form and saddle position requires some understanding, justifying the intermediate level consideration.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    },
+    {
+      "level": "Extreme",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "With intense intervals at max effort (10/10 RPE), the workout's structure is highly energy-demanding, especially featuring multiple 1 or 2-minute maximum effort segments. Short recovery periods (30 seconds) between high-intensity intervals demand cardiovascular effort typical of a Challenging to Extreme workout. Despite being 15 minutes, the workout is likely to be very exhausting, even for active individuals.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.6
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "For users in poor shape, the intensity is high but the actual workout duration allows even beginners with some cycling exposure to participate. Intermediate and advanced levels are included due to high cardiovascular demands specified and comments from experienced users expressing exhaustion. Multiple fitness levels are appropriate due to modifiable intensity and potential adjustment to resistance levels based on personal capability."
+}

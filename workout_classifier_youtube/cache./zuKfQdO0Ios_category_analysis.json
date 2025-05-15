@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Running",
+      "score": 0.9
+    },
+    {
+      "name": "Treadmill",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout video is primarily classified under the 'Running' category with a high score of 0.9 due to repeated mentions of running as the main activity throughout the metadata, including the title '20 Minute Guided Run' and the description indicating a '20 minute follow along run.' The guidance for doing the workout 'outside or on a tread,' mentioned in both the title and description, suggests that it can also be performed on a treadmill, warranting a secondary classification under the 'Treadmill' category with a score of 0.6. However, the primary activity appears to be focused on outdoor running, given the overall context and the channel's emphasis on running experiences. There is no indication of activities such as walking, elliptical, or cycling, which excludes these categories from consideration."
+}

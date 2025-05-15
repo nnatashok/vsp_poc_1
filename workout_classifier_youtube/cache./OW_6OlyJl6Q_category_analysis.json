@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Weight workout",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary category assigned is 'Weight workout' with a high confidence score of 0.9. The metadata explicitly mentions the use of dumbbells throughout the workout for toning and strengthening, as highlighted in the title ('With Weights'), tags ('dumbbell workout', 'workout with weights'), and description ('Grab your Dumbbells and let's do this!'). The emphasis on equipment-based strength exercises supports this classification.\n\nAdditionally, 'HIIT' is identified with a score of 0.7. The workout's format includes intervals such as '45 sec on, no rest' and 'HIIT workout for fat loss' in the tags, suggesting high-intensity interval training elements even though the main focus is on strength-building.\n\nOther categories were considered but excluded due to the lack of focus on exercises without equipment or typical HIIT-only characteristics. While high-intensity elements are present, the workout's structured use of weights leads to a balanced category classification between HIIT and Weight workout."
+}

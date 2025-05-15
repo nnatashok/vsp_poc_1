@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The video is labeled as 'Intermediate Pilates' with a Pilates Reformer, which automatically elevates the technique difficulty due to the apparatus's complexity. Pilates Reformer exercises require some coordination and body awareness, particularly at intermediate levels. The description does not suggest modifications, which supports a solid 'Intermediate' rating. Additionally, Pilates Reformer can include nuanced techniques, hinting at some 'Advanced' elements for precision and control.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout is described as a 'Full Body Workout' with a duration of 26 minutes, which is likely to be moderately demanding particularly due to the continuous nature of Pilates routines. The description emphasizes 'sweat' and 'tone your entire body,' suggesting a moderate effort but not extreme. However, for those not accustomed to Pilates Reformer, it might pose a 'challenging' effort due to unfamiliarity and sustained activity.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    },
+    {
+      "level": "Beginner",
+      "score": 0.2
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "Given the 'Intermediate' label and duration over 20 minutes, the workout is most suitable for 'Intermediate' individuals but with some accessibility for beginners, particularly those who are more adventurous and willing to explore apparatus like the Reformer. However, a foundational fitness level is necessary due to the Intermediate technique and moderate/challenging effort. Beginners should approach with caution, while those with a few months of experience will find it aligns well."
+}

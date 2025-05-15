@@ -1,0 +1,17 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.7
+    },
+    {
+      "equipment": "Dumbbells",
+      "confidence": 1.0
+    },
+    {
+      "equipment": "Blocks",
+      "confidence": 0.4
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout requires a pair of dumbbells based on the explicit mention in the description: \"For this full body workout, you will need a pair of dumbbells.\" The tags also reinforce the centrality of dumbbells, mentioning \"dumbbell workout at home\" and \"dumbbell full body workout.\" This assigns a very high confidence score of 1.0.\n\nA mat is mentioned in the description as necessary for the workout, particularly for exercises like deadstop push-ups and sit-ups, which are more comfortable on a mat. Thus, it is assigned a confidence score of 0.7.\n\nBlocks or similar items (a \"yoga block/ thick book / stepper\") are mentioned as optional for exercises like heel elevated squats and foot elevated lunges, giving it a moderate confidence score of 0.4 due to its optional nature."
+}

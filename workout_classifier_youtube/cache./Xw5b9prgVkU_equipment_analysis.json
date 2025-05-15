@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Dumbbells",
+      "confidence": 1.0
+    },
+    {
+      "equipment": "Mat",
+      "confidence": 0.8
+    }
+  ],
+  "requiredEquipmentExplanation": "The use of dumbbells is explicitly stated in the video title ('10 minute FEISTY & FUN Full Body Workout with Dumbbells'), and the tag selection consistently emphasizes dumbbells as a core component of the workout (e.g., 'dumbbell workout at home', 'full body dumbbell workout'). The description also lists 'DUMBBELLS' as necessary equipment accompanied by specific weights used (5kg to 17.5kg), which provides a very high confidence (1.0) that dumbbells are required.\n\nA mat is also mentioned in the description under the workout equipment section ('EQUIPMENT: DUMBBELLS AND A MAT'). This suggests that a mat is required for floor exercises like push-ups, dead bugs, glute bridges, and bicycle crunches, leading to a high confidence score of 0.8. The specificity of equipment listed as required, including a mat, supports the need for these two pieces of equipment for the workout."
+}

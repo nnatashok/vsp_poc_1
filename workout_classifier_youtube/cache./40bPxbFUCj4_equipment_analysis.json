@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.8
+    },
+    {
+      "equipment": "Blocks",
+      "confidence": 0.4
+    }
+  ],
+  "requiredEquipmentExplanation": "The video titled 'Restorative Yoga For Stress Relief | 30 Minute Practice' strongly implies the use of a mat, as yoga practices typically require one for comfort and stability on the floor, providing a very high confidence level of 0.8 for a mat. The description mentions bringing a 'pillow and/or block to this session,' indicating that blocks could be used but are not essential, thus assigning them a moderate confidence score of 0.4. The overall focus on relaxation and restorative poses supports the inclusion of a mat as the essential equipment, while blocks are recommended but not required. No other equipment is mentioned, and the comments further suggest a focus on mental relaxation rather than physical exertion with additional equipment."
+}

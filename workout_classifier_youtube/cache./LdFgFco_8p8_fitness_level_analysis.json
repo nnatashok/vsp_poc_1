@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.75
+    },
+    {
+      "level": "Advanced",
+      "score": 0.25
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The exercise requires coordination and strength as indicated by the use of dumbbells, implying an intermediate technique level for proper form. The reference to \"legs over dumbbell\" suggests some advanced elements, scoring it mildly for advanced. Metadata implies a few challenging exercises suitable for regular exercisers, hence a 0.75 score for Intermediate and 0.25 for Advanced.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.7
+    },
+    {
+      "level": "Extreme",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The 30-minute duration, the stated high intensity with short 10-second rest periods, and tag references to 'intense workout' and 'hiit with weights', indicate a challenging effort level, suitable for individuals looking to burn fat and build strength. Community comments suggesting breaks further support this classification.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "Given the combination of intermediate technique difficulty and challenging effort level, the workout is primarily suitable for individuals with some fitness experience, thus scoring strongly at the Intermediate level (0.7). The advanced elements, duration, and user fatigue reports suggest that regular exercisers would manage better, supporting a 0.3 score at the Advanced level. With weights used, users can self-select their load, broadening applicability to Intermediate levels and above."
+}

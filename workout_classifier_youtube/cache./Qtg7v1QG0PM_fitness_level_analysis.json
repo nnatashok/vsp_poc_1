@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The video features a 5-minute morning yoga routine described as a 'movement class'. The title and tags suggest a vinyasa flow yoga, which may include a sequence of poses that require some coordination but are likely to be simple given the short duration and purpose (to energize and remove sleepiness). The use of transitions in vinyasa yoga makes it slightly technical, aligning with Beginner (0.8) and Intermediate (0.6) levels.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.9
+    },
+    {
+      "level": "Moderate",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "Given the short duration of 5 minutes, the workout is unlikely to be physically demanding, thus fitting squarely into the Light effort category (0.9). It aims to energize, which generally involves a quick session with low-intensity exercises. The mention of 'power yoga' in tags indicates the possibility of moderate exertion, providing a Moderate effort score (0.4).",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "Combining the technique (Beginner to Intermediate) and effort difficulty (Light to Moderate), this 5-minute yoga routine is most suitable for Beginners (0.7) and possibly Intermediate (0.5) practitioners. The short duration and energizing intent make it accessible to those newer to yoga and exercise routines, but the potential for a slight technical aspect in transitions warrants an Intermediate level consideration too."
+}

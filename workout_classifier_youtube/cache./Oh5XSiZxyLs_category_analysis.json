@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Pilates",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout video is labeled as a '30 MIN CARDIO PILATES' session, strongly indicating a primary focus on Pilates with additional cardio elements. \n\nEvidence from the title and tags such as 'pilates workout full body', 'full body pilates workout', and 'cardio pilates' explicitly categorize the workout under Pilates, justifying a high score of 0.9. The description further emphasizes a combination of 'Pilates principles/movements with athletic cardio flows,' reinforcing its Pilates foundation.\n \nThe mention of 'cardio pilates' and 'athletic cardio flows' suggests inclusion of high-intensity intervals, aligning with elements found in HIIT workouts. While it's noted as 'low impact and high impact options', this aligns with HIIT's characteristic intensity variations. Thus, HIIT is assigned a supporting role with a score of 0.7.\n\nUser comments do not contradict this classification; they reflect the workout's challenging nature and appropriate pacing, consistent with a combined Pilates and cardio routine.\n\nAlternative categories such as 'Mat' are considered but not prioritized as the Pilates and cardio elements explicitly define the workout\u2019s nature."
+}

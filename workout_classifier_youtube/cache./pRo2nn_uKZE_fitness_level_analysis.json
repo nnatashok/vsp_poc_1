@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The video involves a bodyweight workout focused on full body strength and muscle building, which typically includes compound exercises. While compound movements can be more complex than isolation exercises, the use of bodyweight suggests they are likely not overly technical. The tags and description emphasize 'strength' and 'full-body workout,' indicating coordination is needed but not necessarily at an advanced level. The comments reflect a perception of accessibility ('basic fullbody workout'), supporting a classification of Beginner to Intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is 20 minutes long, a duration more challenging for deconditioned individuals, especially with an emphasis on building muscle and strength through compound movements and cardio elements. The description mentions 'calorie burn' and 'increase your calorie burn,' suggesting moderate to challenging effort, reinforced by user comments describing the workout as 'intense' and challenging for the full body. Thus, a Moderate to Challenging effort difficulty is appropriate.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "Combining a technique difficulty that leans Beginner to Intermediate with a moderate to challenging effort difficulty, the required fitness level spans Beginner to Advanced. Beginners with motivation or prior experience could gradually complete it, as implied by encouraging comments about accessibility. The Intermediate level is strongly represented due to the workout's full-body, strength-focused nature, and the Advanced level acknowledges the comments about intensity and strength building. Users can self-adjust intensity, further expanding applicable fitness levels."
+}

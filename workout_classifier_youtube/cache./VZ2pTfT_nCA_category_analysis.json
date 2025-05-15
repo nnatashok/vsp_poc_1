@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Mat",
+      "score": 0.6
+    },
+    {
+      "name": "Body weight",
+      "score": 0.4
+    },
+    {
+      "name": "HIIT",
+      "score": 0.2
+    }
+  ],
+  "categoriesConfidence": 0.7,
+  "categoriesExplanation": "The title and tags explicitly mention a 'chair workout,' which involves seated exercises. This indicates that the workout doesn't require heavy equipment, aligning it with the 'Mat' category, typically encompassing routines performed with minimal tools. The 'chair workout' tag in combination with \"seated ab exercises\" and \"lose belly fat sitting down\" suggests light or moderate exercises using body weight in a confined space, hence the 'Body weight' category with a moderate score of 0.4. \n\nThe video is also tagged as \"seated fat burn workout,\" which in conjunction with comments mentioning an elevated heart rate and references to burning fat, implies an aspect of intensity resembling interval workouts, justifying a low confidence score for the 'HIIT' category. These references suggest some intensity, but not predominantly enough to be classified solely under HIIT. \n\nTherefore, primarily 'Mat' and 'Body weight' are most relevant, with a slight presence of 'HIIT' evidence, depicted in user feedback about their exercise experiences."
+}

@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is explicitly labeled as a 'beginners workout' both in the title and description, and is designed for users new to indoor cycling or exercise biking. The top comments reinforce this, with users describing it as an entry-level guide. The mention of resistance adjustments for increased difficulty suggests there is room for slight complexity but the core movements remain beginner-friendly. Hence, a strong alignment with Beginner and modest alignment with Intermediate for those adjusting resistance.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "This workout has a total duration of just over 10 minutes, which fits within the shorter duration category often associated with lower effort difficulty. However, the ability to adjust resistance offers the potential for a more moderate energy expenditure, explaining the mild Moderate score. Multiple comments note that users found the workout accessible but with options to push harder if desired, indicating a suitable but not intense effort level.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.9,
+  "requiredFitnessLevelExplanation": "Given the stated Beginner level in the metadata and confirmed by user feedback, this workout is firmly appropriate for beginners. However, the mention of resistance adjustments for added difficulty and user comments suggesting they could challenge themselves more if needed supports some alignment with Intermediate level. Thus, the workout is very suitable for Beginners and could accommodate those at a low to moderate Intermediate level due to the adjustable nature of indoor cycling."
+}

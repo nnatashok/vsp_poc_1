@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Stretching",
+      "score": 0.9
+    },
+    {
+      "name": "Mat",
+      "score": 0.6
+    },
+    {
+      "name": "Yoga",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout video is most appropriately categorized as \"Stretching\" given the emphasis throughout the metadata on flexibility and stretching routines. The title \"BEGINNER FLEXIBILITY ROUTINE (Stretches for the Inflexible)\" explicitly mentions stretches, which aligns directly with the Stretching category. The description and tags underscore this focus, repeatedly using terms like \"stretch,\" \"flexibility,\" and \"stretch routine.\" The first selected category, \"Stretching,\" is given a score of 0.9 due to the strong indicators present in the video title, description, and tags.\n\nThe \"Mat\" category was considered because the workout seems to be performed on an exercise mat, as referenced in the description that links to a recommended mat product. However, since the primary focus is on stretching, this category is secondary, scoring 0.6.\n\n\"Yoga\" was also considered to reflect potential overlap with yoga-like postures and movements typical in flexibility routines. Yet, given the lack of explicit mention of yoga and the primary focus on general stretches, this is noted with a lower score of 0.4. The confidence level for the categorization is high at 0.85 due to the clarity of intent conveyed by the channel and video's metadata."
+}

@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Mat",
+      "score": 0.7
+    },
+    {
+      "name": "Body weight",
+      "score": 0.6
+    },
+    {
+      "name": "Walking",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.75,
+  "categoriesExplanation": "The video is classified primarily under 'Mat' (0.7) because it involves a 20-minute cardio workout that is performed standing, emphasizing low-impact exercises suitable for pregnant women. The title and description highlight the focus on prenatal cardio from a standing position, which suggests mat-like exercises without the need for equipment. The 'Body weight' category (0.6) is relevant since the workout likely involves exercises relying on body weight for resistance, as is typical in cardio routines aiming to be low-impact and accessible without additional equipment, particularly for pregnant women. The 'Walking' category (0.4) is included due to the reference to 'low impact cardio' in the tags, which may imply walking or walk-like movements as part of the cardio workout. The classification avoids categories like 'Elliptical', 'Treadmill', 'Indoor biking', etc., as there's no indication of specific equipment or machines being involved. The confidence level is high due to explicit mentions in the title and description, but some assumptions are made regarding the exact exercise types."
+}

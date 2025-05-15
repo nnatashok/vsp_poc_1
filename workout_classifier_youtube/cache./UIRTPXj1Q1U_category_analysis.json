@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Stretching",
+      "score": 0.9
+    },
+    {
+      "name": "Yoga",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary category for this workout video is 'Stretching.' The title, description, and tags all explicitly mention a 'stretch routine,' specifically targeting 'tight hamstrings' and 'hip flexors.' Terms such as 'lower body stretch,' 'flexibility,' and 'mobility exercises' further emphasize the focus on stretching to relieve tension and pain, which aligns with flexibility training. This is consistent with the category description for Stretching, indicated by a very high confidence score of 0.9 due to explicit metadata cues.\n\nA secondary, minor category of 'Yoga' is considered due to the mention of using a 'yoga mat' in the description and the style of controlled movements often associated with yoga practice. However, there is no strong focus on yoga postures or meditative elements, warranting a lower score of 0.3, reflecting a mild presence as an adjacent theme rather than a central one.\n\nOther categories such as 'Pilates' or 'Mat' were not chosen due to the lack of specific pilates exercises or mat-based movement that doesn't focus explicitly on stretching."
+}

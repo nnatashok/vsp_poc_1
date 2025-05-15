@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.77,
+  "techniqueDifficultyExplanation": "The workout involves a variety of exercises like 'Single Leg Dead Lift / Curtsy Lunge', 'Plank Jack / Shoulder Tap', and 'Side Star Planks', which indicate a moderate level of coordination and balance, thus falling into the Intermediate category. Movements like 'Frog Stand' and some compound exercises are slightly more complex, supporting a secondary classification of Advanced. This workout mixes some coordination-demanding exercises indicating an overall Intermediate classification, with some Advanced elements due to complexity in transitions and balance in certain exercises.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.85
+    },
+    {
+      "level": "Extreme",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is described as a 30-minute HIIT routine with no rest, suggesting high cardiovascular demand and continuous exertion. Specific exercises like 'Mountain Climbers', 'Burpee', and the inclusion of 'Fast Feet' are known for high energy expenditure. The pace and the duration push it towards Challenging, while the absence of rest and intensity suggest an Extreme classification for less fit users. The overall moderate to high exertion level confirms the primary Challenging classification with aspects of Extreme effort due to intensity and no rest periods.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 0.9
+    },
+    {
+      "level": "Advanced",
+      "score": 0.65
+    },
+    {
+      "level": "Elite",
+      "score": 0.35
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.83,
+  "requiredFitnessLevelExplanation": "The workout\u2019s technique is mostly Intermediate with some Advanced elements, and effort level is Challenging with Extreme aspects. Therefore, it is primarily suited for Intermediate users who have some exercise background. Advanced users can effectively manage the continuous high intensity. Despite its intensity, complete beginners are unlikely to safely manage this due to technique and maintained high effort, justifying the exclusion of the Beginner level. Additionally, Elite classification is included, as they would easily navigate the workout due to the high intensity and continuum of movements."
+}

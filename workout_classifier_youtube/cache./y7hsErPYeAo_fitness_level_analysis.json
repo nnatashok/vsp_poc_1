@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is a run interval session on a treadmill, which involves basic running and walking movements. Such activities generally fall under beginner technique difficulty as they don't require complex coordination or body awareness beyond basic locomotion. The mention of 'beginner' in the title and description supports a beginner-level classification, but there's an element of slightly enhanced coordination due to interval pacing changes, warranting a mild inclusion of intermediate level difficulty.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.8
+    },
+    {
+      "level": "Challenging",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The video duration of approximately 30 minutes combined with the moderate pace of running intervals suggests a moderate effort for most participants. Since it is advertised as a \"beginner\" workout with 'milder speeds and short intervals', it is likely within a moderate effort range. However, for very deconditioned users or those new to exercise, it might feel more challenging, justifying a mild inclusion of challenging effort difficulty.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.7,
+  "requiredFitnessLevelExplanation": "The classification of the required fitness level takes into account both the technique and effort difficulties. It is primarily a beginner-friendly workout as explicitly mentioned in the title and description. However, due to the workout's duration (nearly 30 minutes) and the interval nature, it can also be suited to intermediates, especially those starting on treadmill workouts or improving their running stamina. The inclusion of advanced is mild, recognizing that longer treadmill intervals could be approached by more experienced runners looking for lighter sessions."
+}

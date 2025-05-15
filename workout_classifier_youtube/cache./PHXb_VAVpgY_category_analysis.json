@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Treadmill",
+      "score": 0.9
+    },
+    {
+      "name": "Running",
+      "score": 0.6
+    },
+    {
+      "name": "Other",
+      "score": 0.1
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is primarily categorized under 'Treadmill' with a very high confidence score of 0.9. This is supported by multiple pieces of metadata, such as the title \"Virtual Running Videos For Treadmill With Music\" and tags like \"treadmill running videos,\" \"virtual treadmill,\" and \"treadmill workout.\" These explicitly indicate a focus on treadmill running sessions.\n\nThe 'Running' category is also applied with a score of 0.6 due to the overall theme of running activity presented in a virtual manner, indicated by phrases like \"virtual running videos\" and \"virtual run\" in the description and tags. This suggests a broader running context, even though the primary intent is treadmill use.\n\nAn 'Other' category is minimally considered (score 0.1) due to aspects of virtual engagement that don't strictly fit into traditional workout categories, such as scenic aspects and music intended for motivational purposes, but the influence is minor.\n\nCategories such as 'Indoor biking' or 'Yoga' were dismissed due to explicit mentions of running and treadmill usage only, with no indicators of biking, yoga, or other exercise formats."
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Body weight",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The video is classified as HIIT with high confidence (0.9) due to explicit mentions of 'HIIT workout' in both the title and tags, along with phrases like 'INTENSE Full Body HIIT WORKOUT' and 'no repeat, no equipment.' The repetitive 'no repeat' and intensity focus aligns with typical HIIT features. \n\nThe secondary category is Body weight with moderately high confidence (0.7). The description specifies a 'full body workout' without any equipment, strongly indicating a bodyweight routine. Tags like 'bodyweight workout,' 'no equipment workout,' and 'workout without equipment' reinforce this classification. \n\nThe channel's focus on at-home workouts and the inclusion of a series format ('Stronger Together Series') further support the classification, emphasizing diverse and versatile bodyweight exercises typical of HIIT formats. Other categories like 'Weight workout' were excluded due to the absence of equipment, and categories like 'Mat' or 'Calisthenics' are not prominent in the metadata details."
+}

@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout is described as low-impact, which typically involves straightforward movements suitable for beginners. The term \"intermediate\" in the title and description suggests some complexity beyond the simplest movements. However, no specific advanced techniques or complex movement patterns are indicated, supporting a classification that spans Beginner to Intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.75
+    },
+    {
+      "level": "Challenging",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout's duration of over 30 minutes and its description as both 'low impact' and 'challenging' point to a reasonable energy expenditure level. User comments reflect personal challenges and emotional responses indicating significant effort for less conditioned users. Therefore, 'Moderate' and 'Challenging' levels are appropriate since these indicate that the workout can be physically demanding for users, especially those not used to regular activity.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The classification reflects a broad range due to the workout's accessible technique level but challenging effort. 'Intermediate' is most fitting given the title and reported experiences in comments, while 'Beginner' and 'Advanced' are included to reflect capabilities of newer exercisers who may find it slightly challenging and those more experienced who may utilize intensity variations."
+}

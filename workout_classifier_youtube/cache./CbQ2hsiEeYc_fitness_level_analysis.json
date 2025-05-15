@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.95,
+  "techniqueDifficultyExplanation": "The video is described as a 'gentle yoga flow' and 'beginner friendly', indicating simple, basic movements appropriate for those new to yoga. The comments and description suggest an easy-to-follow routine with a slow pace, which supports a Beginner difficulty. The mention of 'full body stretches' aligns with basic movements but could imply slightly more complexity for absolute beginners, suggesting a mild Intermediate score.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.2
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The 15-minute duration and 'gentle' description suggest low energy expenditure with a focus on releasing tension rather than rigorous exercise. User comments highlight the simplicity and soothing nature, indicating a Light effort difficulty. However, given it's a full-body session, it may mildly challenge those totally new to physical activity, warranting a small score for Moderate effort.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.95,
+  "requiredFitnessLevelExplanation": "The workout is explicitly stated as 'beginner friendly', and comments from users indicate it's accessible and easy to integrate into a routine. Given the gentle nature and short duration, it is highly suitable for Beginners. However, the full-body aspect and stretching could appeal to those slightly more familiar with light physical activity, justifying an additional Intermediate score. The simpler techniques and light effort ensure it is primarily targeted at beginners, but those with a minimal fitness background might find some mild benefit, aligning with an Intermediate fitness level."
+}

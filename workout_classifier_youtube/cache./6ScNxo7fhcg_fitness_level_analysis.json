@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The metadata indicates that the workout includes 'Standing Sprint' and 'Easy' movements typical of basic cycling stepping up occasionally to stand. These movements do not require advanced technique or coordination, thus aligning with Beginner and Intermediate levels. The repetitive nature and reference to 'beginners spin class' in tags support a technical difficulty that is accessible to beginners while offering moderate challenge to intermediates who are comfortable standing on the bike.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.8
+    },
+    {
+      "level": "Challenging",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "Effort difficulty is notable due to the workout's Tabata format (20s work, 10s rest), which inherently increases physical demand through high-intensity intervals. The entire workout is only 10 minutes long, which limits the effort difficulty somewhat, hence 'Moderate'. However, the high-intensity Tabata format aligns partly with 'Challenging', as it induces cardiovascular stress appropriate for short bursts of effort.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.65
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.9,
+  "requiredFitnessLevelExplanation": "Given the Beginner and Intermediate technique levels, combined with a Moderate to Challenging effort level, the workout is classified for both 'Beginner' and 'Intermediate' users. The short duration (10 minutes) and the opportunity for modifications (e.g., effort intensity, seating once noted in provided comments) make it accessible to Beginners. However, the Tabata format requires users to have some initial fitness, placing a stronger emphasis on 'Intermediate'. The presence of 'fully seated version' further supports Beginner accessibility, contributing to the Beginner score."
+}

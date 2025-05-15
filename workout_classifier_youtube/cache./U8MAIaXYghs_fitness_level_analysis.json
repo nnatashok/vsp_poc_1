@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.68
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.42
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The technique difficulty is classified as predominantly Beginner due to the nature of treadmill running, which involves basic motor patterns. The intervals with inclines might require slightly more coordination, thus warranting a low Intermediate score. The video is structured around following along with the exercises, which inherently simplifies the movements required, further supporting a Beginner classification.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.76
+    },
+    {
+      "level": "Challenging",
+      "score": 0.33
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The effort difficulty is rated as Moderate. Though the workout involves running, the short duration of 12 minutes and recovery intervals make it accessible. The presence of 'run and recovery intervals' with suggested speeds and inclines indicate it requires some cardiovascular capacity thus supporting a slightly Challenging score, mainly for those less accustomed to running, but mostly it fits under Moderate effort given the interval nature and the short workout time.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.62
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.72,
+  "requiredFitnessLevelExplanation": "The required fitness level includes Beginner and Intermediate. The interval nature allows inexperience users to engage with manageable effort and technique demands. However, since it involves running intervals, a certain base level of cardiovascular fitness is presumed, thus achieving higher Beginner and matching an Intermediate level as users need to accommodate to the treadmill environment and pace themselves accordingly through the workout."
+}

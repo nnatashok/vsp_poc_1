@@ -1,0 +1,17 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Dumbbells",
+      "confidence": 1.0
+    },
+    {
+      "equipment": "Weight bench",
+      "confidence": 0.4
+    },
+    {
+      "equipment": "Mat",
+      "confidence": 0.4
+    }
+  ],
+  "requiredEquipmentExplanation": "The video title and description explicitly mention a dumbbell workout, indicating a very high confidence (1.0) that dumbbells are needed. Specific exercises listed such as sumo deadlift, goblet squat, and dumbbell pullover imply the use of different dumbbell weights throughout the workout. The mention of a 'bench or from floor' in the description for the dumbbell pullover suggests a moderate confidence (0.4) that a weight bench might be used, although it is not essential. The presence of floor exercises like the bird dog and possibly pullover from the floor suggest the use of a mat, therefore, a moderate confidence (0.4) is assigned for a mat. Overall, the workout is fundamentally a dumbbell-based workout aimed at strengthening and sculpting at home."
+}

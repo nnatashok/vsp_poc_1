@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.95
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.35
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is designed for beginners with exercises like pushups and inverted rows, which are basic calisthenics exercises suited for those with minimal experience. The video also includes progression exercises, suggesting slight complexity for those who need more challenges, hence the moderate score for the intermediate level.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.45
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout is only 8 minutes long with basic exercises like pushups and mobility stretches, indicating low energy expenditure and effort, suitable for beginners. The mention of progression options allows for slightly increased effort, justifying a moderate effort level as well.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.9,
+  "requiredFitnessLevelExplanation": "Explicitly targeted at beginners with an 8-minute duration and basic exercises, the workout is accessible to those new to calisthenics. The inclusion of progression options allows intermediate users to increase the difficulty, hence their inclusion. Comments affirm its beginner-friendly nature, reinforcing the classification."
+}

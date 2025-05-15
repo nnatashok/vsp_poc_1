@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.8
+    },
+    {
+      "name": "Treadmill",
+      "score": 0.8
+    },
+    {
+      "name": "Cardio",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout video is classified into two main categories: HIIT (High-Intensity Interval Training) and Treadmill. The title explicitly mentions 'HIIT Workout' and 'Treadmill Workout', which clearly indicates the focus on high-intensity interval training conducted on a treadmill. The description further supports this by detailing a structured HIIT routine with specific intervals (8 rounds of 30 seconds sprints with 90 seconds low-intensity) and warm-up and cool-down periods, all performed on a treadmill. Tags such as 'High intensity interval training', 'HIIT Workout', 'HIIT', and 'Treadmill Workout' reinforce this classification. The strong emphasis on interval training, sprinting, and treadmill use justifies assigning a high score of 0.8 to both HIIT and Treadmill categories, reflecting a very high confidence in these classifications. Additionally, 'Cardio Workout' and 'fat burning workout' in the tags justify a moderate score of 0.4 in the Cardio category, as this is a cardio-centric workout, although the primary focus remains on HIIT and Treadmill elements."
+}

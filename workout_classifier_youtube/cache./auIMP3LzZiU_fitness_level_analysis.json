@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The video is titled as a '10 Minute Full Body Pilates Workout' with no repeats, indicating straightforward exercises. Tags suggest it's suitable for both 'Beginner' and 'Advanced' levels, but nothing indicates complex techniques beyond foundational Pilates moves. Viewer comments express ease and enjoyment, supporting a lower technique difficulty classification. The instructor, a physical therapist, may provide clear instructions, reducing perceived complexity.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.9
+    },
+    {
+      "level": "Moderate",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout lasts about 10 minutes, typically associating it with 'Light' effort for a full-body routine. Comments mention that the workout felt short and did not seem overly demanding, aligning with low effort difficulty. Tags referencing 'cardio pilates' imply a slightly higher exertion level for some, but overall, it's suitable mostly for light effort given the duration and user feedback.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    },
+    {
+      "level": "Advanced",
+      "score": 0.2
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.78,
+  "requiredFitnessLevelExplanation": "Considering both technique and effort difficulties, the required fitness level is predominantly 'Beginner'. The simpler technique and short duration make it accessible to newcomers. 'Intermediate' and 'Advanced' are included due to the potential for scaling intensity and elements of cardio, as well as the tags indicating suitability for 'advanced pilates workout'. Comments suggest modifications or repeated viewing could accommodate those with more experience or looking for a challenge."
+}

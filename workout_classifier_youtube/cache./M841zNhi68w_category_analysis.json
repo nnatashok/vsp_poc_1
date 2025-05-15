@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Treadmill",
+      "score": 0.9
+    },
+    {
+      "name": "Running",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is classified primarily as \"HIIT\" and \"Treadmill\" with high confidence, based on explicit indicators in the metadata. The title \"20 MIN HIIT Treadmill Workout\" directly mentions HIIT and treadmill, which are reinforced by the description detailing the workout structure involving intervals of base pace, push, and hard push on a treadmill. Tags such as \"20 minute hiit run,\" \"20 minute treadmill run,\" and \"coached treadmill run\" further support these categories and lead to high confidence (score: 0.9) for both. Additionally, \"Running\" is selected with moderate confidence (score: 0.6) because the channel focuses on running and the workout involves running at different paces on a treadmill, as indicated by tags like \"indoor running cardio workout\" and \"running treadmill workout for beginners.\" The overall theme of running throughout the channel bolsters the inclusion of this category."
+}

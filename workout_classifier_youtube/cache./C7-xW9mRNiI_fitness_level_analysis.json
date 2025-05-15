@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout focuses on basic bodyweight exercises like squats, lunges, and push-ups, which are indicated as 'beginner strength exercises' in the description. These movements are simple and straightforward, aligning strongly with a Beginner technique difficulty (score: 0.9), as they require minimal coordination. Intermediate is also included (score: 0.5) due to some exercises like '3-Pulse Reverse Lunge + Knee Drive' and 'Bicycle Crunch' that require slightly more coordination than typical beginner movements.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.7
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout consists of 45 seconds of work with 15-second rest intervals, making it a low-intensity routine. The description states it's a 'total body workout for beginners,' suggesting a Light effort difficulty (score: 0.8). However, given the duration of over 20 minutes and continuous nature with no repeats, it also has characteristics of Moderate effort (score: 0.7) as it can pose a cumulative challenge, especially for deconditioned users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.9,
+  "requiredFitnessLevelExplanation": "The workout is explicitly designed for beginners, as noted in the title and description, resulting in a strong classification for Beginner (score: 0.8). However, the workout's duration slightly reduces its accessibility to very unfit beginners, shifting some classification to Intermediate (score: 0.7). The consistent pace and inclusion of slightly complex movements, along with the descriptors from comments indicating added modifications by users, justify including an Advanced level, though at a lower alignment (score: 0.4). This ensures a wide range for users who might progress in the workout series."
+}

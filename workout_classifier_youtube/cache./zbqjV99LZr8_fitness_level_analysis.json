@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.76,
+  "techniqueDifficultyExplanation": "The workout consists of all standing, no jumping exercises without equipment, which suggests simple movements that are accessible to beginners. However, comments mention challenging elements like squat pulses and backward lunges, which require some balance and coordination, indicating a potential intermediate level for some users. The mixed complexity warrants a classification bridging beginner and intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.75
+    },
+    {
+      "level": "Challenging",
+      "score": 0.55
+    }
+  ],
+  "effortDifficultyConfidence": 0.73,
+  "effortDifficultyExplanation": "The workout is described as a fat-burning, low-impact HIIT session with a 20-minute duration and intervals of 45 seconds active with 15 seconds rest, leading to significant energy expenditure. The estimated calorie burn of 300 suggests moderate effort for a deconditioned audience but could be challenging for those less fit due to continuous motion without jumps. Feedback like 'Brutal' and mentions of numerous breaks during squat pulses further suggest it can be challenging for some.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.75,
+  "requiredFitnessLevelExplanation": "Capable of being adapted for various users through modified intensity and pace, the workout fits beginners through intermediates. Its low-impact, no equipment format is aesthetic for beginner access, while the HIIT nature and user comments on challenge suggest it aligns well with intermediate users, and potentially applies to advanced users who can increase intensity themselves. Multiple scores are in line with accessible yet challenging nature."
+}

@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.95
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is labeled as 'gentle' and 'beginner yoga', suggesting very simple movements. The description emphasizes relaxation and basic body stretching, with no props required, aligning with a Beginner technique difficulty. However, terms like 'yoga flow' and 'hatha yoga', may introduce slightly more complexity for complete beginners, hence a small consideration for Intermediate as well, albeit with much less alignment.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.9
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout's 16-minute duration is short and focuses on stress relief and flexibility, correlating with low physical demand. Phrases like 'gentle yoga' and 'soothing' imply a Light effort. Furthermore, yoga for relaxation is typically not energy-intensive, reinforcing the Light classification with some potential for Moderate due to broad duration and inclusion of breathwork.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.85
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "Given both technique and effort difficulties lean heavily towards Beginner, the workout is predominantly suitable for beginners, as confirmed by terms like 'great for all experience levels' and 'beginner yoga'. It also has a small alignment with Intermediate due to its implied yoga flow and potential for more experienced yoga practitioners to gain from flexibility and stress relief benefits, offering multiple entry points based on the viewer's yoga experience or familiarity with the poses."
+}

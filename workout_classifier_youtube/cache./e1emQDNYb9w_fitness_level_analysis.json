@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout involves using a stationary bike, which is generally straightforward and requires basic cycling technique. The presence of a Tabata protocol may require users to pay attention to timing, albeit with minimal technical complexity. Cycling is categorized predominantly as a beginner-level technique because it mostly involves pedaling, adjusting speed and resistance, and maintaining a stable posture, with intermediate elements due to the potential use of variations or resistances in some indoor cycling programs.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 1.0
+    },
+    {
+      "level": "Challenging",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout employs a Tabata protocol, intensifying effort due to its interval-based high-intensity approach. The session's short duration of 6 minutes diminishes the overall effort but is still considered moderate due to its high-intensity nature. The intervals and potential ability to increase bike resistance can make it challenging for those unaccustomed to interval training.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.2
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "Given the use of a stationary bike, the primary requirement is for beginners, thanks to simplicity in technique. Intermediate users will also find utility from the Tabata form employed, which offers a more intense workout option. Advanced users might find it an effective short interval exercise despite their higher conditioning, owing to potential resistance adjustments and high exertion in intervals. The varied fitness levels are accommodated since users can modify intensity by adjusting bike resistance, making the session accessible across a broad range of capabilities."
+}

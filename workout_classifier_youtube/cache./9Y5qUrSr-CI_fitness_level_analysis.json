@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout is identified as an Intermediate Pilates core session, suggesting movements that require some coordination and control but are generally not overly complex. Pilates tends to involve maintaining postural alignment and engaging the core muscles, which aligns with intermediate Technique Difficulty. The simplicity of movement, without needing equipment, supports the inclusion of Beginner as Pilates can often be modified for simplicity.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.65,
+  "effortDifficultyExplanation": "Although the workout is only 12 minutes long, core-specific Pilates can be intense for those unaccustomed to such exercises. The tags 'challenge' and comments like 'killer core workout' suggest a moderate to challenging effort level, primarily because it focuses intensely on core muscles without rest intervals. However, the short duration keeps it mainly at a Moderate Effort level.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "Given the Intermediate Technique and Moderate Effort Difficulty, the workout suits both beginners with some fitness background and intermediate users. The description suggests pausing or repeating for extra challenge, indicating it can be adjusted in intensity, which justifies the wide range of fitness levels included. The intermediate level is stressed due to the specificity of the core engagement involved in Pilates. Advanced is also included because dedicated core exercises can be intense even for regular exercisers."
+}

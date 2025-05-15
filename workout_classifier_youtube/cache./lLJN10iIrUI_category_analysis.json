@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Body weight",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category chosen is HIIT with a very high confidence score of 0.9. This is strongly indicated by the title \"5 Minute HIIT workout\" and the description, which clearly states \"5 minute high intensity interval training session (HIIT).\" The description also includes specifics about the HIIT structure: \"five exercises in 30 second rounds with 20 seconds of rest,\" which is a classic HIIT format.\n\nA secondary category of Body weight was considered with a score of 0.3 due to the types of exercises mentioned such as \"Jumping Jack,\" \"Fast Arms,\" and \"Knee ups,\" which typically involve no equipment other than body weight. However, since the emphasis is explicitly on HIIT, this is only a supporting category.\n\nThe metadata contains strong cues for HIIT, specifically highlighted through targeted tags like \"HIIT for beginners\" and user comments appreciating short, intense sessions."
+}

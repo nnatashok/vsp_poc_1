@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Elliptical",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary category 'Elliptical' was chosen because the video explicitly focuses on an elliptical workout, as indicated by the title ('Elliptical Workout') and repeated mentions in the tags ('elliptical workout', 'elliptical trainer') and description ('basic 30 minute elliptical workout', 'do this elliptical workout 2 times a day'). The channel's focus on weight loss and high-intensity routines further supports the classification. The score of 0.9 reflects very high confidence in this being an elliptical-focused workout.\n\nThe secondary category 'HIIT' was assigned due to the described workout structure, which includes intense periods of activity followed by short rest periods ('30-20-10 rest pyramid') that resemble High-Intensity Interval Training. The description's emphasis on high intensity to achieve fast weight loss aligns with typical HIIT characteristics, warranting a 0.7 score for its strong presence."
+}

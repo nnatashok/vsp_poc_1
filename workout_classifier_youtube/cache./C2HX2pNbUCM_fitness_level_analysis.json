@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.72
+    },
+    {
+      "level": "Advanced",
+      "score": 0.45
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.76,
+  "techniqueDifficultyExplanation": "The video is labeled as a 'Moderate Full Body Pilates Workout', indicating that the movements are likely more complex than a beginner workout. Pilates often includes exercises requiring balance, core engagement, and controlled movements, which aligns with an Intermediate technique difficulty. The mention of 'intermediate pilates' in the tags further supports this classification. Comments from users noting the difficulty and improvement in flexibility suggest some exercises may verge on Advanced technique difficulty, especially for those less familiar with Pilates.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.55
+    }
+  ],
+  "effortDifficultyConfidence": 0.74,
+  "effortDifficultyExplanation": "The workout duration of 32 minutes contributes to a 'Moderate' effort classification. The video's description specifies it as a 'Moderate Full Body Pilates Workout', suggesting it's not intended to be extremely intense. Tags emphasize the full-body nature, and user comments indicate significant physical effort, with references to improved strength and flexibility over time. The mention of sweating and comments on the unexpected challenge suggest some parts of the workout may be 'Challenging' for users with lower fitness levels.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.45
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.65
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.78,
+  "requiredFitnessLevelExplanation": "Given the 'Moderate' and 'Intermediate' labels in the metadata, the workout is suitable for users beyond absolute beginners but can still be approachable for beginners with some modifications. The Pilates focus, duration, and user comments suggest it's designed to be accessible to multiple fitness levels, offering potential growth for beginners and challenge for intermediate users. Comments about significant effort and a 32-minute duration generally align better with an 'Intermediate' requirement, but user self-modification allows 'Beginner' access. Advanced users might also find certain elements beneficial, though the primary target seems to be Intermediate users."
+}

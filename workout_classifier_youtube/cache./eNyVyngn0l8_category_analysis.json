@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Indoor biking",
+      "score": 1.0
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is classified under 'Indoor biking' with a score of 1.0 due to strong indications in the title, description, and tags that it is a stationary cycling workout. The terms 'Indoor Cycling Workout,' 'spin class,' 'spinning,' 'turbo trainer,' and 'indoor cycling' are repeatedly used, confirming the central theme of the video. \n\nThe 'HIIT' category is assigned with a score of 0.9. The title and description explicitly mention 'HIIT' and 'pyramid set' with one-minute intervals increasing and decreasing, indicating a high-intensity interval training format. The focus on 'interval training' and 'fat burning' further corroborates this classification.\n\nOther potential categories like 'Weight workout' or 'Calisthenics' are excluded as there is no mention of weight training or gymnastic exercises in the provided metadata. Overall, the classification is made with very high confidence given the explicit metadata details."
+}

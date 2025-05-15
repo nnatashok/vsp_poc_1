@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Weight workout",
+      "score": 0.9
+    },
+    {
+      "name": "Body weight",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary category identified for this workout is 'Weight workout', with a high confidence score of 0.9. This is directly supported by the metadata, particularly the title and tags which repeatedly emphasize the use of dumbbells (e.g., 'full body dumbbell workout', 'dumbbell strength training'). The description also explicitly states that the workout requires a pair of dumbbells, indicating strength training with resistance weights. The secondary category identified is 'Body weight', with a moderate score of 0.6. While the workout focuses on the use of dumbbells, there is mention of modifications and form cues likely involving bodyweight components alongside weights. This inference is supported by the typically comprehensive nature of full-body workouts that often integrate bodyweight exercises for whole-body conditioning. Other categories like 'HIIT' or 'Calisthenics' are excluded due to lack of any specific interval training mentions or gymnastics-style exercises, as the workout seems steady and focused on strength rather than speed or flexibility."
+}

@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout primarily involves using an elliptical machine, which requires basic coordination and skill. While it is not a highly technical machine to use, maintaining correct posture and movement can have minor complexities, placing it between Beginner and Intermediate levels. The mention of HIIT suggests some timing and interval awareness, which prevents it from being purely Beginner.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.75
+    },
+    {
+      "level": "Extreme",
+      "score": 0.25
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The duration of 44 minutes coupled with it being a high-intensity interval training (HIIT) session on an elliptical indicates a significant energy demand, placing it at a challenging level for many users, especially those not accustomed to longer workouts. The description mentions \u2018kick your ass\u2019, which implies a higher level of intensity, supporting the assignment of a Challenging to Extreme effort difficulty rating.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.2
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.6
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "Given the technique and effort difficulties, this workout is suitable mainly for Intermediate to Advanced users, but there is some acknowledgement to make it beginner-friendly as elliptical workouts are generally accessible and users can adjust their pace. The 44-minute length and HIIT format skew the workout towards Intermediate to Advanced levels. Modifications and easier versions are suggested, allowing some beginners to attempt it, but primarily it is directed towards those with more consistent exercise experience."
+}

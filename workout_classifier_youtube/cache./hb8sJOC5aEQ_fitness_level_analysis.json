@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.65
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout involves intermediate cycling techniques such as intense climbs, sprints, and jogs. These require moderate coordination and cycling-specific techniques such as adjusting speed and resistance. The mention of riding positions like 2nd and 3rd positions also indicates a need for some cycling-specific skills. However, the availability of modifications for seated options reduces the complexity somewhat, allowing users to adjust the difficulty based on their comfort level.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.6
+    },
+    {
+      "level": "Challenging",
+      "score": 0.55
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout is 20 minutes long, which usually aligns with a moderate intensity level, especially given the pace is adjustable ('RPMs noted throughout the ride are just a range'). However, the terms 'intense', 'climbs', and 'sprints' in the description imply a significant energy demand, suggesting that the workout may also fit a challenging category, especially for the less fit. The user comments about being drenched in sweat further suggest notable effort difficulty.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.45
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.65
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.7,
+  "requiredFitnessLevelExplanation": "The classification assumes a generous approach for users with varying fitness levels. The technique and effort difficulty scores suggest this workout can be tackled by beginners with some cycling experience due to modifications and RPM adjustments. The intermediate classification is supported by the workout's intensity and use of cycling-specific techniques. Advanced users may find this suitable with their ability to push resistance and speed without modification. User feedback describing significant effort ('drenched in sweat') indicates that the workout provides a substantial challenge, supporting higher fitness level inclusion."
+}

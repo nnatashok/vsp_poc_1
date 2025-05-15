@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Mat",
+      "score": 0.8
+    },
+    {
+      "name": "Body weight",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The video is classified under 'Mat' with a score of 0.8 because the workout is performed 'No Equipment' and is designed to be done 'at home', suggesting exercises performed on an exercise mat. The use of terms like 'mat I use' reinforces this category. It was selected with high confidence due to explicit mentions of 'core/ab workout' that involve no equipment, indicating mat-based exercises. \n\nThe 'Body weight' category receives a score of 0.7 as the workout relies solely on body weight to tone the core, as indicated by phrases like 'no equipment abs workout' and 'equipment free abs'. Tags such as 'sixpack workout' and descriptions like 'killer abs workout' point to the use of bodyweight exercises for strength and definition, fitting this category. The presence is strong but not the main focus, since it's specifically an ab workout, thus a slightly lower score.\n\nOther categories like 'Weight workout' and 'Calisthenics' were excluded, as there's no mention of weights or gymnastics-style exercises used. Overall, the categories identified reflect the core, equipment-free focus of the workout, supported by clear evidence in the metadata."
+}

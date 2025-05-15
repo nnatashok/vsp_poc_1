@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Weight workout",
+      "score": 0.9
+    },
+    {
+      "name": "Stretching",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The primary category chosen is 'Weight workout' with a high score of 0.9. This classification is based on the explicit mention of 'dumbbells' in the video title and description, indicating the use of free weights, which is typical for weight training workouts. The metadata clearly emphasizes strength training with repeated mentions of 'strength workout' and 'strength training' in the tags. The presence of terminology such as 'pregnancy strength workout' and 'pregnancy strength training' further supports this categorization.\n\nA secondary category of 'Stretching' is assigned with a lower score of 0.3. This is due to the mention of '(+ Stretch)' in the title, suggesting that stretching is a component of the workout, albeit not the primary focus. \n\nThe confidence level for these classifications is very high (0.95) due to explicit indicators in the title and description affirming the focus on strength training with complementary stretching."
+}

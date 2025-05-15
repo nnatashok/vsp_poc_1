@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The exercises in the workout include both simple movements like squats and crunches, which are classified as beginner, and more complex movements like lateral push-ups and commandos, which require moderate coordination. The variety and inclusion of exercises such as plank variations indicate a need for some understanding of form, particularly for exercises that involve balance and multi-joint coordination, leading to a high intermediate score and moderate beginner score.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.4
+    },
+    {
+      "level": "Challenging",
+      "score": 0.7
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout is 22 minutes long and consists of bodyweight exercises with intervals of 30 seconds work and 15 seconds rest, which increases cardiovascular demand. The inclusion of exercises like jump split lunges, mountain climbers, and burpees significantly raise the intensity, pushing the effort difficulty to challenging for less fit users. However, given the duration and structure, it remains accessible at a moderate effort level for those who can self-pace, justifying a moderate and a significantly stronger challenging score.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.9,
+  "requiredFitnessLevelExplanation": "Although the technique difficulty is largely within the beginner to intermediate range, the effort required makes it more applicable to intermediate participants, particularly due to the high-intensity exercises and short rests. The duration surpasses 20 minutes, thus reducing the suitability for beginners, yet with self-pacing and modification (as inferred from comments and channel description), it becomes somewhat feasible for beginners. The frequent high-intensity exercises increase its suitability for advanced users, although these users would likely find it more of a moderate challenge, resulting in a moderate classification across all three levels with highest alignment for intermediate."
+}

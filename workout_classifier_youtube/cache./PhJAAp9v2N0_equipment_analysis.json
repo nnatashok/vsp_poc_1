@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.8
+    }
+  ],
+  "requiredEquipmentExplanation": "The metadata for the workout video strongly suggests the use of a mat. In the description, there is an explicit recommendation for the mat the creator uses, which indicates its importance for the workout. The description mentions the link to purchase the mat along with a discount code, further highlighting its relevance. Additionally, the nature of the workout as a 'stretch routine' typically involves exercises on the floor, making a mat necessary for comfort and support. Therefore, the confidence level for the mat is very high at 0.8. No other equipment is explicitly mentioned or implied in the metadata, and the tags include 'no equipment,' indicating that no additional workout tools are needed."
+}

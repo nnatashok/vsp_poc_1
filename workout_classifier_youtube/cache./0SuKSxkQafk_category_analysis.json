@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Treadmill",
+      "score": 0.9
+    },
+    {
+      "name": "Running",
+      "score": 0.8
+    },
+    {
+      "name": "Stretching",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary category assigned is 'Treadmill' with a score of 0.9. This is strongly supported by the title, 'Beginners Marathon Training | 60 Min Treadmill Run,' which explicitly mentions a treadmill run. The description further supports this by detailing a guided treadmill run, and the tags include multiple references to treadmill activities, such as 'Treadmill Run' and 'treadmill workout.' These indicators affirm a very high confidence level in this classification.\n\nThe 'Running' category is also relevant, with a score of 0.8. This stems from the recurring mention of running and marathon training in the tags ('running workout,' 'marathon running') and support from the description, which mentions 'good for beginners and experienced runners alike,' indicating a broader running context beyond treadmill use.\n\nAdditionally, 'Stretching' is given a score of 0.4 due to the mention in the description that the session includes stretching, although this is clearly a secondary component to the primary treadmill running focus.\n\nThe categories and scores reflect the dominant treadmill workout aspect, with ancillary inclusion of general running and stretching elements as noted in the metadata."
+}

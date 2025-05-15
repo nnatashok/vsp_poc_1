@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Body weight",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "This workout is classified primarily under 'HIIT' due to explicit mentions in the title, tags, and description. The video is titled '5 min Cardio HIIT Workout for Fat Loss - 40s/20s Intervals', and the description highlights intervals and intense exercise. This indicates a high-intensity interval training format, justifying a score of 0.9 for HIIT. \n\nThe workout uses 'bodyweight movements' as stated in the description, and no equipment is required, leading to a secondary classification under 'Body weight' with a score of 0.6. This is supported by tags such as 'body weight workout,' 'no equipment workout,' and 'bodyweight workout.' These provide clear evidence that the workout relies on bodyweight exercises.\n\nExclusion of other categories stems from the lack of focus on equipment (ruling out 'Weight workout') and absence of specific exercises like yoga or stretching within the video's scope, seen in both the description and tags."
+}

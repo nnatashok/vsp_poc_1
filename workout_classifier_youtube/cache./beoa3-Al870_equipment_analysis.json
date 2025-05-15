@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Dumbbells",
+      "confidence": 0.75
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout video is titled '30 MIN PILATES WORKOUT || Mat Pilates With Weights (Intermediate)', which indicates the use of a mat and weights. The description confirms the need for a mat for the exercises, with a specific mention of 'Mat Pilates' and includes a link to buy a mat, suggesting its necessity for proper execution. Therefore, a high confidence score of 0.9 is assigned for the mat. Dumbbells are indicated by the phrase 'Pilates With Weights' and further emphasized in the description, which suggests using '1kg-2kg weights.' Although the description states that weights are optional, their inclusion is noted in both the video title and several top comments, warranting a high confidence level of 0.75. There is no evidence suggesting the need for other equipment like blocks or resistance bands."
+}

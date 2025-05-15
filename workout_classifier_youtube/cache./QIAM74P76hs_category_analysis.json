@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Elliptical",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    },
+    {
+      "name": "Other",
+      "score": 0.2
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The primary category chosen is 'Elliptical' with a high confidence score of 0.9, as the title, description, and tags explicitly refer to this being an 'Elliptical Machine' workout. The description specifies a 'rolling hills elliptical machine interval workout,' further endorsing this classification. The title's mention of 'Low Impact' aligns with elliptical workouts, and the detailed 'class plan' in the description confirms the workout structure specific to an elliptical machine. \n\nThe secondary category selected is 'HIIT' with a score of 0.6. Although not emphasized as heavily as elliptical, the presence of tags like 'hiit workout,' 'full body hiit workout,' and 'hiit elliptical workout' suggests the incorporation of interval training elements characteristic of HIIT, supported by mention of intervals and varying resistances and inclines in the description. However, this is less central to the workout than the elliptical focus, hence the lower score.\n\n'Other' is chosen with a minimal score of 0.2 to capture any small elements not captured explicitly by the above categories, mainly influenced by general terms like 'full body at home workout' and references to a broader fitness experience."
+}

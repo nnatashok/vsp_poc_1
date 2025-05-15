@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Breathing exercises",
+      "score": 0.95
+    },
+    {
+      "name": "Meditation",
+      "score": 0.75
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary category is 'Breathing exercises' with high confidence due to explicit mentions in both the video title and description. The title, 'Guided Breathing,' and tags like 'deep breathing,' 'breathing technique,' and 'wim hof breathing' directly indicate a focus on guided breath control exercises. The description further explains that the video includes 3 rounds of deep breathing with breath holds, emphasizing breathwork.\n\nThe secondary category is 'Meditation,' supported by several metadata elements. Tags such as 'guided meditation' and 'mindfulness breathing' suggest this video integrates meditative practices with breathing. The video's content, aiming to eliminate stress, boost energy, and improve concentration, aligns with meditative outcomes, thus justifying a moderate confidence score.\n\n'Yoga' was considered due to mentions of 'yoga' in the tags, but its presence is insufficient for classification since there's no direct indication of physical yoga postures or sequences in the description or title."
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Pilates",
+      "score": 1
+    },
+    {
+      "name": "Mat",
+      "score": 0.8
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The workout is classified as 'Pilates' with a score of 1 due to explicit mentions in both the title and tags such as 'Mat Pilates' and 'intermediate Pilates workout'. The presence of Pilates is further supported by the channel's background as the instructor Nicole is a Certified Pilates Instructor. The second category, 'Mat', receives a score of 0.8 because the workout is specified as a 'Mat Pilates' session in the title and tags. There is also mention in the description of the use of a mat and the absence of equipment, indicating floor exercises typically associated with Mat workouts. The presence of terms like 'full body workout' and 'intermediate' increases confidence in Pilates being the primary focus instead of general Mat classification. Other categories like 'Yoga' are excluded as the workout does not include yoga movements typical in Nicole's channel, and there is no specific mention of breathing techniques or meditation sessions common in yoga workouts."
+}

@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Pilates",
+      "score": 1.0
+    },
+    {
+      "name": "Body weight",
+      "score": 0.6
+    },
+    {
+      "name": "Other",
+      "score": 0.2
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The primary category assigned to this workout is \"Pilates,\" with a very high confidence score of 1.0. This is strongly supported by the metadata: the title explicitly mentions \"Pilates FULL BODY Workout,\" and the description highlights a Pilates class focusing on toning and strengthening multiple body areas, such as the core, obliques, and glutes. The tags also include 'pilates,' further reaffirming this classification.\n\nThe \"Body weight\" category is assigned a score of 0.6 due to the nature of Pilates, which often involves exercises using one's body weight for resistance to improve strength and tone. This inference is supported by phrases in the description about the exercises focusing on physical strength and toning without specifying external weights.\n\nThe \"Other\" category is included with a low score of 0.2 to account for potential overlaps with general fitness and wellness themes, such as those mentioned by the channel\u2019s broader focus on yoga and holistic practices. However, the central focus remains on Pilates, rendering this a minor category. The confidence level overall is high (0.95) due to explicit references to Pilates across several pieces of metadata."
+}

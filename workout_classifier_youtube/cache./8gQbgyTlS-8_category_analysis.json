@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Calisthenics",
+      "score": 0.9
+    },
+    {
+      "name": "Body weight",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category chosen for this workout is 'Calisthenics' with a high score of 0.9. This is due to strong evidence from the title, description, and tags, all of which explicitly refer to calisthenics, indicating that the video is focused on calisthenics exercises suitable for beginners without equipment. The description mentions exercises like push-ups and squats, which are typical calisthenics moves. Tags such as 'calisthenics workout for beginners' further reinforce this classification.\n\nThe secondary category is 'Body weight', scored at 0.7, because the exercises described use body weight as resistance, which matches the emphasis on exercises not requiring equipment. The moderate score reflects that while body weight exercises are a key aspect, the specific focus on calisthenics as a discipline is more pronounced.\n\nThe metadata presents no confusion or ambiguity; thus, these categories are selected with a high confidence level of 0.85, based on specific mentions and thematic content related to calisthenics and body weight exercises."
+}

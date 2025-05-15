@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Treadmill",
+      "score": 0.8
+    },
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Stretching",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary category assigned is 'HIIT' with a score of 0.9. This is due to the explicit mention of 'high-intensity intervals' in both the title and description, emphasizing 8 rounds of intense exercise followed by active rest. The use of tags like #HIITWorkout and the channel's history of HIIT content in comments further supports this classification. \n\n'Treadmill' is also a major category with a score of 0.8, as the workout is explicitly focused on using a treadmill, highlighted in both the title ('20-Minute Treadmill Workout for Weight Loss') and the description, detailing the treadmill exercises in the routine.\n\n'Yoga' originally seemed an option due to the cool down, but 'Stretching' was more appropriate with a 0.5 score because the cool down described at the end focuses on recovery, stretching, and controlled breathing, which are common aspects of a post-workout routine. \n\n'Other' was not considered relevant given the strong specificity of the workout within the described categories."
+}

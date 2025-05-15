@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Mat",
+      "score": 0.6
+    },
+    {
+      "name": "Other",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.8,
+  "categoriesExplanation": "The primary category chosen for this workout is 'HIIT', with a high score of 0.9. This is strongly supported by the video title, '5 minute HIIT Workout No Jumping', and repeated references in the description (e.g., '5 Minute HIIT Workout', '30 second rounds with 20 seconds of rest') which clearly define the high-intensity interval training nature of the workout. The inclusion of 'No Jumping' and 'beginner low impact exercises' indicate a focus on low-impact exercises suitable for beginners.\n\nThe 'Mat' category is selected with a score of 0.6, based on the fact that the workout includes seated exercises ('my mom shows how it's done in a chair'), characteristic of chair-based exercises done without large equipment, similar to mat workouts. This suggests a low-impact, low-movement setup.\n\nLastly, 'Other' is considered with a score of 0.5. The unique feature of chair exercises for seniors provides an approach not strictly covered by typical HIIT or Mat categories alone. These exercises are tailored towards seniors, suggesting elements that broaden the traditional HIIT category to include more tailored physical movements.\n\nThe metadata shows high confidence in 'HIIT' due to explicit mentions, but the inclusion of 'Other' captures unique aspects of the workout's intended audience and style."
+}

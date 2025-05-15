@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout is designed for families, including kids, suggesting movements are straightforward and simple to follow, which aligns with a 'Beginner' level. Keywords like 'fun' and 'family' imply easy-to-follow exercises. The intermediate score accounts for possible coordination required for kids and parents working out together.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout lasts only 13 minutes and is intended to be 'fun', suggesting a low to moderate energy expenditure appropriate for a wide audience, including children and families. It likely involves light cardio activities. The 'Moderate' score reflects the potential for some deliberate engagement to keep both adults and children active.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "Given the use of simple, family-friendly exercises, the 'Beginner' level is primarily targeted. However, considering the involvement of parents, 'Intermediate' is included to acknowledge adults might still find it mildly engaging, especially if they're not accustomed to regular activity. The workout's duration exceeding 10 minutes supports a minimal bump to Intermediate for those transitioning from completely sedentary to moderately active."
+}

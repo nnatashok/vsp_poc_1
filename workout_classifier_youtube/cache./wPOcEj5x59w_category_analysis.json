@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor biking",
+      "score": 1.0
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The primary category assigned is \"Indoor biking\" with a very high confidence (score of 1.0). This is strongly indicated by the title \"30 Minute Indoor Cycling Workout,\" tags such as \"indoor cycling,\" \"spin class,\" \"spinning,\" and the description detailing the cycling efforts focused on high-power and VO2 threshold improvement. The channel, GCN Training, is known for cycling content, further supporting this classification.\n\nThe secondary category assigned is \"HIIT\" with a score of 0.7. This is due to the workout incorporating interval training, as evidenced by the detailed exercise description outlining periods of intense effort and rest, a hallmark of HIIT. The tags also explicitly mention \"intervals,\" \"HIIT,\" and \"interval training,\" which imply high-intensity interval training characteristic of this category.\n\nOther categories were considered but excluded due to a lack of relevant evidence. For example, \"Treadmill\" and \"Elliptical\" were not applicable as the workout focuses on indoor cycling. \"Other\" was deemed unnecessary as the cycling and HIIT indicators were prominent and sufficient for classification."
+}

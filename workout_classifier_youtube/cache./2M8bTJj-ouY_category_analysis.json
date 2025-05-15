@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Weight workout",
+      "score": 0.9
+    },
+    {
+      "name": "Body weight",
+      "score": 0.2
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The workout video is best classified under the 'Weight workout' category due to the heavy emphasis on dumbbells, as indicated by terms like 'dumbbell workout', 'strength training', and 'full body dumbbell workout' in the title and tags. These are standard indicators of weight-based workouts, focusing on muscle endurance and strength. The description further corroborates this classification by detailing the use of dumbbells and progressively increasing weights for training, which directly aligns with weight workouts. The structure of the workout\u2014three groups of exercises with rest periods\u2014suggests a structured, strength-focused training session typical of weight workouts. A secondary classification as 'Body weight' was considered but assigned a low score (0.2) because although the workout involves body movement, the primary resistance comes from the dumbbells, thus minimizing the need for bodyweight classification. The overall confidence is very high (0.95) due to explicit indications in both the title and description."
+}

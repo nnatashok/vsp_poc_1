@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout is primarily described as a full-body Pilates session focusing on toning and strengthening muscles such as hamstrings, core, and glutes. Pilates often includes exercises requiring moderate coordination and balance, which would classify the technique difficulty at the border of Beginner to Intermediate level. Since this is a Pilates workout, many exercises likely involve some degree of coordination and stability, but not to the advanced levels seen in more complex Pilates variations.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.6
+    },
+    {
+      "level": "Challenging",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout duration is 31 minutes, which indicates a sustained effort over a moderately extended period. Pilates can involve constant tension and engagement, particularly if it focuses on toning and strengthening. While the description does not state high-intensity cardio, 31 minutes of continuous Pilates can be moderately demanding, especially focusing on multiple muscle groups. Thus, the effort level is moderate, with elements that could challenge less fit individuals, justifying a 'Challenging' score as well. The 'burn calories' statement suggests a more significant energy expenditure than light exercise.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.2
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "Derived from both technique and effort difficulties, the workout is accessible for both beginners who can follow modifications and intermediates who may find a standard Pilates routine more appropriately challenging. The presence of tags like 'yoga for beginners' suggests some exercises will be beginner-friendly. Length (over 20 minutes) reduces its suitability as an entirely beginner-friendly routine and increases the relevance for intermediate and potentially advanced users. Descriptive elements suggesting toning and strengthening for a full body typically require a baseline fitness level slightly beyond absolute beginners, thus Intermediate is the strongest fit, with some advanced challenges present in the session."
+}

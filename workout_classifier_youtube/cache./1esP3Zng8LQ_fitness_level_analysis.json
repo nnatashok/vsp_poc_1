@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout primarily involves using an elliptical or performing simple exercises like running in place or jumping jacks. These activities are considered beginner-friendly as they don't require complex movements or coordination. The option to perform the workout on various cardio machines or through bodyweight movements supports accessibility for users with basic skills, making the technique difficulty primarily Beginner with a slight Intermediate score due to the minor coordination required on the elliptical.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout lasts over 30 minutes and involves intervals with varied rest periods, escalating physical intensity. Phrases like 'Go All Out' reflect a demanding level of exertion, and the duration exceeds 20 minutes, which increases the overall effort difficulty. Despite this, the option to modify the workout and the presence of long rest periods suggests that it remains approachable for deconditioned individuals, hence Moderate effort difficulty is most appropriate, with a Challenging aspect for those maintaining higher intensities.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    },
+    {
+      "level": "Advanced",
+      "score": 0.2
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.78,
+  "requiredFitnessLevelExplanation": "This elliptical workout can be modified for different fitness levels, allowing it to accommodate beginners who may struggle with continuous intensity, while the option to intensify the workout through reduced rest and increased speed welcomes intermediate users. The Advanced score is lower, given the techniques involved are straightforward, but the workout's length and potential intensity justify its inclusion, especially for beginners transitioning to more regular exercise routines."
+}

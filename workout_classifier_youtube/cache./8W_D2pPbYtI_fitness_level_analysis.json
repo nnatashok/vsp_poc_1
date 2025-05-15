@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.55
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.75
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The video is a 30-minute full body Pilates workout requiring no equipment, implying accessibility. Pilates generally involves controlled movements and body awareness which cater to both beginners and intermediates. The absence of equipment and the nature of Pilates suggest movements that may vary from basic to slightly complex. Viewer comments indicate beginners can find success, while others mention challenges which imply some movements may be intermediate level. Therefore, scores were assigned to both levels, slightly favoring 'Intermediate' due to Pilates principles.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.6
+    },
+    {
+      "level": "Challenging",
+      "score": 0.7
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The 31-minute duration suggests a moderate-to-high effort level for beginners, elevated by Pilates' focus on controlling movement. Comments mention improvement over time and substantial physical exertion, indicating a more challenging effort for non-habituated users. Pilates can be demanding in muscle endurance and core stability, aligning with a 'Moderate' to 'Challenging' effort level, considering the workout's duration and exercises' intensity. The confidence score favors 'Challenging' due to the workout's potential intensity for deconditioned users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.45
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "Due to its technique involving controlled body movements, Pilates can be suitable for a range of fitness levels. The workout's 31-minute length likely challenges beginners more, but engagement from complete beginners to advanced viewers suggests its wide applicability. Comments reveal participants from various fitness backgrounds, praising results and effort, suggesting baseline suitability for numerous levels. Given these points, higher scores were allocated to 'Intermediate,' with 'Beginner' and 'Advanced' also considered due to possible modifications and user-adjusted intensity."
+}

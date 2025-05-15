@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout is described as a beginner Pilates session. While it mentions 'level 2 Beginners', suggesting a transition towards moderate classes, the exercise in Pilates typically involves basic postures with a focus on alignment and core control rather than complex movements. Comments note the structured and direct nature, further supporting a focus on basic techniques rather than innovative or challenging ones, indicative of a Beginner to Intermediate technique difficulty.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.5
+    },
+    {
+      "level": "Moderate",
+      "score": 0.7
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout is 30 minutes long, which is relatively lengthy for a beginner session, suggesting a Moderate level of effort. However, since it's a Pilates workout targeting beginners and several comments note the relaxing and structured nature without timers, it likely provides rest periods and is low-impact. This indicates a primary classification of Moderate effort, but with a potential for light effort depending on individual fitness levels.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "Given that the workout is labeled as a beginner Pilates class but also acts as a transition to moderate levels, it's strongly suited to Beginners. The 30-minute duration and some comments about challenge suggest that it could be suitable for Intermediates as well, particularly those getting accustomed to more sustained activity. Advanced individuals might also find value in the workout due to its structured approach, but the intensity may not be challenging enough for their level."
+}

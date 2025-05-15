@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Dumbbells",
+      "confidence": 1.0
+    },
+    {
+      "equipment": "Mat",
+      "confidence": 0.7
+    }
+  ],
+  "requiredEquipmentExplanation": "The video title, description, and tags clearly indicate that dumbbells are required for this workout, giving a very high confidence (1.0). The description explicitly mentions using varying weights of dumbbells (10lbs, 15lbs, and 25lbs) for the exercises, focusing on building strength and lean muscle. Furthermore, the tag 'home workout with dumbbells' supports the required use of dumbbells.\n\nAdditionally, an exercise mat or other soft surface is mentioned in the description as part of the 'Equipment Needed', which suggests a mat would be beneficial, hence a high confidence score of 0.7. This is likely needed for comfort during floor exercises typically included in the cool down and stretch segments of a full-body workout, as well as providing support for exercises performed lying down or in positions where an extra cushion is preferred."
+}

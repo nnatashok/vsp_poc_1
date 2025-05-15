@@ -1,0 +1,17 @@
+{
+  "categories": [
+    {
+      "name": "Meditation",
+      "score": 0.9
+    },
+    {
+      "name": "Yoga",
+      "score": 0.5
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.3
+    }
+  ],
+  "categoriesExplanation": "The selected primary category is 'Meditation' with a very high confidence score of 0.9. This decision is strongly supported by both the video title \"Guided Mindfulness Meditation for the Morning\" and the detailed description indicating that the video is a meditation session designed to promote a sense of calm and positivity. Repeated mentions of 'meditation', 'mindfulness', and 'guided session' in the metadata align squarely with the characteristics of meditation.\n\nA secondary category of 'Yoga' is included with a score of 0.5 because tags such as 'yoga' and related calming activities are mentioned, although the video does not appear to focus on physical yoga postures. This implies a lesser emphasis on yoga, therefore the confidence score is moderate.\n\nAdditionally, 'Breathing exercises' is considered with a score of 0.3 given the implicit requirement of controlled breathing during meditation, although no explicit focus is mentioned in the metadata. Therefore, it's a minor element in comparison.\n\nOther categories like 'Mat', 'Stretching', or 'Body weight' were excluded due to no emphasis on physical movement or exercises typically involved in those categories."
+}

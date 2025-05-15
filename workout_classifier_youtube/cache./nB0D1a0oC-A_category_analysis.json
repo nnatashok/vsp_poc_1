@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Calisthenics",
+      "score": 0.9
+    },
+    {
+      "name": "Body weight",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The video is categorized with very high confidence into 'Calisthenics' due to the explicit mention of 'calisthenics' in the title, tags, and description. The exercises listed, such as inchworms, reverse alternating lunges, and wall sits, are common bodyweight exercises associated with calisthenics, which focus on strength and flexibility with bodyweight movements.\n\nThe secondary category 'Body weight' is included with high confidence due to the nature of the exercises that involve using one's body weight for resistance. Terms like 'Bodyweight Beginner E-Book' and the fact that no equipment is mentioned reinforce this classification.\n\nOther categories like 'HIIT' were excluded as there's no indication of interval training, and the description's emphasis is on calisthenics and full-body workout without explicit high-intensity alternations. Similarly, 'Mat' was not selected since the focus is on structured strength exercises rather than general floor movements."
+}

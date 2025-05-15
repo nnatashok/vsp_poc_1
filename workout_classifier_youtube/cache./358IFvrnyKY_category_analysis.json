@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Meditation",
+      "score": 1
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary category assigned is 'Meditation' with a high confidence score of 1 due to explicit metadata describing the video as a 'guided meditation' to promote calm, alleviate anxiety, and aid in relaxation. This is confirmed by tags such as 'guided meditation', 'meditation for calm', and frequent mentions throughout the description and channel information. The secondary category is 'Breathing exercises', given a moderate score of 0.6, since the description includes references to 'relaxing awareness of the breath', indicating the use of controlled breathing as part of the calming technique, even though it is not the focal point of the video. Other potential categories such as 'Yoga' or 'Stretching' were excluded due to the lack of physical exercise content, and categories like 'Hypnosis' were not chosen due to the specific categorization instructions provided. Comments and channel descriptions further bolster the focus on meditation and calm, rather than any alternative exercise forms."
+}

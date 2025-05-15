@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout is a full-body Pilates session, which typically includes movements requiring coordination, balance, and proper form typical of intermediate-level exercises. The presence of a certified instructor suggests that correct form and technique are being emphasized. Pilates often includes exercises that can be of higher complexity, approaching an advanced level, due to the focus on muscle control and body awareness, which can be identified through the comments praising technique and exercise selection.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.6
+    },
+    {
+      "level": "Challenging",
+      "score": 0.7
+    }
+  ],
+  "effortDifficultyConfidence": 0.78,
+  "effortDifficultyExplanation": "The workout is 52 minutes long, exceeding typical beginner-friendly durations, suggesting a significant effort requirement. Pilates itself has a moderate-to-challenging energy demand, and a longer duration increases this further. Comments indicate the session is among the hardest offered, confirming higher effort difficulty. The nature of full-body Pilates exercises, combined with the long session, implies a notable energy expenditure despite the absence of equipment.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.6
+    },
+    {
+      "level": "Beginner",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "The workout's technique and effort difficulties suggest it is best suited for those with some exercise experience, hence a strong score for 'Intermediate'. Advanced elements due to longer duration and potential complexity of some Pilates moves support an 'Advanced' level inclusion. The technique does not exceed intermediate, allowing a low-end of 'Beginner' due to modifiable intensity and guidance from a certified instructor, though the expectation is users should have some physical conditioning."
+}

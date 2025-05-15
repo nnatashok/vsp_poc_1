@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Treadmill",
+      "score": 1.0
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary category identified is 'Treadmill' with a score of 1.0. This is justified by the explicit mentions in the title (\"10 Min Beginner Treadmill Run\"), tags (\"treadmill workout\", \"treadmill workout beginner\"), and description which describes the workout involving treadmill use. The video emphasizes a running and recovery interval pattern typical for treadmill workouts, suggesting this is the main focus.\n\nThe secondary category 'HIIT' is inferred with a score of 0.6, primarily from the tags such as \"hiit workout for beginners\" and the description mentioning intervals which is a characteristic of high-intensity interval training. While the intensity level could be adjusted to a walking pace, user comments highlight the challenge aspect, reinforcing the HIIT identification, yet it is given a lower score because the primary emphasis remains on the treadmill aspect.\n\nOther potential categories like 'Running' or 'Walking' were considered but are placed under the umbrella of 'Treadmill' here due to the explicit focus on the treadmill as the primary equipment in use."
+}

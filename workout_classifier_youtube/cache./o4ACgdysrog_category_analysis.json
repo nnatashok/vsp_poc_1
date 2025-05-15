@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Body weight",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category for the workout video is 'HIIT', as indicated explicitly in the video's title \"QUICK AND EFFECTIVE 25 MIN FULL BODY HIIT ROUTINE\" and the tags \"hiit\", \"hiitworkout\". The workout regimen in the description follows a typical HIIT format with '30 Sec ON, 20 Sec OFF' intervals, which is characteristic of high-intensity interval training. Therefore, the evidence strongly supports this classification, earning a score of 0.9.\n\nThe 'Body weight' category is also relevant due to the mention of \"NO EQUIPMENT\" in the title and tags. This suggests exercises done using only body weight, without additional equipment. Comments mentioning specific exercises like push-ups and burpees align with body weight training, further reinforcing this classification with a score of 0.7.\n\nOther categories like 'Weight workout' and 'Calisthenics' were considered but are less applicable due to the lack of explicit mentions of weights or gymnastic-style movements in the metadata or comments."
+}

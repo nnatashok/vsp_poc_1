@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "Based on the metadata, the technique difficulty primarily targets beginners. The video is titled 'Beginner Treadmill Run' and suggests that users can adjust between walking, running, or combining both. This shows that complex techniques are not required. However, the ability to manage incline and speed adjustments introduces a moderate level of complexity, hence a slight score for intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout duration is short at only 11 minutes, and user comments suggest that although it's challenging, it remains accessible due to its flexibility in effort levels. Descriptions of 'hills' and 'intervals' suggest moderate effort if engaged intensely, but the options to walk or run at user discretion indicate it can also be very light.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.85
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.65
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.75,
+  "requiredFitnessLevelExplanation": "This workout is primarily designed for beginners, as indicated by the title and choice of pacing. However, it can scale for higher fitness levels (intermediate and advanced) due to the option to increase speed and incline, as reflected in the comments. Since users can modify pace, multiple fitness levels are suitable, including advanced for those choosing more aggressive settings."
+}

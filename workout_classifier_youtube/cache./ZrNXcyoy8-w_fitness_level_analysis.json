@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.95,
+  "techniqueDifficultyExplanation": "The title and description emphasize the workout being designed for 'total beginners' and include 'easy-to-follow moves.' The exercises are likely basic bodyweight movements as mentioned under tags like 'walking workouts' and 'all standing workouts,' which typically require minimal coordination and balance. The channel's focus on beginner-friendly content and the workout's bodyweight nature further reinforce a low complexity level. Hence, the technique difficulty is rated as Beginner with high confidence.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.9
+    }
+  ],
+  "effortDifficultyConfidence": 0.92,
+  "effortDifficultyExplanation": "The video duration is 19:58, which aligns with a light effort expectation for full-body routines, especially considering it is designed for 'total beginners.' Tags like 'low impact' and the description's mention of 'improving strength, flexibility, and endurance without equipment' indicate minimal cardiovascular and muscular exertion. User comments from beginners and people with very low fitness levels reporting successful completion without highlighting excessive strain affirm this assessment. Thus, effort difficulty is classified as Light with high confidence.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.95,
+  "requiredFitnessLevelExplanation": "Given the technique and effort difficulties are both rated as beginner-friendly, the required fitness level primarily targets 'Beginners.' Comments highlight users with little or no workout history completing the session successfully, and the metadata consistently uses 'beginner' language. However, moderately fit individuals may also find this a suitable low-intensity session for lighter activity, thus 'Intermediate' is included but with a lower score. The workout duration just under 20 minutes fits a beginner-friendly profile, confirming the high confidence in this classification."
+}

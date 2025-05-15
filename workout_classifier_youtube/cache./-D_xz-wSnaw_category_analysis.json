@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Walking",
+      "score": 0.8
+    },
+    {
+      "name": "Weight workout",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The video is classified primarily as a HIIT workout due to explicit mentions of 'High-Intensity Interval Training', 'HIIT' in the title, tags, and description. The structured intervals of 45 seconds work followed by 15 seconds rest further emphasize this (confidence 0.9). The 'Walking' category is relevant since the workout includes 'Walking Cardio' as highlighted in the title and description, claiming about 3,000 steps in the routine, establishing this as a significant part of the regimen (confidence 0.8). The 'Weight workout' category is applicable because the description specifies a 25-minute segment involving 'strength training,' utilizing 5 lb weights, fitting right into the description of a weighted workout (confidence 0.6). The classification is highly confident due to the explicit and detailed description of the workout structure in the metadata. Other categories like 'Mat' or 'Calisthenics' are excluded as there is no indication of mat work or classic gymnastic exercises in the metadata."
+}

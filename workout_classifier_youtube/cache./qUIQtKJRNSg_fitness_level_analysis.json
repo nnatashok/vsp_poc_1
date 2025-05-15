@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout is described as a \"low impact\" and \"intermediate level\" elliptical machine session, primarily involving jogs, sprints, and runs with modest inclines. These are relatively straightforward movements with minimal coordination required, aligning with Beginner technique difficulty for the basic operation of the elliptical. However, the inclusion of sprints and incline adjustments suggests some coordination and awareness, which slightly elevates it to Intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout lasts 30 minutes, indicating a substantial duration that typically entails moderate effort, particularly when combined with active recoveries and HIIT elements like jogs, sprints, and incline variations. The metadata stresses 'low impact' but also highlights that it incorporates HIIT, justifying a Challenging score due to the intensity variations and potential cardiovascular demand. Therefore, it fits well in both Moderate and Challenging categories.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "Considering the technique and effort difficulties, the workout is accessible to a range of fitness levels. The metadata specifies 'intermediate level,' confirming a strong alignment with Intermediate. However, due to the low impact nature and focus on adjustable intensity on the elliptical machine, it remains accessible for Beginners who might self-modify intensity by reducing speed or incline. Advanced users would still find value in the HIIT structure and duration, especially if pushing intensity limits, warranting some inclusion of this level."
+}

@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.85
+    },
+    {
+      "name": "Walking",
+      "score": 0.65
+    },
+    {
+      "name": "Body weight",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary category assigned is HIIT, with a high confidence score of 0.85. The video explicitly mentions a Tabata workout structure, a form of HIIT, in both the title and the description (\"30s exercise (pushing it to the LIMIT) then 10 seconds rest\"), indicating alternating periods of high-intensity activity and shorter rest periods. This format aligns well with HIIT classification. Additionally, the description notes an intensity level of 9/10, further supporting this category.\n\nThe Walking category receives a score of 0.65. It is mentioned multiple times in the description (\"20s 'rest' of walking\" and \"go back to a walk\"), implying that walking is integral to the workout, especially during rest periods, which also aligns with a low-impact workout format as indicated in the metadata.\n\nBody weight is scored at 0.6 as the workout involves \"no equipment\" and focuses on exercises performed without additional weights. This inference is made from the tags \"beginner workouts\", \"low impact\", and the phrase \"no jumping.\" The comments and duration suggest a strong focus on body weight exercises aimed at targeting the lower abs. Overall, these elements provide strong evidence for the assigned categories."
+}

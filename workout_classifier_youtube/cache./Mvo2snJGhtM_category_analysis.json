@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 1
+    },
+    {
+      "name": "Body weight",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The primary category assigned is 'HIIT' with a score of 1.0, reflecting very high confidence. This is explicitly indicated by the title '20 MIN HOME HIIT WORKOUT', the use of the #HIIT tag, and detailed description explaining this is a high-intensity interval training session. It describes a circuit workout with structured intervals (30 seconds of exercise followed by 30 seconds of rest), which are characteristic of HIIT.\n\nThe secondary category is 'Body weight', with a score of 0.6. This is due to the exercises utilized, such as 'Prisoner side to side squats' and 'Single leg body saw crunch', which suggest bodyweight exercises as no equipment is required, as stated in the description ('no equipment').\n\nOther categories like 'Mat', 'Weight workout', or 'Calisthenics' do not apply as there is no mention of mat-specific exercises, weight equipment, or the gymnastic elements typically seen in calisthenics, and the focus is clearly on the HIIT structure and bodyweight movements."
+}

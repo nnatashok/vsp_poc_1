@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout consists of \"beginner low impact exercises,\" indicating very simple movements suitable for those new to exercise. The exercises are performed with no jumping and even provide an option to be done in a chair, which minimizes complexity and coordination requirements. The target audience includes seniors and beginners, further confirming the simplicity of movements. No advanced coordination or balance is required, aligning with a \"Beginner\" classification for technique difficulty.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 1.0
+    }
+  ],
+  "effortDifficultyConfidence": 0.95,
+  "effortDifficultyExplanation": "The workout is a 5-minute session with very low-impact exercises, structured in 30-second rounds followed by 20 seconds of rest. The term 'no jumping' suggests minimal cardiovascular challenge, and the option to perform the exercises while seated indicates a low energy expenditure. The context of the description and the comments confirm its suitability for individuals with limited physical capabilities. This aligns with a \"Light\" effort difficulty classification.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.25
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "Due to the beginner-friendly design with no jumping and options for chair-based exercises, the workout is highly accessible for beginners. The light effort difficulty emphasizes suitability for very deconditioned individuals. While the simple technique supports a 'Beginner' level, the low impact and short duration could also make it feasible for those advancing to 'Intermediate,' albeit less challenging for the latter. Hence, both Beginner and Intermediate levels are considered, with a stronger emphasis on Beginner, supporting entry-level users and some slightly more experienced exercisers."
+}

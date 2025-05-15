@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "techniqueDifficultyConfidence": 1.0,
+  "techniqueDifficultyExplanation": "The video is a guided meditation, characterized by very simple and straightforward movements requiring minimal physical coordination. The description explicitly labels it an 'easy guided meditation' and tags such as 'beginner' and 'easy meditation' reinforce this assessment. The focus is on relaxation and mental peace, not on physical movement or coordination, indicating a Beginner level of technique difficulty.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 1.0
+    }
+  ],
+  "effortDifficultyConfidence": 0.95,
+  "effortDifficultyExplanation": "The meditation session is 16 minutes long, and the metadata highlights themes such as peace, balance, and relaxation. As it is a seated meditation, physical energy expenditure is minimal, fitting the Light effort category. Terms like 'stress,' 'anxiety,' and 'calm' suggest the primary objective is mental, rather than physical exertion, making the physical effort required very low.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    },
+    {
+      "level": "Advanced",
+      "score": 0.2
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.9,
+  "requiredFitnessLevelExplanation": "Given the Beginner level technique difficulty and Light effort difficulty, the required fitness level is easily accessible to users with no prior fitness or meditation experience, which is supported by tags like 'meditation for beginners.' However, meditative practices can benefit all levels, hence Intermediate and Advanced users are also likely to participate for mental relaxation, justifying their inclusion, though the focus on beginners is clear."
+}

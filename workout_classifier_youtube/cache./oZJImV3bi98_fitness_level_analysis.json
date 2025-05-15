@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.65
+    },
+    {
+      "level": "Advanced",
+      "score": 0.45
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout focuses on weighted calisthenics, which is inherently more complex than standard calisthenics due to the added resistance. Common exercises like pull-ups, push-ups, and dips are included, which require some coordination and body awareness, especially with the extra weight. However, since these exercises are foundational calisthenics movements, they are not overly technical, placing the technique difficulty in the Intermediate range. The presence of terms like 'muscle up' suggest some movements might be more advanced, justifying a small portion of Advanced scoring.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The 10-minute duration suggests a moderate effort requirement. Weighted exercises like pull-ups and dips increase the physical demand, indicating a higher energy expenditure than typical unweighted calisthenics. While the video was not described as high-intensity or particularly long, the use of weight naturally makes it more challenging for less fit users. This places it between Moderate and Challenging efforts.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.75
+    },
+    {
+      "level": "Advanced",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "Given the Intermediate technique and Moderate to Challenging effort difficulty, the workout is best suited for Intermediate users who have some exercise experience, as they can handle the technique and effort levels. However, beginners who are ready to introduce weight to their routine may find it an approachable challenge (particularly with modifications or lighter weights), hence the inclusion of Beginner at a lower score. Advanced users will also find the workout beneficial, especially if they can scale up the intensity, which is common with weighted calisthenics."
+}

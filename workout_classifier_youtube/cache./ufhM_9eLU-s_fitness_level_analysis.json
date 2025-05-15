@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout primarily involves basic movements such as walking, jogging, and running on a treadmill, which are straightforward and require minimal coordination, aligning strongly with a 'Beginner' technique difficulty. The inclusion of some intervals that vary pace could introduce a mild complexity, allowing for a small 'Intermediate' score. The channel's focus on making fitness accessible to all and the explicit beginner tag further support these classifications.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The effort difficulty is predominantly 'Light' due to the beginner nature of the workout, emphasizing basic intervals suitable for those new to fitness. However, short jogging and speed pushes intermittently increase the heart rate, suggesting a 'Moderate' classification as well. The 20-minute duration, highlighted in the title and description, supports a stronger challenge than a brief or purely walking session would entail.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "The workout is designed as a beginner interval treadmill session, reflected in the metadata and feedback from users returning to exercise after a break or starting new fitness journeys. The use of different intervals slightly increases intensity, thus also fitting those with minimal exercise experience, generating a moderate 'Intermediate' score. The overall friendly tone and supportive comments suggest it's highly appropriate for beginners, but with room to challenge those at the lower end of 'Intermediate' capability. The technique remains primarily 'Beginner', ensuring these classifications align appropriately."
+}

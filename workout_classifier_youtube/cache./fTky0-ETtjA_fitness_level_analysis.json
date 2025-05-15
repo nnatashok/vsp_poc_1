@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout involves pilates, which generally requires some level of coordination, but the use of light weights and emphasis on optional weight usage suggest simplicity in the movements. Therefore, this leans heavily towards beginner due to the straightforward nature of the exercises (e.g., using household items as weights suggests minimal technique requirement). However, pilates can inherently require some intermediate coordination, justifying a moderate score for intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.6
+    },
+    {
+      "level": "Moderate",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is described as quick and centered around light weights or even bodyweight, suitable for beginners and easy modification. Although user comments indicate it was a challenging burn with light weights, this aligns with light to moderate intensity for deconditioned users, especially given the 10-minute duration. The workout's effort is likely mild for more accustomed exercisers, thus leaning primarily towards a light intensity with some moderate elements.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    },
+    {
+      "level": "Advanced",
+      "score": 0.2
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "Given the simplicity of the exercises and the ability to choose resistance (bodyweight or very light weights), the workout is accessible to beginners. User comments describe the workout as quick and effective, indicating it offers a fulfilling workout even at low resistance. This suits beginners well, but the potential for scaling intensity (via weight selection) makes it appropriate for intermediates. Given high weights or maximal exertion, it can border on advanced, but mainly for its scalability rather than intrinsic challenge."
+}

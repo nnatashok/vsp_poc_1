@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Elliptical",
+      "score": 0.95
+    },
+    {
+      "name": "HIIT",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The primary category assigned is 'Elliptical' with a score of 0.95, reflecting very high confidence. This is because the title explicitly mentions \"Elliptical Workout,\" and the description discusses the use of a 'Premium Cardio Climber Machine', which is a type of elliptical. The tags are highly focused on elliptical workouts (e.g., 'elliptical cardio workout for beginners', '15 min elliptical workout'), further reinforcing this classification.\n\nAdditionally, a secondary category of 'HIIT' is considered with a score of 0.3. This is due to several tags and metadata elements mentioning HIIT, such as 'elliptical HIIT workout.' However, this particular workout is described as \"easy\" and suitable for \"any level,\" indicating that it may not strongly emphasize high-intensity intervals, which often define HIIT.\n\nThe 'Elliptical' classification is further supported by user comments noting its use as a warm-up and easy-intensity workout, indicating its accessibility rather than high-intensity demands, thereby reducing the confidence in the HIIT classification."
+}

@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The technique difficulty is rated as 'Beginner' with a high score and 'Intermediate' with a lower score. The main movements described involve cycling positions, including seated, standing, and positions on the handlebars (2nd and 3rd positions). These require some familiarization but are typical in indoor cycling classes and can be performed by beginners with minimal risk and coordination complexity. There are modifications for seated options and indications that users can adjust based on comfort, suggesting a beginner-friendly approach. However, the inclusion of terms like 'jumps' and 'freezes' for the different cycling positions introduces a slight complexity, suggesting a mild intermediate rating as well.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.75
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The effort difficulty is rated as 'Moderate' due to the workout duration and intensity options. The workout is 11 minutes long, intended as an add-on to other workouts ('encore'), thus it is likely to be moderately challenging when considered on its own. It contains intensity levels indicated by resistance settings where users can choose their comfort level. The description also suggests motivating pushes, implying moderate effort. While users can adjust resistance and RPMs, the encouragement to push challenges conveys a moderate level of effort required overall.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.7,
+  "requiredFitnessLevelExplanation": "The required fitness level is rated as 'Beginner', 'Intermediate', and 'Advanced'. This broad range accounts for user variability. The workout's design as an encore suggests it's generally intended for those with some cycling experience ('Intermediate' scoring higher), but with modifications and simplicity in technique, beginners can participate. However, since it is a supplementary challenge, individuals with some cycling experience (minimum 'Intermediate') might find it more appropriate. The advanced score reflects that users who push resistance and intensity to the high end would require a higher fitness level. This classification accounts for the encouragement to adjust difficulty and the motivating nature of the content, providing scalability across different fitness levels."
+}

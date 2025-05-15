@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 1.0
+    },
+    {
+      "name": "Body weight",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The metadata strongly indicates this is a HIIT workout, evident from the title '20 Minute FULL BODY HIIT Workout', tags including 'hiit' and 'home workout', and the description detailing 20 different moves with 40 seconds of work followed by 20 seconds of rest. This clearly aligns with the HIIT category, hence a score of 1.0. The list of exercises, such as 'squat pulses', 'burpee shuffle', 'bear crawls', and 'lateral run', suggests a reliance on body weight exercises throughout the session, justifying a Body weight score of 0.6. The repeated presence and focus on intense interval-based movements affirm the centrality of HIIT in this workout. Other potential categories, like 'Weight workout', are irrelevant here due to the absence of equipment-based resistance exercises. Hence, very high confidence is placed on this classification."
+}

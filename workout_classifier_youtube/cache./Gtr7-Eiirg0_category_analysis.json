@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Weight workout",
+      "score": 0.9
+    },
+    {
+      "name": "Body weight",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The video is classified primarily as a 'Weight workout' due to several explicit indicators in the metadata. The title '20 min STANDING DUMBBELL WORKOUT | Full Body | Sculpt and Strengthen' and tags like 'dumbbell workout', 'medium dumbbells', and '10 pound dumbbell workout' clearly denote the use of dumbbells, which is definitive of weight training. The description further confirms this by mentioning 'two 10LB weights' being used in the workout. This category is assigned a high score of 0.9 because the presence of dumbbells is a central element of the workout.\n\nA secondary category, 'Body weight' is considered due to the full-body nature of the exercises and the absence of certain equipment-centric exercises like planks and pushups, as indicated in the tags and description. This category is assigned a lower score of 0.3, reflecting that while bodyweight movement is part of the exercises, the primary focus remains on weight training.\n\nOther potential categories like 'HIIT', 'Mat', or 'Calisthenics' were excluded due to lack of any interval training components, non-reliance on a mat for exercises, and primary focus on strength via external weights rather than pure gymnastics-style body movements."
+}

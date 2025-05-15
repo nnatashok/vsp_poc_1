@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout is described as a compilation of high-intensity interval training (HIIT) focused on intense, energetic movements like high knees and dance cardio. Such exercises require coordination and involve simultaneous movement patterns that increase complexity. User comments also highlight coordination challenges (e.g., high knees), suggesting an intermediate to advanced level of technique.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.9
+    },
+    {
+      "level": "Extreme",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is explicitly labeled as \"SUPER DUPER intense\" and \"a killer routine,\" with references to high energy and significant caloric burn (90 kcal in 10 minutes). The instructor's self-reported perspiration and user comments reflect substantial physical demand during the 10-minute routine, indicating challenging to extreme effort levels, especially for less conditioned users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "Despite the high intensity and coordination demands, the video targets a broad audience, and the HIIT format often allows for pace and effort adjustments, making it accessible at various levels. Beginners could attempt it with modifications and reduced intensity, aligning with a lower score for that level. Intermediate users, with some experience, may fully engage, while advanced users will find the intensity appropriate and challenging."
+}

@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout involves foam rolling, which is generally straightforward but requires some body awareness to perform effectively. This aligns with beginner technique difficulty. The presence of more specific guidance and the ability to target muscles accurately increases the relevance for intermediate users slightly, hence the score. Comments indicate some discomfort, which suggests a need for correct form and technique attention.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.9
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout is designed as a recovery or warm-up session with a duration of 16 minutes, suggesting light to moderate physical demands. While the primary goal is muscle relaxation and recovery, some users may find the intensity moderate due to discomfort from foam rolling techniques, making moderate exertion possible for those unused to it.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    },
+    {
+      "level": "Advanced",
+      "score": 0.2
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The session is highly suitable for beginners due to its simplicity and rehabilitative purpose. Intermediate users might engage more intensely depending on their muscle tension and experience with foam rolling. An advanced classification is marginally considered due to user comments describing significant discomfort, indicating greater body awareness may benefit those unable to tolerate initial pain levels."
+}

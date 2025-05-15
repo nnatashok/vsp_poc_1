@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The video primarily focuses on breathing exercises, which generally involve simple movements such as controlled inhalation and exhalation. These exercises are straightforward enough to classify as 'Beginner' with a high score (0.9). However, there is a mild complexity in maintaining specific breathing patterns which might require a slight degree of coordination, suggesting a potential 'Intermediate' score (0.4). Metadata implies simplicity: terms like 'simple exercises' and lack of any requirement for equipment or advanced skills strongly support this assessment.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 1.0
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The effort difficulty is classified as 'Light' with very high confidence (1.0) due to the inherently low physical demand of breathing exercises. The video is 13 minutes long but comprises gentle, energy-efficient activities that focus on breath control rather than physical endurance or strength. Descriptions highlighting benefits such as reduced stress and improved focus, without mentioning vigorous physical activity, further reinforce this classification.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "Given the simplicity and low physical demand of the exercises, the required fitness level is primarily 'Beginner' (score of 1.0), making it accessible to most users, including those new to exercise. However, the potential for slight coordination challenges in maintaining specific breathing patterns suggests a moderate alignment with 'Intermediate' level (score of 0.4). The video's simplicity and broad appeal, denoted by user comments from older individuals and its use for wellness, support this dual classification, ensuring accessibility while accommodating varying levels of initial capability."
+}

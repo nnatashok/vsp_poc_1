@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Pilates",
+      "score": 0.9
+    },
+    {
+      "name": "Mat",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The video is predominantly a Pilates workout, as evidenced by the repeated use of the word 'Pilates' in both the title ('15 MIN EXPRESS PILATES WORKOUT || Dynamic Intermediate Pilates') and the tags (e.g., 'pilates workout', 'full body pilates workout', 'dynamic pilates'). The description also refers to it as an 'Express Pilates Workout', emphasizing its focus. Therefore, 'Pilates' is assigned a high score of 0.9 due to the strong emphasis on Pilates.\n\nThe mention of 'Mat from Liforme' in the description and tags like 'mat pilates' and 'at-home workout' suggest that this is performed on a mat without equipment, aligning it with the 'Mat' category. However, the primary focus is on the Pilates nature of the workout, so 'Mat' is given a secondary score of 0.6 to acknowledge the environment in which the exercises are performed.\n\nOther categories such as 'Yoga', 'Body weight', and 'Calisthenics' were considered but excluded due to lack of specific emphasis in the metadata."
+}

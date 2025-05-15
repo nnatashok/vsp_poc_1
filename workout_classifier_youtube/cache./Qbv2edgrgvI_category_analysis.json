@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Weight workout",
+      "score": 0.9
+    },
+    {
+      "name": "Body weight",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The primary category chosen is 'Weight workout' with a high score of 0.9. The video title 'Weight Training for Beginners & Seniors' and multiple references in the tags and description, like 'weight training workout,' 'dumbbell workout,' and 'workout with weights for seniors and beginners,' explicitly suggest this focus. The description further emphasizes the use of 5-pound weights, supporting the classification as a weight workout.\n\nAdditionally, 'Body weight' is considered with a moderate score of 0.5. While weights are the primary focus, descriptors like 'standing workouts' imply movements that possibly include bodyweight exercises to complement the strength-building exercises. However, the use of weights is predominant, hence the lower score for this category.\n\nThe overall confidence level of 0.95 is due to the direct and clear cues in the metadata indicating a focus on exercises using weights that are suitable for seniors and beginners."
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor biking",
+      "score": 1
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The video is classified with very high confidence as 'Indoor biking' due to multiple explicit indicators that confirm it as a stationary cycling workout. The title mentions 'Indoor Cycling Training,' and the tags include 'indoor cycling' and 'cycling workout.' Additionally, the description details a structured cycling session with intervals and tempo exercises, which aligns with typical indoor biking workouts. \n\nThe 'HIIT' category is also applicable with high confidence, scored at 0.7, as the description outlines a format involving 'Micro Intervals' which is characteristic of High-Intensity Interval Training (HIIT), including alternating periods of high effort (micro intervals) and easier riding, reflecting the interval structure of HIIT. However, since the primary equipment and focus are on indoor biking, this is the predominant category, while HIIT elements are supplementary. \n\nThe channel's focus on cycling and user comments about the effectiveness and enjoyment of the cycling session further corroborate the indoor biking classification, excluding other categories like 'Mat' or 'Body weight', which lack any presence in the metadata."
+}

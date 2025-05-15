@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 1.0
+    },
+    {
+      "name": "Cardio",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The video is explicitly labeled as a \"HIIT cardio workout\" both in the title and tags. Terms such as \"FAT MELTING HIIT CARDIO\" and \"hiit cardio workouit\" indicate a primary focus on High-Intensity Interval Training (HIIT). The description supports this by mentioning a significant calorie burn range (700-1000 calories) typical of a high-intensity regime visualized also by comments referring to jumping jacks and squats, which are common HIIT exercises. Thus, HIIT is the primary category with a strong confidence score of 1.0 due to unambiguous metadata. Additionally, there is a strong cardio aspect as the workout aims at burning calories and losing weight, but it is considered secondary since not explicitly or independently featured in isolation within the metadata, thus scored at 0.7. No significant evidence for other categories like weight workouts or calisthenics is found in the context provided."
+}

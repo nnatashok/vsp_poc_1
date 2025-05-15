@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Calisthenics",
+      "score": 1.0
+    },
+    {
+      "name": "Body weight",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The main category for this workout is 'Calisthenics' due to several explicit references in the title, tags, and description indicating that this is a calisthenics-focused routine. The title mentions 'Full Body Calisthenics Routine For Beginners,' and the tags include phrases like 'full body calisthenics workout' and 'calisthenics routine for beginners.' This provides very high confidence (1.0) in the 'Calisthenics' category selection. \n\nAdditionally, the exercises listed in the workout (e.g., push-ups, dips, planks) fit well within both the 'Body weight' and 'Calisthenics' categories, as these are common in body weight training. However, given the emphasis on calisthenics and the lack of equipment mentioned, it slightly overlaps with bodyweight exercises. The 'Body weight' category is given a secondary score of 0.7 to reflect its strong presence but less explicit focus compared to 'Calisthenics.'\n\nSince the video is aimed specifically at beginners and does not mention any specific tool or equipment beyond body weight manipulation, categories like 'Weight workout' or 'Indoor biking' are not applicable here."
+}

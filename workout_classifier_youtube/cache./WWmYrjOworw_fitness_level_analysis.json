@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout involves indoor cycling, which primarily requires pedaling, a basic movement that most people can perform with minimal coordination or skill. Therefore, it's classified as Beginner-level in terms of technique for individuals with basic cycling familiarity. However, the presence of interval variations requiring users to adjust resistance adds an Intermediate complexity, as it requires some understanding of effort regulation and bike settings.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    },
+    {
+      "level": "Extreme",
+      "score": 0.55
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is 45 minutes long and includes intervals with maximum effort sprints (10/10 difficulty) and threshold segments (up to 9/10 difficulty). The intensity of these intervals means it challenges even the fittest individuals and would be demanding for those less fit. The combination of extended duration and high intensity efforts justifies a 'Challenging' to 'Extreme' effort classification.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.8
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "While the technique itself is straightforward, the effort required due to the demanding interval structure and total duration of 45 minutes places this workout primarily at an Intermediate to Advanced level. The effort demanded, with segments reaching 10/10 intensity, aligns more closely with a user who has some fitness background or endurance training experience. Therefore, both the effort intensity and duration suggest a requirement for users who are more than complete beginners. The inclusion of intervals at varying intensities supports the classification of requiring at least an Intermediate fitness level, though the consistently high demand aligns well with an Advanced level as well."
+}

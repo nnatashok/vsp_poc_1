@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 1.0
+    },
+    {
+      "name": "Body weight",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The video is clearly a High-Intensity Interval Training (HIIT) workout as indicated directly in the title \"10 MIN BASIC HIIT - killer High Intensity routine\" and repeated mentions in the description of high-intensity movements meant to increase heart rate and burn calories quickly. The tags also explicitly include 'hiit' and 'high intensity'. Therefore, HIIT is assigned a score of 1.0 for being the central focus of the workout.\n\nAdditionally, the workout description mentions 'super intense full body movements' and highlights exercises such as planks, high knees, and jumps performed without equipment, indicating a strong use of body weight for resistance. This supports the secondary category of \"Body weight\" with a score of 0.6 since body weight exercises are a key component but not the sole focus of the workout.\n\nThe classification confidence is very high (0.95) due to strong and repeated indications of HIIT as the primary workout type, with supporting secondary evidence for body weight exercises."
+}

@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.3
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout primarily involves basic HIIT moves described as 'nothing too fancy, nothing too dancy.' Exercises like planks, high knees, and jumps require basic coordination and body awareness but are standard in fitness routines. However, comments like 'Plank jack and shoulder taps together' indicate some coordination is needed, thus an intermediate score is merited for slight complexity.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.5
+    },
+    {
+      "level": "Challenging",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "With a 10-minute duration and described as 'super intense full body movements' with a 'high heart rate non stop', the workout is clearly demanding, falling between moderate and challenging levels. This reflects its potential to elevate heart rates and robust calorie burn within a condensed time frame, making it moderate to challenging in terms of effort.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.3
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "Combining basic exercises with elements of challenge (e.g., active breaks with planks) and a high-intensity approach, the workout is suitable for beginners with some caution; however, it more strongly aligns with intermediate users who can manage elevated intensity and those approaching an advanced level aiming to push limits. Comments suggest successful completion without breaks is challenging, supporting a range of fitness levels but heavily skewed towards intermediate."
+}

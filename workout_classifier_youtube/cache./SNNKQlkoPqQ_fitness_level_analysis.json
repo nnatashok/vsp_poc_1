@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is clearly designed for beginners, as indicated in both the title and description ('beginner flexibility routine for beginners'). The tags such as 'simple', 'beginner flexibility routine', and 'beginner stretches' further support this classification. Comments from users mention the transformation from very inflexible states, suggesting that the movements are simple and accessible enough for those new to stretching. This suggests a beginner technique difficulty with some elements that might challenge those who are extremely inflexible (hence a small score for intermediate).",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.2
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The emphasis on a '20-minute full body flexibility routine for beginners' and tags such as 'simple', and 'beginner' suggest a low effort difficulty. The session is designed to increase the range of motion with simple, controlled movements. The comments reflect a calm, relaxed state rather than fatigue or exertion, which aligns with a light intensity classification. However, for those exceptionally tight or uninitiated to any form of physical routine, there may be a slight perception of moderate effort, reflected in the moderate score.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.95
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.45
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.88,
+  "requiredFitnessLevelExplanation": "Given the technique and effort difficulties both align strongly with beginner-friendly activities, the primary fitness level required is beginner. The metadata consistently points to this being suitable for those new to flexibility training (e.g., 'beginner flexibility routine', comments from inflexible users finding it useful). A small score for intermediate is included, as even beginners often overlap with low-end intermediate based on slight variations in initial flexibility and the workout's full duration (20 minutes). The feedback from diverse age groups (\u2018four of us over 60\u2019 engaging successfully) further indicates this video is accessible to beginners."
+}

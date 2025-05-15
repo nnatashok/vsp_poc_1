@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout video is titled 'Yoga for Vertigo | 15-Minute Yoga,' indicating a yoga practice which generally requires a mat. Although the description and tags do not explicitly mention a mat, the context of a gentle, 15-minute home yoga session strongly implies the need for a mat for comfort and safety during the practice. This is a typical requirement for most yoga sessions, ensuring a non-slip and cushioned surface, especially as it is aimed at beginners and those recovering from injuries. Thus, a mat has been assigned a very high confidence level of 0.9. There is no indication of using any other equipment in the metadata provided."
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Pilates",
+      "score": 1.0
+    },
+    {
+      "name": "Mat",
+      "score": 0.8
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The workout fits predominantly within the 'Pilates' category because the title explicitly mentions 'Gentle Pilates', and the tags further reinforce this with phrases like 'gentle pilates workout', 'pilates workout', and '35 minute gentle pilates'. The description and channel information highlight the focus on Pilates, specifying the instructor's certification in this area, which increases confidence in this classification to 1.0. \n\nAdditionally, 'Mat' is a relevant category given the mention of mat usage in the description ('Mat from Liforme') and the nature of Pilates, which typically involves exercises performed on an exercise mat. The absence of gym equipment and the emphasis on gentle, floor-based exercise support this secondary classification with a score of 0.8. \n\nOther categories like 'Yoga' or 'Stretching' are excluded despite some overlap in purpose (reconnecting with the body and breath) because the metadata does not explicitly reference these, nor does it include typical yoga poses or flexibility-specific terminology."
+}

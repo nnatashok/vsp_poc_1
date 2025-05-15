@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout involves Pilates, which features controlled core exercises. Basic Pilates typically involves fundamental movements that many can perform, but the additional elements of core stability and focus on form make it slightly more complex than beginner-level exercises, positioning it at an intermediate level. The terms 'Pilates core workout' and 'moderate' in metadata suggest a level of complexity but still accessible, leading to a moderate confidence in beginner and a strong alignment with intermediate technique difficulty.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout is 33 minutes long and focused on core Pilates exercises, which suggests a moderate physical demand, especially since no equipment is used, making it adaptable. The user comments and the description's reference to combining it with other workouts hint at a moderate intensity, though it may be challenging for very deconditioned individuals. Thus, it aligns more with moderate effort difficulty, with a lesser degree of challenge indicating a mix between moderate and challenging.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.3
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    },
+    {
+      "level": "Advanced",
+      "score": 0.1
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.75,
+  "requiredFitnessLevelExplanation": "Given the 33-minute duration and the Pilates focus, this workout requires a moderate fitness level, suitable for beginners with some adaptation and more suited to intermediates. Pilates' inherent nature provides an option for variability in intensity, justifying inclusion of a beginner level. However, consistent engagement with Pilates or similar routines suggests it is more apt for intermediates, with a slight skew towards advanced due to the potential cumulative effort required over the session's duration. The emphasis on core engagement, though moderate, may challenge beginners, supporting the intermediate fitness level assignment."
+}

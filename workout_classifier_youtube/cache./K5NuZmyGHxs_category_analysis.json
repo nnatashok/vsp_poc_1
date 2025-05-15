@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Weight workout",
+      "score": 0.8
+    },
+    {
+      "name": "Body weight",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The video is classified primarily as a 'HIIT' workout due to strong explicit indicators in the title, description, and tags such as 'Intense HIIT workout,' 'HIIT with dumbbells,' and 'dumbbell HIIT workout.' The description mentions 30-second work intervals with 15-second rest periods, typical of HIIT workouts.\n\nThe 'Weight workout' category is also highly relevant as the workout involves dumbbells as the primary equipment, with exercises like goblet squats, dumbbell swings, and rows highlighted in the description and workout details. This is supported by tags like 'hiit workout weights' and 'dumbbell workout.' A score of 0.8 reflects the strong presence of weight training in the workout.\n\nA 'Body weight' category is moderately applicable since the session incorporates bodyweight movements, as suggested by the 8 Week Stronger Challenge focus on dumbbells and bodyweight exercises, although specific bodyweight exercises are not detailed in the metadata provided.\n\nThe high confidence level of 0.85 is due to the abundance of explicit HIIT and weight workout references in multiple parts of the video metadata."
+}

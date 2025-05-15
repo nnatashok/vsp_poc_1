@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.95
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The video is a simple treadmill running workout, indicated by the tag \"Easy Run.\" Running on a treadmill involves basic, straightforward movements with minimal coordination, making this primarily a \"Beginner\" technique. The use of the treadmill, however, could introduce slight adjustments for those less familiar with it, giving it a small \"Intermediate\" score for users unfamiliar with treadmill running.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.75
+    },
+    {
+      "level": "Challenging",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is labeled as an 'easy run,' suggesting a lower energy expenditure typical for a treadmill run. However, the duration of nearly 50 minutes increases the overall effort level required, making it moderately challenging for deconditioned or low-motivation users. This warrants a 'Moderate' effort level predominantly, with elements of 'Challenging' due to duration.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.6
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "Despite the 'easy run' descriptor, the video's duration (49:46) makes it less suitable for absolute beginners without prior treadmill experience, thus lower 'Beginner' score. The 'Intermediate' level is the main target due to the length and moderate effort required, while an 'Advanced' score is included because of the need for sustained cardio endurance, which is necessary at this length."
+}

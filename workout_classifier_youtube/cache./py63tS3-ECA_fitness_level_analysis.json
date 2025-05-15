@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The metadata emphasizes words like 'gentle yoga', 'easy', and 'relaxing,' which suggests very simple movements, typical of a beginner level. The use of terms such as 'full body stretching' and 'more flexibility' implies some variability that might offer slight complexity typical at an intermediate level.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 1.0
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The description and tags indicate a 'relaxing' and 'gentle' 20-minute stretch routine. Given the focus on relaxation and flexibility, the workout suggests low energy expenditure appropriate for a Light level, but the duration of almost 20 minutes could introduce a mild challenge for very deconditioned users, hence a small score for Moderate.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.9,
+  "requiredFitnessLevelExplanation": "The combination of easy stretching and a focus on relaxation positions this workout as suitable for beginners. However, given the full duration of the session and potential for minor complexities in flexibility improvements, it slightly extends into the Intermediate range. The inclusion of 'for beginners' in the tags supports its accessibility for those with little to no fitness background, while also catering to users who have a basic level of physical activity exposure."
+}

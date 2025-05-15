@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.75
+    },
+    {
+      "level": "Advanced",
+      "score": 0.45
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout involves a mix of compound and isolation exercises using dumbbells, which require some level of skill to execute correctly, such as different forms of lunges, presses, and rows. These exercises necessitate coordination and body awareness, supporting an 'Intermediate' rating. The progression from two dumbbells to one or bodyweight in trisets adds a layer of complexity, edging into 'Advanced' in terms of technique. Comments from users transitioning from other fitness routines suggest a realism to the 'Intermediate' difficulty.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.65
+    },
+    {
+      "level": "Challenging",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "With a duration of 35 minutes and a workout structure involving trisets, the session has a moderate to challenging effort level considering the continuous 30-second exercises with changing weights, minimizing rest. These elements suggest moderate energy expenditure, but for a deconditioned audience, it approaches 'Challenging.' User comments indicate a strenuous experience, common for those stepping up in their fitness regimen, supporting 'Moderate' and 'Challenging' levels.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.75
+    },
+    {
+      "level": "Advanced",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The required fitness level ranges from 'Beginner' to 'Advanced.' Beginners could attempt the workout by adjusting weight and pace, evidenced by comments from users new to weighted workouts finding it accessible. The technique and effort difficulties make it suitable for 'Intermediate' due to the 35-minute structure and compound exercises. The myriad exercise forms and longer duration require 'Advanced' capabilities, but the self-selection of weights permits entry at lower fitness levels as commenters depict adaptation. Thus, three levels are valid, guided by the potential scalability of intensity and technique."
+}

@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The cycling workout involves basic cycling techniques with options to adjust resistance and RPMs, making it accessible for beginners. The description mentions accommodating different intensity levels, suggesting that while users can adjust the challenge, the fundamental technique of cycling remains simple. Intermediate classification is possible due to the potential for increased resistance and RPM management, which requires some additional coordination and cardiovascular control, yet overall it remains quite accessible.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.9
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout is designed to be a metabolic boost and can be used as a warm-up or active recovery, indicating a light effort difficulty for the primary framing. Options exist to make it a higher intensity effort, placing moderate scoring as users can choose their level of exertion by adjusting RPMs and resistance. The duration of just under 15 minutes supports a lighter classification for effort, suitable for beginners.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.75,
+  "requiredFitnessLevelExplanation": "The workout's accessible nature and focus on metabolism boosting with variable resistance make it suitable for Beginners, as emphasized in the metadata. It offers potential intensity customization through RPM and resistance, allowing Intermediate users to engage further, and Advanced users seeking a lighter session can still find value. This flexibility and the short duration supports multi-level inclusion, providing unity between technique and effort with broader user engagement."
+}

@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.65
+    },
+    {
+      "level": "Advanced",
+      "score": 0.45
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The 'The Full Pyramid | 30 Minute HIIT Indoor Cycling Workout' involves cycling, which requires some coordination and proper posture to execute effectively, especially when performing high-intensity intervals. No complex movements or advanced techniques are explicitly mentioned in the metadata. However, indoor cycling can become advanced during high-effort intervals, especially for deconditioned users. Therefore, it is classified at an Intermediate level with a moderate inclination towards Advanced due to potential complexities in form during intervals.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.55
+    },
+    {
+      "level": "Challenging",
+      "score": 0.75
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout consists of one-minute high-intensity intervals in a pyramid structure, which typically involves significant cardiovascular effort, particularly at maximum intensity (10/10) levels. The workout is 30 minutes long, increasing its overall challenge factor despite availability for self-pacing during intensity levels. This aligns with Challenging for deconditioned users, but it is still accessible as Moderate since cycling can vary based on resistance and user adjustment.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 0.75
+    },
+    {
+      "level": "Advanced",
+      "score": 0.5
+    },
+    {
+      "level": "Beginner",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.75,
+  "requiredFitnessLevelExplanation": "Given the intermediate technique difficulty and challenging effort level, this workout is most suitable for Intermediate users due to the structure and demand of HIIT cycling. However, the possibility of self-adjusting resistance and pacing allows room for Advanced users to be appropriately challenged. Beginners could also participate, especially with adjustments, but might find it intensive; thus, the Beginner level is less emphasized. The workout duration supports Intermediate to Advanced participants primarily, aligning the scores accordingly."
+}

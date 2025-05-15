@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout involves a full-body cardio HIIT routine that is all standing, suggesting moderate complexity in movement patterns. While no equipment is required, the HIIT format typically includes dynamic movements that require coordination and balance, hence the classification leans towards Intermediate. The mention of 'no repeat' could indicate that multiple movements are involved, which suggests a variety of exercises and hence higher complexity, supporting a small component of an Advanced level.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    },
+    {
+      "level": "Extreme",
+      "score": 0.2
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is described as intense with a 45-minute duration, suggesting high effort difficulty, especially for deconditioned users. The tags include 'intense', 'HIIT', '600 calories', and 'extreme sweaty', which align with a high energy expenditure. The structure of 45 seconds on and 15 seconds off is characteristic of demanding HIIT sessions, supporting a Challenging level, with elements of Extreme difficulty due to the continuous nature of the workout.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.6
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "Combining the Intermediate technique difficulty with the Challenging effort difficulty places this workout best at the Intermediate level for moderately fit users. However, due to its duration (46 min) and intensity (as noted in user comments and tags suggesting a tough session with significant energy output), a substantial element of Advanced level is warranted to account for the physical demands and endurance required. Insights from user comments indicate that building up fitness to complete the whole video takes time, supporting these classifications."
+}

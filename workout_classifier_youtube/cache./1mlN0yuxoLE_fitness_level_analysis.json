@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is described as suitable for 'complete beginners' and targets basic calisthenics movements like push, pull, core, and leg exercises. These exercises typically require minimal coordination and can be performed with basic body awareness. User comments and tags reinforce this, highlighting its beginner-friendly nature. However, calisthenics often involve some level of body control and awareness, suggesting that while the exercises are primarily beginner-level, they may also cater to slightly more experienced users (intermediate). Thus, a lower score is assigned to the intermediate level.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The duration of 18:15 suggests a reasonably short workout, suitable for beginners. The workout consists of segments for different body parts, focusing on basic calisthenics, which usually have moderate intensity. The tags and description confirm its aim at beginners, indicating light to moderate energy expenditure. However, calisthenics can also pose a moderate challenge due to the use of body weight, thus scores are given for both light and moderate effort difficulty.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "The workout is primarily tailored for beginners, as emphasized in the title and description. The calisthenics exercises have low technique difficulty and light to moderate effort difficulty, making them accessible to those new to exercise. Comments praise its comprehensive nature for beginners. While aimed at beginners, elements of body weight training and exercise structuring might appeal to intermediate users, hence a lower score for intermediate is also considered."
+}

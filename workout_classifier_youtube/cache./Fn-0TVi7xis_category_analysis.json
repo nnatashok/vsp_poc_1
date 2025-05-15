@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Weight workout",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category is 'HIIT' with a score of 0.9. This is based on the title \"Full Body HIIT Workout | Breakthrough - Day 5\" and the description mentioning '45 minute full body HIIT workout' and 'cardio intervals throughout.' The structure with exercises performed for 45 seconds, followed by 15 seconds of rest, is characteristic of High-Intensity Interval Training (HIIT).\n\nThe secondary category is 'Weight workout', scored at 0.7, due to repeated references to the use of dumbbells in both the tags ('dumbbell workout', 'full body dumbbell workout') and the description ('you only need a couple sets of dumbbells'). The workout involving 'compound exercises' and targeting 'strength and conditioning' further supports this classification.\n\nOther categories such as 'Body weight' were considered but not selected due to the strong emphasis on weight use, which was a major component of the workout."
+}

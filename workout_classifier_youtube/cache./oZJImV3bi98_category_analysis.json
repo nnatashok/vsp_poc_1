@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Body weight",
+      "score": 0.7
+    },
+    {
+      "name": "Calisthenics",
+      "score": 1.0
+    },
+    {
+      "name": "Weight workout",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The video is clearly focused on calisthenics, as denoted by the repeated use of 'calisthenics' in the title, tags, and comments. This includes terms like 'weighted calisthenics' and references to push-ups, pull-ups, dips, and squats, which are classic calisthenics movements. Hence, the score for 'Calisthenics' is 1.0, indicating a very strong presence.\n\n'Body weight' is relevant because calisthenics typically involves body weight exercises, although in this case, they are enhanced with weights, leading to a moderate score of 0.7.\n\nThe mention of 'weighted calisthenics' in the tags and description, as well as the use of a weight vest, justifies the inclusion of 'Weight workout' with a score of 0.6, as weights are a significant part of this workout approach according to the metadata.\n\nWhile other categories like 'Strength training' could have been considered, the specificity of weighted calisthenics and the focus of the channel on this type of training make the chosen categories most fitting. The confidence level of 0.95 is due to the strong and explicit indicators in every part of the metadata, with no significant ambiguity."
+}

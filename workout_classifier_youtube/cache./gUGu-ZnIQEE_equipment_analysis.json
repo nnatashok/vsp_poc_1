@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The video metadata indicates that this is a Pilates workout focusing on the lower body, which typically involves exercises performed on the floor. The tags explicitly include 'mat pilates', suggesting that a mat is recommended for comfort and support while performing the exercises. The confidence level is very high (0.9) because the reference to 'mat pilates' in the tags strongly implies that a mat is central to the workout activities. No other equipment is mentioned, either in the title or description, indicating it is not needed for this workout. Therefore, the mat is the only equipment identified with high confidence."
+}

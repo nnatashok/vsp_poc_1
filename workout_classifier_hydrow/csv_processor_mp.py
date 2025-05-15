@@ -372,6 +372,9 @@ if __name__ == "__main__":
                         help='Disable required equipment analysis')
     parser.add_argument('--include-image', action='store_true', dest='image',
                         help='To include poster image as model input')
+    parser.add_argument('--processes', type=int, default=None,
+                        help='Number of parallel processes to use')
+    
     
     # Set default values for boolean arguments
     parser.set_defaults(category=True, fitness_level=True, vibe=True, spirit=True, equipment=True, image=False)
@@ -390,8 +393,8 @@ if __name__ == "__main__":
         enable_vibe=args.vibe,
         enable_spirit=args.spirit,
         enable_equipment=args.equipment,
-        include_image=args.image ,
-        num_processes=1 #!
+        include_image=args.image,
+        num_processes=args.processes
     )
 
     # Cannot use results directly here as they are deduplicated in write_results_to_csv function

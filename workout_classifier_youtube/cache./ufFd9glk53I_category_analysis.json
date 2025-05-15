@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Body weight",
+      "score": 0.8
+    },
+    {
+      "name": "Calisthenics",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The video's title and description explicitly label it as a '30-minute Full Body HIIT Workout', indicating that the primary focus is a high-intensity interval training routine. The use of phrases like 'No Repeats, No Rest, No Equipment' further reflects the HIIT classification by emphasizing its fast-paced nature and intensity. Therefore, HIIT is assigned a score of 0.9 due to clear and strong indicators. \n\nThe description and list of exercises highlight that no equipment is needed, and movements like 'Squat + Overhead Reach', 'Plank Jack', 'Twisted Jumps', and 'Mountain Climbers' rely on body weight as the primary form of resistance. Consequently, the Body weight category is highly applicable here and receives a score of 0.8.\n\nThere is also a secondary element of Calisthenics due to the inclusion of exercises like 'Burpee', 'Bear Crawl', 'Side Star Planks', and 'Inchworm', which are typically associated with calisthenics training. Therefore, Calisthenics is assigned a score of 0.6, as it strongly complements the bodyweight and HIIT elements in this workout.\n\nThere is high confidence in this categorization due to the explicit indicators found in the video's metadata."
+}

@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is described primarily as beginner-friendly in the title and the top comments reinforce this by stating it is accessible yet intense. The mention of Pilates suggests some level of coordination and control, which could lean towards intermediate. However, collective description and feedback suggest it is simple enough for beginners while also having elements that may challenge them, indicating a bridging between beginner and intermediate levels.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.78,
+  "effortDifficultyExplanation": "The duration of 32:24 suggests a more sustained moderate-to-challenging session. Comments highlight the workout as intense, causing muscle fatigue and shaking, yet they also mention it being a 30-minute light workout. This duality captures a predominantly moderate effort difficulty but with challenging elements for deconditioned users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The workout is beginner-friendly but intense, suitable for those just starting yet providing enough challenge for intermediates, which comments corroborate. The 32-minute duration slightly reduces suitability for complete beginners. Pilates form demands some coordination, reinforcing intermediate level suitability, but advanced users are likely to find benefit in intensity adjustments."
+}

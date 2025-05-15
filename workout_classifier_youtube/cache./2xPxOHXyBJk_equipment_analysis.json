@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Dumbbells",
+      "confidence": 1.0
+    },
+    {
+      "equipment": "Mat",
+      "confidence": 0.8
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout explicitly mentions that the primary equipment needed is a set of dumbbells, with specific weights (5kg, 7.5kg, and 10kg) suggested. This information is featured prominently in both the description and the title (\"15 min Full Body Workout with Dumbbells\"), hence the confidence level for dumbbells is 1.0. Additionally, the description lists an exercise mat under the 'Equipment' section needed for the workout, with exercises such as glute bridge and plank dumbbell pass likely benefiting from a mat for comfort and support. Therefore, a confidence score of 0.8 is assigned to the need for a mat, considering it's directly listed and supports floor exercises. Other items mentioned like a water bottle and towel are accessories rather than workout equipment, and thus are not included in the equipment classification."
+}

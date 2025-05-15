@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is labeled as 'beginner friendly' in both the title and comments, suggesting simple exercises with low to moderate complexity. The inclusion of Pilates, which emphasizes controlled movements, may elevate the technique slightly above pure 'Beginner'. Some user comments mention difficulty, implying minor complexity requiring attention to form, breathing, and pacing common in Pilates routines.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.75
+    },
+    {
+      "level": "Moderate",
+      "score": 0.45
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout duration is relatively short at roughly 11 minutes, which typically aligns with light effort. Comments indicate that some users find it challenging due to their fitness levels. Pilates is typically lower impact but emphasizes endurance and control, which can be moderately demanding. However, the short duration and beginner label balance this towards a lighter effort overall.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.75
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.45
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.75,
+  "requiredFitnessLevelExplanation": "Given the technique and effort difficulties, this workout is suitable for both beginners and those slightly more advanced. It's explicitly stated as 'beginner friendly,' yet user feedback indicates that beginners might find it challenging, suggesting utility for those at the beginner to lower-intermediate fitness level. Thus, it fits well for deconditioned individuals and those slightly more active."
+}

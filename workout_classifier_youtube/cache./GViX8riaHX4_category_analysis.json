@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Weight workout",
+      "score": 0.9
+    },
+    {
+      "name": "Body weight",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary category assigned is 'Weight workout' with a high confidence score of 0.9. This is due to the explicit use of 'dumbbell workout' in both the title and tags such as 'full body dumbbell workout' and 'workout with weights', as well as the detailed description of exercises like high squats, sumo deadlifts, and bent over rows that utilize dumbbells. Additionally, 'strength training' is mentioned both in the tags and description, reinforcing the use of weights as central to the workout.\n\nA secondary category, 'Body weight', is included with a lower score of 0.3. The description notes a plank at the end of the workout, which is a bodyweight exercise. This, combined with the encouragement to perform the routine slower if heavier weights aren't available, suggests some bodyweight elements, although they are not the primary focus.\n\nOther potential categories were considered and excluded: 'HIIT' due to a lack of interval training language and 'Mat' as this isn't typical floor exercise focus. The classification is confident due to the clear emphasis on dumbbells and weighted exercises."
+}

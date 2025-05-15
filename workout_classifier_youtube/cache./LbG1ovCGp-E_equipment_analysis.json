@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout video is a 30-minute morning Pilates session, explicitly described as having 'no equipment' in the tags except for the mention of a 'Mat' in the description, which is essential for Pilates exercises. The mention in the description of the 'Mat from Liforme' and the provided discount code strongly indicates that a mat is intended to be used in this workout. Given that Pilates typically involves floor exercises, a mat is almost always a fundamental piece of equipment. Therefore, it is assigned a very high confidence score of 0.9, as the mat is clearly recommended for comfort and support during the exercises."
+}

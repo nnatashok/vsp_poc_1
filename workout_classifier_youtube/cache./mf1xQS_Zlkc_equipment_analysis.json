@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Dumbbells",
+      "confidence": 1.0
+    },
+    {
+      "equipment": "Mat",
+      "confidence": 0.7
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout video is titled '20 Minute Full Body Dumbbell Workout NO REPEAT', which explicitly mentions the use of dumbbells, giving a very high confidence that dumbbells are central to the workout (confidence score: 1.0). The description further supports this by stating 'All you need is a light or moderate weight pair of dumbbells.' This reinforces that dumbbells are required for completing the workout effectively. \n\nAdditionally, the description mentions needing a 'soft surface', which implies the use of a mat for comfort during exercises performed on the floor. While a mat is not explicitly stated, it is commonly used for workouts involving ground contact or as a surface for core exercises, leading to a high confidence that a mat is recommended (confidence score: 0.7). Overall, the equipment identified is aligned with the workout's structure and the common practice for similar routines."
+}

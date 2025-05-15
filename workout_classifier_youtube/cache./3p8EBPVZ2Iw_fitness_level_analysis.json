@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is advertised as suitable for beginners and includes exercises for the abs that can be done anywhere, suggesting basic calisthenics movements such as crunches or simple planks. These exercises are straightforward with minimal complexity, which aligns with a Beginner level. However, some exercises might require moderate core control and coordination, suggesting a slight overlap into Intermediate difficulty, though the primary focus remains on Beginners.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.75
+    },
+    {
+      "level": "Challenging",
+      "score": 0.45
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is indicated as a beginner routine, but the presence of comments mentioning rounds and the duration of 12 minutes suggest several reps or sets which could be moderately demanding. The \"high intensity\" tag and comments about long 45-second intervals imply moderate to challenging effort, particularly for individuals new to exercise. Thus, the primary classification is 'Moderate,' with a secondary classification as 'Challenging' for certain users depending on fitness level and execution pace.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.9,
+  "requiredFitnessLevelExplanation": "The workout is explicitly designed for beginners, indicated by both the title and description. Given the moderate technique and effort difficulties, a strong case exists for including 'Beginner' as the primary fitness level. However, comments about multiple rounds and intensity suggest that some individuals with minimal fitness experience might also see it as somewhat challenging, supporting an inclusion of 'Intermediate' to account for the moderate effort required and potential pacing challenges. Multiple fitness levels are considered due to variable user capacity and adaptable workout pacing."
+}

@@ -1,0 +1,17 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.7
+    },
+    {
+      "equipment": "Chair",
+      "confidence": 0.7
+    },
+    {
+      "equipment": "Ankle/wrist weights",
+      "confidence": 0.3
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout title and description explicitly state that this is a 'bodyweight only' workout focusing on glutes and hamstrings, indicating minimal equipment usage.\" However, the description mentions that a mat is needed for certain exercises, assigning it a high confidence of 0.7. Furthermore, a chair or bench is specified for single-leg hip thrusts, also with a 0.7 confidence. Ankle weights are described as optional, as mentioned towards the end of the description, confirming this with a lower confidence score of 0.3 since they are not central to performing the workout but can enhance the difficulty."
+}

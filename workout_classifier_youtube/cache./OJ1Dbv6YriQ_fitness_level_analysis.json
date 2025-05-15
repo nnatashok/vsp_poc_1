@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is explicitly labeled as 'beginner strength training' and detailed for seniors or individuals with little-to-no experience. The video includes instructions on proper form and suggests using a chair to modify standing exercises, indicating simple and straightforward movements. However, the mention of using weights introduces a mild increase in technique requirements, justifying a slight consideration for an Intermediate level, but primary focus remains at the Beginner level.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The description highlights low impact and mentions that the exercises can be followed while sitting, indicating low energy expenditure. Viewer comments describe the workout as gentle and suitable as a continuable practice, supporting a Light effort classification. The requirement to use 'heavier weights' suggests adaptability in intensity, which supports a Moderate classification if weights are chosen accordingly.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.85
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.35
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.9,
+  "requiredFitnessLevelExplanation": "Given the workout\u2019s target audience of seniors and complete beginners, the required fitness level is strongly in the Beginner category. The simplicity of exercises with the option to perform them seated, as well as viewer feedback celebrating the workout as suitable for 'first-timers,' affirm this. The mention of heavier weights allows for adaptations that might be mildly challenging for seniors or complete beginners, thus meriting a slight Intermediate consideration."
+}

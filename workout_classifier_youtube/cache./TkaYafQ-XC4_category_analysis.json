@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Body weight",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 1.0,
+  "categoriesExplanation": "The primary category for this workout is 'HIIT' as evidenced by the title '15 Minute Fat Burning HIIT Workout' and the description specifying a structure of intervals with 35 seconds of work followed by 25 seconds of rest. This is a classic characteristic of High-Intensity Interval Training, especially highlighted through tags such as 'HIIT' and 'home HIIT'. The exercises listed, such as high knees and lunge jumps, further support this classification as they involve high-intensity movements typically seen in HIIT sessions. \n\nThe 'Body weight' category is also applicable, scoring 0.7, since the description and list of exercises indicate the use of body weight for resistance, with exercises like press-ups and mountain climbers demonstrating reliance on body weight for strength training. This is emphasized by the phrase 'No Equipment' in the title, indicating these exercises are body weight-based.\n\nOther categories were excluded as the workout does not involve any equipment (which rules out 'Weight workout', 'Elliptical', 'Indoor biking', 'Indoor rowing'), specific practices like 'Yoga', 'Pilates', or 'Stretching', nor is there mention of 'Meditation' or 'Breathing exercises'. The confidence in this classification is very high due to clear and explicit indicators across the metadata."
+}

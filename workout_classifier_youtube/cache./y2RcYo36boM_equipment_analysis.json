@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.8
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is identified as a Pilates class primarily for a beginner to moderate level, which typically involves floor exercises requiring some sort of cushioning for comfort and grip. The description includes a direct link to a mat from Liforme, suggesting its use in the video. This mention gives high confidence (0.8) that a mat is needed for this workout, even though the title indicates \"No Equipment.\" Pilates routines almost universally recommend a mat to cushion the body during exercises, supporting the classification. No other equipment is mentioned or implied in the metadata, and the workout seems to be bodyweight-focused given the \"No Equipment\" statement in the title."
+}

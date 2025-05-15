@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The technique difficulty is rated as Intermediate due to the use of basic compound movements like squats, lunges, and bent over rows, which require some coordination and proper form. However, some exercises, like the plank dumbbell pass and tricep pushups, demand good core stability and upper body strength, making them slightly more advanced. Given this combination, it fits well within the Intermediate range but has elements of Advanced, considering the complex coordination required for some movements.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout's effort difficulty is mostly Moderate, as it's only 15 minutes long with a structured work/rest cycle (50s work, 15s rest). While it consists of strength-focused exercises that aren't typically high in energy expenditure, user comments suggest it feels intense for the short duration. Therefore, there's a Challenging element due to the short rest intervals and the compound nature of the movements, which makes it more demanding than a purely light or moderate effort routine.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "The required fitness level is mostly Intermediate, as the workout combines both Intermediate technique difficulty and Moderate effort difficulty. However, since modifications are available, it can suit Beginners who can adapt intensity and weight used, thus earning a Beginner classification as well. The presence of some advanced techniques justifies including the Advanced level, especially for those executing with proper form and heavier weights. Multiple fitness levels are included due to adjustable dumbbell weights and exercise variations presented by the instructor."
+}

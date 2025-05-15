@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The video is titled as a HIIT workout, which often includes bodyweight exercises. The tags and description suggest a focus on basic calisthenics that are typically not highly complex. Comments indicate modification options, such as 'squat side to side', suitable for beginners, and the presence of more challenging exercises for those with some experience. Therefore, the technique difficulty is most likely a mix of Beginner and Intermediate levels.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is high-intensity interval training (HIIT) meant to replace treadmill cardio, aiming to 'burn fat fast'. Although only 10 minutes, such high-intensity workouts are known for their increased energy expenditure. Comments mentioning needing extra rest imply a demanding workout, suggesting effort difficulty from Moderate to Challenging.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.2
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    },
+    {
+      "level": "Advanced",
+      "score": 0.2
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.75,
+  "requiredFitnessLevelExplanation": "Considering technique and effort assessments, the workout is most suitable for Intermediate users due to high-intensity demands typical of HIIT workouts. The video's discussion of beginner modifications and multiple fitness levels is shown by viewers' anecdotes indicating significant fat loss and the testimonial suggesting the workout can be adjusted downwards (beginning with side squats). The Advanced level is included due to the cardiovascular challenge and short rest periods if performed at higher intensities without modifications."
+}

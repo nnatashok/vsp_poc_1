@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout consists of treadmill running, which mostly involves maintaining pace and form. This is typically a straightforward activity but includes intervals, HIIT, and endurance sections that introduce some complexity due to pace changes. Technique demands are moderate due to the coordination required to safely manage varying speeds and the treadmill setup, thus categorizing it as Beginner to Intermediate in technique difficulty.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.7
+    },
+    {
+      "level": "Extreme",
+      "score": 0.8
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout includes intervals and HIIT sections, leading to a high-intensity cardiovascular effort across a 45-minute session. Running speeds vary from 5.0 to 9.0 mph, with minimal recovery time, increasing the physical demands. Considering the extended duration and the high-intensity section (HIIT), it aligns with Challenging to Extreme effort difficulty, as it requires sustained effort for calorie burn and cardiovascular challenges.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 0.75
+    },
+    {
+      "level": "Advanced",
+      "score": 0.85
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "Given the technique and effort difficulties, the required fitness level is Intermediate to Advanced. While the treadmill setup can cater to beginners, the intensity and duration of 45 minutes with intervals, HIIT, and endurance sections suggest more advanced cardiovascular and endurance capabilities are necessary. The presence of HIIT components at high speeds further supports a higher fitness level requirement, aiding users who already have some degree of fitness experience."
+}

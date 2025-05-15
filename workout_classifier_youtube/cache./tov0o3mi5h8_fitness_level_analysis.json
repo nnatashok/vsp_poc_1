@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The video is titled and described as a 'Pilates Workout for Beginners,' which suggests simple Pilates exercises with minimal complexity of movement. Pilates is typically more focused on control and mindfulness rather than complexity, especially at the beginner level. The comments emphasize its suitability for beginners and its ease to follow, reinforcing the beginner-level classification. However, Pilates requires some degree of familiarity with basic alignment and breathing techniques, hence the slight inclusion of intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is 18 minutes long, targeting core, abs, and legs, which indicates a low to moderate intensity, especially for a Pilates class. The description notes that it's a quick and effective session suitable for beginners, and several comments highlight its accessibility. While it can have some moderate intensity due to core engagement, overall it leans towards light effort because of the shorter duration and beginner focus.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "Given the title and focus on beginners, this workout is primarily targeted at the beginner level with exercises that are easy to follow and perform. However, due to Pilates' nature, which involves some level of technique and core engagement, a small aspect leans towards requiring an intermediate understanding, especially for users completely new to any form of exercise. The positive beginner feedback in comments and emphasis on a gentle intro class in program descriptions supports this classification."
+}

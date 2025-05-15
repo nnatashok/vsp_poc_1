@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout video is explicitly described as a \"30 MIN FULL BODY WORKOUT || At-Home Beginner Pilates (No Equipment)\" in the title, indicating that no equipment is needed except for possibly a mat due to the nature of Pilates workouts which commonly involve floor exercises. Additionally, the video description includes a personal discount code for a 'Mat from Liforme', suggesting a strong recommendation for using a mat during the workout. Given the emphasis on the mat both in the description and the typical requirements for Pilates, I am assigning a very high confidence score of 1.0 for the mat being required for this workout. The rest of the metadata further supports this, as there are no mentions of any other specific equipment needed."
+}

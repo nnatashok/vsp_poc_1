@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is designed to be low-impact and without jumping, ideal for those with knee problems or joint issues, suggesting very simple movements (Beginner, 0.9). The description mentions the best body-weight exercises, which might require basic coordination and balance, suggesting a mild Intermediate level (Intermediate, 0.5). The channel focuses on easy and simple exercises, and user comments reflect positive experiences without highlighting complexity, affirming the Beginner classification.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is 15:45 minutes long, a short duration, indicating lower effort (Light, 0.8). Being a 'no jumping' routine with a focus on low-impact exercises suitable for those with joint issues, the energy expenditure is low-to-moderate, with options to adjust the intensity suggested by user comments (Moderate, 0.6). The routine intends to aid weight loss through regular repetition, indicating some level of effort beyond purely light activity.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.9,
+  "requiredFitnessLevelExplanation": "The workout's low impact and 'no jumping' nature makes it accessible for Beginners (0.9), especially given the audience's context of seeking easy home workouts. The mention of 'intense for your muscles' provides an opportunity for users to push into a more Intermediate level (0.6). Since the exercises are body-weight based, users can modify intensity, potentially challenging Advanced users slightly (0.3) due to the ability to adjust and repeat for greater endurance."
+}

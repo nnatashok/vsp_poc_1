@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout video is a guided meditation session with no physical exercise involved, focusing on relaxation and mental visualization. The techniques are simple, requiring little more than sitting comfortably and listening, which corresponds to a 'Beginner' level for technique difficulty. This classification is strongly supported by both the title and description, which emphasize relaxation and meditative guidance.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 1.0
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The meditation involves minimal physical exertion, aiming to induce a relaxed state of mind rather than a physical workout. This aligns with a 'Light' effort difficulty level since there are no intense physical demands or energy expenditure involved. Keywords highlighting relaxation and the absence of movement, such as 'relaxed state' and 'guided meditation,' affirm this classification.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "The required fitness level is primarily 'Beginner' because the session involves seated meditation, which does not require any physical fitness. However, due to the potential need for mental focus and engagement with the guided elements, 'Intermediate' is also included at a lower score. This is reflective of users familiar with meditation practices. No physical prerequisites aside from the ability to sit comfortably are necessary, and the emphasis on aligning thoughts and feelings is accessible at all levels."
+}

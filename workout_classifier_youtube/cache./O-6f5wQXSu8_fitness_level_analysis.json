@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.95
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.95,
+  "techniqueDifficultyExplanation": "The video focuses on a 10-minute guided meditation aimed at relieving anxiety. Meditation techniques typically require minimal physical coordination and complexity, falling under basic mindfulness practices. The metadata, including the title and description, indicates it's focused on anxiety relief through guided speech, with no physical movements involved. Thus, it's scored as 'Beginner' because meditation involves straightforward mental focus rather than physical techniques.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.95
+    }
+  ],
+  "effortDifficultyConfidence": 0.95,
+  "effortDifficultyExplanation": "The effort requirement for a meditation video is typically 'Light' as it involves sitting or lying down with no physical exertion. The video length is 10 minutes, indicating a session of relaxation rather than physical activity. Metadata reflects themes of calming anxiety, further supporting low physical demand. The content is aimed at mental relaxation without energy expenditure, confirming the 'Light' effort rating.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.95
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    },
+    {
+      "level": "Advanced",
+      "score": 0.2
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "Considering the 'Beginner' level technique and 'Light' effort difficulty, the primary required fitness level is 'Beginner'. However, meditation can benefit individuals across all fitness levels, including 'Intermediate' and 'Advanced', for stress management and mental relaxation. User comments emphasize accessibility and effectiveness across audiences, affirming broader level applicability. Hence, fitness levels are generously assigned up to 'Advanced' to reflect widespread applicability and benefit, even though physical fitness is not a prerequisite."
+}

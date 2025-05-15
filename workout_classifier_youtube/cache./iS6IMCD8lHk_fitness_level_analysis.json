@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout involves indoor cycling, which generally has a low technique difficulty since it involves repetitive motion with minimal coordination requirements. Terms like 'virtual cycling' and 'stationary bike workout' indicate a basic setup without complex movements. However, managing cycling cadence and effort can add an intermediate layer for those less familiar with maintaining steady cycling metrics.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.8
+    },
+    {
+      "level": "Challenging",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The duration of 45 minutes suggests a sustained effort, pushing the workout to be moderately to challengingly difficult, especially for less conditioned individuals. The tags 'fat burning' and 'spinning class' imply a more intense pace, raising the activity level above just 'light.' Some users, especially beginners, may find the sustained effort and potential intensity increases quite taxing.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.6
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "Given the 45-minute duration and effort level, this workout is most suitable for intermediate to advanced levels. While the cycling itself is straightforward, sustaining effort over such a period demands some prior fitness. Beginners might struggle with endurance despite the straightforward technique, thus reducing their score. The intensity and duration align more with those having at least intermediate experience."
+}

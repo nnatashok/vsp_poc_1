@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Calisthenics",
+      "score": 0.9
+    },
+    {
+      "name": "Body weight",
+      "score": 0.7
+    },
+    {
+      "name": "Other",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category assigned is 'Calisthenics' with a very high confidence score of 0.9. The video title explicitly mentions 'Calisthenics Exercises', and the tags repeatedly include 'calisthenics', which signal a strong focus on this type of training. The channel, THENX, is well-known for promoting calisthenics workouts, as evidenced by its description and history.\n\n'Body weight' is assigned with a score of 0.7 as calisthenics traditionally involves using one's bodyweight for exercises, which is confirmed by the inclusion of exercises like handstands, muscle-ups, and dips in the tags and comments.\n\nThe category 'Other' is assigned a low score of 0.3 to account for any non-standard exercises specific to muscle building that don't strictly fall under traditional calisthenics, like potentially utilizing a weight vest as suggested in the description, though the primary focus remains on calisthenics moves. No significant indicators suggest other categories like Weight workout, Pilates, or Yoga, thus they are not included."
+}

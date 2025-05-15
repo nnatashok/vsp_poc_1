@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Calisthenics",
+      "score": 0.95
+    },
+    {
+      "name": "Body weight",
+      "score": 0.7
+    },
+    {
+      "name": "Other",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The video is primarily classified as 'Calisthenics' with a score of 0.95 due to multiple explicit mentions of calisthenics throughout the title ('Unlimited Calisthenics Exercises'), tags ('beginner to advanced calisthenics', 'calisthenics no equipment'), and description ('beginner to advanced calisthenics tutorial'). The content focuses on exercises that require no equipment, typical of calisthenics, with examples like muscle ups and handstand push-ups.\n\n'Body weight' was assigned a score of 0.7 as the exercises described involve using body weight as resistance (e.g., push ups, pull ups), with direct mention in the description that no weights or equipment are needed.\n\n'Other' receives a score of 0.3 to account for the potential involvement of general fitness or non-categorized elements like the notable emphasis on park locations ('outdoor workout', 'beach workout'). However, due to the clear focus on calisthenics and body weight methods, its influence is minimal. Despite these considerations, the primary categories clearly align with the core calisthenic exercises outlined in the video's context."
+}

@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The metadata suggests the workout is primarily designed for beginners. The video title, tags, and description repeatedly emphasize 'beginners yoga', indicating simple movements with a focus on foundational elements. The term 'beginner' is frequently used, highlighting minimal complexity in movements. However, poses like warrior two, which require basic coordination, add a slight intermediate element, justifying a modest intermediate score.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The session is described as beginner-friendly and includes breath work and mindful movement, suggesting a low energy expenditure consistent with light effort. The phrases 'move more slowly and mindfully' and 'set to a good pace' indicate a relaxed effort difficulty. However, the 30-minute length and inclusion of some standing poses provide a slightly higher potential energy demand, justifying a moderate score.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.85
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.25
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.88,
+  "requiredFitnessLevelExplanation": "The workout is explicitly labeled as suitable for all beginners, aligning with both low technique and effort difficulty scores. While designed for beginners, the duration slightly reduces alignment with a pure beginner classification, indicating accessibility to beginners and those slightly beyond this level. Thus, the presence of intermediate scores for technique and effort also suggest some intermediate suitability, but predominantly, it is beginner-friendly."
+}

@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is labeled as a beginner Pilates session and is intended for users new to Pilates or returning to basics, as mentioned in the video description. Pilates movements typically involve moderate coordination but are generally accessible with clear instructions. User comments note clear narration and instructions, supporting a classification mostly at the beginner level, but some Pilates movements can lean slightly toward intermediate complexity due to requiring some core engagement and balance.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout duration is 31 minutes, which exceeds the 20-minute mark often challenging for beginners, suggesting moderate effort. User comments describe the workout as 'gentle' and effective yet mention specific exercises as 'killer', indicating varying intensity levels that might moderately challenge deconditioned users. The Pilates workout has no equipment, implying lower energy expenditure typically associated with light to moderate effort.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The beginner classification aligns with the workout\u2019s description as a 'Beginner Pilates' and 'return to basics'. However, due to the 31-minute duration and the presence of exercises noted by users as challenging, it also fits an intermediate level, especially for entirely deconditioned beginners. Pilates can be accessible based on self-paced modifications, explaining why it spans both beginner and intermediate fitness levels."
+}

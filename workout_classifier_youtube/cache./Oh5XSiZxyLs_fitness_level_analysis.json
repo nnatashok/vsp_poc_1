@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout involves Pilates, which typically includes movements requiring balance, coordination, and core engagement. Comments indicate users have been participating for several sessions and find the flows manageable, suggesting that while some coordination is needed, it is not overly complex, supporting an Intermediate classification. The presence of 'athletic cardio flows' and 'low impact and high impact options' imply some movements could reach Advanced complexity for those opting for high-impact versions.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.6
+    },
+    {
+      "level": "Challenging",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout is 35 minutes long, involves Cardio Pilates, and has options for high-impact movements, all of which suggest a moderately demanding session. The workout description mentions breaking a sweat and increasing heart rate, aligning with Moderate to Challenging effort levels. Comments about users finding the pace challenging at increased speed further support this classification.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.2
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "Given the 35-minute duration and the presence of cardio elements with variable intensity, this workout is most suitable for users at an Intermediate level. The technique requires some learning curve, making it less suitable for total beginners. However, beginners could attempt low-intensity versions of the exercises, which justifies their inclusion at a lower score. With high-impact options and potential complexity in the cardio flows, Advanced level scorers can also appropriately engage with increased difficulty options."
+}

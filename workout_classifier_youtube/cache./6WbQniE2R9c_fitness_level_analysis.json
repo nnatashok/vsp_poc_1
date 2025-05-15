@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The technique difficulty is primarily rated as 'Beginner' due to the focus on simple, relaxing full-body stretches targeting major muscle groups. According to the metadata, such as tags like 'full body stretch', 'stretching routine', and 'stretch for relaxation', the movements are likely gentle and straightforward, requiring minimal coordination or complexity. The description further emphasizes working at your own pace and listening to your body. However, depending on flexibility levels, some intermediate flexibility skills might be required, hence the inclusion of 'Intermediate' at a lower score.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.95
+    },
+    {
+      "level": "Moderate",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The effort difficulty is classified primarily as 'Light' due to the nature of the workout, which is focused on relaxation and recovery. The description and tags emphasize 'relax', 'unwind', and 'sore muscles', indicating a low-intensity effort. However, for individuals who are particularly tight or inflexible, some stretches might pose a 'Moderate' effort challenge, aligning with comments about feeling amazing post workout and the routine being part of injury recovery ('given by my osteopath').",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    },
+    {
+      "level": "Advanced",
+      "score": 0.2
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.9,
+  "requiredFitnessLevelExplanation": "The required fitness level includes 'Beginner', 'Intermediate', and 'Advanced' due to the accommodating nature of stretching routines, which often span multiple fitness levels depending on an individual's flexibility and mobility. The metadata suggests a very accessible workout using only a mat, focusing on 'doing what feels right for you', making it suitable for beginners. The moderate intensity reflects that those less flexible might find some stretches more challenging, warranting 'Intermediate'. Mentions of using this routine regularly as part of other fitness challenges and programs plus the 26-minute duration contribute to the inclusion of 'Advanced', albeit at a lower score."
+}

@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout comprises basic bodyweight exercises like push-ups, jumping squats, and rows, which generally range from beginner to intermediate in technique complexity. The variation of movements such as inclined push-ups and jumping squats (which require more coordination) lend themselves to an intermediate classification. Advanced elements are present but minimal, primarily due to exercise variations like jumping squats and rows with modifications, which increase demand in coordination and control slightly beyond beginner levels.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout runs for 25 minutes with exercises performed for 30 seconds and rest for 60 seconds. This setup is moderately demanding for deconditioned users, especially with exercises like jumping squats and variations such as swimmer with weights, pushing the effort towards moderate to challenging. The calisthenics focus and absence of gym equipment add to the accessibility, catering to a more general fitness level with opportunities for adaptations and increased physical demand.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "Given the technique difficulty involving basic to moderate bodyweight exercises and the workout's duration, the required fitness level is suitable for intermediate users. The slight advanced optional exercises like higher jumps indicate an opportunity for progressive intensity, thus also fitting advanced users. The length (25 minutes) slightly reduces a beginner-friendly rating, despite basic options, corroborating the clustering around intermediate and extending towards advanced capabilities, with a community reflecting favorable experience with varying fitness conditions."
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Pilates",
+      "score": 0.95
+    },
+    {
+      "name": "Stretching",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The primary category of 'Pilates' is assigned with high confidence (score: 0.95) due to several indicators in the metadata. The title 'Introduction to Pilates - Workout 1 | NHS' explicitly mentions Pilates as the focus of the workout, which is reinforced by the repeated mention of 'Pilates' in the tags and description. The description elaborates on the gentle, low-impact nature of the workout and its suitability for beginners, emphasizing core strength, flexibility, balance, and body control\u2014all key aspects of Pilates. Additionally, comments highlight the beginner-friendly approach and the format of the class resembling a typical Pilates session.\n\nA secondary category, 'Stretching', is included with a low score (score: 0.3) due to the mentioned benefits of improved flexibility and body control, which align with typical stretching outcomes. However, this classification is not central, as the primary focus is on Pilates exercises rather than dedicated stretching routines.\n\nNo other categories were suitable, given the lack of elements indicative of yoga, mat workouts, or other types of fitness activities beyond Pilates."
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Weight workout",
+      "score": 0.9
+    },
+    {
+      "name": "Mat",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout video is primarily classified as a 'Weight workout' because the title, description, and tags explicitly mention using dumbbells, which are a type of weight equipment, to perform a full-body strength workout. Words such as 'full body strength', 'dumbbell workout', and '10 LB dumbbells' provide strong evidence for this category, justifying a high score of 0.9. Additionally, a 'Mat' category is considered since a mat is listed as part of the equipment used, and the workout incorporates exercises that likely require a mat for comfort and stability, earning a score of 0.7. Although body weight exercises could be part of the routine, as suggested by phrases like 'And Without' in the title, the primary focus remains on the dumbbell use as evidenced more prominently by the metadata. Therefore, categories like 'Body weight' or 'Calisthenics' are not selected."
+}

@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Ankle/wrist weights",
+      "confidence": 0.5
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout video is titled a 'full body hourglass pilates workout' and hosted by a certified Pilates mat instructor, suggesting the use of a mat for floor exercises and Pilates routines. This is supported by the channel's focus on at-home Pilates workouts, and the mention in the channel description that the host is a Level 3 Pilates mat instructor. Based on this, there is a very high confidence (0.9) that a mat is required.\n\nAdditionally, the description suggests that more advanced individuals can add ankle weights to increase the challenge of the workout. Although their use is optional, it explicitly mentions this for those seeking to increase intensity, hence affecting a moderate confidence level (0.5) for including ankle/wrist weights."
+}

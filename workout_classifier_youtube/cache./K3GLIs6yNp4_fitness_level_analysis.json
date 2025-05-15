@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.75
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.25
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The metadata suggests a beginner-friendly Pilates workout with simple, gentle movements focused on abs and hips. The tags 'easy abs' and 'Pilates for beginners' indicate that the exercises are basic in nature, with minimal coordination required. User comments also highlight the clarity of instruction and the absence of complex choreography, further supporting a beginner technique classification. However, given pilates often involves some degree of body awareness and control, a small portion of the movements might be slightly challenging for beginners, warranting a minor inclusion in the intermediate category.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.85
+    },
+    {
+      "level": "Moderate",
+      "score": 0.15
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout's duration is 15 minutes, aligned with lower effort requirements. It is described as 'gentle' and 'low-impact,' focusing on strengthening and toning. These descriptions, along with tags like 'home workout' and comments noting the workout is engaging yet manageable, suggest a light effort level. The mention of muscle engagement can imply a slight increase in energy expenditure, thus justifying a minor inclusion in the moderate effort category.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "The combination of low technique and effort difficulty suggests the workout is primarily suitable for beginners. The workout is positioned for those looking for 'a slower and more gentle Pilates workout,' targeted specifically at beginners. Pilates, while gentle, can require some initial adaptation to movement patterns, which may be somewhat challenging for absolute beginners. Therefore, it is appropriate to also include the intermediate fitness level to account for individuals with minimal consistent experience who might find the workout a bit engaging."
+}

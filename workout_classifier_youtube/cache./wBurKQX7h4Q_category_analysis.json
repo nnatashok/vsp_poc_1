@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Indoor biking",
+      "score": 0.85
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout video is categorized as 'HIIT' with a very high confidence level of 0.9 because the title explicitly mentions \"High Intensity Interval Training,\" a defining characteristic of HIIT workouts. The description reinforces this, highlighting it as a \"high intensity interval session.\" Additional user comments, such as one describing it as a \"20 min HITT 3X a week\" session, support this categorization with strong emphasis on intervals.\n\n'Indoor biking' is assigned with a score of 0.85. This is due to the frequent references to cycling, such as \"indoor cycling training session\" and \"spin class,\" in the description and tags. The channel is known for cycling content, which strengthens the association with indoor biking.\n\nOther categories were excluded because there is no indication of exercises that would fit them. The metadata consistently emphasizes high intensity cycling-based intervals, fitting squarely within HIIT and indoor biking, without elements typical of workouts like weight training, yoga, or running."
+}

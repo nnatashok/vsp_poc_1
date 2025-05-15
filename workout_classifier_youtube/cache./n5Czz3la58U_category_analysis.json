@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Pilates",
+      "score": 0.9
+    },
+    {
+      "name": "Mat",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is classified primarily as \"Pilates\" due to multiple direct references to 'wall pilates' and 'pilates workout' in the title, tags, and description. The channel's focus on Pilates further supports this classification. The repeated mention of 'glutes and ab exercises' as part of the Pilates workout indicates that Pilates is a central component of the workout, justifying a high score (0.9) for this category. \n\nAdditionally, a secondary classification as 'Mat' is warranted with a lower score (0.4) because the video description repeatedly mentions the workout being done on the wall with no equipment, and given that \"mat\" workouts often involve bodyweight exercises, albeit with lesser emphasis. While 'mat' doesn't perfectly fit, the absence of equipment and nature of the exercises imply some overlap with mat workouts. \n\nOther categories such as \"Body weight\" and \"Calisthenics\" were considered but dismissed due to lack of evidence for exercises focusing on strength or flexibility training typical for those categories. Instead, the emphasis is clearly on Pilates techniques and principles as highlighted throughout the metadata."
+}

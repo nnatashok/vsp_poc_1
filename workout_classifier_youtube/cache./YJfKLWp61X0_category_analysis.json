@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Treadmill",
+      "score": 0.95
+    },
+    {
+      "name": "Walking",
+      "score": 0.6
+    },
+    {
+      "name": "Running",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The video is categorized primarily as a 'Treadmill' workout with a very high confidence score of 0.95 due to explicit mentions of 'treadmill climbing workout' and 'treadmill walking workout' in both the title and tags. Additionally, the description further reinforces this by describing the workout as a 'treadmill climbing workout,' a clear label that places it under this category.\n\nThe presence of 'Walking' and 'Running' are each rated with a moderate score of 0.6. The description mentions that the workout is suitable for 'short runs or walks on an incline,' indicating that users may choose to either run or walk during this treadmill exercise. The tags also include 'virtual run' and 'virtual walk,' further supporting these dual interpretations. \n\nOverall, despite some ambiguity in the actual pace chosen by individual users\u2014either running or walking\u2014the treadmill aspect is the unifying factor and most emphasized throughout the metadata, leading to these categorizations."
+}

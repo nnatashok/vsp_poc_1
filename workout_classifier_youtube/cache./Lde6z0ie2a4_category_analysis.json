@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Body weight",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category for this workout video is 'HIIT' due to the explicit mention of 'HIIT workout' in the title, description, and tags. The description specifically mentions the High Intensity Interval Training method, confirming it as the focus of this workout. Key phrases such as 'full body burn', 'intensity', and 'Les Mills Grits', a known HIIT program, further indicate a significant emphasis on HIIT. The tags 'hiit workout', 'hiit cardio', and 'full body hiit' provide additional evidence of the workout type, leading to a very high confidence level of 0.9 for the HIIT category. \n\nThe 'Body weight' category is considered as a secondary element with a score of 0.4 due to the full body nature of the exercises and the absence of specific mentions of equipment, which suggests reliance on body weight exercises. The video being home-friendly also hints towards minimal or no equipment use, leading to the inclusion of this category though with lower confidence."
+}

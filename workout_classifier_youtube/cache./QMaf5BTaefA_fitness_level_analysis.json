@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The technique difficulty of this workout is relatively low as it involves cycling, which generally requires basic movement patterns. Cyclists only need to maintain balance on the bike and adjust resistance. References to intervals like '1 min @ 2/10' indicate simple effort scaling rather than complex techniques. However, due to the structured pacing and reactive transitions between resistance levels, a slight coordination challenge exists, aligning mildly with intermediate.\n",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.6
+    },
+    {
+      "level": "Challenging",
+      "score": 0.8
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout is a high-intensity interval training (HIIT) session that lasts for 15 minutes, suggesting a significant energy expenditure in a short duration. Comments and titles mention it as a 'quick, challenging workout', indicating a high effort difficulty. The interval structure, escalating intensity ('1 min @ 2/10' to '2 mins @ 8/10'), and lack of long rest periods contribute to a 'Challenging' rating, especially for less fit users. The score for 'Moderate' reflects that it's feasible for some beginners with a relatively decent base fitness, though upper 'Moderate' due to intensifying intervals.\n",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "While the technique is fundamentally beginner-friendly, the effort required aligns stronger with intermediate users, particularly those familiarizing with HIIT's demand. The channel's positioning around cycling insulates the session for beginners, yet the intense nature suggests it caters more to those transitioning beyond novice level, hence stronger intermediate alignment. Some capabilities allow for advanced engagement, given escalated final intervals (e.g., '2 mins @ 10/10'), suitable for advanced users to get rigorous bursts. Overall, beginners could manage iteratively, but intermediates looking for robust intensity gain maximal alignment."
+}

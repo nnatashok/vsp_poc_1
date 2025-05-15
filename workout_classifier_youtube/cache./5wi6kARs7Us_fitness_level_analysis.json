@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout primarily involves using an elliptical machine, which is straightforward, as suggested by the description 'basic 30 minute elliptical workout.' The movements are simple: going 'all out' at a high pace. Additionally, Adrian mentions not setting the resistance too high, indicating a lack of major technical demand. Variations were also explicated for those without ellipticals, implying a range of accessibility, which supports the Beginner level classification. However, maintaining proper form at high speeds and the coordination required for high strides per minute (SPM) adds a minor element of complexity, warranting an Intermediate score as well.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.6
+    },
+    {
+      "level": "Challenging",
+      "score": 0.8
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "Despite being a 'basic' workout, the high intensity and the 30-20-10 rest pyramid demand substantial effort. The requirement to maintain SPM at 80% of max and the necessity to go 'all out' for repeated intervals at a brisk pace significantly elevate physical demands. The workout duration of 30 minutes compounds difficulty, especially with short rest intervals. These factors substantiate a Challenging effort difficulty for deconditioned individuals. Nevertheless, options for less intensity (such as lower resistance and multiple rest opportunities) justify a Moderate score for individuals who self-regulate effort.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.7
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.9,
+  "requiredFitnessLevelExplanation": "The workout's structure and intent align with multiple fitness levels. Beginners can manage due to the simple movement on an elliptical, coupled with the ability to self-regulate through resistance and rest intervals. Intermediate users are targeted more closely owing to the intensity described ('very intense', 'all out'), as well as the 30-minute workout length, which challenges beginner stamina. Advanced users also benefit as maintaining 80% of maximum strides demands significant cardiovascular strength. Descriptors like 'hardcore', 'extreme' in tags, and reported results highlight the potential difficulty, buttressing an Advanced score."
+}

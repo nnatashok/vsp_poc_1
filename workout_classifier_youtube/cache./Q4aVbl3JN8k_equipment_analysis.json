@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Exercise bike",
+      "confidence": 0.8
+    },
+    {
+      "equipment": "Treadmill",
+      "confidence": 0.8
+    }
+  ],
+  "requiredEquipmentExplanation": "The title explicitly mentions an \"Exercise Bike & Treadmill Fitness Routine,\" suggesting that both an exercise bike and a treadmill are central to the workout. The tags also include references to \"yesoul bike\" and \"treadmillworkout,\" reinforcing the focus on these two pieces of equipment. The description includes promotional content for Yesoul, a brand known for exercise bikes, further supporting the need for an exercise bike. Given these direct references, both the exercise bike and treadmill are assigned a high confidence score of 0.8 because they are a primary part of the workout, although other specific exercises are not detailed."
+}

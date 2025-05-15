@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The metadata indicates that a mat is needed for this workout. In the description, the creator explicitly mentions 'THE MAT I USE (Exercise 6X4)' with a link to a mat product, suggesting its use for the stretch routine. Additionally, given that this is a stretch routine focused on flexibility and likely performed on the floor, the use of a mat would enhance comfort and safety during exercises that involve floor contact. Therefore, the confidence score for a mat is set at 0.9, indicating very high confidence that a mat is required for this workout."
+}

@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.75
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout includes intermediate level exercises such as pistol squats and press-up progressions, which require some degree of balance, flexibility, and muscle control to perform correctly. Additionally, the video is tagged and described as 'intermediate,' indicating a mild complexity in movements beyond beginner levels. Although modifications are provided, suggesting accessibility to less skilled participants, the main exercises present a technical challenge, justifying the inclusion of an 'Intermediate' level with a moderate score for 'Advanced.'",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.6
+    },
+    {
+      "level": "Challenging",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "With a 30-minute duration, the workout requires a moderate amount of sustained effort, especially as it covers full-body strength and mobility exercises like calisthenics. Given the intensity implied by user comments being 'out of breath' and describing it as 'solid' and challenging, it suggests a demanding physical output. The presence of options/modifications likely allows adjustment of the effort level, supporting both 'Moderate' and 'Challenging' effort difficulty levels evenly.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 0.75
+    },
+    {
+      "level": "Advanced",
+      "score": 0.5
+    },
+    {
+      "level": "Beginner",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The classification of 'Required Fitness Level' is based on the video being explicitly tagged and described as 'intermediate.' While modifications make it accessible to beginners, the inclusion of exercises like pistol squats and the duration suggest it's best suited for those with some experience. Therefore, while it's approachable for a higher-end beginner, the primary audience is intermediate users. The inclusion of advanced-level scoring reflects those with more experience benefiting from progressing further within the exercises provided."
+}

@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The video is described as a 'Pilates for Beginners' workout, indicating the movements are likely simple and designed for those new to Pilates. The comments also highlight the video as being 'beginner-friendly' and 'manageable', supporting a Beginner classification with a Beginner score of 0.7. However, Pilates generally requires attention to form and some basic coordination, and the instructor has a background in teaching complex movements, suggesting the inclusion of Intermediate with a score of 0.3 to acknowledge minor elements that could be more challenging for absolute beginners.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.6
+    },
+    {
+      "level": "Moderate",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The video is a 30-minute full-body Pilates workout meant for beginners, which suggests a generally light effort difficulty. The emphasis on 'beginner' and reported manageability imply low intensity, earning a Light score of 0.6. The duration of 33 minutes and the term 'full body workout' suggest a Moderate classification might also be valid, recognizing some sustained effort over time with a score of 0.4.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.75
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.25
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.9,
+  "requiredFitnessLevelExplanation": "The workout is explicitly labeled for beginners, and user comments reinforce its accessibility and appropriateness, supporting a strong Beginner classification with a score of 0.75. The intermediate level is included with a score of 0.25 due to Pilates\u2019 inherent focus on form and control, which might present a slight increase in challenge for those who are less coordinated, thus appealing to the lower end of Intermediate practitioners."
+}

@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The technique difficulty is rated as 'Beginner' with a high confidence due to the straightforward nature of stretching exercises, which require minimal coordination and are accessible to most users with basic fitness levels. The presence of yoga stretches suggests a minor possible alignment with 'Intermediate' due to some poses requiring modest balance and form awareness, but the overall emphasis on basic stretches justifies a strong classification as 'Beginner'.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 1.0
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The effort difficulty is classified as 'Light' with very high confidence, as the workout is primarily stretching for relaxation and recovery, with no cardio or strength components. The video's emphasis on resting and the long duration of stretching further validate the low energy expenditure nature of the session.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    },
+    {
+      "level": "Advanced",
+      "score": 0.2
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.75,
+  "requiredFitnessLevelExplanation": "The required fitness level includes 'Beginner', 'Intermediate', and a minor consideration for 'Advanced'. The 'Beginner' level is strongly applicable given the simplicity and restorative focus of stretching. 'Intermediate' is included due to the video's duration (over 20 minutes), which can be lengthy for completely deconditioned users. 'Advanced' has slight alignment for those using the video as part of a wider training regimen where flexibility or recovery is needed, although the lack of strenuousness means it's a low consideration."
+}

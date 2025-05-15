@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The video is designed for beginner runners and involves simple treadmill running with suggested speeds and inclines, which implies basic technique requirements. Running on a treadmill is straightforward for those familiar with basic cardio equipment. Some intermediate technique might be inferred due to potential small variations in speed and incline adjustments, but the majority emphasis is on simplicity for beginners.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.55
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The description indicates that the workout consists of 15 minutes of running and recovery intervals, suggesting light-to-moderate effort due to the short duration and presence of rest periods. This aligns with the target of beginners and comments mentioning low-to-moderate intensity and suitability post other workouts, supporting a light to moderate classification.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    },
+    {
+      "level": "Advanced",
+      "score": 0.2
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "The workout is explicitly labeled as 'Beginner' in the title and tags, supported by comments from users who are beginners or returning to exercise. The technique difficulty being predominantly beginner with a light-to-moderate effort level suggests strong alignment with a beginner fitness level. However, slight intermediate applicability is given due to minor speed/incline adjustments, and comments suggesting continued engagement by returning exercisers, while a rare advanced individual might use it for lighter days."
+}

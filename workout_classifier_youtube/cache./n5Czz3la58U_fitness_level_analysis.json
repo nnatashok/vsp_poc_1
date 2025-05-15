@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The metadata explicitly labels this workout as 'beginner,' and the exercises involve basic wall Pilates which likely focus on simple movements. The description mentions that the workout is suitable for beginners, and includes tips for form, suggesting it's designed to be accessible. However, the use of wall as a support and some Pilates exercises may require a bit of body awareness, thus a minimal score for intermediate level is justified.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The video is only 14:34 minutes long, which generally indicates light physical exertion. Descriptions and tags indicate basic Pilates exercises without equipment, aligning with a 'light' classification. However, Pilates engages core muscles and involves controlled movements, which can be somewhat taxing, thus earning a moderate score as well, especially given that options to increase difficulty (like adding ankle weights) are mentioned.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "The clear focus on 'beginner' in both the title and description indicates that the workout is suitable for someone with very little experience. The technique and effort levels combined suggest that while the workout is accessible to beginners, adding variations such as repeating sets or using ankle weights can shift it toward intermediate. The user feedback also supports accessibility for complete beginners, even those with physical challenges, which reinforces a strong beginner classification with a moderate score for intermediate inclusion."
+}

@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The video features a 20-minute full-body workout using only bodyweight exercises, which are typically straightforward to perform. Based on the tags, such as 'body weight workout' and 'at home workout,' the exercises are suitable for beginners with simple movements that don't require complex coordination or equipment. Comments indicate that even beginners and less fit individuals find the workout accessible. There's a slight consideration for intermediate difficulty as the workout involves varied bodyweight exercises that may require some coordination.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.6
+    },
+    {
+      "level": "Challenging",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout is 20 minutes long, which aligns with moderate to challenging effort for deconditioned users. Metadata suggests significant energy expenditure (tags like 'burn calories,' 'burn fat') and comments reflect experiences of tiredness and sweating, especially from beginners. Though suitable for various levels, the pace and full-body nature add an element of challenge, earning it a moderate-to-challenging rating, particularly for those starting their fitness journey.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "Combining a beginner technique difficulty with moderate effort, the workout is primarily suitable for the beginner fitness level, but can challenge intermediates as well. User comments indicate that while it's accessible to beginners, it continues to provide a challenge over several days as users improve their fitness. Given the manageable technique and duration, along with the bodyweight nature allowing for self-modification, this workout can accommodate a spectrum from beginners to lower intermediates."
+}

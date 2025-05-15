@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is labeled as a 'beginner interval workout' in both the title and description, which suggests simplicity in the movement patterns. The metadata indicates basic running and potentially walking intervals, typical of beginner-level treadmill workouts. However, as running requires some basic coordination and balance, there is a small possibility that it might slightly challenge someone at the very lowest fitness level, hence a moderate score for Intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.85
+    },
+    {
+      "level": "Moderate",
+      "score": 0.25
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "This 15-minute workout incorporates 'run and recovery intervals' which typically suggests a lower intensity suitable for beginners. The duration also supports a light effort level, with descriptions urging participants to stay 'within your comfort zone', reducing the intensity. Although designated for beginners, intervals suggest a mild elevation in effort, warranting a minimal score for Moderate.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "Given the Technique Difficulty is predominantly Beginner with a light Effort Difficulty, the required fitness level is mainly Beginner, aligning with the explicit beginner targeting in the title, description, and tags. The slight score for Intermediate stems from the interval component of the treadmill workout and the ability for slight pace modulations that might moderately challenge absolute beginners."
+}

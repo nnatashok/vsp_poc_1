@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Calisthenics",
+      "score": 1.0
+    },
+    {
+      "name": "Body weight",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary workout category is 'Calisthenics' with a high confidence score of 1.0, as the video title, tags, and channel focus are all centered around calisthenics exercises. The title \"15 Minute Full Body Calisthenics Workout for Beginners\" and tags such as '#CalisthenicsForBeginners', 'calisthenics workout', and 'street workout' explicitly support the classification. Additionally, the channel name 'CALISTHENICS FAMILY' and channel description emphasize calisthenics training.\n\nThe secondary category is 'Body weight', with a score of 0.6. Although not explicitly highlighted, body weight training is inherent to calisthenics exercises, which emphasize using one's own body weight for resistance. The description mentions 'minimal equipment' and various comments discuss bodyweight exercises, reinforcing the categorization. Thus, 'Body weight' is relevant but secondary to calisthenics.\n\nOther categories like 'Weight workout' or 'Mat' are excluded due to the focus on calisthenics and bodyweight exercises rather than external resistance or equipment-heavy routines."
+}

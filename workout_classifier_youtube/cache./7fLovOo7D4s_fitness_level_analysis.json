@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is described as a 'low impact' and 'easy fitness routine,' indicating beginner-friendly movements. The tags include 'easy workout' and 'beginner exercise routine,' further suggesting simple and straightforward exercises. The channel's focus on fun, music-led low-impact workouts supports these classifications. However, a slight intermediate score is warranted due to potential coordination required for dance-like movements.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.85
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is only 7 minutes long, suggesting low energy expenditure, aligned with 'light' effort difficulty. However, phrases like 'fast-paced session' and 'get your heart pumping' indicate some level of cardiovascular challenge, justifying a 'moderate' effort difficulty score as well.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    },
+    {
+      "level": "Advanced",
+      "score": 0.2
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.9,
+  "requiredFitnessLevelExplanation": "Given the 'beginner exercise routine' and 'easy workout' tags, plus a short 7-minute duration, the workout requires minimal fitness experience, strong alignment with 'beginner' level. The intermediate level is also relevant because users can increase intensity within the session. An 'advanced' fitness level is mildly possible as users can do multiple rounds. The content is designed to be accessible, encouraging all levels to participate, but keeping it mainly beginner-friendly, with room for progression."
+}

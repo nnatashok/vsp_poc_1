@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Elliptical",
+      "score": 1
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary category for this workout is 'Elliptical' with a very high confidence (score: 1.0) because the video is explicitly titled as an 'Elliptical Interval Workout' and multiple references in the description and tags indicate an elliptical focus (e.g., 'elliptical workout', 'full body elliptical interval workout'). Additionally, it specifies using an elliptical machine with resistance adjustments and full-body engagement, reinforcing this category.\n\nThe secondary category is 'HIIT' with high confidence (score: 0.7) since the workout is described as an 'interval workout' with structured rounds and brief recovery periods, characteristic of HIIT. The description and tags like 'hiit cardio workout elliptical' also support this classification. The use of 'high resistance' and increased pace during intervals further align with HIIT principles. \n\nThe consideration of these two categories accurately captures the essence of the workout, combining elliptical usage with HIIT elements for an effective and engaging session."
+}

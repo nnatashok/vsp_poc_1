@@ -1,0 +1,46 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    },
+    {
+      "level": "Advanced",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.79,
+  "techniqueDifficultyExplanation": "The video is labeled as a 'beginner calisthenics workout', suggesting a primary focus on simple and accessible movements suitable for those new to exercise. The description emphasizes 'beginner friendly' exercises with 'difficulty variations' and 'technique tips', indicating that while the session is accessible to beginners, it also accommodates intermediate users. Considering calisthenics generally involves bodyweight movements, the technique is likely within the range of Beginner to Intermediate. The inclusion of technique tips suggests that some exercises may be slightly complex, justifying a score for Advanced as well.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.6
+    },
+    {
+      "level": "Challenging",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The 30-minute duration indicates a moderate to challenging level of effort, especially for less conditioned individuals. Calisthenics can be physically demanding due to continuous movement and involvement of multiple muscle groups. The metadata suggests energy-intensive exercises ('gain muscle, increase strength'), but the 'beginner friendly' label and inclusion of 'variations' imply the effort level can be adjusted, situating the workout between Moderate and Challenging.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "Considering the Technique and Effort Difficulty, the workout is appropriate for a broad audience. The 'beginner friendly' tag and comments from older and presumably less fit individuals imply accessibility for Beginners. However, the length and intensity suggest it might push them towards Intermediate demands. The availability of 'variations' and the typical physical demands of calisthenics allow for adaptation, making it suitable for Intermediates and Advanced exercisers. Although primarily marketed as beginner-friendly, it contains elements requiring more fitness, understanding, or experience, justifying the inclusion of Intermediate and Advanced levels."
+}

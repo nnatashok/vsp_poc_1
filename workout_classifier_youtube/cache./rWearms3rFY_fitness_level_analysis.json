@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout uses dumbbells and includes various exercises that likely involve compound movements. The description mentions that the workout is 'not too advanced' and includes modifications, indicative of a technique difficulty between beginner and intermediate. Dumbbell workouts typically require some coordination but are accessible to many users, supporting an intermediate classification with a moderate confidence for beginner due to the availability of modifications.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The video is 62 minutes long, implying a significant energy expenditure, especially with dumbbell use. The comments and description suggest challenging oneself with weight, and the inclusion of rest periods balances the exertion level somewhat. This aligns with a challenging effort difficulty for less fit users, as the long duration and strength training nature demand sustained energy output.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.6
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "Given the technique difficulty between beginner and intermediate and the challenging effort level due to duration and strength focus, the required fitness level is rated as intermediate to advanced. The workout's length (>60 minutes) and strength elements generally exceed beginner thresholds, particularly for users with low baseline fitness, supporting intermediate and advanced classifications. The video also includes modifications, allowing users to adjust intensity, confirming these levels."
+}

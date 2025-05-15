@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout is described as a yoga flow focusing on strength and energy, with mention of it being an 'intermediate full body vinyasa flow practice'. Vinyasa flows usually require some coordination and balance, especially for those unfamiliar with yoga, aligning with an Intermediate difficulty level. However, as it's described as 'simple but effective' and includes 'stretchy poses', there is also evidence supporting a Beginner level for those with basic familiarity with yoga. Thus, both Beginner and Intermediate levels are applicable.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.8
+    },
+    {
+      "level": "Challenging",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "Effort difficulty is rated between Moderate and Challenging. The workout is 18 minutes long and described as 'strength-building', implying a level of physical exertion greater than light effort. User comments and the description reflect it as an energizing and strength-focused session. Given it involves a continuous flow with no rests commonly associated with vinyasa, the demands are higher than light, supporting a Moderate to Challenging effort classification.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The video's intermediate classification supports an Intermediate fitness level requirement. However, the description as 'simple' and user-friendly language together with user feedback suggests that motivated beginners can still engage with modifications, supporting a Beginner level as well. Meanwhile, the strength and full body engagement implied by vinyasa flow justify including an Advanced fitness level for complete engagement with intensity. The less than 20-minute duration maintains accessibility for many fitness levels, thus all three levels are included."
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Weight workout",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The video is predominantly classified as a HIIT workout due to explicit mention in the title and repeated references in the description and tags. The title, '35-Minute FULL BODY HIIT Workout with Dumbbells', and tags such as 'full body HIIT', 'total body HIIT', 'HIIT with weights', confirm its primary categorization as HIIT. The specific workout structure described in the metadata (timed intervals, AMRAP finisher) aligns closely with HIIT protocols, justifying a high score of 0.9.\n\nAdditionally, 'Weight workout' is a secondary category, supported by the use of dumbbells as noted in the equipment requirement and exercise details like 'Dumbbell Burpee Deadlift' and 'Bent Over Back Row'. These elements indicate that strength training with weights is a significant component, warranting a score of 0.7. While the use of dumbbells is central, it supports the HIIT structure rather than dominating independently, hence it is given a lower score than HIIT.\n\nThe workout does include elements from other categories such as stretching (cool down), but these are supplementary and do not merit independent categorization."
+}

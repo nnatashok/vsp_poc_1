@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Pilates",
+      "score": 1.0
+    },
+    {
+      "name": "Body weight",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary category for this workout is 'Pilates' with high confidence (score: 1.0) due to explicit mentions in the title ('30-Minute Full Body Pilates Workout') and tags like 'pilates at home', 'pilates workout', and 'full body pilates'. The description further emphasizes a Pilates workout at home, reinforced by instructions to set fitness trackers to \"pilates.\" Comments also praise the Pilates aspects of the workout, indicating user experience aligns with Pilates exercises.\n\nA secondary category of 'Body weight' is considered with a moderate presence (score: 0.4), owing to the combination of Pilates flow which often involves bodyweight movements along with light dumbbells. This is supported by the workout structure, including sequences like plank and glute sequences, and lunge and arms sequence which utilize bodyweight. However, the inclusion of light-to-medium dumbbells specifies some equipment use, reducing the exclusivity of body weight exercises.\n\nOther categories like 'Weight workout' and 'Mat' were considered but not chosen as central. The use of dumbbells is mentioned, but not as a primary aspect, reducing the significance of 'Weight workout'. The 'Mat' category is implicit in the exercise style but clearly secondary to the Pilates focus."
+}

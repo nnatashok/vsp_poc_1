@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Weight workout",
+      "score": 0.9
+    },
+    {
+      "name": "Body weight",
+      "score": 0.5
+    },
+    {
+      "name": "Mat",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category assigned to this workout video is 'Weight workout' with a score of 0.9. This is due to explicit indicators in the title and description specifying the use of dumbbells for a 'full body dumbbell workout'. The extensive list of dumbbell exercises in the workout details, including squats, curls, rows, and presses, further supports this classification.\n\n'Body weight' is included with a score of 0.5 because the video features exercises like push-ups, which involve using body weight. Though the focus is mainly on dumbbells, the presence of these exercises justifies the secondary classification for body weight training.\n\n'Mat' is considered with a score of 0.3 due to the mention of a 'mat' in the equipment and part of the workout focusing on core/abs exercises typically performed on a mat, such as weighted crunches and Russian twists.\n\nOther categories such as 'HIIT' or 'Calisthenics' are excluded as there is no interval training or gymnastics-style bodyweight exercises detailed in the metadata. The 'Mat' category was not scored higher as the primary workout focus is on dumbbell exercises rather than solely mat exercises."
+}

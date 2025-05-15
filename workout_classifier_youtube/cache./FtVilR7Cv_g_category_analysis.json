@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Yoga",
+      "score": 0.8
+    },
+    {
+      "name": "Stretching",
+      "score": 0.7
+    },
+    {
+      "name": "Mat",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary category 'Yoga' is strongly supported by the title '25 MIN STRONG YOGA & STRETCH' and tags such as 'yoga stretch', 'yoga for strength', and 'yoga workout'. The description mentions a 'STRONG YOGA inspired stretch routine', which further corroborates this category with a score of 0.8 given the central presence of yoga themes.\n\nThe second selected category is 'Stretching'. The title explicitly mentions 'STRETCH', and tags like 'full body stretch' and 'stretch workout' are indicative of stretching exercises, justifying a score of 0.7 for its notable presence in the workout.\n\nThe 'Mat' category is moderately relevant, as the workout does not involve equipment and is described as low impact, aligning with floor exercises typically done on a mat. Comments about it being a recovery or rest day workout also support the low-impact, mat-based workout inference. Although not explicitly stated, the structured nature of the workout (50 sec on, 10 sec off) and no equipment needed align it with mat exercises\u2014hence a score of 0.5. \n\nOther categories such as 'Pilates' were considered due to comment requests for more Pilates videos, but there is no direct indication of Pilates exercises in this video to warrant its inclusion."
+}

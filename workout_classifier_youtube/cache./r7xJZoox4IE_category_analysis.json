@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Mat",
+      "score": 0.8
+    },
+    {
+      "name": "Body weight",
+      "score": 0.7
+    },
+    {
+      "name": "Other",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.8,
+  "categoriesExplanation": "The workout primarily involves exercises that are done on the floor, suggesting the 'Mat' category. Exercises like 'Feet Slide & Scissor Arms', 'Glute Bridge Forward March', 'Windsheild Wipers', 'Scissor Kicks', and 'Lying Star Legs' align well with mat exercises typically done without equipment. This is supported by the description listing body movements performed on the ground. Therefore, 'Mat' was scored 0.8 due to its strong presence.\n\nThe workout also seems to rely on bodyweight for resistance, given exercises like 'Glute Bridge Forward March' and 'Swimmers', indicating the 'Body weight' category, scored at 0.7 for its significant role.\n\nThe 'Other' category was included with a lower score of 0.5 to cover any unspecific facets, as the title describes the workout as a 'Lazy Girl' workout, which may not strictly fit traditional categories fully, allowing room for interpretation. No specific indicators for other categories like 'Yoga', 'HIIT', or 'Pilates' were present, justifying their exclusion in the analysis."
+}

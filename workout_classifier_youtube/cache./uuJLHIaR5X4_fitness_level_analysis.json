@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is primarily conducted on an elliptical, which requires basic level coordination and balance, typical for beginner exercises. The description emphasizes form adjustments, implying some technical considerations, but the machine's guided motion keeps it largely beginner-friendly. Thus, the technique difficulty is mostly beginner with a small intermediate component for those less familiar with machine usage.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is a high-intensity interval training (HIIT) session with intervals of varying sprint durations and minimal rest. While it is only 10 minutes long, the 'all-out max effort' pyramid intervals suggest a challenging level due to the high intensity sprints, especially for less fit users. The intervals are designed to 'push your body to the max,' suggesting a challenging energy expenditure, although the short overall duration allows for some moderate classification.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "Considering the high-intensity nature of the workout, it aligns strongly with an intermediate fitness level. Beginners can participate given the modification potential of using self-selected resistance on the elliptical. Advanced users might find it moderately challenging depending on their fitness level, especially if they increase the machine's resistance. The technique is simple enough for beginners, yet the effort demands elevate it to suit intermediate levels more prominently."
+}

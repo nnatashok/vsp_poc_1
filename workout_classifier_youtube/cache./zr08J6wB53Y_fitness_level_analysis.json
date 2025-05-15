@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is described as 'FILLED WITH BASICS' and includes moves like Dolphin Holds and Planks. The description reassures users that nothing 'too fancy' is involved, suggesting simplicity in execution. While basics usually imply Beginner level, the inclusion of sustained holds and the quick pace may require some awareness and practice, nudging the complexity slightly towards Intermediate for deconditioned users.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The video is explicitly labeled as 'HIGH INTENSITY' and aims to burn a significant number of calories in a short period, indicating a challenging effort level. The effort difficulty is accentuated by quick movements with 'ACTIVE BREAKS' using contractions rather than complete rest. User feedback suggests significant physical demand ('hair ruined & face sweating', 'started crying'). However, since the workout is only 10 minutes long, the overall exertion remains feasible, allowing a score that captures both Moderate and Challenging levels.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.2
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "Combining the technique and effort difficulty, the workout is most suitable for Intermediate users due to its high intensity and sustained movements, which could require some initial conditioning. Advanced users might find the pace and contraction-based rests suitable for maintaining or improving fitness. Despite its challenging aspects, the workout's short duration and move simplicity allow Beginners to still engage at their pace, adjusting intensity as needed. These factors support a broad classification with some skew towards Intermediate and Advanced levels."
+}

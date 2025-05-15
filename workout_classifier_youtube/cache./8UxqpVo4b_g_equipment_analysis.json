@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Pull-up bars",
+      "confidence": 0.6
+    },
+    {
+      "equipment": "Other",
+      "confidence": 0.6
+    }
+  ],
+  "requiredEquipmentExplanation": "The video is centered on calisthenics and the title, description, and tags all suggest a bodyweight-focused workout, which typically requires no equipment. However, the description includes a link to purchase wooden gymnastic rings, implying their use for performing exercises such as ring dips or pull-ups. Furthermore, calisthenics often involves exercises that can be done using pull-up bars for movements like pull-ups or chin-ups, so they are likely needed for full participation in the circuit. This justifies the inclusion of 'Pull-up bars' with high confidence (0.6), given that this would match the typical equipment used in such workouts. Additionally, 'Other' equipment, specifically gymnastic rings, is hinted at with the affiliate link in the description, warranting a similar confidence level (0.6)."
+}

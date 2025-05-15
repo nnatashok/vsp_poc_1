@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout is a 45-minute Tabata HIIT session with weights, which suggests a level of complexity in both structuring exercises and in executing them with proper form. Tagging and description indicate the use of weights and structured intervals (Tabata), which require coordination and technique beyond basic exercises. The inclusion of dumbbells in the workout points to a slightly higher level of technical demand due to balance and coordination required, suggesting a score between Intermediate and Advanced.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.9
+    },
+    {
+      "level": "Extreme",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The duration of 48:30 and the high-intensity nature (HIIT, Tabata) of the workout imply a significant energy expenditure. As a HIIT workout with weights extending nearly 50 minutes, it qualifies as Challenging, with elements of Extreme difficulty for deconditioned individuals. This classification is reinforced by user comments praising the challenge and the overall structure of Tabata, known for intensity, cycles, and short rest periods.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 0.9
+    },
+    {
+      "level": "Advanced",
+      "score": 0.7
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.9,
+  "requiredFitnessLevelExplanation": "Based on the technique and effort difficulty, the workout fits well for Intermediate to Advanced fitness levels. The use of adjustable weights allows modification, accommodating different fitness levels. The workout's duration and intensity place it outside the Beginner category despite possible modifications, supported by the target audience inferred from comments. High scores for Intermediate and Advanced are due to duration and intensity, supported by multiple fitness levels in metadata suggesting modification capability."
+}

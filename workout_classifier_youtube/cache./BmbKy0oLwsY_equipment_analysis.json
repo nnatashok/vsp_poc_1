@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.8
+    },
+    {
+      "equipment": "Chair",
+      "confidence": 0.6
+    }
+  ],
+  "requiredEquipmentExplanation": "The video is a full-body stretching routine designed to be performed at home, as mentioned in the description and title. The description explicitly suggests that viewers \"may want a chair to hold onto for some of these stretches,\" leading to a high confidence score of 0.6 for the chair, as it is implied to be helpful for balance during certain exercises. The mention of a \"yoga mat for comfort\" also justifies a very high confidence score of 0.8 for the mat, as it is likely necessary to provide cushioning and support during the stretches. While other equipment is not mentioned, the context and nature of the stretching routine suggest these two items are likely to be the most beneficial for users."
+}

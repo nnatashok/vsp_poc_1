@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.95
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The technique difficulty is classified as 'Beginner' with strong confidence due to the simplicity of walking-based treadmill cardio. Walking on a treadmill requires minimal coordination and is a foundational exercise suitable for individuals of all fitness levels, aligning with the 'Beginner' classification. The mention of treadmill settings indicates potential customization that could slightly elevate difficulty to 'Intermediate,' but overall execution remains basic.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.35
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The effort difficulty is primarily 'Light' given the short duration (approximately 6 minutes) and walking nature of the exercise. The video emphasizes fat loss through walking on a treadmill, suggesting low-intensity effort. The mention of incline and speed adjustments implies some potential for increased effort, thus a secondary 'Moderate' classification is considered. However, the 6-minute duration significantly limits the energy expenditure, maintaining the predominant 'Light' classification.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.25
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "The required fitness level is 'Beginner' with high confidence due to the basic nature of treadmill walking, suitable for those completely new to exercise. The video does not demand more than minimal cardiovascular capacity. Although the user can adjust speed and incline, the short duration aligns well with beginner capabilities. The potential for slight adjustments to intensity supports a secondary 'Intermediate' score, acknowledging users with minimal fitness experience who seek mild progression."
+}

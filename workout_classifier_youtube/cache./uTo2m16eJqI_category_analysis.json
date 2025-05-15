@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 1.0
+    },
+    {
+      "name": "Mat",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary category chosen is 'HIIT' with a score of 1.0, as the workout is explicitly described as a 'HIIT CARDIO WORKOUT' in the title and description. The description details a regimen involving intense exercises with '50 seconds on and 10 seconds off,' which aligns well with high-intensity interval training. The presence of tags such as 'hiit', 'hiit cardio workout', and 'burn fat' further supports this classification, affirming the strong presence of HIIT elements and contributing to a very high confidence level of 0.9.\n\nThe secondary category is 'Mat' with a score of 0.4. Although not explicitly mentioned, the fact that this is an at-home workout that includes 'no repeat exercises' and jumping jacks suggests a likely use of an exercise mat for some portions, especially given the mention of working out on a 'hardwood floor surface.' This infers moderate inclusion of mat-based activities. \n\nOther potential categories like 'Body weight' were considered but not selected due to insufficient specific mention of strength exercises typically associated with body-weight training."
+}

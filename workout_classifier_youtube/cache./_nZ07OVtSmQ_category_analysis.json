@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Mat",
+      "score": 0.9
+    },
+    {
+      "name": "Body weight",
+      "score": 0.7
+    },
+    {
+      "name": "Other",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The video is categorized primarily under 'Mat' because it involves seated exercises on a chair, which is akin to floor exercises in terms of low-impact and stationary nature. Metadata mentions 'seated cardio workout', 'chair aerobics', and 'low impact workout', strongly suggesting a generalized, mat-like workout style. A score of 0.9 reflects this central aspect of the workout.\n\n'Body weight' is relevant because the workout does not require additional equipment beyond a chair, involving movements like jacks and kicks that likely use the body's own weight for resistance and cardiovascular challenge. This is supported by phrases such as 'chair cardio exercises' and 'burn fat, boost your metabolism'. The score of 0.7 indicates a strong presence.\n\nThe 'Other' category is considered due to the unique nature of chair-based exercise, which is not a typical classification in exercise genres. A score of 0.3 reflects its mild presence.\n\nCategories like 'HIIT', 'Yoga', or 'Pilates' were excluded due to a lack of specific intensity intervals or mind-body elements in the provided metadata."
+}

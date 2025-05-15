@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The technique difficulty is evaluated as Beginner to Intermediate. The workout primarily involves standing movements with dumbbells, which suggests it includes basic lifts and controlled movements rather than highly technical exercises. The mention of medium dumbbells and an audience engaging with weights from 5-12 lbs indicates that the exercises are manageable in complexity. The 'no wrists' feature suggests a focus on safer, simpler movements. Comments from varied users, including a 61-year-old, suggest accessibility across skill levels.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The effort difficulty is assessed as Moderate to Challenging. The 20-minute duration with 45-second intervals and 15-second rests promotes a steady pace aimed at increasing heart rate. The comments support moderate energy expenditure with numerous mentions of sweating and feeling \u2018genuinely worked out\u2019. The user's ability to adjust weight from 5-12 lbs allows for varying effort levels, contributing to the Moderate score, while the structured intervals indicate a Challenging intensity for less conditioned users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "The required fitness level incorporates Beginner to Advanced, with the strongest alignment at Intermediate. Beginner classification is warranted as users can adjust dumbbell weights and intervals appear accessible; however, the 20-minute structured workout with dumbbells indicates an Intermediate baseline. Advanced users can select heavier weights (up to 12 lbs) for increased intensity. Comments highlight that beginners and older adults participate but find it challenging, which supports a broad range classification. The balance of weight choice and workout pace allows beginners to engage safely while still challenging intermediates and advanced users."
+}

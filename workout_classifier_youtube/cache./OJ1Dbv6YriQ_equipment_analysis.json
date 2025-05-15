@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Dumbbells",
+      "confidence": 0.8
+    },
+    {
+      "equipment": "Chair",
+      "confidence": 0.6
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout video is titled 'STRENGTH TRAINING for BEGINNERS' and emphasizes building strength, which typically involves resistance equipment like dumbbells. The description explicitly mentions the use of \"heavier weights,\" indicating that dumbbells are required for the workout. This is supported by a top comment mentioning continued use of weights. Therefore, dumbbells are assigned a very high confidence level of 0.8.\n\nAdditionally, the description notes that exercises are demonstrated standing but can also be performed sitting in a chair, implying the chair can be an optional support for those who need it, especially since the workout targets seniors and beginners. Hence, the chair is assigned a high confidence level of 0.6 as a supportive or optional piece of equipment in this context. There is no mention or implication of the need for a mat or other floor-based equipment, as exercises seem to be performed standing or sitting."
+}

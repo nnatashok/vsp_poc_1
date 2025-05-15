@@ -1,0 +1,22 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.95
+    },
+    {
+      "name": "Mat",
+      "score": 0.3
+    },
+    {
+      "name": "Body weight",
+      "score": 0.7
+    },
+    {
+      "name": "Other",
+      "score": 0.2
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "1. **HIIT (0.95):** This category is the primary match due to several strong indicators: 'Cardio HIIT' in the title, tags like 'HIIT', 'Intensehiit', 'cardiohiit', 'fullbodyhiit', and the description mentioning '45-sec on / 15-sec off\u2019, a common HIIT interval. This evidence points to a structured high-intensity interval workout without equipment.\n\n2. **Body weight (0.7):** The workout is labeled with 'No Equipment', suggesting bodyweight exercises. The channel's focus on 'real-time, at-home workouts' also implies exercises using body weight. Thus, this category fits moderately well.\n\n3. **Mat (0.3):** Although not explicitly stated, the absence of equipment and the 'all standing' description suggests a mat-like setting but not in the traditional sense of mat exercises. Thus, this category has a low score.\n\n4. **Other (0.2):** Although the metadata is well-aligned with HIIT and bodyweight exercises, the mention of 'Standing' workouts might be unusual for traditional categories, warranting a slight consideration of the 'Other' category for atypical content."
+}

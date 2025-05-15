@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.8
+    },
+    {
+      "equipment": "Dumbbells",
+      "confidence": 0.8
+    }
+  ],
+  "requiredEquipmentExplanation": "Based on the metadata provided, the workout explicitly mentions a mat or soft surface in the description, indicating that a Mat is required, which is further supported by a link to the mat used. This aligns with a workflow that involves floor exercises, marking the confidence level as very high (0.8).\n\nDumbbells are also mentioned in the description with a specific recommendation link, and multiple comments from users reference the use of dumbbells with specific weights (e.g., 5lbs and 13lbs) being used during the workout. Additionally, one comment mentions \"weights overhead,\" which supports the use of dumbbells for the upper body strength component of the workout, thus warranting a very high confidence score (0.8) for Dumbbells as well. The evidence clearly points to both Mat and Dumbbells being essential for the full workout experience."
+}

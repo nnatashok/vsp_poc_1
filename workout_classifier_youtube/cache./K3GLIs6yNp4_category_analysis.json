@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Pilates",
+      "score": 1
+    },
+    {
+      "name": "Mat",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The category 'Pilates' is chosen with a score of 1 due to explicit mentions in the title, tags, and description highlighting this as a Pilates workout. Words like \"Pilates for Beginners,\" \"pilates abs workout,\" and \"mat pilates\" indicate the focus of this video. The title's emphasis on \"abs and hip workout\" aligns with typical Pilates practices, supporting core strength and flexibility, which are also reinforced by the channel description and stated focus. The description further specifies this as a 'gentle Pilates routine,' confirming the accuracy of this classification.\n\n' Categories related to 'Mat' exercises scored 0.7, as the workout involves exercises performed on a mat, and are low impact, as stated in the description and tags like 'mat pilates.' This aligns with typical mat-based Pilates exercises. No other categories like \"Body weight\" were included due to the specificity of Pilates terminology and focus throughout the metadata, which excludes generalized bodyweight exercises."
+}

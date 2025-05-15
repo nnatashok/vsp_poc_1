@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.65
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.45
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.78,
+  "techniqueDifficultyExplanation": "The technique difficulty is predominantly Beginner due to the focus on cycling, which involves simple, repetitive motions with minimal technical complexity. The high cadence aspect requires some coordination and body awareness, elevating the classification to include Intermediate. However, the overall technique remains relatively simple for most users familiar with cycling.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The effort difficulty is classified as Moderate to Challenging due to the described intervals with varying intensities, reaching up to 10/10 effort, indicating significant cardiovascular and muscular demand. Despite the short duration of 10 minutes, the high cadence and intensity levels described suggest a higher energy expenditure, especially for less fit individuals.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.75,
+  "requiredFitnessLevelExplanation": "Given the combination of technique and effort difficulty, the required fitness level spans Beginner to Advanced. With the ability to adjust bike resistance and cadence, beginners can manage the workout at a slower pace, while the high-effort intervals challenge Intermediate and Advanced users. The presence of rest and moderate intensity sections makes it accessible, but the intensity spikes demand a certain fitness level to fully engage, justifying inclusion of Intermediate and Advanced levels."
+}

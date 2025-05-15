@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.75
+    },
+    {
+      "level": "Beginner",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout is described as an intermediate Pilates session, which typically involves exercises requiring some degree of coordination and body awareness. Pilates is generally more complex than basic exercises due to its focus on form, breathing, and muscle control, fitting well into the Intermediate level. However, the lack of equipment and the option to perform exercises at home might make it accessible to some determined beginners, warranting a lower score inclusion for Beginner.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Light",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout is a 21-minute Pilates session, which usually involves continuous movement that can be moderately challenging, especially when done properly with controlled breathing and engagement. This aligns with moderate effort difficulty due to the session's duration and the typical exertion level for Pilates. The absence of equipment makes it less physically demanding than other types of workouts, allowing for a light effort classification as well for less vigorous execution.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Beginner",
+      "score": 0.45
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "Given the intermediate technique difficulty and moderate effort required, the workout is best suited for individuals at an Intermediate fitness level, particularly those familiar with Pilates' nuances. However, the accessibility of a 20-minute home workout and accommodating comments from users who appreciate the session suggest that slightly dedicated beginners, particularly with a higher motivation or previous exposure to similar routines, could also find it manageable."
+}

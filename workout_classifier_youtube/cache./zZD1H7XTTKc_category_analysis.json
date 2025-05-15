@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Mat",
+      "score": 0.9
+    },
+    {
+      "name": "Body weight",
+      "score": 0.75
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout is classified as a 'Mat' workout with high confidence (0.9) because the video's title and description explicitly mention 'MAT WORKOUT AT HOME,' suggesting exercises performed on an exercise mat at home. The tags also support this, emphasizing 'at home workout' and 'easy workout.' Additionally, the workout involves exercises like Baby Pose, Bridge, Donkey Kicks, Fire Hydrant, and others which are typically performed on a mat, further supporting this classification. \n\nThe 'Body weight' category is chosen with a score of 0.75 because the exercises listed (e.g., Plank Press Back, Leg Drops) usually involve using one's own body weight for resistance. This is supported by the channel's description stating their focus on 'effective body weight workouts.' \n\nOther potential categories, such as 'Calisthenics' or 'Stretching,' were considered but excluded due to the main focus being fat-burning exercises using body movements on a mat, which aligns best with 'Mat' and 'Body weight.' The term 'lazy workout' suggests lower intensity, supporting these categories rather than high-intensity categories like HIIT."
+}

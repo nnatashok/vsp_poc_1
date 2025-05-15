@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Chair",
+      "confidence": 0.8
+    }
+  ],
+  "requiredEquipmentExplanation": "The metadata analysis indicates a very high confidence in the necessity of a mat, given the title and description's explicit mention of \"20 Minute Full Body Stretch\" and the inclusion of a yoga mat link in the description. This strongly suggests that a mat is central to the workout. Additionally, a chair is indicated as necessary, with an 0.8 confidence level, as both the description and the detailed workout overview list specific stretches involving a chair (e.g., \"Chair Stretches - Seated Figure Four\" and \"Chair Chest Stretch\"). These elements clearly imply that a chair is an integral part of the routine. No other equipment is suggested by the metadata, leading to the conclusion that only a mat and a chair are required for this stretch workout."
+}

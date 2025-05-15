@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout consists of bodyweight exercises with compound movements, indicating a need for coordination but not overly complex technique. The description mentions a 'moderate tempo per rep,' suggesting straightforward execution. Additionally, user comments highlight the availability of modifications, indicating exercises are accessible with beginner technique options, but the use of compound movements implicates intermediate level skills.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The effort level is influenced by the inclusion of cardio and core moves designed to ramp up calorie burn, as well as targeting multiple muscle groups. It's a 20-minute session, which indicates moderate duration, and the description notes a focus on fat burning and muscle building. The effort required is thus rated as Moderate, with Challenging aspects due to combined cardio and strength components, confirmed by comments like '20 Minutes, Intense and burns the whole body!'",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "The technique and effort levels suggest the workout is accessible to a broad range of fitness levels. Beginner users can utilize the modifications mentioned in both the metadata and comments. Intermediates will find the compound, full-body movements suitably challenging. Advanced users may gain benefit from the intensity and muscle target variety. The duration over 20 minutes slightly reduces appropriateness for pure beginners while increasing relevance for those slightly more experienced."
+}

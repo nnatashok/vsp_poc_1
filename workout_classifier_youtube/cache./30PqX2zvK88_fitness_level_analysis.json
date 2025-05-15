@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.75
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The exercises listed, such as push ups, planks, squats, and lunges, are generally categorized as beginner to intermediate in terms of technique difficulty. These movements do not require advanced coordination or balance but focus on proper form to maximize benefits and minimize injury risk. Exercises like pull-ups and single leg glute bridges add a moderate level of complexity, hence the inclusion of 'Intermediate' at a slightly higher score. The variety in exercise options, as mentioned in the description, supports this classification.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.75
+    },
+    {
+      "level": "Challenging",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout's duration (11:57) and inclusion of full-body exercises like burpees and pull-ups suggest a moderate to challenging effort difficulty. These exercises can be quite physically demanding, especially for beginners or deconditioned individuals. The lack of rest periods and the compound nature of the exercises (e.g., burpees) contribute to the 'Challenging' classification, although the video also has elements more appropriate for a 'Moderate' classification for those with some exercise experience.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.65
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.85
+    },
+    {
+      "level": "Advanced",
+      "score": 0.55
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "Given the technique and effort difficulties, the required fitness level spans from beginner to advanced. The inclusion of beginner, intermediate, and advanced options allows flexibility across fitness levels, which aligns with the description supporting users to scale exercises to their abilities. Comments also indicate variability in difficulty perception among users. Although suitable for beginners, the need for more effortful exercises like pull-ups and burpees suggests a higher score for intermediate levels and even some applicability for advanced users looking to focus on technique and form."
+}

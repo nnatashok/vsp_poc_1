@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Blocks",
+      "confidence": 0.85
+    }
+  ],
+  "requiredEquipmentExplanation": "The video is a 15-minute full-body stretching routine, as indicated in the title and tags such as \"yoga,\" \"stretching routine,\" and \"full body stretch.\" This suggests that a Mat is likely necessary to provide a comfortable surface for performing floor exercises and stretches, resulting in a high confidence score of 0.9. Furthermore, the description mentions a pose called \"Block Noodle Pose,\" which likely involves the use of Blocks for support or as a prop, leading to a confidence score of 0.85. No other specific equipment is implied or mentioned in the metadata, suggesting that the workout primarily focuses on stretching exercises using minimal equipment beyond a mat and blocks."
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Pilates",
+      "score": 1
+    },
+    {
+      "name": "Mat",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The workout is classified with high confidence as 'Pilates' due to explicit indicators in both the title and tags such as 'Pilates workout', 'feel good Pilates', and 'at-home Pilates workout'. The channel 'Move With Nicole' is led by a Certified Pilates Instructor, reinforcing this classification. The description supports this with phrases like 'gentle and feel good Pilates class'. Hence, a score of 1 is assigned to 'Pilates.' \n\nAdditionally, the workout is performed without equipment, on a mat, as indicated by phrases such as 'Mat from Liforme' and 'at-home workout'. The tags also mention 'mat Pilates', justifying a secondary category of 'Mat' with a score of 0.7. Other categories do not apply due to lack of evidence of their specific exercises or methods in the metadata."
+}

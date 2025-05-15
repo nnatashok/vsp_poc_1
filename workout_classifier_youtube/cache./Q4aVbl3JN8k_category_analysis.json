@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor biking",
+      "score": 0.8
+    },
+    {
+      "name": "Treadmill",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The video is classified under 'Indoor biking' and 'Treadmill' categories based on several metadata cues. The title of the video explicitly mentions 'Exercise Bike & Treadmill Fitness Routine', clearly indicating the focus on workouts involving both an exercise bike and a treadmill. The tags further support this with phrases like '#cyclingindoor', 'yesoul bike', and 'treadmillworkout', which strongly suggest activities involving stationary cycling and treadmill exercises are central to the video's content. The use of a particular brand (Yesoul) associated with indoor bikes solidifies the 'Indoor biking' classification with a score of 0.8. The 'Treadmill' category is also significant but slightly less prominent, with a score of 0.7, due to the equal emphasis on both exercise methods in the title and tags. No other categories like 'HIIT', 'Body weight', or 'Running' are suggested, as there is no indication of their presence. Overall, these classifications are made with very high confidence due to strong explicit evidence in the metadata."
+}

@@ -1,0 +1,17 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Dumbbells",
+      "confidence": 1.0
+    },
+    {
+      "equipment": "Weight bench",
+      "confidence": 0.6
+    },
+    {
+      "equipment": "Ankle/wrist weights",
+      "confidence": 0.3
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout explicitly requires dumbbells, as stated in both the title and description of the video. The phrase \"Build Muscle with Dumbbells\" in the title and multiple references to using heavy dumbbells in the description and exercise list justify a very high confidence score of 1.0 for dumbbells. An exercise bench is mentioned as optional in the description, indicating that it may enhance the workout but is not strictly necessary. The reference to 'exercise bench' in the optional equipment section assigns a high confidence score of 0.6 for weight bench. Wrist weights are also mentioned as optional equipment, giving them a lower confidence score of 0.3 as they are not central to the exercises listed but might be used for added resistance."
+}

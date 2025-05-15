@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Weight workout",
+      "score": 0.9
+    },
+    {
+      "name": "Body weight",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category is 'Weight workout' with a very high confidence (score: 0.9). This is substantiated by the explicit mention of using dumbbells for standing exercises in the title and description, which are key indicators of weight training. The exercises mentioned, such as mini traditional squats and bicep curls, are typically performed with weights, reinforcing this classification. \n\nA secondary possible category is 'Body weight', with a low to moderate presence (score: 0.3). Although the workout uses weights, the exercises can potentially be adapted using body-weight resistance if dumbbells or other weight substitutes are not available, as suggested by the mention of using water bottles or cans as alternatives. \n\nOther categories were considered but not selected. For instance, 'HIIT' was excluded as the workout emphasizes light to moderate strength training rather than intense intervals. The calming and supportive tone for beginners and seniors further aligns with a strength-focused regimen rather than high intensity. 'Mat' workouts were also excluded since all exercises are indicated to be performed standing up."
+}

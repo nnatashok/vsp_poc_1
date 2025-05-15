@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.95
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The video is labeled 'beginner friendly' in the title, suggesting that the workout consists of simple movements. Pilates, especially at a beginner level, typically involves basic exercises focusing on control and form, but nothing too complex. Comments also reflect appreciation from a broad audience, implying the workout's accessibility. The term 'flexibility' does involve some range of motion but is generally manageable at a basic level. The score for beginner is very high due to the explicit label and context, with a minimal score for intermediate to account for potential variability in Pilates exercises.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.9
+    },
+    {
+      "level": "Moderate",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is only 10 minutes long and described as 'calming' and 'relaxing,' indicating a low-intensity session typical of light Pilates focused on mobility and flexibility. The technique of Pilates is associated with controlled movements and mindful breathing rather than high energy workouts. The effort is labeled 'light' due to short duration and relaxed nature, with a moderate score to acknowledge potential slight cardiovascular engagement.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.95
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.9,
+  "requiredFitnessLevelExplanation": "Given the technique and effort difficulties are both predominantly rated as beginner-friendly, the workout is highly suitable for beginners. The explicit 'beginner friendly' label and light effort advice heavily influence this. An intermediate score is assigned to encapsulate those who might find the flexibility component slightly challenging, but the overall workout's simplicity and brevity make it most suitable for beginners."
+}

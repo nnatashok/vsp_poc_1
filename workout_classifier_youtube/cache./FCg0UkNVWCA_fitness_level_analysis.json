@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.85
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout video features a 15-minute full body stretch routine with a focus on improving mobility and flexibility. The techniques involved appear to be basic stretching exercises, as indicated by the tags such as 'stretching exercises for beginners' and the instructional design of '50 sec on, 10 sec off.' Such stretches are generally suitable for beginners due to their straightforward nature. However, the description mentions a 'Deep Full Body Stretch,' suggesting a slightly more involved approach that might offer mild complexity, hence the moderate score for intermediate technique difficulty.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.95
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "Given the 15-minute duration, focus on recovery and mobility, and absence of equipment, the workout is classified as light in effort difficulty. The description emphasizes a recovery focus with gentle stretching, suitable for individuals looking to enhance flexibility rather than engage in high-energy exercises. The intervals of 50 seconds on and 10 seconds off support a low-intensity session designed to promote mobility with minimal physical exertion. Comments describing the session as a 'quick reset' and 'gentle reminder' further reinforce the light effort difficulty classification.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.85
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.45
+    },
+    {
+      "level": "Advanced",
+      "score": 0.2
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The workout is primarily targeted at beginners given its simplicity, light intensity, and focus on recovery. The inclusion of 'stretching exercises for beginners' in the tags and the lack of complex movements or high energy demands support a beginner fitness level with high confidence. However, due to the slightly deeper stretching focus and comments from more experienced individuals valuing it for flexibility improvement, it may also appeal to intermediates and, to a lesser degree, advanced users seeking active recovery. These considerations account for the inclusion of multiple fitness level ratings."
+}

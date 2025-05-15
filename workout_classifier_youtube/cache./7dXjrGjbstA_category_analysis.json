@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Body weight",
+      "score": 0.8
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    },
+    {
+      "name": "Calisthenics",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.8,
+  "categoriesExplanation": "The workout video is classified primarily under 'Body weight' with a score of 0.8 due to the explicit mention of 'bodyweight workout' in the title, description, and tags, indicating a central focus on exercises that use the body as the primary form of resistance. The 'HIIT' category receives a score of 0.6 as the tags include 'hiit' and 'high intensity workouts', and the description mentions performing exercises for set periods with short rest intervals, typical of HIIT structure. 'Calisthenics' is assigned a score of 0.5 as it is listed in the tags and aligns with the functional and strength-focused aspect of bodyweight exercises, though it is less explicitly emphasized compared to bodyweight. The other potential categories, like 'Weight workout' or 'Mat', are excluded due to the lack of equipment and the focus on intense, repetitive body movements rather than slow strength sets or floor-based routines."
+}

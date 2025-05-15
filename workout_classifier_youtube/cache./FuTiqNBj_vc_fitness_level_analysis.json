@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout is described as 'beginner friendly' in the title, indicating simple and straightforward exercises. Pilates can include slightly complex movements, but given the emphasis on being beginner-friendly, we assign it primarily to Beginner with some leaning towards Intermediate due to the potential for slightly complex Pilates postures.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.2
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The 10-minute workout duration and 'no equipment' and 'beginner friendly' descriptors indicate a light effort difficulty level. The video's emphasis on being suitable for quick sessions and user comments expressing ease and enjoyment further support this assessment. However, Pilates can sometimes involve more controlled effort, slightly touching on a moderate level.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.1
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "The workout is clearly aimed at beginners, as stated in the title, and the short duration makes it highly accessible. Pilates generally allows modifications, which means some movements might require a bit of awareness, hence the slight assignment to Intermediate level. User comments indicate it's effective and enjoyable, which fits well with beginner and slightly with intermediate fitness levels, especially for users seeking to incorporate consistent exercise in their routine."
+}

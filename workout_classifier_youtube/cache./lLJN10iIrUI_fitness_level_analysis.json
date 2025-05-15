@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.95
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.35
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The exercises listed, such as Jumping Jacks, Fast Arms, Out out/In in, Knee ups, and Punch ups, are simple movements that require minimal coordination and can be performed while seated, making them accessible for beginners. The inclusion of seated modifications mentioned in comments and description supports beginner-level technique. Due to the possible addition of standing variations, there is a mild alignment with intermediate due to balance requirements in Jumping Jacks.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.85
+    },
+    {
+      "level": "Moderate",
+      "score": 0.45
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout is marketed as high-intensity interval training but is designed for short duration (5 minutes) with resting periods, which reduces overall intensity. Descriptions and comments suggest it's suitable for those new to exercise or sedentary for a long time. The exercises aim to elevate heart rate without extreme energy expenditure, aligning strongly with 'Light' effort difficulty and moderately with 'Moderate' due to its nature as a HIIT session.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.65
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.88,
+  "requiredFitnessLevelExplanation": "The workout is explicitly labeled for seniors and beginners, suggesting it is very suitable for complete beginners. With options for seated exercises, it accommodates those with very little exercise background. Intermediate level is included due to the possibility of performing standing versions, which can be a bit more challenging. Advanced level inclusion is minimal and primarily provides room for users wanting an accessible warm-up or active recovery option, given the flexibility in pacing and effort."
+}

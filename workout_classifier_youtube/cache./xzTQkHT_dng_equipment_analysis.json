@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Treadmill",
+      "confidence": 0.8
+    },
+    {
+      "equipment": "Exercise bike",
+      "confidence": 0.8
+    }
+  ],
+  "requiredEquipmentExplanation": "The title and description of the video explicitly mention 'Treadmill' and 'Exercise bike', suggesting that this video is intended to be used alongside these pieces of equipment for a workout. The tags reinforce this by including phrases like 'treadmill', 'exercise bike', and 'cross trainer'. The channel description and comments corroborate this, with users mentioning using the video while running on a treadmill or cycling on a spin bike. Given the virtual scenery aspect, this type of video is typically used as a visual aid for treadmill or cycling workouts. Therefore, I'm very confident that both a treadmill and an exercise bike are central to this workout, each with a confidence level of 0.8."
+}

@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Treadmill",
+      "confidence": 0.8
+    },
+    {
+      "equipment": "Exercise bike",
+      "confidence": 0.8
+    }
+  ],
+  "requiredEquipmentExplanation": "The video is designed as a \"Guided Cycle and Treadmill Workout - Virtual Scenery of Vienna,\" which is explicitly mentioned in both the title and description. This suggests that it's intended for both treadmill running or walking and indoor cycling. The tags further support this, including terms like \"treadmill scenery,\" \"cycle scenery indoor cycling,\" \"exercise bike scenery,\" and \"cycle workout.\" Comments such as \"Very nice video - rode on my indoor trainer\" affirm the use of an exercise bike, while \"virtual run\" and \"treadmill running scenery\" confirm usage with a treadmill. Therefore, both a treadmill and an exercise bike are necessary for performing this workout. A confidence score of 0.8 is assigned to both the treadmill and exercise bike, as they are central to the workout experience."
+}

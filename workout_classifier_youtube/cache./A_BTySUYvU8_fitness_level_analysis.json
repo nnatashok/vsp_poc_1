@@ -1,0 +1,46 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    },
+    {
+      "level": "Advanced",
+      "score": 0.7
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.65,
+  "techniqueDifficultyExplanation": "The technique difficulty is determined by the specificity of the breathing exercises. The video is labeled as 'Advanced Guided Breathing,' implying a degree of expertise required to perform the techniques correctly. While the basic concept of breathing is suitable for beginners, the advanced nature likely involves specific breathing patterns and regulation techniques, suggesting intermediate to advanced skill in execution. The mention of upgrading from other methodologies also hints at this complexity.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The effort difficulty is predominantly light because breathing exercises do not consume significant physical energy or exertion, making them accessible to most users. However, the emotional and mental focus required might impose a moderate effort, particularly for deconditioned users who don't regularly practice such techniques. The duration of 24 minutes introduces some endurance, hence the moderate score.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    },
+    {
+      "level": "Advanced",
+      "score": 0.7
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.7,
+  "requiredFitnessLevelExplanation": "Given the technique difficulty and effort assessment, this breathing exercise session is appropriate for a wide range of fitness levels. Beginners can attempt it with basic guidance, while intermediate and advanced users might find it appropriately challenging due to the advanced label and additional focus demands. The comments suggest progression from simpler routines, reinforcing the presence of higher levels."
+}

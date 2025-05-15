@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The technique difficulty primarily involves cycling movements, which are generally straightforward. Indoor cycling does not typically require complex coordination beyond maintaining rhythm and cycling positions, which align with 'Beginner' level at score 0.6. However, cycling at different intensities or adopting various cycling postures can introduce some complexity, warranting an 'Intermediate' score of 0.4.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.6
+    },
+    {
+      "level": "Extreme",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The effort difficulty is quite high due to the 50-minute duration, implying a sustained cardiovascular demand, typical of longer cycling workouts. Although the main ride is 30 minutes, as indicated, the continuous nature of cycling with varying intensities elevates it to 'Challenging' with a score of 0.6 and potentially 'Extreme' for some deconditioned users, obtaining a score of 0.4.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.6
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "Given the combination of a moderate technique difficulty but high effort required for a 50-minute cycling workout, the necessary fitness level leans towards 'Intermediate' with a score of 0.8, suitable for those with some cardiovascular base. The intensity and duration also suggest 'Advanced' for individuals aiming to fully benefit from the workout, scored at 0.6, reflecting its suitability for more experienced exercisers."
+}

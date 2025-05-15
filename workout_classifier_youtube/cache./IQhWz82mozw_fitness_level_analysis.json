@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.75
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The 20-minute rhythm cycling class involves basic cycling movements that most users with minimal instruction can follow, characterized by seated pedaling, rhythm changes, and resistance adjustments, qualifying as 'Beginner' with a score of 0.75. However, the use of rhythm cycling could require some coordination to maintain pace with the music, slightly elevating the technique to 'Intermediate' with a score of 0.4.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The effort difficulty is moderate (score 0.7) due to the 22-minute duration and is designed to keep the heart rate elevated, as implied by user comments describing weight loss and improved fitness. It's likely to be challenging due to intensity variations linked to the rhythm (score 0.5), indicated by descriptions of weight loss and the 'spinner's high' comments, implying sustained cardiovascular effort.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.7,
+  "requiredFitnessLevelExplanation": "The workout is suitable for Beginners (score 0.6) due to the accessibility of cycling workouts, which typically allow users to self-regulate intensity. Intermediate users (score 0.8) are strongly targeted, as they can handle sustained effort over 20 minutes. Advanced users (score 0.4) might find the class fitting if they engage more deeply with the rhythm and resistance adjustments. User feedback of significant effort and results supports the wider consideration of levels."
+}

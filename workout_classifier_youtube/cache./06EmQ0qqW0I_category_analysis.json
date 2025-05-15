@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor biking",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.65
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category is 'Indoor biking' with a very high score of 0.9 because the video's focus is on a stationary bike workout. This is strongly supported by the title ('Intermediate Stationary Bike Workout') and description, which emphasizes the use of an exercise bike. The tags also include variations such as 'exercise bike weight loss,' 'spin bike workout,' and 'peloton bike workout.' The video's focus on using a bike is central, making it the core component of the workout.\n\nThe secondary category is 'HIIT,' with a score of 0.65. The tag 'high intensity interval training' and elements of the workout (such as pedaling \"AS FAST AS POSSIBLE\") indicate that the session involves varied intensities typical of HIIT workouts, albeit within a biking context. The high intensity aspect is a notable feature but not the primary focus, hence a slightly lower confidence score.\n\nOther categories like 'Weight workout' and 'Body weight' were not considered as there is no evidence supporting resistance training or significant use of body weight beyond biking. The nature and focus of the workout are clearly defined by bike usage, thus excluding these options."
+}

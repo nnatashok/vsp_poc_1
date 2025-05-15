@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The video is described as suitable for all levels, with modifications provided, indicating simplicity in techniques to accommodate beginners. Phrases like 'beginner yoga flow' and 'yoga for all levels' suggest it includes straightforward movements accessible to beginners. However, the mention of options for adaptations implies the possibility of slightly more demanding poses, warranting an intermediate classification as well.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout is 21 minutes long and aims to energize rather than exhaust, described with phrases like 'energizing yoga practice' and 'quick yoga workout'. While primarily light due to the nature of yoga's gentle flow and the calming description, it also involves some continuous movement that might be moderately effortful, especially for very deconditioned individuals.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.75
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.65
+    },
+    {
+      "level": "Advanced",
+      "score": 0.35
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The routine is positioned as accessible to all levels, with specific mentions of being beginner-friendly and providing modifications to adapt poses. This allows us to confidently classify it as fitting for beginners and intermediates. The potential inclusion of slightly more challenging versions of poses can also make it appropriate for those at an advanced level who seek a lighter session, justifying including the advanced level at a lower score."
+}

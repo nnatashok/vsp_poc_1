@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.72
+    },
+    {
+      "level": "Beginner",
+      "score": 0.46
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The technique difficulty is primarily classified as 'Intermediate' because the video's description and top comments mention it as an 'intermediate version' of a stretch routine. However, yoga typically involves fundamental movements that beginners can adapt to their level, evidenced by the tags 'beginner stretch' and 'how to get flexible'. Despite being labeled intermediate, there is moderate complexity requiring some attention to form, hence the slightly lower score for beginners.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.82
+    },
+    {
+      "level": "Moderate",
+      "score": 0.44
+    }
+  ],
+  "effortDifficultyConfidence": 0.78,
+  "effortDifficultyExplanation": "The workout's effort difficulty is rated as 'Light' given the duration is only 12 minutes and the focus is on stretching and mobility, which generally involves low energy expenditure. The description emphasizes 'full body mobility' and 'flexibility', suggesting it's not highly taxing physically. The 'Moderate' score reflects the potential need for some effort in executing yoga stretches, but given the lack of intensity indicators, the primary classification remains 'Light'.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.69
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.75
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The required fitness level is skewed towards 'Intermediate', aligning with the description and tags indicating the workout is for 'intermediate' users. However, yoga's adaptable nature allows beginners to participate, particularly as indicated by tags suggesting beginner-friendly stretches. While more effort and flexibility are required compared to completely beginner exercises, the 'Light' effort difficulty supports accessibility. Advanced users are considered because the routine can still benefit those with moderate experience, particularly if they focus on form and flexibility nuances."
+}

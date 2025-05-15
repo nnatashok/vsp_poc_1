@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Weight workout",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The workout is strongly categorized as HIIT due to explicit indicators like 'HIIT', 'High-Intensity Interval Training', and 'HIIT Workout' in both the title and tags. Comments also mention intensity and weight usage, which supports this classification. This information, along with the video's focus on home HIIT routines, provides very high confidence (score 0.9) for the HIIT category.\n\nAdditionally, 'workout with weights' and 'dumbbell workout' in the title, description, and tags indicate the inclusion of strength training elements using free weights, justifying the Weight workout category with high confidence (score 0.7). The reference to 'weights' and 'dumbbells' suggests weight training is a significant aspect of this session.\n\nOther potential categories, like Body weight or Calisthenics, were excluded due to the specific mention of weights, and no indicators related to these were found in the metadata. Therefore, these categories are not applicable."
+}

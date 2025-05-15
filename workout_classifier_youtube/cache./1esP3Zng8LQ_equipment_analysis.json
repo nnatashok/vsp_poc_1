@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Elliptical",
+      "confidence": 0.8
+    }
+  ],
+  "requiredEquipmentExplanation": "The metadata strongly indicates that an elliptical is the central piece of equipment required for this workout. The title, \"32 Min. Elliptical Workout,\" explicitly states that the workout is intended to be performed on an elliptical. The tags repeatedly mention 'elliptical', suggesting that it is the primary equipment used. Additionally, the description explains the workout is made up of sets intended for cardio equipment, specifically mentioning elliptical multiple times. Although alternatives like treadmills or stationary bikes are mentioned, the workout's design, calorie burn goal, and interval structure are tailored to an elliptical machine's capabilities, thus leading to a very high confidence in this classification."
+}

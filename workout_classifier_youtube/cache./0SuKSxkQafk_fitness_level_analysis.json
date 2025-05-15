@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.6,
+  "techniqueDifficultyExplanation": "The workout involves basic treadmill running, walking, and inclines, which require minimal coordination and are generally considered beginner-friendly. However, the inclusion of inclines and potential variations may elevate the complexity slightly, allowing for a mild alignment with intermediate techniques.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.45
+    },
+    {
+      "level": "Challenging",
+      "score": 0.55
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout is a 60-minute treadmill run, indicating a significant endurance challenge, particularly during stretches with inclines or higher intensity intervals. Although the target audience includes beginners, the duration is substantial for novice participants, placing it on the border between moderate and challenging effort levels, especially for those not accustomed to longer workouts.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.3
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.7,
+  "requiredFitnessLevelExplanation": "While positioned as suitable for beginners, the 60-minute duration suggests that deconditioned users may find it challenging. Hence, the workout is more fittingly aligned with intermediate fitness levels, who have some experience with longer duration cardio. Advanced runners would find this beneficial at maintaining baseline endurance, justified by the metadata's mention of suitability for marathon training, indicating an aspect of long-distance fitness preparation."
+}

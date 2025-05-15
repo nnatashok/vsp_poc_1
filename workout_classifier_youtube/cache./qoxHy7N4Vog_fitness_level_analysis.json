@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.35
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.65
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout combines Pilates techniques with athletic cardio flows, which suggests movements that are more complex than basic. Pilates often requires some level of core engagement and coordination. Comments indicate a challenging glute series, pointing to some intermediate-level complexity. Overall, the presence of low-impact, Pilates-based movements aligns with Beginner to Intermediate technique difficulties.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.4
+    },
+    {
+      "level": "Challenging",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout's duration of 40 minutes and the inclusion of 'Cardio' and 'full body' tags suggest a higher intensity effort than a standard Pilates class, focusing on cardiovascular engagement. User comments describing it as 'challenging' and leading to sweat support a Challenging classification, but the low-impact nature suggested in the title and description aligns with a Moderate effort as well.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.3
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The 40-minute duration reduces the likelihood of this workout being primarily suitable for Beginners, particularly given the high-intensity cardio component. However, Pilates typically allows for modification, keeping Beginner as an option, albeit lower. Intermediate and Advanced levels are more appropriate due to the reported challenge and duration, with Intermediate being the most emphasis given the low-impact nature and self-modification potential."
+}

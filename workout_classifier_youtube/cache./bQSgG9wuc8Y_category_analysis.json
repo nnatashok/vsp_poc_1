@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Weight workout",
+      "score": 0.9
+    },
+    {
+      "name": "Body weight",
+      "score": 0.5
+    },
+    {
+      "name": "Mat",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary category assigned to this workout is 'Weight workout' with a score of 0.9. This is due to the explicit mention of dumbbells in the title, description, and the detailed exercise list, which includes numerous strength training exercises that primarily utilize dumbbells. Specific phrases like 'Full Body Strength Training with Dumbbells' clearly indicate the focus on weight-based exercise.\n\nAdditionally, 'Body weight' receives a secondary score of 0.5. While the emphasis is on dumbbells, some exercises such as \"Unilateral Hold and Curl\" and \"Renegade Row\" may also incorporate body weight for stabilization and form, indicating a moderate presence.\n\nThe 'Mat' category is also considered with a score of 0.3 due to the mention of an exercise mat being required, implying the workout involves mat-based exercises, even though the focus is primarily on weights.\n\nOther potential categories such as 'HIIT' and 'Calisthenics' were excluded due to the explicit strength training focus rather than a high-intensity interval structure or bodyweight gymnastics exercise focus."
+}

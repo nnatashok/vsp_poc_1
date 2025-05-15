@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.65
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout involves running at varying paces (jogging, running, and sprinting) on a treadmill, which primarily requires basic to intermediate coordination and balance. Running is generally accessible to beginners but sprinting adds complexity and requires better technique and form to prevent injury. The presence of different paces without walking recoveries elevates the complexity slightly, suggesting a Technique Difficulty of Beginner to Intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.5
+    },
+    {
+      "level": "Challenging",
+      "score": 0.65
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout spans 24 minutes with intervals at three intensities: jogging, running, and sprinting. This structure, especially with the inclusion of high-intensity sprints without walking recoveries, suggests a challenging cardiovascular demand, increasing the effort level. However, the duration is moderate, which balances this out. Thus, the Effort Difficulty is between Moderate and Challenging, depending on the user's current fitness level and intensity during high-speed intervals.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.6
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "Combining the technique and effort difficulties, the workout is moderately appropriate for Beginners who can adjust the pace to lighter jogs, but the sprint sections and absence of walking recoveries suggest it aligns more with Intermediate to Advanced users who can handle moderate-to-high intensity for the full duration. The metadata emphasizes high calorie burn and intense effort, indicative of higher fitness demands. Given the 24-minute length, it likely skews towards needing at least some baseline conditioning, leading to a Required Fitness Level of Beginner to Advanced, with Intermediate as the most appropriate level."
+}

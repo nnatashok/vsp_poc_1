@@ -1,0 +1,46 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.2
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout involves bodyweight exercises like Pike Pushups and Planche Leans, which suggest varying levels of complexity. Pike Pushups require shoulder strength and stability; Planche Leans are more advanced, needing body control and core engagement, aligning with Intermediate or Advanced. The workout is tagged as 'calisthenics no equipment beginner,' indicating some beginner-friendly exercises, but overall complexity leans intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The '15 min full body workout' and '40 sec full energy!' cue imply moderate intensity, suitable for a short, dynamic workout. The exercises are time-bound without specified rest, which increases difficulty to a Challenging level for less fit users. The description suggests preparation for skills like planches, indicating a lean toward higher effort for some participants.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    },
+    {
+      "level": "Advanced",
+      "score": 0.2
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The mixture of technique difficulty ranging from Beginner to Advanced exercises, alongside moderate to challenging effort requirements, supports Intermediate as the primary level. The presence of a Planche Lean suggests some advanced fitness is beneficial. Comments suggest varied user experiences, with some beginners finding it challenging and others in recovery seeking it for advancement. Given explicit beginner tags and mixed skill nature, Beginner and Advanced levels are also relevant."
+}

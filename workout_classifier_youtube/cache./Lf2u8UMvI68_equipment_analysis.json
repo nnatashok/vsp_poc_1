@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Elliptical",
+      "confidence": 1.0
+    },
+    {
+      "equipment": "Mat",
+      "confidence": 0.6
+    }
+  ],
+  "requiredEquipmentExplanation": "The main equipment required is an elliptical machine, discussed extensively throughout the video metadata. The title explicitly mentions 'Elliptical Cardio Climber HIIT', and the description emphasizes using a 'cardio climber', synonymous with an elliptical machine. Tags and the workout structure further confirm its use. This provides very high confidence (1.0) that an elliptical is essential for the workout. \n\nAdditionally, a 'Treadmill Floor Mat' is listed under the 'Fitness Equipment Used', implying its use during the workout. The purpose of this mat is likely to protect the floor beneath the elliptical and provide stability, leading to a moderate confidence (0.6) that a mat is recommended for effective equipment use."
+}

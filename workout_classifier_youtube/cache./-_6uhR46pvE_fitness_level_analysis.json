@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.65
+    },
+    {
+      "level": "Advanced",
+      "score": 0.35
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The metadata indicates that this Pilates workout incorporates elements suggestive of intermediate-level technique. Pilates typically requires coordination, balance, and controlled movement, which align with intermediate complexity. The description mentions a 'faster paced class,' adding some advanced complexity due to less time for movement adjustments, requiring more body awareness and precision, typical of advanced Pilates workouts.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.6
+    },
+    {
+      "level": "Challenging",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The video title suggests a moderate effort with described 'power pilates for energy'. Comments indicate significant exertion levels, with one user needing a break after 10 minutes. Although labeled 'moderate/intermediate', the 24:33 duration indicates moderate to challenging effort for less conditioned users. The descriptor 'power' implies that exercises might have an above-average intensity, fitting moderate to challenging description.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 0.75
+    },
+    {
+      "level": "Advanced",
+      "score": 0.25
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "Given the 'moderate/intermediate' classification in the title, combined with Pilates' general requirement for balance and control, the workout demands an intermediate fitness level. The effort is described as 'power' and 'energized', broadening the requirement to include some advanced elements, aligning with the challenging exertion reported by users. Due to user-adjustable difficulty (e.g., pace adjustments) and Pilates' lower impact nature, it is suitable for both intermediate and advanced levels. Beginner level was not included due to technique and effort requirements that exceed typical beginner capabilities."
+}

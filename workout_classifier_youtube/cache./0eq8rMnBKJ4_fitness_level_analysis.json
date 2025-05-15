@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout involves indoor cycling, which typically requires coordination for proper pedaling technique and bike handling. Although indoor cycling generally has a low technique barrier, the inclusion of interval sprints increases the coordination demands slightly. The use of terms like \"sprints\" and \"intervals\" suggest a moderate level of technical engagement, elevating it slightly from purely beginner to also include intermediate due to the rhythm and intensity changes.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.65
+    },
+    {
+      "level": "Challenging",
+      "score": 0.45
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "With a 15-minute duration, frequent shifts in intensity from 2/10 to 9/10, and high RPM sprints, the workout demands a reasonable amount of effort. Interval training inherently elevates cardiovascular demands, especially for those who are not trained. The description stating 'work at your limits' and 'get ready to sweat' suggests a workout that is moderately intense but can be challenging for individuals not familiar with high-intensity cycling efforts.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    },
+    {
+      "level": "Advanced",
+      "score": 0.45
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.7,
+  "requiredFitnessLevelExplanation": "The technique of indoor cycling, while generally beginner-friendly, is elevated to intermediate due to intervals. The effort dimension is moderately challenging, requiring cardiovascular exertion that could be difficult for absolute beginners, hence favoring a blend of levels. An advanced classification is relevant due to the interval intensity, which may push less conditioned individuals beyond their easy capacity. This mixture of scores accommodates the flexibility of users engaging in varied intensity efforts, suggesting multiple levels\u2014beginner (for those lightly familiar), intermediate (consistent training entry-point), and advanced (for those seeking intense bursts)."
+}

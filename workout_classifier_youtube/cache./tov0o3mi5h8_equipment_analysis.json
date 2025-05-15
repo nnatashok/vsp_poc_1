@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The title, tags, and description of the video prominently feature 'Pilates,' which is strongly associated with mat exercises, as seen in terms such as '15 min Pilates Workout,' 'mat pilates,' and 'Pilates for beginners.' Pilates workouts often require a mat to perform exercises comfortably on the floor, which justifies a very high confidence level of 0.9 that a mat is required. There are no mentions of any other equipment in the metadata, making a mat the only necessary equipment for this workout."
+}

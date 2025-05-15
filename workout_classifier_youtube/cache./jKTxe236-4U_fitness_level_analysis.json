@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout is described as suitable for small spaces, requiring no equipment, and being apartment-friendly, which implies exercises that are simple to perform without coordination-heavy movements. Phrases like 'no jumping' and 'no noise' suggest basic movements. However, as it is a full-body workout, some exercises may involve slightly complex movements that require coordination, hence both Beginner and Intermediate levels are considered.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.8
+    },
+    {
+      "level": "Challenging",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout is 32 minutes long, indicating a potentially increased effort, especially for beginners. The comments indicate users find it challenging, referring to sweating and muscle fatigue, suggesting moderate effort with some challenging aspects for less fit individuals. No jumping suggests moderate intensity, though a full body emphasis may raise effort levels slightly.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The workout's length and user comments suggest it's accessible yet challenging for beginners, indicating a fitness level of Beginner to Intermediate. The variety of user experiences, with some finding it tough and others easily completing it, supports this range. Since the workout is designed to be small space friendly and no equipment is needed, the making it fit a wide range of abilities, including some Advanced users."
+}

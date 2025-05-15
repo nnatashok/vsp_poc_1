@@ -1,0 +1,46 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.45
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.65
+    },
+    {
+      "level": "Advanced",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout utilizes an elliptical machine which is generally simple to use for most users. However, the workout is a high-intensity interval training (HIIT) format, requiring coordination between the arms and legs which increases the complexity slightly to the Intermediate level. Advanced scores are included due to potential for increased resistance settings and maximizing arm and leg effort together.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.4
+    },
+    {
+      "level": "Challenging",
+      "score": 0.75
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The 20-minute workout involves 8 rounds of high-intensity effort for 30 seconds each, with 90-second rest periods, categorizing it primarily as 'Challenging' for those who are less fit. However, due to the use of an elliptical with options to adjust resistance, some users may find it Moderately demanding based on their intensity adjustments. The presence of rests and elliptical usage implies it's not at the 'Extreme' level.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.3
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.6
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.75,
+  "requiredFitnessLevelExplanation": "The technique difficulty allows for Beginners due to the basic operation of the elliptical under low resistance, but since the workout encourages pushing to maximum effort with HIIT protocols, Intermediate fitness levels would likely be required to handle the consistent intensity safely. Advanced fitness levels are also appropriate due to the configurable resistance and inclination adjustments that can intensify the workout significantly."
+}

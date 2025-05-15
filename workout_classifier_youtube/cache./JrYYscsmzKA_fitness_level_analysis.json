@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The technique difficulty is primarily 'Beginner' because the workout focuses on using an elliptical machine with low-impact, high-intensity interval training (HIIT). Elliptical machines typically involve straightforward, repetitive movements that require minimal coordination and are accessible to beginners as well as those with some experience. The use of an elliptical machine simplifies the exercise mechanics as it guides movement patterns without demanding complex technique. However, some users might need to adjust to the speed and resistance changes, which introduces a moderate level of complexity, hence scoring slightly into the 'Intermediate' category as well.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is rated 'Moderate' in effort due to its 20-minute duration and the interval nature of the exercises. The metadata and user comments indicate a significant, but manageable, level of exertion typical of low-impact HIIT on an elliptical, which inherently limits the cardiovascular and muscular demands compared to traditional HIIT. There is indication of increased speed and resistance intervals contributing to the 'Challenging' score as well, especially for less conditioned users who may find the constant pace changes taxing despite the low-impact nature, suggesting it provides a substantial workout challenge.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.9,
+  "requiredFitnessLevelExplanation": "The 'Required Fitness Level' has a strong alignment with both 'Beginner' and 'Intermediate' due to the minimal technique complexity and moderate exercise intensity. The workout is explicitly labeled as beginner-friendly, reinforced by the channel's focus on accessible equipment-based workouts. The session's effort difficulty, although moderate, can accommodate a broad audience by allowing participants to adjust machine settings. Advanced users might also benefit by increasing resistance and speed, as intervals offer scalability. The 20-minute duration means it remains accessible for those venturing into fitness, with scope for progression to more intense sessions, as suggested by user comments and tag lines."
+}

@@ -1,0 +1,50 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.3
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    },
+    {
+      "level": "Advanced",
+      "score": 0.1
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout includes a variety of bodyweight movements such as lunges, squats, push-ups, and planks. These exercises generally require a moderate level of coordination and balance, fitting an intermediate technique difficulty. Comments indicating that beginners managed the workout with pacing adjustments suggest simpler movements are prevalent, hence the inclusion of Beginner level. However, some exercises like plank walk outs and pivot punches add a slight complexity, warranting a minor score for Advanced.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.3
+    },
+    {
+      "level": "Challenging",
+      "score": 0.6
+    },
+    {
+      "level": "Extreme",
+      "score": 0.1
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is described as low impact steady state (LISS), indicating a moderate effort, but user comments highlight that it remains demanding ('heart rate up', 'sweat your ass off'), suggesting a challenging nature for lower fitness levels. The continuous 45-second intervals without listed rest periods contribute to this classification. Descriptions like 'great for rest days' suggest it's not maximally intense, thus not fitting the extreme level strongly, but can be draining especially for novices.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.2
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "The technique difficulty allows for beginner engagement, especially given the no-equipment requirement and moderate movement complexity. However, the 37-minute duration and moderate to challenging effort implies that beginners would find this tough without breaks, aligning more with Intermediate. Advanced is moderately scored due to the intensity indicated by user heart rate and calorie burn comments but is not high due to the workout's foundational LISS nature. Comments repeatedly mention beginner approachability yet challenging execution, supporting a broad range of fitness levels."
+}

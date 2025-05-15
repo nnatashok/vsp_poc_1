@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The video is explicitly targeted towards beginners, which is evident from the repeated use of 'beginner' in the title, description, and tags. The exercises are described as 'easy exercises' and 'easy workout,' suggesting basic movements. The presence of comments describing it as an 'easy workout' supports this. However, minor coordination might still be needed due to the use of weights, warranting a consideration for low-level intermediate difficulty.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout duration of 17 minutes and the emphasis on it being easy suggest a primarily light effort. The description and user comments stress it's beginner-oriented, further indicating that the energy expenditure is manageable. However, the presence of strength training with weights and users reporting noticeable results implies a mild to moderate effort, supporting the inclusion of a 'Moderate' score.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.78,
+  "requiredFitnessLevelExplanation": "The workout is designed explicitly for beginners, as shown in the title and metadata, which supports a strong fit for the Beginner level. However, the use of weights and potential for increasing intensity through weight adjustments can also accommodate those at a low-intermediate level. User comments highlight significant progress from performing this workout regularly, reinforcing the inclusion of the Intermediate level with lower confidence."
+}

@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Dumbbells",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Mat",
+      "confidence": 0.7
+    }
+  ],
+  "requiredEquipmentExplanation": "The title and description of the video explicitly mention that dumbbells are a required piece of equipment for this workout, as indicated by phrases such as \"With Weights\" and \"grab some water bottles or anything you have at home to add some extra weight.\" The mention of using 5kg dumbbells for reference further certifies that they are an integral part of the workout. This gives dumbbells a very high confidence score of 0.9.\n\nThe mention of a mat in the top comments, specifically \"my cat had fallen asleep on my mat\" and \"grab your dumbbells (or bottles), your mat,\" suggests that a mat is commonly used, likely for comfort during floor exercises in the workout. This implies the need for a mat with a high confidence level of 0.7, as it aligns with typical workout practices, even though it isn't explicitly listed in the core video metadata. Therefore, a mat is included based on user feedback and common use in exercises involving weights on the floor."
+}

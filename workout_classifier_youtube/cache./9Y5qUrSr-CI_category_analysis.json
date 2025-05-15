@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Pilates",
+      "score": 1.0
+    },
+    {
+      "name": "Mat",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The video is classified primarily under the 'Pilates' category with a high confidence score of 1.0 due to explicit mentions in the title ('12 MIN PILATES CORE WORKOUT') and description ('Pilates Core workout', 'at home, mat pilates'), clearly indicating a Pilates workout. The metadata provides strong evidence with tags such as 'pilates', 'core', and 'mat pilates', reinforcing this classification. The channel's focus on Pilates, detailed in the channel description and the mention of 'RA Pilates', aligns with this category.\n\nThe 'Mat' category is assigned with a score of 0.6 as the workout involves exercises on a mat ('Just a Pilates mat or soft surface'), suggesting a form of general floor exercise. However, since it is specifically defined as Pilates, 'Mat' is considered a secondary category. Other categories like 'Core' or 'Body weight' have not been used due to the primary and specific focus on Pilates for core strength rather than general bodyweight exercises."
+}

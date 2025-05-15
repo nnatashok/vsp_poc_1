@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 1
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The video is classified as \"Yoga for Beginners\" in the tags and is described as a \"gentle session\" targeting conditions like vertigo. This indicates that the movements are likely simple, with minimal coordination required, aligning with a Beginner level. However, yoga generally requires some degree of body awareness, coordination, and balance, which justifies a partial inclusion of the Intermediate level.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 1
+    }
+  ],
+  "effortDifficultyConfidence": 0.95,
+  "effortDifficultyExplanation": "The session is described as gentle and relaxing, designed to calm the parasympathetic nervous system and suitable for those recovering from injury. With a duration of 15 minutes and focus on breath work, it is likely light in terms of physical exertion, making it appropriate for a Light level of effort.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "Given the technique and effort difficulty analysis, the required fitness levels are mostly Beginner, as the session is beginner-friendly and targets conditions requiring caution (e.g., vertigo, TBI recovery). The Intermediate level is partially included because yoga requires a basic level of body awareness and because the channel caters to all levels, suggesting variable modifications may be available."
+}

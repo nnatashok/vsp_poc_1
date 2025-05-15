@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The video contains a full body pilates workout described as \"Sequenced Flow... moving naturally from one series to the next,\" likely including standard pilates movements which require body awareness and coordination, typical of intermediate technique difficulty. Intermediate score is higher due to use of sequences and equipment (dumbbells), suggesting some coordination is needed. Beginner level is possible due to options for light dumbbells and adaptability of pilates.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.6
+    },
+    {
+      "level": "Challenging",
+      "score": 0.7
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout lasts 31 minutes, which tends to push it towards a challenging level due to the duration. The sequences include elements like cardio and glutes which, combined with the use of dumbbells, can increase the effort required, suggesting moderate to challenging levels for someone not regularly practicing pilates or using weights.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.2
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "Given the technique and effort difficulties outlined, this workout is likely suitable for Intermediate to Advanced users. However, Beginner is still included, reflecting the adaptability of dumbbell selection and modification potential. The 31-minute duration skews towards Intermediate and Advanced due to deconditioned users finding it challenging to maintain form and effort over this time."
+}

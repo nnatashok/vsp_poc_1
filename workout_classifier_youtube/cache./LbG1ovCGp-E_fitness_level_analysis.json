@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The video is a Pilates workout, which typically involves movements that require a moderate level of coordination and body awareness, placing it at the beginner to intermediate range. The comments and description suggest the workout is well-suited for general audiences and includes cues for correct form, supporting the intermediate classification. There is no indication of complex or advanced techniques that would be classified higher than intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout has a duration of over 30 minutes, which increases the physical demand, indicating a moderate effort difficulty with some potential challenging aspects. The title mentions 'energizing,' and comments reflect the workout being rewarding and substantial, suggesting a mildly challenging cardiovascular and muscular endurance component without being extreme.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.3
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.2
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "Based on the technique and effort difficulty, a user with beginner or intermediate fitness levels could engage with this workout, though true beginners might find it slightly challenging due to the workout's duration. Intermediate fitness users would find it perfectly suited, with references in comments to the workout aiding balance and well-being, aligning with moderate fitness advancements. The advanced level is included minimally due to potential cumulative intensity over 30 minutes but is not the primary focus of the workout."
+}

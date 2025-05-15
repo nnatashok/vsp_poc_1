@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout is a full body yoga routine, which typically requires some awareness of body positioning and coordination. The description mentions \"Power Yoga,\" which often involves flowing sequences that can be complex, thus leaning towards Intermediate difficulty. However, it may include more complex poses contributing to an Advanced rating. The tags like 'strong yoga' and 'power yoga' and the comment about ease of execution suggest a balance between moderate challenge and accessibility.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.65
+    },
+    {
+      "level": "Challenging",
+      "score": 0.35
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout is 25 minutes long, which is slightly above the baseline for beginner-friendly duration, and involves continuous movement with a 50-seconds-on, 10-seconds-off structure, typical of a moderately challenging routine. Tags like 'core strength', 'full body flow', and 'power yoga' imply consistent engagement, suggesting a Moderate to Challenging effort level due to constant energy expenditure over the session.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.3
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    },
+    {
+      "level": "Advanced",
+      "score": 0.1
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The combination of a somewhat complex yoga routine and a moderate effort level indicates this workout is best suited for those at an Intermediate fitness level. However, given the comments from users who found it manageable despite physical limitations and the possibility of doing less challenging variations, a Beginner level assignment is possible. The session's duration and flow without breaks make the Advanced level less suitable but necessary due to complexity hints like 'power yoga'. Hence Intermediate receives the highest score, with some allowance for Beginner and Advanced."
+}

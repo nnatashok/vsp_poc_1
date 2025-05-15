@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout is described as a pilates session designed for beginners, suggesting simple movements. Pilates generally involves basic exercises focusing on core stability and alignment, which are beginner-friendly but can also involve some level of intermediate coordination and balance. User comments reference basic yet engaging practices, indicating some movements may require intermediate technique for proper form. Overall, the description and tags consistently reinforce the beginner nature with slight elements of intermediate complexity.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.2
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout lasts 19 minutes, just under the 20-minute threshold that suggests significant effort difficulty for beginners. The title and description indicate a 'quick, easy' workout, and no equipment or high-intensity indicators are mentioned. Comments from viewers who are returning to exercise after hospital stays imply accessibility for deconditioned users, further supporting a light effort classification with some moderate aspects due to continuous movement in pilates.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.9,
+  "requiredFitnessLevelExplanation": "Given the beginner technique difficulty and light effort difficulty, the workout is accessible to beginners, with recognized potential for them to engage and feel challenged. However, the intermediate score reflects the slight complexity and sustained effort involved in pilates, as some comments note the intensity yet basic nature of the class. The scoring accounts for the slightly more engaging nature of pilates, which can appeal to beginners and intermediate users looking for a foundational yet slightly challenging workout."
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Pilates",
+      "score": 1
+    },
+    {
+      "name": "Mat",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout video is classified as 'Pilates' with a score of 1.0 due to multiple strong indicators throughout the metadata. The title mentions 'hourglass pilates workout,' making it explicit that Pilates is the primary focus. Additionally, the channel description identifies Lidia Mera as a 'certified Pilates instructor,' reinforcing the workout's Pilates nature. A top comment also mentions this workout as a 'Pilates workout,' adding further support. \n\nA secondary category is 'Mat' with a score of 0.6. The video description and comments indicate the workout is performed without equipment ('no equipment'), suitable for being categorized as a mat workout since it likely involves floor exercises. The mention of 'full body' suggests various poses that can be done on a mat, but the primary focus remains on Pilates. \n\nOverall, the metadata provides high confidence (0.9) in identifying this video as primarily a Pilates workout due to both explicit mentions and the instructor's credentials in Pilates."
+}

@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout is designed for beginners, as indicated by the title and description, focusing on basic cycling movements which are inherently simple for most users. The mention of standing positions (2nd and 3rd) suggests some coordination is needed, aligning partially with intermediate difficulty.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "As a beginner workout, it implies a lighter effort level, evidenced by user comments from very deconditioned individuals finding the workout challenging yet accessible. However, the inclusion of speed increases, climbs, and sprints suggests moderate exertion for beginners.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.75,
+  "requiredFitnessLevelExplanation": "The workout's technique difficulty is mostly beginner-friendly, but the inclusion of varied cycling intensities suggests it could also suit intermediates. User comments confirm accessibility to deconditioned users and also show progression, supporting an intermediate level as well."
+}

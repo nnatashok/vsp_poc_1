@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Ankle/wrist weights",
+      "confidence": 0.3
+    }
+  ],
+  "requiredEquipmentExplanation": "The video title and description clearly emphasize that this is a mat-based workout focusing on floor exercises for legs and glutes. Phrases like 'mat workout', 'exercises are all performed on the mat', and 'pilates-based mat workout' explicitly indicate the use of a mat, leading to a very high confidence level of 0.9 for a mat being necessary.\n\nAdditionally, the description suggests adding ankle weights for more challenge, indicating a low necessity but possible use of ankle/wrist weights. Thus, we assign a low confidence score of 0.3 to ankle weights. The emphasis on the workout being accessible for seniors and beginners, and the tagged term 'no equipment workout', suggest that any additional equipment beyond the mat is optional."
+}

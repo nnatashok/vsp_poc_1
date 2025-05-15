@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is specifically designed for beginners, as stated in both the title and the description. It involves basic bodyweight exercises with beginner intervals, which suggests simple movements requiring minimal coordination (e.g., squats, simple stretches). However, the mention of advanced options for exercises introduces a moderate complexity suggesting some intermediate-level elements for those seeking more challenge, albeit as optional add-ons.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout is noted to be 20 minutes long with 30-second intervals for each exercise and includes strategic rest breaks. This setup indicates a natural path toward a light to moderate energy expenditure, emphasizing accessibility for beginners with the capacity to increase effort with advanced options. The high number of likes and positive feedback suggests users found it manageable yet effective.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "Given the simple technique difficulty and moderate effort required, this workout is predominantly suited for beginners, as explicitly targeted in the metadata. The inclusion of advanced exercise options and the possibility for a more strenuous workout effort allows for intermediate applicability. The workout's adaptable nature for different intensity levels further supports its appropriateness for a wider range of fitness levels, extending into advanced for those leveraging heavier modifications or extending effort."
+}

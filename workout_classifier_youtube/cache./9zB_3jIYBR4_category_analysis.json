@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Pilates",
+      "score": 1.0
+    },
+    {
+      "name": "Mat",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The primary category assigned is 'Pilates' with a score of 1.0. This is strongly supported by the title ('30 MIN FULL BODY WORKOUT || At-Home Pilates (Intermediate)'), tags (e.g., 'pilates workout full body', 'pilates full body'), and the channel's focus, which is hosted by a certified Pilates instructor known for Pilates content. The description explicitly mentions that this is a 'Full Body Pilates Workout' confirming the Pilates focus.\n\nA secondary category 'Mat' is assigned with a score of 0.7 because Pilates exercises are typically performed on a mat, and there's a tag 'mat pilates'. The video is an at-home workout, which often implies the use of a mat rather than gym equipment.\n\nOther potential categories like 'Body weight' or 'Stretching' could be relevant due to the nature of Pilates exercises, but they are not as explicitly supported by the metadata as the Pilates category. Therefore, they are not included in the categorization to maintain clarity and focus on the stronger indicators."
+}

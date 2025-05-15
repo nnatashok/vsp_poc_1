@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.95,
+  "techniqueDifficultyExplanation": "The workout is explicitly designed for beginners, using basic movements that are not complicated, as stated in both the description and tags. The emphasis on repetition allows users to familiarize themselves with the exercises, enhancing ease of execution. The description also highlights the inclusion of slow-paced exercises to focus on form, indicating minimal coordination required.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.75
+    },
+    {
+      "level": "Moderate",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout length is just over 20 minutes, slightly reducing beginner suitability but still manageable. The description suggests the exercises elicit a 'serious burn' and involve sweating, indicating moderate effort, but multiple breaks and the repetitive nature of 30-second cycles with basic movements suggest primarily light to moderate effort, consistent with beginners' capabilities.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    },
+    {
+      "level": "Advanced",
+      "score": 0.2
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The workout's technique and effort levels primarily support beginners. The explicit 'beginner' labeling, simplicity, repetition, and breaks target deconditioned users. However, the slight intensity increase from duration and muscle burn may also challenge less fit intermediates, hence their inclusion. Advanced fitness levels have mild inclusion due to potential cardiovascular endurance testing, although they're unlikely to find it substantially demanding."
+}

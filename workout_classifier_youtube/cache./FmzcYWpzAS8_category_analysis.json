@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Body weight",
+      "score": 0.9
+    },
+    {
+      "name": "Mat",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout video is classified primarily under 'Body weight' with a score of 0.9 due to the consistent mention of 'bodyweight workout' and 'no equipment' in the title, tags, and detailed description, indicating exercises performed without any additional equipment. The circuits contain exercises such as squats, push-ups, lunges, and planks, typical of bodyweight training. The description emphasizes strength and full body engagement through bodyweight exercises, underscoring its central theme. \n\nAdditionally, 'Mat' is assigned a score of 0.5 due to the reference to a yoga mat in the description, suggesting floor exercises may be performed, even though it's not explicitly a mat-only workout. The large mat mentioned is indicative of requiring some floor space, which aligns with mat workouts that involve circuits and exercises done predominantly on the ground. \n\nOther categories such as 'HIIT' were considered but were not selected due to the lack of specific interval training elements or an explicit HIIT mention, instead focusing on bodyweight strength."
+}

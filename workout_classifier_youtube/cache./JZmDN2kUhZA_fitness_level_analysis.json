@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is explicitly designed for kids and beginners, as indicated by the title and description, suggesting that the movements involved are simple and straightforward. The use of cycling on rollers, a turbo trainer, or even stabilizers implies a focus on basic pedaling motion without complex coordination requirements, aligning with a 'Beginner' technique difficulty. However, riding on rollers may require a small amount of skill and balance, which introduces a mild 'Intermediate' aspect, particularly for adults or very uncoordinated beginners.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.9
+    },
+    {
+      "level": "Moderate",
+      "score": 0.2
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The video's duration is under 13 minutes and is designed for kids, which suggests a relatively low energy expenditure appropriate for complete beginners. As this is a cycling workout, even at light effort, it can engage the cardiovascular system to a degree, warranting a 'Light' effort classification. The description and tags do not mention high intensity, further supporting the 'Light' effort assessment. The possibility of slightly elevating effort with trainers or rollers earns a modest 'Moderate' score as it could be mildly more engaging than basic seated cycling.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.95
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.87,
+  "requiredFitnessLevelExplanation": "Given the technique and effort difficulty assessments, the workout is primarily suited for 'Beginner' fitness levels, strongly supported by the video's explicit targeting of kids and beginners. However, the inclusion of rollers or trainers presents a slightly elevated challenge for those completely unaccustomed to cycling, therefore a small 'Intermediate' score applies. The target audience of children and the workout's short duration reinforce the suitability for beginners above all."
+}

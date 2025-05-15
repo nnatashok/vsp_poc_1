@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Body weight",
+      "score": 0.1
+    },
+    {
+      "name": "Weight workout",
+      "score": 0.85
+    },
+    {
+      "name": "Other",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category for this workout is 'Weight workout' with a high score of 0.85. This is due to explicit mentions in the title, description, and tags of using 'hand weights,' 'strength training,' and 'weight lifting.' Specifically, the description notes the use of '5 pound hand weights for the strength exercises,' which is a defining characteristic of weight workouts. \n\nA minor presence of 'Body weight' is noted with a score of 0.1. Although weights are used, some compound movements could involve body weight components as typically bodies are involved in most exercises. However, this is not central to the video's content according to the metadata.\n\nThe 'Other' category has been included with a score of 0.3 to account for the mentioned 'balance exercises.' Balance and coordination exercises, while significant to this workout, don't clearly fit within the standard predefined categories, thus justifying the inclusion of 'Other.' \n\nConfident classification is based on the precision in tags and description focusing on 'strength' and 'balance,' alongside positive user comments emphasizing the effectiveness of strength and balance training for seniors."
+}

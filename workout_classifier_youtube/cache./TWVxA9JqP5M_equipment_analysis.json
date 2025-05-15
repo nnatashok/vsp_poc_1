@@ -1,0 +1,17 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Dumbbells",
+      "confidence": 0.6
+    },
+    {
+      "equipment": "Barbell",
+      "confidence": 0.8
+    },
+    {
+      "equipment": "Weight bench",
+      "confidence": 0.7
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout video focuses on weight training for fat loss, and the top comments mention exercises using specific equipment. The mention of 'Bench press', 'Barbell squats', and 'Bent over rows' strongly indicates the use of a Barbell (confidence: 0.8), as these exercises typically require a barbell. The video and comments also mention 'Dumbbell presses', 'Inclined dumbbell flyes', and 'Bent over dumbbell rows', which explicitly involve dumbbells, warranting a high confidence level of 0.6 that dumbbells are required. Additionally, the 'Bench press' exercise suggests the use of a Weight bench (confidence: 0.7), as a bench is usually needed for proper execution of this exercise. These equipment items are integral to the exercises described in the video description and user comments, specifically highlighting their role in performing peripheral heart action training effectively."
+}

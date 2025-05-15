@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Calisthenics",
+      "score": 0.9
+    },
+    {
+      "name": "Body weight",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout video has a focus on 'calisthenics' as evidenced by the title '15 Min CALISTHENICS UPPER BODY WORKOUT at Home | No Equipment,' and repeated mentions in tags (e.g., 'calisthenics', 'upper body calisthenics', 'calisthenics training'). The description reiterates this by highlighting a 'bodyweight workout,' emphasizing training without equipment to build muscle and strength, which is characteristic of calisthenics. The channel description and comments also align with calisthenics and bodyweight training, supporting this classification. This led to a very high confidence score of 0.9 for the Calisthenics category. \n\nThe Body weight category is also relevant due to the emphasis on no equipment ('bodyweight strength', 'bodyweight workout'), reflecting on the nature of exercises that rely solely on the individual's body weight for resistance, hence a score of 0.7. \n\nOther potential categories like 'Weight workout' and 'Mat' were excluded due to a lack of equipment use and inadequate data tying to these classifications. Overall, the metadata strongly supports the Calisthenics and, to a lesser extent, Body weight categories."
+}

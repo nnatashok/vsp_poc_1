@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The technique difficulty is rated as 'Beginner' with a high confidence score since treadmill running is a straightforward exercise requiring minimal coordination, making it accessible to most users, especially beginners. The basic nature of treadmill running, as emphasized in the virtual run video's metadata, implies simple mechanics similar to walking or jogging. Intermediate scoring is included as there might be some coordination required for those less familiar with treadmill running, especially for duration management and maintaining pace.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout is rated primarily as 'Light' effort difficulty, supported by the video's length of 30 minutes which suggest moderate exertion in a controlled setting. Users can self-regulate intensity through speed adjustments on a treadmill. However, given the duration and potential settings (such as elevation), 'Moderate' is also relevant for those engaging with sufficient effort to maintain pace for the whole 30 minutes, reflecting a higher exertion level for less conditioned users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The required fitness level includes 'Beginner' with the highest likelihood due to the basic nature of treadmill running and the possibility to regulate intensity. 'Intermediate' is also applicable for those maintaining a continuous run, which might challenge less fit users. 'Advanced' is marginally scored for those who might use uphill settings or faster paces consistently across 30 minutes. The ability to modify speed and the 30-minute duration encourages inclusion of multiple fitness levels, allowing variable challenge and accessibility."
+}

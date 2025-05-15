@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.75
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The HIIT routine described in the metadata includes coordination and some complexity in movements, as noted in user comments about needing coordination and feeling challenged by the exercises. This aligns with an 'Intermediate' classification for technique difficulty as the routine likely involves exercises that require some coordination but are not overly technical or complex.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.7
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The routine is a 25-minute high-intensity interval training (HIIT) workout, which typically involves high energy expenditure. The structure of 30 seconds on and 20 seconds off and repetitions across 2-4 rounds further increases the effort difficulty, indicating a 'Challenging' level for those not accustomed to sustained physical activity.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.75,
+  "requiredFitnessLevelExplanation": "Given the intermediate technique difficulty and challenging effort difficulty, the workout is suitable for beginner to intermediate fitness levels. Beginners can modify exercises or rounds, as no equipment is required, which allows for adjustments to intensity. However, the challenging nature and duration lean towards requiring at least an intermediate level of fitness. Advanced users might find the challenge in maximizing effort or performing additional rounds."
+}

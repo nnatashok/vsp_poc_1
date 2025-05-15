@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout includes basic bodyweight exercises like inchworms, lunges, and planks, which are generally simple and do not require advanced coordination, indicating a Beginner level (score: 0.7). However, exercises like the reverse alternating lunge and arch body hold may require a bit more coordination and awareness, justifying an Intermediate level inclusion (score: 0.5).",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The effort difficulty aligns with Moderate as the workout is 20 minutes long and includes a full body routine, which requires some cardiovascular endurance and muscle engagement (score: 0.7). Comments mentioning struggles and 'wall sits got my legs screaming' suggest it can be Challenging for less fit individuals (score: 0.4).",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The workout is explicitly stated to be suitable for beginners and intermediates in the description. Based on technique and effort difficulty, it clearly fits the Beginner level (score: 0.8), especially since modifications are mentioned. The Intermediate level is also relevant due to elements like exercise progression across rounds and potential challenge increases (score: 0.6)."
+}

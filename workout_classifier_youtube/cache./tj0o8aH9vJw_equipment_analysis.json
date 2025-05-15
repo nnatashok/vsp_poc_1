@@ -1,0 +1,17 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Dumbbells",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Mat",
+      "confidence": 0.8
+    },
+    {
+      "equipment": "Ankle/wrist weights",
+      "confidence": 0.3
+    }
+  ],
+  "requiredEquipmentExplanation": "The video explicitly mentions the need for dumbbells in the description, where it states 'select moderate to heavy dumbbells for each set' and provides a range of weights (10lbs to 50lbs), indicating that they are necessary for the strength-focused exercises included in the workout. This gives a very high confidence score of 0.9 for dumbbells.\n\nAdditionally, an exercise mat is mentioned as required equipment, essential for floor-based exercises such as the 'side lying crunch,' 'donkey kick pulses,' and 'glute bridge,' hence a high confidence score of 0.8 is assigned to the mat.\n\nAnkle weights are mentioned as optional equipment, so there's a moderate confidence score of 0.3 since they could be used to intensify lower body exercises but are not essential for participating in the workout. This optionality is highlighted by their inclusion in the equipment list without assertion as necessary."
+}

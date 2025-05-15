@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Dumbbells",
+      "confidence": 0.7
+    },
+    {
+      "equipment": "Resistance bands",
+      "confidence": 0.7
+    }
+  ],
+  "requiredEquipmentExplanation": "The video description indicates that the 25-minute fusion workout involves 'walking, weights, HIIT, dancing, Pilates, kickboxing, and mini bands.' This suggests that the use of 'weights' and 'mini bands' is central to the workout, although participants can choose whether to use them based on their level of intensity. The mention of 'grab a set of small weights and mini bands for an extra challenge' indicates that dumbbells and resistance bands are not mandatory but highly encouraged to enhance the workout. Thus, I assigned a high confidence score of 0.7 for both Dumbbells and Resistance bands since they are explicitly mentioned as optional yet recommended to increase the difficulty of the workout."
+}

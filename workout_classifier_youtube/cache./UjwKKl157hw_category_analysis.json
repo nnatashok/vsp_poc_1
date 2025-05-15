@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Body weight",
+      "score": 0.95
+    },
+    {
+      "name": "Mat",
+      "score": 0.65
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The video is predominantly classified as a 'Body weight' workout due to the explicit references throughout the title, tags, and description to a 'bodyweight strength workout' and 'no equipment.' Such language indicates exercises solely relying on body weight for resistance, justifying a score of 0.95. The mention of 'full body' and 'strength' further reinforce this classification. \n\nThe secondary category, 'Mat,' received a score of 0.65. This is supported by one comment explicitly referencing the user being 'down on my mat,' implying that exercises are performed on the floor, common in mat-based workouts. Additionally, the workout's structure, combining active movements with isometric holds, indicates the usage of a mat to provide comfort or support during floor exercises.\n\nOther categories such as Weight workout, HIIT, or Pilates were not considered due to the clear focus on body weight exercises and the lack of equipment, high-intensity intervals, or specific Pilates terminology within the metadata."
+}

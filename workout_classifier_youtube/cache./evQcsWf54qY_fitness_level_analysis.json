@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is primarily described as a low-impact, bodyweight routine, indicating beginner-friendly, straightforward movements. Comments and description suggest the workout is designed for gentle movement with a focus on ease. The 'low impact' and 'no major cardio' descriptors further suggest exercises that are basic and not requiring complex coordination. However, mention of 'bodyweight exercises' allows for some intermediate techniques depending on the exercises chosen, hence the inclusion of the 'Intermediate' level at a lower score.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.9
+    },
+    {
+      "level": "Moderate",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The description emphasizes 'move light, move slow', explicitly positioning the workout as low effort and suitable for times of low energy, such as during PMS. User comments reinforce the perception of the workout being gentle and manageable, especially highlighting its appropriateness during a menstrual cycle when users might be less inclined to exert themselves. The duration of 27:47, while longer than typical for very light workouts, aligns with descriptions of a non-strenuous session.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    },
+    {
+      "level": "Advanced",
+      "score": 0.2
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.9,
+  "requiredFitnessLevelExplanation": "Given the workout's low-impact nature and explicit focus for less active periods, it is highly suitable for beginners, as supported by user comments using it on low-motivation days. The score for 'Intermediate' reflects the mixed indication from the metadata and user adaptation for varying intensity levels, allowing mild challenge for slightly more experienced users. 'Advanced' is nominally included to account for users who may push themselves with more challenging variations of the bodyweight exercises, particularly due to the 27-minute duration, which might require habitual activity readiness for sustained low-impact movement."
+}

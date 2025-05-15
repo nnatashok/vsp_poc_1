@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Body weight",
+      "score": 0.3
+    },
+    {
+      "name": "Weight workout",
+      "score": 0.9
+    }
+  ],
+  "categoriesConfidence": 0.8,
+  "categoriesExplanation": "The primary category selected is **Weight workout**, assigned with a score of 0.9. This decision is based on numerous explicit indications in the metadata such as \"Dumbbell Full Body Workout,\" \"dumbbell cardio workout,\" \"strength workout,\" and \"resistance training.\" The description emphasizes the use of dumbbells and exercises like renegade rows, shoulder presses, and man makers, which are typical of weighted workouts. \n\nThe **Body weight** category is also included with a score of 0.3, considering the inclusion of exercises like \"BODYWEIGHT ONLY Bulgarian lunges\" and \"PUSH UP TO DUMBBELL BURPEE,\" which do not require weights. \n\nThere is very high confidence (0.8) in these categories due to the explicit mention of dumbbell use across the title, description, and tags along with repeated exercises using just body weight, making these classifications strong and clear. The comments emphasize the workout's efficacy, further supporting the strength and resistance aspects of the routine."
+}

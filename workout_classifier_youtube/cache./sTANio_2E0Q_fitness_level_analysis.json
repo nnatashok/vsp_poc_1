@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.95
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.25
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is described as a 'light and easy full body stretch' within a yoga context, clearly indicating simple movements suitable for a beginner. The tags and comments emphasize relaxation and stress relief rather than technical challenge. While yoga may involve some complex postures, the focus here is on straightforward stretches for anxiety relief, suggesting a very low technique difficulty. Since yoga can be slightly challenging for complete newcomers, there's a marginal case for intermediate alignment, but evidence strongly supports primary beginner classification.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.95
+    }
+  ],
+  "effortDifficultyConfidence": 0.95,
+  "effortDifficultyExplanation": "The emphasis on 'calming yoga' and 'stress relief' implies a workout with low physical demand designed to promote relaxation. The duration is 20 minutes, but terms like 'light stretch' and 'de-stress' indicate a pace and structure that is gentle, further substantiated by comments praising it as non-tiring and refreshing. Thus, the workout aligns with a light effort difficulty, meant to be easily accessible and not challenging for deconditioned users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "Given the low technique difficulty and light effort difficulty, this workout is primarily suitable for beginners. The gentle nature of the session, designed for stress and anxiety relief, is echoed in the user comments about its relaxing and non-taxing nature. While all technique and effort difficulty metrics primarily align with the beginner category, we must consider that some individuals new to any physical activity might find basic yoga slightly challenging, allowing for a minor inclusion of the intermediate level."
+}

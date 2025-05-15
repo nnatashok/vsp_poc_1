@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.65
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.35
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout consists of movements like Forward Jump, Split Jumps, and Jumping Jacks, which are basic and common in many beginner workouts. These exercises require some coordination but not at a level that would be considered advanced. The inclusion of Arm Circles, a very basic movement, further supports a mostly beginner level with some elements of intermediate coordination.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.8
+    },
+    {
+      "level": "Challenging",
+      "score": 0.2
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout is described as 'challenging,' but the duration is only 15 minutes, which typically suggests a moderate intensity for the full duration, suitable for those slightly conditioned. The inclusion of high-energy exercises like Jumping Jacks and limited rest periods indicate a baseline of moderate effort, with the potential for a challenging effort if rest periods are skipped, as implied by user comments.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "Given the technique difficulty involving mostly basic movements, the workout is accessible to beginners, especially since the channel is focused on providing such content. However, user comments and the description suggest that the workout can be quite demanding, especially if rest is minimized. This necessitates including intermediate fitness levels along with beginner due to the need for some baseline stamina and coordination to fully complete the workout effectively."
+}

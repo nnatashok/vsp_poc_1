@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The exercise is a stationary bike workout titled for beginners. The basic cycling movements are simple and not highly technical, aligning with a 'Beginner' level. However, the workout includes elements like climbs, sprints, and jumps which require some coordination and pose changes, slightly increasing complexity to 'Intermediate'.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.5
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout is a 20-minute beginner stationary bike session. The tags, description, and title emphasize weight loss and fat burning, indicating moderate exertion. User comments reflect perceived challenge, especially for those new to exercise, supporting a 'Moderate' level. However, the relatively short duration and option for pacing adjustments also align with 'Light'.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    },
+    {
+      "level": "Advanced",
+      "score": 0.2
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "Combining technique and effort difficulty, the workout is suitable for beginners as stated, with simple bike techniques and optional pacing adjustments for less fit users. The workout's challenging sections (climbs, sprints, jumps) and user comments support the inclusion of 'Intermediate'. A minor 'Advanced' score reflects more experienced beginners using higher resistance or faster paces. The video's accessibility and duration encourage multiple fitness levels."
+}

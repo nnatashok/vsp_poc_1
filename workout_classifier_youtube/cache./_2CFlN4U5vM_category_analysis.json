@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Weight workout",
+      "score": 0.95
+    },
+    {
+      "name": "Body weight",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary focus of this workout is strength training using dumbbells, as explicitly indicated by the title '45-minute NO REPEAT Full Body Strength Training' and the detailed description listing the equipment needed, including dumbbells ranging from 10lbs to 45lbs. The structured format with specific rounds for 'upper body', 'lower body', and 'abs' targets different muscle groups using various weighted exercises such as 'Arnold Press', 'Romanian Deadlift', and 'Chest Flyes'. This confirms the classification as a 'Weight workout' with a high confidence score of 0.95, as the use of weights is central.\n\nThe presence of movements like 'Plank Side Bend' and 'Crunch Pulse' suggests some body weight exercises may be incorporated, hence a minor addition of 'Body weight' category with a score of 0.3. No strong indicators were found for categories like 'HIIT', 'Mat', or 'Yoga', ruling them out. The confidence in this classification is high due to clear indicators from the metadata."
+}

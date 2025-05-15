@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.75
+    },
+    {
+      "level": "Advanced",
+      "score": 0.45
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.72,
+  "techniqueDifficultyExplanation": "The workout includes exercises like tempo squats, single-leg deadlifts, and skaters, which require moderately complex coordination and balance, indicating Intermediate Technique Difficulty. Comments mentioning compound exercises and the structured approach (e.g., 'one of the best instructors,' 'combined compound exercises') suggest a higher level of complexity, supporting a secondary Advanced score, but due to the general audience and the trainer's approach, it mainly leans towards Intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.6
+    },
+    {
+      "level": "Challenging",
+      "score": 0.8
+    }
+  ],
+  "effortDifficultyConfidence": 0.77,
+  "effortDifficultyExplanation": "The workout is 34 minutes long, involving full-body strength training with circuits using medium weights (8 to 20 pounds). The description and comments imply it is physically demanding ('just the right amount of sore', 'well-designed workout'). The duration and structure suggest a Challenging Effort Difficulty, especially considering this may involve less rest and sustained effort. However, some users' descriptions of positive experiences and progress imply it can also fit a Moderate level for motivated participants.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.6
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.76,
+  "requiredFitnessLevelExplanation": "Based on the combined Intermediate and Advanced Technique Difficulty and Moderate to Challenging Effort Difficulty, this workout predominantly suits Intermediate users, capable of handling such duration and exercise complexity. However, comments mentioning significant weight loss and personal achievements suggest it is accessible to motivated beginners with some determination, hence the secondary Beginner score. The Advanced level also applies due to some complexity and effort required for those with a fitness background."
+}

@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout involves treadmill running which is generally straightforward and primarily requires adjusting speed and incline. This aligns mostly with Beginner level due to its simplicity in form but involves intervals and speed adjustments, moderately increasing the complexity to Intermediate. The duration and interval nature of the workout (with specific timing for high-intensity bursts) imply a need for moderate coordination, aligning with Intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.7
+    },
+    {
+      "level": "Extreme",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The HIIT format with 12 rounds of 30-second sprints and 90-second rest periods is demanding, falling into the Challenging effort category due to sustained high-intensity bursts over a 30-minute duration. The structured rest intervals and sprints suggest an effort level demanding for most, aligning with Challenging, while the overall workout length and intensity can be considered at the lower end of Extreme for deconditioned individuals.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.6
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "While the technique difficulty supports both Beginner and Intermediate levels due to the treadmill's control and simple mechanics, the workout's intensity skew towards Intermediate and even Low Advanced for some due to its HIIT nature. The 30-minute duration affects Beginner suitability, but the intensity level and user feedback suggest that it challenges beyond entry-level fitness, strongly supporting Intermediate and aligning with Advanced for continuous high effort. Given the ability to self-select pace on a treadmill, multiple fitness levels are included."
+}

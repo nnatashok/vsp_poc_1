@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Weight workout",
+      "score": 0.8
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary classification for this workout video is \"Weight workout\" with a high score of 0.8. This is because the video focuses on a barbell complex workout, a type of strength training involving compound exercises like squats, lunges, rows, and deadlifts, explicitly stated in both the title and description. The use of weighted equipment such as barbells and dumbbells indicates a strong emphasis on building strength and muscle.\n\nFurthermore, the description mentions the workout's nature as a 'complex' that blends multiple exercises into a continuous circuit, which suggests elements of metabolic conditioning. This complex-style structure aligns with \"HIIT\" (High-Intensity Interval Training), especially with the format of alternating between exercise and rest periods indicated by 'rest 30' and 'rest 45'. This justifies a secondary category of \"HIIT\" with a score of 0.6, as there is strong implicit evidence of interval-based intensity.\n\nAlternative categories such as \"Body weight\" and \"Calisthenics\" are excluded due to the explicit use of weights, and \"Metabolic conditioning\" is already encompassed by the HIIT classification due to the workout's format and intensity indicators."
+}

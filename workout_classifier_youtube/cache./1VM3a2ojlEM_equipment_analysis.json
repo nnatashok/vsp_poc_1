@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Blocks",
+      "confidence": 0.3
+    }
+  ],
+  "requiredEquipmentExplanation": "The primary equipment needed for this workout is a \"Mat\", as explicitly mentioned in the description: \"all you need is your mat.\" This aligns with the practice being a yoga flow, which typically requires a mat for comfort and traction. The confidence score is very high at 0.9 because the mat is central to performing yoga exercises comfortably.\n\n\"Blocks\" are mentioned as optional: \"if you have some blocks at home you can keep them close by and use them to make poses more accessible.\" This suggests that while not necessary, blocks can enhance the workout for those who desire modifications. The confidence level is moderate at 0.3 since blocks are only suggested for making poses more accessible but are not required for completing the class."
+}

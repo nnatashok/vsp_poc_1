@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is described as beginner-friendly with a focus on simple movements such as reclined, seated, and standing yoga poses. This indicates a low complexity typical of beginner-level technique. The use of terms like \"gentle\" and \"flow suitable for all experience levels\" supports a simple execution level. The mention of optional blocks gives slight flexibility indication, warranting a small score for Intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.9
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "This 30-minute yoga workout is described as gentle and beginner-friendly, suggesting a light effort requirement. The comments from users in their 60s and 70s finding the class manageable further substantiate this classification. However, due to the duration being over 30 minutes and inclusion of standing poses, a moderate score is applicable, albeit at a lower level as intensity indications are minimal.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "The workout is explicitly described as beginner-friendly, suitable for those new to yoga. This, combined with light effort and beginner-level technique, assigns a strong Beginner fitness level. Given the 30-minute duration and potential mild complexity from standing poses, an Intermediate level inclusion with a lower score is justified. The flexibility of using blocks also supports slight accommodation for those slightly more advanced than complete beginners."
+}

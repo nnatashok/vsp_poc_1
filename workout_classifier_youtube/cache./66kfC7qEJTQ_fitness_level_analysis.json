@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is described as suitable for seniors and beginners, focusing on form with simple movements appropriate for lower fitness levels. Phrases like \"exercises explained for seated or standing\" and \"each exercise is explained to ensure you do the exercises properly with good form\" indicate a Beginner technique difficulty. However, it also mentions the idea of progressing to heavier weights as reps become easier, suggesting a slight Intermediate technique complexity if participants gradually increase the intensity.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout is a 32-minute session primarily aimed at seniors and beginners, suggesting a Light effort, especially since it includes seated options. The encouragement to progressively use heavier weights indicates the potential for Moderate effort difficulty as participants become more comfortable and aim to challenge themselves.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.9,
+  "requiredFitnessLevelExplanation": "Considering the technique and effort difficulty classifications, the workout is predominantly suitable for Beginners due to its simple, well-explained exercises and focus on accessibility for seniors and beginners. The Intermediate level is also relevant as participants can adjust the difficulty by choosing heavier weights as suggested, aligning with gradual progression in effort."
+}

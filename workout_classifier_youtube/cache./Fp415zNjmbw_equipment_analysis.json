@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Elliptical",
+      "confidence": 1.0
+    },
+    {
+      "equipment": "Mat",
+      "confidence": 0.5
+    }
+  ],
+  "requiredEquipmentExplanation": "The main equipment required for this workout is an elliptical, specifically an elliptical climber, as indicated by the video title \"25 Min High Resistance Elliptical Climber Pyramid Intervals Workout\" and multiple mentions in the tags and description. The description explicitly refers to using the \"cardio climber,\" and the workout breakdown involves pyramid intervals on this machine. Therefore, confidence is very high (1.0) for the elliptical being necessary.\n\nAdditionally, a Treadmill Floor Mat is mentioned in the 'Fitness Equipment Used' section, suggesting it may be used under the elliptical to protect flooring. While this is not explicitly part of the workout, it\u2019s noteworthy as an ancillary item. Therefore, a moderate confidence score (0.5) is assigned for a mat being part of the setup but not required for the exercise itself."
+}

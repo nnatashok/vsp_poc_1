@@ -1,0 +1,46 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.3
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    },
+    {
+      "level": "Advanced",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The technique difficulty for this HIIT cardio workout is assessed as primarily Intermediate. This is inferred from the nature of the exercises referenced in the comments, such as 'Jumping Jacks' and 'Air Squats,' which require a moderate level of coordination and balance, typical of Intermediate workouts. However, the format and duration suggest some basic movements are involved, so a portion is accessible to Beginners. Advanced is considered due to the potential complexity in maintaining form and intensity over an extended period, suggesting some more challenging elements.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.7
+    },
+    {
+      "level": "Extreme",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "Given the 45-minute duration and the promise of burning 700-1000 calories, the workout is classified as Challenging, bordering on Extreme in effort difficulty. This is supported by comments describing the workout as strenuous ('absolutely knocked me around') and references to 'fat melting' and high energy expenditure indicators ('700-1000 calories'). The inclusion of rest breaks somewhat moderates its intensity, making it slightly less than fully Extreme for deconditioned users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.5
+    },
+    {
+      "level": "Elite",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The required fitness level is evaluated based on both the technique and effort difficulty. The workout is most suitable for Intermediate to Advanced users, given its demanding nature and duration beyond 40 minutes, indicating a need for a higher fitness level. 'Extreme' effort and Intermediate to Advanced technique imply that beginners would find it quite challenging. Comments suggesting significant weight loss and use over a period confirm its intensity and need for a higher starting fitness level, as some degree of conditioning is necessary to manage the intensity safely."
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Indoor biking",
+      "score": 1
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The primary category identified for this workout is 'Indoor biking,' as evidenced by the repeated references to cycling-related terms throughout the metadata. The video title clearly states 'Cycling Workout,' and the tags include 'spin,' 'indoor cycling,' 'cycling workout,' and similar terms, all pointing explicitly to a cycling-based workout. The presence of 'cadence drills' and specific pedalling instructions further confirms this classification, warranting a high score of 1. \n\nAdditionally, the workout incorporates varying intensity levels, mentioned as 'big efforts' and 'session varies in intensity,' as well as the use of terms like 'interval,' 'interval training,' and 'HIIT' in the tags. These elements strongly imply a High-Intensity Interval Training (HIIT) component, justifying a secondary classification as HIIT with a score of 0.7. There is no indication of other workout types, such as mat work or bodyweight exercises, reducing the likelihood of misclassification into other categories."
+}

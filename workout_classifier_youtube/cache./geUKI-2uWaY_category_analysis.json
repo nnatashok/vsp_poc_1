@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Calisthenics",
+      "score": 0.9
+    },
+    {
+      "name": "Body weight",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The primary category assigned is 'Calisthenics' with a score of 0.9, due to the explicit mention of 'beginner calisthenics' in both the title and description, as well as multiple tags (e.g., 'calisthenics', 'beginnercalisthenics', 'femalecalisthenics'). The channel and the description emphasize foundational strength training through bodyweight exercises, specifically calisthenics. The presence of terms like 'pushups', 'pulluptraining', and 'invertedrows' in both tags and comments also supports this classification.\n\nThe secondary category is 'Body weight' with a score of 0.7, as the video includes many bodyweight-based exercises, indicated by tags such as 'bodyweighttraining' and 'pushups'. Although the focus is on calisthenics, the use of bodyweight is a significant aspect of these exercises.\n\nThere is very high confidence in this classification, supported by consistent indicators across all metadata (description, tags, and comments). 'Weight workout' and other categories were excluded as there is no mention of equipment or weights, which confirms the emphasis on bodyweight and calisthenics."
+}

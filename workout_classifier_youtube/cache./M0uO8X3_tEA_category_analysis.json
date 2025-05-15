@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Body weight",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The metadata strongly indicates that this workout falls under the HIIT category. The title explicitly mentions '20 Minute Full Body Cardio HIIT Workout', and tags like 'hiit workout', 'high intensity cardio workout', and 'fat burning hiit workout' further reinforce this classification. The description also highlights the high-intensity nature of the workout, describing it as a cardio-focused routine with plyometric movements, which are typical in HIIT settings. The phrase 'no repeat' suggests a series of unique exercises with no repetitions, common in HIIT workouts, pointing to a score of 0.9 for HIIT.\n\nAdditionally, the inclusion of phrases such as 'no equipment' and 'plyometric movements', along with the focus on bodyweight exercises, supports the classification as Body weight with a score of 0.7. The workout involves exercises that rely on the individual's body weight for resistance and strength-building, as noted in the description and evident in the tag 'full body hiit workout no equipment'. \n\nWhile cardio is a primary element, the combination of HIIT and bodyweight training provides a more holistic classification. Other categories like 'Running', 'Yoga', or 'Weight workout' do not apply due to lack of relevant indicators."
+}

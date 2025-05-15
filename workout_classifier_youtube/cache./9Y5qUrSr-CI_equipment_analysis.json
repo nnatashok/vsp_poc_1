@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The metadata analysis suggests that a 'Mat' is the only equipment needed for this workout. The title explicitly states 'mat pilates' and the description mentions to 'Grab your mat and give this new 12 Min Pilates Core workout a try,' indicating very high confidence that a mat is central to the workout. Additionally, the description specifies that 'No equipment needed, just a Pilates mat or soft surface,' further reinforcing the critical role of a mat for this workout. Therefore, the confidence score for the Mat is 0.9, as it is explicitly mentioned as required and central to the exercise."
+}

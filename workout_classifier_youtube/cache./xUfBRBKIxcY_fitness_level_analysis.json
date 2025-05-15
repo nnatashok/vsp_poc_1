@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout involves treadmill running, which is a relatively straightforward activity typically classified as 'Beginner'. Running requires basic coordination and balance but is familiar to most people. However, the mention of 'recovery intervals' and 'inclines' adds a moderate layer of complexity, suggesting a possibility for 'Intermediate' classification. User comments indicate participation from individuals returning to fitness, implying manageable technique demands.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.6
+    },
+    {
+      "level": "Challenging",
+      "score": 0.7
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The effort difficulty is primarily derived from the 40-minute duration of treadmill run with 'run and recovery intervals', which suggests a structured, demanding workout. 'Calorie Shred' and user comments highlighting substantial calorie burn and personal effort further suggest a 'Challenging' exertion level. However, the presence of intervals provides moments of reduced intensity, moderating the effort to 'Moderate' for some users, especially beginners.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.5
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.9,
+  "requiredFitnessLevelExplanation": "Given the 40-minute duration and the use of intervals, the workout is primarily suitable for 'Intermediate' users and above. The 'Endurance Calorie Shred' branding and emphasis on effort suggest a requirement for some baseline cardiovascular fitness, making it appropriate for 'Advanced' users looking for a structured challenge. However, since intensity and incline are adjustable, these factors can be tailored to suit 'Beginner' participants who are closely monitoring their comfort zones, justifying a 'Beginner' classification, albeit cautiously."
+}

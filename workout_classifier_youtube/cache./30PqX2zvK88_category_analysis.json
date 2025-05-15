@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Body weight",
+      "score": 0.9
+    },
+    {
+      "name": "Calisthenics",
+      "score": 0.7
+    },
+    {
+      "name": "Mat",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The workout video is categorized as 'Body weight,' 'Calisthenics,' and 'Mat' based on the metadata provided. The primary focus of the video is on bodyweight exercises, as evidenced by the title '8 Bodyweight Exercises EVERYONE Should Do!' and repeated mentions of 'bodyweight exercises' and 'no equipment' in the description and tags. This indicates a very high presence of body weight training (score: 0.9). The exercises listed, including push-ups, pull-ups, planks, and burpees, align with typical calisthenics movements, hence a score of 0.7 is justified for the 'Calisthenics' category. The 'Mat' category is also somewhat relevant, as many of the exercises, such as planks and glute bridges, are performed on the floor, indicating mat use, but it is not the central focus, giving it a score of 0.4. Other potential categories like 'Weight workout' or 'HIIT' are excluded due to the explicit focus on bodyweight and lack of high-intensity interval structure."
+}

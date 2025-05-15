@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is described as 'low impact' and 'all standing,' with no equipment needed, indicating simple, straightforward movements with minimal coordination requirements, characteristic of beginner level technique. Tags and descriptions emphasize suitability for beginners, such as 'beginner workouts' and 'women beginner workout'. This supports a 'Beginner' technique difficulty classification with high confidence. Some 'Intermediate' features might be inferred since there may be a need for slight coordination given the full-body nature, but this is less emphasized.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is low impact and lasts 22 minutes, which increases potential effort requirements slightly above the lightest level. User comments describe the workout as challenging but manageable even for completely deconditioned individuals. Since it's intended to energize and elevate heart rates, it aligns with light to moderate effort difficulty, suitable for beginners but not entirely without physical challenge. Tags like 'no jumping' and 'walking workouts' contribute to the 'Light' classification, with 'Moderate' capturing the combined challenge of sustained effort for over 20 minutes.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.9,
+  "requiredFitnessLevelExplanation": "Given the 'Beginner' technique difficulty and the light to moderate effort required, the workout is clearly suitable for beginners, aligning with the channel's focus on beginner-friendly content. Comments from users affirm this, with some first-time exercisers able to complete the workout. Nevertheless, due to the workout being over 20 minutes, an 'Intermediate' level is included to account for newbies who might find sustained activity challenging. The simplicity and lack of high-intensity components justify the strong 'Beginner' score."
+}

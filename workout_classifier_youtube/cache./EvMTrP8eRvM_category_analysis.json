@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Yoga",
+      "score": 1.0
+    },
+    {
+      "name": "Breathing exercises",
+      "score": 0.7
+    },
+    {
+      "name": "Stretching",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The primary category for classification is 'Yoga', which is clearly supported by multiple metadata points. The title '15 min Gentle Yoga for Flexibility & Stress Reduction' explicitly mentions yoga, and the channel 'Yoga with Kassandra' focuses heavily on yoga content. The description and tags reinforce this by highlighting yoga-related terms such as 'hatha yoga', 'gentle yoga', and 'yoga for flexibility'. Thus, a score of 1.0 for 'Yoga' reflects its dominant presence in this workout. \n\nThe next category is 'Breathing exercises', supported by the mention of 'Box Breath - Sama Vritti Pranayama' in both the description and tags. This type of breathing exercise is a notable component of the session, justifying a solid score of 0.7. \n\n'Stretching' is also inferred due to phrases like 'full body stretch' in both the description and tags, indicating significant stretching activity. The repeated mention of 'flexibility' supports the inclusion of this category, leading to a score of 0.6.\n\nThere is high confidence in these categories due to explicit mentions across multiple metadata sections, leaving little ambiguity in classification."
+}

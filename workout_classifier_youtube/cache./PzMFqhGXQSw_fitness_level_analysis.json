@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout primarily involves running and walking intervals on a treadmill, which generally requires minimal technique. The title mentions 'beginner running workout', and the description suggests adjusting speeds and inclines, indicating adaptation for different levels. The user comments further support that this workout is beginner-friendly but can be scaled in difficulty based on speed. Thus, the workout is classified between 'Beginner' and 'Intermediate'.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.65,
+  "effortDifficultyExplanation": "The HIIT workout involves intervals with variable speeds, suggesting a higher cardiovascular demand. The 30-minute duration, combined with a structured high-intensity interval (HIIT) format, pushes it beyond 'Light' to 'Moderate'. User comments highlight the challenging nature of maintaining certain pace levels, supporting a 'Moderate' to 'Challenging' classification. Recovery periods suggest that the intensity is variable and can be tailored, justifying the dual level classification.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.75,
+  "requiredFitnessLevelExplanation": "The workout's flexible pacing makes it possible for beginners to engage at lower speeds, corroborating the 'Beginner' level. However, the HIIT format with intervals and progressing speeds increases the cardiovascular demand, warranting an 'Intermediate' classification for full engagement. The inclusion of a 30+ minute workout suggests significant effort, which can also appeal to 'Advanced' users by adjusting the pace and incline, aligning with multiple user skill levels."
+}

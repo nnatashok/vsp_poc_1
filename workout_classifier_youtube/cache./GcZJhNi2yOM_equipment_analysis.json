@@ -1,0 +1,17 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.4
+    },
+    {
+      "equipment": "Plyo box",
+      "confidence": 0.6
+    },
+    {
+      "equipment": "Dumbbells",
+      "confidence": 0.5
+    }
+  ],
+  "requiredEquipmentExplanation": "The video focuses on strength training and plyometrics, which often require specific equipment. The mentions of 'Pogo jumps' and 'Box jumps' in the top comments suggest the use of a plyometric box or similar equipment, leading to a high confidence score of 0.6 for a 'Plyo box,' categorized under 'Other.' \nAdditionally, the general theme of strength training suggests the optional but likely inclusion of a mat for floor exercises, with a moderate confidence score of 0.4 based on typical workout routines. \n'Dumbbells' are given a moderate confidence score of 0.5 since they are common in explosive resistance and strength exercises, although not explicitly mentioned in the metadata. The lack of explicit mentions results in some uncertainty about the specific equipment needed, hence the moderate confidence scores."
+}

@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Blocks",
+      "confidence": 0.4
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is described as a daily yoga flow, which typically requires a 'Mat' to perform floor exercises comfortably and safely, such as asanas and transitions. This is strongly implied, although not explicitly mentioned in the metadata, earning it a high confidence score of 0.9. The description and comments acknowledge the practice as suitable for different levels, suggesting that 'Blocks' may be used to adjust poses for flexibility and balance challenges. However, because blocks are not mentioned explicitly in the title, description, or comments, they are assigned a moderate confidence score of 0.4. No other equipment appears to be needed, pointing to a predominantly bodyweight and yoga-focused routine."
+}

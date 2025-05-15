@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout combines elements of Pilates and HIIT, both requiring some coordination and body awareness. The use of light weights, as suggested by the comment about 1kg weights, involves basic movements that align with a Beginner level. However, Pilates movements typically require some level of body control and awareness, pushing the classification towards Intermediate for users not familiar with Pilates techniques.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The duration of 18 minutes, combined with the HIIT format, suggests a moderate to challenging energy expenditure. The presence of 'low impact' and 'move and sweat' in the tags and description, along with users reporting sweating after only 15 minutes, indicates a higher effort level for deconditioned users, skewing between Moderate and Challenging.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "The combination of Technique and Effort Difficulties suggests a broad range of suitability. Given the HIIT format with modifications available (e.g., using different weights or no weights at all) and the class's duration being under 20 minutes, it is suitable for Beginners. However, the additional complexity from Pilates elements and the cardiovascular challenge implied in the metadata (e.g., 'sweat,' 'movement') extend suitability more strongly to Intermediate levels, while Advanced users might find it beneficial with increased weights or intensity."
+}

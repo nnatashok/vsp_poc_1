@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Dumbbells",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout video is a '15 Minute Full Body Dumbbell Workout' which clearly indicates the use of dumbbells as primary equipment. The title and multiple tags, such as 'dumbbell strength workout' and 'full body dumbbell workout', further reinforce this. The description explicitly states 'All you need for this workout is a yoga mat (or soft surface) and a pair of dumbbells (light to moderate weight)', ensuring very high confidence (1.0) in the requirement for dumbbells and high confidence (0.9) for a mat. The mat is suggested for comfort during the workout, making it likely necessary for performing it effectively."
+}

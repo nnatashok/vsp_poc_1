@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout primarily involves using an elliptical machine, which is relatively simple to operate with correct form, mainly focusing on maintaining balance and rhythm. The technical requirement comes from adjusting resistance and being consistent with arm and leg coordination. While the title suggests an 'Intermediate' level, the machine's use can be accessible even for beginners who adjust resistance based on their capability. Thus, both Beginner and Intermediate levels are applicable.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.3
+    },
+    {
+      "level": "Moderate",
+      "score": 0.7
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout spans 26 minutes, which slightly exceeds the typical beginner duration but not excessively so. Given the adjustable resistance settings mentioned (ranging from 1 to 8), users can customize the effort needed. The workout includes both moderate resistance and periods with higher resistance, making the overall session require a moderate energy expenditure. While 'Light' effort is possible with lower settings, it's more apt for users at moderate effort due to the duration and resistance use.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.35
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "The workout is explicitly tagged as 'Intermediate,' suggesting a baseline requirement. However, the accessibility of the elliptical machine, along with adjustable resistance, allows beginners to engage by selecting lower resistance and taking more breaks if necessary, as indicated by user comments on taking breaks and adjustable levels. The 26-minute duration with resistance changes aligns well with a moderate level, skewing towards Intermediate. Advanced users can also benefit by maximizing resistance use and minimizing rest."
+}

@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Dumbbells",
+      "confidence": 1.0
+    },
+    {
+      "equipment": "Mat",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The video description explicitly mentions the need for dumbbells, advising viewers to use a range from 10lbs to 25lbs for the workout, which is structured around strength training supersets. The mention of specific weights and the exercises listed, such as chest press and tricep overhead extension, indicate that dumbbells are central to the workout, hence a very high confidence score of 1.0.\n\nAdditionally, an exercise mat is also required, as explicitly stated in the 'EQUIPMENT NEEDED' section of the description. Mats are typically used in floor exercises, which aligns with some of the exercises such as renegade row and various crunches listed in the description. Given its explicit mention, the confidence level for needing a mat is also very high at 1.0. No other equipment is mentioned or implied as necessary in the metadata, and the focus is clearly on using dumbbells and a mat for the exercises described."
+}

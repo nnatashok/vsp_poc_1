@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.95
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is a guided breathing exercise described as suitable for beginners, involving controlled breathing and breath holds. The technique difficulty is classified as Beginner because it involves simple, rhythmic breathing patterns without complex movement or coordination. Intermediate is also included at a low score because of discussion about potential mild physical sensations like tinnitus, suggesting a slight learning curve for new practitioners.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.95
+    },
+    {
+      "level": "Moderate",
+      "score": 0.2
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "This is a breathing exercise meant to be performed while sitting or lying down, indicating very low physical exertion, thus categorizing effort difficulty primarily as Light. The breath holds range from 30 to 90 seconds, and the slow pace further indicates low intensity. Moderate is included at a low score due to some potential for slight physical sensations and adaptation from practicing breath holds.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.9,
+  "requiredFitnessLevelExplanation": "The breathing exercise is explicitly targeted at beginners and described as gentle and slow-paced, earning a strong Beginner classification. Intermediate is included with a lower score in recognition of the potential adjustment to intentional breath holds and managing minor unusual sensations, as well as reflection upon community feedback showing it benefits individuals with varying physical conditions. The short duration of 11 minutes also supports accessibility for beginners."
+}

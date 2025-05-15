@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The exercises included in this workout are basic bodyweight movements such as jumping jacks, squats with knee tucks, burpees, and lunges. These exercises are typically classified as beginner to intermediate because they do not require complex coordination, though proper form is important to avoid injury, particularly with burpees and knee tucks. The workout provides a straightforward format, which leans towards a beginner classification, but some movements slightly elevate it to intermediate for users who may need to refine their form.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.3
+    },
+    {
+      "level": "Challenging",
+      "score": 0.7
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is labeled as 'crazy intense' and involves HIIT, which typically demands significant energy. The workout structure (5 minutes with work/rest intervals and intensive exercises such as burpees) indicates an effort level that is challenging for deconditioned users, though the short duration keeps the overall effort from reaching 'extreme' levels.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    },
+    {
+      "level": "Advanced",
+      "score": 0.2
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.79,
+  "requiredFitnessLevelExplanation": "Based on the metadata, the workout's technique suggests it can be performed by beginners, though the intensity could be challenging, pushing it towards intermediate. Considering it's a short yet intense HIIT session, individuals with some basic fitness experience will find it manageable. It is also feasible for more advanced users to increase intensity by minimizing rest or adding more repetitions within the 30-second windows, hence a small alignment with advanced fitness levels."
+}

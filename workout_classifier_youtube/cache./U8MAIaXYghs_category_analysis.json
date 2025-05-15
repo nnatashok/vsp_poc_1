@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Treadmill",
+      "score": 0.9
+    },
+    {
+      "name": "Running",
+      "score": 0.7
+    },
+    {
+      "name": "HIIT",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category assigned is 'Treadmill' with a high score of 0.9. This is due to explicit mentions of 'treadmill' in the title, description, and tags, such as 'treadmill interval run' and 'treadmill running videos'. The video format appears to be a guided treadmill session. \n\n'Running' is assigned a score of 0.7 because the workout is a 'run' and part of a running community, explicitly mentioned in the description and channel information. The additional context of a 'community of runners' reinforces this. \n\n'HIIT' is given a moderate score of 0.5 due to the interval training aspect highlighted by phrases like 'interval run' and 'run and recovery intervals', suggesting an alternating pace characteristic of HIIT workouts. However, since the primary focus is treadmill usage, HIIT is secondary."
+}

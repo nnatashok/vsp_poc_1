@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The title of the video specifies that it is a '20MIN full body pilates workout,' and the channel owner, Lidia Mera, is a certified Pilates instructor with a Level 3 Pilates mat instructor certification. This strongly suggests that a mat is used for the workout because Pilates classes that emphasize floor exercises, such as those involving core and balance, typically require a mat for comfort and support during poses and exercises. The term 'mat' is not explicitly mentioned, but given the context and standard practice in Pilates workouts, a mat would be the primary piece of equipment needed. There is no mention of any other equipment like resistance bands or dumbbells, and the nature of Pilates, particularly mat-based, supports this conclusion. I have therefore assigned a high confidence score of 0.9 for the mat being required, using the available metadata focused on Lidia's expertise and the nature of Pilates."
+}

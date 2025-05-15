@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.75
+    },
+    {
+      "level": "Advanced",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The technique difficulty is considered Intermediate due to exercises like Romanian deadlifts, reverse grip rows, and alternating reverse lunges, which require some coordination and proper form. The focus on 'good form' and 'slow tempo' suggests a need for awareness, pushing it slightly toward Advanced. However, these movements are common in many strength workouts and likely within reach for users familiar with basic strength training, thus primarily Intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.5
+    },
+    {
+      "level": "Challenging",
+      "score": 0.7
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The effort difficulty of the workout is rated as Challenging, as it involves a 30-minute session with heavy weights and a high work to rest ratio (45 seconds work, 15 seconds rest). This format is demanding, especially when using heavy dumbbells, as explicitly recommended by the instructor. The moderate classification is still applicable since users can self-select lighter weights. The combination of full-body movements and rest structure primarily supports a Challenging rating.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 0.65
+    },
+    {
+      "level": "Advanced",
+      "score": 0.5
+    },
+    {
+      "level": "Beginner",
+      "score": 0.25
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.75,
+  "requiredFitnessLevelExplanation": "The required fitness level skews towards Intermediate and Advanced due to the combination of moderately complex technique and challenging effort level. Use of heavy weights and the workout's duration aligns less with beginners. However, due to the potential for modifying exercises and weights, it remains accessible to committed beginners familiar with strength training concepts, though with some caveats. Consequently, the rating spans Intermediate and Advanced, with a mild consideration for capable Beginners."
+}

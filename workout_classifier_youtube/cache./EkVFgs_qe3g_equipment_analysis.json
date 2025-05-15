@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.8
+    },
+    {
+      "equipment": "Dumbbells",
+      "confidence": 0.8
+    }
+  ],
+  "requiredEquipmentExplanation": "The metadata indicates that this workout video is a 'Pilates HIIT Workout with Weights.' The title, tags, and description emphasize the use of weights, which suggests Dumbbells, as they're commonly used for this purpose. Specifically, a comment directly mentions using '1kg weights,' supporting the requirement for light hand weights during the workout. This is also aligned with the tag 'full body workout with weights.' Therefore, Dumbbells are included with very high confidence (0.8).\n\nFurther, the description contains a link to a Mat (marketed as essential for practice), underlining its necessity for the Pilates-based workout components. Although it is not explicitly stated as required, it is implicitly suggested that a mat is standard for Pilates routines to ensure comfort and safety during exercises performed on the floor. Due to these indicators, the Mat is assigned a very high confidence (0.8) as necessary equipment."
+}

@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The technique difficulty is primarily 'Intermediate' due to the use of a stationary bike, which generally requires some familiarity with proper form and pacing to maximize effort, reflecting the moderate coordination needed. However, bike workouts can be accessible to beginners with appropriate adjustments, hence a 'Beginner' score is also provided, but at a lower rating as the workout is labeled as 'Intermediate'. The instructor's cue to pedal 'as fast as possible' without adjusting tension suggests a simplicity in workout execution.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.9
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "This workout's effort difficulty is set at 'Challenging' primarily due to the 40-minute duration and the high-intensity interval training (HIIT) format indicated by tags, which typically demands higher energy expenditure. However, because the description emphasizes pedaling 'as fast as possible' without modifying resistance, it may also be performed at a 'Moderate' level for users who decide to self-regulate their pacing, similar to light-weight cardio efforts.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 0.9
+    },
+    {
+      "level": "Advanced",
+      "score": 0.7
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The required fitness level is marked as 'Intermediate' given the 'Intermediate' labeling in both the title and description, suggesting it is primarily targeted towards those with some current fitness experience. The demanding 40-minute HIIT nature elevates its suitability to 'Advanced' for users less accustomed to extended cardio efforts or lacking consistent fitness backgrounds, thereby necessitating multiple fitness levels to accommodate different user capabilities and encouraging proper self-pacing."
+}

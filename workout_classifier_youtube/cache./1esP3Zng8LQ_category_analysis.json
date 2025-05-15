@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Elliptical",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.8
+    },
+    {
+      "name": "Treadmill",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The primary category assigned is 'Elliptical' with a confidence score of 0.9. The video title explicitly states \"Elliptical Workout,\" and the tags heavily focus on 'elliptical,' 'elliptical workout,' 'elliptical weight loss,' and more, indicating that the workout is designed for use on an elliptical machine. Additionally, the channel has multiple references to elliptical workouts, reinforcing this categorization. \n\nThe secondary category is 'HIIT' with a score of 0.8, as the workout involves structured intervals with varying intensity, described in the layout where the participant alternates between all-out bursts and short resting periods. This format aligns with high-intensity interval training routines. \n\n'Treadmill' is also noted with a lower score of 0.3 because the description mentions the workout can be adapted for use on a treadmill or any cardio equipment, indicating potential versatility. However, the main focus remains on the elliptical, so the score is low."
+}

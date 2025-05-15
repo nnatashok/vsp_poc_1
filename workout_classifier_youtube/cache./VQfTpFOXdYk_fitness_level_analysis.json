@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The HIIT workout is designed to be no equipment and is described as suitable for doing at home, suggesting simplicity in exercises. The exercises likely involve simple, dynamic movements such as jumping jacks or burpees. The channel's emphasis on accessibility for all levels and the generalist tag (e.g., 'cardio', 'full body workout without equipment') suggest beginner techniques are used, though the quick transitions and intensity may require a bit more coordination, thus partially ranking into intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.8
+    },
+    {
+      "level": "Challenging",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The 5-minute HIIT workout is quick, limiting extreme effort but specifies intensity ('cardio HIIT') which implies a higher energy demand over a short period. The channel promotes engaging and effective home workouts, likely designed to push heart rates into a challenging zone. However, given its short duration, it remains mostly moderate for fit beginner to intermediate levels, with additional challenge for those very unfit.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    },
+    {
+      "level": "Advanced",
+      "score": 0.2
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The workout duration (5 minutes) and no equipment requirement make it accessible, especially for beginners. However, HIIT-style exercises' inherently fast pace and intensity mean it suits those at a higher beginner level or entering intermediate status. The 5-minute cardio implies it can be strenuous for very deconditioned individuals, potentially translating into an advanced challenge specifically for those not used to any high-intensity movements."
+}

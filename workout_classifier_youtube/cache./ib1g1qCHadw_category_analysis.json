@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Pilates",
+      "score": 0.9
+    },
+    {
+      "name": "Weight workout",
+      "score": 0.75
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The video is primarily classified as a 'Pilates' workout due to multiple explicit indicators in the title, tags, and description. Words like 'Pilates strength', 'Pilates workout', and 'at home pilates' strongly suggest a focused Pilates session. The description mentions a 'full body Pilates inspired strength class,' reinforcing this categorization with very high confidence (score: 0.9).\n\nAdditionally, 'Weight workout' is a significant component as the description explicitly mentions using dumbbells, and the tags include phrases like 'pilates with dumbbells' and 'dumbbell home workout.' The inclusion of weights as part of the Pilates routine justifies a strong association with a weight-based workout (score: 0.75).\n\nThe interval style of the class, mentioned in the description, might suggest a HIIT element but is not emphasized enough to classify it separately. Therefore, it is not included. The overall confidence in classification is very high due to clear, consistent metadata and description details."
+}

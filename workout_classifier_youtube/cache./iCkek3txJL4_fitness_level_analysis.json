@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.1
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.95,
+  "techniqueDifficultyExplanation": "The video is a 10-minute daily full-body stretch routine focusing on flexibility, mobility, and relaxation. The tags and description emphasize simple exercises suitable for daily use, with no indication of complex movements. Comments confirm it's suitable for relaxation and stress relief, aligning with beginner-level technique difficulty, though mild coordination might slightly involve intermediate level skills for some stretches.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.9
+    },
+    {
+      "level": "Moderate",
+      "score": 0.1
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The routine is described as focusing on flexibility, mobility, and relaxation within a 10-minute timeframe, suggesting low energy expenditure. The focus is on daily usage, typical for light effort activity. However, repeated use or slight intensity variations that may elevate heart rates can attribute a minor moderate effort level.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.95
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.93,
+  "requiredFitnessLevelExplanation": "The technique and effort difficulties predominantly align with beginner-level requirements, given the routine's simplicity, the emphasis on relaxation, and minimal physical demand. While suitable for beginners, it can also be adapted slightly for those at an intermediate fitness level seeking relaxation and mild mobility improvement. This broad applicability aligns with the video's positioning toward diverse users, hence the inclusion of intermediate level but at a lower score."
+}

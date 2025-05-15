@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The video is labeled as suitable for beginners, with several metadata elements (tags, description, and comments) emphasizing that it's a gentle yoga class tailored for recovery. The mention of 'beginner yoga class' and 'yoga for athletes to boost recovery' indicates simple and accessible movements, aligning with beginner difficulty. Intermediate level consideration arises from flexibility needs in yoga, which may pose slight challenges to complete beginners. However, instruction cues emphasize comfort and adapting poses, reinforcing the beginner orientation.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.9
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is a 33-minute yoga session focused on recovery and stretching, suggesting a low-intensity effort level, particularly due to its relaxing and restorative nature. Beginner-friendly tags and comments highlighting relaxation and comfort imply minimal energy expenditure, suitable for a 'Light' effort classification. However, the duration exceeds 20 minutes and might introduce elements of mild exertion or focus, suggesting a lower-bound 'Moderate' classification as a possibility for users needing enhanced mobility and sustained poses.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    },
+    {
+      "level": "Advanced",
+      "score": 0.2
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "Given the technique and effort evaluations, this yoga session is highly accessible to beginners, with a score strongly supported by explicit beginner indicators in metadata. 'Yoga for athletes' and longer duration imply some suitability for intermediate-level users focusing on recovery. Typically, yoga's gentle approach fits multiple levels, thus, 'Intermediate' is included for those with a basic fitness background or athletes using it for active recovery. Simultaneously, the 'Advanced' level is marginally relevant due to focus enhancement and deeper flexibility work, though less emphasized."
+}

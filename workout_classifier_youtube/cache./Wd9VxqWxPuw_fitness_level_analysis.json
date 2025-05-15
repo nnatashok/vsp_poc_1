@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout involves indoor cycling, which generally requires low coordination and is considered a straightforward activity. The need to adjust resistance during high and low-intensity intervals introduces some complexity, possibly elevating it to Intermediate for users who are new to operating spin bike settings. User comments describing the workout as 'nice and simple' support a Beginner-Intermediate classification with moderate confidence.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.8
+    },
+    {
+      "level": "Challenging",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is 21 minutes long, placing it in a zone that can be moderately demanding, especially with its interval nature of alternating high and low intensity. Comments emphasize a good workout experience, suggesting a Moderate to Challenging effort level. The duration and effort of maintaining high pace during intervals support this classification with high confidence.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "Despite being a relatively simple activity, the 21-minute duration and description of interval training suggest it could be a moderate challenge for beginners, especially those completely out of shape. User testimonials indicate accessibility yet challenge for varied fitness levels, indicating suitability for Beginner to Intermediate users primarily, with potential inclusion for Advanced users who may push intensity limits. The fitness level classification is thus skewed towards Intermediate, with lower yet viable scores for Beginner and Advanced."
+}

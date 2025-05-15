@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 1
+    },
+    {
+      "name": "Body weight",
+      "score": 0.7
+    },
+    {
+      "name": "Mat",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.95,
+  "categoriesExplanation": "The primary category assigned is 'HIIT' with a score of 1.0, indicating very high confidence. The title explicitly mentions 'EXTREME FAT BURNING HIIT CARDIO WORKOUT', directly suggesting a high-intensity interval training session. Further evidence is provided in the description, with phrases like 'melt some extreme fat', 'no break workout', and comments mentioning the intense effort and lack of rest.\n\nA secondary category is 'Body weight' with a score of 0.7, as the workout involves 'NO EQUIPMENT', which is a clear indication of bodyweight exercises. Tags such as 'bodyweight workout' and 'calisthenics' reinforce this.\n\nThe 'Mat' category is included with a score of 0.4 because the session likely involves exercises done on the floor, as the tag 'calisthenics' is included, which often involves mat work, and comments like 'planks are the rest breaks' suggest floor exercises.\n\nOverall, there is a very high confidence of 0.95 in these categories due to strong consistent indicators across all metadata."
+}

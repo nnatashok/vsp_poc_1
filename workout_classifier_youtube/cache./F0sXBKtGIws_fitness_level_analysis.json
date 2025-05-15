@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The video features very basic yoga poses such as leg extensions, reclining twists, and deep belly breathing. These movements are described as simple and relaxing, requiring minimal coordination and balance, indicative of a Beginner level. However, given the variety of poses and the requirement to perform them with correct form, an Intermediate level can also apply for some users.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.9
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is designed to be a short, calming session, focusing primarily on stress relief and relaxation, as seen in the tags and comments. It involves gentle stretching and breathing over a 5-minute duration, which aligns well with a Light effort difficulty. However, deep belly breathing and hamstring stretches can provide some moderate physical engagement for complete beginners, hence a Moderate level is also included.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.9,
+  "requiredFitnessLevelExplanation": "The required fitness level is primarily Beginner, supported by tags such as 'yoga for beginners' and 'easy yoga'. The short duration and gentle nature of the exercises (stretching and breathing) makes it accessible to users completely new to yoga. Intermediate fitness level is also applicable given slight engagement in flexibility and proper execution, which might be required for deeper stretches. This inclusive approach allows for adaptation based on user comfort and slight modifications."
+}

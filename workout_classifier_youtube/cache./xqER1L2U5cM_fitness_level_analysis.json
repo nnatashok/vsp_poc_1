@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The video primarily targets beginners, emphasized by the tags and description indicating 'beginner workouts,' 'low impact,' and 'all levels.' However, given the inclusion of multiple styles like kickboxing and the use of mini bands and weights, some movements may involve elements requiring moderate coordination and balance, thus also fitting into the 'Intermediate' category. The option to adjust intensity with small weights suggests that while basic technique is prevalent, variations introduce some complexity.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout duration is approximately 28 minutes and involves multiple styles including HIIT, which inherently increases energy expenditure. Although positioned as beginner-friendly, modifications and the use of weights and bands can increase physical demand. The community feedback and channel's description support motivational engagement, suggesting a moderate baseline effort with potential for a challenging experience for those who scale intensity using added equipment.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.75
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "Considering both the technique and effort difficulties, the required fitness level aligns strongly with 'Beginner' due to explicit targeting in the metadata. 'Intermediate' is also appropriate as users may increase intensity or face higher coordination demands with specific styles like kickboxing. Given the longer duration and the ability to escalate difficulty with weights and bands, 'Advanced' is included for users who choose to maximize the workout's challenging aspects. The inclusive language in the description underscores the encouragement for multiple fitness levels to participate."
+}

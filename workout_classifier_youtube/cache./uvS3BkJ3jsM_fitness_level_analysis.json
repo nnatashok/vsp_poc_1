@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.65
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout is labeled as an \"intense full body HIIT\" which suggests a mix of compound movements typical in HIIT routines. The tags and description mention no equipment and bodyweight exercises, which typically require moderate coordination and execution skill. No specific mention of complex or challenging movements, hence 'Intermediate' is a fitting classification, accommodating the inclusion of some basic compound exercises that slightly challenge coordination.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.78
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The 20-minute duration and the description of the workout as 'intense' indicate a high level of physical exertion. HIIT is generally demanding due to its high-intensity nature, reflected in tags and descriptions emphasizing energy expenditure ('get you sweating', 'INTENSE'). No rest periods are indicated which suggests a sustained challenge throughout the workout, solidifying the 'Challenging' classification.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.45
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.75
+    },
+    {
+      "level": "Advanced",
+      "score": 0.6
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.7,
+  "requiredFitnessLevelExplanation": "Considering both Technique and Effort Difficulty, this workout accommodates a broad range of fitness levels. Beginner-level users could participate cautiously, adapting movements and intensity due to the intermediate technique and challenging effort difficulty. Intermediate users will find it appropriately demanding, with the effort and technique within their reach. Advanced users could also engage effectively by pushing intensity to their limits. The workout facilitates various fitness levels due to its bodyweight nature and the ability to self-regulate intensity."
+}

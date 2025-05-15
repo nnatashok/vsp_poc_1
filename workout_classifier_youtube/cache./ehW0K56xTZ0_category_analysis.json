@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Walking",
+      "score": 0.8
+    },
+    {
+      "name": "Mat",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category assigned is 'HIIT' with a high score of 0.9. This is supported by explicit references in the title and description to \"HIIT WORKOUT\", \"interval training\", and \"longer intervals\". The description indicates the workout involves alternating intense exercise and rest periods, which is characteristic of HIIT.\n\nThe second category is 'Walking', with a score of 0.8. The workout specifically involves fast walking and jogging intervals, as mentioned in both the description (\"fast walking workout\", \"walk or jog\") and the tags (\"walk at home\", \"fast walk\"). Comments reinforce this classification, with users sharing their experience of the walking intervals.\n\nA third, less emphasized category is 'Mat' with a score of 0.4, because floor exercise components like stretching are mentioned in the video breakdown (\"00:00 Intro\", \"28:00 Cool-down\", \"33:00 Stretching\"), indicating this component although it's not the focus.\n\nOverall, the evidence in the metadata strongly supports the HIIT and Walking classifications, with relatively less emphasis on Mat."
+}

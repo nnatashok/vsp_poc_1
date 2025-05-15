@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 1.0
+    },
+    {
+      "name": "Mat",
+      "score": 0.3
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category for this workout is HIIT (High-Intensity Interval Training), as explicitly stated in both the title and description. The workout involves structured intervals of exercises, which is characteristic of HIIT, as described: '4 sets of 2 exercises, each done in 20 second, 30 second, and 40 second intervals.' This provides very high confidence in assigning it to the HIIT category, validated by additional tags like 'hiit for seniors' and 'yes2next hiit workout.'\n\nA secondary category considered was 'Mat,' with a low score of 0.3. Although the workout involves exercises done in a chair and standing, these can be considered mat-type activities as they do not require equipment beyond a chair. However, the presence of intervals strongly emphasized its primary nature as a HIIT workout, lowering confidence in categorizing it fully as 'Mat.'\n\nOverall, the classification was determined with high confidence based on the repetitive emphasis on HIIT in the metadata, with a mild indication of mat-like characteristics due to the nature of the exercises described."
+}

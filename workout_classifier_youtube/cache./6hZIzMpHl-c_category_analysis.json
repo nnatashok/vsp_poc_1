@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Yoga",
+      "score": 1
+    },
+    {
+      "name": "Stretching",
+      "score": 0.6
+    },
+    {
+      "name": "Meditation",
+      "score": 0.4
+    }
+  ],
+  "categoriesConfidence": 1,
+  "categoriesExplanation": "The primary category assigned is 'Yoga' with a score of 1. This is supported by the metadata, which explicitly mentions 'yoga' multiple times in the title, tags, and description. Phrases like 'beginner yoga sequence', 'yoga class', and references to various yoga styles (Vinyasa, Hatha, etc.) provide strong and unambiguous evidence. Furthermore, the channel's entire focus is on yoga practice, which reinforces this categorization with very high confidence.\n\nThe secondary category is 'Stretching' with a score of 0.6. The description mentions 'improve flexibility', and tags such as 'flexibility yoga for beginners', and 'quad stretches', indicating a focus on stretching as part of the practice, hence the inclusion but with less emphasis than yoga itself.\n\nThe tertiary category is 'Meditation' with a score of 0.4. Although meditation is not explicitly mentioned as a primary focus, the description encourages focusing on breath to relieve stress and anxiety, and comments emphasize relaxation and mindfulness aspects, albeit as a secondary element.\n\nOther potential categories such as 'Breathing Exercises' do not have enough emphasis or explicit mention to warrant categorization."
+}

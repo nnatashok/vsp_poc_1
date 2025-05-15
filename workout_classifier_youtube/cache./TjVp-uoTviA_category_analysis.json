@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Running",
+      "score": 0.6
+    },
+    {
+      "name": "Weight workout",
+      "score": 0.7
+    },
+    {
+      "name": "Body weight",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.75,
+  "categoriesExplanation": "This workout video is classified primarily under 'Weight workout' and 'Body weight' due to the specific exercises mentioned in the description and video timeline, which include strength training movements such as Dumbbell Squats and Bulgarian Split Squats with explicit use of dumbbells suggesting a focus on strength training with weights. The inclusion of plank variations and jump squats also points to bodyweight exercises for core and strength, justifying a 'Body weight' category. The repetitive mention throughout the metadata of improving running, running tips, and exercises for runners implies a 'Running' category focus as the exercises are tailored for enhancing this activity. However, the session itself does not constitute a running workout but rather a cross-training for runners which warrants an intermediary confidence level for 'Running.' The categorization confidence is high due to clear metadata alignment with these workout types."
+}

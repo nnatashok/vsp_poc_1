@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout is classified with an Intermediate technique difficulty. The metadata indicates that it is a full-body HIIT workout involving numerous exercises done in a circuit fashion. User comments suggest exercises like burpees with variations, implying some coordination and balance requirements. Since no equipment is used, the complexity remains moderate, and the repeated reference to HIIT suggests dynamic bodyweight movements typical of intermediate level. Thus, the technique difficulty aligns more with an Intermediate level, balancing the potential variability of movements with non-equipment usage.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The effort difficulty is rated as Challenging. The workout description and title highlight it as a 'Killer HIIT Workout' and 'fat burning', known characteristics of high-intensity training. The workout includes 30 minutes of active circuit training with a 50:10 work-rest ratio and is 40 minutes in total including warm-up and cool-down. This suggests significant energy expenditure and cardiovascular demand, suitable for a challenging level. User comments describe difficulties in completing the session, underscoring its demanding nature.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.6
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The required fitness level is determined as Intermediate to Advanced. With a challenging effort difficulty and intermediate technique complexity, the workout is suitable for individuals with some fitness experience. The 40-minute duration with minimal rest also points towards those with a moderate level of conditioning. Although techniques are not highly advanced, the cumulative strain and exercise variations (like burpees) cater to those beyond a beginner level. Despite modifications being encouraged, the intensity remains beyond beginners, thus Intermediate and Advanced levels are the most applicable."
+}

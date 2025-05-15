@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout is a 45-minute full-body Pilates session, indicating it goes beyond basic pilates movements, requiring some coordination and body awareness. Pilates typically involves controlled movements and core engagement, which suggest intermediate technique difficulty. Tags like 'intermediate pilates' and descriptions from users who found it challenging support the intermediate level, but the former dancer and gymnast expertise of the instructor adds an element of potential complexity, justifying a partial classification as advanced.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    },
+    {
+      "level": "Extreme",
+      "score": 0.2
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The duration of 48 minutes significantly increases the effort difficulty, particularly for those who are not used to extended workouts. Pilates can be quite demanding due to sustained core engagement and muscle control throughout the session. The user's comment on being 'humbled' and having difficulty after 10 minutes highlights the challenging nature, while the length supports a potential extreme classification for less conditioned users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.6
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "Based on the technique and effort difficulty, this workout is best suited for intermediate to advanced fitness levels. The technique requires significant control and coordination, while the effort is demanding due to its duration. Though accessible to beginners with modifications, the channel's content and users' comments indicate it might still be challenging for this group, making it more suitable for those with some Pilates or core practice experience. Multiple fitness levels are chosen to account for the variance in individual fitness levels and the ability to adjust exercises."
+}

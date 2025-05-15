@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The title and description highlight that this is a 'no jumping' and 'apartment friendly' workout, suggesting simple movements which are less complex. The comments further support that users find it easy and accessible, with one mentioning the ability to perform at varied paces, indicating simpler techniques that can be adapted. The lack of equipment suggests fundamental movements suitable for beginners, though there might be some coordination required at a faster pace leading to a small inclusion of the Intermediate level.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.8
+    },
+    {
+      "level": "Challenging",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout is 'super sweaty' and designed to be done in a 'consistent' manner throughout, implying a steady pace with moderate cardiovascular demand. The comments suggest a moderate difficulty level, with a user achieving a good workout without feeling exhausted, and another appreciating the lack of noise, indicating a less intense style. However, the workout's ability to still generate a sweat suggests some might find it 'challenging' especially due to constant movement, thus a small challenging score is included.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    },
+    {
+      "level": "Advanced",
+      "score": 0.2
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.7,
+  "requiredFitnessLevelExplanation": "Given the simple technique and moderate effort required, the workout is primarily suitable for beginners, with a strong suitability score. The intensity and ability to adapt pace allow inclusion of intermediate levels, providing a decent challenge there, while the advanced level is minimally included due to the constant movement that would require some stamina and fitness to maintain effectively."
+}

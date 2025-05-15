@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.95
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The video is described as a 'gentle seated yoga for beginners and all levels', indicating a focus on simple movements such as seated and floor stretches. This aligns well with the 'Beginner' level for technique difficulty due to the minimal coordination and balance required. However, it's also mentioned as suitable for 'all levels', suggesting that intermediate users could also find it accessible, hence a moderate score for 'Intermediate'. The user comments affirm this accessibility for those even with limited mobility.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.9
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The video is a 30-minute yoga routine described as 'gentle' and 'slow paced', indicating low energy expenditure, suitable for the 'Light' effort category. While it's longer than 20 minutes, the gentle nature keeps it from demanding substantial physical effort, deserving a strong 'Light' score. However, the 'Moderate' level is included to reflect the consistent practice time, requiring a bit more endurance over the 30-minute session, hence a lighter score for 'Moderate'.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The classification for required fitness level leans heavily on 'Beginner', as the video is explicitly labeled for beginners and supported by user feedback indicating accessibility to newcomers. The 'Intermediate' and 'Advanced' scores reflect the notion of it being appropriate for 'all levels', as intermediate individuals might engage with it given the opportunity to refine flexibility and mindfulness, as well as the longer duration that gives it a slightly challenging aspect for sustained focus and endurance. The community feedback showing users of varied physical capabilities successfully engaging with the video justifies this broad range of fitness levels."
+}

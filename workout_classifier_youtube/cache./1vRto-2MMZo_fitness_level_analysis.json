@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout is primarily dance-oriented, involving basic dance moves synchronized to music. The title and tags indicate it is designed as a 'beginner dance workout,' suggesting simple, accessible movements. However, the presence of actual dance moves highlighted in a comment indicates some requirement for coordination, allowing for a slight inclusion of the intermediate level.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "With a short duration of 15 minutes and described as a cardio workout that focuses on fun rather than high intensity, the workout likely doesn't demand excessive energy expenditure. Comments suggest that users find it entertaining rather than exhausting, supporting a classification skewed towards light effort but with a moderate option due to the full body, continuous movement.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "The workout's short duration and dance format make it highly accessible to beginners by minimizing physical strain. However, the coordination aspect and potential for users seeking a slight challenge justify a moderate score for intermediate fitness level. Given the metadata's emphasis on fun and accessibility, the beginner label is assigned a higher confidence."
+}

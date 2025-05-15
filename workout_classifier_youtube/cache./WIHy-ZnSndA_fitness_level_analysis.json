@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The video's title and tags emphasize that it is a 'beginner workout.' The description and comments support this, as it's noted as 'realistic beginner strength training.' User comments highlight successful completion by very deconditioned individuals ('noodle arms,' post-chemotherapy), suggesting the exercises are straightforward and accessible. The channel's reputation for modifications and user-friendly workouts further supports this classification. Intermediate score included due to the use of weights, which require basic understanding of form.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The video's 18-minute duration suggests a lower energy expenditure, aligning with 'light' effort difficulty. Tags and user feedback (e.g., 'challenging but not to the point of being unable to complete') imply a manageable level of exertion for beginners, though not negligible. The content likely includes basic strength conditioning, which involves some moderate effort, justifying the addition of a moderate score.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    },
+    {
+      "level": "Advanced",
+      "score": 0.2
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.85,
+  "requiredFitnessLevelExplanation": "Given the beginner-friendly emphasis in the video's title and metadata, and supportive comments from users in various states of deconditioning, this workout is highly suitable for beginners. However, because it involves weights, users with a basic fitness background may also gain from it, hence the intermediate score. Advanced inclusion is mild, reflecting that more seasoned exercisers may utilize heavier weights or fewer rest periods to increase intensity, though this is less common.\"}"
+}

@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Body weight",
+      "score": 0.9
+    },
+    {
+      "name": "HIIT",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The primary category is 'Body weight' with a high confidence level (0.9) due to explicit mentions in the title and description emphasizing the 'Bodyweight Workout' format, which requires 'no equipment.' This clearly indicates exercises performed using one's body weight as resistance. The description highlights this workout style, also citing 'tone your muscles' further emphasizing strength training using body weight.\n\nThe secondary category is 'HIIT' with a moderate to high score (0.7). This inference is drawn from comments and description referencing 'cardio + strength' and the mention of a 'dripping sweat' outcome, typical of HIIT sessions. Additionally, a comment notes 'HIIT breaks for active recovery,' providing clear evidence of interval training components. While not explicitly labeled as HIIT in the main metadata, these contextual clues suggest the inclusion of high-intensity interval elements.\n\nOther potential categories like 'Mat' or 'Weight workout' are excluded due to the lack of equipment use or clear indications of floor-based exercises beyond bodyweight training."
+}

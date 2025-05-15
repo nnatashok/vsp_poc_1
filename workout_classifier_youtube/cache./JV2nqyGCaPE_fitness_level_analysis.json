@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The video involves indoor cycling, which generally requires basic skills. However, it includes 'progressive sprints,' indicating some coordination to change speeds effectively, elevating it to Intermediate. Given the straightforward nature of cycling and the support for various fitness levels, it suits both Beginner and Intermediate technique levels.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.75
+    },
+    {
+      "level": "Challenging",
+      "score": 0.65
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout is described as a 'quick progressive sprint session,' suggesting increased intensity bursts that elevate effort. The 10-minute duration classifies it low-to-moderate in total exertion but makes it more challenging due to sprint elements. The keywords 'fat burning,' 'interval,' and 'HIIT' imply a significant effort, thus it's between Moderate to Challenging.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.5
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.4
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.8,
+  "requiredFitnessLevelExplanation": "Indoor cycling allows for self-paced modifications, making it accessible but still demanding due to intensity. The sprint elements necessitate a reasonable baseline fitness, fitting Intermediate users strongly, but it's structured to be accessible to Beginners who can control intensity. Given the exertion and sprint-based nature, it's slightly skewed to include Advanced users, but the short duration mitigates this, keeping it attainable for Intermediate."
+}

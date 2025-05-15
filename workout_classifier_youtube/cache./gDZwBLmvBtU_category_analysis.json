@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Elliptical",
+      "score": 0.95
+    },
+    {
+      "name": "HIIT",
+      "score": 0.6
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The video is classified primarily as 'Elliptical' based on repeated references across the metadata, including the title ('Elliptical Workout Routine') and tags such as 'elliptical workout', 'elliptical machine workout', and 'best elliptical workout'. These indicate that the workout centers around using an elliptical machine, justifying a high score of 0.95 due to the video's explicit focus.\n\nAdditionally, a secondary classification of 'HIIT' is considered. Tags mention 'hiit' and 'interval training', implying that the workout may include variations in intensity, typical of High-Intensity Interval Training. This inference is supported by phrases like 'get your heart rate up' in the description, indicating possible interval components. However, given the lack of detailed evidence explicitly describing interval features, the confidence and score for HIIT are moderate at 0.6.\n\nExamination of comments corroborates the elliptical focus, with users specifically mentioning trying the elliptical workout. There was no significant evidence supporting other workout categories."
+}

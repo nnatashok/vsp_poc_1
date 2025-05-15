@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The workout is based on bodyweight exercises with no equipment, suggesting simplicity suitable for beginners. The description mentions 'no repeat' which may indicate a variety of exercises, but without complex equipment or highly technical movements, the technique remains low in complexity. Comments mentioned basic warm-up exercises suitable for any level, reinforcing the beginner technique level. However, given the 45-minute duration, some exercises may have slightly higher coordination requirements, justifying the slight inclusion of the intermediate level.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.6
+    },
+    {
+      "level": "Challenging",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout is 45 minutes long with a full body focus, which naturally increases its intensity, hence not suitable for a completely deconditioned beginner. The description says 'not super intense', suggesting it's manageable, but reviews mention muscular soreness which suggests significant effort. Therefore, while primarily moderate, some elements like duration and no-repeat structure contribute to a challenging effort classification for the average viewer.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    },
+    {
+      "level": "Advanced",
+      "score": 0.3
+    }
+  ],
+  "requiredFitnessLevelConfidence": 0.75,
+  "requiredFitnessLevelExplanation": "While the description portrays it as accessible ('not super intense'), the 45-minute duration and ensuring muscular soreness suggest it's more suitable for beginners who have some basic physical readiness, hence marked as beginner to intermediate. For truly deconditioned users, maintaining effort over 45 minutes could be challenging, nudging it into intermediate. As the workout incorporates a high volume of exercises due to 'no repeat' structure, it also slightly touches on advanced fitness levels for those able to persist without rest."
+}

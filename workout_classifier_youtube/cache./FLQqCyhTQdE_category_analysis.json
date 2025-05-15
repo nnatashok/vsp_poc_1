@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Body weight",
+      "score": 0.9
+    },
+    {
+      "name": "Mat",
+      "score": 0.7
+    },
+    {
+      "name": "HIIT",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout video is classified primarily under 'Body weight' due to the explicit mention of 'NO EQUIPMENT' in the title and description, indicating exercises are performed using one's body weight only. Additionally, hashtags in the description such as '#bodyweightworkout' reinforce this category, warranting a high score of 0.9. \n\nThe 'Mat' category is applicable because the exercises, including those like push-ups and planks, are typically performed on the floor, often with the use of a mat. This is further supported by the nature of the exercises mentioned in the comments (e.g., 'Walkout Push ups', 'Push up to Plank'), resulting in a score of 0.7 for this category. \n\nA moderate presence of 'HIIT' is inferred from the structured, intense format of the workout, as noted in comments about its challenging nature and the characteristics of the exercises, which suggest an interval-like training method, earning a score of 0.5. There is high confidence in these classifications based on direct evidence and context provided by the metadata."
+}

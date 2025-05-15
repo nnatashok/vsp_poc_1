@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "HIIT",
+      "score": 0.9
+    },
+    {
+      "name": "Body weight",
+      "score": 0.6
+    },
+    {
+      "name": "Mat",
+      "score": 0.2
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The workout was categorized primarily as HIIT due to explicit mentions of 'HIIT workout', 'intensity', '45s On/ 15s Rest', and 'fat-burning full body,' all of which are indicators of High-Intensity Interval Training. The high user engagement and mentions in the metadata support a score of 0.9 for the HIIT category. The 'Body weight' category is also relevant as the description states 'No Equipment', meaning the workout relies on the user's body weight itself to provide resistance; this justifies a score of 0.6. Additionally, a minimal presence of 'Mat' exercises is inferred as the workout is 'all standing', typically requiring an exercise mat for certain drills, but no explicit mention of floor exercises limits this to a score of 0.2. Categories such as 'Elliptical', 'Indoor biking', etc., are excluded as there are no mentions of equipment like elliptical machines or bikes."
+}
