@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 1
-    }
-  ],
-  "requiredEquipmentExplanation": "The metadata clearly indicates this is a rowing workout with keywords such as 'row' in the workout name and category. The 'Welcome to Alaska Row' title emphasizes the rowing element, and the category specifically includes 'row.' The description mentions 'navigating past Cascade Glacier,' which aligns with the rowing theme. Given the workout type and category, the confidence for requiring a 'Rowing machine' is very high (1.0). No other equipment is suggested or implied by the metadata."
-}

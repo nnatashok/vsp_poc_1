@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 0.9
-    }
-  ],
-  "requiredEquipmentExplanation": "The classification is based primarily on the metadata, which explicitly categorizes the workout under 'row' as well as 'Breathe,standard,row'. Therefore, a rowing machine is required, and its need is central to the workout. The title and description, although focused on aerobic capacity, do not specify any other equipment clearly. However, the presence of 'row' in the category strongly indicates that the workout involves rowing, justifying a high confidence score of 0.9 for a rowing machine."
-}

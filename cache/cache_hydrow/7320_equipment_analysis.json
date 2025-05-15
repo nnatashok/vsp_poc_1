@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 0.9
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout is titled \"Technique Focused Cool-Down,\" and the description emphasizes focusing on rowing technique during the cooldown phase. The category explicitly includes \"row,\" further indicating that a rowing machine is central to this workout. Given the emphasis on technique and rowing in the metadata, this equipment is crucial. The high confidence score of 0.9 reflects the clear requirement of a rowing machine, despite the lack of explicit mention in the equipment field, aligning with the schema's guideline for rowing-related content."
-}

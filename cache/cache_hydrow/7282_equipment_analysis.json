@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 1.0
-    }
-  ],
-  "requiredEquipmentExplanation": "Given the metadata, the workout is categorized under 'row', which strongly indicates the central use of a rowing machine. The category 'row' mandates including a 'Rowing machine' with a very high confidence level, as it explicitly states that rowing is an essential part of the workout. Furthermore, the mention of 'Newport Harbor' and 'explore' suggests a simulated rowing journey often performed on a rowing machine. There is no mention of any other equipment being necessary or suggested. Thus, the only required equipment with very high confidence is the rowing machine."
-}

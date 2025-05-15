@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 0.9
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout name 'Power Pyramid Row' and the category 'row' strongly indicate the need for a rowing machine. The description states 'rowing on the Charles River,' which confirms that rowing is the primary activity. Even though the image shows rowing on water, the mention of a standard 'row' workout implies an indoor rowing machine is intended for replicating this exercise in a typical setting. Given that the category is 'row,' the confidence score is very high at 0.9, in line with the analysis guidelines."
-}

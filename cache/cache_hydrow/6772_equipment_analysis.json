@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 0.9
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout is titled 'Careers + Cardio Row,' and both the name and description focus on rowing. The category includes 'row,' indicating it's centered around rowing. Although the image shows outdoor rowing, the metadata implies this is an indoor workout, and for consistency with the category, a rowing machine is highly likely required. Therefore, the confidence score for needing a rowing machine is very high at 0.9."
-}

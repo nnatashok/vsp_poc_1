@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 1.0
-    }
-  ],
-  "requiredEquipmentExplanation": "The metadata for the workout named \"HIIT Row\" explicitly falls into the \"row\" category, indicating that a \"Rowing machine\" is required with high confidence. The name of the workout itself, \"HIIT Row,\" and the description mentioning 'strokes', further reinforces that rowing equipment is essential for executing this workout effectively. The use of the term 'strokes' suggests rowing exercises, which are typically done on a rowing machine when indoors. Therefore, both the workout type and category confirm that a rowing machine is central to this workout."
-}

@@ -86,7 +86,7 @@ def analyse_spotify_workout(workout_json, openai_api_key,
         "video_url": playlist.get('external_urls', {}).get('spotify',None),
         "video_title": playlist.get("name"),
         "duration": calculate_total_duration_of_tracks(workout_json),
-        'video_metadata':workout_json,
+        'video_metadata': workout_json,
         'video_metadata_cleaned': meta,
         "channel_title": playlist.get('owner', {}).get('display_name',None),
         "poster_uri": meta['image']

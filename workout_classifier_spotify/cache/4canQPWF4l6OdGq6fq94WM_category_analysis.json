@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Running",
+      "score": 0.9
+    },
+    {
+      "name": "Treadmill",
+      "score": 0.7
+    }
+  ],
+  "categoriesConfidence": 0.9,
+  "categoriesExplanation": "The playlist 'Top 100 Running Songs' is clearly intended for running workouts, as indicated by both the title and description, which directly mention running. The presence of 232 high-energy tracks, with genres like EDM, Pop, and Dance-Pop, suggests it is tailored for maintaining a fast-paced, energetic workout. These music styles and tempos are ideal for motivating runners over various distances and intensities, whether outdoors or on a treadmill, which supports a 'Running' classification with high confidence at a score of 0.9.\n\nAdditionally, the playlist could also support treadmill sessions, as the description of tracks like AFROJACK's 'Take over Control' and Chris Brown's 'Yeah 3x' indicate high danceability with fast-paced beats suited for sustained indoor running or walking on a treadmill. This supports a 'Treadmill' classification with a score of 0.7, reflecting a probable secondary use case but with slightly lower confidence due to the more general focus on running rather than walking or slower-paced treadmill activities.\n\nThe exclusion of the 'Walking' category is due to the lack of moderate or slower tempo songs that typically support a walking pace. There are no explicit references to walking in the metadata. High energy, fast BPM tracks imply a primary intention for more intense workouts rather than moderate walking sessions."
+}

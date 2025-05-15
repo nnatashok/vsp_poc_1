@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 0.85
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout is classified under 'row' as a category, indicating that a rowing machine is essential. The description also mentions starting at rhythm 24 and gradually decreasing, which aligns with activities typically performed on a rowing machine. Although no equipment is directly specified in the metadata, the context strongly implies that a rowing machine is necessary. The image provided includes individuals rowing, further supporting this analysis. Given the centrality of rowing to the workout, the confidence score for requiring a rowing machine is very high at 0.85."
-}

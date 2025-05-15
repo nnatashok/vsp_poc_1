@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 0.9
-    }
-  ],
-  "requiredEquipmentExplanation": "The metadata explicitly categorizes the workout under 'row', which strongly indicates the need for a Rowing machine. The title 'Keep Going Row' further reinforces the use of rowing as the primary activity. The description mentions climbing in rhythm, a term commonly used in rowing workouts, especially those involving interval formats. Since 'row' is part of the category, the confidence level is very high (0.9), suggesting that a rowing machine is central to this workout session. No other equipment is explicitly mentioned or implied, hence the focus remains solely on the rowing machine."
-}

@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 0.9
-    }
-  ],
-  "requiredEquipmentExplanation": "The metadata strongly indicates the use of a rowing machine. The workout name 'Pause Drill Cool-Down' and description 'Reinforce technique as Mac leads you through pause drills' suggest rowing techniques, which are typically practiced on a rowing machine. Additionally, the category 'row' further solidifies this inference, aligning with the need for a rowing machine. The image provided shows rowing activity typically associated with either a rowing machine or a real boat. Given the indoor workout context, a rowing machine is most likely required, hence a very high confidence score of 0.9 is assigned."
-}

@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 1
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout's metadata explicitly categorizes it as a 'row' type, which implies a rowing machine is needed. This is further supported by the category \u2018Breathe,standard,row\u2019 and the workout name 'Travel Questions Row.' Additionally, the image shows individuals rowing, confirming the rowing theme. As such, the confidence level for requiring a rowing machine is very high at 1.0. No other equipment is indicated by the metadata."
-}

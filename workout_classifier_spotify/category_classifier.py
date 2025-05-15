@@ -64,10 +64,7 @@ CATEGORY_RESPONSE_FORMAT = {
                             "name": {
                                 "type": "string",
                                 "enum": [
-                                    "Elliptical", "HIIT", "Indoor biking", "Mat", "Running", "Treadmill", "Walking",
-                                    "Pilates", "Stretching", "Yoga", "Breathing exercises",
-                                    "Meditation", "Body weight", "Calisthenics", "Weight workout"
-                                ]
+                                    "Running", "Treadmill", "Walking"]
                             },
                             "score": {
                                 "type": "number",

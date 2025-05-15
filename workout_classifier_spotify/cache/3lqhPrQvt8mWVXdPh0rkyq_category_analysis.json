@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "name": "Running",
+      "score": 0.9
+    },
+    {
+      "name": "Treadmill",
+      "score": 0.5
+    }
+  ],
+  "categoriesConfidence": 0.85,
+  "categoriesExplanation": "The playlist is explicitly labeled as an 'Inspirational Running Playlist' in the title and supported by the query 'running inspiration playlist'. This strongly indicates its primary use for running workouts, thus assigning a high score (0.9) for the 'Running' category. \n\nThe playlist includes high-energy tracks, such as 'Titanium' by David Guetta and 'Survivor' by Destiny's Child, which are characterized by high BPMs (126 and 161, respectively) and positive, empowering lyrics. These elements are particularly suited for running, where such intensity and motivational themes can enhance the experience.\n\nThe Treadmill category is rated lower (0.5), inferred from the possibility that these tracks can be suitable for treadmill workouts due to their energetic and rhythmic nature, aiding in maintaining a consistent tempo.\n\nThe 'Walking' category is less relevant here, given the playlist's intensity and thematic focus on running, evidenced by the upbeat nature and strong themes of empowerment and resilience throughout the playlist, which aligns less with a walking workout's moderate pace. The confidence level for these classifications is high (0.85), given the explicit indication and supportive metadata."
+}

@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 1
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout video metadata explicitly categorizes the workout as 'row', which strongly suggests that a rowing machine is essential for this workout. This aligns with the categorical label 'row', indicating that the workout likely involves rowing exercises. Hence, the confidence score for including a rowing machine as required equipment is very high (1.0), as it is central to performing the workout as intended. There is no other mentioned equipment in the metadata, reinforcing that the primary and likely sole piece of equipment is the rowing machine."
-}

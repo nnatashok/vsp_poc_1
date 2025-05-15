@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 1.0
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout is explicitly categorized under 'row' and 'Drive,standard,row', which indicates the primary equipment needed is a rowing machine. The workout name 'Ultimate HIIT Row' and the description mentioning high rhythm intervals further confirm this, as rowing machines are commonly used for interval training. The image also depicts a rowing scenario, reinforcing the need for a rowing machine. Due to the category type being 'row', the confidence score for the rowing machine is very high at 1.0."
-}

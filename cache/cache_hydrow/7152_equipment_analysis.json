@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 1.0
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout is categorized under 'row' and the description explicitly mentions a rowing activity 'row along Rio Guadalquivir.' This strongly implies that a rowing machine is essential to the workout. Therefore, a confidence score of 1.0 is assigned to the rowing machine, as it is central to the exercise. No other equipment is indicated in the metadata, and with the specific mention of 'row', the need for a rowing machine is explicit."
-}

@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 0.9
-    }
-  ],
-  "requiredEquipmentExplanation": "The metadata specifies that the workout is a 'cool down' with categories including 'cool down, standard, row.' The word 'row' strongly suggests the need for a rowing machine, as does the description mentioning rowing down the Charles River. While the photo depicts outdoor rowing, the categorization in 'row' for an indoor workout platform implies that a rowing machine is the intended equipment. Given these factors, the confidence that a rowing machine is required is very high, at 0.9."
-}

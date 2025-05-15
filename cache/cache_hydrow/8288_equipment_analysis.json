@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 0.9
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout 'Rock HIIT Row' strongly implies the use of a rowing machine, fulfilling the requirement for this type of exercise. In the metadata, the category includes 'row' and the workout title contains 'Row', both indicating rowing activity. Additionally, the high-intensity interval training (HIIT) aspect commonly involves rowing machines to effectively deliver cardiovascular and resistance training. Although the image shows outdoor rowing, the workout is likely intended for indoor rowing machines given the context of the metadata focusing on HIIT. Therefore, a confidence score of 0.9 is justified for the rowing machine being essential equipment for this workout."
-}

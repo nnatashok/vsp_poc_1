@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 1.0
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout title 'Reverse Climb Cool-Down' and the category 'row' strongly imply the use of a rowing machine. The description mentions activities along the Charles River, which aligns with rowing exercises. Furthermore, the term 'Reverse Climb' suggests a rowing format typically executed on rowing machines, reinforcing this requirement. Given the metadata specifies 'row' and features an image with a rower, I assigned a very high confidence score of 1.0 for the rowing machine as essential equipment for this workout."
-}

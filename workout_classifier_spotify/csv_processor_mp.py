@@ -119,8 +119,6 @@ def analyze_workout(args):
             'tertiary_effort_difficulty': db_structure.get('tertiary_effort_difficulty', ''),
             'full_analysis_json': json.dumps(result, ensure_ascii=False, indent=2, sort_keys=True),
             'poster_uri':db_structure.get('poster_uri', ''),
-            "video_metadata": db_structure.get("video_metadata", ""),
-            'video_metadata_cleaned':db_structure.get("video_metadata_cleaned", "")
         }
         print(f"Process {process_id}: Successfully analyzed workout: {video_id}")
         return output_data
@@ -161,7 +159,7 @@ def write_results_to_csv(results, output_csv_path):
             'reviewable', 'review_comment',
             'primary_technique_difficulty', 'secondary_technique_difficulty', 'tertiary_technique_difficulty',
             'primary_effort_difficulty', 'secondary_effort_difficulty', 'tertiary_effort_difficulty',
-            'full_analysis_json', 'poster_uri', 'video_metadata', 'video_metadata_cleaned'
+            'full_analysis_json', 'poster_uri'
     ]
     with open(output_csv_path, 'w', newline='', encoding='utf-8') as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore')
@@ -330,9 +328,9 @@ if __name__ == "__main__":
     # Set up files
     current_dir = os.path.dirname(__file__)
     parent_dir = os.path.dirname(current_dir)
-    input_file = os.path.join(parent_dir,"Workout.csv")
-    output_file = os.path.join(parent_dir,"spotify_workouts_analyzed.csv")
-    cache_dir = os.path.join(parent_dir, "cache", "cache_spotify")
+    input_file = os.path.join(current_dir,"Workout.csv")
+    output_file = os.path.join(current_dir,"workouts_analyzed.csv")
+    cache_dir = os.path.join(current_dir, "cache")
     
     # Set up command line argument parsing
     parser = argparse.ArgumentParser(description='Process Hydrow workout videos from a CSV file')
@@ -354,7 +352,7 @@ if __name__ == "__main__":
                         help='To include selenium websearch for tracks in playlist')
     
     # Set default values for boolean arguments
-    parser.set_defaults(vibe=True, spirit=True, image=False, websearch=True)
+    parser.set_defaults(vibe=True, spirit=True, image=False, websearch=False)
     
     # Parse arguments
     args = parser.parse_args()

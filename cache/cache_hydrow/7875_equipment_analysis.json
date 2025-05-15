@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 0.9
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout metadata indicates that this is a rowing session, as seen in the 'Workout Name' being 'Guided Row: Steady Speed' and the 'Category' explicitly listed as 'row'. The mention of 'navigating the waters of Lake Lucerne' suggests a rowing experience. No other equipment types are mentioned, thus confirming the essential equipment as a 'Rowing machine' with a very high confidence score of 0.9."
-}

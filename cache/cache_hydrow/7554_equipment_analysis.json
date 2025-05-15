@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 1.0
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout metadata indicates a category of 'row' and the activity involves cooling down along the Charles River, suggesting a rowing context. The use of terms like 'Reinforce technique' and 'Max rhythm: 22' align with rowing exercises. Although the image depicts an outdoor rowing scene, for an indoor workout context, a 'Rowing machine' would be needed. Thus, the confidence score for 'Rowing machine' is very high at 1.0 due to the specific naming of rowing-related elements in the metadata."
-}

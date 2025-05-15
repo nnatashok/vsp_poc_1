@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 0.9
-    }
-  ],
-  "requiredEquipmentExplanation": "Given the workout category includes 'row,' along with 'Synchronization Cool-Down' and the description of rowing on the Charles River, it's clear that a rowing machine is essential. The mention of 'max rhythm: 22' aligns with rowing cadence metrics. Although the workout involves rowing on water, the format and metadata suggest it\u2019s meant for indoor rowing simulations. Thus, assigning a high confidence score of 0.9 for the requirement of a rowing machine."
-}

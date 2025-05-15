@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 1.0
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout categorization clearly includes 'row', which mandates the inclusion of a 'Rowing machine' as essential equipment with very high confidence (1.0). This is further reinforced by the workout being a 'journey' type, typically involving simulating a water rowing experience on a rowing machine. The absence of any other equipment mentions in the metadata suggests that the rowing machine is the singular focus for this workout. Additionally, the title 'Newport Harbor Stern View' implies a rowing session where one would use a rowing machine to virtually explore the waters of Newport Beach. Therefore, no other equipment is inferred from the provided metadata."
-}

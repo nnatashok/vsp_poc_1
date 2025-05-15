@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 1.0
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout name 'Quick Intervals Row' and the category 'row' both explicitly indicate the use of a rowing machine. The description emphasizes performing high-intensity intervals, which aligns with rowing machine workouts designed for burst exercises. Although the image shows an outdoor rowing scene, the metadata suggests an indoor rowing setting due to the workout format description. Therefore, the confidence score for requiring a rowing machine is very high (1.0), as it is central to the workout structure and category."
-}

@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 0.95
-    }
-  ],
-  "requiredEquipmentExplanation": "The category 'row' and the description which mentions 'rowing at lower rhythms' strongly suggest the use of a rowing machine. The image shows people in a rowing setup, and the context of a 'cool down' also implies a rowing component. These elements lead to a very high confidence score of 0.95 for the rowing machine. No other equipment is referenced in the metadata."
-}

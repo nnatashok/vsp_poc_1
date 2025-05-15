@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 0.9
-    }
-  ],
-  "requiredEquipmentExplanation": "Given the workout title 'Lane Cove River Stern View' and the category 'Journeys,standard,row', along with the description of exploring surroundings from the water, it is clear that this workout involves rowing. The term 'row' in the category strongly implies the use of a 'Rowing machine', especially on a platform emphasizing rowing workouts. Although no equipment is explicitly mentioned in the 'Equipment' field, the context indicates a high confidence level (0.9) that a rowing machine is required to perform this virtual rowing journey. There are no other equipment needs suggested by the metadata."
-}

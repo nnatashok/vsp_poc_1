@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 1.0
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout metadata indicates that this is a 'Climbing Intervals Row' workout, classified under the 'row' category. The term 'row' in the category and title strongly suggests the use of a rowing machine. Additionally, the mention of 'rhythm' and 'endurance' typically aligns with rowing workouts that are performed on indoor rowing machines. These factors lead to a very high confidence score of 1.0 for the rowing machine being the required equipment. The image provided also depicts a rowing scenario, reinforcing the classification."
-}

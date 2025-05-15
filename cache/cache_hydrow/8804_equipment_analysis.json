@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 0.9
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout description explicitly mentions improving cardio with a 'Hydrow', which is a type of rowing machine. Additionally, the mention of strengthening the whole body in a circuit format implies high use of the rowing machine as a central piece due to the category being 'On The Mat'. The 'Hydrow' is essential since the instructor is a strength and conditioning coach focused on total muscle engagement. Therefore, the confidence level for 'Rowing machine' is very high (0.9). No other specific equipment is mentioned, even under the category 'On The Mat', suggesting that bodyweight exercises on a mat might also be involved, but the lack of explicit mention keeps their confidence low."
-}

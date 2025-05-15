@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 0.95
-    }
-  ],
-  "requiredEquipmentExplanation": "Considering the workout's category 'row', the 'Rowing machine' is a necessary piece of equipment. This category indicates that the primary mode of exercise is rowing, implying that participants will use a rowing machine. Additionally, the workout description suggests a virtual journey ('Immerse yourself in the tranquil beauty of Australia's Lane Cover River'), which typically simulates rowing using such a machine. Therefore, with the specific mention of 'row' in the category, we can assign a high confidence score of 0.95 to the need for a 'Rowing machine'."
-}

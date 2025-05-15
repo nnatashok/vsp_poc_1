@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 1
-    }
-  ],
-  "requiredEquipmentExplanation": "The metadata clearly indicates that the workout is a rowing session, defined by the category 'row,' which mandates the inclusion of a rowing machine. The term 'Drive' refers to a specific type of rowing stroke, reinforcing the necessity of a rowing machine for this workout. Additionally, the image provided depicts outdoor rowing, which is typically simulated indoors using a rowing machine. As per the analysis guidelines, any workout categorized under 'row' must include 'Rowing machine' with high confidence. Hence, the confidence score for requiring a rowing machine is very high at 1.0."
-}

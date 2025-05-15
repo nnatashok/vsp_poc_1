@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 0.9
-    }
-  ],
-  "requiredEquipmentExplanation": "The metadata indicates that this workout belongs to a rowing category ('row'), necessitating a rowing machine. The workout name 'Reverse Climb Cool-Down' and the instruction to move from rhythm 22 to 18 suggest an indoor rowing session. Although the image shows rowing on water, the classification is for an indoor rowing machine due to the category and workout description. Thus, a very high confidence score of 0.9 is assigned for the rowing machine."
-}

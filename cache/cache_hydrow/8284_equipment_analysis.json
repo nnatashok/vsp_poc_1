@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 1.0
-    }
-  ],
-  "requiredEquipmentExplanation": "The metadata indicates the workout type as 'drive' and the category includes 'row,' strongly implying rowing activities. Additionally, terms like 'Power' and high-intensity levels support the use of a rowing machine. The image provided shows rowing equipment, further confirming this. Thus, a rowing machine is required, and given these multiple strong indicators, a very high confidence score of 1.0 is assigned to the necessity of a rowing machine for this workout."
-}

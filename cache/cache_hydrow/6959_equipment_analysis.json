@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 0.95
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout is categorized under 'row', which strongly indicates the use of a rowing machine. The title, 'Training Pyramids Row,' and description mention '5' pyramid intervals' of traditional rowing, suggesting the necessity of a rowing machine for the intervals. Although no equipment is explicitly listed in the metadata, the context of the workout type ('sweat') and the image showing rowing further support this conclusion. Therefore, the confidence score for the rowing machine is set at 0.95, indicating very high confidence that it is required."
-}

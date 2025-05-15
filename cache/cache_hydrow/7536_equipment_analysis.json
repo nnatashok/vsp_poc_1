@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 1.0
-    }
-  ],
-  "requiredEquipmentExplanation": "Despite the workout being labeled as a 'Meditation Cool-Down', the category includes 'row', indicating high confidence that a rowing machine is required. The image supports this by showing a rowing setup, enhancing the likelihood of rowing involvement even during the cool-down. Thus, a rowing machine is assigned a very high confidence score of 1.0."
-}

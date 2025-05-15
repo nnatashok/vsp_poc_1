@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 0.9
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout is titled 'Club 26 Warm-Up' and the category specified is 'row.' The description mentions preparing for a 'Club 26 Row,' which clearly indicates the use of a rowing machine. Despite the metadata not explicitly listing any equipment, the emphasis on 'row' and the imagery of rowing strongly imply that a rowing machine is essential for this workout. Therefore, the confidence score for a rowing machine is set at 0.9 as it's central to the activity mentioned in the workout's description and category."
-}

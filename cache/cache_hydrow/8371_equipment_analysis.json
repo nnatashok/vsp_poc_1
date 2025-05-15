@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 0.9
-    }
-  ],
-  "requiredEquipmentExplanation": "The metadata specifies 'row steadily' and includes the category 'row,' which strongly suggests the use of a rowing machine. The image of the individual rowing further supports this classification. Despite the lack of direct mention in the 'Equipment' section, the classification as a 'row' workout category and the context make the rowing machine a necessary piece of equipment. Hence, the confidence level is set very high at 0.9."
-}

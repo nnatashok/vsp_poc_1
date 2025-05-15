@@ -25,9 +25,7 @@ def transform_to_db_structure(analysis):
         "duration_minutes": minutes,
         "duration_seconds": analysis.get("duration", ""),
         "poster_uri": analysis.get("poster_uri", ""),
-        "full_analysis_json": analysis,
-        "video_metadata": analysis.get("video_metadata", ""),
-        'video_metadata_cleaned':analysis.get("video_metadata_cleaned", "")
+        "full_analysis_json": analysis
     }
 
     # Process category data

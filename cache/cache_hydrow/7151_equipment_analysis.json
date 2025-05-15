@@ -1,9 +1,0 @@
-{
-  "requiredEquipment": [
-    {
-      "equipment": "Rowing machine",
-      "confidence": 0.95
-    }
-  ],
-  "requiredEquipmentExplanation": "The workout is clearly listed under the category of 'row,' which implies the involvement of rowing activities. The title \"Rio Guadalquivir Bow View\" and description \"Row through historic downtown Seville\" explicitly suggest a rowing experience, indicating the use of a rowing machine. As the main category is 'row' and it's clearly a rowing workout set in a scenic environment, this strongly signals the necessity of a rowing machine to effectively participate in and simulate this workout. According to the guidelines, if the category type is 'row,' the output must include 'Rowing machine' with a high confidence score, thus a very high confidence of 0.95 is assigned to the requirement of a rowing machine."
-}
