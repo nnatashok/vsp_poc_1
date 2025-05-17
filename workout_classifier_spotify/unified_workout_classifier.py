@@ -161,6 +161,9 @@ def analyse_spotify_workout(workout_json, openai_api_key,
                     classifier["response_format"]
                 )
                 cache_data(analysis, cache_path)
+            if name=="category": #when cat assigned, hardcode equipment
+                eq_analysis = equipment_hardcoded(analysis)
+                combined_analysis['equipment'] = eq_analysis
             # Check for errors in the classifier result
             if "error" in analysis:
                 has_errors = True
@@ -307,6 +310,29 @@ def delete_keys_with_market_inplace(obj):
         for item in obj:
             delete_keys_with_market_inplace(item)
 
+def equipment_hardcoded(analysis):
+    category = [d['name'] for d in analysis['categories']]
+    if "Treadmill" in category:
+        out = {
+        "requiredEquipment": [
+            {
+            "equipment": "Treadmill",
+            "confidence": 1.0
+            }
+        ],
+        "requiredEquipmentExplanation": "Hardcoded assignment."
+        }
+    else:
+        out = {
+        "requiredEquipment": [
+            {
+            "equipment": None,
+            "confidence": 1.0
+            }
+        ],
+        "requiredEquipmentExplanation": "Hardcoded assignment."
+        }
+    return out
 
 def run_classifier(oai_client, meta, system_prompt, user_prompt, response_format):
     """

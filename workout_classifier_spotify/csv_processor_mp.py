@@ -350,7 +350,7 @@ if __name__ == "__main__":
                         help='To include poster image as model input')
     parser.add_argument('--include-websearch', action='store_true', dest='websearch',
                         help='To include selenium websearch for tracks in playlist')
-    parser.add_argument('--processes', type=int, default=None,
+    parser.add_argument('--processes', type=int, default=1,
                         help='Number of parallel processes to use')
     
     # Set default values for boolean arguments
