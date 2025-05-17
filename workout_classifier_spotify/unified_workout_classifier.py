@@ -161,9 +161,6 @@ def analyse_spotify_workout(workout_json, openai_api_key,
                     classifier["response_format"]
                 )
                 cache_data(analysis, cache_path)
-            if name=="category": #when cat assigned, hardcode equipment
-                eq_analysis = equipment_hardcoded(analysis)
-                combined_analysis['equipment'] = eq_analysis
             # Check for errors in the classifier result
             if "error" in analysis:
                 has_errors = True

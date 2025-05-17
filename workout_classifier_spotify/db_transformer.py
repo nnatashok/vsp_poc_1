@@ -74,8 +74,8 @@ def transform_to_db_structure(analysis):
         })
 
     # Process equipment data
-    if "equipment" in analysis and "requiredEquipment" in analysis["equipment"]:
-        db_structure.update(extract_equipment_info(analysis["equipment"]["requiredEquipment"]))
+    if db_structure['subcategory']=='Treadmill' or db_structure['secondary_subcategory']=='Treadmill':
+        db_structure.update(extract_equipment_info())
     else:
         db_structure.update({
             "primary_equipment": None,
@@ -309,7 +309,7 @@ def extract_fitness_level_info(fitness_levels):
         "tertiary_fitness_level": tertiary_level
     }
 
-def extract_equipment_info(equipment_list):
+def extract_equipment_info():
     """
     Extract primary, secondary, and tertiary equipment information.
 
@@ -319,67 +319,11 @@ def extract_equipment_info(equipment_list):
     Returns:
         dict: Primary, secondary, and tertiary equipment for database
     """
-    if not equipment_list:
-        return {
-            "primary_equipment": None,
-            "secondary_equipment": None,
-            "tertiary_equipment": None
-        }
-
-    # Filter equipment by confidence threshold (>0.5)
-    filtered_equipment = [eq for eq in equipment_list if eq.get("confidence", 0) > 0.5]
-
-    if not filtered_equipment:
-        return {
-            "primary_equipment": None,
-            "secondary_equipment": None,
-            "tertiary_equipment": None
-        }
-
-    # Sort equipment by confidence score in descending order
-    sorted_equipment = sorted(filtered_equipment, key=lambda x: x.get("confidence", 0), reverse=True)
-
-    # Map to simplified equipment categories
-    equipment_mapping = {
-        "Weights": ["Dumbbells", "Kettlebells", "Medicine balls", "Barbell", "Weight bench"],
-        "Rower": ["Rowing machine"],
-        "Treadmill": ["Treadmill"],
-        "Exercise Bike": ["Exercise bike"]
-    }
-
-    # Initialize with 'Other' as default
-    primary_equipment = "Other"
-    secondary_equipment = None
-    tertiary_equipment = None
-
-    if sorted_equipment:
-        # Try to map primary equipment
-        for equip_category, equip_items in equipment_mapping.items():
-            if sorted_equipment[0]["equipment"] in equip_items:
-                primary_equipment = equip_category
-                break
-
-        # If there's more than one equipment, try to map secondary
-        if len(sorted_equipment) > 1:
-            secondary_equipment = "Other"
-            for equip_category, equip_items in equipment_mapping.items():
-                if sorted_equipment[1]["equipment"] in equip_items:
-                    secondary_equipment = equip_category
-                    break
-
-        # If there's more than two equipment items, try to map tertiary
-        if len(sorted_equipment) > 2:
-            tertiary_equipment = "Other"
-            for equip_category, equip_items in equipment_mapping.items():
-                if sorted_equipment[2]["equipment"] in equip_items:
-                    tertiary_equipment = equip_category
-                    break
-
     return {
-        "primary_equipment": primary_equipment,
-        "secondary_equipment": secondary_equipment,
-        "tertiary_equipment": tertiary_equipment
-    }
+            "primary_equipment": 'Treadmill',
+            "secondary_equipment": None,
+            "tertiary_equipment": None
+        }
 
 def extract_spirit_info(spirits):
     """
