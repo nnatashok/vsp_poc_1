@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is categorized as a rowing-based session, which generally implies a technique difficulty level between Beginner and Intermediate. Considering the description 'elevate your heart rate with Dani through 4-minute intervals,' it indicates a structured workout that requires understanding of rhythm changes and coordination with commands. However, this does not specifically denote a need for advanced technical skills, aligning with Beginner to Intermediate levels.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "With a duration of 11:28 minutes and 2 out of 3 intensity level, the workout involves moderate intensity, designed to raise the heart rate through '4-minute intervals' using a pyramid format. This suggests effort close to Moderate, and since there's mention of 'sweat,' it slightly leans towards a Challenging rating. The energetic playlist and instructor\u2019s enthusiasm support these levels.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

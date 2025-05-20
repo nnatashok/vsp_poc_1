@@ -1,0 +1,50 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.0
+    },
+    {
+      "level": "Advanced",
+      "score": 0.0
+    },
+    {
+      "level": "Expert",
+      "score": 0.0
+    }
+  ],
+  "techniqueDifficultyConfidence": 1.0,
+  "techniqueDifficultyExplanation": "The technique difficulty is classified as Beginner due to several key factors. The workout is a 'row' type exercise, which by the specific rules is limited to Beginner or Intermediate classification. The description emphasizes reminders for 'proper technique,' but the presence of an experienced instructor focused on form suggests these reminders align with basic rowing actions. Additionally, the activity is categorized under 'breathe,' implying a session focused on rhythm and endurance rather than complex movement patterns, reinforcing the Beginner label.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.2
+    },
+    {
+      "level": "Challenging",
+      "score": 0.0
+    },
+    {
+      "level": "Extreme",
+      "score": 0.0
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The effort difficulty is classified primarily as Light with some considerations for Moderate. The workout's intensity level is noted as 1 out of 3, indicating a lower-intensity session. Additionally, the duration of 16 minutes is relatively short, and the format 'steady' suggests a consistent pace without high-intensity intervals. Although there's a slight mention of rhythm, the overall data points align with a Light classification, suitable for beginners, with a slight possibility of some attendees experiencing a Moderate effort due to the steady pace.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

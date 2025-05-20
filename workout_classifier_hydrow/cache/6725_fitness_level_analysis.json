@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.2
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "Given the workout type as 'drive' and category as 'row', the technique difficulty is limited to either Beginner or Intermediate as per Hydrow-specific rules. The term 'drive' suggests an advanced focus but remains within rowing-specific guidelines, which caps the possible difficulty at Intermediate. Therefore, the technique required is primarily in maintaining proper rowing form during power strokes, aligning strongly with the Intermediate level.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.3
+    },
+    {
+      "level": "Challenging",
+      "score": 0.7
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The short duration of 11:27 is compact but implies high-intensity intervals given the power format and maximum rhythm over 30. The descriptor 'turn up the heat' and the goal to achieve a personal best indicate significant effort, aligning mostly with Challenging. However, given the compact session length, the workout can still accommodate those at a Moderate level of fitness as an intense yet brief workout.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

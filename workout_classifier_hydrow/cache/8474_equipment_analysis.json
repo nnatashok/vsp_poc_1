@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Dumbbells",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is described as a \"Whole Body Circuit,\" suggesting it involves various exercises targeting multiple muscle groups. The description explicitly mentions the use of dumbbells as part of the equipment needed, which is reinforced by the equipment metadata tagging 'dumbbells.' Additionally, the image shows a person using dumbbells, further confirming their necessity for this workout. Therefore, the confidence score for dumbbells is set at 0.9, indicating very high confidence that they are required for the workout."
+}

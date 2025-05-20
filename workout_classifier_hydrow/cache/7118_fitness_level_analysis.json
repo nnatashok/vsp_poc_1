@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout 'Mastering Low Rhythms' is a rowing session with a focus on maintaining a jog pace and working on stroke length in a controlled rhythm. As a rowing workout, the Technique Difficulty is generally capped at Beginner to Intermediate. The inclusion of terms like 'maintain jog pace' suggests a straightforward rowing session, typical of Beginner level exercises. However, the emphasis on 'lengthening out your stroke' indicates some level of technique awareness, contributing to a moderate score for Intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "With a duration of 11:15 minutes and an intensity rating of 1 out of 3, this workout is likely to have a Light effort difficulty. The workout involves intervals at a low rhythm ('max rhythm: 22') which corresponds to a relaxed pace, suitable for Light intensity. The Moderate alignment is considered due to the 'effort' connotation associated with maintaining a 'jog pace,' but overall, it remains within a Light classification due to the short duration and low intensity indication.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

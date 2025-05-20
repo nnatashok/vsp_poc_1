@@ -1,0 +1,26 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Advanced",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 1.0,
+  "techniqueDifficultyExplanation": "The technique difficulty is classified as Advanced primarily because the workout type is 'drive'. According to Hydrow-specific rules, the 'Drive' format implies an advanced level of rowing technique. The focus on maintaining high rhythms and pulling off a personal best further indicates the requirement of good coordination and body awareness, aligning with the Advanced classification. However, if judged solely by general rowing classification, it could be seen as Intermediate, but the specificity of 'drive' influences the decision heavily.",
+  "effortDifficulty": [
+    {
+      "level": "Extreme",
+      "score": 0.8
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The effort difficulty is categorized as Extreme. The workout's intensity level is rated 3 out of 3, signifying maximum exertion. Combined with a 'Drive' type and emphasis on achieving a new personal best, it suggests high energy expenditure. The duration of 16:46, while not lengthy, is misleadingly intensive given the requirement to maintain high rhythms and maximal effort. The description and instructor's background in elite competitions imply a level of exertion not suitable for less fit users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

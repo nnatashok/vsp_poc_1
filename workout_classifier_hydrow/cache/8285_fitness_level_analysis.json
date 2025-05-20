@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized as a 'Drive' session which, according to Hydrow's specific rules, implies a more technically demanding row than other rowing workouts. However, it cannot exceed the 'Intermediate' level based on the critical interdependence rule, even though it involves advanced pacing with rhythms 28 to 32. This alignment with Intermediate is primarily due to the technical demand for maintaining high-paced rowing with precision, which is slightly more complex than beginner-level rowing workouts.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    },
+    {
+      "level": "Extreme",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The effort difficulty is high due to the 'Drive' category paired with a format focused on power, which indicates intense energy expenditure. The workout maintains high stroke rates ('maximum pace' at rhythms 28-32) for over 21 minutes. The intensity indicator of 3/3 further supports this classification. While challenging is a strong fit given the physically demanding nature, the Extreme level is possible for less fit users due to the sustained high-intensity output required.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

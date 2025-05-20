@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Blocks",
+      "confidence": 0.8
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout description specifically mentions 'On The Mat' and 'Standard, on-the-mat' as the category, indicating the need for a 'Mat' with high confidence (0.9). 'Yoga blocks recommended' is explicitly stated in the description, confirming that 'Blocks' are recommended for the workout. This is supported by the high confidence score of 0.8. These details strongly suggest the necessity and recommendation of a mat and yoga blocks for this beginner-friendly flow workout."
+}

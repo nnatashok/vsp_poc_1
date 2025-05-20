@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The metadata specifies the category type 'row,' indicating that a rowing machine is necessary for this workout with very high confidence (1.0). Additionally, the image depicts a person rowing, supporting the requirement of a rowing machine. Though the description and title focus on a cool-down, the rowing machine remains central, especially since 'technique tips' are mentioned, which implies active rowing."
+}

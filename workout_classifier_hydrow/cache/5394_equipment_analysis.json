@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.85
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is titled \"Pilates for Posture\" and is categorized as \"On The Mat,\" which strongly suggests the use of a mat. The description mentions it is a pilates session, which typically involves exercises performed on a mat for comfort and support. The image provided shows a mat being used, reinforcing this classification. There is no mention of any other specific equipment in the metadata, and pilates sessions generally do not require equipment other than a mat unless specified, leading to a very high confidence level of 0.85 for the mat's requirement."
+}

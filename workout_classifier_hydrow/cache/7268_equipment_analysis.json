@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is titled 'All Over the World Row,' and its category includes 'row,' indicating rowing as a central activity. The description specifies 'outdoor reality' with a focus on 'intervals,' which often imply rowing sessions. The presence of a rowing stroke in the accompanying image further supports the need for a rowing machine. Thus, a Rowing machine is identified with very high confidence (0.9) due to the workout's emphasis on rowing intervals and its categorization under 'row.' No other equipment is implied or mentioned in the metadata."
+}

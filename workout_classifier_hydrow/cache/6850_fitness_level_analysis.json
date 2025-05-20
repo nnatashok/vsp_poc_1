@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is primarily categorized as 'row' which inherently limits the technique difficulty to Beginner or Intermediate. The description emphasizes maintaining a consistent pace and generating power from the legs, which suggests a focus on basic rowing form rather than technical complexity. The additional context of 'breathe' suggests a focus on rhythm and controlled movements, supporting a Beginner classification while hinting at some coordination elements justifying a slight overlap into Intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout intensity level is described as 1 out of 3, supporting a Light to Moderate classification for effort difficulty. The duration of 16 minutes with an interval format implies some variability in exertion, but the focus on 'breathe' and the relatively low max rhythm of 26 indicates a manageable energy expenditure for beginners. Thus, while moderate effort may be required due to intervals, overall demand aligns better with Light or low end of Moderate effort difficulty.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

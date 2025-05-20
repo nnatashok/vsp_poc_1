@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Blocks",
+      "confidence": 0.8
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is titled \"Tree Pose Align Yoga,\" and the category is \"On The Mat,standard,on-the-mat,\" suggesting that the exercise involves floor or mat work, confirming the need for a Mat with very high confidence (0.9). The image shows participants standing on mats, reinforcing its necessity. Additionally, yoga often uses Blocks to aid in balancing and alignment, essential for poses like the tree pose shown in the image. Thus, the presence of blocks is given a high confidence score (0.8), as indicated by their visibility in the workout image. No other equipment is required based on the provided metadata, emphasizing a focus on the mat and blocks for this yoga session."
+}

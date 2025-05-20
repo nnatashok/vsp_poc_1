@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is classified as 'Drive' and falls under the rowing category ('row'), indicating a primary focus on rowing activities. Rowing is notably characterized by straightforward, low-complexity movements requiring minimal coordination, aligning with Beginner to Intermediate Technique Difficulty levels. The 'Drive' type intensifies the rowing experience but does not inherently alter its fundamental movement characteristics to Advanced or Expert complexity. The use of 60-second HIIT intervals introduces a moderate element of coordination, suggesting the possibility of Intermediate complexity, particularly due to the potential for variations in stroke rate and rhythm management, justifying scores for both Beginner (0.8) and Intermediate (0.6) levels.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 1.0
+    }
+  ],
+  "effortDifficultyConfidence": 0.95,
+  "effortDifficultyExplanation": "The effort difficulty is 'Challenging', with the metadata detailing a HIIT format \u2013 known for high-energy, short-duration bursts of activity. These intervals, coupled with a workout duration of over 20 minutes, maximize physical demand. Intensity level 3 out of 3 further confirms this high effort requirement. The max rhythm of 34 strokes per minute and the potential continuous activity throughout the class suggest significant cardiovascular and muscular involvement, supporting a strong Challenging classification with a 1.0 score.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

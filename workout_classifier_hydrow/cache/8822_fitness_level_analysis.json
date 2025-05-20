@@ -1,0 +1,42 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.1
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is classified under the 'row' category, which typically would limit the Technique Difficulty to Beginner or Intermediate. However, the use of 'Drive' in the workout type suggests advanced rowing techniques. Additionally, the requirement of 'Advanced' user fitness level further confirms this alignment. Hence, while some elements may appear intermediate, the Drive categorization and Olympic instructor influence push this to Advanced technique difficulty.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.4
+    },
+    {
+      "level": "Challenging",
+      "score": 0.75
+    },
+    {
+      "level": "Extreme",
+      "score": 0.9
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is described as HIIT with a high max rhythm of 34 strokes per minute and is led by an Olympian, suggesting a very intense and physically demanding session. The workout intensity level is marked as 3 out of 3, indicating high energy expenditure and significant effort, pushing it towards the high end of Challenging and bordering on Extreme for deconditioned users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

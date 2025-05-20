@@ -1,0 +1,26 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type 'drive' suggests a more technically challenging rowing workout compared to beginner sessions, often involving techniques like power strokes or specific pacing. However, since it is explicitly designed for rowing, the technique difficulty remains capped at Intermediate per Hydrow-specific rules. The combination of rhythmic control at high rates (32 SPM) and focus on lowest split times supports the Intermediate classification.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.7
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The intensity level is rated 3 out of 3, indicating a high energy demand. The short duration (1 min 43 secs) suggests it's a high-intensity burst, typical of a power-focused effort, making it rare for beginners. The rhythm of 32 SPM is also indicative of a workout that requires sustained effort beyond moderate levels for deconditioned users. Thus, a 'Challenging' effort difficulty is appropriate, although capped by the short duration.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

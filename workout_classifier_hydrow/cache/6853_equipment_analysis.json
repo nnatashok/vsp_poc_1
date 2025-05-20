@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is a 'Beginner Whole Body Pilates' session mentioned in both the name and description, which is typically performed on a mat. The category 'On The Mat' further corroborates this requirement. While the equipment section is empty, the consistent references to 'on-the-mat' and the nature of Pilates, which often involves floor exercises, strongly imply the use of a mat. Therefore, a high confidence score of 0.9 is assigned to the mat being required."
+}

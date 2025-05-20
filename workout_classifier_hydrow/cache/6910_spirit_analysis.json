@@ -1,0 +1,18 @@
+{
+  "spirits": [
+    {
+      "name": "Soothing & Restorative",
+      "score": 0.75
+    },
+    {
+      "name": "Structured & Disciplined",
+      "score": 0.6
+    },
+    {
+      "name": "Outdoor & Adventure",
+      "score": 0.9
+    }
+  ],
+  "spiritsConfidence": 0.9,
+  "spiritsExplanation": "The workout is classified primarily under the \"Outdoor & Adventure\" spirit due to its outdoor setting on the water at the Port of LA. The image supports this environment. This spirit receives a high confidence score of 0.9. \n\nThe \"Soothing & Restorative\" spirit is also relevant, given the nature of a cool-down session and the specified \"cool down\" and \"pause drills\" in the description. The calm music genre, with songs like \"Dancing In The Moonlight,\" supports a relaxing vibe, scoring 0.75.\n\n\"Structured & Disciplined\" is applicable due to the focus on \"technique\" and \"pause drills,\" emphasizing methodical progression and precision. However, since it's a cool-down rather than a primary technical session, the score is 0.6.\n\nThe workout lacks elements of high intensity, sports-specificity, or continuous flow, excluding \"High-Energy & Intense,\" \"Sport & Agility,\" and \"Flow & Rhythm\" spirits."
+}

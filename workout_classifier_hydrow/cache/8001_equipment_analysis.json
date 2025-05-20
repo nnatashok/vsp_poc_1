@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout named 'All in One Row' falls under the category 'row,' indicating that a rowing machine is central to the session. The description includes a '30 minutes of a \"Club 26\" style row with Mike,' further confirming the use of rowing equipment. The term 'row' in both the title and description strongly implies the necessity of a rowing machine for this workout. Given the consistent emphasis on rowing throughout the metadata, a very high confidence level (1.0) is assigned to the requirement of a rowing machine."
+}

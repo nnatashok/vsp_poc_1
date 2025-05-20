@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout 'Strike Out Row' is categorized under 'row' and involves rowing exercises along the Charles River, as described in the metadata. The category includes 'sweat,standard,row,' indicating a rowing workout format. Although no equipment is explicitly listed, the context strongly suggests the use of a rowing machine, especially for indoor workouts. Thus, the confidence in identifying a 'Rowing machine' as necessary equipment is very high, at 0.9."
+}

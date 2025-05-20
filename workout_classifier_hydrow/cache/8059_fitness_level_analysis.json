@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type is classified as 'breathe', which suggests a focus on relaxation and breathing techniques rather than complex rowing drills. The category 'row' typically aligns with beginner or intermediate technique difficulty due to the straightforward nature of rowing. Given the interval format which can add some complexity, there is a minor alignment with Intermediate, but strong alignment (0.8) with Beginner given the relaxation theme indicated in 'Creating Space'.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.2
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is categorized as 'breathe' and has an intensity level of 1 out of 3, suggesting it isn't overly demanding. The 21-minute duration with a focus on 'creating space' further supports a light energy expenditure. The playlist and 'oldies' theme imply a relaxed pace. Although the interval format may introduce brief effort spikes, the primary classification remains Light (0.8), with a minor consideration for Moderate due to the interval structure.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

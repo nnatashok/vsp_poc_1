@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout belongs to the 'row' category, which indicates that a rowing machine is essential for the workout. The term 'standard,row' within the category strongly suggests the use of a rowing machine, as this type is directly associated with indoor rowing exercises. Although the description does not explicitly mention equipment, the category classification 'row' provides a very high confidence level (0.9) that a rowing machine is needed. This inference is based on the structured schema where row-type workouts correlate directly with the requirement of a rowing machine."
+}

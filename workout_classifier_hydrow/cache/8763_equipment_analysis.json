@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is categorized under 'row' and the description mentions rowing on a Hydrow, which is an indoor rowing machine brand. The category 'row' strongly implies the need for a rowing machine, as it's essential for executing the workout as described. While no other equipment is mentioned or implied, the presence of a specific rowing context makes the rowing machine central to the workout, warranting a high confidence score of 0.9 for its necessity."
+}

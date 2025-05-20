@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.8
+    },
+    {
+      "equipment": "Blocks",
+      "confidence": 0.6
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is titled \"Bodyweight Strength,\" suggesting it primarily involves exercises using one's body weight. The description emphasizes core, lower, and upper body strengthening exercises without mentioning external weights, indicating a focus on floor-based movements. The category 'On The Mat' strongly implies the use of a mat for comfort and support during these exercises, warranting a high confidence score of 0.8 for a mat. The image shows a yoga block next to the mat, which suggests its potential use during the workout for modifications or additional support, thus a block receives a moderate confidence score of 0.6. No other equipment is mentioned in the metadata, indicating that the workout likely relies on bodyweight exercises with minimal equipment."
+}

@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Advanced",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type 'drive' categorically implies advanced-level rowing movements due to the coordination and intense focus required to maintain effective form over 1-minute intervals with a high rhythm (max 32). The Drive category in Hydrow workouts is usually reserved for those who can handle complex row motions with added rhythm challenges, indicating a strong understanding of rowing techniques is necessary. Nevertheless, as it is still within the row category, we maintain a score for Intermediate as well given the platform guidelines.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    },
+    {
+      "level": "Extreme",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "Given the high-intensity interval training (HIIT) format for this rowing workout, with all intervals under one minute and a maximum rhythm of 32, combined with the instructor's emphasis on heart-pumping efforts, there is a substantial energy expenditure demand. The workout's intensity level of 3 out of 3 supports the high challenge and possible extreme effort required\u2014particularly for less fit individuals\u2014making it highly demanding. This categorizes the effort difficulty strongly as Challenging with an overlay towards Extreme due to its compact, impactful nature.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

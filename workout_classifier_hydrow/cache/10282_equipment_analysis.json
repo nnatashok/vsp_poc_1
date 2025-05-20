@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.8
+    },
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is named 'Beginner Bodyweight Circuit,' indicating a focus on exercises primarily using body weight. However, the description and image show the use of a rowing machine, mentioning a '22-24 s/m rhythm on the Hydrow,' which is a type of rowing machine. This gives it a very high confidence score of 1.0 for the inclusion of a rowing machine. Additionally, the category 'On The Mat' strongly implies the use of a mat, supported by movements such as seated alternating toe touches and step back into plank, which are commonly performed on a mat. This results in a high confidence score of 0.8 for a mat being required. No other equipment is mentioned or implied in the metadata."
+}

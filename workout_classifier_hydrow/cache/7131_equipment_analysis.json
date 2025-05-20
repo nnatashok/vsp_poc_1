@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is named 'Power Row' and described as a fast sprint with 'two 4-minute intervals,' indicating a focus on rowing. The category includes 'row,' which strongly suggests the use of a rowing machine. Additionally, the image provided shows rowing activity, which aligns with the metadata. Given the type 'drive' and the category 'Drive,standard,row,' the rowing machine is clearly integral to the workout. Therefore, the confidence level for requiring a rowing machine is very high at 0.9."
+}

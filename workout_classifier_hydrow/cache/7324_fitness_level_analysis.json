@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is labeled as 'beginner friendly pilates,' indicating that the movements are designed to be accessible to those with minimal experience. Pilates typically involves controlled, low-impact exercises that focus on stability and alignment, consistent with Beginner-level technique complexity. The use of the term 'beginner' in the description further supports this classification. However, pilates can require some body awareness and coordination, which is why there is a partial alignment with Intermediate level.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout duration is relatively short at just over 10 minutes, which typically suggests a lower energy expenditure. Pilates is generally low-impact and involves controlled movements, aligning with Light effort difficulty. The mention of 'beginner friendly' and the focus on stability, rather than high-intensity intervals or complex movements, further supports a classification of Light effort difficulty.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "Workout type 'pilates' is not one of the specialized Hydrow categories (Breathe, Sweat, Drive, Distance). And workout description mentiones it is meant for beginners."
+}

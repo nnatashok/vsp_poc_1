@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    },
+    {
+      "level": "Beginner",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type is categorized as 'drive', a Hydrow-specific category, typically indicating advanced technical demands due to the power-focused nature of the rowing technique. However, due to the guidelines, rowing can be at most Intermediate in technique difficulty. Given the Power format and the role of rhythm (max 32), the technique demands a decent grasp of rowing form, potentially classifying it as Intermediate. The emphasis on 'competing and accumulating meters' hints at maintaining form under pressure, further supporting the Intermediate classification. However, due to potential entry-level exposure to rowing and considering the broader audience's capacity, Beginner is also slightly applicable, especially in environments facilitated by an instructor such as James with his motivational style.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "With a duration of 11:28 minutes and an intensity level marked '3 out of 3', this workout is challenging. It requires significant energy expenditure consistent with a 'Power' rowing session, targeting high output over a compact timeframe. The instructor's description of emphasizing 'accumulate maximum meters', coupled with intense rhythm, suggests a high cardiovascular demand. Thus, the effort is classified primarily as Challenging, in line with the competitive racing format which inherently demands more effort.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

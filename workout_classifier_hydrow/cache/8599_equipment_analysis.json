@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.95
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout metadata clearly indicates that this is a 'row' category workout, which strongly implies the use of a rowing machine. The title 'Commit to Fit: Staying on Track Row' and the category including 'row' provide further evidence for this classification. The format 'HIIT' suggests intense intervals typically performed on such equipment. Therefore, a very high confidence score of 0.95 is assigned to the rowing machine, as it is almost certain to be the central equipment needed for this workout."
+}

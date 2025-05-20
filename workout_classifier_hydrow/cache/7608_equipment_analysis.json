@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is described as an interval drive workout categorized under 'row.' This strongly indicates the use of a rowing machine, aligning with the type of workout described. The inclusion of 'Rowing machine' as necessary equipment has very high confidence (1.0) because the metadata explicitly states a category of 'row,' which inherently requires a rowing machine. The description about gaining 'big meters' and holding a 'sprint pace' further supports this classification, aligning with typical rowing workout language. Therefore, based on the nature and context of the workout, a rowing machine is essential."
+}

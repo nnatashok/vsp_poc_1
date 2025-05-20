@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is a rowing-based session described as 'All In One Row' and includes a 45-minute main segment at a 'Sweat' intensity. Rowing workouts naturally blend cardio with a need for basic coordination. Given the metadata indicates a prolonged endurance focus, the technique description aligns with beginner and intermediate levels typical for rowing activities. The technique required is primarily at a moderate level, sufficient for less fit users who can follow simple rhythmic rowing patterns.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.65
+    },
+    {
+      "level": "Challenging",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout consists of a 61-minute session including warm-up, main intervals at a sustained 'Sweat' intensity, and a cool-down phase. This moderate duration of continuous activity, interspersed with structured high-intensity intervals, suggests moderate to challenging effort for deconditioned users. The 'Sweat' tag and an intensity rating of 2 out of 3 further indicate a moderate to challenging effort requirement, with users needing enough stamina to handle sustained efforts punctuated by rest periods.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

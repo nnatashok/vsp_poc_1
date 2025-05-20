@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.95
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout title 'Hip-Hop HIIT Row' explicitly indicates rowing, and the metadata category includes 'row', which suggests the use of a rowing machine. The description mentions testing sprinting and max effort during intervals, which aligns with rowing HIIT workouts. The image provided shows an outdoor rower on water, strengthening the association with rowing, though for the intended indoor setting, a rowing machine is appropriate. Consequently, a rowing machine is the primary equipment required with very high confidence (0.95). No other equipment is suggested by the metadata, so no additional items are included."
+}

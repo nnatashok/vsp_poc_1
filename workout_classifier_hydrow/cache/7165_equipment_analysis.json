@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.95
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is classified under the category 'row,' which strongly implies the use of a rowing machine. The title 'Staying Cool Row' and the description mention maintaining a consistent pace, which is typical for rowing exercises. Additionally, since it is an interval format workout typically performed on rowing machines indoors, the confidence level for requiring a rowing machine is very high at 0.95."
+}

@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is classified as 'Drive', which is categorized as Intermediate according to Hydrow rules. Though the movements in rowing can typically range from Beginner to Intermediate, the 'Drive' designation and the reputation of the instructor for delivering expert technical instruction suggest a slight increase towards a higher level within Intermediate. This is further supported by the advanced user fitness level requirement which indicates that users should have some proficiency in rowing techniques, making Intermediate an apt classification.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.75
+    },
+    {
+      "level": "Extreme",
+      "score": 0.25
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The 'Peppy HIIT Row' workout involves high-intensity interval training (HIIT), which is known for its increased energy expenditure. The workout intensity is rated 3 out of 3 and involves a rhythm that goes up to 32, suggesting significant physical demand. The workout lasts nearly 17 minutes with a focus on 30-second and 60-second intervals, which are typical of moderate to high-intensity efforts. Therefore, it is predominantly 'Challenging' but with some elements of 'Extreme', especially given the high rhythm and intensity rating. Thus, it warrants a stronger classification towards Challenging with some consideration for Extreme.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

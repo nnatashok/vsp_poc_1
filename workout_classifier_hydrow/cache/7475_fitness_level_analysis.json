@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.3
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is categorized as \"row\" under \"Drive\" which typically maintains a 'Beginner' or 'Intermediate' technique difficulty. High-intensity interval rowing requires coordination during power and recovery phases, suggesting an intermediate level. However, it remains simpler than complex technical skills, justifying the strong alignment with 'Intermediate'.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.4
+    },
+    {
+      "level": "Extreme",
+      "score": 0.9
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout description emphasizes \"high intensity intervals\" and a rhythm maxing at 30, in combination with a 16-minute duration, which typically indicates an extreme level of effort difficulty. The exercise is categorized under \"Drive,\" a typically advanced workout type that involves vigorous exertion, likely demanding a high energy expenditure and quick recovery with limited rest. This aligns strongly with 'Extreme'.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

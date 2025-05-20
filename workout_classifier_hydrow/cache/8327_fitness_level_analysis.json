@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.1
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout type is a row and falls under the category 'breathe', standard, row, which suggests low complexity in terms of movement execution. Given that the focus is on proper form with an intensity level of 1 out of 3, the technique difficulty remains very low, aligning with a Beginner level. The emphasis on 'proper form' might introduce some slight complexity, hence a minimal score for Intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.85
+    },
+    {
+      "level": "Moderate",
+      "score": 0.15
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout's duration is 21:24 minutes with an intensity level 1 out of 3, suggesting it's not physically demanding, aligning with the 'Light' effort difficulty. The 'steady' format implies consistent, not high energy expenditure. Mention of 'Endurance Building' infers some sustained effort, hence a slight score under Moderate.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout title '3 Truths Row' and the category including 'row' indicate that a rowing machine is necessary for this workout. Additionally, the workout type being 'sweat' suggests a high-intensity workout which is common for rowing exercises, further supporting the need for a rowing machine. The metadata repeatedly refers to rowing, including the location on the 'Charles River,' which is a known location for rowing activities. As per the analysis guidelines, the inclusion of 'row' with 'high confidence' must result in identifying a rowing machine as required equipment. Therefore, the confidence score for the rowing machine is set at 1.0, reflecting very high confidence that a rowing machine is central to this workout."
+}

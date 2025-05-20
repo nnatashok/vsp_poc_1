@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The description of the workout, 'Steadily row with Aisyah,' along with the category tags 'row' and 'standard,' clearly indicates that a rowing machine is required for this workout. The use of the term 'row' directly suggests that the machine is central to the activity. There are no other mentions or implications of additional equipment being necessary in the provided metadata. Thus, the confidence score for needing a rowing machine is very high at 1.0, aligning with the schema's instructions that category type 'row' must include a 'Rowing machine' with high confidence."
+}

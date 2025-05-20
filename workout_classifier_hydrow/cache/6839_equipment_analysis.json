@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.95
+    }
+  ],
+  "requiredEquipmentExplanation": "Given the workout metadata, the inclusion of the term 'row' in the category strongly suggests that a rowing machine is used in this workout. The workout name 'Hillsborough River Bow View' implies a scenic rowing journey, likely simulating the feel of rowing through natural landscapes, matching the 'journey' type category, which typically involves scenes to accompany rowing workouts. Despite the absence of explicit equipment mention in the equipment section, the structure of the platform and categories necessitate a rowing machine for any row type workout with high confidence. No other equipment is indicated by the metadata."
+}

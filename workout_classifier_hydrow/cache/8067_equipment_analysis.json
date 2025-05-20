@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is titled \"4-Minute Intervals Row\" and falls under the category 'row', which strongly indicates the use of a rowing machine. The description mentions intervals at rhythms and formats typically associated with rowing workouts. Furthermore, since the category is 'row', by schema guidelines, 'Rowing machine' must be included with very high confidence, which is why it is assigned a 1.0 confidence score. No additional equipment is mentioned or implied in the metadata."
+}

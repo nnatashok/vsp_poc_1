@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is classified under 'row', automatically making the Technique Difficulty either Beginner or Intermediate. Given that this is a rowing workout with a rhythm focus and moderate max rhythm of 26, it primarily requires standard rowing form which can be classified as Beginner-level technique. However, the 'Pyramid' format with varying intensity might require slightly more coordination, nudging it slightly towards Intermediate. Overall, the rowing nature ensures simplicity in technique for beginners.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.6
+    },
+    {
+      "level": "Challenging",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The 'Sweat' category and 'intensity level: 2 out of 3' suggest a physically demanding workout. The 16:23 duration with rhythm variation in Pyramid format implies a moderate level of sustained effort, falling between moderate and challenging for a less fit audience. The focus on rhythm and rowing intensity indicates moderate energy expenditure, but manageable for users with basic fitness levels, aligning closely with Moderate, but with aspects of Challenging due to high rhythm and continuous effort involved.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

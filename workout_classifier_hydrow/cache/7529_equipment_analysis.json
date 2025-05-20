@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.95
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is titled 'Steady State Row' and categorized under 'row', which strongly indicates that a rowing machine is necessary for performing the workout. The description emphasizes maintaining a consistent pace, a typical rowing session requirement. Additionally, 'row' is explicitly mentioned in the category, further confirming the need for a rowing machine. Although the equipment field is empty, the combination of title, description, and category collectively support a very high confidence score of 0.95 for the rowing machine. The image also depicts rowing, reinforcing the conclusion."
+}

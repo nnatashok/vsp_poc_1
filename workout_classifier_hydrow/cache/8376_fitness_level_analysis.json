@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "Given that the workout is a rowing-based 'sweat' format, the complexity of executing proper form aligns best with Beginner and Intermediate levels. Rowing requires coordination to maintain rhythm, especially with varying intervals at different strokes per minute (20, 26, and 28), which adds a moderate complexity suitable for Intermediate users as well. Therefore, both Beginner and Intermediate levels are applicable, with a stronger alignment to Intermediate given the rhythm changes.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.6
+    },
+    {
+      "level": "Challenging",
+      "score": 0.65
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The described intervals with varying strokes per minute (20, 26, and 28) suggest a moderate-intensity workout, reinforced by a 'sweat' category and an intensity rating of 2 out of 3. This implies increased effort, especially if rest periods are short. The 21-minute duration and fluctuating pace point to a Challenging level for less fit users, while Moderate could be feasible for more accustomed participants. Therefore, both levels are reflected here, with a slightly stronger emphasis on Challenging due to the increased stroke rates towards the end.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

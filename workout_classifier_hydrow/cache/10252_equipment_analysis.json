@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout's metadata clearly indicates that it is a 'row' category workout, which directly implies the use of a rowing machine. The title \"Summer Fun Row\" and the repeated mention of rowing-related terms, such as \"glide through\" which is often associated with rowing motions, reinforce this inference. Additionally, the style of the workout, which includes intervals with set rhythms, is typical of rowing machine workouts. Given these strong indicators, the confidence level for the rowing machine being required is very high at 0.9."
+}

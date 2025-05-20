@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is explicitly labeled as a 'row' in the category and title, indicating the use of rowing. Additionally, the description mentions rowing with music, which typically involves a rowing machine for indoor workouts. While the image shows rowing on water, a typical indoor workout setup would predominantly involve a rowing machine. Hence, there's a very high confidence that a rowing machine is required, assigned a confidence score of 0.9, given the strong implication that the workout is centered on rowing."
+}

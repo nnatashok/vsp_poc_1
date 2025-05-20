@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Blocks",
+      "confidence": 0.8
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout, 'Hip-Opening Align,' is categorized under 'On The Mat,' which strongly suggests the use of a mat for exercises focused on flexibility and yoga-specific movements. The category title directly indicates the environment (mat-based), providing very high confidence for including a mat with a score of 0.9. Additionally, the image provided shows individuals performing exercises on mats with yoga blocks visible, supporting their inclusion with a high confidence score of 0.8. The workout focuses on hip opening, a common theme in yoga, further rationalizing the use of blocks to aid in stretching and alignment postures."
+}

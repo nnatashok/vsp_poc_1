@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout type is 'breathe' and categorized under 'row', which suggests low complexity in movements. The technique difficulty for a rowing workout typically ranges from Beginner to Intermediate level. Since this is a steady-paced workout with no indication of complex moves, it aligns more closely with the Beginner level, scoring a 0.9, with a partial alignment to Intermediate due to the potential coordination required in rowing, scoring 0.4.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.85
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.7,
+  "effortDifficultyExplanation": "The workout intensity is labeled as 1 out of 3, indicating it is on the lower end of the effort scale. Additionally, the description mentions maintaining a steady pace, suggesting a focus on endurance rather than high intensity. The duration of 21:18 minutes at a maximum rhythm of 26 aligns with a Light effort level with a score of 0.85, as these factors suggest it would not be overly taxing, though some moderate aspects are present, with a score of 0.3, due to the active engagement of rowing muscles.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

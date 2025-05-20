@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.8
+    },
+    {
+      "equipment": "Blocks",
+      "confidence": 0.8
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is titled 'Bodyweight Strength' and is categorized under 'On The Mat,' strongly implying the use of a mat for floor exercises. The image confirms the presence of mats, assigning this a very high confidence score of 0.8. Blocks are visible in the image, suggesting they are used during the workout for support or modification, resulting in a high confidence score of 0.8 as well. Since the workout focuses on bodyweight exercises, no additional equipment is needed beyond what's visible."
+}

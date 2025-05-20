@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is categorized as 'breathe, standard, row,' indicating a rowing session. The description states the workout occurs on the 'Charles River,' suggesting rowing activity. Additionally, the row category requires a 'Rowing machine' based on the schema rules. The image shows a person rowing on water, further supporting this. Therefore, a 'Rowing machine' is needed with very high confidence."
+}

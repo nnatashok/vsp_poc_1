@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout type is 'breathe' and categorized under 'row', indicating the Technique Difficulty cannot exceed Intermediate. The description implies a focus on rhythm and growth mindset with no complex movements mentioned, aligning strongly with Beginner. The interval format and mention of shifting rhythms slightly suggest an Intermediate complexity, but the primary focus remains approachable, justifying a primarily Beginner classification.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.9
+    },
+    {
+      "level": "Moderate",
+      "score": 0.1
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout intensity level is rated 1 out of 3, indicating a Light effort difficulty. The short duration of 16 minutes and the use of terms like 'low rhythms' further support a Light intensity. Although it includes intervals, the emphasis on breathing suggests minimal physical exertion, aligning with a Light classification, with some consideration for Moderate due to intervals.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.72,
+  "techniqueDifficultyExplanation": "The 'Shifting Rhythms Row' is categorized as a 'row' workout. According to the platform rules for rowing workouts, technique difficulty can be at most 'Intermediate'. The metadata indicates an 'Interval' format with shifting rhythms, suggesting some level of coordination but not beyond typical rowing complexities. The focus on rhythm and dance playlist indicates a slightly higher coordination level than plain rowing, moderately aligning with 'Intermediate' but strongly with 'Beginner'.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.6
+    },
+    {
+      "level": "Challenging",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.68,
+  "effortDifficultyExplanation": "The workout's 21-minute duration with an 'intensity level' of 2 out of 3 suggests a 'Moderate' to 'Challenging' effort. The interval nature indicates periods of intensified effort, while endurance-building denotes sustained physical activity, mildly intensifying the effort level. The continuous music suggests maintaining a sustained rhythmic effort, increasing physical demand for less fit users, fitting squares between 'Moderate' and 'Challenging'.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

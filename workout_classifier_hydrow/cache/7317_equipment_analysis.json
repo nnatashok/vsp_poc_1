@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 1.0
+    },
+    {
+      "equipment": "Resistance bands",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is categorized under \"On The Mat,\" which strongly indicates the use of a mat for floor exercises, earning it a very high confidence score of 1.0. Additionally, the workout name, \"Lower Body Strength with Bands,\" and the description explicitly mention the use of a resistance band to target the lower body. This provides a solid basis for assigning a high confidence score of 0.9 for the need for resistance bands. The presence of a mat in the image further confirms the requirement for a mat in this workout."
+}

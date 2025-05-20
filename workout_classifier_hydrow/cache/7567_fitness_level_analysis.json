@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row,' which typically limits technique difficulty to Beginner or Intermediate. The description emphasizes maintaining proper form from an experienced instructor, but no mention of complex or technical movements suggests it's suitable for Beginners. The format involves steady rowing with bursts, which requires attention but not sophisticated technique.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout has a relatively short duration of 21 minutes and includes intervals, which may increase intensity slightly, but the base intensity is 1 out of 3, indicating a Light to Moderate effort level. The description of short intensity bursts during steady state rowing supports a Light energy expenditure overall, but could be moderately challenging for some beginners.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

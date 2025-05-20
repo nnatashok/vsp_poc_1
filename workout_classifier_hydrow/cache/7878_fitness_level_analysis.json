@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout, 'Joyful Intention Row', falls under the 'row' category and involves a pyramid format with a maximum rhythm of 24, which indicates a relatively straightforward and steady pace typical of basic rowing workouts. The description notes a jog pace, suggesting a lower impact and coordination demand suitable for beginners. While the pyramid format might introduce slightly varied pacing, the overall technique difficulty aligns closely with Beginner.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout duration of 21 minutes and an intensity level of 1 out of 3 suggest low energy expenditure, aligning with a Light effort difficulty rating. The pyramid format with a jog pace could slightly elevate effort, partially aligning with a Moderate level for users with very low fitness. The musical tempo and lack of high-intensity cues imply it's accessible for beginners, giving primarily a Light score with some Moderate elements.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.2
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which by Hydrow-specific rules assigns it a maximum Technique Difficulty of Intermediate. However, the format of the workout 'Interval' and the description indicating it is part of a 'Breathe' category suggest the movements are simplified for focus on rhythmic breathing and endurance rather than complexity, aligning strongly with a Beginner level. The associated rhythm (max rhythm: 26) aligns with beginner-level rhythm drills, but the presence of an experienced Olympian coach slightly elevates the possibility of intermediate complexities.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout duration of 21 minutes combined with an intensity level of 1 out of a possible 3 suggests a relatively low energy expenditure, typical of a Light effort category. Furthermore, the category 'Breathe' suggests a focus on controlled, consistent effort rather than high exertion levels, aligning well with a Light rating. However, the presence of interval training introduces some variability in effort, justifying partial alignment with Moderate exertion.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

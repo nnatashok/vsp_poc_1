@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout type is categorized under 'row,' making it clear that a rowing machine is required. The description specifically mentions 'one minute of rowing at your max effort,' directly indicating the use of a rowing machine. The category tags, including 'Drive,standard,row,' further support that rowing is central to this workout. Therefore, the confidence score for needing a rowing machine is very high at 1.0."
+}

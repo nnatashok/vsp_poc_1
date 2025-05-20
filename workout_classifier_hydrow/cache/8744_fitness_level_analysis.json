@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Advanced",
+      "score": 0.9
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "Based on the metadata, the workout type is marked as 'drive', which in Hydrow's classification typically aligns with an Advanced technique difficulty. The instructors' prestigious rowing background and the demand for quick transitions ('15 strokes at the top of every minute') further imply a substantial level of technical proficiency is necessary to maintain proper form, especially at a high cadence of 32 spm (strokes per minute). Although 'row' implies either Beginner or Intermediate in general, the 'drive' classification trumps this due to its specific demands on technique.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.75
+    },
+    {
+      "level": "Extreme",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout's HIIT format with a max rhythm of 32 spm suggests high energy demands. A 11-minute duration with intensely paced efforts ('15 strokes at the top of every minute') indicates a significant energy expenditure. The workout is rated 3 out of 3 in intensity, further supporting its classification as Challenging, with a leaning towards Extreme due to the intensity and format of HIIT. This supports a higher energy output requirement, making the session physically demanding.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

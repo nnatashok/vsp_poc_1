@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.75,
+  "techniqueDifficultyExplanation": "The 'Club 18 Row' workout is classified under 'row', meaning that its Technique Difficulty can be either Beginner or Intermediate. The workout invites participants to 'gain power each stroke' during 'low rhythm intervals', which implies a focus on form and efficiency over speed. The description and the instructor's focus on 'learning' and empowerment suggest that the technique aspect is accessible, yielding a strong alignment with Beginner and moderate alignment with Intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.8
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The 'sweat' category and an 'intensity level 2 out of 3' suggest this workout is reasonably demanding, but not extreme. Lasting 21 minutes, the session requires continuous movement, slightly above a basic cardio level, corresponding to a Moderate effort difficulty. This aligns well with an entry-to-mid level workout intensity not expected to excessively fatigue deconditioned users, even though it is moderately challenging.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

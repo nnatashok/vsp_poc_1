@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is categorized as a 'row', which implies the use of a rowing machine, particularly since the workout title 'Lane Cove River Stern View' and the description 'Explore the serene surroundings of Syndey from the water at sunrise' suggest a rowing experience. The high confidence in needing a rowing machine is due to the direct association of 'row' in the category and description, indicating that a rowing machine is central to replicating the workout. Since 'Journeys' categories often simulate outdoor experiences indoors, a rowing machine is essential and thus has a confidence score of 1.0."
+}

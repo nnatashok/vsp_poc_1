@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.1
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which based on Hydrow-specific guidelines must logically be given a Beginner or Intermediate difficulty rating only. The description and focus on controlling pace and movement at lower rhythms further align with Beginner difficulty. The workout's instruction on power and movement control, while introducing a slight complexity, does not indicate a substantial increase in technical difficulty, thus maintaining a Beginner classification.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.9
+    },
+    {
+      "level": "Moderate",
+      "score": 0.1
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout has a low intensity level (1 out of 3) and a relatively short duration (16:20 minutes), aimed at establishing rhythm and control at a lower pace, which suggests low energy expenditure. These factors indicate a Light effort classification, with some alignment with Moderate due to rhythm control work, but overall not intense enough to challenge beyond Light effort for beginners.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

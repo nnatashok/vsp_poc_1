@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout title 'Chicago River Bow View' and the category 'row' strongly indicate that a rowing machine is required. The description 'Navigate down the Chicago River on a sunny day' implies a simulated rowing experience, which would typically require a rowing machine to replicate. The use of 'row' in the category explicitly confirms the centrality of the rowing machine to this workout. Although the equipment section is empty, the emphasis on 'journey' combined with 'row' makes it clear that a rowing machine is necessary, justifying a very high confidence score of 0.9. No other equipment is implied or mentioned in the metadata."
+}

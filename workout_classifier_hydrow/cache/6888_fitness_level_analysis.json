@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.1
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is classified under the 'row' category, which generally limits technique difficulty to Beginner or Intermediate. The description indicates a foundational rowing workout (4 sets of 5-minute intervals), suitable for building endurance, suggesting simple, repetitive actions typical of rowing. The instructor's extensive experience, while notable, does not impact the basic nature of the 'row' workout. Thus, the technique is primarily Beginner with minor Intermediate characteristics due to interval pacing.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.75
+    },
+    {
+      "level": "Light",
+      "score": 0.25
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout's duration (21:27) and interval format contribute to a Moderate effort difficulty due to sustained effort required across intervals. Though the intensity level is 1/3, which suggests lower intensity, performing repeated 5-minute rowing segments is moderately demanding for deconditioned users. The 'breathe' workout type indicates a focus on maintaining a manageable pace, which aligns with a Moderate rating, allowing a slight consideration for Light effort difficulty as well.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

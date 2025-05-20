@@ -1,0 +1,50 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.4
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    },
+    {
+      "level": "Advanced",
+      "score": 0.0
+    },
+    {
+      "level": "Expert",
+      "score": 0.0
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout type indicated as 'Drive' is a major factor that aligns the technique difficulty with Intermediate due to its nature of requiring precise coordination and body awareness. However, as this is a rowing-based workout, the overall complexity for the general audience aligns between Beginner and Intermediate. The 'Drive' classification increases the possibility of some complexity, but not beyond Intermediate for users familiar with rowing movements. There is no indication of intricate or expert-level techniques that go beyond typical rowing drives.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.0
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    },
+    {
+      "level": "Challenging",
+      "score": 0.8
+    },
+    {
+      "level": "Extreme",
+      "score": 0.0
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout duration of 11 minutes with a HIIT format at max rhythm 32 suggests a Challenging effort level, especially with the intensity noted as 3 out of 3. The use of a 'Drive' workout indicates significant engagement and effort resulting in a moderate to high intensity workout. HIIT structures generally imply a higher energy expenditure suitable for those who can manage moderate to challenging workouts, but not extreme due to the relatively short duration.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

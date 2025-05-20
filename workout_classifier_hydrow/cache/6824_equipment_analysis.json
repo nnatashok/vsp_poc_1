@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The metadata clearly indicates that the workout is related to rowing, as seen in the workout name '1-Minute Sprints Row' and the category 'row'. These elements strongly suggest the use of a rowing machine. Although the image shows outdoor rowing, the context of the metadata implies an indoor setting, typical for HIIT workouts, where a rowing machine would be used for '1' on, 1' off' intervals. Therefore, the confidence level for the rowing machine is very high at 0.9."
+}

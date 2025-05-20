@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is classified under the 'row' category, which explicitly indicates the use of a rowing machine. The description mentions 'three minute intervals at a rhythm 28' and 'two minute intervals at a rhythm 30', which are typical metrics for rowing workouts. Furthermore, the image shows individuals in a rowing boat, correlating with the rowing activity associated with this workout. Therefore, the rowing machine is required with very high confidence, supported by both the metadata and the image provided."
+}

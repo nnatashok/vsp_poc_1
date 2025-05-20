@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is categorized under 'row', and the description specifically mentions maintaining a pace with leg drive, which is indicative of a rowing workout. The term 'stroke' also aligns with rowing terminology. Additionally, the image shows a rowing activity, reinforcing the context. According to the schema, a 'row' category requires the inclusion of a Rowing machine with high confidence. Therefore, a Rowing machine is identified as necessary for this workout with very high confidence (0.9)."
+}

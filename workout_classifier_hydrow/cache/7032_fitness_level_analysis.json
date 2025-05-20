@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout focuses on rowing intervals, brisk changes in pace, and maintaining a specific rhythm, which aligns with the 'Intermediate' level. Row-based workouts have a Technique Difficulty of 'Beginner' or 'Intermediate' by definition. The mention of 'climb up in rhythm' suggests a need for coordination, supporting the Intermediate classification.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The Effort Difficulty is rated as moderate to challenging due to the interval format, which inherently increases intensity. The workout includes 4-minute intervals at a max rhythm of 30, which requires sustained effort. The intensity level is marked as 2 out of 3, indicating a challenging element but more suitable for those with some experience, hence both Moderate and Challenging levels are applicable.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.95
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is identified under the category 'row', which limits the technique difficulty to either Beginner or Intermediate. Given the User Fitness Level Requirement of 'Beginner' and the lack of specific complex movements described in the metadata, we classify this with a high score as a Beginner level for technique difficulty. The rowing format 'breathe' suggests a focus on breathing and rhythm rather than complex coordination or technical precision.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Light",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout lasts 31 minutes, which suggests a moderate level of energy expenditure for deconditioned users. The metadata indicates an intensity level of 1 out of 3, which aligns with a Moderate effort requirement. The playful aspect of 'sweet or sour' and music implying a less intense environment suggests also a Light aspect, but the primary classification remains Moderate due to duration and interval components like 'climb'.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

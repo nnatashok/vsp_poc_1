@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Blocks",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is described as a 'Hip-Opening Flow,' focusing on gradual stretching of hips and lower back, which often requires a mat for comfort and support on the floor. The title 'On The Mat' and category 'on-the-mat' further emphasizes the need for a mat, justifying a confidence score of 0.9. The description explicitly mentions that yoga blocks are recommended, which directly supports their inclusion with a high confidence score of 0.9. The image also shows a person using both a mat and blocks, reinforcing the need for these items in this workout."
+}

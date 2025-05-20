@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is categorized as a 'row', which generally suggests a beginner to intermediate technique complexity due to the fundamental and repetitive nature of the rowing stroke. The title 'Divide + Climb Row' indicates focus on rhythm and steady climbing efforts rather than highly intricate maneuvers, aligning with rowing's typical Beginner to Intermediate spectrum. The metadata provides no specific indicators of advanced technical maneuvers; thus, this gives a strong but not exclusive alignment with Beginner and Intermediate levels.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.75
+    },
+    {
+      "level": "Challenging",
+      "score": 0.55
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout's 'sweat' type and 'climb' format typically imply a moderate to challenging effort. The alternating periods of climbing efforts followed by a final burst (as described) suggest intervals that demand moderate intensity energy expenditure consistently. With a max rhythm of 28 and duration of over 11 minutes with elevated intensity, it aligns with a solid Moderate effort ranking while also bordering on Challenging based on required sustained effort over time.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

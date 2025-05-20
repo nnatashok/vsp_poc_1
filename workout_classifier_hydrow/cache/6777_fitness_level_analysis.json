@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.3
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The technique difficulty for this workout is skewed towards beginner due to its classification as a 'row' workout, which limits Technique Difficulty to Beginner or Intermediate. The metadata indicates a 'breathe' workout with a steady format, suggesting simple and easy-to-follow rowing movements. The Beginner score is high because the intensity level is 1 out of 3, designed to maintain a consistent effort, aligning with basic rowing technique.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The effort difficulty is primarily Light given the workout's short duration (11 minutes) and low intensity level (1 out of 3). The goal is to maintain a steady rhythm with a max stroke rate of 22, suitable for those with low fitness levels. While it's slightly more than minimal physical demand, it's still considered beginner-friendly with some light energetic components, thus Light is strongly aligned and Moderate somewhat aligned.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

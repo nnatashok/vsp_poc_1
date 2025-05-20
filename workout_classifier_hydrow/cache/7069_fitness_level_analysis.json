@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which generally limits the technique difficulty to either Beginner or Intermediate levels according to the platform rules. The nature of rowing often involves repetitive motion, requiring attention to form but not complex movement patterns, aligning it with Beginner (0.9) to some degree. However, since this workout includes intervals at a rhythm of 26, it may require maintaining form through some intensity, adding a slight nod to Intermediate (0.5), especially considering Mike's expertise and emphasis on technique.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.8
+    },
+    {
+      "level": "Challenging",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout's interval format at a rhythm of 26 suggests a considerable energy expenditure, with a duration just over 11 minutes. The 'sweat' workout type and intensity level of 2 out of 3 indicate a physically demanding session. The description of 'elevate your heart rate' supports a Moderate (0.8) difficulty due to sustained activity, while intervals hint at a Challenging (0.4) level, though this is secondary due to duration and explicit fitness level focus.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

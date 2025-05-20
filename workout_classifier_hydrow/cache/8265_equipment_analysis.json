@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout category is explicitly listed as 'row,' which strongly implies that a rowing machine is required to perform the workout. Although there is no direct mention of equipment in the provided metadata, the context of the workout ('Vltava River Bow View' with a 'row' category) suggests a rowing simulation, thereby necessitating the use of a rowing machine. Given the standard practice of emulating rowing experiences indoors with a rowing machine, this is a clear case for assigning very high confidence (1.0) to the need for a rowing machine, in accordance with the analysis guidelines for 'row' categories."
+}

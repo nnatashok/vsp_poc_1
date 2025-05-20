@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Foam roller",
+      "confidence": 1
+    },
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout focuses on foam rolling for mobility, as explicitly stated in the title \"Foam Roller Mobility\" and the description which mentions warming up or recovering with foam rolling the lower body. This indicates a very high confidence (1.0) that a foam roller is required. The category \"On The Mat\" and the image showing participants on mats suggest that a mat is used for comfort and support during exercises, leading to a high confidence score (0.9) for the mat. No other equipment is mentioned or implied in the metadata or visual content."
+}

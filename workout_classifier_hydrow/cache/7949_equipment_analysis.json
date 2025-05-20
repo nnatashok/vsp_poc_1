@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The metadata for this workout indicates a very high confidence in the need for a Rowing machine. The primary evidence includes the category 'row,' which explicitly suggests rowing is the central activity. The image attached further supports this by depicting rowing, which aligns with the 'climb' format mentioned in the title. The workout type is 'sweat,' indicating a cardio-focused session that typically involves intense rowing intervals. Therefore, a Rowing machine is essential for performing this workout effectively."
+}

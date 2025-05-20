@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.95
+    }
+  ],
+  "requiredEquipmentExplanation": "Based on the metadata, the workout titled \"Your Comeback Cool-Down\" involves rowing along the Charles River and is classified under the 'row' category. This indicates that a rowing machine is required to perform the workout, as rowing is central to the activity being described. The description explicitly mentions rowing, and the image depicts an individual using a rowing machine, further supporting this conclusion. Given this information, the confidence score for needing a rowing machine is set at a very high level of 0.95, as it is essential and explicitly indicated for the workout."
+}

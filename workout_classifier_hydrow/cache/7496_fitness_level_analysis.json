@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type is listed as 'drive', which on Hydrow platform indicates that the movements are more complex, aligning with at least an intermediate level. Despite rowing being the key focus, which usually ranges from Beginner to Intermediate, the 'Drive' workout type signifies a higher complexity requiring better coordination and body control.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.9
+    },
+    {
+      "level": "Extreme",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The category is 'Drive', corresponding to high-intensity rowing intervals led by an Olympian. The 'high intensity intervals' and max rhythm of 28, combined with workout intensity level 3 out of 3, imply this workout is physically demanding. The 21-minute duration also supports a 'Challenging' to 'Extreme' effort level, tailored for those accustomed to exertion. However, given the target audience, 'Challenging' is the primary classification since 'Extreme' might deter less motivated users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

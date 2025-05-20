@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type is categorized as 'breathe' with 'row', which usually demands less technical skills, forwarding the classification to the Beginner or Intermediate level. The intervals and climb format suggest some coordination might be required, supporting Intermediate classification. However, since the User Fitness Level Requirement is Beginner, the workout should not exceed Intermediate complexity. Overall, with minimal technical fitness requirement with instinctual rowing movements, strongly aligns with Beginner (0.9) and fairly moderately with Intermediate (0.6).",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.85
+    },
+    {
+      "level": "Moderate",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout's 'breathe' type and low intensity level of 1 out of 3 indicates light exertion. Despite being led by a motivational Olympian, the music choice of acoustic and low-beat songs and focus on mindfulness, suggest a calm, steady pace rather than high intensity. The 21-minute duration, without reported intense intervals, supports a Light (0.85) effort difficulty classification with some potential for a Moderate (0.4) classification due to its slightly rhythmic nature during interval climbing.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

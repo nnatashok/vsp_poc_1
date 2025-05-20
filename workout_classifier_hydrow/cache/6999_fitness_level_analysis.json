@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout involves a combination of Pilates, rowing (Drive), and yoga. Given that the workout type includes 'Drive,' the technique difficulty for rowing can be classified as Beginner to Intermediate. The inclusion of Pilates and yoga adds some complexity, which may involve intermediate-level movements. However, since rowing primarily dictates classification and aligns with Hydrow's condition, technique difficulty remains at Beginner to Intermediate, indicated by terms like 'Drive' and the engagement with Pilates and yoga.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.4
+    },
+    {
+      "level": "Challenging",
+      "score": 0.6
+    },
+    {
+      "level": "Extreme",
+      "score": 0.8
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout duration is approximately 21 minutes, incorporating a Drive rowing session, Pilates, and yoga, with a '3 out of 3' intensity level indicating high effort. The rowing section (Drive) is generally physically demanding, and the combination format with HIIT elements suggests significant exertion. The variety in workout types requires consistent effort across modalities, making it quite challenging overall. While extreme intensity is noted, moderately deconditioned users may find the added Pilates and yoga elements moderately to significantly challenging, given the combo format.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

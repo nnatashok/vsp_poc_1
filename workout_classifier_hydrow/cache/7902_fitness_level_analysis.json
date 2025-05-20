@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.75
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The \"Weekly Stories Row\" workout indicates a 'row' workout type, which according to the Hydrow-specific rule, can have a technique difficulty of either Beginner or Intermediate. The description emphasizes proper form but doesn't specify complex movements or advanced coordination, aligning with these levels. The instructor's background implies a focus on correct technique, supporting a low to moderate technique difficulty.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout is 16 minutes long with an interval format, potentially increasing effort due to varying intensities. The intensity level is 2 out of 3, suggesting moderate to challenging effort for deconditioned users. The rock and metal playlist may enhance perceived exertion, making the workout feel more intense. Therefore, it aligns more strongly with Moderate effort, but also holds elements of Challenging effort.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

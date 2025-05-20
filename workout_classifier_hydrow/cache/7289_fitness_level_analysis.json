@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.6
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.7,
+  "techniqueDifficultyExplanation": "The workout is categorized as 'row' which typically indicates a range from Beginner to Intermediate in Technique Difficulty. The workout format involves a '4-minute on, 1-minute off' pattern, which suggests more about effort than technique. The presence of the term 'Sweat' aligns with workouts that are physically engaging but not highly technical, supporting a Beginner to Intermediate level classification.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.4
+    },
+    {
+      "level": "Challenging",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The '4-minute on, 1-minute off' rowing pattern, combined with a workout duration of 16 minutes, indicates a considerable, yet accessible, physical challenge. The 'intensity level: 2 out of 3' suggests a higher effort expectation. The 'Climb' format, which usually involves increased intensity, supports a classification between Moderate and Challenging. Music designed to maintain high energy levels also indicates sustained effort throughout.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

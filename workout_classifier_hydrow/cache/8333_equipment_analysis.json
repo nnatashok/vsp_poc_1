@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The metadata specifies that the workout category is 'row,' which directly implies the use of a rowing machine as necessary equipment. Given that the instructor, Mike Dostal, has an extensive background in rowing, and the workout is centered around rhythm and intensity with intervals, a rowing machine is essential to effectively participate in the workout. The explicit mention of 'row' in the workout category alongside Mike's experience further supports a high confidence score of 1.0 for the inclusion of a rowing machine."
+}

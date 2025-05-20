@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 0
+    }
+  ],
+  "techniqueDifficultyConfidence": 1.0,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row', which according to Hydrow-specific rules can have a Technique Difficulty of either Beginner or Intermediate. The description emphasizes a steady rhythm and mentions 'holding a steady 22 and 24 rhythm', which requires some focus on rhythm but does not introduce complex movement patterns. Additionally, the instructor emphasizes proper form and recognizes the simple yet effective nature of a rowing workout, thus aligning with the Beginner level.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.75
+    },
+    {
+      "level": "Moderate",
+      "score": 0.25
+    },
+    {
+      "level": "Challenging",
+      "score": 0
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout lasts 21 minutes and involves maintaining steady rhythms at a moderate intensity (22 to 24 strokes per minute). The intensity level is marked as 1 out of 3, indicating a low effort level. The 'breathe' category and references to steady rhythm and moderate rowing pace suggest this is closer to a Light exercise session, but due to the sustained activity over 21 minutes, a slight overlap into Moderate effort is considered for unfit users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

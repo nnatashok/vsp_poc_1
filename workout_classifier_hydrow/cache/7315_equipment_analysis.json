@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "Since the category includes 'row', it strongly suggests the use of a rowing machine, which aligns with the type of indoor rowing workouts. The presence of this category necessitates the inclusion of a rowing machine with very high confidence, despite no explicit mention in the metadata. The image shows a rowing scenario, reinforcing this requirement."
+}

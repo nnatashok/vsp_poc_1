@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is classified under the category 'row' in the metadata. The title 'Team Intervals Row' and description indicate that it involves rowing activities, specifically using terms like 'Hop in the boat with Nick and James' and 'power intervals and high-intensity intervals'. These point directly to rowing exercises. The image associated with the metadata also shows rowing on water which implies the workout is based around rowing concepts. In accordance with the guideline for 'row' category workouts, a 'Rowing machine' is needed with very high confidence (1.0)."
+}

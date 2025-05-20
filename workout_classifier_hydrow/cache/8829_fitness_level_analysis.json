@@ -1,0 +1,26 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Advanced",
+      "score": 0.9
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout type 'drive' is a strong indicator, as drive workouts in the Hydrow context are typically advanced due to their emphasis on power and form which requires significant coordination and understanding of rowing mechanics. The instructor's emphasis on 'proper form' and his background as a former U.S. National Triathlon Team member further suggest a focus on techniques more complex than beginner or intermediate levels. The interval format also implies a need for precise technique transitions at varying rhythms.",
+  "effortDifficulty": [
+    {
+      "level": "Extreme",
+      "score": 0.85
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The max rhythm of 32 and the 'intervals' format suggest a high-intensity workout, demanding significant physical effort. With a workout duration of over 21 minutes and an intensity level rated at 3 out of 3, the workout would require continuous significant energy expenditure. The reference to 'moving together as one' indicates sustained effort, especially highlighted by an advanced rhythmic component typical of complex and high-output rowing sessions.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

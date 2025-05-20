@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Blocks",
+      "confidence": 0.8
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout 'Relaxation Restore' is described as involving poses laying on your back, which typically requires a Mat for comfort and support. The category 'On The Mat' strongly supports this identification, leading to a very high confidence of 0.9 for the Mat. Additionally, the description explicitly recommends yoga blocks, which suggests that they may be used to provide additional support or modify poses, resulting in a high confidence of 0.8 for Blocks."
+}

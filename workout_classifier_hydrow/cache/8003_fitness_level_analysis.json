@@ -1,0 +1,38 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout type is 'flow', specifically a yoga flow, implying a range of movements from simple to slightly complex. The description suggests it is suitable for all levels, indicating both beginner-friendly poses and slightly more challenging intermediate sequences. The lack of specific equipment and short duration align with low complexity. Thus, there is a very strong alignment with Beginner and a moderate alignment with Intermediate technique difficulty.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.9
+    },
+    {
+      "level": "Moderate",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.8,
+  "effortDifficultyExplanation": "The workout is a short, 15-minute yoga session described to 'build heat', which suggests a light to moderate effort. The duration and the chill music support a light intensity, suitable for beginners, although some poses may require moderate effort especially for those less fit, justifying the scores. The absence of intense cardio or high-intensity cues supports this classification.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    },
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "Workout type 'flow' is not one of the specialized Hydrow categories (Breathe, Sweat, Drive, Distance). And workout description mentiones it is meant for beginners."
+}

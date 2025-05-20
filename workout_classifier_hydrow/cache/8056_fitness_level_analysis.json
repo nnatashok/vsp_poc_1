@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout is rowing-based, classified under 'row', which aligns with Hydrow's rules that Technique Difficulty can be either Beginner or Intermediate. The \"Introducing Buffy Row\" title indicates an introductory nature, which suggests a simplicity suitable for Beginners. The description emphasizes a practical and relatable approach, supporting a score towards Beginner. However, the involvement of a high-energy workout as led by an Olympian adds a slight Intermediate aspect, leading to scores of 0.7 for Beginner and 0.5 for Intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.6
+    },
+    {
+      "level": "Challenging",
+      "score": 0.3
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout duration of 21:20 minutes, paired with an interval format and an intensity level of 2 out of 3, points to a Moderate effort difficulty. The interval format suggests bursts of higher intensity, aligning with the description of Buffy's high-energy, efficient workouts, thus adding a Challenging aspect. The mix of relaxed and high-energy content indicates challenging features for unfit users, scoring 0.6 for Moderate and 0.3 for Challenging.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

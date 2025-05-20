@@ -1,0 +1,26 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout category is labeled as 'drive', which is specified as a Hydrow-specific rule indicating an Advanced technique difficulty. However, since the workout type also includes 'row', the technique should be classified as Beginner or Intermediate, per classification guidelines. Given the interval format and the hosted technique by an expert instructor, it leans slightly towards Intermediate with a score of 0.8.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.7
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout duration exceeds 30 minutes and utilizes interval training, which inherently includes periods of high intensity, indicated by the maximum rhythm of 32 and intensity level marked as 3 out of 3. These elements contribute to a demanding physical effort, justifying a 'Challenging' classification with a score of 0.7. Although the effort is challenging, it remains accessible to users with some adaptation to physical exercise.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

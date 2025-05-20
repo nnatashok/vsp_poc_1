@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.95
+    }
+  ],
+  "requiredEquipmentExplanation": "The metadata indicates a rowing workout through several important cues. The workout name 'Technique Tips Cool-Down' and the description both mention rowing technique tips, suggesting the workout centers around rowing. Furthermore, the category explicitly includes 'row', reinforcing the need for a rowing machine. Additionally, the provided image depicts a person using a rowing machine, strongly supporting this classification. Based on these factors, the confidence score for requiring a rowing machine is very high at 0.95."
+}

@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The metadata indicates that this workout is categorized under 'row', suggesting a focus on rowing. The workout name \"Low Rhythm Pyramid Row\" explicitly references rowing ('Row'), strongly indicating that a rowing machine is necessary for participating in this workout. Additionally, the description mentions exploring power at lower rhythms in a pyramid-style workout, which is typical of rowing exercises. Given the categorical indication of 'row' and the title's clear mention of rowing, the confidence score is set at 1.0, indicating very high confidence that a rowing machine is required."
+}

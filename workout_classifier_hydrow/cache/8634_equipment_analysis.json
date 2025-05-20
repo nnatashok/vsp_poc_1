@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout video's metadata classifies the workout type as 'row', which indicates a rowing activity. Additionally, the category explicitly includes 'row', reinforcing the need for a rowing machine. Given the specific mention of this category and the rowing-centric theme suggested by the 'Explore the shores of Newport Beach' description, it is clear that a rowing machine is essential to perform this workout effectively. Therefore, a high confidence score of 0.9 is assigned to the rowing machine as the necessary equipment for this workout. Other equipment items are not mentioned or implied in the metadata, further supporting the singular focus on rowing."
+}

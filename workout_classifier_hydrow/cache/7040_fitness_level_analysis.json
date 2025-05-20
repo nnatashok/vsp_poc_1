@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.9
+    },
+    {
+      "level": "Advanced",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.8,
+  "techniqueDifficultyExplanation": "The workout 'Power HIIT Row' is classified under the 'Drive' category, which includes technically demanding rowing exercises. However, since it is a rowing workout, Technique Difficulty can only reach as high as Intermediate. The high-intensity intervals and sprints suggest a technique complexity just at the border of Intermediate and Advanced. I'm assigning Intermediate with a score of 0.9 and Advanced at 0.6 based on these considerations.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.7
+    },
+    {
+      "level": "Extreme",
+      "score": 0.9
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The duration of 21:40 minutes with high-intensity intervals and a max rhythm of 32 suggests a very demanding workout. The '3 out of 3' intensity level and final 15-second sprints are indicators of high energy expenditure, frequent bursts of effort, and minimal rest. This aligns more strongly with Extreme difficulty, deserving a score of 0.9, but Challenging is also applicable with a score of 0.7 given the intense nature may not reach maximal exertion for all users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

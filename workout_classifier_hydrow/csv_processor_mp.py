@@ -358,7 +358,7 @@ if __name__ == "__main__":
                         help='Path to output CSV file for analysis results')
     parser.add_argument('--cache', type=str, default=cache_dir, #! 
                         help='Path to save cache, and read from cache')
-    parser.add_argument('--max', type=int, default=1000,#!
+    parser.add_argument('--max', type=int, default=None,#!
                         help='Maximum number of workouts to process')
     parser.add_argument('--no-category', action='store_false', dest='category',
                         help='Disable workout category analysis')
@@ -372,12 +372,12 @@ if __name__ == "__main__":
                         help='Disable required equipment analysis')
     parser.add_argument('--include-image', action='store_true', dest='image',
                         help='To include poster image as model input')
-    parser.add_argument('--processes', type=int, default=None,
+    parser.add_argument('--processes', type=int, default=4,
                         help='Number of parallel processes to use')
     
     
     # Set default values for boolean arguments
-    parser.set_defaults(category=True, fitness_level=True, vibe=True, spirit=True, equipment=True, image=False)
+    parser.set_defaults(category=True, fitness_level=True, vibe=True, spirit=False, equipment=False, image=False)
     
     # Parse arguments
     args = parser.parse_args()

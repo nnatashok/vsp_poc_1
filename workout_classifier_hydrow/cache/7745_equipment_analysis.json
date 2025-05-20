@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is categorized under 'row,' which strongly indicates the use of a rowing machine, as confirmed by the image showing a person rowing on water. Although the workout description and metadata do not explicitly mention equipment, the high-intensity, power-focused format typically involves rowing machines indoors for such sessions. Hence, assigning a very high confidence (0.9) to a rowing machine being required."
+}

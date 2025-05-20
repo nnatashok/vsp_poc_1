@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.5
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row' and 'Drive', which according to Hydrow-specific rules, limits the technique difficulty to Beginner or Intermediate levels. The provided metadata does not specify complex movements, indicating a strong alignment with the Beginner level (score: 0.7), although the maximum rhythm of 32 suggests moderate complexity, hence a slight consideration for Intermediate (score: 0.5).",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 1.0
+    }
+  ],
+  "effortDifficultyConfidence": 0.9,
+  "effortDifficultyExplanation": "The workout is labeled with an intensity level of 3 out of 3, indicating high physical demand. The Drive format typically involves high energy expenditure due to its intensity demand. The short duration of 11:23 may reduce overall exhaustion, but the presence of a challenging rhythm like 32 aligns with high effort difficulty. Thus, the score for Challenging effort difficulty is 1.0.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

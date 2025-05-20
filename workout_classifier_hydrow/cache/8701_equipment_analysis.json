@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is explicitly categorized as a 'row' in the metadata, which strongly indicates the use of a rowing machine. The mention of 'climb in rhythm and effort' aligns with typical rowing exercise instructions, reinforcing this requirement. The high confidence (0.9) is due to the workout name, 'Gentle Climb Row,' and descriptions mentioning 'cruising down the Charles River,' suggestive of a rowing activity."
+}

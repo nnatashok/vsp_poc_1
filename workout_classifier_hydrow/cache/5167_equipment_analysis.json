@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout title 'The New Normal Row' and category 'row' explicitly indicate that this workout is centered around rowing. The description mentioning to 'Climb in rhythm and intensity with Aquil' further supports this, as climbing in intensity is a typical description for rowing exercises. Additionally, even though there's no explicit mention of equipment in the metadata, the image provided confirms the presence of rowing equipment. Therefore, a high confidence score of 1.0 is assigned to the 'Rowing machine.' No other equipment is suggested or needed based on the available information."
+}

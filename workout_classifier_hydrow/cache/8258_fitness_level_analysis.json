@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.2
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type is 'row', and since it is a Drive session, it generally necessitates stronger coordination and form adherence to handle sprints effectively, thus leaning towards an Intermediate technique difficulty. Although a rowing workout could be beginner-friendly, the inclusion of sprints (90\", 60\", and 30\") increases the coordination and technique required, especially with Nick's focus on proper form, which aligns with an Intermediate level at 0.7.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout is a HIIT row format with a duration of over 30 minutes involving sprint intervals (90\", 60\", 30\") and a maximum rhythm of 30+. The workout is marked with an intensity level of 3 out of 3, suggesting it requires significant stamina and exertion, making it Challenging for most, particularly those less conditioned. This assessment aligns with a Challenging intensity due to the high-energy sprints and consistency needed throughout the 31-minute session.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

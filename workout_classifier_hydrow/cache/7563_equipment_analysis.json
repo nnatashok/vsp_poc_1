@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.95
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is explicitly categorized as 'row' and titled 'Power Row,' indicating the central use of a rowing machine. The description mentions building energy and power during intervals, a common rowing machine workout format. Additionally, although a real rowing activity on the Charles River is referenced, the platform's focus suggests indoor rowing equipment. Therefore, the confidence in requiring a rowing machine is very high."
+}

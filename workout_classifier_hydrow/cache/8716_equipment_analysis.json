@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.95
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout 'Finding Center Row' explicitly mentions 'Hydrow,' which is a well-known rowing machine brand, indicating the use of a rowing machine. Additionally, the category 'row' strongly suggests that rowing equipment is central to this workout. The format 'Interval' indicates that the session involves varied rowing rhythms, further confirming the necessity of a rowing machine. The image depicts outdoor rowing, but for the indoor session described, a rowing machine is implied. Therefore, the confidence level for requiring a rowing machine is very high, at 0.95."
+}

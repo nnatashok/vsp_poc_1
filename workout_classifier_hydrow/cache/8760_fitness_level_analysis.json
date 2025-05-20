@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized as 'row', limiting technique difficulty classification to Beginner or Intermediate. The description indicates a focus on 'building confidence' through 'lower rhythms' implying simplicity in movement. While James's experience might contribute minor complexity, the technique primarily aligns with Beginner due to straightforward rowing focus, with a slight possibility of Intermediate due to the structured interval format.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.8
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The video's intensity level is 1 out of 3, indicating low overall exertion. The description suggests a calm pace with 'lower rhythms,' supporting a 'Light' effort classification. The interval format may introduce brief increases in intensity, suggesting moderate effort potential, but the general effort remains low.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

@@ -1,0 +1,17 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Dumbbells",
+      "confidence": 1.0
+    },
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    },
+    {
+      "equipment": "Mat",
+      "confidence": 0.8
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is described as 'Total body work with dumbbells off Hydrow and recovery efforts on Hydrow.' This directly indicates the use of both dumbbells and a rowing machine (Hydrow being a specific brand of rowing machine). Therefore, dumbbells and a rowing machine are needed with very high confidence (1.0 each). The category 'On The Mat' suggests the use of a mat, as floor exercises are often performed on a mat; hence, a mat is necessary with high confidence (0.8). The mention of circuit training implies the use of different equipment strategically throughout the workout."
+}

@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout is categorized under 'row,' which restricts the technique difficulty to Beginner or Intermediate. The rhythm shift range from 18 to 26 spm (strokes per minute) suggests that while the workout involves some variation in pacing, it does not necessarily require complex movements. The description emphasizes building cardio rather than advanced technique. Additionally, the fitness level requirement explicitly states 'Beginner,' reinforcing a strong alignment with Beginner and moderate alignment with Intermediate due to pacing complexity.",
+  "effortDifficulty": [
+    {
+      "level": "Light",
+      "score": 0.7
+    },
+    {
+      "level": "Moderate",
+      "score": 0.5
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout lasts 11 minutes, which is relatively short, indicating a potential Light to Moderate effort level. The format is 'Interval,' suggesting periods of increased intensity followed by rest, which could elevate the effort level somewhat. However, the workout intensity level is rated at 1 out of 3, indicating a generally low-intensity session. These elements justify classifying the effort difficulty as mostly Light but with some aspects of Moderate due to interval pacing.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Beginner",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Breathe', which is explicitly defined as a Beginner workout based on platform rules. No further inference needed."
+}

@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.9
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.4
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.85,
+  "techniqueDifficultyExplanation": "The workout is classified under the 'row' category, which restricts the technique difficulty to either Beginner or Intermediate levels. The core activity, rowing, involves repetitive, low-complexity movements that primarily require maintaining a consistent stroke form. Given the workout intensity level of 2 out of 3 and a focus on varying rhythms, there is an element of coordination involved, slightly edging towards the Intermediate level. However, overall, the movement complexity remains low, justifying a high score for Beginner.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.7
+    },
+    {
+      "level": "Challenging",
+      "score": 0.4
+    }
+  ],
+  "effortDifficultyConfidence": 0.75,
+  "effortDifficultyExplanation": "The workout has a duration of 11:19 and is labeled within the 'sweat' category, indicating a focus on cardio and endurance. With an intensity level marked as 2 out of 3, it is moderately demanding, particularly due to the emphasis on power and rhythm variation. These factors increase the energy expenditure beyond a light workout, suggesting a moderate effort difficulty, with challenging aspects for less fit users.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

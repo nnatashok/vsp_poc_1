@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is categorized under 'row' which strongly indicates the use of a rowing machine, as specified by standard classification rules for such workouts. The title 'High Energy Climb Row' and the description of 'sprinting efforts' further support this, as these are typically associated with rowing exercises. Additionally, the image displayed shows an activity related to rowing, enhancing the certainty of this being a rowing machine workout. Given these factors, the confidence level for requiring a rowing machine is very high at 1.0."
+}

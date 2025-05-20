@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Resistance bands",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Mat",
+      "confidence": 0.8
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout explicitly mentions the use of a 'long resistance band', giving a very high confidence (0.9) that resistance bands are required. Additionally, the category is 'On The Mat, standard, on-the-mat', suggesting exercises are performed on a mat, which justifies a high confidence (0.8) that a mat is needed. The image also shows a mat and a person using resistance bands, supporting the analysis. The absence of other equipment details in the metadata confirms these are the only necessary items."
+}

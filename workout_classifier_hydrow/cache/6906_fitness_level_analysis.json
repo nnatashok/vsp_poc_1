@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.8
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.6
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout 'Climbing Intervals Row' is categorized as a 'row' type, which typically limits the technique difficulty to Beginner or Intermediate. The climbing rhythm and interval format suggest a need for some coordination, but not to a complex level. Thus, the technique difficulty aligns well with Beginner at a score of 0.8 and Intermediate at 0.6 due to the rhythmic focus. The alignment with intermediate is justified by the interval nature, requiring some rhythm adaptation but still fitting within the Hydrow constraint of Beginner or Intermediate for rowing workouts.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.8
+    },
+    {
+      "level": "Challenging",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout involves 4' and 3' interval pieces, which indicate a moderate to challenging effort level, especially when combined with a duration of over 21 minutes and a climbing rhythm peaking at 30 strokes per minute. The 'sweat' category suggests a moderate intensity focus, and the description of challenging oneself implies a considerable energy demand. The intensity level marked as 2 out of 3 further suggests that while this workout is relatively intense, it falls short of extreme difficulty, thus aligning moderately with challenging.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

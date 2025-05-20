@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout metadata specifies the category as 'row', and the title 'Transitions Down Row' supports this, indicating a focus on rowing transitions. The description emphasizes rhythm and power transitions, characteristic of rowing exercises. Additionally, the image depicts rowing activity. Therefore, a Rowing machine is required with very high confidence since the workout is designed around rowing principles."
+}

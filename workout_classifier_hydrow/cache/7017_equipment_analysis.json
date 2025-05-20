@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is classified under the category 'row', which strongly implies the use of a rowing machine. The term 'endurance intervals' in the description suggests a focus on sustained rowing activity, typically requiring a rowing machine for effective execution indoors. Although the image shows rowing outside, for a standard 'row' workout, a rowing machine is necessary, resulting in a high confidence score of 0.9 for its requirement."
+}

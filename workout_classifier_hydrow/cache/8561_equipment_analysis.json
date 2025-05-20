@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Rowing machine",
+      "confidence": 0.9
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout name 'Whole Body Repeats Circuit' and descriptors like 'Full body focus off Hydrow' suggest a combination of on-the-mat exercises and rowing intervals. The phrase '1 and 2-minute intervals on Hydrow' indicates the use of a rowing machine, earning it a very high confidence score of 0.9. The 'On The Mat' category and visible mat in the image strongly imply that a mat is used for exercises performed on the ground, such as stretching or core movements, which also gives a high confidence score of 0.9 for the mat."
+}

@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is categorized as 'row', indicating rowing is central to the activity. The title 'Technique Focused Row' and the description referencing rowing along Lake Tahoe further emphasize a rowing-centric workout. Although the image suggests actual outdoor rowing, the context implies an indoor setup, which would require a rowing machine. Therefore, the confidence in needing a rowing machine is very high, at 1.0."
+}

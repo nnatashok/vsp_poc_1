@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Advanced",
+      "score": 0.85
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.92,
+  "techniqueDifficultyExplanation": "The workout's classification under 'drive' implies that it pertains to skill-intensive activities. The specific mention of 'sets of 10-stroke builders' suggests a focus on nuanced rowing techniques requiring advanced coordination and control. The inclusion of 'max pace' indicates an expectation of precise execution under high-intensity conditions, aligning well with advanced techniques. The user requirement level of 'advanced' further supports this classification, adhering to the interdependence rule between fitness level and technique difficulty.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.75
+    },
+    {
+      "level": "Extreme",
+      "score": 0.68
+    }
+  ],
+  "effortDifficultyConfidence": 0.87,
+  "effortDifficultyExplanation": "The workout duration of over 11 minutes with an intensity level rated as 3 out of 3 suggests a high energy expenditure. The format being 'interval', specifically with 'max pace' works, implies repeated exertion levels potentially pushing effort towards 'Extreme'. However, given the 11-minute duration and non-continuous exertion, it suits 'Challenging' for deconditioned users. The drive type increases intensity, confirming the high effort required, thus justifying alignment with 'Challenging' to 'Extreme'.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}

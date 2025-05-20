@@ -1,0 +1,34 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Beginner",
+      "score": 0.7
+    },
+    {
+      "level": "Intermediate",
+      "score": 0.8
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout type is 'row', restricting technique difficulty to Beginner or Intermediate. The instruction of 'climb your way up' with varying rhythms indicates a degree of complexity, suggesting intermediate difficulty. However, rowing movement remains generally straightforward, supporting a Beginner score as well. Given the Max rhythm of 28, which is moderately high, it requires some coordination, aligning more strongly with Intermediate.",
+  "effortDifficulty": [
+    {
+      "level": "Moderate",
+      "score": 0.6
+    },
+    {
+      "level": "Challenging",
+      "score": 0.7
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout's duration of 11 minutes is relatively short, suggesting moderate difficulty. However, it includes high tempo music and a 'climb' format, typically more strenuous, leading to a Challenging classification. The intensity level of 2 out of 3 further supports a higher energy requirement, providing a strong case for challenging difficulty for less fit users, while maintaining a moderate rating for moderately fit individuals.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Intermediate",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Sweat', which is explicitly defined as a Intermediate workout based on platform rules. No further inference needed."
+}

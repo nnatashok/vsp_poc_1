@@ -1,0 +1,9 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout's metadata and title clearly indicate it is a rowing workout. The title 'Legends of Prague Row' directly mentions rowing ('Row'), and the category includes 'row' as well, which necessitates the use of a 'Rowing machine'. Additionally, the description suggests rowing is central to the workout as users will 'row along with Dani and others'. Given these indications, the confidence score for 'Rowing machine' is very high (1.0), as it is explicitly required and central to performing the workout effectively. No other equipment is mentioned or implied throughout the metadata."
+}

@@ -1,0 +1,13 @@
+{
+  "requiredEquipment": [
+    {
+      "equipment": "Mat",
+      "confidence": 0.9
+    },
+    {
+      "equipment": "Rowing machine",
+      "confidence": 1.0
+    }
+  ],
+  "requiredEquipmentExplanation": "The workout is categorized as 'On The Mat,' which strongly suggests the use of a mat, as seen in the image where the person is performing an exercise on a mat. This implies a very high confidence score of 0.9 for the 'Mat.' Additionally, there is an image of the person using a rowing machine. Given this visual evidence, the inclusion of a 'Rowing machine' is certain, earning it a confidence score of 1.0. The description identifies it as a bodyweight circuit workout, which may primarily use a mat. Still, the image confirms the presence of a rowing machine, making these two pieces of equipment necessary for the workout."
+}

@@ -1,0 +1,30 @@
+{
+  "techniqueDifficulty": [
+    {
+      "level": "Intermediate",
+      "score": 0.7
+    }
+  ],
+  "techniqueDifficultyConfidence": 0.9,
+  "techniqueDifficultyExplanation": "The workout involves high-intensity intervals on a rowing machine with a rhythm of 34+. The Technique Difficulty for rowing-based workouts is typically classified as Beginner or Intermediate. Given that this is a 'Drive' workout type and involves high rhythm, it aligns more closely with Intermediate due to the coordination required to maintain high rhythm pacing consistently. Also, the 'Drive' category typically indicates a more demanding rowing technique.",
+  "effortDifficulty": [
+    {
+      "level": "Challenging",
+      "score": 0.8
+    },
+    {
+      "level": "Extreme",
+      "score": 0.6
+    }
+  ],
+  "effortDifficultyConfidence": 0.85,
+  "effortDifficultyExplanation": "The workout duration is over 21 minutes with high-intensity intervals, designed to hit high rhythms, indicating significant energy expenditure. Being marked as 'intensity level 3 out of 3' suggests a very demanding workout. However, considering the intended audience and rowing specificity, this is classified as 'Challenging', with a possibility of being 'Extreme' due to the sustained high intensity and minimal implied rest.",
+  "requiredFitnessLevel": [
+    {
+      "level": "Advanced",
+      "score": 1.0
+    }
+  ],
+  "requiredFitnessLevelConfidence": 1.0,
+  "requiredFitnessLevelExplanation": "The workoutType is 'Drive', which is explicitly defined as a Advanced workout based on platform rules. No further inference needed."
+}
